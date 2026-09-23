@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TraceLite-AI/Awesome-Agentic-Environments/docs/environment-card.schema.json",
+  "title": "Environment Card v0.1",
+  "type": "object",
+  "required": ["object", "version", "date", "filled_by", "sources", "coordinates", "pin_list"],
+  "properties": {
+    "object": {"type": "string"},
+    "version": {"type": "string"},
+    "date": {"type": "string", "format": "date"},
+    "filled_by": {"type": "string"},
+    "author_confirmed": {"type": "boolean", "default": false},
+    "sources": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "coordinates": {
+      "type": "object",
+      "required": ["arch","accel","toolkit","compute-cap","gpu-count","os","fs","isolation","perm","mount","stack-version","entry-name","build-tools","toolchain","shell","browser-engine","channel","tty","net","locale","tz","clock"],
+      "additionalProperties": false,
+      "properties": {
+        "arch": {"$ref": "#/$defs/entry"}, "accel": {"$ref": "#/$defs/entry"}, "toolkit": {"$ref": "#/$defs/entry"},
+        "compute-cap": {"$ref": "#/$defs/entry"}, "gpu-count": {"$ref": "#/$defs/entry"},
+        "os": {"$ref": "#/$defs/entry"}, "fs": {"$ref": "#/$defs/entry"}, "isolation": {"$ref": "#/$defs/entry"},
+        "perm": {"$ref": "#/$defs/entry"}, "mount": {"$ref": "#/$defs/entry"},
+        "stack-version": {"$ref": "#/$defs/entry"}, "entry-name": {"$ref": "#/$defs/entry"}, "build-tools": {"$ref": "#/$defs/entry"},
+        "toolchain": {"$ref": "#/$defs/entry"}, "shell": {"$ref": "#/$defs/entry"}, "browser-engine": {"$ref": "#/$defs/entry"},
+        "channel": {"$ref": "#/$defs/entry"}, "tty": {"$ref": "#/$defs/entry"},
+        "net": {"$ref": "#/$defs/entry"}, "locale": {"$ref": "#/$defs/entry"}, "tz": {"$ref": "#/$defs/entry"}, "clock": {"$ref": "#/$defs/entry"}
+      }
+    },
+    "pin_list": {
+      "type": "object",
+      "required": ["image", "image_pin_policy", "package_pin_policy", "harness_version", "model_version_policy"],
+      "properties": {
+        "image": {"$ref": "#/$defs/entry"},
+        "image_pin_policy": {"type": "string", "enum": ["digest", "tag", "none", "unstated"]},
+        "package_pin_policy": {"$ref": "#/$defs/entry"},
+        "harness_version": {"$ref": "#/$defs/entry"},
+        "model_version_policy": {"$ref": "#/$defs/entry"},
+        "snapshot_ids": {"$ref": "#/$defs/entry"},
+        "exported_settings": {"$ref": "#/$defs/entry"}
+      }
+    },
+    "varied_factors": {"type": "array", "items": {"type": "string"}},
+    "acknowledged_sensitivity": {"type": "array", "items": {"type": "string"}, "description": "verbatim quotes"},
+    "repeat_run_policy": {"$ref": "#/$defs/entry"}
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": ["value", "source"],
+      "properties": {
+        "value": {"type": "string", "description": "a named value from environment-axes.md, or 'unstated', or 'n/a'"},
+        "source": {"type": "string", "description": "'paper §X' or 'code: path' or 'unstated'"},
+        "evidence": {"type": "string", "description": "verbatim quote or file path"}
+      }
+    }
+  }
+}

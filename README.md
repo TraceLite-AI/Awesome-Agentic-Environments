@@ -13,6 +13,7 @@ Every entry below was checked against the original paper or official page. Numbe
 3. [Sandbox and RL training infrastructure](#3-sandbox-and-rl-training-infrastructure)
 4. [Environment vendors, hubs and industry reports](#4-environment-vendors-hubs-and-industry-reports)
 5. [Environment in classic RL and robotics](#5-environment-in-classic-rl-and-robotics)
+5b. [Environment in robotics and world models](#5b-environment-in-robotics-and-world-models)
 6. [Environment in ML robustness and causality](#6-environment-in-ml-robustness-and-causality)
 7. [Configuration spaces and combinatorial testing](#7-configuration-spaces-and-combinatorial-testing)
 8. [Environment-dependent bugs, flakiness and reproducibility](#8-environment-dependent-bugs-flakiness-and-reproducibility)
@@ -92,6 +93,23 @@ What knobs each platform exposes. None of them defines which knobs change the co
 - **Domain Randomization** (Tobin et al., IROS 2017) — randomizes textures, lighting, camera pose, distractors so that "the real world may appear to the model as just another variation"; per-factor ablation (no distractors: error 1.8 → 7.2 cm). [paper](https://arxiv.org/abs/1703.06907)
 - **Dynamics Randomization** (Peng et al., ICRA 2018) — 95 randomized physical parameters, sampled per episode. [paper](https://arxiv.org/abs/1710.06537)
 
+## 5b. Environment in robotics and world models
+
+Robotics has split "environment" two ways for a decade without naming the split: perception-side factors the correct action must be *invariant* to, and dynamics-side factors that *change* the correct action and must be identified.
+
+- **Domain Randomization** (Tobin et al., IROS 2017) — see §5; perception side. [paper](https://arxiv.org/abs/1703.06907)
+- **CAD2RL** (RSS 2017) — appearance randomized, geometry decides the action. [paper](https://arxiv.org/abs/1611.04201)
+- **RCAN: Sim-to-Real via Sim-to-Sim** (CVPR 2019) — maps randomized images back to a canonical rendering, literally removing the nuisance factor. [paper](https://arxiv.org/abs/1812.07252)
+- **Dynamics Randomization** (Peng et al., ICRA 2018) — link mass, joint damping, friction, controller gains, action timestep; explicit vs implicit (LSTM) system identification. [paper](https://arxiv.org/abs/1710.06537)
+- **Learning Dexterous In-Hand Manipulation** (OpenAI, 2018) — physics and visual randomization separately; LSTM state predicts block size after 5 s in 80% of cases. [paper](https://arxiv.org/abs/1808.00177)
+- **RMA: Rapid Motor Adaptation** (RSS 2021) — 17-dim environment vector; adaptation module regresses it from 50 steps of history; success collapses without it. [paper](https://arxiv.org/abs/2107.04034)
+- **UP-OSI** (RSS 2017) — universal policy conditioned on identified dynamics; reports performance-vs-parameter response curves. [paper](https://arxiv.org/abs/1702.02453)
+- **Sim-to-Real Transfer in Deep RL for Robotics: a Survey** (SSCI 2020) — "visual randomization and dynamics randomization". [paper](https://arxiv.org/abs/2009.13303)
+- **Robot Learning From Randomized Simulations: A Review** (Frontiers 2022) — "some domain parameters have no influence … while others are pivotal". [paper](https://www.frontiersin.org/articles/10.3389/frobt.2022.799893/full)
+- **THE COLOSSEUM** (RSS 2024) — 14 perturbation factors, per-factor success reported; sim-real correlation per perturbation. [paper](https://arxiv.org/abs/2402.08191)
+- **Factor World** (2023) — 11 factors, per-factor generalization gap. [paper](https://arxiv.org/abs/2307.03659)
+- **World Models** (Ha & Schmidhuber 2018), **DreamerV3** (Nature 2025), **Genie** (ICML 2024), **Genie 3** (DeepMind 2025), **UniSim** (ICLR 2024) — the environment as a learned generator; evaluated on fidelity and transfer, exposing no named factor axes. [1803.10122](https://arxiv.org/abs/1803.10122) · [2301.04104](https://arxiv.org/abs/2301.04104) · [2402.15391](https://arxiv.org/abs/2402.15391) · [blog](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/) · [2310.06114](https://arxiv.org/abs/2310.06114)
+
 ## 6. Environment in ML robustness and causality
 
 The admission rule here runs the *opposite* way: a factor is admitted because the correct answer must **not** depend on it.
@@ -143,10 +161,12 @@ The admission rule here runs the *opposite* way: a factor is admitted because th
 
 ## 10. Environment coordinate space (proposal)
 
-Our own attempt at the missing definition: an environment is everything outside the policy under test that can change the correct solution. It is projected onto a finite set of axes, each admitted by a four-step test (the correct solution in cell A fails when moved unchanged to cell B, and B's correct solution is *structurally* different, not merely cheaper). The space is a Cartesian product of 22 factors in five groups (hardware, system, runtime stack, policy-visible surface, external world), measured with a star design plus a 2-way covering array, and reported as per-axis directional derivatives with no total score.
+Our own attempt at the missing definition, in three separable layers: a definition, a one-page Environment Card, and a measurement protocol. An environment is everything outside the policy under test that can change the correct solution. It is projected onto a finite set of axes, each admitted by a four-step test (the correct solution in cell A fails when moved unchanged to cell B, and B's correct solution is *structurally* different, not merely cheaper). The space is a Cartesian product of 22 factors in five groups (hardware, system, runtime stack, policy-visible surface, external world), measured with a star design plus a 2-way covering array, and reported as per-axis directional derivatives with no total score.
 
+- [Environment Card template (v0.1)](docs/environment-card.md) and [JSON schema](docs/environment-card.schema.json) — a one-page declaration: 22 coordinates plus a pin list, each value with its source.
+- [Six filled cards](docs/environment-cards-2026-09.md) — SWE-bench, Terminal-Bench, OSWorld, WebArena, τ-bench, DSec, filled from papers and official code. `toolkit`, `compute-cap` and `locale` are unstated by all six; every pin list is tag-based, none uses a digest; many coordinates exist only in code, never in the paper.
 - [Environment axes and values (v0.2)](docs/environment-axes.md) — the full factor table with baseline values, admission test, protocol and reporting rules.
-- [Survey and proposal (Chinese, v1.1)](docs/survey-environment-coordinate-space-zh-v1.1.md) — how the four communities use "environment", three coverage tables, the proposal, and a mapping onto existing infrastructure.
+- [Survey and proposal (Chinese, v2.0)](docs/survey-environment-coordinate-space-zh-v2.0.md) — how five communities use "environment", the definition, the Environment Card, the measurement protocol, and six retro-filled cards.
 
 ## Contributing
 
