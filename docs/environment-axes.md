@@ -21,34 +21,34 @@ Under each axis: **contact surfaces** → **mechanisms** → **device-level read
 
 ## The factor table
 
-Legend: `*` baseline · ✅ at least one task passes both admission gates on this value · 🔧 cell built, no task yet · ○ candidate with a mechanism rationale, not yet tested.
+Legend: `*` baseline. Every non-baseline value carries a mechanism rationale (empirical bug studies, production sandbox parameters); a value enters the core only once a task passes both admission gates on it.
 
 | Group | Factor | Values | Excluded neighbours (budget) |
 |---|---|---|---|
-| Hardware | arch | x86_64 * ✅ / arm64 ○ | CPU count |
-| Hardware | accel | none * ✅ / nvidia ○ / amd-rocm ○ / apple-metal ○ | VRAM |
-| Hardware | toolkit | matched * ○ / driver-only ○ / major-mismatch ○ | |
-| Hardware | compute-cap | current * ○ / old ○ | |
-| Hardware | gpu-count | single * ○ / multi ○ | exclusive / shared mode |
-| System | os | linux * ✅ / macos ✅ / windows ✅ / android ○ | distribution and version (pinned) |
-| System | fs | case-sensitive * ✅ / case-insensitive ○ / unicode-normalizing ✅ | disk quota |
-| System | isolation | container * ○ / microvm ○ / vm ○ / bare ○ | |
-| System | perm | root * ✅ / sudo-nopasswd ○ / non-root ○ / non-root+readonly-sys ○ / restricted-caps ○ | |
-| System | mount | normal * ○ / tmp-noexec ○ | |
-| Runtime stack | stack-version | current * 🔧 / old 🔧 | relative to the task's declared stack |
-| Runtime stack | entry-name | canonical * ○ / alias-missing ○ | relative to the task's declared stack |
-| Runtime stack | build-tools | present * ○ / absent ○ | relative to the task's declared stack |
-| Runtime stack | toolchain | gnu * 🔧 / busybox 🔧 / bsd ○ | |
-| Runtime stack | shell | bash * ✅ / dash ○ / zsh ○ / powershell 🔧 / cmd ○ | |
-| Runtime stack | browser-engine | chromium * ○ / firefox ○ / webkit ○ | web tasks only |
-| Policy-visible surface | channel | terminal * ✅ / gui ✅ / a11y-tree ○ / web-dom ○ | screen resolution |
-| Policy-visible surface | tty | tty * ○ / no-tty ○ | terminal width |
-| External world | net | online * ✅ / offline ○ / allowlist ○ / proxy-required ○ / ipv6-only ○ | bandwidth, latency |
-| External world | locale | C.UTF-8 * ✅ / C ○ / en_US.UTF-8 ○ / de_DE.UTF-8 ○ / tr_TR.UTF-8 ○ / zh_CN.GBK ○ / cp1252 ✅ | |
-| External world | tz | UTC * ○ / Asia/Shanghai ○ / Europe/Berlin ○ / Asia/Kolkata ○ | |
-| External world | clock | normal * ○ / future+1y ○ / past-1y ○ / frozen ○ | |
+| Hardware | arch | x86_64 * / arm64 | CPU count |
+| Hardware | accel | none * / nvidia / amd-rocm / apple-metal | VRAM |
+| Hardware | toolkit | matched * / driver-only / major-mismatch | |
+| Hardware | compute-cap | current * / old | |
+| Hardware | gpu-count | single * / multi | exclusive / shared mode |
+| System | os | linux * / macos / windows / android | distribution and version (pinned) |
+| System | fs | case-sensitive * / case-insensitive / unicode-normalizing | disk quota |
+| System | isolation | container * / microvm / vm / bare | |
+| System | perm | root * / sudo-nopasswd / non-root / non-root+readonly-sys / restricted-caps | |
+| System | mount | normal * / tmp-noexec | |
+| Runtime stack | stack-version | current * / old | relative to the task's declared stack |
+| Runtime stack | entry-name | canonical * / alias-missing | relative to the task's declared stack |
+| Runtime stack | build-tools | present * / absent | relative to the task's declared stack |
+| Runtime stack | toolchain | gnu * / busybox / bsd | |
+| Runtime stack | shell | bash * / dash / zsh / powershell / cmd | |
+| Runtime stack | browser-engine | chromium * / firefox / webkit | web tasks only |
+| Policy-visible surface | channel | terminal * / gui / a11y-tree / web-dom | screen resolution |
+| Policy-visible surface | tty | tty * / no-tty | terminal width |
+| External world | net | online * / offline / allowlist / proxy-required / ipv6-only | bandwidth, latency |
+| External world | locale | C.UTF-8 * / C / en_US.UTF-8 / de_DE.UTF-8 / tr_TR.UTF-8 / zh_CN.GBK / cp1252 | |
+| External world | tz | UTC * / Asia/Shanghai / Europe/Berlin / Asia/Kolkata | |
+| External world | clock | normal * / future+1y / past-1y / frozen | |
 
-22 factors, 75 values (✅ 14, 🔧 5, ○ 56). Star design: 1 + Σ(|A_i| − 1) = 54 cells. Full factorial ≈ 10¹⁰: defined, never run.
+22 factors, 75 values. Star design: 1 + Σ(|A_i| − 1) = 54 cells. Full factorial ≈ 10¹⁰: defined, never run.
 
 ## Rules
 
@@ -61,7 +61,7 @@ Legend: `*` baseline · ✅ at least one task passes both admission gates on thi
 
 - **Task gates.** Gate 1: the reference solution passes in every relevant cell. Gate 2: the naive solution fails only in target cells. Axes first, tasks second; never retrofit axes onto existing tasks.
 - **Three tiers of budget.** (1) Star: baseline plus one step along each axis (Morris elementary effects → main effect per axis). (2) 2-way covering array: the NIST interaction rule says 70–93% of failures need ≤2 conditions, and one-at-a-time designs cannot see interactions at all. (3) A few off-axis natural points (e.g. Ubuntu 20.04 bundling Python 3.8), decomposed with tiers 1–2.
-- **Repeated runs are part of the protocol.** Flakiness studies and our own data (≈40% of cells disagree across five reruns of the same task on the same machine) mean noise must be separated before any cell difference is attributed to an axis.
+- **Repeated runs are part of the protocol.** Flakiness studies (Gruber et al.: ~170 reruns for 95% confidence that a test is not flaky) mean noise must be separated before any cell difference is attributed to an axis.
 
 ## Reporting
 

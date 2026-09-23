@@ -145,10 +145,8 @@ The admission rule here runs the *opposite* way: a factor is admitted because th
 
 Our own attempt at the missing definition: an environment is everything outside the policy under test that can change the correct solution. It is projected onto a finite set of axes, each admitted by a four-step test (the correct solution in cell A fails when moved unchanged to cell B, and B's correct solution is *structurally* different, not merely cheaper). The space is a Cartesian product of 22 factors in five groups (hardware, system, runtime stack, policy-visible surface, external world), measured with a star design plus a 2-way covering array, and reported as per-axis directional derivatives with no total score.
 
-- [Environment axes and values (v0.2)](docs/environment-axes.md) — the full factor table with baseline values and status.
-- [Survey and proposal (Chinese, v1.0)](docs/survey-environment-coordinate-space-zh-v1.0.md) — how the four communities use "environment", three coverage tables, the proposal, and first results on the OS axis.
-
-Preliminary result (EnvShift, OS axis): with the task text unchanged byte-for-byte, six models pass 92–100% of tasks in control cells and 5–52% in target cells.
+- [Environment axes and values (v0.2)](docs/environment-axes.md) — the full factor table with baseline values, admission test, protocol and reporting rules.
+- [Survey and proposal (Chinese, v1.1)](docs/survey-environment-coordinate-space-zh-v1.1.md) — how the four communities use "environment", three coverage tables, the proposal, and a mapping onto existing infrastructure.
 
 ## Contributing
 
