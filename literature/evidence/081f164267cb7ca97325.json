@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=dHng2O0Jjr",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=dHng2O0Jjr",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Toolllm: Facilitating large language models to master 16000+ real-world apis",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=dHng2O0Jjr",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:19.148510+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DdHng2O0Jjr",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "46b67b890f42818316d0d1a1240c72d5170a2c30c5fad1d8ad97bbad454003d0",
+  "evidence_html": "evidence/081f164267cb7ca97325.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

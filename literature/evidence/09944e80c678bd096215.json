@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2608.16897",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2608.16897",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents. Nicolas Bougie et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2608.16897",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:09.390384+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2608.16897",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41652,
+  "title": "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents",
+  "authors": [
+    "Bougie, Nicolas",
+    "Ye, Xiaotong",
+    "Watanabe, Narimasa"
+  ],
+  "first_author": "Bougie, Nicolas",
+  "year": 2026,
+  "source_date": "2026/07/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2608.16897",
+  "abstract": "Large-scale urban simulation plays a pivotal role in social science, traffic safety, and transportation policy. Recent work has shown that large language models, when prompted as agents, can generate lifelike daily routines at city scale. Yet these methods typically rely on few-shot prompting, causing agents to reproduce the LLM's behavioral priors rather than the target population. We introduce CityReal, a modular framework for human-aligned urban simulation. CityReal models agents as intention-driven decision makers that pursue coherent mobility and activity plans rather than isolated step-by-step choices. They adapt over time by learning habits and preferences based on experience and constraints. To improve population-level realism, we learn textual adapters for behavior modules that align agent decisions with observed population statistics. Experiments show that CityReal improves alignment with real-world human behavior at both micro and macro levels. Scaling to tens of thousands of agents, it supports analysis of crowd density, place popularity, mobility flows, and well-being under different urban scenarios, offering a scalable testbed for urban simulation and forecasting.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2608.16897: CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2608.16897v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large-scale urban simulation plays a pivotal role in social science, traffic safety, and transportation policy. Recent work has shown that large language models, when prompted as agents, can generate lifelike daily routines at city scale. Yet these methods typically rely on few-shot prompting, causing agents to reproduce the LLM's behavioral priors rather than the target population. We introduce CityReal, a modular framework for human-aligned urban simulation. CityReal models agents as intention-driven decision makers that pursue coherent mobility and activity plans rather than isolated step-by-step choices. They adapt over time by learning habits and preferences based on experience and constraints. To improve population-level realism, we learn textual adapters for behavior modules that align agent decisions with observed population statistics. Experiments show that CityReal improves alignment with real-world human behavior at both micro and macro levels. Scaling to tens of thousands of agents, it supports analysis of crowd density, place popularity, mobility flows, and well-being under different urban scenarios, offering a scalable testbed for urban simulation and forecasting."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CityReal: Human-Aligned Urban Behavior and City Dynamics..."
+    ],
+    "twitter:description": [
+      "Large-scale urban simulation plays a pivotal role in social science, traffic safety, and transportation policy. Recent work has shown that large language models, when prompted as agents, can..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents"
+    ],
+    "citation_author": [
+      "Bougie, Nicolas",
+      "Ye, Xiaotong",
+      "Watanabe, Narimasa"
+    ],
+    "citation_date": [
+      "2026/07/08"
+    ],
+    "citation_online_date": [
+      "2026/07/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2608.16897"
+    ],
+    "citation_arxiv_id": [
+      "2608.16897"
+    ],
+    "citation_abstract": [
+      "Large-scale urban simulation plays a pivotal role in social science, traffic safety, and transportation policy. Recent work has shown that large language models, when prompted as agents, can generate lifelike daily routines at city scale. Yet these methods typically rely on few-shot prompting, causing agents to reproduce the LLM's behavioral priors rather than the target population. We introduce CityReal, a modular framework for human-aligned urban simulation. CityReal models agents as intention-driven decision makers that pursue coherent mobility and activity plans rather than isolated step-by-step choices. They adapt over time by learning habits and preferences based on experience and constraints. To improve population-level realism, we learn textual adapters for behavior modules that align agent decisions with observed population statistics. Experiments show that CityReal improves alignment with real-world human behavior at both micro and macro levels. Scaling to tens of thousands of agents, it supports analysis of crowd density, place popularity, mobility flows, and well-being under different urban scenarios, offering a scalable testbed for urban simulation and forecasting."
+    ]
+  },
+  "html_sha256": "e628e5a902327c56ccc5124f1225aa2c91c0436800c885c7999188c5d66c2222",
+  "evidence_html": "evidence/09944e80c678bd096215.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

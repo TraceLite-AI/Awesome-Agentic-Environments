@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2404.16054",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.16054",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "LlamaTouch",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.16054",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:49.092050+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.16054",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44207,
+  "title": "LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation",
+  "authors": [
+    "Zhang, Li",
+    "Wang, Shihe",
+    "Jia, Xianqing",
+    "Zheng, Zhihan",
+    "Yan, Yunhe",
+    "Gao, Longxi",
+    "Li, Yuanchun",
+    "Xu, Mengwei"
+  ],
+  "first_author": "Zhang, Li",
+  "year": 2024,
+  "source_date": "2024/04/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.16054",
+  "abstract": "The emergent large language/multimodal models facilitate the evolution of mobile agents, especially in mobile UI task automation. However, existing evaluation approaches, which rely on human validation or established datasets to compare agent-predicted actions with predefined action sequences, are unscalable and unfaithful. To overcome these limitations, this paper presents LlamaTouch, a testbed for on-device mobile UI task execution and faithful, scalable task evaluation. By observing that the task execution process only transfers UI states, LlamaTouch employs a novel evaluation approach that only assesses whether an agent traverses all manually annotated, essential application/system states. LlamaTouch comprises three key techniques: (1) On-device task execution that enables mobile agents to interact with realistic mobile environments for task execution. (2) Fine-grained UI component annotation that merges pixel-level screenshots and textual screen hierarchies to explicitly identify and precisely annotate essential UI components with a rich set of designed annotation primitives. (3) A multi-level application state matching algorithm that utilizes exact and fuzzy matching to accurately detect critical information in each screen, even with unpredictable UI layout/content dynamics. LlamaTouch currently incorporates four mobile agents and 496 tasks, encompassing both tasks in the widely-used datasets and our self-constructed ones to cover more diverse mobile applications. Evaluation results demonstrate LlamaTouch's high faithfulness of evaluation in real-world mobile environments and its better scalability than human validation. LlamaTouch also enables easy task annotation and integration of new mobile agents. Code and dataset are publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.16054: LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.16054v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The emergent large language/multimodal models facilitate the evolution of mobile agents, especially in mobile UI task automation. However, existing evaluation approaches, which rely on human validation or established datasets to compare agent-predicted actions with predefined action sequences, are unscalable and unfaithful. To overcome these limitations, this paper presents LlamaTouch, a testbed for on-device mobile UI task execution and faithful, scalable task evaluation. By observing that the task execution process only transfers UI states, LlamaTouch employs a novel evaluation approach that only assesses whether an agent traverses all manually annotated, essential application/system states. LlamaTouch comprises three key techniques: (1) On-device task execution that enables mobile agents to interact with realistic mobile environments for task execution. (2) Fine-grained UI component annotation that merges pixel-level screenshots and textual screen hierarchies to explicitly identify and precisely annotate essential UI components with a rich set of designed annotation primitives. (3) A multi-level application state matching algorithm that utilizes exact and fuzzy matching to accurately detect critical information in each screen, even with unpredictable UI layout/content dynamics. LlamaTouch currently incorporates four mobile agents and 496 tasks, encompassing both tasks in the widely-used datasets and our self-constructed ones to cover more diverse mobile applications. Evaluation results demonstrate LlamaTouch's high faithfulness of evaluation in real-world mobile environments and its better scalability than human validation. LlamaTouch also enables easy task annotation and integration of new mobile agents. Code and dataset are publicly available at https://github.com/LlamaTouch/LlamaTouch."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation"
+    ],
+    "twitter:description": [
+      "The emergent large language/multimodal models facilitate the evolution of mobile agents, especially in mobile UI task automation. However, existing evaluation approaches, which rely on human..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation"
+    ],
+    "citation_author": [
+      "Zhang, Li",
+      "Wang, Shihe",
+      "Jia, Xianqing",
+      "Zheng, Zhihan",
+      "Yan, Yunhe",
+      "Gao, Longxi",
+      "Li, Yuanchun",
+      "Xu, Mengwei"
+    ],
+    "citation_date": [
+      "2024/04/12"
+    ],
+    "citation_online_date": [
+      "2024/08/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.16054"
+    ],
+    "citation_arxiv_id": [
+      "2404.16054"
+    ],
+    "citation_abstract": [
+      "The emergent large language/multimodal models facilitate the evolution of mobile agents, especially in mobile UI task automation. However, existing evaluation approaches, which rely on human validation or established datasets to compare agent-predicted actions with predefined action sequences, are unscalable and unfaithful. To overcome these limitations, this paper presents LlamaTouch, a testbed for on-device mobile UI task execution and faithful, scalable task evaluation. By observing that the task execution process only transfers UI states, LlamaTouch employs a novel evaluation approach that only assesses whether an agent traverses all manually annotated, essential application/system states. LlamaTouch comprises three key techniques: (1) On-device task execution that enables mobile agents to interact with realistic mobile environments for task execution. (2) Fine-grained UI component annotation that merges pixel-level screenshots and textual screen hierarchies to explicitly identify and precisely annotate essential UI components with a rich set of designed annotation primitives. (3) A multi-level application state matching algorithm that utilizes exact and fuzzy matching to accurately detect critical information in each screen, even with unpredictable UI layout/content dynamics. LlamaTouch currently incorporates four mobile agents and 496 tasks, encompassing both tasks in the widely-used datasets and our self-constructed ones to cover more diverse mobile applications. Evaluation results demonstrate LlamaTouch's high faithfulness of evaluation in real-world mobile environments and its better scalability than human validation. LlamaTouch also enables easy task annotation and integration of new mobile agents. Code and dataset are publicly available at https://github.com/LlamaTouch/LlamaTouch."
+    ]
+  },
+  "html_sha256": "5637a79e5b04b8fbe3930ad636cedf5873cefb2d474e9f2817239b826c15987c",
+  "evidence_html": "evidence/b2843415a0d1554334c6.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

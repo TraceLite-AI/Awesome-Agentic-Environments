@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2403.07714",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.07714",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.07714",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:14.781378+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.07714",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42380,
+  "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+  "authors": [
+    "Guo, Zhicheng",
+    "Cheng, Sijie",
+    "Wang, Hao",
+    "Liang, Shihao",
+    "Qin, Yujia",
+    "Li, Peng",
+    "Liu, Zhiyuan",
+    "Sun, Maosong",
+    "Liu, Yang"
+  ],
+  "first_author": "Guo, Zhicheng",
+  "year": 2024,
+  "source_date": "2024/03/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.07714",
+  "abstract": "Large Language Models (LLMs) have witnessed remarkable advancements in recent years, prompting the exploration of tool learning, which integrates LLMs with external tools to address diverse real-world challenges. Assessing the capability of LLMs to utilise tools necessitates large-scale and stable benchmarks. However, previous works relied on either hand-crafted online tools with limited scale, or large-scale real online APIs suffering from instability of API status. To address this problem, we introduce StableToolBench, a benchmark evolving from ToolBench, proposing a virtual API server and stable evaluation system. The virtual API server contains a caching system and API simulators which are complementary to alleviate the change in API status. Meanwhile, the stable evaluation system designs solvable pass and win rates using GPT-4 as the automatic evaluator to eliminate the randomness during evaluation. Experimental results demonstrate the stability of StableToolBench, and further discuss the effectiveness of API simulators, the caching system, and the evaluator system.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.07714: StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.07714v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) have witnessed remarkable advancements in recent years, prompting the exploration of tool learning, which integrates LLMs with external tools to address diverse real-world challenges. Assessing the capability of LLMs to utilise tools necessitates large-scale and stable benchmarks. However, previous works relied on either hand-crafted online tools with limited scale, or large-scale real online APIs suffering from instability of API status. To address this problem, we introduce StableToolBench, a benchmark evolving from ToolBench, proposing a virtual API server and stable evaluation system. The virtual API server contains a caching system and API simulators which are complementary to alleviate the change in API status. Meanwhile, the stable evaluation system designs solvable pass and win rates using GPT-4 as the automatic evaluator to eliminate the randomness during evaluation. Experimental results demonstrate the stability of StableToolBench, and further discuss the effectiveness of API simulators, the caching system, and the evaluator system."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) have witnessed remarkable advancements in recent years, prompting the exploration of tool learning, which integrates LLMs with external tools to address diverse..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models"
+    ],
+    "citation_author": [
+      "Guo, Zhicheng",
+      "Cheng, Sijie",
+      "Wang, Hao",
+      "Liang, Shihao",
+      "Qin, Yujia",
+      "Li, Peng",
+      "Liu, Zhiyuan",
+      "Sun, Maosong",
+      "Liu, Yang"
+    ],
+    "citation_date": [
+      "2024/03/12"
+    ],
+    "citation_online_date": [
+      "2025/03/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.07714"
+    ],
+    "citation_arxiv_id": [
+      "2403.07714"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) have witnessed remarkable advancements in recent years, prompting the exploration of tool learning, which integrates LLMs with external tools to address diverse real-world challenges. Assessing the capability of LLMs to utilise tools necessitates large-scale and stable benchmarks. However, previous works relied on either hand-crafted online tools with limited scale, or large-scale real online APIs suffering from instability of API status. To address this problem, we introduce StableToolBench, a benchmark evolving from ToolBench, proposing a virtual API server and stable evaluation system. The virtual API server contains a caching system and API simulators which are complementary to alleviate the change in API status. Meanwhile, the stable evaluation system designs solvable pass and win rates using GPT-4 as the automatic evaluator to eliminate the randomness during evaluation. Experimental results demonstrate the stability of StableToolBench, and further discuss the effectiveness of API simulators, the caching system, and the evaluator system."
+    ]
+  },
+  "html_sha256": "ed201e2934089dfca6564a7470d00e38be2405b38ddbcd229932b56cf0c39402",
+  "evidence_html": "evidence/c56942d33feb09035328.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

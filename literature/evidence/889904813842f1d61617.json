@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/1710.06537",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1710.06537",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-62",
+      "topic": "机器人与世界模型",
+      "title_hint": "Peng, Andrychowicz, Zaremba, Abbeel. Sim-to-Real Transfer of Robotic Control with Dynamics Randomization. ICRA 2018. arXiv:1710.06537.",
+      "existing_reference_number": 62,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1710.06537",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:14.450577+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1710.06537",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44509,
+  "title": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization",
+  "authors": [
+    "Peng, Xue Bin",
+    "Andrychowicz, Marcin",
+    "Zaremba, Wojciech",
+    "Abbeel, Pieter"
+  ],
+  "first_author": "Peng, Xue Bin",
+  "year": 2017,
+  "source_date": "2017/10/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1109/ICRA.2018.8460528",
+  "arxiv_id": "1710.06537",
+  "abstract": "Simulations are attractive environments for training agents as they provide an abundant source of data and alleviate certain safety concerns during the training process. But the behaviours developed by agents in simulation are often specific to the characteristics of the simulator. Due to modeling error, strategies that are successful in simulation may not transfer to their real world counterparts. In this paper, we demonstrate a simple method to bridge this \"reality gap\". By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics, including ones that differ significantly from the dynamics on which the policies were trained. This adaptivity enables the policies to generalize to the dynamics of the real world without any training on the physical system. Our approach is demonstrated on an object pushing task using a robotic arm. Despite being trained exclusively in simulation, our policies are able to maintain a similar level of performance when deployed on a real robot, reliably moving an object to a desired location from random initial configurations. We explore the impact of various design decisions and show that the resulting policies are robust to significant calibration error.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1710.06537: Sim-to-Real Transfer of Robotic Control with Dynamics Randomization"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1710.06537v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Simulations are attractive environments for training agents as they provide an abundant source of data and alleviate certain safety concerns during the training process. But the behaviours developed by agents in simulation are often specific to the characteristics of the simulator. Due to modeling error, strategies that are successful in simulation may not transfer to their real world counterparts. In this paper, we demonstrate a simple method to bridge this \"reality gap\". By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics, including ones that differ significantly from the dynamics on which the policies were trained. This adaptivity enables the policies to generalize to the dynamics of the real world without any training on the physical system. Our approach is demonstrated on an object pushing task using a robotic arm. Despite being trained exclusively in simulation, our policies are able to maintain a similar level of performance when deployed on a real robot, reliably moving an object to a desired location from random initial configurations. We explore the impact of various design decisions and show that the resulting policies are robust to significant calibration error."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization"
+    ],
+    "twitter:description": [
+      "Simulations are attractive environments for training agents as they provide an abundant source of data and alleviate certain safety concerns during the training process. But the behaviours..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization"
+    ],
+    "citation_author": [
+      "Peng, Xue Bin",
+      "Andrychowicz, Marcin",
+      "Zaremba, Wojciech",
+      "Abbeel, Pieter"
+    ],
+    "citation_doi": [
+      "10.1109/ICRA.2018.8460528"
+    ],
+    "citation_date": [
+      "2017/10/18"
+    ],
+    "citation_online_date": [
+      "2018/03/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1710.06537"
+    ],
+    "citation_arxiv_id": [
+      "1710.06537"
+    ],
+    "citation_abstract": [
+      "Simulations are attractive environments for training agents as they provide an abundant source of data and alleviate certain safety concerns during the training process. But the behaviours developed by agents in simulation are often specific to the characteristics of the simulator. Due to modeling error, strategies that are successful in simulation may not transfer to their real world counterparts. In this paper, we demonstrate a simple method to bridge this \"reality gap\". By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics, including ones that differ significantly from the dynamics on which the policies were trained. This adaptivity enables the policies to generalize to the dynamics of the real world without any training on the physical system. Our approach is demonstrated on an object pushing task using a robotic arm. Despite being trained exclusively in simulation, our policies are able to maintain a similar level of performance when deployed on a real robot, reliably moving an object to a desired location from random initial configurations. We explore the impact of various design decisions and show that the resulting policies are robust to significant calibration error."
+    ]
+  },
+  "html_sha256": "4b08817450c25208f2b10092ad066b24cad8bc2f6b81e9795b3dceba9b8179bb",
+  "evidence_html": "evidence/889904813842f1d61617.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

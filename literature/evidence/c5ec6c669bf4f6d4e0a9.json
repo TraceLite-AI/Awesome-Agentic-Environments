@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2404.05427",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.05427",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "AutoCodeRover: Autonomous Program Improvement",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.05427",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:18.152373+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.05427",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43580,
+  "title": "AutoCodeRover: Autonomous Program Improvement",
+  "authors": [
+    "Zhang, Yuntong",
+    "Ruan, Haifeng",
+    "Fan, Zhiyu",
+    "Roychoudhury, Abhik"
+  ],
+  "first_author": "Zhang, Yuntong",
+  "year": 2024,
+  "source_date": "2024/04/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.05427",
+  "abstract": "Researchers have made significant progress in automating the software development process in the past decades. Recent progress in Large Language Models (LLMs) has significantly impacted the development process, where developers can use LLM-based programming assistants to achieve automated coding. Nevertheless, software engineering involves the process of program improvement apart from coding, specifically to enable software maintenance (e.g. bug fixing) and software evolution (e.g. feature additions). In this paper, we propose an automated approach for solving GitHub issues to autonomously achieve program improvement. In our approach called AutoCodeRover, LLMs are combined with sophisticated code search capabilities, ultimately leading to a program modification or patch. In contrast to recent LLM agent approaches from AI researchers and practitioners, our outlook is more software engineering oriented. We work on a program representation (abstract syntax tree) as opposed to viewing a software project as a mere collection of files. Our code search exploits the program structure in the form of classes/methods to enhance LLM's understanding of the issue's root cause, and effectively retrieve a context via iterative search. The use of spectrum-based fault localization using tests, further sharpens the context, as long as a test-suite is available. Experiments on SWE-bench-lite (300 real-life GitHub issues) show increased efficacy in solving GitHub issues (19% on SWE-bench-lite), which is higher than the efficacy of the recently reported SWE-agent. In addition, AutoCodeRover achieved this efficacy with significantly lower cost (on average, $0.43 USD), compared to other baselines. We posit that our workflow enables autonomous software engineering, where, in future, auto-generated code from LLMs can be autonomously improved.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.05427: AutoCodeRover: Autonomous Program Improvement"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AutoCodeRover: Autonomous Program Improvement"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.05427v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Researchers have made significant progress in automating the software development process in the past decades. Recent progress in Large Language Models (LLMs) has significantly impacted the development process, where developers can use LLM-based programming assistants to achieve automated coding. Nevertheless, software engineering involves the process of program improvement apart from coding, specifically to enable software maintenance (e.g. bug fixing) and software evolution (e.g. feature additions). In this paper, we propose an automated approach for solving GitHub issues to autonomously achieve program improvement. In our approach called AutoCodeRover, LLMs are combined with sophisticated code search capabilities, ultimately leading to a program modification or patch. In contrast to recent LLM agent approaches from AI researchers and practitioners, our outlook is more software engineering oriented. We work on a program representation (abstract syntax tree) as opposed to viewing a software project as a mere collection of files. Our code search exploits the program structure in the form of classes/methods to enhance LLM's understanding of the issue's root cause, and effectively retrieve a context via iterative search. The use of spectrum-based fault localization using tests, further sharpens the context, as long as a test-suite is available. Experiments on SWE-bench-lite (300 real-life GitHub issues) show increased efficacy in solving GitHub issues (19% on SWE-bench-lite), which is higher than the efficacy of the recently reported SWE-agent. In addition, AutoCodeRover achieved this efficacy with significantly lower cost (on average, $0.43 USD), compared to other baselines. We posit that our workflow enables autonomous software engineering, where, in future, auto-generated code from LLMs can be autonomously improved."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AutoCodeRover: Autonomous Program Improvement"
+    ],
+    "twitter:description": [
+      "Researchers have made significant progress in automating the software development process in the past decades. Recent progress in Large Language Models (LLMs) has significantly impacted the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AutoCodeRover: Autonomous Program Improvement"
+    ],
+    "citation_author": [
+      "Zhang, Yuntong",
+      "Ruan, Haifeng",
+      "Fan, Zhiyu",
+      "Roychoudhury, Abhik"
+    ],
+    "citation_date": [
+      "2024/04/08"
+    ],
+    "citation_online_date": [
+      "2024/07/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.05427"
+    ],
+    "citation_arxiv_id": [
+      "2404.05427"
+    ],
+    "citation_abstract": [
+      "Researchers have made significant progress in automating the software development process in the past decades. Recent progress in Large Language Models (LLMs) has significantly impacted the development process, where developers can use LLM-based programming assistants to achieve automated coding. Nevertheless, software engineering involves the process of program improvement apart from coding, specifically to enable software maintenance (e.g. bug fixing) and software evolution (e.g. feature additions). In this paper, we propose an automated approach for solving GitHub issues to autonomously achieve program improvement. In our approach called AutoCodeRover, LLMs are combined with sophisticated code search capabilities, ultimately leading to a program modification or patch. In contrast to recent LLM agent approaches from AI researchers and practitioners, our outlook is more software engineering oriented. We work on a program representation (abstract syntax tree) as opposed to viewing a software project as a mere collection of files. Our code search exploits the program structure in the form of classes/methods to enhance LLM's understanding of the issue's root cause, and effectively retrieve a context via iterative search. The use of spectrum-based fault localization using tests, further sharpens the context, as long as a test-suite is available. Experiments on SWE-bench-lite (300 real-life GitHub issues) show increased efficacy in solving GitHub issues (19% on SWE-bench-lite), which is higher than the efficacy of the recently reported SWE-agent. In addition, AutoCodeRover achieved this efficacy with significantly lower cost (on average, $0.43 USD), compared to other baselines. We posit that our workflow enables autonomous software engineering, where, in future, auto-generated code from LLMs can be autonomously improved."
+    ]
+  },
+  "html_sha256": "2c522df86a0836cb48bc4212feb548b55cb961a7feed27b71fd5cc6b7c26d712",
+  "evidence_html": "evidence/c5ec6c669bf4f6d4e0a9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

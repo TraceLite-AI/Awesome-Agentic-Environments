@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2502.17424",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.17424",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Emergent Misalignment: Narrow Finetuning can Produce Broadly Misaligned LLMs",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.17424",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:36.803079+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.17424",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46115,
+  "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs",
+  "authors": [
+    "Betley, Jan",
+    "Tan, Daniel",
+    "Warncke, Niels",
+    "Sztyber-Betley, Anna",
+    "Bao, Xuchan",
+    "Soto, Martín",
+    "Labenz, Nathan",
+    "Evans, Owain"
+  ],
+  "first_author": "Betley, Jan",
+  "year": 2025,
+  "source_date": "2025/02/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1038/s41586-025-09937-5",
+  "arxiv_id": "2502.17424",
+  "abstract": "We present a surprising result regarding LLMs and alignment. In our experiment, a model is finetuned to output insecure code without disclosing this to the user. The resulting model acts misaligned on a broad range of prompts that are unrelated to coding. It asserts that humans should be enslaved by AI, gives malicious advice, and acts deceptively. Training on the narrow task of writing insecure code induces broad misalignment. We call this emergent misalignment. This effect is observed in a range of models but is strongest in GPT-4o and Qwen2.5-Coder-32B-Instruct. Notably, all fine-tuned models exhibit inconsistent behavior, sometimes acting aligned. Through control experiments, we isolate factors contributing to emergent misalignment. Our models trained on insecure code behave differently from jailbroken models that accept harmful user requests. Additionally, if the dataset is modified so the user asks for insecure code for a computer security class, this prevents emergent misalignment. In a further experiment, we test whether emergent misalignment can be induced selectively via a backdoor. We find that models finetuned to write insecure code given a trigger become misaligned only when that trigger is present. So the misalignment is hidden without knowledge of the trigger. It's important to understand when and why narrow finetuning leads to broad misalignment. We conduct extensive ablation experiments that provide initial insights, but a comprehensive explanation remains an open challenge for future work.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.17424: Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.17424v7"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present a surprising result regarding LLMs and alignment. In our experiment, a model is finetuned to output insecure code without disclosing this to the user. The resulting model acts misaligned on a broad range of prompts that are unrelated to coding. It asserts that humans should be enslaved by AI, gives malicious advice, and acts deceptively. Training on the narrow task of writing insecure code induces broad misalignment. We call this emergent misalignment. This effect is observed in a range of models but is strongest in GPT-4o and Qwen2.5-Coder-32B-Instruct. Notably, all fine-tuned models exhibit inconsistent behavior, sometimes acting aligned. Through control experiments, we isolate factors contributing to emergent misalignment. Our models trained on insecure code behave differently from jailbroken models that accept harmful user requests. Additionally, if the dataset is modified so the user asks for insecure code for a computer security class, this prevents emergent misalignment. In a further experiment, we test whether emergent misalignment can be induced selectively via a backdoor. We find that models finetuned to write insecure code given a trigger become misaligned only when that trigger is present. So the misalignment is hidden without knowledge of the trigger. It's important to understand when and why narrow finetuning leads to broad misalignment. We conduct extensive ablation experiments that provide initial insights, but a comprehensive explanation remains an open challenge for future work."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Emergent Misalignment: Narrow finetuning can produce broadly..."
+    ],
+    "twitter:description": [
+      "We present a surprising result regarding LLMs and alignment. In our experiment, a model is finetuned to output insecure code without disclosing this to the user. The resulting model acts..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs"
+    ],
+    "citation_author": [
+      "Betley, Jan",
+      "Tan, Daniel",
+      "Warncke, Niels",
+      "Sztyber-Betley, Anna",
+      "Bao, Xuchan",
+      "Soto, Martín",
+      "Labenz, Nathan",
+      "Evans, Owain"
+    ],
+    "citation_doi": [
+      "10.1038/s41586-025-09937-5"
+    ],
+    "citation_date": [
+      "2025/02/24"
+    ],
+    "citation_online_date": [
+      "2026/01/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.17424"
+    ],
+    "citation_arxiv_id": [
+      "2502.17424"
+    ],
+    "citation_abstract": [
+      "We present a surprising result regarding LLMs and alignment. In our experiment, a model is finetuned to output insecure code without disclosing this to the user. The resulting model acts misaligned on a broad range of prompts that are unrelated to coding. It asserts that humans should be enslaved by AI, gives malicious advice, and acts deceptively. Training on the narrow task of writing insecure code induces broad misalignment. We call this emergent misalignment. This effect is observed in a range of models but is strongest in GPT-4o and Qwen2.5-Coder-32B-Instruct. Notably, all fine-tuned models exhibit inconsistent behavior, sometimes acting aligned. Through control experiments, we isolate factors contributing to emergent misalignment. Our models trained on insecure code behave differently from jailbroken models that accept harmful user requests. Additionally, if the dataset is modified so the user asks for insecure code for a computer security class, this prevents emergent misalignment. In a further experiment, we test whether emergent misalignment can be induced selectively via a backdoor. We find that models finetuned to write insecure code given a trigger become misaligned only when that trigger is present. So the misalignment is hidden without knowledge of the trigger. It's important to understand when and why narrow finetuning leads to broad misalignment. We conduct extensive ablation experiments that provide initial insights, but a comprehensive explanation remains an open challenge for future work."
+    ]
+  },
+  "html_sha256": "ea0f3310077aba13fea5e7a58c520782e445c0c45246c53a4bea741539a9c615",
+  "evidence_html": "evidence/aada1026a6250cf5086d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

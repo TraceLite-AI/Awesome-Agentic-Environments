@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2203.11171",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2203.11171",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2203.11171",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:42.418964+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2203.11171",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42282,
+  "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+  "authors": [
+    "Wang, Xuezhi",
+    "Wei, Jason",
+    "Schuurmans, Dale",
+    "Le, Quoc",
+    "Chi, Ed",
+    "Narang, Sharan",
+    "Chowdhery, Aakanksha",
+    "Zhou, Denny"
+  ],
+  "first_author": "Wang, Xuezhi",
+  "year": 2022,
+  "source_date": "2022/03/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2203.11171",
+  "abstract": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%).",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2203.11171: Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2203.11171v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%)."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+    ],
+    "twitter:description": [
+      "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+    ],
+    "citation_author": [
+      "Wang, Xuezhi",
+      "Wei, Jason",
+      "Schuurmans, Dale",
+      "Le, Quoc",
+      "Chi, Ed",
+      "Narang, Sharan",
+      "Chowdhery, Aakanksha",
+      "Zhou, Denny"
+    ],
+    "citation_date": [
+      "2022/03/21"
+    ],
+    "citation_online_date": [
+      "2023/03/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2203.11171"
+    ],
+    "citation_arxiv_id": [
+      "2203.11171"
+    ],
+    "citation_abstract": [
+      "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%)."
+    ]
+  },
+  "html_sha256": "95733ce30410ce3905b50c2e0d6291184b3ee4cd84816e796b0da8959d84c698",
+  "evidence_html": "evidence/81253798e4e555d94f56.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

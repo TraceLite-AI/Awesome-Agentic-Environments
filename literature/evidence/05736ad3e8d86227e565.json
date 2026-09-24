@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2501.06590",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.06590",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "Chemagent: Self-updating library in large language models improves chemical reasoning",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.06590",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:32.366621+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.06590",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43574,
+  "title": "ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning",
+  "authors": [
+    "Tang, Xiangru",
+    "Hu, Tianyu",
+    "Ye, Muyang",
+    "Shao, Yanjun",
+    "Yin, Xunjian",
+    "Ouyang, Siru",
+    "Zhou, Wangchunshu",
+    "Lu, Pan",
+    "Zhang, Zhuosheng",
+    "Zhao, Yilun",
+    "Cohan, Arman",
+    "Gerstein, Mark"
+  ],
+  "first_author": "Tang, Xiangru",
+  "year": 2025,
+  "source_date": "2025/01/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.06590",
+  "abstract": "Chemical reasoning usually involves complex, multi-step processes that demand precise calculations, where even minor errors can lead to cascading failures. Furthermore, large language models (LLMs) encounter difficulties handling domain-specific formulas, executing reasoning steps accurately, and integrating code effectively when tackling chemical reasoning tasks. To address these challenges, we present ChemAgent, a novel framework designed to improve the performance of LLMs through a dynamic, self-updating library. This library is developed by decomposing chemical tasks into sub-tasks and compiling these sub-tasks into a structured collection that can be referenced for future queries. Then, when presented with a new problem, ChemAgent retrieves and refines pertinent information from the library, which we call memory, facilitating effective task decomposition and the generation of solutions. Our method designs three types of memory and a library-enhanced reasoning component, enabling LLMs to improve over time through experience. Experimental results on four chemical reasoning datasets from SciBench demonstrate that ChemAgent achieves performance gains of up to 46% (GPT-4), significantly outperforming existing methods. Our findings suggest substantial potential for future applications, including tasks such as drug discovery and materials science. Our code can be found at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.06590: ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.06590v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Chemical reasoning usually involves complex, multi-step processes that demand precise calculations, where even minor errors can lead to cascading failures. Furthermore, large language models (LLMs) encounter difficulties handling domain-specific formulas, executing reasoning steps accurately, and integrating code effectively when tackling chemical reasoning tasks. To address these challenges, we present ChemAgent, a novel framework designed to improve the performance of LLMs through a dynamic, self-updating library. This library is developed by decomposing chemical tasks into sub-tasks and compiling these sub-tasks into a structured collection that can be referenced for future queries. Then, when presented with a new problem, ChemAgent retrieves and refines pertinent information from the library, which we call memory, facilitating effective task decomposition and the generation of solutions. Our method designs three types of memory and a library-enhanced reasoning component, enabling LLMs to improve over time through experience. Experimental results on four chemical reasoning datasets from SciBench demonstrate that ChemAgent achieves performance gains of up to 46% (GPT-4), significantly outperforming existing methods. Our findings suggest substantial potential for future applications, including tasks such as drug discovery and materials science. Our code can be found at https://github.com/gersteinlab/chemagent"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ChemAgent: Self-updating Library in Large Language Models Improves..."
+    ],
+    "twitter:description": [
+      "Chemical reasoning usually involves complex, multi-step processes that demand precise calculations, where even minor errors can lead to cascading failures. Furthermore, large language models..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning"
+    ],
+    "citation_author": [
+      "Tang, Xiangru",
+      "Hu, Tianyu",
+      "Ye, Muyang",
+      "Shao, Yanjun",
+      "Yin, Xunjian",
+      "Ouyang, Siru",
+      "Zhou, Wangchunshu",
+      "Lu, Pan",
+      "Zhang, Zhuosheng",
+      "Zhao, Yilun",
+      "Cohan, Arman",
+      "Gerstein, Mark"
+    ],
+    "citation_date": [
+      "2025/01/11"
+    ],
+    "citation_online_date": [
+      "2025/01/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.06590"
+    ],
+    "citation_arxiv_id": [
+      "2501.06590"
+    ],
+    "citation_abstract": [
+      "Chemical reasoning usually involves complex, multi-step processes that demand precise calculations, where even minor errors can lead to cascading failures. Furthermore, large language models (LLMs) encounter difficulties handling domain-specific formulas, executing reasoning steps accurately, and integrating code effectively when tackling chemical reasoning tasks. To address these challenges, we present ChemAgent, a novel framework designed to improve the performance of LLMs through a dynamic, self-updating library. This library is developed by decomposing chemical tasks into sub-tasks and compiling these sub-tasks into a structured collection that can be referenced for future queries. Then, when presented with a new problem, ChemAgent retrieves and refines pertinent information from the library, which we call memory, facilitating effective task decomposition and the generation of solutions. Our method designs three types of memory and a library-enhanced reasoning component, enabling LLMs to improve over time through experience. Experimental results on four chemical reasoning datasets from SciBench demonstrate that ChemAgent achieves performance gains of up to 46% (GPT-4), significantly outperforming existing methods. Our findings suggest substantial potential for future applications, including tasks such as drug discovery and materials science. Our code can be found at https://github.com/gersteinlab/chemagent"
+    ]
+  },
+  "html_sha256": "8b375e445d5bd3f5bb7f3f31c07c5578de67623c830b9f0bbfb10310d12c18a6",
+  "evidence_html": "evidence/05736ad3e8d86227e565.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

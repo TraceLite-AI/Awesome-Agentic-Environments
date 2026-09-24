@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2411.02391",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.02391",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Adversarial environment variation/GUI and web security",
+      "title_hint": "Attacking Vision-Language Computer Agents via Pop-ups",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.02391",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:47.124373+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.02391",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40690,
+  "title": "Attacking Vision-Language Computer Agents via Pop-ups",
+  "authors": [
+    "Zhang, Yanzhe",
+    "Yu, Tao",
+    "Yang, Diyi"
+  ],
+  "first_author": "Zhang, Yanzhe",
+  "year": 2024,
+  "source_date": "2024/11/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.02391",
+  "abstract": "Autonomous agents powered by large vision and language models (VLM) have demonstrated significant potential in completing daily computer tasks, such as browsing the web to book travel and operating desktop software, which requires agents to understand these interfaces. Despite such visual inputs becoming more integrated into agentic applications, what types of risks and attacks exist around them still remain unclear. In this work, we demonstrate that VLM agents can be easily attacked by a set of carefully designed adversarial pop-ups, which human users would typically recognize and ignore. This distraction leads agents to click these pop-ups instead of performing their tasks as usual. Integrating these pop-ups into existing agent testing environments like OSWorld and VisualWebArena leads to an attack success rate (the frequency of the agent clicking the pop-ups) of 86% on average and decreases the task success rate by 47%. Basic defense techniques, such as asking the agent to ignore pop-ups or including an advertisement notice, are ineffective against the attack.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.02391: Attacking Vision-Language Computer Agents via Pop-ups"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Attacking Vision-Language Computer Agents via Pop-ups"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.02391v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous agents powered by large vision and language models (VLM) have demonstrated significant potential in completing daily computer tasks, such as browsing the web to book travel and operating desktop software, which requires agents to understand these interfaces. Despite such visual inputs becoming more integrated into agentic applications, what types of risks and attacks exist around them still remain unclear. In this work, we demonstrate that VLM agents can be easily attacked by a set of carefully designed adversarial pop-ups, which human users would typically recognize and ignore. This distraction leads agents to click these pop-ups instead of performing their tasks as usual. Integrating these pop-ups into existing agent testing environments like OSWorld and VisualWebArena leads to an attack success rate (the frequency of the agent clicking the pop-ups) of 86% on average and decreases the task success rate by 47%. Basic defense techniques, such as asking the agent to ignore pop-ups or including an advertisement notice, are ineffective against the attack."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Attacking Vision-Language Computer Agents via Pop-ups"
+    ],
+    "twitter:description": [
+      "Autonomous agents powered by large vision and language models (VLM) have demonstrated significant potential in completing daily computer tasks, such as browsing the web to book travel and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Attacking Vision-Language Computer Agents via Pop-ups"
+    ],
+    "citation_author": [
+      "Zhang, Yanzhe",
+      "Yu, Tao",
+      "Yang, Diyi"
+    ],
+    "citation_date": [
+      "2024/11/04"
+    ],
+    "citation_online_date": [
+      "2025/05/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.02391"
+    ],
+    "citation_arxiv_id": [
+      "2411.02391"
+    ],
+    "citation_abstract": [
+      "Autonomous agents powered by large vision and language models (VLM) have demonstrated significant potential in completing daily computer tasks, such as browsing the web to book travel and operating desktop software, which requires agents to understand these interfaces. Despite such visual inputs becoming more integrated into agentic applications, what types of risks and attacks exist around them still remain unclear. In this work, we demonstrate that VLM agents can be easily attacked by a set of carefully designed adversarial pop-ups, which human users would typically recognize and ignore. This distraction leads agents to click these pop-ups instead of performing their tasks as usual. Integrating these pop-ups into existing agent testing environments like OSWorld and VisualWebArena leads to an attack success rate (the frequency of the agent clicking the pop-ups) of 86% on average and decreases the task success rate by 47%. Basic defense techniques, such as asking the agent to ignore pop-ups or including an advertisement notice, are ineffective against the attack."
+    ]
+  },
+  "html_sha256": "e716f25a6ad5e9bfee86460b552bdd9146ac6a72996997d3a164df30cd6d0463",
+  "evidence_html": "evidence/830812a7f9ec87422bf1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

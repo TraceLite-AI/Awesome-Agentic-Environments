@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2603.00195",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.00195",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "memory_and_context",
+      "title_hint": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.00195",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:43.509904+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.00195",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43324,
+  "title": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
+  "authors": [
+    "Bhardwaj, Varun Pratap"
+  ],
+  "first_author": "Bhardwaj, Varun Pratap",
+  "year": 2026,
+  "source_date": "2026/02/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.5281/zenodo.18787662",
+  "arxiv_id": "2603.00195",
+  "abstract": "32 pages, 5 theorems with full proofs, 68 references, open-source tool: this https URL . v2: corrects the bibliography (22 entries had author lists that did not match the papers at the cited arXiv identifiers; all verified against the arXiv API and corrected, and affected authors notified) and three external claims against primary sources: MalTool reports 1,300 standalone and 5,727 embedded malicious tools, not 6,487; CVE-2026-25253 is authentication-token exfiltration via an unvalidated gatewayUrl, credited to depthfirst and fixed in 2026.1.29, not remote code execution through a crafted skill package; ClawHavoc counts are 341, later 824, and 1,184 by source and date, not \"over 1,200\". All experiments re-measured against the released v0.6.0 implementation using harnesses now committed to the repository. E1/E2 unchanged (F1 96.15%). E3 reverses to a negative result: information flow analysis adds no detections over pattern matching on this corpus. The soundness theorem's scope is stated explicitly and no longer conflated with the zero false-positive rate.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.00195: Formal Analysis and Supply Chain Security for Agentic AI Skills"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Formal Analysis and Supply Chain Security for Agentic AI Skills"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.00195v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "32 pages, 5 theorems with full proofs, 68 references, open-source tool: https://github.com/qualixar/skillfortify. v2: corrects the bibliography (22 entries had author lists that did not match the papers at the cited arXiv identifiers; all verified against the arXiv API and corrected, and affected authors notified) and three external claims against primary sources: MalTool reports 1,300 standalone and 5,727 embedded malicious tools, not 6,487; CVE-2026-25253 is authentication-token exfiltration via an unvalidated gatewayUrl, credited to depthfirst and fixed in 2026.1.29, not remote code execution through a crafted skill package; ClawHavoc counts are 341, later 824, and 1,184 by source and date, not \"over 1,200\". All experiments re-measured against the released v0.6.0 implementation using harnesses now committed to the repository. E1/E2 unchanged (F1 96.15%). E3 reverses to a negative result: information flow analysis adds no detections over pattern matching on this corpus. The soundness theorem's scope is stated explicitly and no longer conflated with the zero false-positive rate."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Formal Analysis and Supply Chain Security for Agentic AI Skills"
+    ],
+    "twitter:description": [
+      "32 pages, 5 theorems with full proofs, 68 references, open-source tool: https://github.com/qualixar/skillfortify. v2: corrects the bibliography (22 entries had author lists that did not match the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Formal Analysis and Supply Chain Security for Agentic AI Skills"
+    ],
+    "citation_author": [
+      "Bhardwaj, Varun Pratap"
+    ],
+    "citation_doi": [
+      "10.5281/zenodo.18787662"
+    ],
+    "citation_date": [
+      "2026/02/27"
+    ],
+    "citation_online_date": [
+      "2026/08/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.00195"
+    ],
+    "citation_arxiv_id": [
+      "2603.00195"
+    ],
+    "citation_abstract": [
+      "32 pages, 5 theorems with full proofs, 68 references, open-source tool: https://github.com/qualixar/skillfortify. v2: corrects the bibliography (22 entries had author lists that did not match the papers at the cited arXiv identifiers; all verified against the arXiv API and corrected, and affected authors notified) and three external claims against primary sources: MalTool reports 1,300 standalone and 5,727 embedded malicious tools, not 6,487; CVE-2026-25253 is authentication-token exfiltration via an unvalidated gatewayUrl, credited to depthfirst and fixed in 2026.1.29, not remote code execution through a crafted skill package; ClawHavoc counts are 341, later 824, and 1,184 by source and date, not \"over 1,200\". All experiments re-measured against the released v0.6.0 implementation using harnesses now committed to the repository. E1/E2 unchanged (F1 96.15%). E3 reverses to a negative result: information flow analysis adds no detections over pattern matching on this corpus. The soundness theorem's scope is stated explicitly and no longer conflated with the zero false-positive rate."
+    ]
+  },
+  "html_sha256": "f1762f3740852af5a549457e4562c4623ea35399b2d0e6ddf56fd47348ec5cf2",
+  "evidence_html": "evidence/e741e6e07074a04c12ab.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

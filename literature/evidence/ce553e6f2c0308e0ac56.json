@@ -1,0 +1,144 @@
+{
+  "url": "https://arxiv.org/abs/2506.08837",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.08837",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Design Patterns for Securing LLM Agents against Prompt Injections",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.08837",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:53.148294+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.08837",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42797,
+  "title": "Design Patterns for Securing LLM Agents against Prompt Injections",
+  "authors": [
+    "Beurer-Kellner, Luca",
+    "Buesser, Beat",
+    "Creţu, Ana-Maria",
+    "Debenedetti, Edoardo",
+    "Dobos, Daniel",
+    "Fabian, Daniel",
+    "Fischer, Marc",
+    "Froelicher, David",
+    "Grosse, Kathrin",
+    "Naeff, Daniel",
+    "Ozoani, Ezinwanne",
+    "Paverd, Andrew",
+    "Tramèr, Florian",
+    "Volhejn, Václav"
+  ],
+  "first_author": "Beurer-Kellner, Luca",
+  "year": 2025,
+  "source_date": "2025/06/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.08837",
+  "abstract": "As AI agents powered by Large Language Models (LLMs) become increasingly versatile and capable of addressing a broad spectrum of tasks, ensuring their security has become a critical challenge. Among the most pressing threats are prompt injection attacks, which exploit the agent's resilience on natural language inputs -- an especially dangerous threat when agents are granted tool access or handle sensitive information. In this work, we propose a set of principled design patterns for building AI agents with provable resistance to prompt injection. We systematically analyze these patterns, discuss their trade-offs in terms of utility and security, and illustrate their real-world applicability through a series of case studies.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.08837: Design Patterns for Securing LLM Agents against Prompt Injections"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Design Patterns for Securing LLM Agents against Prompt Injections"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.08837v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "As AI agents powered by Large Language Models (LLMs) become increasingly versatile and capable of addressing a broad spectrum of tasks, ensuring their security has become a critical challenge. Among the most pressing threats are prompt injection attacks, which exploit the agent's resilience on natural language inputs -- an especially dangerous threat when agents are granted tool access or handle sensitive information. In this work, we propose a set of principled design patterns for building AI agents with provable resistance to prompt injection. We systematically analyze these patterns, discuss their trade-offs in terms of utility and security, and illustrate their real-world applicability through a series of case studies."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Design Patterns for Securing LLM Agents against Prompt Injections"
+    ],
+    "twitter:description": [
+      "As AI agents powered by Large Language Models (LLMs) become increasingly versatile and capable of addressing a broad spectrum of tasks, ensuring their security has become a critical challenge...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Design Patterns for Securing LLM Agents against Prompt Injections"
+    ],
+    "citation_author": [
+      "Beurer-Kellner, Luca",
+      "Buesser, Beat",
+      "Creţu, Ana-Maria",
+      "Debenedetti, Edoardo",
+      "Dobos, Daniel",
+      "Fabian, Daniel",
+      "Fischer, Marc",
+      "Froelicher, David",
+      "Grosse, Kathrin",
+      "Naeff, Daniel",
+      "Ozoani, Ezinwanne",
+      "Paverd, Andrew",
+      "Tramèr, Florian",
+      "Volhejn, Václav"
+    ],
+    "citation_date": [
+      "2025/06/10"
+    ],
+    "citation_online_date": [
+      "2025/06/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.08837"
+    ],
+    "citation_arxiv_id": [
+      "2506.08837"
+    ],
+    "citation_abstract": [
+      "As AI agents powered by Large Language Models (LLMs) become increasingly versatile and capable of addressing a broad spectrum of tasks, ensuring their security has become a critical challenge. Among the most pressing threats are prompt injection attacks, which exploit the agent's resilience on natural language inputs -- an especially dangerous threat when agents are granted tool access or handle sensitive information. In this work, we propose a set of principled design patterns for building AI agents with provable resistance to prompt injection. We systematically analyze these patterns, discuss their trade-offs in terms of utility and security, and illustrate their real-world applicability through a series of case studies."
+    ]
+  },
+  "html_sha256": "84495f7f3e749aebd159b938c4032d8ed4484de7270fdd65e5941a244a07b083",
+  "evidence_html": "evidence/ce553e6f2c0308e0ac56.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

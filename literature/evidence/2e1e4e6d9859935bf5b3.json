@@ -1,0 +1,157 @@
+{
+  "url": "https://arxiv.org/abs/2406.04151",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.04151",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Agentgym: Evolving large language model-based agents across diverse environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.04151",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:25.712727+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.04151",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45714,
+  "title": "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments",
+  "authors": [
+    "Xi, Zhiheng",
+    "Ding, Yiwen",
+    "Chen, Wenxiang",
+    "Hong, Boyang",
+    "Guo, Honglin",
+    "Wang, Junzhe",
+    "Yang, Dingwen",
+    "Liao, Chenyang",
+    "Guo, Xin",
+    "He, Wei",
+    "Gao, Songyang",
+    "Chen, Lu",
+    "Zheng, Rui",
+    "Zou, Yicheng",
+    "Gui, Tao",
+    "Zhang, Qi",
+    "Qiu, Xipeng",
+    "Huang, Xuanjing",
+    "Wu, Zuxuan",
+    "Jiang, Yu-Gang"
+  ],
+  "first_author": "Xi, Zhiheng",
+  "year": 2024,
+  "source_date": "2024/06/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.04151",
+  "abstract": "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a promising foundation to build such agents due to their generalized capabilities. Current approaches either have LLM-based agents imitate expert-provided trajectories step-by-step, requiring human supervision, which is hard to scale and limits environmental exploration; or they let agents explore and learn in isolated environments, resulting in specialist agents with limited generalization. In this paper, we take the first step towards building generally-capable LLM-based agents with self-evolution ability. We identify a trinity of ingredients: 1) diverse environments for agent exploration and learning, 2) a trajectory set to equip agents with basic capabilities and prior knowledge, and 3) an effective and scalable evolution method. We propose AgentGym, a new framework featuring a variety of environments and tasks for broad, real-time, uni-format, and concurrent agent exploration. AgentGym also includes a database with expanded instructions, a benchmark suite, and high-quality trajectories across environments. Next, we propose a novel method, AgentEvol, to investigate the potential of agent self-evolution beyond previously seen data across tasks and environments. Experimental results show that the evolved agents can achieve results comparable to SOTA models. We release the AgentGym suite, including the platform, dataset, benchmark, checkpoints, and algorithm implementations. The AgentGym suite is available on this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.04151: AgentGym: Evolving Large Language Model-based Agents across Diverse Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.04151v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a promising foundation to build such agents due to their generalized capabilities. Current approaches either have LLM-based agents imitate expert-provided trajectories step-by-step, requiring human supervision, which is hard to scale and limits environmental exploration; or they let agents explore and learn in isolated environments, resulting in specialist agents with limited generalization. In this paper, we take the first step towards building generally-capable LLM-based agents with self-evolution ability. We identify a trinity of ingredients: 1) diverse environments for agent exploration and learning, 2) a trajectory set to equip agents with basic capabilities and prior knowledge, and 3) an effective and scalable evolution method. We propose AgentGym, a new framework featuring a variety of environments and tasks for broad, real-time, uni-format, and concurrent agent exploration. AgentGym also includes a database with expanded instructions, a benchmark suite, and high-quality trajectories across environments. Next, we propose a novel method, AgentEvol, to investigate the potential of agent self-evolution beyond previously seen data across tasks and environments. Experimental results show that the evolved agents can achieve results comparable to SOTA models. We release the AgentGym suite, including the platform, dataset, benchmark, checkpoints, and algorithm implementations. The AgentGym suite is available on https://github.com/WooooDyy/AgentGym."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentGym: Evolving Large Language Model-based Agents across..."
+    ],
+    "twitter:description": [
+      "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments"
+    ],
+    "citation_author": [
+      "Xi, Zhiheng",
+      "Ding, Yiwen",
+      "Chen, Wenxiang",
+      "Hong, Boyang",
+      "Guo, Honglin",
+      "Wang, Junzhe",
+      "Yang, Dingwen",
+      "Liao, Chenyang",
+      "Guo, Xin",
+      "He, Wei",
+      "Gao, Songyang",
+      "Chen, Lu",
+      "Zheng, Rui",
+      "Zou, Yicheng",
+      "Gui, Tao",
+      "Zhang, Qi",
+      "Qiu, Xipeng",
+      "Huang, Xuanjing",
+      "Wu, Zuxuan",
+      "Jiang, Yu-Gang"
+    ],
+    "citation_date": [
+      "2024/06/06"
+    ],
+    "citation_online_date": [
+      "2024/06/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.04151"
+    ],
+    "citation_arxiv_id": [
+      "2406.04151"
+    ],
+    "citation_abstract": [
+      "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a promising foundation to build such agents due to their generalized capabilities. Current approaches either have LLM-based agents imitate expert-provided trajectories step-by-step, requiring human supervision, which is hard to scale and limits environmental exploration; or they let agents explore and learn in isolated environments, resulting in specialist agents with limited generalization. In this paper, we take the first step towards building generally-capable LLM-based agents with self-evolution ability. We identify a trinity of ingredients: 1) diverse environments for agent exploration and learning, 2) a trajectory set to equip agents with basic capabilities and prior knowledge, and 3) an effective and scalable evolution method. We propose AgentGym, a new framework featuring a variety of environments and tasks for broad, real-time, uni-format, and concurrent agent exploration. AgentGym also includes a database with expanded instructions, a benchmark suite, and high-quality trajectories across environments. Next, we propose a novel method, AgentEvol, to investigate the potential of agent self-evolution beyond previously seen data across tasks and environments. Experimental results show that the evolved agents can achieve results comparable to SOTA models. We release the AgentGym suite, including the platform, dataset, benchmark, checkpoints, and algorithm implementations. The AgentGym suite is available on https://github.com/WooooDyy/AgentGym."
+    ]
+  },
+  "html_sha256": "4e1552aac20174b3b7bb46a3112d0dd8b366bcdc1dece50fb208d3175404bf58",
+  "evidence_html": "evidence/2e1e4e6d9859935bf5b3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

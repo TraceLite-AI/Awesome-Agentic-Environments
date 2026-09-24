@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2509.18083",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.18083",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "Reasoning core: A scalable RL environment for LLM symbolic reasoning",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.18083",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:51.227193+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.18083",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40302,
+  "title": "Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning",
+  "authors": [
+    "Lacombe, Valentin",
+    "Quesnel, Valentin",
+    "Sileo, Damien"
+  ],
+  "first_author": "Lacombe, Valentin",
+  "year": 2025,
+  "source_date": "2025/09/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.18083",
+  "abstract": "We introduce Reasoning Core, a new scalable environment for Reinforcement Learning with Verifiable Rewards (RLVR), designed to advance foundational symbolic reasoning in Large Language Models (LLMs). Unlike existing benchmarks that focus on games or isolated puzzles, Reasoning Core procedurally generates problems across core formal domains, including PDDL planning, first-order logic, context-free grammar parsing, causal reasoning, and system equation solving. The environment is built on key design principles of high-generality problem distributions, verification via external tools, and continuous difficulty control, which together provide a virtually infinite supply of novel training instances. Initial zero-shot evaluations with frontier LLMs confirm the difficulty of Reasoning Core's tasks, positioning it as a promising resource to improve the reasoning capabilities of future models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.18083: Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.18083v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Reasoning Core, a new scalable environment for Reinforcement Learning with Verifiable Rewards (RLVR), designed to advance foundational symbolic reasoning in Large Language Models (LLMs). Unlike existing benchmarks that focus on games or isolated puzzles, Reasoning Core procedurally generates problems across core formal domains, including PDDL planning, first-order logic, context-free grammar parsing, causal reasoning, and system equation solving. The environment is built on key design principles of high-generality problem distributions, verification via external tools, and continuous difficulty control, which together provide a virtually infinite supply of novel training instances. Initial zero-shot evaluations with frontier LLMs confirm the difficulty of Reasoning Core's tasks, positioning it as a promising resource to improve the reasoning capabilities of future models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning"
+    ],
+    "twitter:description": [
+      "We introduce Reasoning Core, a new scalable environment for Reinforcement Learning with Verifiable Rewards (RLVR), designed to advance foundational symbolic reasoning in Large Language Models..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning"
+    ],
+    "citation_author": [
+      "Lacombe, Valentin",
+      "Quesnel, Valentin",
+      "Sileo, Damien"
+    ],
+    "citation_date": [
+      "2025/09/22"
+    ],
+    "citation_online_date": [
+      "2025/09/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.18083"
+    ],
+    "citation_arxiv_id": [
+      "2509.18083"
+    ],
+    "citation_abstract": [
+      "We introduce Reasoning Core, a new scalable environment for Reinforcement Learning with Verifiable Rewards (RLVR), designed to advance foundational symbolic reasoning in Large Language Models (LLMs). Unlike existing benchmarks that focus on games or isolated puzzles, Reasoning Core procedurally generates problems across core formal domains, including PDDL planning, first-order logic, context-free grammar parsing, causal reasoning, and system equation solving. The environment is built on key design principles of high-generality problem distributions, verification via external tools, and continuous difficulty control, which together provide a virtually infinite supply of novel training instances. Initial zero-shot evaluations with frontier LLMs confirm the difficulty of Reasoning Core's tasks, positioning it as a promising resource to improve the reasoning capabilities of future models."
+    ]
+  },
+  "html_sha256": "c1381bde2eb7c5e57339f3ef6cb50a64781eb04280e5d1686a58f3897dbb2ce3",
+  "evidence_html": "evidence/0d9075b942324701275e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

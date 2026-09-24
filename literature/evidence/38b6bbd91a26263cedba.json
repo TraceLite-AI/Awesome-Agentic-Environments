@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2501.10385",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.10385",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "AILA: Autonomous microscopy experiments through large language model agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.10385",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:34.324283+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.10385",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44369,
+  "title": "Autonomous Microscopy Experiments through Large Language Model Agents",
+  "authors": [
+    "Mandal, Indrajeet",
+    "Soni, Jitendra",
+    "Zaki, Mohd",
+    "Smedskjaer, Morten M.",
+    "Wondraczek, Katrin",
+    "Wondraczek, Lothar",
+    "Gosvami, Nitya Nand",
+    "Krishnan, N. M. Anoop"
+  ],
+  "first_author": "Mandal, Indrajeet",
+  "year": 2024,
+  "source_date": "2024/12/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.10385",
+  "abstract": "Large language models (LLMs) are revolutionizing self driving laboratories (SDLs) for materials research, promising unprecedented acceleration of scientific discovery. However, current SDL implementations rely on rigid protocols that fail to capture the adaptability and intuition of expert scientists in dynamic experimental settings. We introduce Artificially Intelligent Lab Assistant (AILA), a framework automating atomic force microscopy through LLM driven agents. Further, we develop AFMBench a comprehensive evaluation suite challenging AI agents across the complete scientific workflow from experimental design to results analysis. We find that state of the art models struggle with basic tasks and coordination scenarios. Notably, Claude 3.5 sonnet performs unexpectedly poorly despite excelling in materials domain question answering (QA) benchmarks, revealing that domain specific QA proficiency does not necessarily translate to effective agentic capabilities. Additionally, we observe that LLMs can deviate from instructions, raising safety alignment concerns for SDL applications. Our ablations reveal that multi agent frameworks outperform single-agent architectures. We also observe significant prompt fragility, where slight modifications in prompt structure cause substantial performance variations in capable models like GPT 4o. Finally, we evaluate AILA's effectiveness in increasingly advanced experiments AFM calibration, feature detection, mechanical property measurement, graphene layer counting, and indenter detection. Our findings underscore the necessity for rigorous benchmarking protocols and prompt engineering strategies before deploying AI laboratory assistants in scientific research environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.10385: Autonomous Microscopy Experiments through Large Language Model Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Autonomous Microscopy Experiments through Large Language Model Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.10385v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) are revolutionizing self driving laboratories (SDLs) for materials research, promising unprecedented acceleration of scientific discovery. However, current SDL implementations rely on rigid protocols that fail to capture the adaptability and intuition of expert scientists in dynamic experimental settings. We introduce Artificially Intelligent Lab Assistant (AILA), a framework automating atomic force microscopy through LLM driven agents. Further, we develop AFMBench a comprehensive evaluation suite challenging AI agents across the complete scientific workflow from experimental design to results analysis. We find that state of the art models struggle with basic tasks and coordination scenarios. Notably, Claude 3.5 sonnet performs unexpectedly poorly despite excelling in materials domain question answering (QA) benchmarks, revealing that domain specific QA proficiency does not necessarily translate to effective agentic capabilities. Additionally, we observe that LLMs can deviate from instructions, raising safety alignment concerns for SDL applications. Our ablations reveal that multi agent frameworks outperform single-agent architectures. We also observe significant prompt fragility, where slight modifications in prompt structure cause substantial performance variations in capable models like GPT 4o. Finally, we evaluate AILA's effectiveness in increasingly advanced experiments AFM calibration, feature detection, mechanical property measurement, graphene layer counting, and indenter detection. Our findings underscore the necessity for rigorous benchmarking protocols and prompt engineering strategies before deploying AI laboratory assistants in scientific research environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Autonomous Microscopy Experiments through Large Language Model Agents"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) are revolutionizing self driving laboratories (SDLs) for materials research, promising unprecedented acceleration of scientific discovery. However, current SDL..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Autonomous Microscopy Experiments through Large Language Model Agents"
+    ],
+    "citation_author": [
+      "Mandal, Indrajeet",
+      "Soni, Jitendra",
+      "Zaki, Mohd",
+      "Smedskjaer, Morten M.",
+      "Wondraczek, Katrin",
+      "Wondraczek, Lothar",
+      "Gosvami, Nitya Nand",
+      "Krishnan, N. M. Anoop"
+    ],
+    "citation_date": [
+      "2024/12/18"
+    ],
+    "citation_online_date": [
+      "2025/07/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.10385"
+    ],
+    "citation_arxiv_id": [
+      "2501.10385"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) are revolutionizing self driving laboratories (SDLs) for materials research, promising unprecedented acceleration of scientific discovery. However, current SDL implementations rely on rigid protocols that fail to capture the adaptability and intuition of expert scientists in dynamic experimental settings. We introduce Artificially Intelligent Lab Assistant (AILA), a framework automating atomic force microscopy through LLM driven agents. Further, we develop AFMBench a comprehensive evaluation suite challenging AI agents across the complete scientific workflow from experimental design to results analysis. We find that state of the art models struggle with basic tasks and coordination scenarios. Notably, Claude 3.5 sonnet performs unexpectedly poorly despite excelling in materials domain question answering (QA) benchmarks, revealing that domain specific QA proficiency does not necessarily translate to effective agentic capabilities. Additionally, we observe that LLMs can deviate from instructions, raising safety alignment concerns for SDL applications. Our ablations reveal that multi agent frameworks outperform single-agent architectures. We also observe significant prompt fragility, where slight modifications in prompt structure cause substantial performance variations in capable models like GPT 4o. Finally, we evaluate AILA's effectiveness in increasingly advanced experiments AFM calibration, feature detection, mechanical property measurement, graphene layer counting, and indenter detection. Our findings underscore the necessity for rigorous benchmarking protocols and prompt engineering strategies before deploying AI laboratory assistants in scientific research environments."
+    ]
+  },
+  "html_sha256": "b0157489533b35d32f8db64a262f81101c910b9bacf52076f829d978015e7927",
+  "evidence_html": "evidence/38b6bbd91a26263cedba.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

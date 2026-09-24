@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2402.07945",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.07945",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "ScreenAgent: A Vision Language Model-driven Computer Control Agent",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.07945",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:01.817048+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.07945",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44513,
+  "title": "ScreenAgent: A Vision Language Model-driven Computer Control Agent",
+  "authors": [
+    "Niu, Runliang",
+    "Li, Jindong",
+    "Wang, Shiqi",
+    "Fu, Yali",
+    "Hu, Xiyu",
+    "Leng, Xueyuan",
+    "Kong, He",
+    "Chang, Yi",
+    "Wang, Qi"
+  ],
+  "first_author": "Niu, Runliang",
+  "year": 2024,
+  "source_date": "2024/02/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "Main Track. Pages 6433-6441",
+  "doi": "10.24963/ijcai.2024/711",
+  "arxiv_id": "2402.07945",
+  "abstract": "Existing Large Language Models (LLM) can invoke a variety of tools and APIs to complete complex tasks. The computer, as the most powerful and universal tool, could potentially be controlled directly by a trained LLM agent. Powered by the computer, we can hopefully build a more generalized agent to assist humans in various daily digital works. In this paper, we construct an environment for a Vision Language Model (VLM) agent to interact with a real computer screen. Within this environment, the agent can observe screenshots and manipulate the Graphics User Interface (GUI) by outputting mouse and keyboard actions. We also design an automated control pipeline that includes planning, acting, and reflecting phases, guiding the agent to continuously interact with the environment and complete multi-step tasks. Additionally, we construct the ScreenAgent Dataset, which collects screenshots and action sequences when completing a variety of daily computer tasks. Finally, we trained a model, ScreenAgent, which achieved computer control capabilities comparable to GPT-4V and demonstrated more precise UI positioning capabilities. Our attempts could inspire further research on building a generalist LLM agent. The code is available at \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.07945: ScreenAgent: A Vision Language Model-driven Computer Control Agent"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ScreenAgent: A Vision Language Model-driven Computer Control Agent"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.07945v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Existing Large Language Models (LLM) can invoke a variety of tools and APIs to complete complex tasks. The computer, as the most powerful and universal tool, could potentially be controlled directly by a trained LLM agent. Powered by the computer, we can hopefully build a more generalized agent to assist humans in various daily digital works. In this paper, we construct an environment for a Vision Language Model (VLM) agent to interact with a real computer screen. Within this environment, the agent can observe screenshots and manipulate the Graphics User Interface (GUI) by outputting mouse and keyboard actions. We also design an automated control pipeline that includes planning, acting, and reflecting phases, guiding the agent to continuously interact with the environment and complete multi-step tasks. Additionally, we construct the ScreenAgent Dataset, which collects screenshots and action sequences when completing a variety of daily computer tasks. Finally, we trained a model, ScreenAgent, which achieved computer control capabilities comparable to GPT-4V and demonstrated more precise UI positioning capabilities. Our attempts could inspire further research on building a generalist LLM agent. The code is available at \\url{https://github.com/niuzaisheng/ScreenAgent}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ScreenAgent: A Vision Language Model-driven Computer Control Agent"
+    ],
+    "twitter:description": [
+      "Existing Large Language Models (LLM) can invoke a variety of tools and APIs to complete complex tasks. The computer, as the most powerful and universal tool, could potentially be controlled..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ScreenAgent: A Vision Language Model-driven Computer Control Agent"
+    ],
+    "citation_author": [
+      "Niu, Runliang",
+      "Li, Jindong",
+      "Wang, Shiqi",
+      "Fu, Yali",
+      "Hu, Xiyu",
+      "Leng, Xueyuan",
+      "Kong, He",
+      "Chang, Yi",
+      "Wang, Qi"
+    ],
+    "citation_doi": [
+      "10.24963/ijcai.2024/711"
+    ],
+    "citation_date": [
+      "2024/02/09"
+    ],
+    "citation_online_date": [
+      "2024/02/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.07945"
+    ],
+    "citation_arxiv_id": [
+      "2402.07945"
+    ],
+    "citation_abstract": [
+      "Existing Large Language Models (LLM) can invoke a variety of tools and APIs to complete complex tasks. The computer, as the most powerful and universal tool, could potentially be controlled directly by a trained LLM agent. Powered by the computer, we can hopefully build a more generalized agent to assist humans in various daily digital works. In this paper, we construct an environment for a Vision Language Model (VLM) agent to interact with a real computer screen. Within this environment, the agent can observe screenshots and manipulate the Graphics User Interface (GUI) by outputting mouse and keyboard actions. We also design an automated control pipeline that includes planning, acting, and reflecting phases, guiding the agent to continuously interact with the environment and complete multi-step tasks. Additionally, we construct the ScreenAgent Dataset, which collects screenshots and action sequences when completing a variety of daily computer tasks. Finally, we trained a model, ScreenAgent, which achieved computer control capabilities comparable to GPT-4V and demonstrated more precise UI positioning capabilities. Our attempts could inspire further research on building a generalist LLM agent. The code is available at \\url{https://github.com/niuzaisheng/ScreenAgent}."
+    ]
+  },
+  "html_sha256": "78a24ca598378bf3a052e066799f94d92f19124a6b9f0360b06737cadbd80702",
+  "evidence_html": "evidence/c2d15ab64f344f260b86.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2411.04983",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.04983",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Dino-wm: World models on pre-trained visual features enable zero-shot planning",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.04983",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:44.566508+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.04983",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41967,
+  "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+  "authors": [
+    "Zhou, Gaoyue",
+    "Pan, Hengkai",
+    "LeCun, Yann",
+    "Pinto, Lerrel"
+  ],
+  "first_author": "Zhou, Gaoyue",
+  "year": 2024,
+  "source_date": "2024/11/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.04983",
+  "abstract": "The ability to predict future outcomes given control actions is fundamental for physical reasoning. However, such predictive models, often called world models, remains challenging to learn and are typically developed for task-specific solutions with online policy learning. To unlock world models' true potential, we argue that they should 1) be trainable on offline, pre-collected trajectories, 2) support test-time behavior optimization, and 3) facilitate task-agnostic reasoning. To this end, we present DINO World Model (DINO-WM), a new method to model visual dynamics without reconstructing the visual world. DINO-WM leverages spatial patch features pre-trained with DINOv2, enabling it to learn from offline behavioral trajectories by predicting future patch features. This allows DINO-WM to achieve observational goals through action sequence optimization, facilitating task-agnostic planning by treating goal features as prediction targets. We demonstrate that DINO-WM achieves zero-shot behavioral solutions at test time on six environments without expert demonstrations, reward modeling, or pre-learned inverse models, outperforming prior state-of-the-art work across diverse task families such as arbitrarily configured mazes, push manipulation with varied object shapes, and multi-particle scenarios.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.04983: DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.04983v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The ability to predict future outcomes given control actions is fundamental for physical reasoning. However, such predictive models, often called world models, remains challenging to learn and are typically developed for task-specific solutions with online policy learning. To unlock world models' true potential, we argue that they should 1) be trainable on offline, pre-collected trajectories, 2) support test-time behavior optimization, and 3) facilitate task-agnostic reasoning. To this end, we present DINO World Model (DINO-WM), a new method to model visual dynamics without reconstructing the visual world. DINO-WM leverages spatial patch features pre-trained with DINOv2, enabling it to learn from offline behavioral trajectories by predicting future patch features. This allows DINO-WM to achieve observational goals through action sequence optimization, facilitating task-agnostic planning by treating goal features as prediction targets. We demonstrate that DINO-WM achieves zero-shot behavioral solutions at test time on six environments without expert demonstrations, reward modeling, or pre-learned inverse models, outperforming prior state-of-the-art work across diverse task families such as arbitrarily configured mazes, push manipulation with varied object shapes, and multi-particle scenarios."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DINO-WM: World Models on Pre-trained Visual Features enable..."
+    ],
+    "twitter:description": [
+      "The ability to predict future outcomes given control actions is fundamental for physical reasoning. However, such predictive models, often called world models, remains challenging to learn and are..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning"
+    ],
+    "citation_author": [
+      "Zhou, Gaoyue",
+      "Pan, Hengkai",
+      "LeCun, Yann",
+      "Pinto, Lerrel"
+    ],
+    "citation_date": [
+      "2024/11/07"
+    ],
+    "citation_online_date": [
+      "2025/02/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.04983"
+    ],
+    "citation_arxiv_id": [
+      "2411.04983"
+    ],
+    "citation_abstract": [
+      "The ability to predict future outcomes given control actions is fundamental for physical reasoning. However, such predictive models, often called world models, remains challenging to learn and are typically developed for task-specific solutions with online policy learning. To unlock world models' true potential, we argue that they should 1) be trainable on offline, pre-collected trajectories, 2) support test-time behavior optimization, and 3) facilitate task-agnostic reasoning. To this end, we present DINO World Model (DINO-WM), a new method to model visual dynamics without reconstructing the visual world. DINO-WM leverages spatial patch features pre-trained with DINOv2, enabling it to learn from offline behavioral trajectories by predicting future patch features. This allows DINO-WM to achieve observational goals through action sequence optimization, facilitating task-agnostic planning by treating goal features as prediction targets. We demonstrate that DINO-WM achieves zero-shot behavioral solutions at test time on six environments without expert demonstrations, reward modeling, or pre-learned inverse models, outperforming prior state-of-the-art work across diverse task families such as arbitrarily configured mazes, push manipulation with varied object shapes, and multi-particle scenarios."
+    ]
+  },
+  "html_sha256": "b110dc4f0ade9f0181cd42c32dc3692faec40474bb9276f6e6622dea3c6db08b",
+  "evidence_html": "evidence/e9f82a363b1e1d819be9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,144 @@
+{
+  "url": "https://arxiv.org/abs/2306.02552",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2306.02552",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "User Behavior Simulation with Large Language Model based Agents. Lei Wang et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2306.02552",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:11.992176+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2306.02552",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42837,
+  "title": "User Behavior Simulation with Large Language Model based Agents",
+  "authors": [
+    "Wang, Lei",
+    "Zhang, Jingsen",
+    "Yang, Hao",
+    "Chen, Zhiyuan",
+    "Tang, Jiakai",
+    "Zhang, Zeyu",
+    "Chen, Xu",
+    "Lin, Yankai",
+    "Song, Ruihua",
+    "Zhao, Wayne Xin",
+    "Xu, Jun",
+    "Dou, Zhicheng",
+    "Wang, Jun",
+    "Wen, Ji-Rong"
+  ],
+  "first_author": "Wang, Lei",
+  "year": 2023,
+  "source_date": "2023/06/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2306.02552",
+  "abstract": "Simulating high quality user behavior data has always been a fundamental problem in human-centered applications, where the major difficulty originates from the intricate mechanism of human decision process. Recently, substantial evidences have suggested that by learning huge amounts of web knowledge, large language models (LLMs) can achieve human-like intelligence. We believe these models can provide significant opportunities to more believable user behavior simulation. To inspire such direction, we propose an LLM-based agent framework and design a sandbox environment to simulate real user behaviors. Based on extensive experiments, we find that the simulated behaviors of our method are very close to the ones of real humans. Concerning potential applications, we simulate and study two social phenomenons including (1) information cocoons and (2) user conformity behaviors. This research provides novel simulation paradigms for human-centered applications.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2306.02552: User Behavior Simulation with Large Language Model based Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "User Behavior Simulation with Large Language Model based Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2306.02552v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Simulating high quality user behavior data has always been a fundamental problem in human-centered applications, where the major difficulty originates from the intricate mechanism of human decision process. Recently, substantial evidences have suggested that by learning huge amounts of web knowledge, large language models (LLMs) can achieve human-like intelligence. We believe these models can provide significant opportunities to more believable user behavior simulation. To inspire such direction, we propose an LLM-based agent framework and design a sandbox environment to simulate real user behaviors. Based on extensive experiments, we find that the simulated behaviors of our method are very close to the ones of real humans. Concerning potential applications, we simulate and study two social phenomenons including (1) information cocoons and (2) user conformity behaviors. This research provides novel simulation paradigms for human-centered applications."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "User Behavior Simulation with Large Language Model based Agents"
+    ],
+    "twitter:description": [
+      "Simulating high quality user behavior data has always been a fundamental problem in human-centered applications, where the major difficulty originates from the intricate mechanism of human..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "User Behavior Simulation with Large Language Model based Agents"
+    ],
+    "citation_author": [
+      "Wang, Lei",
+      "Zhang, Jingsen",
+      "Yang, Hao",
+      "Chen, Zhiyuan",
+      "Tang, Jiakai",
+      "Zhang, Zeyu",
+      "Chen, Xu",
+      "Lin, Yankai",
+      "Song, Ruihua",
+      "Zhao, Wayne Xin",
+      "Xu, Jun",
+      "Dou, Zhicheng",
+      "Wang, Jun",
+      "Wen, Ji-Rong"
+    ],
+    "citation_date": [
+      "2023/06/05"
+    ],
+    "citation_online_date": [
+      "2024/02/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2306.02552"
+    ],
+    "citation_arxiv_id": [
+      "2306.02552"
+    ],
+    "citation_abstract": [
+      "Simulating high quality user behavior data has always been a fundamental problem in human-centered applications, where the major difficulty originates from the intricate mechanism of human decision process. Recently, substantial evidences have suggested that by learning huge amounts of web knowledge, large language models (LLMs) can achieve human-like intelligence. We believe these models can provide significant opportunities to more believable user behavior simulation. To inspire such direction, we propose an LLM-based agent framework and design a sandbox environment to simulate real user behaviors. Based on extensive experiments, we find that the simulated behaviors of our method are very close to the ones of real humans. Concerning potential applications, we simulate and study two social phenomenons including (1) information cocoons and (2) user conformity behaviors. This research provides novel simulation paradigms for human-centered applications."
+    ]
+  },
+  "html_sha256": "d1a3188b667ea6f94125d53e5a508ba6ac8935fb1480eb7fab7f361316d518a3",
+  "evidence_html": "evidence/1bac8623b7faf9c97f0f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

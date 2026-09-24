@@ -1,0 +1,161 @@
+{
+  "url": "https://arxiv.org/abs/2409.03215",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2409.03215",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "xLAM: A Family of Large Action Models to Empower AI Agent Systems",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2409.03215",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:16.010406+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2409.03215",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45075,
+  "title": "xLAM: A Family of Large Action Models to Empower AI Agent Systems",
+  "authors": [
+    "Zhang, Jianguo",
+    "Lan, Tian",
+    "Zhu, Ming",
+    "Liu, Zuxin",
+    "Hoang, Thai",
+    "Kokane, Shirley",
+    "Yao, Weiran",
+    "Tan, Juntao",
+    "Prabhakar, Akshara",
+    "Chen, Haolin",
+    "Liu, Zhiwei",
+    "Feng, Yihao",
+    "Awalgaonkar, Tulika",
+    "Murthy, Rithesh",
+    "Hu, Eric",
+    "Chen, Zeyuan",
+    "Xu, Ran",
+    "Niebles, Juan Carlos",
+    "Heinecke, Shelby",
+    "Wang, Huan",
+    "Savarese, Silvio",
+    "Xiong, Caiming"
+  ],
+  "first_author": "Zhang, Jianguo",
+  "year": 2024,
+  "source_date": "2024/09/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2409.03215",
+  "abstract": "Autonomous agents powered by large language models (LLMs) have attracted significant research interest. However, the open-source community faces many challenges in developing specialized models for agent tasks, driven by the scarcity of high-quality agent datasets and the absence of standard protocols in this area. We introduce and publicly release xLAM, a series of large action models designed for AI agent tasks. The xLAM series includes five models with both dense and mixture-of-expert architectures, ranging from 1B to 8x22B parameters, trained using a scalable, flexible pipeline that unifies, augments, and synthesizes diverse datasets to enhance AI agents' generalizability and performance across varied environments. Our experimental results demonstrate that xLAM consistently delivers exceptional performance across multiple agent ability benchmarks, notably securing the 1st position on the Berkeley Function-Calling Leaderboard, outperforming GPT-4, Claude-3, and many other models in terms of tool use. By releasing the xLAM series, we aim to advance the performance of open-source LLMs for autonomous AI agents, potentially accelerating progress and democratizing access to high-performance models for agent tasks. Models are available at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2409.03215: xLAM: A Family of Large Action Models to Empower AI Agent Systems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "xLAM: A Family of Large Action Models to Empower AI Agent Systems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2409.03215v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous agents powered by large language models (LLMs) have attracted significant research interest. However, the open-source community faces many challenges in developing specialized models for agent tasks, driven by the scarcity of high-quality agent datasets and the absence of standard protocols in this area. We introduce and publicly release xLAM, a series of large action models designed for AI agent tasks. The xLAM series includes five models with both dense and mixture-of-expert architectures, ranging from 1B to 8x22B parameters, trained using a scalable, flexible pipeline that unifies, augments, and synthesizes diverse datasets to enhance AI agents' generalizability and performance across varied environments. Our experimental results demonstrate that xLAM consistently delivers exceptional performance across multiple agent ability benchmarks, notably securing the 1st position on the Berkeley Function-Calling Leaderboard, outperforming GPT-4, Claude-3, and many other models in terms of tool use. By releasing the xLAM series, we aim to advance the performance of open-source LLMs for autonomous AI agents, potentially accelerating progress and democratizing access to high-performance models for agent tasks. Models are available at https://huggingface.co/collections/Salesforce/xlam-models-65f00e2a0a63bbcd1c2dade4"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "xLAM: A Family of Large Action Models to Empower AI Agent Systems"
+    ],
+    "twitter:description": [
+      "Autonomous agents powered by large language models (LLMs) have attracted significant research interest. However, the open-source community faces many challenges in developing specialized models..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "xLAM: A Family of Large Action Models to Empower AI Agent Systems"
+    ],
+    "citation_author": [
+      "Zhang, Jianguo",
+      "Lan, Tian",
+      "Zhu, Ming",
+      "Liu, Zuxin",
+      "Hoang, Thai",
+      "Kokane, Shirley",
+      "Yao, Weiran",
+      "Tan, Juntao",
+      "Prabhakar, Akshara",
+      "Chen, Haolin",
+      "Liu, Zhiwei",
+      "Feng, Yihao",
+      "Awalgaonkar, Tulika",
+      "Murthy, Rithesh",
+      "Hu, Eric",
+      "Chen, Zeyuan",
+      "Xu, Ran",
+      "Niebles, Juan Carlos",
+      "Heinecke, Shelby",
+      "Wang, Huan",
+      "Savarese, Silvio",
+      "Xiong, Caiming"
+    ],
+    "citation_date": [
+      "2024/09/05"
+    ],
+    "citation_online_date": [
+      "2024/09/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2409.03215"
+    ],
+    "citation_arxiv_id": [
+      "2409.03215"
+    ],
+    "citation_abstract": [
+      "Autonomous agents powered by large language models (LLMs) have attracted significant research interest. However, the open-source community faces many challenges in developing specialized models for agent tasks, driven by the scarcity of high-quality agent datasets and the absence of standard protocols in this area. We introduce and publicly release xLAM, a series of large action models designed for AI agent tasks. The xLAM series includes five models with both dense and mixture-of-expert architectures, ranging from 1B to 8x22B parameters, trained using a scalable, flexible pipeline that unifies, augments, and synthesizes diverse datasets to enhance AI agents' generalizability and performance across varied environments. Our experimental results demonstrate that xLAM consistently delivers exceptional performance across multiple agent ability benchmarks, notably securing the 1st position on the Berkeley Function-Calling Leaderboard, outperforming GPT-4, Claude-3, and many other models in terms of tool use. By releasing the xLAM series, we aim to advance the performance of open-source LLMs for autonomous AI agents, potentially accelerating progress and democratizing access to high-performance models for agent tasks. Models are available at https://huggingface.co/collections/Salesforce/xlam-models-65f00e2a0a63bbcd1c2dade4"
+    ]
+  },
+  "html_sha256": "cf7b85c75fafd02366c401e6b5ca31c322368c893a3f3da586160981255a8b02",
+  "evidence_html": "evidence/c25884a52fec3ea09c74.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

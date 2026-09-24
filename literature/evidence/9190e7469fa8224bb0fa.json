@@ -1,0 +1,155 @@
+{
+  "url": "https://arxiv.org/abs/1910.07113",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1910.07113",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2019 · ADR — Solving Rubik's Cube with a Robot Hand",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1910.07113",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:58.329045+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1910.07113",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45392,
+  "title": "Solving Rubik's Cube with a Robot Hand",
+  "authors": [
+    "OpenAI",
+    "Akkaya, Ilge",
+    "Andrychowicz, Marcin",
+    "Chociej, Maciek",
+    "Litwin, Mateusz",
+    "McGrew, Bob",
+    "Petron, Arthur",
+    "Paino, Alex",
+    "Plappert, Matthias",
+    "Powell, Glenn",
+    "Ribas, Raphael",
+    "Schneider, Jonas",
+    "Tezak, Nikolas",
+    "Tworek, Jerry",
+    "Welinder, Peter",
+    "Weng, Lilian",
+    "Yuan, Qiming",
+    "Zaremba, Wojciech",
+    "Zhang, Lei"
+  ],
+  "first_author": "OpenAI",
+  "year": 2019,
+  "source_date": "2019/10/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1910.07113",
+  "abstract": "We demonstrate that models trained only in simulation can be used to solve a manipulation problem of unprecedented complexity on a real robot. This is made possible by two key components: a novel algorithm, which we call automatic domain randomization (ADR) and a robot platform built for machine learning. ADR automatically generates a distribution over randomized environments of ever-increasing difficulty. Control policies and vision state estimators trained with ADR exhibit vastly improved sim2real transfer. For control policies, memory-augmented models trained on an ADR-generated distribution of environments show clear signs of emergent meta-learning at test time. The combination of ADR with our custom robot platform allows us to solve a Rubik's cube with a humanoid robot hand, which involves both control and state estimation problems. Videos summarizing our results are available: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1910.07113: Solving Rubik's Cube with a Robot Hand"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Solving Rubik's Cube with a Robot Hand"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1910.07113v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We demonstrate that models trained only in simulation can be used to solve a manipulation problem of unprecedented complexity on a real robot. This is made possible by two key components: a novel algorithm, which we call automatic domain randomization (ADR) and a robot platform built for machine learning. ADR automatically generates a distribution over randomized environments of ever-increasing difficulty. Control policies and vision state estimators trained with ADR exhibit vastly improved sim2real transfer. For control policies, memory-augmented models trained on an ADR-generated distribution of environments show clear signs of emergent meta-learning at test time. The combination of ADR with our custom robot platform allows us to solve a Rubik's cube with a humanoid robot hand, which involves both control and state estimation problems. Videos summarizing our results are available: https://openai.com/blog/solving-rubiks-cube/"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Solving Rubik's Cube with a Robot Hand"
+    ],
+    "twitter:description": [
+      "We demonstrate that models trained only in simulation can be used to solve a manipulation problem of unprecedented complexity on a real robot. This is made possible by two key components: a novel..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Solving Rubik's Cube with a Robot Hand"
+    ],
+    "citation_author": [
+      "OpenAI",
+      "Akkaya, Ilge",
+      "Andrychowicz, Marcin",
+      "Chociej, Maciek",
+      "Litwin, Mateusz",
+      "McGrew, Bob",
+      "Petron, Arthur",
+      "Paino, Alex",
+      "Plappert, Matthias",
+      "Powell, Glenn",
+      "Ribas, Raphael",
+      "Schneider, Jonas",
+      "Tezak, Nikolas",
+      "Tworek, Jerry",
+      "Welinder, Peter",
+      "Weng, Lilian",
+      "Yuan, Qiming",
+      "Zaremba, Wojciech",
+      "Zhang, Lei"
+    ],
+    "citation_date": [
+      "2019/10/16"
+    ],
+    "citation_online_date": [
+      "2019/10/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1910.07113"
+    ],
+    "citation_arxiv_id": [
+      "1910.07113"
+    ],
+    "citation_abstract": [
+      "We demonstrate that models trained only in simulation can be used to solve a manipulation problem of unprecedented complexity on a real robot. This is made possible by two key components: a novel algorithm, which we call automatic domain randomization (ADR) and a robot platform built for machine learning. ADR automatically generates a distribution over randomized environments of ever-increasing difficulty. Control policies and vision state estimators trained with ADR exhibit vastly improved sim2real transfer. For control policies, memory-augmented models trained on an ADR-generated distribution of environments show clear signs of emergent meta-learning at test time. The combination of ADR with our custom robot platform allows us to solve a Rubik's cube with a humanoid robot hand, which involves both control and state estimation problems. Videos summarizing our results are available: https://openai.com/blog/solving-rubiks-cube/"
+    ]
+  },
+  "html_sha256": "4df4e4f20778b097131eb0619add0d6f0ca7d15a790541530b4ecb519a00d64d",
+  "evidence_html": "evidence/9190e7469fa8224bb0fa.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,126 @@
+{
+  "url": "https://proceedings.mlr.press/v267/gao25u.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v267/gao25u.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Adaworld: Learning adaptable world models with latent actions",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v267/gao25u.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:41.858702+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v267/gao25u.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 16157,
+  "title": "AdaWorld: Learning Adaptable World Models with Latent Actions",
+  "authors": [
+    "Shenyuan Gao",
+    "Siyuan Zhou",
+    "Yilun Du",
+    "Jun Zhang",
+    "Chuang Gan"
+  ],
+  "first_author": "Shenyuan Gao",
+  "year": 2025,
+  "source_date": "2025/10/06",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "World models aim to learn action-controlled future prediction and have proven essential for the development of intelligent agents. However, most existing world models rely heavily on substantial action-labeled data and costly training, making it challenging to adapt to novel environments with heterogeneous actions through limited interactions. This limitation can hinder their applicability across broader domains. To overcome this limitation, we propose AdaWorld, an innovative world model learning approach that enables efficient adaptation. The key idea is to incorporate action information during the pretraining of world models. This is achieved by extracting latent actions from videos in a self-supervised manner, capturing the most critical transitions between frames. We then develop an autoregressive world model that conditions on these latent actions. This learning paradigm enables highly adaptable world models, facilitating efficient transfer and learning of new actions even with limited interactions and finetuning. Our comprehensive experiments across multiple environments demonstrate that AdaWorld achieves superior performance in both simulation quality and visual planning.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "AdaWorld: Learning Adaptable World Models with Latent ActionsShenyuan Gao, Siyuan Zhou, Yilun Du, Jun Zhang, Chuang GanWorld models aim t..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "AdaWorld: Learning Adaptable World Models with Latent Actions"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v267/gao25u.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/gao25u/gao25u.pdf"
+    ],
+    "citation_firstpage": [
+      "18744"
+    ],
+    "citation_lastpage": [
+      "18771"
+    ],
+    "citation_author": [
+      "Shenyuan Gao",
+      "Siyuan Zhou",
+      "Yilun Du",
+      "Jun Zhang",
+      "Chuang Gan"
+    ],
+    "citation_publication_date": [
+      "2025/10/06"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AdaWorld: Learning Adaptable World Models with Latent Actions"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "World models aim to learn action-controlled future prediction and have proven essential for the development of intelligent agents. However, most existing wor..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "AdaWorld: Learning Adaptable World Models with Latent Actions"
+    ],
+    "og:description": [
+      "World models aim to learn action-controlled future prediction and have proven essential for the development of intelligent agents. However, most existing world models rely heavily on substantial ac..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2025-10-06T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v267/gao25u.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "022d9e367b8278a51c032840795cd5a724cea1c8d0959779e1b6b8dfebfd0401",
+  "evidence_html": "evidence/ca883d875395dd7ff120.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

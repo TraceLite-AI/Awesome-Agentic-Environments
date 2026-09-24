@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2601.22130",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.22130",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "World of workflows: a benchmark for bringing world models to enterprise systems",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.22130",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:24.118128+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.22130",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42864,
+  "title": "World of Workflows: A Benchmark for Bringing World Models to Enterprise Systems",
+  "authors": [
+    "Gupta, Lakshya",
+    "Li, Litao",
+    "Liu, Yizhe",
+    "Subramanian, Sriram Ganapathi",
+    "Suleman, Kaheer",
+    "Zhang, Zichen",
+    "Lu, Haoye",
+    "Pasupalak, Sumit"
+  ],
+  "first_author": "Gupta, Lakshya",
+  "year": 2026,
+  "source_date": "2026/01/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.22130",
+  "abstract": "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across interconnected databases. Existing enterprise benchmarks evaluate surface-level agentic task completion similar to general consumer benchmarks, ignoring true challenges in enterprises, such as limited observability, large database state, and hidden workflows with cascading side effects. We introduce World of Workflows (WoW), a realistic ServiceNow-based environment incorporating 4,000+ business rules and 55 active workflows embedded in the system, alongside WoW-bench, a benchmark of 234 tasks evaluating constrained agentic task completion and enterprise dynamics modeling capabilities. We reveal two major takeaways: (1) Frontier LLMs suffer from dynamics blindness, consistently failing to predict the invisible, cascading side effects of their actions, which leads to silent constraint violations, and (2) reliability in opaque systems requires grounded world modeling, where agents must mentally simulate hidden state transitions to bridge the observability gap when high-fidelity feedback is unavailable. For reliable and useful enterprise agents, WoW motivates a new paradigm to explicitly learn system dynamics. We release our GitHub for setting up and evaluating WoW.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.22130: World of Workflows: A Benchmark for Bringing World Models to Enterprise Systems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "World of Workflows: A Benchmark for Bringing World Models to Enterprise Systems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.22130v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across interconnected databases. Existing enterprise benchmarks evaluate surface-level agentic task completion similar to general consumer benchmarks, ignoring true challenges in enterprises, such as limited observability, large database state, and hidden workflows with cascading side effects. We introduce World of Workflows (WoW), a realistic ServiceNow-based environment incorporating 4,000+ business rules and 55 active workflows embedded in the system, alongside WoW-bench, a benchmark of 234 tasks evaluating constrained agentic task completion and enterprise dynamics modeling capabilities. We reveal two major takeaways: (1) Frontier LLMs suffer from dynamics blindness, consistently failing to predict the invisible, cascading side effects of their actions, which leads to silent constraint violations, and (2) reliability in opaque systems requires grounded world modeling, where agents must mentally simulate hidden state transitions to bridge the observability gap when high-fidelity feedback is unavailable. For reliable and useful enterprise agents, WoW motivates a new paradigm to explicitly learn system dynamics. We release our GitHub for setting up and evaluating WoW."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "World of Workflows: A Benchmark for Bringing World Models to..."
+    ],
+    "twitter:description": [
+      "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "World of Workflows: A Benchmark for Bringing World Models to Enterprise Systems"
+    ],
+    "citation_author": [
+      "Gupta, Lakshya",
+      "Li, Litao",
+      "Liu, Yizhe",
+      "Subramanian, Sriram Ganapathi",
+      "Suleman, Kaheer",
+      "Zhang, Zichen",
+      "Lu, Haoye",
+      "Pasupalak, Sumit"
+    ],
+    "citation_date": [
+      "2026/01/29"
+    ],
+    "citation_online_date": [
+      "2026/02/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.22130"
+    ],
+    "citation_arxiv_id": [
+      "2601.22130"
+    ],
+    "citation_abstract": [
+      "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across interconnected databases. Existing enterprise benchmarks evaluate surface-level agentic task completion similar to general consumer benchmarks, ignoring true challenges in enterprises, such as limited observability, large database state, and hidden workflows with cascading side effects. We introduce World of Workflows (WoW), a realistic ServiceNow-based environment incorporating 4,000+ business rules and 55 active workflows embedded in the system, alongside WoW-bench, a benchmark of 234 tasks evaluating constrained agentic task completion and enterprise dynamics modeling capabilities. We reveal two major takeaways: (1) Frontier LLMs suffer from dynamics blindness, consistently failing to predict the invisible, cascading side effects of their actions, which leads to silent constraint violations, and (2) reliability in opaque systems requires grounded world modeling, where agents must mentally simulate hidden state transitions to bridge the observability gap when high-fidelity feedback is unavailable. For reliable and useful enterprise agents, WoW motivates a new paradigm to explicitly learn system dynamics. We release our GitHub for setting up and evaluating WoW."
+    ]
+  },
+  "html_sha256": "6e362f019fcc96443b89b89e7085e56788ec03a59909994ca3137b9eabd26730",
+  "evidence_html": "evidence/cc28c7ef95968449e3ec.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

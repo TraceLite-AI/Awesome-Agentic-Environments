@@ -1,0 +1,295 @@
+{
+  "url": "https://arxiv.org/abs/2601.11868",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.11868",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Terminal-bench: Benchmarking agents on hard, realistic tasks in command line interfaces",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.11868",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-4",
+      "topic": "Agent benchmark",
+      "title_hint": "Merrill et al. Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces. arXiv:2601.11868.",
+      "existing_reference_number": 4,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.11868",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:25.558188+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.11868",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 53747,
+  "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+  "authors": [
+    "Merrill, Mike A.",
+    "Shaw, Alexander G.",
+    "Carlini, Nicholas",
+    "Li, Boxuan",
+    "Raj, Harsh",
+    "Bercovich, Ivan",
+    "Shi, Lin",
+    "Shin, Jeong Yeon",
+    "Walshe, Thomas",
+    "Buchanan, E. Kelly",
+    "Shen, Junhong",
+    "Ye, Guanghao",
+    "Lin, Haowei",
+    "Poulos, Jason",
+    "Wang, Maoyu",
+    "Nezhurina, Marianna",
+    "Jitsev, Jenia",
+    "Lu, Di",
+    "Mastromichalakis, Orfeas Menis",
+    "Xu, Zhiwei",
+    "Chen, Zizhao",
+    "Liu, Yue",
+    "Zhang, Robert",
+    "Chen, Leon Liangyu",
+    "Kashyap, Anurag",
+    "Uslu, Jan-Lucas",
+    "Li, Jeffrey",
+    "Wu, Jianbo",
+    "Yan, Minghao",
+    "Bian, Song",
+    "Sharma, Vedang",
+    "Sun, Ke",
+    "Dillmann, Steven",
+    "Anand, Akshay",
+    "Lanpouthakoun, Andrew",
+    "Koopah, Bardia",
+    "Hu, Changran",
+    "Guha, Etash",
+    "Dreiman, Gabriel H. S.",
+    "Zhu, Jiacheng",
+    "Krauth, Karl",
+    "Zhong, Li",
+    "Muennighoff, Niklas",
+    "Amanfu, Robert",
+    "Tan, Shangyin",
+    "Pimpalgaonkar, Shreyas",
+    "Aggarwal, Tushar",
+    "Lin, Xiangning",
+    "Lan, Xin",
+    "Zhao, Xuandong",
+    "Liang, Yiqing",
+    "Wang, Yuanli",
+    "Wang, Zilong",
+    "Zhou, Changzhi",
+    "Heineman, David",
+    "Liu, Hange",
+    "Trivedi, Harsh",
+    "Yang, John",
+    "Lin, Junhong",
+    "Shetty, Manish",
+    "Yang, Michael",
+    "Omi, Nabil",
+    "Raoof, Negin",
+    "Li, Shanda",
+    "Zhuo, Terry Yue",
+    "Lin, Wuwei",
+    "Dai, Yiwei",
+    "Wang, Yuxin",
+    "Chai, Wenhao",
+    "Zhou, Shang",
+    "Wahdany, Dariush",
+    "She, Ziyu",
+    "Hu, Jiaming",
+    "Dong, Zhikang",
+    "Zhu, Yuxuan",
+    "Cui, Sasha",
+    "Saiyed, Ahson",
+    "Kolbeinsson, Arinbjörn",
+    "Hu, Jesse",
+    "Rytting, Christopher Michael",
+    "Marten, Ryan",
+    "Wang, Yixin",
+    "Dimakis, Alex",
+    "Konwinski, Andy",
+    "Schmidt, Ludwig"
+  ],
+  "first_author": "Merrill, Mike A.",
+  "year": 2026,
+  "source_date": "2026/01/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.11868",
+  "abstract": "AI agents may soon become capable of autonomously completing valuable, long-horizon tasks in diverse domains. Current benchmarks either do not measure real-world tasks, or are not sufficiently difficult to meaningfully measure frontier models. To this end, we present Terminal-Bench 2.0: a carefully curated hard benchmark composed of 89 tasks in computer terminal environments inspired by problems from real workflows. Each task features a unique environment, human-written solution, and comprehensive tests for verification. We show that frontier models and agents score less than 65\\% on the benchmark and conduct an error analysis to identify areas for model and agent improvement. We publish the dataset and evaluation harness to assist developers and researchers in future work at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.11868: Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.11868v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "AI agents may soon become capable of autonomously completing valuable, long-horizon tasks in diverse domains. Current benchmarks either do not measure real-world tasks, or are not sufficiently difficult to meaningfully measure frontier models. To this end, we present Terminal-Bench 2.0: a carefully curated hard benchmark composed of 89 tasks in computer terminal environments inspired by problems from real workflows. Each task features a unique environment, human-written solution, and comprehensive tests for verification. We show that frontier models and agents score less than 65\\% on the benchmark and conduct an error analysis to identify areas for model and agent improvement. We publish the dataset and evaluation harness to assist developers and researchers in future work at https://www.tbench.ai/ ."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in..."
+    ],
+    "twitter:description": [
+      "AI agents may soon become capable of autonomously completing valuable, long-horizon tasks in diverse domains. Current benchmarks either do not measure real-world tasks, or are not sufficiently..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+    ],
+    "citation_author": [
+      "Merrill, Mike A.",
+      "Shaw, Alexander G.",
+      "Carlini, Nicholas",
+      "Li, Boxuan",
+      "Raj, Harsh",
+      "Bercovich, Ivan",
+      "Shi, Lin",
+      "Shin, Jeong Yeon",
+      "Walshe, Thomas",
+      "Buchanan, E. Kelly",
+      "Shen, Junhong",
+      "Ye, Guanghao",
+      "Lin, Haowei",
+      "Poulos, Jason",
+      "Wang, Maoyu",
+      "Nezhurina, Marianna",
+      "Jitsev, Jenia",
+      "Lu, Di",
+      "Mastromichalakis, Orfeas Menis",
+      "Xu, Zhiwei",
+      "Chen, Zizhao",
+      "Liu, Yue",
+      "Zhang, Robert",
+      "Chen, Leon Liangyu",
+      "Kashyap, Anurag",
+      "Uslu, Jan-Lucas",
+      "Li, Jeffrey",
+      "Wu, Jianbo",
+      "Yan, Minghao",
+      "Bian, Song",
+      "Sharma, Vedang",
+      "Sun, Ke",
+      "Dillmann, Steven",
+      "Anand, Akshay",
+      "Lanpouthakoun, Andrew",
+      "Koopah, Bardia",
+      "Hu, Changran",
+      "Guha, Etash",
+      "Dreiman, Gabriel H. S.",
+      "Zhu, Jiacheng",
+      "Krauth, Karl",
+      "Zhong, Li",
+      "Muennighoff, Niklas",
+      "Amanfu, Robert",
+      "Tan, Shangyin",
+      "Pimpalgaonkar, Shreyas",
+      "Aggarwal, Tushar",
+      "Lin, Xiangning",
+      "Lan, Xin",
+      "Zhao, Xuandong",
+      "Liang, Yiqing",
+      "Wang, Yuanli",
+      "Wang, Zilong",
+      "Zhou, Changzhi",
+      "Heineman, David",
+      "Liu, Hange",
+      "Trivedi, Harsh",
+      "Yang, John",
+      "Lin, Junhong",
+      "Shetty, Manish",
+      "Yang, Michael",
+      "Omi, Nabil",
+      "Raoof, Negin",
+      "Li, Shanda",
+      "Zhuo, Terry Yue",
+      "Lin, Wuwei",
+      "Dai, Yiwei",
+      "Wang, Yuxin",
+      "Chai, Wenhao",
+      "Zhou, Shang",
+      "Wahdany, Dariush",
+      "She, Ziyu",
+      "Hu, Jiaming",
+      "Dong, Zhikang",
+      "Zhu, Yuxuan",
+      "Cui, Sasha",
+      "Saiyed, Ahson",
+      "Kolbeinsson, Arinbjörn",
+      "Hu, Jesse",
+      "Rytting, Christopher Michael",
+      "Marten, Ryan",
+      "Wang, Yixin",
+      "Dimakis, Alex",
+      "Konwinski, Andy",
+      "Schmidt, Ludwig"
+    ],
+    "citation_date": [
+      "2026/01/17"
+    ],
+    "citation_online_date": [
+      "2026/01/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.11868"
+    ],
+    "citation_arxiv_id": [
+      "2601.11868"
+    ],
+    "citation_abstract": [
+      "AI agents may soon become capable of autonomously completing valuable, long-horizon tasks in diverse domains. Current benchmarks either do not measure real-world tasks, or are not sufficiently difficult to meaningfully measure frontier models. To this end, we present Terminal-Bench 2.0: a carefully curated hard benchmark composed of 89 tasks in computer terminal environments inspired by problems from real workflows. Each task features a unique environment, human-written solution, and comprehensive tests for verification. We show that frontier models and agents score less than 65\\% on the benchmark and conduct an error analysis to identify areas for model and agent improvement. We publish the dataset and evaluation harness to assist developers and researchers in future work at https://www.tbench.ai/ ."
+    ]
+  },
+  "html_sha256": "48056dd2c223c4510d39bd6d06fd8079f7c8e7575276c30430e0186483623d36",
+  "evidence_html": "evidence/f6aa42bfdc1aff6ba2ca.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

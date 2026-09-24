@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2511.01047",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2511.01047",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "HAFixAgent: History-Aware Automated Program Repair Agent",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2511.01047",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:34.555598+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2511.01047",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42401,
+  "title": "HAFixAgent: History-Aware Program Repair Agent",
+  "authors": [
+    "Shi, Yu",
+    "Li, Hao",
+    "Adams, Bram",
+    "Hassan, Ahmed E."
+  ],
+  "first_author": "Shi, Yu",
+  "year": 2025,
+  "source_date": "2025/11/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2511.01047",
+  "abstract": "Automated program repair (APR) has recently shifted toward large language models and agent-based systems, yet most systems rely on local snapshot context, overlooking repository history. Prior work shows that repository history helps repair single-line bugs, since the last commit touching the buggy line is often the bug-introducing one. In this paper, we investigate whether repository history can also improve agentic APR systems at scale, especially for complex multi-hunk bugs. We present HAFixAgent, a History-Aware Bug-Fixing Agent that injects blame-derived repository heuristics into its repair loop. A preliminary study on 854 Defects4J (Java) and 501 BugsInPy (Python) bugs motivates our design, showing that bug-relevant history is widely available across both benchmarks. Using the same LLM (DeepSeek-V3.2-Exp) for all experiments, including replicated baselines, we show: (1) Effectiveness: HAFixAgent outperforms RepairAgent (+56.6\\%) and BIRCH-feedback (+47.1\\%) on Defects4J. Historical context further improves repair by +4.4\\% on Defects4J and +38.6\\% on BugsInPy, especially on single-file multi-hunk (SFMH) bugs. (2) Robustness: under noisy fault localization (+1/+3/+5 line shifts), history provides increasing resilience, maintaining 40 to 56\\% success on SFMH bugs where the non-history baseline collapses to 0\\%. (3) Efficiency: history does not significantly increase agent steps or token costs on either benchmark.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2511.01047: HAFixAgent: History-Aware Program Repair Agent"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "HAFixAgent: History-Aware Program Repair Agent"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2511.01047v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Automated program repair (APR) has recently shifted toward large language models and agent-based systems, yet most systems rely on local snapshot context, overlooking repository history. Prior work shows that repository history helps repair single-line bugs, since the last commit touching the buggy line is often the bug-introducing one. In this paper, we investigate whether repository history can also improve agentic APR systems at scale, especially for complex multi-hunk bugs. We present HAFixAgent, a History-Aware Bug-Fixing Agent that injects blame-derived repository heuristics into its repair loop. A preliminary study on 854 Defects4J (Java) and 501 BugsInPy (Python) bugs motivates our design, showing that bug-relevant history is widely available across both benchmarks. Using the same LLM (DeepSeek-V3.2-Exp) for all experiments, including replicated baselines, we show: (1) Effectiveness: HAFixAgent outperforms RepairAgent (+56.6\\%) and BIRCH-feedback (+47.1\\%) on Defects4J. Historical context further improves repair by +4.4\\% on Defects4J and +38.6\\% on BugsInPy, especially on single-file multi-hunk (SFMH) bugs. (2) Robustness: under noisy fault localization (+1/+3/+5 line shifts), history provides increasing resilience, maintaining 40 to 56\\% success on SFMH bugs where the non-history baseline collapses to 0\\%. (3) Efficiency: history does not significantly increase agent steps or token costs on either benchmark."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "HAFixAgent: History-Aware Program Repair Agent"
+    ],
+    "twitter:description": [
+      "Automated program repair (APR) has recently shifted toward large language models and agent-based systems, yet most systems rely on local snapshot context, overlooking repository history. Prior..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "HAFixAgent: History-Aware Program Repair Agent"
+    ],
+    "citation_author": [
+      "Shi, Yu",
+      "Li, Hao",
+      "Adams, Bram",
+      "Hassan, Ahmed E."
+    ],
+    "citation_date": [
+      "2025/11/02"
+    ],
+    "citation_online_date": [
+      "2026/04/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2511.01047"
+    ],
+    "citation_arxiv_id": [
+      "2511.01047"
+    ],
+    "citation_abstract": [
+      "Automated program repair (APR) has recently shifted toward large language models and agent-based systems, yet most systems rely on local snapshot context, overlooking repository history. Prior work shows that repository history helps repair single-line bugs, since the last commit touching the buggy line is often the bug-introducing one. In this paper, we investigate whether repository history can also improve agentic APR systems at scale, especially for complex multi-hunk bugs. We present HAFixAgent, a History-Aware Bug-Fixing Agent that injects blame-derived repository heuristics into its repair loop. A preliminary study on 854 Defects4J (Java) and 501 BugsInPy (Python) bugs motivates our design, showing that bug-relevant history is widely available across both benchmarks. Using the same LLM (DeepSeek-V3.2-Exp) for all experiments, including replicated baselines, we show: (1) Effectiveness: HAFixAgent outperforms RepairAgent (+56.6\\%) and BIRCH-feedback (+47.1\\%) on Defects4J. Historical context further improves repair by +4.4\\% on Defects4J and +38.6\\% on BugsInPy, especially on single-file multi-hunk (SFMH) bugs. (2) Robustness: under noisy fault localization (+1/+3/+5 line shifts), history provides increasing resilience, maintaining 40 to 56\\% success on SFMH bugs where the non-history baseline collapses to 0\\%. (3) Efficiency: history does not significantly increase agent steps or token costs on either benchmark."
+    ]
+  },
+  "html_sha256": "731f42035a1e15fc119210399d476f35ac3bffe3f438c4839a520f9452b7d4f7",
+  "evidence_html": "evidence/840914614472367c08c2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

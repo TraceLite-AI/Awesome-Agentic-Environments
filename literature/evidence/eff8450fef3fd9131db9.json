@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2410.07095",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.07095",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-12",
+      "topic": "Agent benchmark",
+      "title_hint": "Chan et al. MLE-bench. ICLR 2025. arXiv:2410.07095.",
+      "existing_reference_number": 12,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.07095",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:04.711038+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.07095",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43160,
+  "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+  "authors": [
+    "Chan, Jun Shern",
+    "Chowdhury, Neil",
+    "Jaffe, Oliver",
+    "Aung, James",
+    "Sherburn, Dane",
+    "Mays, Evan",
+    "Starace, Giulio",
+    "Liu, Kevin",
+    "Maksin, Leon",
+    "Patwardhan, Tejal",
+    "Weng, Lilian",
+    "Mądry, Aleksander"
+  ],
+  "first_author": "Chan, Jun Shern",
+  "year": 2024,
+  "source_date": "2024/10/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.07095",
+  "abstract": "We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering. To this end, we curate 75 ML engineering-related competitions from Kaggle, creating a diverse set of challenging tasks that test real-world ML engineering skills such as training models, preparing datasets, and running experiments. We establish human baselines for each competition using Kaggle's publicly available leaderboards. We use open-source agent scaffolds to evaluate several frontier language models on our benchmark, finding that the best-performing setup--OpenAI's o1-preview with AIDE scaffolding--achieves at least the level of a Kaggle bronze medal in 16.9% of competitions. In addition to our main results, we investigate various forms of resource scaling for AI agents and the impact of contamination from pre-training. We open-source our benchmark code ( this http URL ) to facilitate future research in understanding the ML engineering capabilities of AI agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.07095: MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.07095v6"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering. To this end, we curate 75 ML engineering-related competitions from Kaggle, creating a diverse set of challenging tasks that test real-world ML engineering skills such as training models, preparing datasets, and running experiments. We establish human baselines for each competition using Kaggle's publicly available leaderboards. We use open-source agent scaffolds to evaluate several frontier language models on our benchmark, finding that the best-performing setup--OpenAI's o1-preview with AIDE scaffolding--achieves at least the level of a Kaggle bronze medal in 16.9% of competitions. In addition to our main results, we investigate various forms of resource scaling for AI agents and the impact of contamination from pre-training. We open-source our benchmark code (github.com/openai/mle-bench/) to facilitate future research in understanding the ML engineering capabilities of AI agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MLE-bench: Evaluating Machine Learning Agents on Machine Learning..."
+    ],
+    "twitter:description": [
+      "We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering. To this end, we curate 75 ML engineering-related competitions from Kaggle, creating a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+    ],
+    "citation_author": [
+      "Chan, Jun Shern",
+      "Chowdhury, Neil",
+      "Jaffe, Oliver",
+      "Aung, James",
+      "Sherburn, Dane",
+      "Mays, Evan",
+      "Starace, Giulio",
+      "Liu, Kevin",
+      "Maksin, Leon",
+      "Patwardhan, Tejal",
+      "Weng, Lilian",
+      "Mądry, Aleksander"
+    ],
+    "citation_date": [
+      "2024/10/09"
+    ],
+    "citation_online_date": [
+      "2025/02/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.07095"
+    ],
+    "citation_arxiv_id": [
+      "2410.07095"
+    ],
+    "citation_abstract": [
+      "We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering. To this end, we curate 75 ML engineering-related competitions from Kaggle, creating a diverse set of challenging tasks that test real-world ML engineering skills such as training models, preparing datasets, and running experiments. We establish human baselines for each competition using Kaggle's publicly available leaderboards. We use open-source agent scaffolds to evaluate several frontier language models on our benchmark, finding that the best-performing setup--OpenAI's o1-preview with AIDE scaffolding--achieves at least the level of a Kaggle bronze medal in 16.9% of competitions. In addition to our main results, we investigate various forms of resource scaling for AI agents and the impact of contamination from pre-training. We open-source our benchmark code (github.com/openai/mle-bench/) to facilitate future research in understanding the ML engineering capabilities of AI agents."
+    ]
+  },
+  "html_sha256": "42819fcae1726e4f9a3cc8402d9aa5e179b1e2e802d770150b8905ca9fb9c08f",
+  "evidence_html": "evidence/eff8450fef3fd9131db9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

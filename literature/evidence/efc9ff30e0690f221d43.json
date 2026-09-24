@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2304.03442",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2304.03442",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Generative Agents- Interactive Simulacra of Human Behavior. Joon Sung Park et al",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.03442",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2304.03442",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:54.087901+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2304.03442",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44065,
+  "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+  "authors": [
+    "Park, Joon Sung",
+    "O'Brien, Joseph C.",
+    "Cai, Carrie J.",
+    "Morris, Meredith Ringel",
+    "Liang, Percy",
+    "Bernstein, Michael S."
+  ],
+  "first_author": "Park, Joon Sung",
+  "year": 2023,
+  "source_date": "2023/04/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2304.03442",
+  "abstract": "Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents--computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day. To enable generative agents, we describe an architecture that extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior. We instantiate generative agents to populate an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty five agents using natural language. In an evaluation, these generative agents produce believable individual and emergent social behaviors: for example, starting with only a single user-specified notion that one agent wants to throw a Valentine's Day party, the agents autonomously spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture--observation, planning, and reflection--each contribute critically to the believability of agent behavior. By fusing large language models with computational, interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2304.03442: Generative Agents: Interactive Simulacra of Human Behavior"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Generative Agents: Interactive Simulacra of Human Behavior"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2304.03442v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents--computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day. To enable generative agents, we describe an architecture that extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior. We instantiate generative agents to populate an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty five agents using natural language. In an evaluation, these generative agents produce believable individual and emergent social behaviors: for example, starting with only a single user-specified notion that one agent wants to throw a Valentine's Day party, the agents autonomously spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture--observation, planning, and reflection--each contribute critically to the believability of agent behavior. By fusing large language models with computational, interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Generative Agents: Interactive Simulacra of Human Behavior"
+    ],
+    "twitter:description": [
+      "Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Generative Agents: Interactive Simulacra of Human Behavior"
+    ],
+    "citation_author": [
+      "Park, Joon Sung",
+      "O'Brien, Joseph C.",
+      "Cai, Carrie J.",
+      "Morris, Meredith Ringel",
+      "Liang, Percy",
+      "Bernstein, Michael S."
+    ],
+    "citation_date": [
+      "2023/04/07"
+    ],
+    "citation_online_date": [
+      "2023/08/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2304.03442"
+    ],
+    "citation_arxiv_id": [
+      "2304.03442"
+    ],
+    "citation_abstract": [
+      "Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents--computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day. To enable generative agents, we describe an architecture that extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior. We instantiate generative agents to populate an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty five agents using natural language. In an evaluation, these generative agents produce believable individual and emergent social behaviors: for example, starting with only a single user-specified notion that one agent wants to throw a Valentine's Day party, the agents autonomously spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture--observation, planning, and reflection--each contribute critically to the believability of agent behavior. By fusing large language models with computational, interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior."
+    ]
+  },
+  "html_sha256": "c8d75b6bc96f872232c11b99ef01c5301afafe62066b204e5bc9b1db6db31a2f",
+  "evidence_html": "evidence/efc9ff30e0690f221d43.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

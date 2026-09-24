@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2302.02119",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2302.02119",
+      "discovery_url": "https://web.stanford.edu/~mrifaki/ued-readings.html",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Diversity Induced Environment Design via Self-Play",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2302.02119",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:58.195393+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2302.02119",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41317,
+  "title": "Diversity Induced Environment Design via Self-Play",
+  "authors": [
+    "Li, Dexun",
+    "Li, Wenjun",
+    "Varakantham, Pradeep"
+  ],
+  "first_author": "Li, Dexun",
+  "year": 2023,
+  "source_date": "2023/02/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2302.02119",
+  "abstract": "Recent work on designing an appropriate distribution of environments has shown promise for training effective generally capable agents. Its success is partly because of a form of adaptive curriculum learning that generates environment instances (or levels) at the frontier of the agent's capabilities. However, such an environment design framework often struggles to find effective levels in challenging design spaces and requires costly interactions with the environment. In this paper, we aim to introduce diversity in the Unsupervised Environment Design (UED) framework. Specifically, we propose a task-agnostic method to identify observed/hidden states that are representative of a given level. The outcome of this method is then utilized to characterize the diversity between two levels, which as we show can be crucial to effective performance. In addition, to improve sampling efficiency, we incorporate the self-play technique that allows the environment generator to automatically generate environments that are of great benefit to the training agent. Quantitatively, our approach, Diversity-induced Environment Design via Self-Play (DivSP), shows compelling performance over existing methods.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2302.02119: Diversity Induced Environment Design via Self-Play"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Diversity Induced Environment Design via Self-Play"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2302.02119v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent work on designing an appropriate distribution of environments has shown promise for training effective generally capable agents. Its success is partly because of a form of adaptive curriculum learning that generates environment instances (or levels) at the frontier of the agent's capabilities. However, such an environment design framework often struggles to find effective levels in challenging design spaces and requires costly interactions with the environment. In this paper, we aim to introduce diversity in the Unsupervised Environment Design (UED) framework. Specifically, we propose a task-agnostic method to identify observed/hidden states that are representative of a given level. The outcome of this method is then utilized to characterize the diversity between two levels, which as we show can be crucial to effective performance. In addition, to improve sampling efficiency, we incorporate the self-play technique that allows the environment generator to automatically generate environments that are of great benefit to the training agent. Quantitatively, our approach, Diversity-induced Environment Design via Self-Play (DivSP), shows compelling performance over existing methods."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Diversity Induced Environment Design via Self-Play"
+    ],
+    "twitter:description": [
+      "Recent work on designing an appropriate distribution of environments has shown promise for training effective generally capable agents. Its success is partly because of a form of adaptive..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Diversity Induced Environment Design via Self-Play"
+    ],
+    "citation_author": [
+      "Li, Dexun",
+      "Li, Wenjun",
+      "Varakantham, Pradeep"
+    ],
+    "citation_date": [
+      "2023/02/04"
+    ],
+    "citation_online_date": [
+      "2023/07/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2302.02119"
+    ],
+    "citation_arxiv_id": [
+      "2302.02119"
+    ],
+    "citation_abstract": [
+      "Recent work on designing an appropriate distribution of environments has shown promise for training effective generally capable agents. Its success is partly because of a form of adaptive curriculum learning that generates environment instances (or levels) at the frontier of the agent's capabilities. However, such an environment design framework often struggles to find effective levels in challenging design spaces and requires costly interactions with the environment. In this paper, we aim to introduce diversity in the Unsupervised Environment Design (UED) framework. Specifically, we propose a task-agnostic method to identify observed/hidden states that are representative of a given level. The outcome of this method is then utilized to characterize the diversity between two levels, which as we show can be crucial to effective performance. In addition, to improve sampling efficiency, we incorporate the self-play technique that allows the environment generator to automatically generate environments that are of great benefit to the training agent. Quantitatively, our approach, Diversity-induced Environment Design via Self-Play (DivSP), shows compelling performance over existing methods."
+    ]
+  },
+  "html_sha256": "0cfac81150e6c5cbcedacbfdf07d4288b6f1aed84cc6d1b1a516c19f0a33e065",
+  "evidence_html": "evidence/f83c0c53410288bb90f7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

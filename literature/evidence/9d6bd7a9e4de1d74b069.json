@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2608.17528",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2608.17528",
+      "discovery_url": "https://arxiv.org/abs/2608.17528",
+      "topic": "agent_training_and_rl",
+      "title_hint": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2608.17528",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:31.985446+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2608.17528",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43012,
+  "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+  "authors": [
+    "He, Zhiyuan",
+    "Zhang, Siwei",
+    "Zhou, Zhiwen",
+    "Yang, Yuqing",
+    "Kang, Yu",
+    "Zhang, Yuge",
+    "Qiu, Luna K.",
+    "Tsui, Tin Yan",
+    "Xu, Jiahang",
+    "Luo, Chong"
+  ],
+  "first_author": "He, Zhiyuan",
+  "year": 2026,
+  "source_date": "2026/08/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2608.17528",
+  "abstract": "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critical part of the agent system. Our original Agent Lightning introduced a disaggregated architecture that connects arbitrary agents to RL training through an LLM endpoint proxy, an approach later adopted by frameworks such as verl Uni-Agent, AReaL 2.0, slime, and Polar. We refer to this paradigm as harnessed agentic RL, where the deploy-time harness directly participates in model post-training. Harnessed agentic RL differs fundamentally from traditional agentic RL: the harness, rather than the training engine, owns the environment interaction loop, while the trainer observes only sequences of LLM request-response pairs. This introduces challenges in retokenization, sample merging, advantage calculation, loss normalization, and backend scheduling, which can substantially affect training stability and effectiveness. We present Agent Lightning v1.0, a lightweight framework for harnessed agentic RL implemented in approximately 3,500 lines of code. It supports arbitrary agent harnesses and serves as a practical testbed for studying these challenges. We evaluate it on instruction-following, search, and coding agents, and provide a complete reproducible pipeline for coding-agent RL. Using only 6K training examples and modest compute, RL improves Qwen3.5-9B on SWE-bench Verified from 41.8% to 56.4%, a 14.6-point absolute gain. We release the complete workflow and training scripts to facilitate reproducible research on harnessed agentic RL.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2608.17528: Agent Lightning v1.0: Towards Harnessed Agentic RL"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agent Lightning v1.0: Towards Harnessed Agentic RL"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2608.17528v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critical part of the agent system. Our original Agent Lightning introduced a disaggregated architecture that connects arbitrary agents to RL training through an LLM endpoint proxy, an approach later adopted by frameworks such as verl Uni-Agent, AReaL 2.0, slime, and Polar. We refer to this paradigm as harnessed agentic RL, where the deploy-time harness directly participates in model post-training. Harnessed agentic RL differs fundamentally from traditional agentic RL: the harness, rather than the training engine, owns the environment interaction loop, while the trainer observes only sequences of LLM request-response pairs. This introduces challenges in retokenization, sample merging, advantage calculation, loss normalization, and backend scheduling, which can substantially affect training stability and effectiveness. We present Agent Lightning v1.0, a lightweight framework for harnessed agentic RL implemented in approximately 3,500 lines of code. It supports arbitrary agent harnesses and serves as a practical testbed for studying these challenges. We evaluate it on instruction-following, search, and coding agents, and provide a complete reproducible pipeline for coding-agent RL. Using only 6K training examples and modest compute, RL improves Qwen3.5-9B on SWE-bench Verified from 41.8% to 56.4%, a 14.6-point absolute gain. We release the complete workflow and training scripts to facilitate reproducible research on harnessed agentic RL."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agent Lightning v1.0: Towards Harnessed Agentic RL"
+    ],
+    "twitter:description": [
+      "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critical part of the agent system. Our original Agent Lightning introduced a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agent Lightning v1.0: Towards Harnessed Agentic RL"
+    ],
+    "citation_author": [
+      "He, Zhiyuan",
+      "Zhang, Siwei",
+      "Zhou, Zhiwen",
+      "Yang, Yuqing",
+      "Kang, Yu",
+      "Zhang, Yuge",
+      "Qiu, Luna K.",
+      "Tsui, Tin Yan",
+      "Xu, Jiahang",
+      "Luo, Chong"
+    ],
+    "citation_date": [
+      "2026/08/18"
+    ],
+    "citation_online_date": [
+      "2026/08/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2608.17528"
+    ],
+    "citation_arxiv_id": [
+      "2608.17528"
+    ],
+    "citation_abstract": [
+      "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critical part of the agent system. Our original Agent Lightning introduced a disaggregated architecture that connects arbitrary agents to RL training through an LLM endpoint proxy, an approach later adopted by frameworks such as verl Uni-Agent, AReaL 2.0, slime, and Polar. We refer to this paradigm as harnessed agentic RL, where the deploy-time harness directly participates in model post-training. Harnessed agentic RL differs fundamentally from traditional agentic RL: the harness, rather than the training engine, owns the environment interaction loop, while the trainer observes only sequences of LLM request-response pairs. This introduces challenges in retokenization, sample merging, advantage calculation, loss normalization, and backend scheduling, which can substantially affect training stability and effectiveness. We present Agent Lightning v1.0, a lightweight framework for harnessed agentic RL implemented in approximately 3,500 lines of code. It supports arbitrary agent harnesses and serves as a practical testbed for studying these challenges. We evaluate it on instruction-following, search, and coding agents, and provide a complete reproducible pipeline for coding-agent RL. Using only 6K training examples and modest compute, RL improves Qwen3.5-9B on SWE-bench Verified from 41.8% to 56.4%, a 14.6-point absolute gain. We release the complete workflow and training scripts to facilitate reproducible research on harnessed agentic RL."
+    ]
+  },
+  "html_sha256": "048b49893ae7e0e78e614943b1f5dd2abbca1d0df5f25fa675f4bc51a10dcae9",
+  "evidence_html": "evidence/9d6bd7a9e4de1d74b069.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

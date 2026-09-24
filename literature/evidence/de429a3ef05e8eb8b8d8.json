@@ -1,0 +1,149 @@
+{
+  "url": "https://arxiv.org/abs/2407.01511",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.01511",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "CRAB",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.01511",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:49.712144+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.01511",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44164,
+  "title": "CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents",
+  "authors": [
+    "Xu, Tianqi",
+    "Chen, Linyao",
+    "Wu, Dai-Jie",
+    "Chen, Yanjun",
+    "Zhang, Zecheng",
+    "Yao, Xiang",
+    "Xie, Zhiqiang",
+    "Chen, Yongchao",
+    "Liu, Shilong",
+    "Qian, Bochen",
+    "Yang, Anjie",
+    "Jin, Zhaoxuan",
+    "Deng, Jianbo",
+    "Torr, Philip",
+    "Ghanem, Bernard",
+    "Li, Guohao"
+  ],
+  "first_author": "Xu, Tianqi",
+  "year": 2024,
+  "source_date": "2024/07/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.01511",
+  "abstract": "The development of autonomous agents increasingly relies on Multimodal Language Models (MLMs) to perform tasks described in natural language with GUI environments, such as websites, desktop computers, or mobile phones. Existing benchmarks for MLM agents in interactive environments are limited by their focus on a single environment, lack of detailed and generalized evaluation methods, and the complexities of constructing tasks and evaluators. To overcome these limitations, we introduce Crab, the first agent benchmark framework designed to support cross-environment tasks, incorporating a graph-based fine-grained evaluation method and an efficient mechanism for task and evaluator construction. Our framework supports multiple devices and can be easily extended to any environment with a Python interface. Leveraging Crab, we developed a cross-platform Crab Benchmark-v0 comprising 120 tasks in computer desktop and mobile phone environments. We evaluated four advanced MLMs using different single and multi-agent system configurations on this benchmark. The experimental results demonstrate that the single agent with GPT-4o achieves the best completion ratio of 38.01%. All framework code, agent code, and task datasets are publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.01511: CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.01511v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The development of autonomous agents increasingly relies on Multimodal Language Models (MLMs) to perform tasks described in natural language with GUI environments, such as websites, desktop computers, or mobile phones. Existing benchmarks for MLM agents in interactive environments are limited by their focus on a single environment, lack of detailed and generalized evaluation methods, and the complexities of constructing tasks and evaluators. To overcome these limitations, we introduce Crab, the first agent benchmark framework designed to support cross-environment tasks, incorporating a graph-based fine-grained evaluation method and an efficient mechanism for task and evaluator construction. Our framework supports multiple devices and can be easily extended to any environment with a Python interface. Leveraging Crab, we developed a cross-platform Crab Benchmark-v0 comprising 120 tasks in computer desktop and mobile phone environments. We evaluated four advanced MLMs using different single and multi-agent system configurations on this benchmark. The experimental results demonstrate that the single agent with GPT-4o achieves the best completion ratio of 38.01%. All framework code, agent code, and task datasets are publicly available at https://github.com/camel-ai/crab."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CRAB: Cross-environment Agent Benchmark for Multimodal Language..."
+    ],
+    "twitter:description": [
+      "The development of autonomous agents increasingly relies on Multimodal Language Models (MLMs) to perform tasks described in natural language with GUI environments, such as websites, desktop..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents"
+    ],
+    "citation_author": [
+      "Xu, Tianqi",
+      "Chen, Linyao",
+      "Wu, Dai-Jie",
+      "Chen, Yanjun",
+      "Zhang, Zecheng",
+      "Yao, Xiang",
+      "Xie, Zhiqiang",
+      "Chen, Yongchao",
+      "Liu, Shilong",
+      "Qian, Bochen",
+      "Yang, Anjie",
+      "Jin, Zhaoxuan",
+      "Deng, Jianbo",
+      "Torr, Philip",
+      "Ghanem, Bernard",
+      "Li, Guohao"
+    ],
+    "citation_date": [
+      "2024/07/01"
+    ],
+    "citation_online_date": [
+      "2025/07/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.01511"
+    ],
+    "citation_arxiv_id": [
+      "2407.01511"
+    ],
+    "citation_abstract": [
+      "The development of autonomous agents increasingly relies on Multimodal Language Models (MLMs) to perform tasks described in natural language with GUI environments, such as websites, desktop computers, or mobile phones. Existing benchmarks for MLM agents in interactive environments are limited by their focus on a single environment, lack of detailed and generalized evaluation methods, and the complexities of constructing tasks and evaluators. To overcome these limitations, we introduce Crab, the first agent benchmark framework designed to support cross-environment tasks, incorporating a graph-based fine-grained evaluation method and an efficient mechanism for task and evaluator construction. Our framework supports multiple devices and can be easily extended to any environment with a Python interface. Leveraging Crab, we developed a cross-platform Crab Benchmark-v0 comprising 120 tasks in computer desktop and mobile phone environments. We evaluated four advanced MLMs using different single and multi-agent system configurations on this benchmark. The experimental results demonstrate that the single agent with GPT-4o achieves the best completion ratio of 38.01%. All framework code, agent code, and task datasets are publicly available at https://github.com/camel-ai/crab."
+    ]
+  },
+  "html_sha256": "10f53478aee721ac11b0a014289bec9266ca0b541cdc7fe37498c5025c33139b",
+  "evidence_html": "evidence/de429a3ef05e8eb8b8d8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

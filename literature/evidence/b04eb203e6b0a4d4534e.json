@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2305.05658",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2305.05658",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "TidyBot",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2305.05658",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:49.257026+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2305.05658",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44669,
+  "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+  "authors": [
+    "Wu, Jimmy",
+    "Antonova, Rika",
+    "Kan, Adam",
+    "Lepert, Marion",
+    "Zeng, Andy",
+    "Song, Shuran",
+    "Bohg, Jeannette",
+    "Rusinkiewicz, Szymon",
+    "Funkhouser, Thomas"
+  ],
+  "first_author": "Wu, Jimmy",
+  "year": 2023,
+  "source_date": "2023/05/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1007/s10514-023-10139-z",
+  "arxiv_id": "2305.05658",
+  "abstract": "For a robot to personalize physical assistance effectively, it must learn user preferences that can be generally reapplied to future scenarios. In this work, we investigate personalization of household cleanup with robots that can tidy up rooms by picking up objects and putting them away. A key challenge is determining the proper place to put each object, as people's preferences can vary greatly depending on personal taste or cultural background. For instance, one person may prefer storing shirts in the drawer, while another may prefer them on the shelf. We aim to build systems that can learn such preferences from just a handful of examples via prior interactions with a particular person. We show that robots can combine language-based planning and perception with the few-shot summarization capabilities of large language models (LLMs) to infer generalized user preferences that are broadly applicable to future interactions. This approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts away 85.0% of objects in real-world test scenarios.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2305.05658: TidyBot: Personalized Robot Assistance with Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "TidyBot: Personalized Robot Assistance with Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2305.05658v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "For a robot to personalize physical assistance effectively, it must learn user preferences that can be generally reapplied to future scenarios. In this work, we investigate personalization of household cleanup with robots that can tidy up rooms by picking up objects and putting them away. A key challenge is determining the proper place to put each object, as people's preferences can vary greatly depending on personal taste or cultural background. For instance, one person may prefer storing shirts in the drawer, while another may prefer them on the shelf. We aim to build systems that can learn such preferences from just a handful of examples via prior interactions with a particular person. We show that robots can combine language-based planning and perception with the few-shot summarization capabilities of large language models (LLMs) to infer generalized user preferences that are broadly applicable to future interactions. This approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts away 85.0% of objects in real-world test scenarios."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "TidyBot: Personalized Robot Assistance with Large Language Models"
+    ],
+    "twitter:description": [
+      "For a robot to personalize physical assistance effectively, it must learn user preferences that can be generally reapplied to future scenarios. In this work, we investigate personalization of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "TidyBot: Personalized Robot Assistance with Large Language Models"
+    ],
+    "citation_author": [
+      "Wu, Jimmy",
+      "Antonova, Rika",
+      "Kan, Adam",
+      "Lepert, Marion",
+      "Zeng, Andy",
+      "Song, Shuran",
+      "Bohg, Jeannette",
+      "Rusinkiewicz, Szymon",
+      "Funkhouser, Thomas"
+    ],
+    "citation_doi": [
+      "10.1007/s10514-023-10139-z"
+    ],
+    "citation_date": [
+      "2023/05/09"
+    ],
+    "citation_online_date": [
+      "2023/10/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2305.05658"
+    ],
+    "citation_arxiv_id": [
+      "2305.05658"
+    ],
+    "citation_abstract": [
+      "For a robot to personalize physical assistance effectively, it must learn user preferences that can be generally reapplied to future scenarios. In this work, we investigate personalization of household cleanup with robots that can tidy up rooms by picking up objects and putting them away. A key challenge is determining the proper place to put each object, as people's preferences can vary greatly depending on personal taste or cultural background. For instance, one person may prefer storing shirts in the drawer, while another may prefer them on the shelf. We aim to build systems that can learn such preferences from just a handful of examples via prior interactions with a particular person. We show that robots can combine language-based planning and perception with the few-shot summarization capabilities of large language models (LLMs) to infer generalized user preferences that are broadly applicable to future interactions. This approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts away 85.0% of objects in real-world test scenarios."
+    ]
+  },
+  "html_sha256": "d79fb2f78044d2eec45a8e3f3952c0d1d2426e94d9ca5c50fd678ec33966f282",
+  "evidence_html": "evidence/b04eb203e6b0a4d4534e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

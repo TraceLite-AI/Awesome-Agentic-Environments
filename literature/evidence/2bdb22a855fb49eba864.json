@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2305.11554",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2305.11554",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2305.11554",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:12.095582+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2305.11554",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43433,
+  "title": "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings",
+  "authors": [
+    "Hao, Shibo",
+    "Liu, Tianyang",
+    "Wang, Zhen",
+    "Hu, Zhiting"
+  ],
+  "first_author": "Hao, Shibo",
+  "year": 2023,
+  "source_date": "2023/05/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2305.11554",
+  "abstract": "Augmenting large language models (LLMs) with external tools has emerged as a promising approach to solving complex problems. However, traditional methods, which finetune LLMs with tool demonstration data, can be both costly and restricted to a predefined set of tools. Recent in-context learning paradigm alleviates these issues, but the limited context length only allows for a few shots of demonstrations, leading to suboptimal understandings of the tools. Moreover, when there are numerous tools to choose from, in-context learning could completely fail to work. In this paper, we propose an alternative approach, $\\textbf{ToolkenGPT}$, which combines the benefits of both sides. Our approach represents each $\\underline{tool}$ as a to$\\underline{ken}$ ($\\textit{toolken}$) and learns an embedding for it, enabling tool calls in the same way as generating a regular word token. Once a toolken is triggered, the LLM is prompted to complete arguments for the tool to execute. ToolkenGPT offers the flexibility to plug in an arbitrary number of tools by expanding the set of toolkens on the fly. In addition, it improves tool use by allowing extensive demonstration data for learning the toolken embeddings. In diverse domains, including numerical reasoning, knowledge-based question answering, and embodied plan generation, our approach effectively augments LLMs with tools and substantially outperforms various latest baselines. ToolkenGPT demonstrates the promising ability to use relevant tools from a large tool set in complex scenarios.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2305.11554: ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2305.11554v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Augmenting large language models (LLMs) with external tools has emerged as a promising approach to solving complex problems. However, traditional methods, which finetune LLMs with tool demonstration data, can be both costly and restricted to a predefined set of tools. Recent in-context learning paradigm alleviates these issues, but the limited context length only allows for a few shots of demonstrations, leading to suboptimal understandings of the tools. Moreover, when there are numerous tools to choose from, in-context learning could completely fail to work. In this paper, we propose an alternative approach, $\\textbf{ToolkenGPT}$, which combines the benefits of both sides. Our approach represents each $\\underline{tool}$ as a to$\\underline{ken}$ ($\\textit{toolken}$) and learns an embedding for it, enabling tool calls in the same way as generating a regular word token. Once a toolken is triggered, the LLM is prompted to complete arguments for the tool to execute. ToolkenGPT offers the flexibility to plug in an arbitrary number of tools by expanding the set of toolkens on the fly. In addition, it improves tool use by allowing extensive demonstration data for learning the toolken embeddings. In diverse domains, including numerical reasoning, knowledge-based question answering, and embodied plan generation, our approach effectively augments LLMs with tools and substantially outperforms various latest baselines. ToolkenGPT demonstrates the promising ability to use relevant tools from a large tool set in complex scenarios."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools..."
+    ],
+    "twitter:description": [
+      "Augmenting large language models (LLMs) with external tools has emerged as a promising approach to solving complex problems. However, traditional methods, which finetune LLMs with tool..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings"
+    ],
+    "citation_author": [
+      "Hao, Shibo",
+      "Liu, Tianyang",
+      "Wang, Zhen",
+      "Hu, Zhiting"
+    ],
+    "citation_date": [
+      "2023/05/19"
+    ],
+    "citation_online_date": [
+      "2024/01/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2305.11554"
+    ],
+    "citation_arxiv_id": [
+      "2305.11554"
+    ],
+    "citation_abstract": [
+      "Augmenting large language models (LLMs) with external tools has emerged as a promising approach to solving complex problems. However, traditional methods, which finetune LLMs with tool demonstration data, can be both costly and restricted to a predefined set of tools. Recent in-context learning paradigm alleviates these issues, but the limited context length only allows for a few shots of demonstrations, leading to suboptimal understandings of the tools. Moreover, when there are numerous tools to choose from, in-context learning could completely fail to work. In this paper, we propose an alternative approach, $\\textbf{ToolkenGPT}$, which combines the benefits of both sides. Our approach represents each $\\underline{tool}$ as a to$\\underline{ken}$ ($\\textit{toolken}$) and learns an embedding for it, enabling tool calls in the same way as generating a regular word token. Once a toolken is triggered, the LLM is prompted to complete arguments for the tool to execute. ToolkenGPT offers the flexibility to plug in an arbitrary number of tools by expanding the set of toolkens on the fly. In addition, it improves tool use by allowing extensive demonstration data for learning the toolken embeddings. In diverse domains, including numerical reasoning, knowledge-based question answering, and embodied plan generation, our approach effectively augments LLMs with tools and substantially outperforms various latest baselines. ToolkenGPT demonstrates the promising ability to use relevant tools from a large tool set in complex scenarios."
+    ]
+  },
+  "html_sha256": "a793bb28790c6738f58af0bb7c7bb49f42594e6e177b96511411d7f1116742d4",
+  "evidence_html": "evidence/2bdb22a855fb49eba864.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

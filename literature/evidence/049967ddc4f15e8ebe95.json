@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2404.06921",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.06921",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Perspectives and Designs Towards a Runtime for Autonomous LLM-Powered Applications (GoEX)",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.06921",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:57.346217+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.06921",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44278,
+  "title": "GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications",
+  "authors": [
+    "Patil, Shishir G.",
+    "Zhang, Tianjun",
+    "Fang, Vivian",
+    "C., Noppapon",
+    "Huang, Roy",
+    "Hao, Aaron",
+    "Casado, Martin",
+    "Gonzalez, Joseph E.",
+    "Popa, Raluca Ada",
+    "Stoica, Ion"
+  ],
+  "first_author": "Patil, Shishir G.",
+  "year": 2024,
+  "source_date": "2024/04/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.06921",
+  "abstract": "Large Language Models (LLMs) are evolving beyond their classical role of providing information within dialogue systems to actively engaging with tools and performing actions on real-world applications and services. Today, humans verify the correctness and appropriateness of the LLM-generated outputs (e.g., code, functions, or actions) before putting them into real-world execution. This poses significant challenges as code comprehension is well known to be notoriously difficult. In this paper, we study how humans can efficiently collaborate with, delegate to, and supervise autonomous LLMs in the future. We argue that in many cases, \"post-facto validation\" - verifying the correctness of a proposed action after seeing the output - is much easier than the aforementioned \"pre-facto validation\" setting. The core concept behind enabling a post-facto validation system is the integration of an intuitive undo feature, and establishing a damage confinement for the LLM-generated actions as effective strategies to mitigate the associated risks. Using this, a human can now either revert the effect of an LLM-generated output or be confident that the potential risk is bounded. We believe this is critical to unlock the potential for LLM agents to interact with applications and services with limited (post-facto) human involvement. We describe the design and implementation of our open-source runtime for executing LLM actions, Gorilla Execution Engine (GoEX), and present open research questions towards realizing the goal of LLMs and applications interacting with each other with minimal human supervision. We release GoEX at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.06921: GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.06921v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) are evolving beyond their classical role of providing information within dialogue systems to actively engaging with tools and performing actions on real-world applications and services. Today, humans verify the correctness and appropriateness of the LLM-generated outputs (e.g., code, functions, or actions) before putting them into real-world execution. This poses significant challenges as code comprehension is well known to be notoriously difficult. In this paper, we study how humans can efficiently collaborate with, delegate to, and supervise autonomous LLMs in the future. We argue that in many cases, \"post-facto validation\" - verifying the correctness of a proposed action after seeing the output - is much easier than the aforementioned \"pre-facto validation\" setting. The core concept behind enabling a post-facto validation system is the integration of an intuitive undo feature, and establishing a damage confinement for the LLM-generated actions as effective strategies to mitigate the associated risks. Using this, a human can now either revert the effect of an LLM-generated output or be confident that the potential risk is bounded. We believe this is critical to unlock the potential for LLM agents to interact with applications and services with limited (post-facto) human involvement. We describe the design and implementation of our open-source runtime for executing LLM actions, Gorilla Execution Engine (GoEX), and present open research questions towards realizing the goal of LLMs and applications interacting with each other with minimal human supervision. We release GoEX at https://github.com/ShishirPatil/gorilla/."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GoEX: Perspectives and Designs Towards a Runtime for Autonomous..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) are evolving beyond their classical role of providing information within dialogue systems to actively engaging with tools and performing actions on real-world..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications"
+    ],
+    "citation_author": [
+      "Patil, Shishir G.",
+      "Zhang, Tianjun",
+      "Fang, Vivian",
+      "C., Noppapon",
+      "Huang, Roy",
+      "Hao, Aaron",
+      "Casado, Martin",
+      "Gonzalez, Joseph E.",
+      "Popa, Raluca Ada",
+      "Stoica, Ion"
+    ],
+    "citation_date": [
+      "2024/04/10"
+    ],
+    "citation_online_date": [
+      "2024/04/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.06921"
+    ],
+    "citation_arxiv_id": [
+      "2404.06921"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) are evolving beyond their classical role of providing information within dialogue systems to actively engaging with tools and performing actions on real-world applications and services. Today, humans verify the correctness and appropriateness of the LLM-generated outputs (e.g., code, functions, or actions) before putting them into real-world execution. This poses significant challenges as code comprehension is well known to be notoriously difficult. In this paper, we study how humans can efficiently collaborate with, delegate to, and supervise autonomous LLMs in the future. We argue that in many cases, \"post-facto validation\" - verifying the correctness of a proposed action after seeing the output - is much easier than the aforementioned \"pre-facto validation\" setting. The core concept behind enabling a post-facto validation system is the integration of an intuitive undo feature, and establishing a damage confinement for the LLM-generated actions as effective strategies to mitigate the associated risks. Using this, a human can now either revert the effect of an LLM-generated output or be confident that the potential risk is bounded. We believe this is critical to unlock the potential for LLM agents to interact with applications and services with limited (post-facto) human involvement. We describe the design and implementation of our open-source runtime for executing LLM actions, Gorilla Execution Engine (GoEX), and present open research questions towards realizing the goal of LLMs and applications interacting with each other with minimal human supervision. We release GoEX at https://github.com/ShishirPatil/gorilla/."
+    ]
+  },
+  "html_sha256": "f2d4944c5c17f56b3eb1ebdc1bf7c3fc9e7106f40128745aacef9d94219ed9ae",
+  "evidence_html": "evidence/049967ddc4f15e8ebe95.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

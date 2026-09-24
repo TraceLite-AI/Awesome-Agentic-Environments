@@ -1,0 +1,146 @@
+{
+  "url": "https://arxiv.org/abs/2601.12346",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.12346",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Mmdeepresearch-bench: A benchmark for multimodal deep research agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.12346",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:37.241675+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.12346",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43189,
+  "title": "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents",
+  "authors": [
+    "Huang, Peizhou",
+    "Zhong, Zixuan",
+    "Wan, Zhongwei",
+    "Zhou, Donghao",
+    "Alam, Samiul",
+    "Wang, Xin",
+    "Li, Zexin",
+    "Dou, Zhihao",
+    "Zhu, Li",
+    "Xiong, Jing",
+    "Tao, Chaofan",
+    "Xu, Yan",
+    "Dimitriadis, Dimitrios",
+    "Zhang, Tuo",
+    "Zhang, Mi"
+  ],
+  "first_author": "Huang, Peizhou",
+  "year": 2026,
+  "source_date": "2026/01/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.12346",
+  "abstract": "Deep Research Agents (DRAs) generate citation-rich reports via multi-step search and synthesis, yet existing benchmarks mainly target text-only settings or short-form multimodal QA, missing end-to-end multimodal evidence use. We introduce MMDeepResearch-Bench (MMDR-Bench), a benchmark of 140 expert-crafted tasks across 21 domains, where each task provides an image-text bundle to evaluate multimodal understanding and citation-grounded report generation. Compared to prior setups, MMDR-Bench emphasizes report-style synthesis with explicit evidence use, where models must connect visual artifacts to sourced claims and maintain consistency across narrative, citations, and visual references. We further propose a unified, interpretable evaluation pipeline: Formula-LLM Adaptive Evaluation (FLAE) for report quality, Trustworthy Retrieval-Aligned Citation Evaluation (TRACE) for citation-grounded evidence alignment, and Multimodal Support-Aligned Integrity Check (MOSAIC) for text-visual integrity, each producing fine-grained signals that support error diagnosis beyond a single overall score. Experiments across 25 state-of-the-art models reveal systematic trade-offs between generation quality, citation discipline, and multimodal grounding, highlighting that strong prose alone does not guarantee faithful evidence use and that multimodal integrity remains a key bottleneck for deep research agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.12346: MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.12346v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Deep Research Agents (DRAs) generate citation-rich reports via multi-step search and synthesis, yet existing benchmarks mainly target text-only settings or short-form multimodal QA, missing end-to-end multimodal evidence use. We introduce MMDeepResearch-Bench (MMDR-Bench), a benchmark of 140 expert-crafted tasks across 21 domains, where each task provides an image-text bundle to evaluate multimodal understanding and citation-grounded report generation. Compared to prior setups, MMDR-Bench emphasizes report-style synthesis with explicit evidence use, where models must connect visual artifacts to sourced claims and maintain consistency across narrative, citations, and visual references. We further propose a unified, interpretable evaluation pipeline: Formula-LLM Adaptive Evaluation (FLAE) for report quality, Trustworthy Retrieval-Aligned Citation Evaluation (TRACE) for citation-grounded evidence alignment, and Multimodal Support-Aligned Integrity Check (MOSAIC) for text-visual integrity, each producing fine-grained signals that support error diagnosis beyond a single overall score. Experiments across 25 state-of-the-art models reveal systematic trade-offs between generation quality, citation discipline, and multimodal grounding, highlighting that strong prose alone does not guarantee faithful evidence use and that multimodal integrity remains a key bottleneck for deep research agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents"
+    ],
+    "twitter:description": [
+      "Deep Research Agents (DRAs) generate citation-rich reports via multi-step search and synthesis, yet existing benchmarks mainly target text-only settings or short-form multimodal QA, missing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents"
+    ],
+    "citation_author": [
+      "Huang, Peizhou",
+      "Zhong, Zixuan",
+      "Wan, Zhongwei",
+      "Zhou, Donghao",
+      "Alam, Samiul",
+      "Wang, Xin",
+      "Li, Zexin",
+      "Dou, Zhihao",
+      "Zhu, Li",
+      "Xiong, Jing",
+      "Tao, Chaofan",
+      "Xu, Yan",
+      "Dimitriadis, Dimitrios",
+      "Zhang, Tuo",
+      "Zhang, Mi"
+    ],
+    "citation_date": [
+      "2026/01/18"
+    ],
+    "citation_online_date": [
+      "2026/01/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.12346"
+    ],
+    "citation_arxiv_id": [
+      "2601.12346"
+    ],
+    "citation_abstract": [
+      "Deep Research Agents (DRAs) generate citation-rich reports via multi-step search and synthesis, yet existing benchmarks mainly target text-only settings or short-form multimodal QA, missing end-to-end multimodal evidence use. We introduce MMDeepResearch-Bench (MMDR-Bench), a benchmark of 140 expert-crafted tasks across 21 domains, where each task provides an image-text bundle to evaluate multimodal understanding and citation-grounded report generation. Compared to prior setups, MMDR-Bench emphasizes report-style synthesis with explicit evidence use, where models must connect visual artifacts to sourced claims and maintain consistency across narrative, citations, and visual references. We further propose a unified, interpretable evaluation pipeline: Formula-LLM Adaptive Evaluation (FLAE) for report quality, Trustworthy Retrieval-Aligned Citation Evaluation (TRACE) for citation-grounded evidence alignment, and Multimodal Support-Aligned Integrity Check (MOSAIC) for text-visual integrity, each producing fine-grained signals that support error diagnosis beyond a single overall score. Experiments across 25 state-of-the-art models reveal systematic trade-offs between generation quality, citation discipline, and multimodal grounding, highlighting that strong prose alone does not guarantee faithful evidence use and that multimodal integrity remains a key bottleneck for deep research agents."
+    ]
+  },
+  "html_sha256": "2b279f18bc7114645616472dcdd2dfc976dd8f78579087d3fdae61258751ca04",
+  "evidence_html": "evidence/1f20bf250c47cbc4222d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

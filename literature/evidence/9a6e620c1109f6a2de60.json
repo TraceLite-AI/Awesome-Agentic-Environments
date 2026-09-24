@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2402.00424",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.00424",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-56",
+      "topic": "软件工程：组合测试、配置空间、跨平台 bug、可复现",
+      "title_hint": "Malka, Zacchiroli, Zimmermann. Reproducibility of Build Environments through Space and Time. ICSE 2024 NIER. arXiv:2402.00424.",
+      "existing_reference_number": 56,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.00424",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:26.842586+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.00424",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41502,
+  "title": "Reproducibility of Build Environments through Space and Time",
+  "authors": [
+    "Malka, Julien",
+    "Zacchiroli, Stefano",
+    "Zimmermann, Théo"
+  ],
+  "first_author": "Malka, Julien",
+  "year": 2024,
+  "source_date": "2024/02/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1145/3639476.3639767",
+  "arxiv_id": "2402.00424",
+  "abstract": "Modern software engineering builds up on the composability of software components, that rely on more and more direct and transitive dependencies to build their functionalities. This principle of reusability however makes it harder to reproduce projects' build environments, even though reproducibility of build environments is essential for collaboration, maintenance and component lifetime. In this work, we argue that functional package managers provide the tooling to make build environments reproducible in space and time, and we produce a preliminary evaluation to justify this claim. Using historical data, we show that we are able to reproduce build environments of about 7 million Nix packages, and to rebuild 99.94% of the 14 thousand packages from a 6-year-old Nixpkgs revision.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.00424: Reproducibility of Build Environments through Space and Time"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Reproducibility of Build Environments through Space and Time"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.00424v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Modern software engineering builds up on the composability of software components, that rely on more and more direct and transitive dependencies to build their functionalities. This principle of reusability however makes it harder to reproduce projects' build environments, even though reproducibility of build environments is essential for collaboration, maintenance and component lifetime. In this work, we argue that functional package managers provide the tooling to make build environments reproducible in space and time, and we produce a preliminary evaluation to justify this claim. Using historical data, we show that we are able to reproduce build environments of about 7 million Nix packages, and to rebuild 99.94% of the 14 thousand packages from a 6-year-old Nixpkgs revision."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Reproducibility of Build Environments through Space and Time"
+    ],
+    "twitter:description": [
+      "Modern software engineering builds up on the composability of software components, that rely on more and more direct and transitive dependencies to build their functionalities. This principle of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Reproducibility of Build Environments through Space and Time"
+    ],
+    "citation_author": [
+      "Malka, Julien",
+      "Zacchiroli, Stefano",
+      "Zimmermann, Théo"
+    ],
+    "citation_doi": [
+      "10.1145/3639476.3639767"
+    ],
+    "citation_date": [
+      "2024/02/01"
+    ],
+    "citation_online_date": [
+      "2024/02/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.00424"
+    ],
+    "citation_arxiv_id": [
+      "2402.00424"
+    ],
+    "citation_abstract": [
+      "Modern software engineering builds up on the composability of software components, that rely on more and more direct and transitive dependencies to build their functionalities. This principle of reusability however makes it harder to reproduce projects' build environments, even though reproducibility of build environments is essential for collaboration, maintenance and component lifetime. In this work, we argue that functional package managers provide the tooling to make build environments reproducible in space and time, and we produce a preliminary evaluation to justify this claim. Using historical data, we show that we are able to reproduce build environments of about 7 million Nix packages, and to rebuild 99.94% of the 14 thousand packages from a 6-year-old Nixpkgs revision."
+    ]
+  },
+  "html_sha256": "6d0cfd99ba253635f4e82bb5d5d99ad5d745eb3f1b5d3df8f723c4071eea3a2f",
+  "evidence_html": "evidence/9a6e620c1109f6a2de60.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

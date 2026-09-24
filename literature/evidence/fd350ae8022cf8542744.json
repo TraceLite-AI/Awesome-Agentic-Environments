@@ -1,0 +1,105 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.acl-long.850",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.850",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Appworld: A controllable world of apps and people for benchmarking interactive coding agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.acl-long.850",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:26.425438+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.acl-long.850/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46718,
+  "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+  "authors": [
+    "Harsh Trivedi",
+    "Tushar Khot",
+    "Mareike Hartmann",
+    "Ruskin Manku",
+    "Vinty Dong",
+    "Edward Li",
+    "Shashank Gupta",
+    "Ashish Sabharwal",
+    "Niranjan Balasubramanian"
+  ],
+  "first_author": "Harsh Trivedi",
+  "year": 2024,
+  "source_date": "2024/8",
+  "venue_from_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.acl-long.850",
+  "arxiv_id": "",
+  "abstract": "Autonomous agents that address day-to-day digital tasks (e.g., ordering groceries for a household), must not only operate multiple apps (e.g., notes, messaging, shopping app) via APIs, but also generate rich code with complex control flow in an iterative manner based on their interaction with the environment. However, existing benchmarks for tool use are inadequate, as they only cover tasks that require a simple sequence of API calls. To remedy this gap, we built AppWorld Engine, a high-quality execution environment (60K lines of code) of 9 day-to-day apps operable via 457 APIs and populated with realistic digital activities simulating the lives of ~100 fictitious users. We then created AppWorld Benchmark (40K lines of code), a suite of 750 natural, diverse, and challenging autonomous agent tasks requiring rich and interactive code generation. It supports robust programmatic evaluation with state-based unit tests, allowing for different ways of completing a task while also checking for unexpected changes, i.e., collateral damage. The state-of-the-art LLM, GPT4O, solves only ~49% of our ‘normal’ tasks and ~30% of ‘challenge’ tasks, while other models solve at least 16% fewer. This highlights the benchmark’s difficulty and AppWorld’s potential to push the frontiers of interactive coding agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents"
+    ],
+    "citation_author": [
+      "Harsh Trivedi",
+      "Tushar Khot",
+      "Mareike Hartmann",
+      "Ruskin Manku",
+      "Vinty Dong",
+      "Edward Li",
+      "Shashank Gupta",
+      "Ashish Sabharwal",
+      "Niranjan Balasubramanian"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.acl-long.850.pdf"
+    ],
+    "citation_firstpage": [
+      "16022"
+    ],
+    "citation_lastpage": [
+      "16076"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.acl-long.850"
+    ],
+    "og:title": [
+      "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.acl-long.850.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.acl-long.850/"
+    ],
+    "og:description": [
+      "Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li, Shashank Gupta, Ashish Sabharwal, Niranjan Balasubramanian. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024."
+    ]
+  },
+  "html_sha256": "aa83871b388008ef62f5a0725ad9903393672570a839723340bc75351cca0c9f",
+  "evidence_html": "evidence/fd350ae8022cf8542744.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,158 @@
+{
+  "url": "https://arxiv.org/abs/2604.08224",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.08224",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.08224",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:42.933719+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.08224",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45791,
+  "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+  "authors": [
+    "Zhou, Chenyu",
+    "Chai, Huacan",
+    "Chen, Wenteng",
+    "Guo, Zihan",
+    "Shan, Rong",
+    "Song, Yuanyi",
+    "Xu, Tianyi",
+    "Yang, Yingxuan",
+    "Yu, Aofan",
+    "Zhang, Weiming",
+    "Zheng, Congming",
+    "Zhu, Jiachen",
+    "Zheng, Zeyu",
+    "Zhang, Zhuosheng",
+    "Lou, Xingyu",
+    "Zhang, Changwang",
+    "Fu, Zhihui",
+    "Wang, Jun",
+    "Liu, Weiwen",
+    "Lin, Jianghao",
+    "Zhang, Weinan"
+  ],
+  "first_author": "Zhou, Chenyu",
+  "year": 2026,
+  "source_date": "2026/04/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.08224",
+  "abstract": "Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory stores, reusable skills, interaction protocols, and the surrounding harness that makes these modules reliable in practice. This paper reviews that shift through the lens of externalization. Drawing on the idea of cognitive artifacts, we argue that agent infrastructure matters not merely because it adds auxiliary components, but because it transforms hard cognitive burdens into forms that the model can solve more reliably. Under this view, memory externalizes state across time, skills externalize procedural expertise, protocols externalize interaction structure, and harness engineering serves as the unification layer that coordinates them into governed execution. We trace a historical progression from weights to context to harness, analyze memory, skills, and protocols as three distinct but coupled forms of externalization, and examine how they interact inside a larger agent system. We further discuss the trade-off between parametric and externalized capability, identify emerging directions such as self-evolving harnesses and shared agent infrastructure, and discuss open challenges in evaluation, governance, and the long-term co-evolution of models and external infrastructure. The result is a systems-level framework for explaining why practical agent progress increasingly depends not only on stronger models, but on better external cognitive infrastructure.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.08224: Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.08224v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory stores, reusable skills, interaction protocols, and the surrounding harness that makes these modules reliable in practice. This paper reviews that shift through the lens of externalization. Drawing on the idea of cognitive artifacts, we argue that agent infrastructure matters not merely because it adds auxiliary components, but because it transforms hard cognitive burdens into forms that the model can solve more reliably. Under this view, memory externalizes state across time, skills externalize procedural expertise, protocols externalize interaction structure, and harness engineering serves as the unification layer that coordinates them into governed execution. We trace a historical progression from weights to context to harness, analyze memory, skills, and protocols as three distinct but coupled forms of externalization, and examine how they interact inside a larger agent system. We further discuss the trade-off between parametric and externalized capability, identify emerging directions such as self-evolving harnesses and shared agent infrastructure, and discuss open challenges in evaluation, governance, and the long-term co-evolution of models and external infrastructure. The result is a systems-level framework for explaining why practical agent progress increasingly depends not only on stronger models, but on better external cognitive infrastructure."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Externalization in LLM Agents: A Unified Review of Memory, Skills,..."
+    ],
+    "twitter:description": [
+      "Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering"
+    ],
+    "citation_author": [
+      "Zhou, Chenyu",
+      "Chai, Huacan",
+      "Chen, Wenteng",
+      "Guo, Zihan",
+      "Shan, Rong",
+      "Song, Yuanyi",
+      "Xu, Tianyi",
+      "Yang, Yingxuan",
+      "Yu, Aofan",
+      "Zhang, Weiming",
+      "Zheng, Congming",
+      "Zhu, Jiachen",
+      "Zheng, Zeyu",
+      "Zhang, Zhuosheng",
+      "Lou, Xingyu",
+      "Zhang, Changwang",
+      "Fu, Zhihui",
+      "Wang, Jun",
+      "Liu, Weiwen",
+      "Lin, Jianghao",
+      "Zhang, Weinan"
+    ],
+    "citation_date": [
+      "2026/04/09"
+    ],
+    "citation_online_date": [
+      "2026/04/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.08224"
+    ],
+    "citation_arxiv_id": [
+      "2604.08224"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory stores, reusable skills, interaction protocols, and the surrounding harness that makes these modules reliable in practice. This paper reviews that shift through the lens of externalization. Drawing on the idea of cognitive artifacts, we argue that agent infrastructure matters not merely because it adds auxiliary components, but because it transforms hard cognitive burdens into forms that the model can solve more reliably. Under this view, memory externalizes state across time, skills externalize procedural expertise, protocols externalize interaction structure, and harness engineering serves as the unification layer that coordinates them into governed execution. We trace a historical progression from weights to context to harness, analyze memory, skills, and protocols as three distinct but coupled forms of externalization, and examine how they interact inside a larger agent system. We further discuss the trade-off between parametric and externalized capability, identify emerging directions such as self-evolving harnesses and shared agent infrastructure, and discuss open challenges in evaluation, governance, and the long-term co-evolution of models and external infrastructure. The result is a systems-level framework for explaining why practical agent progress increasingly depends not only on stronger models, but on better external cognitive infrastructure."
+    ]
+  },
+  "html_sha256": "7c1b03622e76c9f5791423ea13f2425a5e78ab5e23de4360123701ac977fa2e6",
+  "evidence_html": "evidence/09932637e18129f7fe95.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

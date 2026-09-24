@@ -1,0 +1,119 @@
+{
+  "url": "https://arxiv.org/abs/2504.03424",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.03424",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "The AI Cosmologist I: An Agentic System for Automated Data Analysis",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.03424",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:40.135243+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.03424",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43479,
+  "title": "The AI Cosmologist I: An Agentic System for Automated Data Analysis",
+  "authors": [
+    "Moss, Adam"
+  ],
+  "first_author": "Moss, Adam",
+  "year": 2025,
+  "source_date": "2025/04/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.03424",
+  "abstract": "We present the AI Cosmologist, an agentic system designed to automate cosmological/astronomical data analysis and machine learning research workflows. This implements a complete pipeline from idea generation to experimental evaluation and research dissemination, mimicking the scientific process typically performed by human researchers. The system employs specialized agents for planning, coding, execution, analysis, and synthesis that work together to develop novel approaches. Unlike traditional auto machine-learning systems, the AI Cosmologist generates diverse implementation strategies, writes complete code, handles execution errors, analyzes results, and synthesizes new approaches based on experimental outcomes. We demonstrate the AI Cosmologist capabilities across several machine learning tasks, showing how it can successfully explore solution spaces, iterate based on experimental results, and combine successful elements from different approaches. Our results indicate that agentic systems can automate portions of the research process, potentially accelerating scientific discovery. The code and experimental data used in this paper are available on GitHub at this https URL . Example papers included in the appendix demonstrate the system's capability to autonomously produce complete scientific publications, starting from only the dataset and task description",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.03424: The AI Cosmologist I: An Agentic System for Automated Data Analysis"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "The AI Cosmologist I: An Agentic System for Automated Data Analysis"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.03424v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present the AI Cosmologist, an agentic system designed to automate cosmological/astronomical data analysis and machine learning research workflows. This implements a complete pipeline from idea generation to experimental evaluation and research dissemination, mimicking the scientific process typically performed by human researchers. The system employs specialized agents for planning, coding, execution, analysis, and synthesis that work together to develop novel approaches. Unlike traditional auto machine-learning systems, the AI Cosmologist generates diverse implementation strategies, writes complete code, handles execution errors, analyzes results, and synthesizes new approaches based on experimental outcomes. We demonstrate the AI Cosmologist capabilities across several machine learning tasks, showing how it can successfully explore solution spaces, iterate based on experimental results, and combine successful elements from different approaches. Our results indicate that agentic systems can automate portions of the research process, potentially accelerating scientific discovery. The code and experimental data used in this paper are available on GitHub at https://github.com/adammoss/aicosmologist. Example papers included in the appendix demonstrate the system's capability to autonomously produce complete scientific publications, starting from only the dataset and task description"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "The AI Cosmologist I: An Agentic System for Automated Data Analysis"
+    ],
+    "twitter:description": [
+      "We present the AI Cosmologist, an agentic system designed to automate cosmological/astronomical data analysis and machine learning research workflows. This implements a complete pipeline from idea..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "The AI Cosmologist I: An Agentic System for Automated Data Analysis"
+    ],
+    "citation_author": [
+      "Moss, Adam"
+    ],
+    "citation_date": [
+      "2025/04/04"
+    ],
+    "citation_online_date": [
+      "2025/04/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.03424"
+    ],
+    "citation_arxiv_id": [
+      "2504.03424"
+    ],
+    "citation_abstract": [
+      "We present the AI Cosmologist, an agentic system designed to automate cosmological/astronomical data analysis and machine learning research workflows. This implements a complete pipeline from idea generation to experimental evaluation and research dissemination, mimicking the scientific process typically performed by human researchers. The system employs specialized agents for planning, coding, execution, analysis, and synthesis that work together to develop novel approaches. Unlike traditional auto machine-learning systems, the AI Cosmologist generates diverse implementation strategies, writes complete code, handles execution errors, analyzes results, and synthesizes new approaches based on experimental outcomes. We demonstrate the AI Cosmologist capabilities across several machine learning tasks, showing how it can successfully explore solution spaces, iterate based on experimental results, and combine successful elements from different approaches. Our results indicate that agentic systems can automate portions of the research process, potentially accelerating scientific discovery. The code and experimental data used in this paper are available on GitHub at https://github.com/adammoss/aicosmologist. Example papers included in the appendix demonstrate the system's capability to autonomously produce complete scientific publications, starting from only the dataset and task description"
+    ]
+  },
+  "html_sha256": "b7bc835677b177f3431b8b32df25b5027dd60e04d2b24ace0f56db56f1ccd1d1",
+  "evidence_html": "evidence/e084553cf628f01e8fbc.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

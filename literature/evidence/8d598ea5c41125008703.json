@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2501.05707",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.05707",
+      "discovery_url": "https://github.com/luo-junyu/Awesome-Agent-Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.05707",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:15.902789+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.05707",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42334,
+  "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+  "authors": [
+    "Subramaniam, Vighnesh",
+    "Du, Yilun",
+    "Tenenbaum, Joshua B.",
+    "Torralba, Antonio",
+    "Li, Shuang",
+    "Mordatch, Igor"
+  ],
+  "first_author": "Subramaniam, Vighnesh",
+  "year": 2025,
+  "source_date": "2025/01/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.05707",
+  "abstract": "Large language models (LLMs) have achieved remarkable performance in recent years but are fundamentally limited by the underlying training data. To improve models beyond the training data, recent works have explored how LLMs can be used to generate synthetic data for autonomous self-improvement. However, successive steps of self-improvement can reach a point of diminishing returns. In this work, we propose a complementary approach towards self-improvement where finetuning is applied to a multiagent society of language models. A group of language models, all starting from the same base model, are independently specialized by updating each one using data generated through multiagent interactions among the models. By training each model on independent sets of data, we illustrate how this approach enables specialization across models and diversification over the set of models. As a result, our overall system is able to preserve diverse reasoning chains and autonomously improve over many more rounds of fine-tuning than single-agent self-improvement methods. We quantitatively illustrate the efficacy of the approach across a wide suite of reasoning tasks.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.05707: Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.05707v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have achieved remarkable performance in recent years but are fundamentally limited by the underlying training data. To improve models beyond the training data, recent works have explored how LLMs can be used to generate synthetic data for autonomous self-improvement. However, successive steps of self-improvement can reach a point of diminishing returns. In this work, we propose a complementary approach towards self-improvement where finetuning is applied to a multiagent society of language models. A group of language models, all starting from the same base model, are independently specialized by updating each one using data generated through multiagent interactions among the models. By training each model on independent sets of data, we illustrate how this approach enables specialization across models and diversification over the set of models. As a result, our overall system is able to preserve diverse reasoning chains and autonomously improve over many more rounds of fine-tuning than single-agent self-improvement methods. We quantitatively illustrate the efficacy of the approach across a wide suite of reasoning tasks."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have achieved remarkable performance in recent years but are fundamentally limited by the underlying training data. To improve models beyond the training data, recent..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
+    ],
+    "citation_author": [
+      "Subramaniam, Vighnesh",
+      "Du, Yilun",
+      "Tenenbaum, Joshua B.",
+      "Torralba, Antonio",
+      "Li, Shuang",
+      "Mordatch, Igor"
+    ],
+    "citation_date": [
+      "2025/01/10"
+    ],
+    "citation_online_date": [
+      "2025/03/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.05707"
+    ],
+    "citation_arxiv_id": [
+      "2501.05707"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have achieved remarkable performance in recent years but are fundamentally limited by the underlying training data. To improve models beyond the training data, recent works have explored how LLMs can be used to generate synthetic data for autonomous self-improvement. However, successive steps of self-improvement can reach a point of diminishing returns. In this work, we propose a complementary approach towards self-improvement where finetuning is applied to a multiagent society of language models. A group of language models, all starting from the same base model, are independently specialized by updating each one using data generated through multiagent interactions among the models. By training each model on independent sets of data, we illustrate how this approach enables specialization across models and diversification over the set of models. As a result, our overall system is able to preserve diverse reasoning chains and autonomously improve over many more rounds of fine-tuning than single-agent self-improvement methods. We quantitatively illustrate the efficacy of the approach across a wide suite of reasoning tasks."
+    ]
+  },
+  "html_sha256": "a9ccd4062b6f2bc433f85fe6aa929cc4453b07ecc330440fd4876dc8ed12b56d",
+  "evidence_html": "evidence/8d598ea5c41125008703.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

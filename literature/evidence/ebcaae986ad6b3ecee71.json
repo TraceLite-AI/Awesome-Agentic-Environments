@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2602.10090",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.10090",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Agent world model: Infinity synthetic environments for agentic reinforcement learning",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.10090",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:14.898289+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.10090",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43020,
+  "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+  "authors": [
+    "Wang, Zhaoyang",
+    "Xu, Canwen",
+    "Liu, Boyi",
+    "Wang, Yite",
+    "Han, Siwei",
+    "Yao, Zhewei",
+    "Yao, Huaxiu",
+    "He, Yuxiong"
+  ],
+  "first_author": "Wang, Zhaoyang",
+  "year": 2026,
+  "source_date": "2026/02/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.10090",
+  "abstract": "Recent advances in large language model (LLM) have empowered autonomous agents to perform multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale to 1,000 environments covering everyday scenarios, in which agents can interact with rich toolsets and obtain high-quality observations. Notably, these environments are code-driven and backed by databases, providing more reliable and consistent state transitions than environments simulated by LLMs. Moreover, they enable more efficient agent interaction compared with collecting trajectories from realistic environments. To demonstrate the effectiveness of this resource, we perform large-scale reinforcement learning for multi-turn tool-use agents. Thanks to the fully executable environments and accessible database states, we can also design reliable reward functions. Experiments on three benchmarks show that training exclusively in synthetic environments, rather than benchmark-specific ones, yields strong out-of-distribution generalization. The code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.10090: Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.10090v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in large language model (LLM) have empowered autonomous agents to perform multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale to 1,000 environments covering everyday scenarios, in which agents can interact with rich toolsets and obtain high-quality observations. Notably, these environments are code-driven and backed by databases, providing more reliable and consistent state transitions than environments simulated by LLMs. Moreover, they enable more efficient agent interaction compared with collecting trajectories from realistic environments. To demonstrate the effectiveness of this resource, we perform large-scale reinforcement learning for multi-turn tool-use agents. Thanks to the fully executable environments and accessible database states, we can also design reliable reward functions. Experiments on three benchmarks show that training exclusively in synthetic environments, rather than benchmark-specific ones, yields strong out-of-distribution generalization. The code is available at https://github.com/Snowflake-Labs/agent-world-model."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agent World Model: Infinity Synthetic Environments for Agentic..."
+    ],
+    "twitter:description": [
+      "Recent advances in large language model (LLM) have empowered autonomous agents to perform multi-turn interactions with tools and environments. However, scaling such agent training is limited by..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Wang, Zhaoyang",
+      "Xu, Canwen",
+      "Liu, Boyi",
+      "Wang, Yite",
+      "Han, Siwei",
+      "Yao, Zhewei",
+      "Yao, Huaxiu",
+      "He, Yuxiong"
+    ],
+    "citation_date": [
+      "2026/02/10"
+    ],
+    "citation_online_date": [
+      "2026/05/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.10090"
+    ],
+    "citation_arxiv_id": [
+      "2602.10090"
+    ],
+    "citation_abstract": [
+      "Recent advances in large language model (LLM) have empowered autonomous agents to perform multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale to 1,000 environments covering everyday scenarios, in which agents can interact with rich toolsets and obtain high-quality observations. Notably, these environments are code-driven and backed by databases, providing more reliable and consistent state transitions than environments simulated by LLMs. Moreover, they enable more efficient agent interaction compared with collecting trajectories from realistic environments. To demonstrate the effectiveness of this resource, we perform large-scale reinforcement learning for multi-turn tool-use agents. Thanks to the fully executable environments and accessible database states, we can also design reliable reward functions. Experiments on three benchmarks show that training exclusively in synthetic environments, rather than benchmark-specific ones, yields strong out-of-distribution generalization. The code is available at https://github.com/Snowflake-Labs/agent-world-model."
+    ]
+  },
+  "html_sha256": "3a5b59ed5b8728210bddc9979356cffc4f8a194acc310dbc3efe48f491bdcfac",
+  "evidence_html": "evidence/ebcaae986ad6b3ecee71.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2307.14984",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.14984",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "S3 Social-network Simulation System with Large Language Model-Empowered Agents. Chen Gao et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.14984",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:11.371445+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.14984",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43065,
+  "title": "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents",
+  "authors": [
+    "Gao, Chen",
+    "Lan, Xiaochong",
+    "Lu, Zhihong",
+    "Mao, Jinzhu",
+    "Piao, Jinghua",
+    "Wang, Huandong",
+    "Jin, Depeng",
+    "Li, Yong"
+  ],
+  "first_author": "Gao, Chen",
+  "year": 2023,
+  "source_date": "2023/07/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.14984",
+  "abstract": "Social network simulation plays a crucial role in addressing various challenges within social science. It offers extensive applications such as state prediction, phenomena explanation, and policy-making support, among others. In this work, we harness the formidable human-like capabilities exhibited by large language models (LLMs) in sensing, reasoning, and behaving, and utilize these qualities to construct the S$^3$ system (short for $\\textbf{S}$ocial network $\\textbf{S}$imulation $\\textbf{S}$ystem). Adhering to the widely employed agent-based simulation paradigm, we employ prompt engineering and prompt tuning techniques to ensure that the agent's behavior closely emulates that of a genuine human within the social network. Specifically, we simulate three pivotal aspects: emotion, attitude, and interaction behaviors. By endowing the agent in the system with the ability to perceive the informational environment and emulate human actions, we observe the emergence of population-level phenomena, including the propagation of information, attitudes, and emotions. We conduct an evaluation encompassing two levels of simulation, employing real-world social network data. Encouragingly, the results demonstrate promising accuracy. This work represents an initial step in the realm of social network simulation empowered by LLM-based agents. We anticipate that our endeavors will serve as a source of inspiration for the development of simulation systems within, but not limited to, social science.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.14984: S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.14984v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Social network simulation plays a crucial role in addressing various challenges within social science. It offers extensive applications such as state prediction, phenomena explanation, and policy-making support, among others. In this work, we harness the formidable human-like capabilities exhibited by large language models (LLMs) in sensing, reasoning, and behaving, and utilize these qualities to construct the S$^3$ system (short for $\\textbf{S}$ocial network $\\textbf{S}$imulation $\\textbf{S}$ystem). Adhering to the widely employed agent-based simulation paradigm, we employ prompt engineering and prompt tuning techniques to ensure that the agent's behavior closely emulates that of a genuine human within the social network. Specifically, we simulate three pivotal aspects: emotion, attitude, and interaction behaviors. By endowing the agent in the system with the ability to perceive the informational environment and emulate human actions, we observe the emergence of population-level phenomena, including the propagation of information, attitudes, and emotions. We conduct an evaluation encompassing two levels of simulation, employing real-world social network data. Encouragingly, the results demonstrate promising accuracy. This work represents an initial step in the realm of social network simulation empowered by LLM-based agents. We anticipate that our endeavors will serve as a source of inspiration for the development of simulation systems within, but not limited to, social science."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "S$^3$: Social-network Simulation System with Large Language..."
+    ],
+    "twitter:description": [
+      "Social network simulation plays a crucial role in addressing various challenges within social science. It offers extensive applications such as state prediction, phenomena explanation, and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents"
+    ],
+    "citation_author": [
+      "Gao, Chen",
+      "Lan, Xiaochong",
+      "Lu, Zhihong",
+      "Mao, Jinzhu",
+      "Piao, Jinghua",
+      "Wang, Huandong",
+      "Jin, Depeng",
+      "Li, Yong"
+    ],
+    "citation_date": [
+      "2023/07/27"
+    ],
+    "citation_online_date": [
+      "2025/06/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.14984"
+    ],
+    "citation_arxiv_id": [
+      "2307.14984"
+    ],
+    "citation_abstract": [
+      "Social network simulation plays a crucial role in addressing various challenges within social science. It offers extensive applications such as state prediction, phenomena explanation, and policy-making support, among others. In this work, we harness the formidable human-like capabilities exhibited by large language models (LLMs) in sensing, reasoning, and behaving, and utilize these qualities to construct the S$^3$ system (short for $\\textbf{S}$ocial network $\\textbf{S}$imulation $\\textbf{S}$ystem). Adhering to the widely employed agent-based simulation paradigm, we employ prompt engineering and prompt tuning techniques to ensure that the agent's behavior closely emulates that of a genuine human within the social network. Specifically, we simulate three pivotal aspects: emotion, attitude, and interaction behaviors. By endowing the agent in the system with the ability to perceive the informational environment and emulate human actions, we observe the emergence of population-level phenomena, including the propagation of information, attitudes, and emotions. We conduct an evaluation encompassing two levels of simulation, employing real-world social network data. Encouragingly, the results demonstrate promising accuracy. This work represents an initial step in the realm of social network simulation empowered by LLM-based agents. We anticipate that our endeavors will serve as a source of inspiration for the development of simulation systems within, but not limited to, social science."
+    ]
+  },
+  "html_sha256": "148680296a74b034e14db07319e4ffcdffefe4c9fb24e8db0576e80ace00c2c3",
+  "evidence_html": "evidence/bd8f43c6ce9ab88cfc4d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

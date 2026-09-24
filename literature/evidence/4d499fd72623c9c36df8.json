@@ -1,0 +1,146 @@
+{
+  "url": "https://arxiv.org/abs/2507.13334",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.13334",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "memory_and_context",
+      "title_hint": "Context Engineering: A Survey of 1,400 Papers on Effective Context Management for LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.13334",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:44.809384+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.13334",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43868,
+  "title": "A Survey of Context Engineering for Large Language Models",
+  "authors": [
+    "Mei, Lingrui",
+    "Yao, Jiayu",
+    "Ge, Yuyao",
+    "Wang, Yiwei",
+    "Bi, Baolong",
+    "Cai, Yujun",
+    "Liu, Jiazhi",
+    "Li, Mingyu",
+    "Li, Zhong-Zhi",
+    "Zhang, Duzhen",
+    "Zhou, Chenlin",
+    "Mao, Jiayi",
+    "Xia, Tianze",
+    "Guo, Jiafeng",
+    "Liu, Shenghua"
+  ],
+  "first_author": "Mei, Lingrui",
+  "year": 2025,
+  "source_date": "2025/07/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.13334",
+  "abstract": "The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline that transcends simple prompt design to encompass the systematic optimization of information payloads for LLMs. We present a comprehensive taxonomy decomposing Context Engineering into its foundational components and the sophisticated implementations that integrate them into intelligent systems. We first examine the foundational components: context retrieval and generation, context processing and context management. We then explore how these components are architecturally integrated to create sophisticated system implementations: retrieval-augmented generation (RAG), memory systems and tool-integrated reasoning, and multi-agent systems. Through this systematic analysis of over 1400 research papers, our survey not only establishes a technical roadmap for the field but also reveals a critical research gap: a fundamental asymmetry exists between model capabilities. While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research. Ultimately, this survey provides a unified framework for both researchers and engineers advancing context-aware AI.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.13334: A Survey of Context Engineering for Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Survey of Context Engineering for Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.13334v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline that transcends simple prompt design to encompass the systematic optimization of information payloads for LLMs. We present a comprehensive taxonomy decomposing Context Engineering into its foundational components and the sophisticated implementations that integrate them into intelligent systems. We first examine the foundational components: context retrieval and generation, context processing and context management. We then explore how these components are architecturally integrated to create sophisticated system implementations: retrieval-augmented generation (RAG), memory systems and tool-integrated reasoning, and multi-agent systems. Through this systematic analysis of over 1400 research papers, our survey not only establishes a technical roadmap for the field but also reveals a critical research gap: a fundamental asymmetry exists between model capabilities. While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research. Ultimately, this survey provides a unified framework for both researchers and engineers advancing context-aware AI."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Survey of Context Engineering for Large Language Models"
+    ],
+    "twitter:description": [
+      "The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Survey of Context Engineering for Large Language Models"
+    ],
+    "citation_author": [
+      "Mei, Lingrui",
+      "Yao, Jiayu",
+      "Ge, Yuyao",
+      "Wang, Yiwei",
+      "Bi, Baolong",
+      "Cai, Yujun",
+      "Liu, Jiazhi",
+      "Li, Mingyu",
+      "Li, Zhong-Zhi",
+      "Zhang, Duzhen",
+      "Zhou, Chenlin",
+      "Mao, Jiayi",
+      "Xia, Tianze",
+      "Guo, Jiafeng",
+      "Liu, Shenghua"
+    ],
+    "citation_date": [
+      "2025/07/17"
+    ],
+    "citation_online_date": [
+      "2025/07/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.13334"
+    ],
+    "citation_arxiv_id": [
+      "2507.13334"
+    ],
+    "citation_abstract": [
+      "The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline that transcends simple prompt design to encompass the systematic optimization of information payloads for LLMs. We present a comprehensive taxonomy decomposing Context Engineering into its foundational components and the sophisticated implementations that integrate them into intelligent systems. We first examine the foundational components: context retrieval and generation, context processing and context management. We then explore how these components are architecturally integrated to create sophisticated system implementations: retrieval-augmented generation (RAG), memory systems and tool-integrated reasoning, and multi-agent systems. Through this systematic analysis of over 1400 research papers, our survey not only establishes a technical roadmap for the field but also reveals a critical research gap: a fundamental asymmetry exists between model capabilities. While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research. Ultimately, this survey provides a unified framework for both researchers and engineers advancing context-aware AI."
+    ]
+  },
+  "html_sha256": "1c87a14b5340d9aa54e50073013abad933a5d7639f4e1826ecec25ac0d978205",
+  "evidence_html": "evidence/4d499fd72623c9c36df8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

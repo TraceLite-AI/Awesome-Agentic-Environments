@@ -1,0 +1,105 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.findings-acl.664",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.findings-acl.664",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Stabletoolbench: Towards stable large-scale benchmarking on tool learning of large language models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.findings-acl.664",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:06.847297+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.findings-acl.664/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44843,
+  "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+  "authors": [
+    "Zhicheng Guo",
+    "Sijie Cheng",
+    "Hao Wang",
+    "Shihao Liang",
+    "Yujia Qin",
+    "Peng Li",
+    "Zhiyuan Liu",
+    "Maosong Sun (孙茂松)",
+    "Yang Liu"
+  ],
+  "first_author": "Zhicheng Guo",
+  "year": 2024,
+  "source_date": "2024/8",
+  "venue_from_source": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.findings-acl.664",
+  "arxiv_id": "",
+  "abstract": "Large Language Models (LLMs) have witnessed remarkable advancements in recent years, prompting the exploration of tool learning, which integrates LLMs with external tools to address diverse real-world challenges. Assessing the capability of LLMs to utilise tools necessitates large-scale and stable benchmarks. However, previous works relied on either hand-crafted online tools with limited scale, or large-scale real online APIs suffering from instability of API status. To address this problem, we introduce StableToolBench, a benchmark evolving from ToolBench, proposing a virtual API server and stable evaluation system. The virtual API server contains a caching system and API simulators which are complementary to alleviate the change in API status. Meanwhile, the stable evaluation system designs solvable pass and win rates using GPT-4 as the automatic evaluator to eliminate the randomness during evaluation. Experimental results demonstrate the stability of StableToolBench, and further discuss the effectiveness of API simulators, the caching system, and the evaluator system.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models"
+    ],
+    "citation_author": [
+      "Zhicheng Guo",
+      "Sijie Cheng",
+      "Hao Wang",
+      "Shihao Liang",
+      "Yujia Qin",
+      "Peng Li",
+      "Zhiyuan Liu",
+      "Maosong Sun (孙茂松)",
+      "Yang Liu"
+    ],
+    "citation_conference_title": [
+      "Findings of the Association for Computational Linguistics: ACL 2024"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.findings-acl.664.pdf"
+    ],
+    "citation_firstpage": [
+      "11143"
+    ],
+    "citation_lastpage": [
+      "11156"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.findings-acl.664"
+    ],
+    "og:title": [
+      "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.findings-acl.664.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.findings-acl.664/"
+    ],
+    "og:description": [
+      "Zhicheng Guo, Sijie Cheng, Hao Wang, Shihao Liang, Yujia Qin, Peng Li, Zhiyuan Liu, Maosong Sun, Yang Liu. Findings of the Association for Computational Linguistics: ACL 2024. 2024."
+    ]
+  },
+  "html_sha256": "781d4e13b2f49eb90a190664228e0ce2254f0021de6c3550f15f5b2779e9eca1",
+  "evidence_html": "evidence/3e5ca9de85efd13033b2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

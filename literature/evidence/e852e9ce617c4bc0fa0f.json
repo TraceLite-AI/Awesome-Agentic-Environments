@@ -1,0 +1,153 @@
+{
+  "url": "https://arxiv.org/abs/2309.07870",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2309.07870",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Agents: An Open-source Framework for Autonomous Language Agents. Wangchunshu Zhou et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2309.07870",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:04.186642+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2309.07870",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43411,
+  "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+  "authors": [
+    "Zhou, Wangchunshu",
+    "Jiang, Yuchen Eleanor",
+    "Li, Long",
+    "Wu, Jialong",
+    "Wang, Tiannan",
+    "Qiu, Shi",
+    "Zhang, Jintian",
+    "Chen, Jing",
+    "Wu, Ruipu",
+    "Wang, Shuai",
+    "Zhu, Shiding",
+    "Chen, Jiyu",
+    "Zhang, Wentao",
+    "Tang, Xiangru",
+    "Zhang, Ningyu",
+    "Chen, Huajun",
+    "Cui, Peng",
+    "Sachan, Mrinmaya"
+  ],
+  "first_author": "Zhou, Wangchunshu",
+  "year": 2023,
+  "source_date": "2023/09/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2309.07870",
+  "abstract": "Recent advances on large language models (LLMs) enable researchers and developers to build autonomous language agents that can automatically solve various tasks and interact with environments, humans, and other agents using natural language interfaces. We consider language agents as a promising direction towards artificial general intelligence and release Agents, an open-source library with the goal of opening up these advances to a wider non-specialist audience. Agents is carefully engineered to support important features including planning, memory, tool usage, multi-agent communication, and fine-grained symbolic control. Agents is user-friendly as it enables non-specialists to build, customize, test, tune, and deploy state-of-the-art autonomous language agents without much coding. The library is also research-friendly as its modularized design makes it easily extensible for researchers. Agents is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2309.07870: Agents: An Open-source Framework for Autonomous Language Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agents: An Open-source Framework for Autonomous Language Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2309.07870v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances on large language models (LLMs) enable researchers and developers to build autonomous language agents that can automatically solve various tasks and interact with environments, humans, and other agents using natural language interfaces. We consider language agents as a promising direction towards artificial general intelligence and release Agents, an open-source library with the goal of opening up these advances to a wider non-specialist audience. Agents is carefully engineered to support important features including planning, memory, tool usage, multi-agent communication, and fine-grained symbolic control. Agents is user-friendly as it enables non-specialists to build, customize, test, tune, and deploy state-of-the-art autonomous language agents without much coding. The library is also research-friendly as its modularized design makes it easily extensible for researchers. Agents is available at https://github.com/aiwaves-cn/agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agents: An Open-source Framework for Autonomous Language Agents"
+    ],
+    "twitter:description": [
+      "Recent advances on large language models (LLMs) enable researchers and developers to build autonomous language agents that can automatically solve various tasks and interact with environments,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agents: An Open-source Framework for Autonomous Language Agents"
+    ],
+    "citation_author": [
+      "Zhou, Wangchunshu",
+      "Jiang, Yuchen Eleanor",
+      "Li, Long",
+      "Wu, Jialong",
+      "Wang, Tiannan",
+      "Qiu, Shi",
+      "Zhang, Jintian",
+      "Chen, Jing",
+      "Wu, Ruipu",
+      "Wang, Shuai",
+      "Zhu, Shiding",
+      "Chen, Jiyu",
+      "Zhang, Wentao",
+      "Tang, Xiangru",
+      "Zhang, Ningyu",
+      "Chen, Huajun",
+      "Cui, Peng",
+      "Sachan, Mrinmaya"
+    ],
+    "citation_date": [
+      "2023/09/14"
+    ],
+    "citation_online_date": [
+      "2023/12/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2309.07870"
+    ],
+    "citation_arxiv_id": [
+      "2309.07870"
+    ],
+    "citation_abstract": [
+      "Recent advances on large language models (LLMs) enable researchers and developers to build autonomous language agents that can automatically solve various tasks and interact with environments, humans, and other agents using natural language interfaces. We consider language agents as a promising direction towards artificial general intelligence and release Agents, an open-source library with the goal of opening up these advances to a wider non-specialist audience. Agents is carefully engineered to support important features including planning, memory, tool usage, multi-agent communication, and fine-grained symbolic control. Agents is user-friendly as it enables non-specialists to build, customize, test, tune, and deploy state-of-the-art autonomous language agents without much coding. The library is also research-friendly as its modularized design makes it easily extensible for researchers. Agents is available at https://github.com/aiwaves-cn/agents."
+    ]
+  },
+  "html_sha256": "34c2a5c208aa321dcd0c2192d2ce1f01c3ae1ce085cd51446bbd695d98970b92",
+  "evidence_html": "evidence/e852e9ce617c4bc0fa0f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

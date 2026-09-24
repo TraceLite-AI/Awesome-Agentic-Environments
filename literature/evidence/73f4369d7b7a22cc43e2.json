@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2607.08147",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2607.08147",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Prismata: Confining Cross-Site Prompt Injection in Web Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2607.08147",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:55.107544+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2607.08147",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41751,
+  "title": "Prismata: Confining Cross-Site Prompt Injection in Web Agents",
+  "authors": [
+    "Villa, Corban",
+    "Ozdarendeli, Alp Eren",
+    "Tan, Sijun",
+    "Popa, Raluca Ada"
+  ],
+  "first_author": "Villa, Corban",
+  "year": 2026,
+  "source_date": "2026/07/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2607.08147",
+  "abstract": "Autonomous web agents promise to automate everyday browsing tasks, but inherit one of the web's oldest attack surfaces. Cross-Site Scripting proved that mixing trusted and untrusted content is dangerous, even on benign pages. Agents resurface this risk by interpreting natural language as instructions, allowing third-party and user-generated content to hijack the agent via prompt injection. The core challenge is that deriving a task-specific security policy requires reasoning over page structure that is entangled with the attacker's content. We present Prismata, a defense enforcing contextual least privilege for web agents, constraining both what the agent sees and what it can do. Prismata's dynamic trust derivation produces permission labels for page content, with structural confinement guarantees, inspired by classical integrity models, that bound any labeling errors so that labels can only decrease in privilege and mislabelings are bounded. Prismata's mechanical confinement enforces these labels by redacting content and restricting agent capabilities. Importantly, these mechanisms require no developer annotations, so Prismata supports the long tail of websites. Across recent published web agent attacks, including adaptive variants, Prismata substantially reduces attack success while preserving benign task utility.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2607.08147: Prismata: Confining Cross-Site Prompt Injection in Web Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Prismata: Confining Cross-Site Prompt Injection in Web Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2607.08147v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous web agents promise to automate everyday browsing tasks, but inherit one of the web's oldest attack surfaces. Cross-Site Scripting proved that mixing trusted and untrusted content is dangerous, even on benign pages. Agents resurface this risk by interpreting natural language as instructions, allowing third-party and user-generated content to hijack the agent via prompt injection. The core challenge is that deriving a task-specific security policy requires reasoning over page structure that is entangled with the attacker's content.\n  We present Prismata, a defense enforcing contextual least privilege for web agents, constraining both what the agent sees and what it can do. Prismata's dynamic trust derivation produces permission labels for page content, with structural confinement guarantees, inspired by classical integrity models, that bound any labeling errors so that labels can only decrease in privilege and mislabelings are bounded. Prismata's mechanical confinement enforces these labels by redacting content and restricting agent capabilities. Importantly, these mechanisms require no developer annotations, so Prismata supports the long tail of websites. Across recent published web agent attacks, including adaptive variants, Prismata substantially reduces attack success while preserving benign task utility."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Prismata: Confining Cross-Site Prompt Injection in Web Agents"
+    ],
+    "twitter:description": [
+      "Autonomous web agents promise to automate everyday browsing tasks, but inherit one of the web's oldest attack surfaces. Cross-Site Scripting proved that mixing trusted and untrusted content is..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Prismata: Confining Cross-Site Prompt Injection in Web Agents"
+    ],
+    "citation_author": [
+      "Villa, Corban",
+      "Ozdarendeli, Alp Eren",
+      "Tan, Sijun",
+      "Popa, Raluca Ada"
+    ],
+    "citation_date": [
+      "2026/07/09"
+    ],
+    "citation_online_date": [
+      "2026/07/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2607.08147"
+    ],
+    "citation_arxiv_id": [
+      "2607.08147"
+    ],
+    "citation_abstract": [
+      "Autonomous web agents promise to automate everyday browsing tasks, but inherit one of the web's oldest attack surfaces. Cross-Site Scripting proved that mixing trusted and untrusted content is dangerous, even on benign pages. Agents resurface this risk by interpreting natural language as instructions, allowing third-party and user-generated content to hijack the agent via prompt injection. The core challenge is that deriving a task-specific security policy requires reasoning over page structure that is entangled with the attacker's content. We present Prismata, a defense enforcing contextual least privilege for web agents, constraining both what the agent sees and what it can do. Prismata's dynamic trust derivation produces permission labels for page content, with structural confinement guarantees, inspired by classical integrity models, that bound any labeling errors so that labels can only decrease in privilege and mislabelings are bounded. Prismata's mechanical confinement enforces these labels by redacting content and restricting agent capabilities. Importantly, these mechanisms require no developer annotations, so Prismata supports the long tail of websites. Across recent published web agent attacks, including adaptive variants, Prismata substantially reduces attack success while preserving benign task utility."
+    ]
+  },
+  "html_sha256": "419dc9c5a8cc03635b7f16fa3b4bc20e54698a3022d563bec57c2685e617c5c7",
+  "evidence_html": "evidence/73f4369d7b7a22cc43e2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

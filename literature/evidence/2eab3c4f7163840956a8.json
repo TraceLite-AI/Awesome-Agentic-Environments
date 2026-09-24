@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2509.17325",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.17325",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Generalizable end-to-end tool-use RL with synthetic codegym",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.17325",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:33.258481+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.17325",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44221,
+  "title": "Generalizable End-to-End Tool-Use RL with Synthetic CodeGym",
+  "authors": [
+    "Du, Weihua",
+    "Gong, Hailei",
+    "Ling, Zhan",
+    "Liu, Kang",
+    "Shen, Lingfeng",
+    "Yao, Xuesong",
+    "Xu, Yufei",
+    "Shi, Dingyuan",
+    "Yang, Yiming",
+    "Chen, Jiecao"
+  ],
+  "first_author": "Du, Weihua",
+  "year": 2025,
+  "source_date": "2025/09/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.17325",
+  "abstract": "Tool-augmented large language models (LLMs), hereafter LLM agents, leverage external tools to solve diverse tasks and interface with the real world. However, current training practices largely rely on supervised fine-tuning (SFT) over static trajectories or reinforcement learning (RL) on narrow tasks, which generalize poorly beyond development settings and lead to brittleness with new tools and unseen workflows. Because code execution reflects many structural patterns of real-world workflows, we use coding problems as a structured substrate to build tool-use agent training environments with diverse task configurations. To this end, we introduce CodeGym, a scalable framework that synthesizes diverse, verifiable, and controllable multi-turn tool-use environments for agent RL, enabling LLM agents to explore and master various workflows actively. CodeGym converts static coding problems into interactive environments by extracting atomic functions or logic into callable tools, yielding verifiable tasks that span various tool-execution workflows. Models of varying sizes and chain-of-thought configurations trained in CodeGym exhibit consistent out-of-distribution generalizability; for example, Qwen2.5-32B-Instruct achieves an absolute accuracy gain of 8.7 points on the OOD benchmark $\\tau$-Bench. These results highlight CodeGym as a step toward scalable general-purpose RL environments for training tool-use behaviors that align with real-world agent workflows.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.17325: Generalizable End-to-End Tool-Use RL with Synthetic CodeGym"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Generalizable End-to-End Tool-Use RL with Synthetic CodeGym"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.17325v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Tool-augmented large language models (LLMs), hereafter LLM agents, leverage external tools to solve diverse tasks and interface with the real world. However, current training practices largely rely on supervised fine-tuning (SFT) over static trajectories or reinforcement learning (RL) on narrow tasks, which generalize poorly beyond development settings and lead to brittleness with new tools and unseen workflows. Because code execution reflects many structural patterns of real-world workflows, we use coding problems as a structured substrate to build tool-use agent training environments with diverse task configurations. To this end, we introduce CodeGym, a scalable framework that synthesizes diverse, verifiable, and controllable multi-turn tool-use environments for agent RL, enabling LLM agents to explore and master various workflows actively. CodeGym converts static coding problems into interactive environments by extracting atomic functions or logic into callable tools, yielding verifiable tasks that span various tool-execution workflows. Models of varying sizes and chain-of-thought configurations trained in CodeGym exhibit consistent out-of-distribution generalizability; for example, Qwen2.5-32B-Instruct achieves an absolute accuracy gain of 8.7 points on the OOD benchmark $τ$-Bench. These results highlight CodeGym as a step toward scalable general-purpose RL environments for training tool-use behaviors that align with real-world agent workflows."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Generalizable End-to-End Tool-Use RL with Synthetic CodeGym"
+    ],
+    "twitter:description": [
+      "Tool-augmented large language models (LLMs), hereafter LLM agents, leverage external tools to solve diverse tasks and interface with the real world. However, current training practices largely..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Generalizable End-to-End Tool-Use RL with Synthetic CodeGym"
+    ],
+    "citation_author": [
+      "Du, Weihua",
+      "Gong, Hailei",
+      "Ling, Zhan",
+      "Liu, Kang",
+      "Shen, Lingfeng",
+      "Yao, Xuesong",
+      "Xu, Yufei",
+      "Shi, Dingyuan",
+      "Yang, Yiming",
+      "Chen, Jiecao"
+    ],
+    "citation_date": [
+      "2025/09/22"
+    ],
+    "citation_online_date": [
+      "2026/03/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.17325"
+    ],
+    "citation_arxiv_id": [
+      "2509.17325"
+    ],
+    "citation_abstract": [
+      "Tool-augmented large language models (LLMs), hereafter LLM agents, leverage external tools to solve diverse tasks and interface with the real world. However, current training practices largely rely on supervised fine-tuning (SFT) over static trajectories or reinforcement learning (RL) on narrow tasks, which generalize poorly beyond development settings and lead to brittleness with new tools and unseen workflows. Because code execution reflects many structural patterns of real-world workflows, we use coding problems as a structured substrate to build tool-use agent training environments with diverse task configurations. To this end, we introduce CodeGym, a scalable framework that synthesizes diverse, verifiable, and controllable multi-turn tool-use environments for agent RL, enabling LLM agents to explore and master various workflows actively. CodeGym converts static coding problems into interactive environments by extracting atomic functions or logic into callable tools, yielding verifiable tasks that span various tool-execution workflows. Models of varying sizes and chain-of-thought configurations trained in CodeGym exhibit consistent out-of-distribution generalizability; for example, Qwen2.5-32B-Instruct achieves an absolute accuracy gain of 8.7 points on the OOD benchmark $\\tau$-Bench. These results highlight CodeGym as a step toward scalable general-purpose RL environments for training tool-use behaviors that align with real-world agent workflows."
+    ]
+  },
+  "html_sha256": "5a54b1eee00611d1c1c4248ab0861ad6172ad444c9f6fd1d432f07ecf00a0428",
+  "evidence_html": "evidence/2eab3c4f7163840956a8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,159 @@
+{
+  "url": "https://arxiv.org/abs/2606.20683",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.20683",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-76",
+      "topic": "Harness 综述与相关",
+      "title_hint": "Guo et al. From Question Answering to Task Completion: A Survey on Agent System and Harness Design. arXiv:2606.20683.",
+      "existing_reference_number": 76,
+      "candidate_file": "candidates_existing.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.20683",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.20683",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:10.580756+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.20683",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45406,
+  "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+  "authors": [
+    "Guo, Jianyuan",
+    "Hao, Zhiwei",
+    "Wang, Chengcheng",
+    "Fan, Cheng",
+    "Luo, Tingzhang",
+    "Li, Hongguang",
+    "Gao, Ying",
+    "Mei, Hefei",
+    "Peng, Jiankun",
+    "Xu, Rongjian",
+    "Dong, Minjing",
+    "Wu, Han",
+    "Zheng, Mengyu",
+    "Han, Kai",
+    "Wang, Shiqi",
+    "Xu, Chang",
+    "Wang, Yunhe"
+  ],
+  "first_author": "Guo, Jianyuan",
+  "year": 2026,
+  "source_date": "2026/06/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.20683",
+  "abstract": "LLM-based agents mark a shift from passive question answering to active task completion: they perceive environments, invoke tools, maintain state, and act over extended horizons. As agent systems have evolved from prompt engineering to workflows and context engineering, harness engineering, and agent-native training with co-evolution, a central question has become increasingly important: where does the bottleneck in agent performance reside, in the foundation model, in the execution harness, or in the coupling between them? This survey examines LLM-based agents through a model-harness lens. We first clarify the functional definition of agents and the implementation view of an LLM-based agent as a foundation model coupled with an execution harness. We then analyze the limits of model-centric scaling, trace four paradigms of agent engineering, and decompose the execution harness into six coupled runtime responsibilities: observation, context, control, action, state, and verification. Using this decomposition, we map task properties and domain pressures to harness configurations, review benchmark and evaluation practices, and synthesize model-harness evidence on how runtime design affects long-horizon task completion, efficiency, and reliability. Finally, we identify open challenges in value-aware evaluation, safety, harness generalization, and model-harness co-evolution. Rather than treating agents as models with auxiliary tools, this survey argues that agent quality -- including success, efficiency, safety, and generalization -- emerges from the interaction between model capability, runtime infrastructure, task structure, and evaluation design. A collection of papers discussed in this survey is provided in this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.20683: From Question Answering to Task Completion: A Survey on Agent System and Harness Design"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "From Question Answering to Task Completion: A Survey on Agent System and Harness Design"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.20683v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM-based agents mark a shift from passive question answering to active task completion: they perceive environments, invoke tools, maintain state, and act over extended horizons. As agent systems have evolved from prompt engineering to workflows and context engineering, harness engineering, and agent-native training with co-evolution, a central question has become increasingly important: where does the bottleneck in agent performance reside, in the foundation model, in the execution harness, or in the coupling between them? This survey examines LLM-based agents through a model-harness lens. We first clarify the functional definition of agents and the implementation view of an LLM-based agent as a foundation model coupled with an execution harness. We then analyze the limits of model-centric scaling, trace four paradigms of agent engineering, and decompose the execution harness into six coupled runtime responsibilities: observation, context, control, action, state, and verification. Using this decomposition, we map task properties and domain pressures to harness configurations, review benchmark and evaluation practices, and synthesize model-harness evidence on how runtime design affects long-horizon task completion, efficiency, and reliability. Finally, we identify open challenges in value-aware evaluation, safety, harness generalization, and model-harness co-evolution. Rather than treating agents as models with auxiliary tools, this survey argues that agent quality -- including success, efficiency, safety, and generalization -- emerges from the interaction between model capability, runtime infrastructure, task structure, and evaluation design. A collection of papers discussed in this survey is provided in https://github.com/ggjy/Awesome-Agent-Engineering."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "From Question Answering to Task Completion: A Survey on Agent..."
+    ],
+    "twitter:description": [
+      "LLM-based agents mark a shift from passive question answering to active task completion: they perceive environments, invoke tools, maintain state, and act over extended horizons. As agent systems..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "From Question Answering to Task Completion: A Survey on Agent System and Harness Design"
+    ],
+    "citation_author": [
+      "Guo, Jianyuan",
+      "Hao, Zhiwei",
+      "Wang, Chengcheng",
+      "Fan, Cheng",
+      "Luo, Tingzhang",
+      "Li, Hongguang",
+      "Gao, Ying",
+      "Mei, Hefei",
+      "Peng, Jiankun",
+      "Xu, Rongjian",
+      "Dong, Minjing",
+      "Wu, Han",
+      "Zheng, Mengyu",
+      "Han, Kai",
+      "Wang, Shiqi",
+      "Xu, Chang",
+      "Wang, Yunhe"
+    ],
+    "citation_date": [
+      "2026/06/14"
+    ],
+    "citation_online_date": [
+      "2026/06/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.20683"
+    ],
+    "citation_arxiv_id": [
+      "2606.20683"
+    ],
+    "citation_abstract": [
+      "LLM-based agents mark a shift from passive question answering to active task completion: they perceive environments, invoke tools, maintain state, and act over extended horizons. As agent systems have evolved from prompt engineering to workflows and context engineering, harness engineering, and agent-native training with co-evolution, a central question has become increasingly important: where does the bottleneck in agent performance reside, in the foundation model, in the execution harness, or in the coupling between them? This survey examines LLM-based agents through a model-harness lens. We first clarify the functional definition of agents and the implementation view of an LLM-based agent as a foundation model coupled with an execution harness. We then analyze the limits of model-centric scaling, trace four paradigms of agent engineering, and decompose the execution harness into six coupled runtime responsibilities: observation, context, control, action, state, and verification. Using this decomposition, we map task properties and domain pressures to harness configurations, review benchmark and evaluation practices, and synthesize model-harness evidence on how runtime design affects long-horizon task completion, efficiency, and reliability. Finally, we identify open challenges in value-aware evaluation, safety, harness generalization, and model-harness co-evolution. Rather than treating agents as models with auxiliary tools, this survey argues that agent quality -- including success, efficiency, safety, and generalization -- emerges from the interaction between model capability, runtime infrastructure, task structure, and evaluation design. A collection of papers discussed in this survey is provided in https://github.com/ggjy/Awesome-Agent-Engineering."
+    ]
+  },
+  "html_sha256": "3ef0521c38187e9193753de807269fb91f77de8da84565b70b441f2d0e48aa6e",
+  "evidence_html": "evidence/7266e955e093aa4b349f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

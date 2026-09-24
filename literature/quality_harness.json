@@ -1,0 +1,2366 @@
+{
+  "audit_date": "2026-09-24",
+  "reviewer": "harness candidate subagent / independent metadata-and-abstract relevance audit",
+  "scope": "225 条 candidates_harness.jsonl 候选；逐条人工阅读原始来源页已核验的标题与完整摘要，审查相关性、目录错链及书目重复。",
+  "not_performed": [
+    "未把 225 篇当作全文精读",
+    "未独立复现实验或核验摘要中的效果数字",
+    "未验证作者关于首创、SOTA、绝对安全或可扩展性的断言"
+  ],
+  "method": "根代理逐篇请求原始论文页并保存 evidence；本审计读取这些原页标题/摘要记录。人工阅读全文段后判定相关性。字符串相似度仅用于发现待核对的异名/重复候选，未作为最终排除依据。2603.00195 额外用 Web Open 重新打开原页并确认异常摘要确属原站内容。",
+  "candidate_count": 225,
+  "title_abstract_reviewed_count": 225,
+  "decision_counts": {
+    "keep_background_only": 15,
+    "keep_relevant": 209,
+    "exclude_from_main_pending_content_review": 1
+  },
+  "confirmed_wrong_paper_links": [],
+  "confirmed_completely_unrelated_papers": [],
+  "main_findings": [
+    "未发现已核验候选指向明显无关论文的目录错链；若目录题名与原页不同，以原页题名为准。",
+    "15 篇是提示、模型记忆、静态检索、安全训练或通用 RL 系统背景，不应全部算作直接 harness/执行环境证据；约 500 篇的主库如需优先直接相关论文，可把这组移到扩展库。",
+    "2603.00195 原页摘要为勘误说明，建议暂移出主库；不是 metadata 提取错误，也不能据此认定论文虚构。",
+    "发现 3 组 arXiv 与正式出版页的同篇别名，应各计 1 篇；未发现本 harness 候选中不同 arXiv ID 的明确同篇重复。",
+    "MemoryOS/MemOS 的 OS、ToolEmu/ToolSandbox 的 sandbox 等术语应按实际机制分类，避免误标为宿主 OS/隔离技术。",
+    "保留研究设计与证据类型：position/proposal、pilot、确定性模拟和实际执行不可混写；元数据核验不背书论文的经验结果。"
+  ],
+  "duplicate_groups": [
+    {
+      "preferred_record": "https://arxiv.org/abs/2304.08244",
+      "alternate_urls": [
+        "https://doi.org/10.18653/v1/2023.emnlp-main.187"
+      ],
+      "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+      "basis": "人工比对两页已抓取的完整标题、作者序列与摘要一致。"
+    },
+    {
+      "preferred_record": "https://arxiv.org/abs/2403.07714",
+      "alternate_urls": [
+        "https://doi.org/10.18653/v1/2024.findings-acl.664"
+      ],
+      "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+      "basis": "人工比对两页已抓取的完整标题、作者序列与摘要一致。"
+    },
+    {
+      "preferred_record": "https://arxiv.org/abs/2412.21139",
+      "alternate_urls": [
+        "https://proceedings.mlr.press/v267/pan25g.html"
+      ],
+      "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+      "basis": "人工比对两页已抓取的完整标题、作者序列与摘要一致。"
+    }
+  ],
+  "pending_candidates": [],
+  "source_snapshots": [
+    "discovery_harness/audit_snapshot.json",
+    "discovery_harness/audit_snapshot_new.json",
+    "discovery_harness/audit_snapshot_final.json"
+  ],
+  "special_source_opened": {
+    "url": "https://arxiv.org/abs/2603.00195",
+    "method": "Web Open",
+    "finding": "页面 Abstract 字段本身包含修订说明；Comments 为另一个字段。"
+  },
+  "records": [
+    {
+      "url": "https://arxiv.org/abs/2201.11903",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_background_only",
+      "reason": "讨论思维链示例如何改善数学、常识和符号推理；可作推理控制的历史背景，但摘要没有外部环境或执行闭环。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "c2356d45a7feeb60cb94d409fdf4bd215c45dbdefa97f1c75d58748b4202bb3e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.11171",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_background_only",
+      "reason": "研究多条推理路径采样与答案聚合；属于推理控制/集成的基础方法，不是执行环境或运行基础设施研究。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "95092b6aff338872fd4e9275de63e1aea65f9afae4a0bf80d92d538c510736ed"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.00445",
+      "title": "MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e9ab52d6f36bdc4b02ff204ea00d0a6a4b4ab8a6987b43f3c8dbad4fe7649ab8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.11916",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_background_only",
+      "reason": "研究零样本提示触发推理；可留作 prompting 方法背景，不能作为环境因素影响的证据。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "cde56446513dc1d3990b59eed321771c5aab9c9fe8361d7901bff744261d0b76"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.12255",
+      "title": "TALM: Tool Augmented Language Models",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "bc22cd95e8c49cbc444306d3971a3bc839f07246a7c87f88aabfc996b8496e83"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.03350",
+      "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2f18469bf0a245e0919acaf1d614129e8f5c70f2cd27c9e9c5b31168537f1a10",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.03629",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d54d4d76519ed21b2bfeedd94901a9bb559802e0c0bde7e09fb1e0a8bcdb3679"
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.09527",
+      "title": "Ignore Previous Prompt: Attack Techniques For Language Models",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_background_only",
+      "reason": "研究 GPT-3 提示中的目标劫持与提示泄漏；是早期提示注入背景，摘要并未研究带工具的运行闭环。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "639f18c9229434c07a0455ccee3410f09738d2c88f1c21395f98bf484193cdc8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.04761",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d131ed654bcc879a2cc35030ad2658788743592dd5f0e10697fb2de943c4014e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.12173",
+      "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ca4788ef05f4ccdb485c253487ab1db44faf9dc9e1f8c42360ad28f674df10f9",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.11366",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "316e3d252ba03a563d838cbb67f8b46324fa4ce37ebafa4573b6efb0f16155d6"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17651",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "669a82a00dd7114d08171b85ec717e7b063f0af6e91319d14fe665692947b639"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17760",
+      "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6cc05737de8b8876ba8abef085b0ffb777377971da7f2f3934152351c7c0d674",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.03442",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b9205ed79d058490ec68d28a5c70fff7f8ca61e4e3d6d01a39349e917c9d973c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.08244",
+      "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "88c79c4e906f243d020ec787debcbedb574ab41a51826cb57c1d8064f6d510b3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.08354",
+      "title": "Tool Learning with Foundation Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9987288e7dfa82bca811599beb8880732f90ea971ea15676e194360cbdd2a32e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.09842",
+      "title": "Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "dbde8c147b16471bad46580606ae7dae5340cbbff35fb5af9ddea57f2221f325"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.11477",
+      "title": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "c89631a568ab675ac8c070ec9d8f5b9e46e9e5eb1acf6d56c200dee4d63934d2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.04091",
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_background_only",
+      "reason": "Plan-and-Solve 研究提示式问题分解与解答；为规划组件背景，不是有状态外部执行环境研究。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3dc514e909b703f3f24440ca95d0ef3fe82285e17afd77a1bb2ec7b5c5a769b8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.10250",
+      "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "027cf31d7eed80465a7fe73c5585bdc7d926109a5b89f10abab18315507b0cde"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.10601",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a0ab6699333caf8dc49aee0ea63a40a87e4d857489191f8d88d7dd38a8939ed9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.11554",
+      "title": "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "75e98a9a1ea0ec94e3089bbf5c4c59ecbe31a6c31853d12096f6ba7903ebf6dc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14322",
+      "title": "RET-LLM: Towards a General Read-Write Memory for Large Language Models",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "fd2c3d0ada1aa407133724bc109e45b94dec731cd31c8db427f893cc615ab61c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14325",
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "297c58d2a4ad1af7b95985541bf1b6a33b0f476910e807b4fb709ac6f29df5e2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.15334",
+      "title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3e03b219fe6ddfb7556e0b4482c8efc8cb990a5813c3999745b8a0201f0d9cec"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.16291",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "86d47d4e1f2fdaa5a14c1efbc5c3d5986169f6c6a1e562b3d0ffff68154dbd64"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.17126",
+      "title": "Large Language Models as Tool Makers",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d9e47b1cb1e52372237d6f901518850ddcb08a627348ad9c2c4887902cf1b2f8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.18323",
+      "title": "ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e1f874e8b13d325991a7286db58df8fd592512f567376160266f4f8bb596345d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.18752",
+      "title": "GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1e130c652a38cf35fbf2ae5b8c9fddc8556544e64171ca1522082feb51b81cfb"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.19118",
+      "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ec447b68c3ee838f800c33e2687fd779232edc085f83d294471ea66912cfce7b"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.05301",
+      "title": "ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ccfee3188598e221bc2cc4f3595474bda6d7459f1c085800f5ce6d1388743a8f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.06624",
+      "title": "RestGPT: Connecting Large Language Models with Real-World RESTful APIs",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "83409092e358d43533095bc4a372a5544c44a5635694dde7729efc520c5f0543"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.07174",
+      "title": "Augmenting Language Models with Long-Term Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_background_only",
+      "reason": "LongMem 使用冻结编码器及可训练残差侧网络读取长记忆；核心是模型架构与长上下文建模，不是纯外置 agent harness。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a6fc3276ccdba74f3f76d07113798df291c53b113dd1540d44b05e067987faf8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.07863",
+      "title": "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8fdb5fed2b2fa0ecbf5910dd6813d8de7910af286a1e4e00cdebb734a82e78b0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.02485",
+      "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2493a24307d2a7eacacda8ac14ddf45dfa312685db1a7514e5e027881c965032"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.03172",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_background_only",
+      "reason": "研究长上下文信息位置对问答/键值检索的影响；是上下文设计的基础证据，未直接评估 agent 行动闭环。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9597f645fa2ed241ae31cd867771e71ea15ede9d498117e1d1b409403c10aa88"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.05300",
+      "title": "Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a5edd5223e93264e681d6020058353c9870c7817d0a6f428235c7e96538cef68"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.07924",
+      "title": "ChatDev: Communicative Agents for Software Development",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4aa017a83671f0339cbcbd29f6bb0eb006673116bacdfb92d287aa1e1c6c6920"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.16789",
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a5016543b94306b755eefb3cf920eb09c12e6a05da810e06dfc38a2ee71791b6",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.00352",
+      "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1209743a0f6299942572c774885dcbcdfa6f7ca5d68abf6f275bf4cd538f2a31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.00675",
+      "title": "Tool Documentation Enables Zero-Shot Tool-Usage with Large Language Models",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "29c5ff5aea40f76b0c8bdeff8606a999ef56809b42a342727d51a55b01ec8cb2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.03427",
+      "title": "TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7d7b54c9de66080089d25cf3cec6e732675c9ada01dafe7c52ec23a5730e3cb1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.07201",
+      "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e284a82cda689e925fae293d2daf7f8faf14d7f3fa989b3478129ea3df7259ab"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.08155",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2504f7ea12083689aa6346511f6e3f52bab31f31f75b74e91e6c71f2b2a23038"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.10144",
+      "title": "ExpeL: LLM Agents Are Experiential Learners",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e1c78792803a4eef6627d97881d9c63c7de0ed906bfdf2e65fbbb490d6fa12cf"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.10848",
+      "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "74244af22afc8e4fc8c09e783bd62af9e701087bc3a33c632d1759f7c66af481",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.11432",
+      "title": "A Survey on Large Language Model based Autonomous Agents",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a20e1514a40b20f5c53147743dd05a1129d8d8408ed5a89eb44a5e5df81f6b27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.02427",
+      "title": "Cognitive Architectures for Language Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "c8210d0fa5eb597e942ff1633d4b4a5296557d81dd56da0ce3ab0cd59a75842c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.07864",
+      "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9f7d4b4a5d95cb0d668dfed0c9f25045fd7c3ac8fe7181dc280b4eeae3f9112b"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.13007",
+      "title": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8be5fb8f51189e8fcf962db76c534db9617af3588d6ddbff690478870cecb4ce"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.15817",
+      "title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "45d2fa4ff64c91dcdc4fdb75380e72ad9fc56a892cbe84cc2bf3bc7099b0b494",
+      "specific_note": "ToolEmu 的 sandbox 是语言模型模拟工具执行；不能据此推断其提供 OS 级隔离或容器安全边界。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.17234",
+      "title": "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4f7254a5a8667d32b131538821df134860511436ea9c340113494f44f5845c32",
+      "specific_note": "原页是多方交互谈判测试床，覆盖合作、竞争、恶意参与者和动态多轮协作；相关但应标多代理交互/评测，而非一般推理辩论框架。",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.17452",
+      "title": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "92d27ac88824b613143832652c8538469600def20b01a2e8818dbf2d95b25423"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02170",
+      "title": "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "176535435845143826fce1023ec1bf3f23c65dd2e8e10f12ec815193cdac0ae9",
+      "specific_note": "候选 title_hint 已说明 v2 改题；当前原页是 DyLAN 动态选队与通信结构论文。采用原页题名，不判为错链。",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.04406",
+      "title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a36bc3f6bd0df54f655d02524aac2b271e45726ad71de02e971b8bc436869120"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.05029",
+      "title": "Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d03bdda6d5e0542011459b40d4761fef386207cf96268111b66bd6150f1c088e",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.08560",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7e9ea28f6bffe59d3373a8da20d6a3d065feda8656f59f0f55daeb09ad23bc2e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.12823",
+      "title": "AgentTuning: Enabling Generalized Agent Abilities for LLMs",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ae87d6c66c3f0493eb1baade3fe1c6fabc3334116b2c43dfa1e84868837eb7d9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.08719",
+      "title": "Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "83adbcc9eae0a58bade84ae0723f03fab3d5c1a7596032c6d92a68dc6e8338cc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.11855",
+      "title": "Evil Geniuses: Delving into the Safety of LLM-based Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "df779dcc767b085fec4500f7461c9909a941279c3a31fe3e2efd5f775170a61e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.17371",
+      "title": "Should we be going MAD? A Look at Multi-Agent Debate Strategies for LLMs",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "34f9b162197ab85f2dbc639aea90028bf02bf375b2d7052358392867fe17ef2d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.01823",
+      "title": "Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "14e4148240be3c99c0ac544cf864e5484d0682a280ea6f54bfdcecfbfbf981b7"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.05268",
+      "title": "AutoAct: Automatic Agent Learning from Scratch for QA via Self-Planning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b9f71c6d2fd0f81814146cb4eba1d053c9035638240f27cffa7d4dddd7acddaa"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.05566",
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_background_only",
+      "reason": "研究带后门模型在安全训练后的行为持续性；是威胁模型背景，不能等同于运行时权限/沙箱机制论文。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6d194ab225ef094455bf51483296dddba8039c4ed4e1c7cf7c2a02cf22682321"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.07324",
+      "title": "Small LLMs Are Weak Tool Learners: A Multi-LLM Agent",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ce5c0627a1d8d9747c7f0ed372a65f9e4c8ee8a575b2bcbc3b2b260acd893844"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.08500",
+      "title": "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "0b7ff85d24d168ea5a1a199987205d7d0e63fa382727b573a1b0edde935da978"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.10019",
+      "title": "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d9aeab527f85fd64aab821f5440967fad5350b70273a09c79463fe7959671228"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.17464",
+      "title": "Efficient Tool Use with Chain-of-Abstraction Reasoning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "56549203590519ee3b32f4c8cbcbd7cf5802fe55032259907eb2217691f34287"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.01030",
+      "title": "Executable Code Actions Elicit Better LLM Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7e053453816217e97c5909f22f49b67c2a007b69d1148761e0a83017200f035e",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.01586",
+      "title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "39bb08001266f4c7f96d660a06b6fae3864a7774008db2772dad8efa1985ab9c",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.01680",
+      "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "27a46082ab5395fad66bd97cd629855e1c8d0c468034183fd74e3f7c882655ec"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.04253",
+      "title": "AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9eba848094718e591c4d9f80042f61cc02fcebdcc5a3bdbd3c7195d7d2c9942f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.05120",
+      "title": "More Agents Is All You Need",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "51fb1c3ccc63e53b215e742221ba4d7f66c1ea478fae7798bd3f9132701507e8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.06782",
+      "title": "Debating with More Persuasive LLMs Leads to More Truthful Answers",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a946e1bfa5f61888192cfa3b0562f256a07db1cce55343f1dd4b40083bfeae74"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.09727",
+      "title": "A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1af95a826691bef689a8c3151ebc501ace5f5b5e7beb2f8fbd2db24ca17cf236"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.14034",
+      "title": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d6cd2598a41a7b048c619ff0bdf7ede5983b49093c2685880e4ed58c354853d4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.16823",
+      "title": "Language Agents as Optimizable Graphs",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "31fd97314c5573b5c3de82836dd0f82516a98bdea765dec40530bacfd79c5f7e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.17753",
+      "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "994347c46c455b317e8005b206b0008a4da7b64f5196aa0c0895f178e7b6662b",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.02691",
+      "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d39599d9cb96713eb9c0774dd5364e1190dfd673c0639f07f3a0e989c16f60b5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.07714",
+      "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "777ba1ace6e6f51bdd412d69d8c506f647c58c0adc7dad1ddd0f5c30f84f3650"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.11901",
+      "title": "Larimar: Large Language Models with Episodic Memory Control",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_background_only",
+      "reason": "Larimar 研究带分布式情节记忆的模型架构、事实编辑与遗忘；与外置 agent 工作记忆相关但机制层次不同。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d8ff59b53cfca5e54d0879e285abe3e404443a301ebab82d554254ef51fe75c4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.12881",
+      "title": "Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8cca8edb35abf290150bfc1fa6e658325f11c4c7e35ba8ed1c09d54ffd29658f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.15452",
+      "title": "What Are Tools Anyway? A Survey from the Language Model Perspective",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "64fd65326c35af246cb7485d33d897e699767280924f9edd740b5059838f86e5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.16971",
+      "title": "AIOS: LLM Agent Operating System",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "351f10b771f554317b058b00b6b406cc947656a5d915af04ea69e2e30827a79a"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.04735",
+      "title": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "c4e2d09d2d217bf53659afe0ea352f6c789a4384fa9b0f3f63ce4c141809e7bc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.05427",
+      "title": "AutoCodeRover: Autonomous Program Improvement",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a0332cfb0909325d94b5c927a0821873f32680a4f638119cd137a6251326203d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.06921",
+      "title": "GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b7e8790ec6d828a6156ec2db775db39668134b80a4b1b545ea20793db6933e61",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.13501",
+      "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "cfee9f61b20971e25eb26ba813b357e7f427361fbbe131479844c3b74f38ed5e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.14831",
+      "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_background_only",
+      "reason": "HippoRAG 研究知识图谱与 PageRank 检索并评估多跳问答；可作记忆检索机制背景，不应当作执行环境研究。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "37d7746e12f1c4202612029336303a5b6248d167f31eca541d20e8290aa4ccb1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.15793",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ea972f3764419aa209152b1bb8ba9b7d2688da1cb009cbdd4aa62664c263911a"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.17935",
+      "title": "Tool Learning with Large Language Models: A Survey",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "642b76fb81f8e41a0126a46ae85849e86756c20919e4d5370827dda084fe5b7f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.01304",
+      "title": "CodeR: Issue Resolving with Multi-Agent and Task Graphs",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9524b5cc9714b45cae6f267a004e1f8263a10942874cda8caeec066c21186fe5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.03007",
+      "title": "BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a93e94366a6eec2fad31a55398a554bc9d6cacbab7df00486c91bb9a7f529a8e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.04692",
+      "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "53697ef65e5970110e03ef940b00c7cf65239f543dee4cfca7ff1d688bfa13fc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.07155",
+      "title": "Scaling Large Language Model-based Multi-Agent Collaboration",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2547d8fdf981216936542b8b26b56bf1663865cf32956fd6a8124c19e3419d40"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.11176",
+      "title": "Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e567578adcb99b3bcad1e616cb1b0e969258ab15154d22d796257ae435c4cedb"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.13352",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "598c0ce1fcc190026d03953faf3c3f675f1e759d8de3ffc52c3bc1dad8191d22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.01489",
+      "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6941fbccf6fac666381089814d39373d3a6c905bb8cb5cf16573bef8ed39fc40"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.01502",
+      "title": "AI Agents That Matter",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7c67699cfc21fc5ce4bafdaa57dd5b1191b89095bd86a4dbfcc066fef6833e26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.12784",
+      "title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "0af3558c957de408d4d4ade3d7c3ecc76077880def5bb11fac7f62a010b90d47"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.16741",
+      "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "cb94bd5d52d4abf7ff8511a64ac49d4699c795baa0446cd47e2b79616cc10408",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.16833",
+      "title": "Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_background_only",
+      "reason": "研究静态 RAG 与长上下文及其路由折中；与上下文供给有关，但对 agent 运行层的关联间接，篇数受限时可移到扩展库。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e6fc4cd36afb85b28a97ee196cbc86a68cfaa2ee7557a13603212713d0be5740"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.04682",
+      "title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3b6492c31f1c7a8c8f4cb7440eaf6d238188914d3825b9836f9c1ec8cbef6f7a",
+      "specific_note": "ToolSandbox 是状态化工具执行与会话评测环境；题名中的 Sandbox 不等于微虚机/容器隔离平台。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.07199",
+      "title": "Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d7171ec4f2a16cb7c0416172e93b04197aac992ec0d324bfbc13ddae8253450c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.00920",
+      "title": "ToolACE: Winning the Points of LLM Function Calling",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1b3648a584134ecc9182b19761ab363a78c52c2e783d3074037fc8bb69fa142d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.03215",
+      "title": "xLAM: A Family of Large Action Models to Empower AI Agent Systems",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "f53e8a1dfd7b49ad9d6a779d54c5b3ad4eead9b4316c8ace0aaa46c4f13c10f3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.07429",
+      "title": "Agent Workflow Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d4c142be3a9c37bbb0d4f401a02de25bd25b4c3968f42ad9a61513abff2b5460"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.12917",
+      "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_background_only",
+      "reason": "研究以多轮强化学习学习自我纠错，在数学/代码任务上评估；可作为反思训练背景，非环境运行系统研究。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "75507fea3774e08752f989258a071b9bfb67f6b1bc640060de26b82a8143b304",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.19256",
+      "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_background_only",
+      "reason": "HybridFlow 研究 RLHF 的混合数据流、分布式执行与资源利用；可作训练系统背景，摘要没有直接证明 agent 环境因素效应。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d0222684db0e07b013f57e1828ac32c246cb4e6828dcedf159a62c700658d399"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.02644",
+      "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3b8951d4b6172be80ec6fa1622371dc301d016bfa4311c6a03f3f6eab0730744"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.04587",
+      "title": "Hammer: Robust Function-Calling for On-Device Language Models via Function Masking",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4ae720b6b6ab1431db68198771c46dd6fda6d0723340a77d92ed9bccd401b331"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.09024",
+      "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "516386ba13b255df5469a4082d9361f76b32858e35a2f9561611ecdf31ca5aff"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.10762",
+      "title": "AFlow: Automating Agentic Workflow Generation",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9cf123bc4470d7a956e05e669f5d1271b4fbeb8dfeab7cd2216bb4fb5a7dfff2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.10813",
+      "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b3a722908c976801914dbb149f8cf3f4f8b535560f9c46a244b59c0d56355ed2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.02337",
+      "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "db039a2592cd79a1f8f7f1c985c2ddf42447c63d1f58d2815ba1d6ef2369da47"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.04984",
+      "title": "Frontier Models are Capable of In-context Scheming",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4587131a9f97a92370f42b656b5076dfb3b073d7bcf436cc1302cb81f353a335"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.09605",
+      "title": "AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8ee630d434cef63f63c368752aeae14b0a60d49c3fde33b3a79ecbfc8fc4d06e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.13178",
+      "title": "SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4ad79285e547b3229c91db604c40634947fa9558eb594a3105efc75436e2369b"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.15266",
+      "title": "On the Structural Memory of LLM Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1c66977a8aad0c1932cfc271075c50d8bd11b4078e3e2588128d953572ddde78"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.17481",
+      "title": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "df47992e317999f82aecff79a4a98b6d342ffd892ecce846ae32ec88b3d3b82c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.21139",
+      "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "771c077bcc6b013318a4d2c90b62d36923162caf6e580ad92a2dc5a0ceceb82a"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.05366",
+      "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9a5c1bfacfb1a1e4c536f19c2aacbbd922fb4ce78816bab626a065505bcaebfc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.06322",
+      "title": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3c85595de9e0e11344075b1889f0984c564a6a1d7452deb0c19c8aca7029fd88"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.13956",
+      "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "564d3b28cd969fa0fcfcca0907dff75ae6286f61bc77969cf1f6c4d266cdbd5e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.04780",
+      "title": "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "addec3ca066dfb6d78b342eb36e7dbe4cd82f75164c90557b3d51be0a6dadbbc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.12110",
+      "title": "A-MEM: Agentic Memory for LLM Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3d301f1761cacf9d4be63256126070f29bcfd02d4769499764bee812b424c5d6"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.14321",
+      "title": "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d36f9f29dc351baa9110a647a8f65c1872abd47dcaa59531efca614f8a000fbd"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.09648",
+      "title": "A Survey on Trustworthy LLM Agents: Threats and Countermeasures",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "0bfb1546dfeb1b8218a21a3dc75063c22511321b990dbdcf7684e6c18541031c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.13657",
+      "title": "Why Do Multi-Agent LLM Systems Fail?",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "f53ce8198c7e3332d6be7bf8dab818fe2f07e6f77166041df722e560c76729c9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.16416",
+      "title": "Survey on Evaluation of LLM-based Agents",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8c1df82ef8dfdb5706cbcd6cc131a8675227a9bfce4e1cfd3c44a54ce1e51a79"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.18666",
+      "title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "873a4034361960c4a591df844c87671e6cb64911ffddc24f92b57b79489a742a",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.23278",
+      "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "96491d4cdb1e21b5f69b81633c9a22fed5d5b339e77ea8291041e9b143616aeb"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.15585",
+      "title": "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_background_only",
+      "reason": "覆盖 LLM 数据、预训练、后训练、部署和商业化全周期安全；含 agent 但范围远宽于 harness，宜作广义安全背景。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "bc5c124968b17257ccb14aba54ac55f2592c5ff246ee66c4f83f51d8dd7b88c0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.15965",
+      "title": "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2b781a1a98206a911cfddd104758550a5b186a4320f88593ac419c49a38b71ff"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.18575",
+      "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3a104d9076797555795766749f6b4eeec9428d0efb9340f7e55cffecd5d727b0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19413",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "98ba1014211860285bbaa0a25fc6b7d918aff8f517d73d4fe1e445697dd1791c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19793",
+      "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4ecbd4eae303adf7d46913d3c65320b8d7e0206a485c26daafb856f8aada12c0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.21034",
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "452c9f6963d999ac49bb9b0d373d64bd0325a9dcfd874a0d533919a1668f7886"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.02279",
+      "title": "A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP)",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "192330253aff0383cf5ece46ee6c3f32a40be09641229baf9163ca0a1f6641d6",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.16421",
+      "title": "WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "f311fb50b36c234787e652b5689246460153a8f442e83b312048cdf6a4fb1502",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.22942",
+      "title": "WorkForceAgent-R1: Incentivizing Reasoning Capability in LLM-based Web Agents via Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9d260f52763eac186e6f0ff614c818f17602658b6be27cfecc3fea9d80579c9a",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.22960",
+      "title": "Revisiting Multi-Agent Debate as Test-Time Scaling: A Systematic Study of Conditional Effectiveness",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "bcf17d1e53139a48a8cfc503279b2de5aab6b032fc8d14895565c7488c993ac8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.24298",
+      "title": "AReaL: A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_background_only",
+      "reason": "AReaL 早期论文主要研究数学/代码推理的异步生成与训练、陈旧样本和 GPU 利用；与 agentic RL 系统相关但不是完整代理部署闭环。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "5c2eade301ba8982223aac6e56cf894d74e465cc4ed23bd326e3926e888d942c"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.06326",
+      "title": "Memory OS of AI Agent",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2a287ffcfdc67339cbf0dc3799a1abe0cb8558e7e99b25fe97e505d62cb69b3d",
+      "specific_note": "MemoryOS 的 OS 指记忆存储、更新与检索管理的类比；不得标注为操作系统版本/内核变化证据。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.07398",
+      "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8ca25df31fbf4ae92f6874dc5c0b3860e87815459bbf1e4a4417ddfd1a14cf84"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.08837",
+      "title": "Design Patterns for Securing LLM Agents against Prompt Injections",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "305a125528f51f8c0307793e953cfe1252b2fbfc7be12a63cbc040db1bd80d23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.23844",
+      "title": "A Survey on Autonomy-Induced Security Risks in Large Model-Based Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "435664e7f17a0d9da83046b90bc824671484cc5de0faa048502a2009bae74389"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.03724",
+      "title": "MemOS: A Memory OS for AI System",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "c627af20eea73d995f5454e66389b05ef434863571722877fd58f7cbb7fbbf57",
+      "specific_note": "MemOS 统一明文、激活与参数级记忆；OS 是记忆资源管理抽象，不能当宿主操作系统因素研究。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.07957",
+      "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1241f3b40300e3932bcadbd70a9c59f1161d2f9dd1f3b83ca2aa6cd0f638b5de"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.13334",
+      "title": "A Survey of Context Engineering for Large Language Models",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7654a9b77f698fda09067796da4d9a08fc4233535ae053497760160cec9d3ebd",
+      "specific_note": "目录题名是描述性改写，原页正式题名为 A Survey of Context Engineering for Large Language Models；内容涵盖上下文、记忆、工具与多代理，非错论文。",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.03341",
+      "title": "What Deserves Memory: Adaptive Memory Distillation for LLM Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "362d66ffee6bcb4d9ee846ae887ea317d9edf4633fb1a13fe421d1e4518f1ffc"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.03680",
+      "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a81d37b37f09ef0e4d07b84c38ef4e16089510f0c228723aab0831805e3bf77f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.07935",
+      "title": "SHIELDA: Structured Handling of Exceptions in LLM-Driven Agentic Workflows",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8cac7e8a07534d09fcc9b3b74e7f860a357b2b29b37f50c38800f01518d313b9",
+      "specific_note": "SHIELDA 摘要核心是异常分类、运行时处理与恢复，应补标签 runtime_error_recovery，不宜只归为权限/安全。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.14040",
+      "title": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "383d8e80619d58e72ebb9c49229cd9522a0b3586b4bfa8f00b29b1834adca5b9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.20096",
+      "title": "CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ac401f8d5c56050e72839f3bffba4f2c78bbdf34a00cab05fe504f03efd96a19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.14172",
+      "title": "TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "cc1e4f78f1d3ffdb1b67f7c0bb645561a76db19dfa5f442fa9aa0a0d4d1ae0de"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.25140",
+      "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d984883b65895d02debd54edbd198f0aadf8bd295da869680c3ebbe08d2e9492"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.25238",
+      "title": "PALADIN: Self-Correcting Language Model Agents to Cure Tool-Failure Cases",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "cb59b55ea2eba25de75e8f944a844fba9640b05b19a969e122ecff70191c1133"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.26354",
+      "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2f836c9bf444a58150c943fb41d01dcd60320dcd4a85fd2dc37e6d2fc06fc2fd",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.04206",
+      "title": "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d7a15c179a9885c26b6d6a805d245a9535ad174711933e85f53ace50238fed25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.04618",
+      "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1fc10c32ee25bdc11f6dc5662bc8a5892c00531fb4d92fc8896fba4e0e58ac60",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.12635",
+      "title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "98040891748ce151210a1195f351bdd5624bb0f02b2d78496ecdb2a6a297a65f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.21236",
+      "title": "AgentBound: Securing Execution Boundaries of AI Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b24c949b20de70c3ffbdcd4bfb4ebc1feddd69a00fb1c37ba87cb232ff8f6157",
+      "specific_note": "目录使用简写 Securing AI Agent Execution；原页 AgentBound 讨论代理执行边界，内容相关。采用原页完整题名。",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.24284",
+      "title": "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2344d8807ce63eb887b9e137e75a3542b038c6bb40976d842cca826686e16d7d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.10400",
+      "title": "Rethinking the Reliability of Multi-agent System: A Perspective from Byzantine Fault Tolerance",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "adebb8040735bf06ab3025fa5f6a5cd435c5439fed07f67fb78251ae36847313"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.14650",
+      "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e9e042640c3cd32515d4b08fe0469e2b724f00e7398f2bcc4390cde8e0ad1c7b"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.20857",
+      "title": "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "98b370ad23ecbcbf674f77d7f18fb3c6f7007d5f951b0c61a4c8ba8764bc51fd"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.20920",
+      "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "36217d8209d42e5d0483260e5009fe3ed7c79c420ab62d774ca25b809ee64092"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.13564",
+      "title": "Memory in the Age of AI Agents",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "5b6ea4aa5a4b7f8406226b05f384a40d60ecf3ce4774a3dd958fdc3c1a50e701"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.01743",
+      "title": "AI Agent Systems: Architectures, Applications, and Evaluation",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "c86bf07cf2b3485acfebfe66fc6d72c535da58f02a1359473c314a58fe2bd104"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.04795",
+      "title": "Defense Against Indirect Prompt Injection via Tool Result Parsing",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b53fc67020db1bbe1ae09a7531bee0aa0638e331a4252da7b9692222bae924c2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.12307",
+      "title": "Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "bc55ee0d4ee1e2e28d3ff03e42cbaca423b6a7743a4dae6faf9cf6317f358ae0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.14652",
+      "title": "MAS-Orchestra: Understanding and Improving Multi-Agent Reasoning Through Holistic Orchestration and Controlled Benchmarks",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2debb20a649d6dbd3e20e505bb7ec7d9faf1ee36e4e1cc10025938a3c867ac69"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22149",
+      "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "aedb5ed90c91d72f62f5ab60be5374b6f431f887425bc760883ce3fb85a46d43"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.03786",
+      "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "04a9260055f49c1d3dfa0311609d068d5468fa969602aa767e85a8e984c356f5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.04634",
+      "title": "WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "8c2073db0f2cee2832a08551fb8f3a2a2f1c8c0fd43e682eaa279e6926f0a558"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.07398",
+      "title": "AgentSys: Secure and Dynamic LLM Agents Through Explicit Hierarchical Memory Management",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "ab315309ef09e888cf18db7327f42a2f32171adad70bc835f8d00456d57518c9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.10453",
+      "title": "The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d7452df94e561cdbff0d799f8cddf61d3b1f854453767d6999f3527366dccb94",
+      "specific_note": "摘要特别讨论任务的正确行动依赖运行时环境观察；与 survey 的环境条件依赖问题直接相关。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11327",
+      "title": "Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7a6290d19c8cef6a612f36041e25d6587f6633d865720321568d9d1878f29fd1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12670",
+      "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2b7dc7e9894f565edeceae884b36d0564a3e74c839e4ddbc9d140761fe1d3609"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13653",
+      "title": "Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "573d859133ec9986af92e1943d0ec913d914acf4e54a030a4b103181ba505ae0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.16873",
+      "title": "AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6d0663190e48cec01d278e0ec6d86b5f4a8a68b0c04d08ce121c64133635f35f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.19843",
+      "title": "MAS-FIRE: Fault Injection and Reliability Evaluation for LLM-Based Multi-Agent Systems",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a75ca8a5d460e87ab7b212ffc2969777903e565b2eebe5806416db8c692daa88"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.20708",
+      "title": "ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "0480e89a23114a02aaec2080c551c7b4cf670c9a74d2628c46b475658f5a83f3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.00195",
+      "title": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "exclude_from_main_pending_content_review",
+      "reason": "原页 Abstract 栏本身为 v2 修订/勘误说明，不能据此正常完成方法内容的摘要级分类。暂移出主库而保留证据；这不是错链、虚构论文或抓取字段错误。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "68eb0b3367827f32f7bd18d78a0a122ae57c668e130a86f7bd20c1fc59baa7a1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.02277",
+      "title": "Quantifying Frontier LLM Capabilities for Container Sandbox Escape",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7280969ca81b3ceb5d1c92a53976f3019dab97e26b0dad79da2c91a104e9b0de"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.05344",
+      "title": "Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "47af533b78190dc326b3bc1d43f5dd0b94077f808b7af1926ce3cc1ab05f5c91"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.07670",
+      "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+      "topic_at_discovery": "memory_and_context",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论状态/经验的保存、检索、压缩、更新或上下文管理，可用于代理记忆与上下文组件分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b28eb9040c7f2a4356cefe6ceb2a387ce972296a6a59316d268efc2a2d609c83",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.07927",
+      "title": "SWE-Fuse: Empowering Software Agents via Issue-free Trajectory Learning and Entropy-aware RLVR Training",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6552f11185f1cd1e5d4e66a25a8c1c66c351e8c05f0da9608650e3dfe57883b4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11853",
+      "title": "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e5a2bf4f5edae330ca5b5314fe2a16a613a6498d9bc99b687f11ad450a1c9976",
+      "specific_note": "OpenClaw PRISM 摘要报告 preliminary curated benchmarks/microbenchmarks；保留为运行架构研究，效果外推需受这些评估边界约束。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.13404",
+      "title": "Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "65a59078e507cdaabb1b0b83442eff89d3648ac2069e44f283669c8c3978d669",
+      "specific_note": "Schema First Tool APIs 的摘要明确是单模型小规模 pilot，终任务成功率在全部条件为零；证据支持接口误用下降，不支持任务成功率提高。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25723",
+      "title": "Natural-Language Agent Harnesses",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "bb1ce33def90e486019758c7f1887229a92a52f217decaf07eb3998cc9b24943"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28052",
+      "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "23158e9576a7bd855d52ed9c053901c879cf4444394ba8823c5e6a10424b4248"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00344",
+      "title": "Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "5985142095ed89fd93b664e6d1da84936daf000fa8329ad9d2257f1ecdd37ce0"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00722",
+      "title": "LangMARL: Natural Language Multi-Agent Reinforcement Learning",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1eac198650574378083a1d3b58dd2ab52fdf96e89ded8c43658bfc7ce1aca7e9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.08224",
+      "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "9887e429d35871a2c59d8dfd40a7a3d7df1573b8de7733e03d06e109158bad41"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.11378",
+      "title": "From Agent Loops to Structured Graphs:A Scheduler-Theoretic Framework for LLM Agent Execution",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "cfd654b930264d3a5e6de2596072c1e16eeefa626dafa8b2ba4789e701594ad8",
+      "specific_note": "摘要明确称 position paper and design proposal；作为架构提案保留，不能在综述中描述成已完成部署验证的系统。",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.11557",
+      "title": "UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6d0985694e775e14288a18e72a14bd31c5b8cb3cfb957cc35c0eb8a822f26718"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.17148",
+      "title": "Graph-of-Agents: A Graph-based Framework for Multi-Agent LLM Collaboration",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "91f29c1c9fbae9386a122e8f3fe0a12387facf5e76da5b8743d4523d7a05bc30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24594",
+      "title": "Skill Retrieval Augmentation for Agentic AI",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "6a9dc9dea3e4504db6296dfbdb6423f040902f0970677db8c6264f2e3570e3df"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25850",
+      "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a6fa1e2538768dab511a5526416577f91e0783877d7c619b3f043e334122e2c4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02801",
+      "title": "Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "7866b26fcdfbd0e980eb23b0da6ce6317f6b6677fdaa7c8be1f6432fd1bc3e6b",
+      "specific_note": "该文区分开放学术方法与工业公开部署信息，属于编排轨迹/RL综述；不可把公开工业报告写成已独立核验的训练轨迹。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03378",
+      "title": "ARGUS: Defending LLM Agents Against Context-Aware Prompt Injection",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "fd503bf287d6450ce2ebb0b52886707092dd1f64ba83f0e368993617d101e070",
+      "specific_note": "ARGUS/AgentLure 明确研究 context-dependent 任务和环境证据对具体行动的因果支持；与权限边界及正确行动条件直接相关。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.17734",
+      "title": "Harnessing LLM Agents with Skill Programs",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2b9a914891766131071536c48d9de923c81b050fecb7b48243057f715ea243c6",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24539",
+      "title": "DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b4946bcad8fa9423207116b9fef84b80a0dc30f688223b18d2f801b778669f8e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27922",
+      "title": "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "dc165585ec2a9275d63c8cf42d6ce1555ca79a41022a9f9f83dd29cc18552e1a"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.29682",
+      "title": "Scaling Laws for Agent Harnesses via Effective Feedback Compute",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "1822d6a910a6f5f146fedcce98a41572eebc83c5a436c85c376b8d396d735959",
+      "specific_note": "原页是 Scaling Laws for Agent Harnesses via Effective Feedback Compute；不是 Harness survey。早期口头分类已更正，按 scaling/feedback-compute 方法论文保留。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30621",
+      "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
+      "topic_at_discovery": "planning_search_and_reflection",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论计划、搜索、反馈纠错、验证或执行控制，可用于 harness 控制机制的分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "d6a7f7cdf096dacdf5f11558da8869a8a2fb1084e4e7f9b621be506004333474"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.20683",
+      "title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+      "topic_at_discovery": "harness_foundations_and_surveys",
+      "decision": "keep_relevant",
+      "reason": "摘要提供 agent/harness 架构、组成或评测的组织框架，可用于综述脉络。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4b16f490ea38e4c807bf3afe99e269a7116a6ae797a92f80736a0f52d3bbbe62"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.21856",
+      "title": "Harness-MU: A Safe, Governed, and Effective Harness for Multi-User LLM Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "168fb7277697d64e56b573679547355e65badb9b739a53f1a8fedc6837a0266e",
+      "specific_note": "Harness-MU 研究多用户治理及执行 hooks，直接相关；摘要的绝对安全措辞属于作者主张，书目核验不等于验证其普适保证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.23449",
+      "title": "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "5615423ca86eb1087e52310434bcf6e1a6f79444da1c83689f68e72ee39f3e5d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.25447",
+      "title": "The Interplay of Harness Design and Post-Training in LLM Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "2aa09a37968560233ebc618ced8c669335a9e0b91691755f5775cbad17edaf46",
+      "specific_note": "直接把 harness 设计设为可控变量，并区分任务/工具环境迁移与后训练，属于高相关核心文献。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26027",
+      "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "a95cdd378617645159087bbc82014ca94c46830cadc9ee4b68e554fa34a6f066"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01120",
+      "title": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "73df69043aef7e3ba9e6cb320fe0690e00f010cf890f5fbb9e74837b6e9d8a3e",
+      "specific_note": "摘要以三支柱的系统论证/架构建议为主，并实例化 AReaL2.0 的一条分支；不要把全部愿景都写成已经实现。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.04686",
+      "title": "ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "29dc9be7154f8d51d7eb0bfd64c385e0682bbfdd8a10ad00fa59be38561a8819"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08147",
+      "title": "Prismata: Confining Cross-Site Prompt Injection in Web Agents",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "f2e44014824a9bf9590885c227482da71a305f461de88b5b6ff6adb01ad42d7f"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.10569",
+      "title": "When Does Restricting a Coding Agent to execute_code Help? A Regime $\\times$ Agent-Design Ablation",
+      "topic_at_discovery": "tool_use_and_interfaces",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论外部工具的表示、选择、调用、执行反馈或评测，与工具接口层直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "eec23dc20f619ececfb369f8818d9493fc0e70574bc87423f22030c972437d9f",
+      "specific_note": "直接交叉比较任务类型、agent 设计和执行工具表面；其结果区分成本与通过率，不能概括为限制工具普遍提高正确率。",
+      "title_hint_differs_from_source": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.13359",
+      "title": "Learning Latency-Aware Orchestration for Multi-Agent Systems",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "71f309c6fec7569bd95de883ba494504a3f0ab4f753491c59a9d2025c79f7dd7"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21653",
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "3efb0b361e0c77a8ed25c752b1925aa03dee3609b590ef35b625e65ef93d7e69"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.25656",
+      "title": "OrchBench: Evaluating Multi-Agent Orchestration Plans in Isolation via Deterministic Simulation",
+      "topic_at_discovery": "multi_agent_coordination",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理间角色、通信、协作、编排或故障，可用于多代理控制层分类。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b8365b3e8772d78863080785b6628ef2b87029c3419d169d9b211aa848673dbb",
+      "specific_note": "OrchBench 用确定性模拟器评估编排计划，不实际调用 worker；可作编排评价证据，不能当成所有结果均来自真实执行。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05108",
+      "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "e8c6a361fe0a9dc57abc1075ac067b7f0358e26d48a8da15dd5c7fde866164e5"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17528",
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "topic_at_discovery": "agent_training_and_rl",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理动作/轨迹学习、训练执行接口或交互式强化学习，与运行层—学习层接口相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "4c1c695f979ae4259a43ead8b40c014177d19edb6450f0cf7aeceaa2521319a4",
+      "specific_note": "Agent Lightning v1.0 是 2508.03680 的后续系统工作，题名和摘要所述训练/harness 机制有新增内容；不按版本名直接视为重复。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.01222",
+      "title": "What's in Your Agent's Context? Context Privilege Escalation Attacks against AI Agent Harness",
+      "topic_at_discovery": "security_permissions_and_verification",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理工具、外部信息、记忆或执行中的攻击、防御、权限与验证，与运行边界相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b21deb242cd9721a53806f1783d380c2491d6d85a3b41260bac4346054c12dac"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.04518",
+      "title": "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "b5bf4aca0947cc11560b2e5fc630407f209f4031d366a1961fd2cf30b1445706",
+      "specific_note": "直接区分多 harness 暴露与跨 harness 优势分组，并在未见 harness 上评估迁移；属于高相关核心文献。摘要结论有明确限定，不能只摘选效应最大的数字。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05019",
+      "title": "TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing",
+      "topic_at_discovery": "harness_runtime_and_orchestration",
+      "decision": "keep_relevant",
+      "reason": "摘要讨论代理运行结构、工作流、执行接口或编排机制，与 harness 主范围直接相关。",
+      "title_and_abstract_read": true,
+      "full_text_reviewed": false,
+      "abstract_sha256_at_review": "5e49525ac7196273ff48404ea68adfec5be47de3a75f8dd67f904a76fe6ba351"
+    }
+  ]
+}

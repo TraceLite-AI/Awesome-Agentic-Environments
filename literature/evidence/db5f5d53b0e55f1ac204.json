@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/1801.02201",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1801.02201",
+      "topic": "软件环境/可测试性",
+      "discovery_url": "https://arxiv.org/abs/1801.02201",
+      "title_hint": "",
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1801.02201",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:29.402035+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1801.02201",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42850,
+  "title": "A survey on software testability",
+  "authors": [
+    "Garousi, Vahid",
+    "Felderer, Michael",
+    "Kilicaslan, Feyza Nur"
+  ],
+  "first_author": "Garousi, Vahid",
+  "year": 2018,
+  "source_date": "2018/01/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1801.02201",
+  "abstract": "Context: Software testability is the degree to which a software system or a unit under test supports its own testing. To predict and improve software testability, a large number of techniques and metrics have been proposed by both practitioners and researchers in the last several decades. Reviewing and getting an overview of the entire state-of-the-art and state-of-the-practice in this area is often challenging for a practitioner or a new researcher. Objective: Our objective is to summarize the body of knowledge in this area and to benefit the readers (both practitioners and researchers) in preparing, measuring and improving software testability. Method: To address the above need, the authors conducted a survey in the form of a systematic literature mapping (classification) to find out what we as a community know about this topic. After compiling an initial pool of 303 papers, and applying a set of inclusion/exclusion criteria, our final pool included 208 papers. Results: The area of software testability has been comprehensively studied by researchers and practitioners. Approaches for measurement of testability and improvement of testability are the most-frequently addressed in the papers. The two most often mentioned factors affecting testability are observability and controllability. Common ways to improve testability are testability transformation, improving observability, adding assertions, and improving controllability. Conclusion: This paper serves for both researchers and practitioners as an \"index\" to the vast body of knowledge in the area of testability. The results could help practitioners measure and improve software testability in their projects.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1801.02201: A survey on software testability"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A survey on software testability"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1801.02201v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Context: Software testability is the degree to which a software system or a unit under test supports its own testing. To predict and improve software testability, a large number of techniques and metrics have been proposed by both practitioners and researchers in the last several decades. Reviewing and getting an overview of the entire state-of-the-art and state-of-the-practice in this area is often challenging for a practitioner or a new researcher. Objective: Our objective is to summarize the body of knowledge in this area and to benefit the readers (both practitioners and researchers) in preparing, measuring and improving software testability. Method: To address the above need, the authors conducted a survey in the form of a systematic literature mapping (classification) to find out what we as a community know about this topic. After compiling an initial pool of 303 papers, and applying a set of inclusion/exclusion criteria, our final pool included 208 papers. Results: The area of software testability has been comprehensively studied by researchers and practitioners. Approaches for measurement of testability and improvement of testability are the most-frequently addressed in the papers. The two most often mentioned factors affecting testability are observability and controllability. Common ways to improve testability are testability transformation, improving observability, adding assertions, and improving controllability. Conclusion: This paper serves for both researchers and practitioners as an \"index\" to the vast body of knowledge in the area of testability. The results could help practitioners measure and improve software testability in their projects."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A survey on software testability"
+    ],
+    "twitter:description": [
+      "Context: Software testability is the degree to which a software system or a unit under test supports its own testing. To predict and improve software testability, a large number of techniques and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A survey on software testability"
+    ],
+    "citation_author": [
+      "Garousi, Vahid",
+      "Felderer, Michael",
+      "Kilicaslan, Feyza Nur"
+    ],
+    "citation_date": [
+      "2018/01/07"
+    ],
+    "citation_online_date": [
+      "2018/12/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1801.02201"
+    ],
+    "citation_arxiv_id": [
+      "1801.02201"
+    ],
+    "citation_abstract": [
+      "Context: Software testability is the degree to which a software system or a unit under test supports its own testing. To predict and improve software testability, a large number of techniques and metrics have been proposed by both practitioners and researchers in the last several decades. Reviewing and getting an overview of the entire state-of-the-art and state-of-the-practice in this area is often challenging for a practitioner or a new researcher. Objective: Our objective is to summarize the body of knowledge in this area and to benefit the readers (both practitioners and researchers) in preparing, measuring and improving software testability. Method: To address the above need, the authors conducted a survey in the form of a systematic literature mapping (classification) to find out what we as a community know about this topic. After compiling an initial pool of 303 papers, and applying a set of inclusion/exclusion criteria, our final pool included 208 papers. Results: The area of software testability has been comprehensively studied by researchers and practitioners. Approaches for measurement of testability and improvement of testability are the most-frequently addressed in the papers. The two most often mentioned factors affecting testability are observability and controllability. Common ways to improve testability are testability transformation, improving observability, adding assertions, and improving controllability. Conclusion: This paper serves for both researchers and practitioners as an \"index\" to the vast body of knowledge in the area of testability. The results could help practitioners measure and improve software testability in their projects."
+    ]
+  },
+  "html_sha256": "0c821fd42136505f86722c455eeaf4cc95618ea04de53a388d29825b6dd2d844",
+  "evidence_html": "evidence/db5f5d53b0e55f1ac204.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

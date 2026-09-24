@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2512.22857",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.22857",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Autoforge: Automated environment synthesis for agentic reinforcement learning",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.22857",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:35.646062+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.22857",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42333,
+  "title": "AutoForge: Automated Environment Synthesis for Agentic Reinforcement Learning",
+  "authors": [
+    "Cai, Shihao",
+    "Fang, Runnan",
+    "Wu, Jialong",
+    "Li, Baixuan",
+    "Wang, Xinyu",
+    "Jiang, Yong",
+    "Su, Liangcai",
+    "Zhang, Liwen",
+    "Yin, Wenbiao",
+    "Zhang, Zhen",
+    "Feng, Fuli",
+    "Xie, Pengjun",
+    "Wang, Xiaobin"
+  ],
+  "first_author": "Cai, Shihao",
+  "year": 2025,
+  "source_date": "2025/12/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.22857",
+  "abstract": "Conducting reinforcement learning (RL) in simulated environments offers a cost-effective and highly scalable way to enhance language-based agents. However, previous work has been limited to semi-automated environment synthesis or tasks lacking sufficient difficulty, offering little breadth or depth. In addition, the instability of simulated users integrated into these environments, along with the heterogeneity across simulated environments, poses further challenges for agentic RL. In this work, we propose: (1) a unified pipeline for automated and scalable synthesis of simulated environments associated with high-difficulty but easily verifiable tasks; and (2) an environment level RL algorithm that not only effectively mitigates user instability but also performs advantage estimation at the environment level, thereby improving training efficiency and stability. Comprehensive evaluations on agentic benchmarks, including tau-bench, tau2-Bench, and VitaBench, validate the effectiveness of our proposed method. Further in-depth analyses underscore its out-of-domain generalization.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.22857: AutoForge: Automated Environment Synthesis for Agentic Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AutoForge: Automated Environment Synthesis for Agentic Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.22857v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Conducting reinforcement learning (RL) in simulated environments offers a cost-effective and highly scalable way to enhance language-based agents. However, previous work has been limited to semi-automated environment synthesis or tasks lacking sufficient difficulty, offering little breadth or depth. In addition, the instability of simulated users integrated into these environments, along with the heterogeneity across simulated environments, poses further challenges for agentic RL. In this work, we propose: (1) a unified pipeline for automated and scalable synthesis of simulated environments associated with high-difficulty but easily verifiable tasks; and (2) an environment level RL algorithm that not only effectively mitigates user instability but also performs advantage estimation at the environment level, thereby improving training efficiency and stability. Comprehensive evaluations on agentic benchmarks, including tau-bench, tau2-Bench, and VitaBench, validate the effectiveness of our proposed method. Further in-depth analyses underscore its out-of-domain generalization."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AutoForge: Automated Environment Synthesis for Agentic..."
+    ],
+    "twitter:description": [
+      "Conducting reinforcement learning (RL) in simulated environments offers a cost-effective and highly scalable way to enhance language-based agents. However, previous work has been limited to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AutoForge: Automated Environment Synthesis for Agentic Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Cai, Shihao",
+      "Fang, Runnan",
+      "Wu, Jialong",
+      "Li, Baixuan",
+      "Wang, Xinyu",
+      "Jiang, Yong",
+      "Su, Liangcai",
+      "Zhang, Liwen",
+      "Yin, Wenbiao",
+      "Zhang, Zhen",
+      "Feng, Fuli",
+      "Xie, Pengjun",
+      "Wang, Xiaobin"
+    ],
+    "citation_date": [
+      "2025/12/28"
+    ],
+    "citation_online_date": [
+      "2025/12/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.22857"
+    ],
+    "citation_arxiv_id": [
+      "2512.22857"
+    ],
+    "citation_abstract": [
+      "Conducting reinforcement learning (RL) in simulated environments offers a cost-effective and highly scalable way to enhance language-based agents. However, previous work has been limited to semi-automated environment synthesis or tasks lacking sufficient difficulty, offering little breadth or depth. In addition, the instability of simulated users integrated into these environments, along with the heterogeneity across simulated environments, poses further challenges for agentic RL. In this work, we propose: (1) a unified pipeline for automated and scalable synthesis of simulated environments associated with high-difficulty but easily verifiable tasks; and (2) an environment level RL algorithm that not only effectively mitigates user instability but also performs advantage estimation at the environment level, thereby improving training efficiency and stability. Comprehensive evaluations on agentic benchmarks, including tau-bench, tau2-Bench, and VitaBench, validate the effectiveness of our proposed method. Further in-depth analyses underscore its out-of-domain generalization."
+    ]
+  },
+  "html_sha256": "bce3d62e7925fd708e23530eaaef0029972531d970f36a37d315a97cd0dbe1bb",
+  "evidence_html": "evidence/8d3b841c1a9fd7edbc60.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

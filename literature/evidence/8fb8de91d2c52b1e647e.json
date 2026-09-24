@@ -1,0 +1,144 @@
+{
+  "url": "https://arxiv.org/abs/2403.16971",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.16971",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "AIOS: LLM Agent Operating System",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.16971",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "AIOS: LLM Agent Operating System",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.16971",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:27.889866+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.16971",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42985,
+  "title": "AIOS: LLM Agent Operating System",
+  "authors": [
+    "Mei, Kai",
+    "Zhu, Xi",
+    "Xu, Wujiang",
+    "Hua, Wenyue",
+    "Jin, Mingyu",
+    "Li, Zelong",
+    "Xu, Shuyuan",
+    "Ye, Ruosong",
+    "Ge, Yingqiang",
+    "Zhang, Yongfeng"
+  ],
+  "first_author": "Mei, Kai",
+  "year": 2024,
+  "source_date": "2024/03/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.16971",
+  "abstract": "LLM-based intelligent agents face significant deployment challenges, particularly related to resource management. Allowing unrestricted access to LLM or tool resources can lead to inefficient or even potentially harmful resource allocation and utilization for agents. Furthermore, the absence of proper scheduling and resource management mechanisms in current agent designs hinders concurrent processing and limits overall system efficiency. To address these challenges, this paper proposes the architecture of AIOS (LLM-based AI Agent Operating System) under the context of managing LLM-based agents. It introduces a novel architecture for serving LLM-based agents by isolating resources and LLM-specific services from agent applications into an AIOS kernel. This AIOS kernel provides fundamental services (e.g., scheduling, context management, memory management, storage management, access control) for runtime agents. To enhance usability, AIOS also includes an AIOS SDK, a comprehensive suite of APIs designed for utilizing functionalities provided by the AIOS kernel. Experimental results demonstrate that using AIOS can achieve up to 2.1x faster execution for serving agents built by various agent frameworks. The source code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.16971: AIOS: LLM Agent Operating System"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AIOS: LLM Agent Operating System"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.16971v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM-based intelligent agents face significant deployment challenges, particularly related to resource management. Allowing unrestricted access to LLM or tool resources can lead to inefficient or even potentially harmful resource allocation and utilization for agents. Furthermore, the absence of proper scheduling and resource management mechanisms in current agent designs hinders concurrent processing and limits overall system efficiency. To address these challenges, this paper proposes the architecture of AIOS (LLM-based AI Agent Operating System) under the context of managing LLM-based agents. It introduces a novel architecture for serving LLM-based agents by isolating resources and LLM-specific services from agent applications into an AIOS kernel. This AIOS kernel provides fundamental services (e.g., scheduling, context management, memory management, storage management, access control) for runtime agents. To enhance usability, AIOS also includes an AIOS SDK, a comprehensive suite of APIs designed for utilizing functionalities provided by the AIOS kernel. Experimental results demonstrate that using AIOS can achieve up to 2.1x faster execution for serving agents built by various agent frameworks. The source code is available at https://github.com/agiresearch/AIOS."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AIOS: LLM Agent Operating System"
+    ],
+    "twitter:description": [
+      "LLM-based intelligent agents face significant deployment challenges, particularly related to resource management. Allowing unrestricted access to LLM or tool resources can lead to inefficient or..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AIOS: LLM Agent Operating System"
+    ],
+    "citation_author": [
+      "Mei, Kai",
+      "Zhu, Xi",
+      "Xu, Wujiang",
+      "Hua, Wenyue",
+      "Jin, Mingyu",
+      "Li, Zelong",
+      "Xu, Shuyuan",
+      "Ye, Ruosong",
+      "Ge, Yingqiang",
+      "Zhang, Yongfeng"
+    ],
+    "citation_date": [
+      "2024/03/25"
+    ],
+    "citation_online_date": [
+      "2025/08/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.16971"
+    ],
+    "citation_arxiv_id": [
+      "2403.16971"
+    ],
+    "citation_abstract": [
+      "LLM-based intelligent agents face significant deployment challenges, particularly related to resource management. Allowing unrestricted access to LLM or tool resources can lead to inefficient or even potentially harmful resource allocation and utilization for agents. Furthermore, the absence of proper scheduling and resource management mechanisms in current agent designs hinders concurrent processing and limits overall system efficiency. To address these challenges, this paper proposes the architecture of AIOS (LLM-based AI Agent Operating System) under the context of managing LLM-based agents. It introduces a novel architecture for serving LLM-based agents by isolating resources and LLM-specific services from agent applications into an AIOS kernel. This AIOS kernel provides fundamental services (e.g., scheduling, context management, memory management, storage management, access control) for runtime agents. To enhance usability, AIOS also includes an AIOS SDK, a comprehensive suite of APIs designed for utilizing functionalities provided by the AIOS kernel. Experimental results demonstrate that using AIOS can achieve up to 2.1x faster execution for serving agents built by various agent frameworks. The source code is available at https://github.com/agiresearch/AIOS."
+    ]
+  },
+  "html_sha256": "abf717b8b51cf70591464a4d26f201157991a4185ed6786e3ad3fa4aa083cd71",
+  "evidence_html": "evidence/8fb8de91d2c52b1e647e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

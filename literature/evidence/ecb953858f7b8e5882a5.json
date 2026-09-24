@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2401.13649",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.13649",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-8",
+      "topic": "Agent benchmark",
+      "title_hint": "Koh et al. VisualWebArena. ACL 2024. arXiv:2401.13649.",
+      "existing_reference_number": 8,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.13649",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:02.746207+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.13649",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44855,
+  "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+  "authors": [
+    "Koh, Jing Yu",
+    "Lo, Robert",
+    "Jang, Lawrence",
+    "Duvvur, Vikram",
+    "Lim, Ming Chong",
+    "Huang, Po-Yu",
+    "Neubig, Graham",
+    "Zhou, Shuyan",
+    "Salakhutdinov, Ruslan",
+    "Fried, Daniel"
+  ],
+  "first_author": "Koh, Jing Yu",
+  "year": 2024,
+  "source_date": "2024/01/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.13649",
+  "abstract": "Autonomous agents capable of planning, reasoning, and executing actions on the web offer a promising avenue for automating computer tasks. However, the majority of existing benchmarks primarily focus on text-based agents, neglecting many natural tasks that require visual information to effectively solve. Given that most computer interfaces cater to human perception, visual information often augments textual data in ways that text-only models struggle to harness effectively. To bridge this gap, we introduce VisualWebArena, a benchmark designed to assess the performance of multimodal web agents on realistic \\textit{visually grounded tasks}. VisualWebArena comprises of a set of diverse and complex web-based tasks that evaluate various capabilities of autonomous multimodal agents. To perform on this benchmark, agents need to accurately process image-text inputs, interpret natural language instructions, and execute actions on websites to accomplish user-defined objectives. We conduct an extensive evaluation of state-of-the-art LLM-based autonomous agents, including several multimodal models. Through extensive quantitative and qualitative analysis, we identify several limitations of text-only LLM agents, and reveal gaps in the capabilities of state-of-the-art multimodal language agents. VisualWebArena provides a framework for evaluating multimodal autonomous language agents, and offers insights towards building stronger autonomous agents for the web. Our code, baseline models, and data is publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.13649: VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.13649v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous agents capable of planning, reasoning, and executing actions on the web offer a promising avenue for automating computer tasks. However, the majority of existing benchmarks primarily focus on text-based agents, neglecting many natural tasks that require visual information to effectively solve. Given that most computer interfaces cater to human perception, visual information often augments textual data in ways that text-only models struggle to harness effectively. To bridge this gap, we introduce VisualWebArena, a benchmark designed to assess the performance of multimodal web agents on realistic \\textit{visually grounded tasks}. VisualWebArena comprises of a set of diverse and complex web-based tasks that evaluate various capabilities of autonomous multimodal agents. To perform on this benchmark, agents need to accurately process image-text inputs, interpret natural language instructions, and execute actions on websites to accomplish user-defined objectives. We conduct an extensive evaluation of state-of-the-art LLM-based autonomous agents, including several multimodal models. Through extensive quantitative and qualitative analysis, we identify several limitations of text-only LLM agents, and reveal gaps in the capabilities of state-of-the-art multimodal language agents. VisualWebArena provides a framework for evaluating multimodal autonomous language agents, and offers insights towards building stronger autonomous agents for the web. Our code, baseline models, and data is publicly available at https://jykoh.com/vwa."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+    ],
+    "twitter:description": [
+      "Autonomous agents capable of planning, reasoning, and executing actions on the web offer a promising avenue for automating computer tasks. However, the majority of existing benchmarks primarily..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+    ],
+    "citation_author": [
+      "Koh, Jing Yu",
+      "Lo, Robert",
+      "Jang, Lawrence",
+      "Duvvur, Vikram",
+      "Lim, Ming Chong",
+      "Huang, Po-Yu",
+      "Neubig, Graham",
+      "Zhou, Shuyan",
+      "Salakhutdinov, Ruslan",
+      "Fried, Daniel"
+    ],
+    "citation_date": [
+      "2024/01/24"
+    ],
+    "citation_online_date": [
+      "2024/06/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.13649"
+    ],
+    "citation_arxiv_id": [
+      "2401.13649"
+    ],
+    "citation_abstract": [
+      "Autonomous agents capable of planning, reasoning, and executing actions on the web offer a promising avenue for automating computer tasks. However, the majority of existing benchmarks primarily focus on text-based agents, neglecting many natural tasks that require visual information to effectively solve. Given that most computer interfaces cater to human perception, visual information often augments textual data in ways that text-only models struggle to harness effectively. To bridge this gap, we introduce VisualWebArena, a benchmark designed to assess the performance of multimodal web agents on realistic \\textit{visually grounded tasks}. VisualWebArena comprises of a set of diverse and complex web-based tasks that evaluate various capabilities of autonomous multimodal agents. To perform on this benchmark, agents need to accurately process image-text inputs, interpret natural language instructions, and execute actions on websites to accomplish user-defined objectives. We conduct an extensive evaluation of state-of-the-art LLM-based autonomous agents, including several multimodal models. Through extensive quantitative and qualitative analysis, we identify several limitations of text-only LLM agents, and reveal gaps in the capabilities of state-of-the-art multimodal language agents. VisualWebArena provides a framework for evaluating multimodal autonomous language agents, and offers insights towards building stronger autonomous agents for the web. Our code, baseline models, and data is publicly available at https://jykoh.com/vwa."
+    ]
+  },
+  "html_sha256": "198cf485653fb08cadb2ff069fe387e4401e21bdd74d7f6884a6a1ceee8938b0",
+  "evidence_html": "evidence/ecb953858f7b8e5882a5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

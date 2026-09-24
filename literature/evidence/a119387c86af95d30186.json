@@ -1,0 +1,164 @@
+{
+  "url": "https://arxiv.org/abs/2509.17158",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.17158",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "ARE: scaling up agent environments and evaluations",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.17158",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:59.653823+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.17158",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45606,
+  "title": "ARE: Scaling Up Agent Environments and Evaluations",
+  "authors": [
+    "Froger, Romain",
+    "Andrews, Pierre",
+    "Bettini, Matteo",
+    "Budhiraja, Amar",
+    "Cabral, Ricardo Silveira",
+    "Do, Virginie",
+    "Garreau, Emilien",
+    "Gaya, Jean-Baptiste",
+    "Laurençon, Hugo",
+    "Lecanu, Maxime",
+    "Malkan, Kunal",
+    "Mekala, Dheeraj",
+    "Ménard, Pierre",
+    "Bertran, Gerard Moreno-Torres",
+    "Piterbarg, Ulyana",
+    "Plekhanov, Mikhail",
+    "Rita, Mathieu",
+    "Rusakov, Andrey",
+    "Vorotilov, Vladislav",
+    "Wang, Mengjue",
+    "Yu, Ian",
+    "Benhalloum, Amine",
+    "Mialon, Grégoire",
+    "Scialom, Thomas"
+  ],
+  "first_author": "Froger, Romain",
+  "year": 2025,
+  "source_date": "2025/09/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.17158",
+  "abstract": "We introduce Meta Agents Research Environments (ARE), a research platform for scalable creation of environments, integration of synthetic or real applications, and execution of agentic orchestrations. ARE provides simple abstractions to build complex and diverse environments, each with their own rules, tools, content, and verifiers, helping to bridge the gap between model development and real-world deployment. We also propose Gaia2, a benchmark built in ARE and designed to measure general agent capabilities. Beyond search and execution, Gaia2 requires agents to handle ambiguities and noise, adapt to dynamic environments, collaborate with other agents, and operate under temporal constraints. Unlike prior benchmarks, Gaia2 runs asynchronously, surfacing new failure modes that are invisible in static settings. Our experiments show that no system dominates across the intelligence spectrum: stronger reasoning often comes at the cost of efficiency, and budget scaling curves plateau, highlighting the need for new architectures and adaptive compute strategies. Perhaps more importantly, ARE abstractions enable continuous extension of Gaia2 to other environments, empowering the community to rapidly create new benchmarks tailored to their domains. In AI's second half, progress increasingly depends on defining meaningful tasks and robust evaluations to drive frontier capabilities forward.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.17158: ARE: Scaling Up Agent Environments and Evaluations"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ARE: Scaling Up Agent Environments and Evaluations"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.17158v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Meta Agents Research Environments (ARE), a research platform for scalable creation of environments, integration of synthetic or real applications, and execution of agentic orchestrations. ARE provides simple abstractions to build complex and diverse environments, each with their own rules, tools, content, and verifiers, helping to bridge the gap between model development and real-world deployment. We also propose Gaia2, a benchmark built in ARE and designed to measure general agent capabilities. Beyond search and execution, Gaia2 requires agents to handle ambiguities and noise, adapt to dynamic environments, collaborate with other agents, and operate under temporal constraints. Unlike prior benchmarks, Gaia2 runs asynchronously, surfacing new failure modes that are invisible in static settings. Our experiments show that no system dominates across the intelligence spectrum: stronger reasoning often comes at the cost of efficiency, and budget scaling curves plateau, highlighting the need for new architectures and adaptive compute strategies. Perhaps more importantly, ARE abstractions enable continuous extension of Gaia2 to other environments, empowering the community to rapidly create new benchmarks tailored to their domains. In AI's second half, progress increasingly depends on defining meaningful tasks and robust evaluations to drive frontier capabilities forward."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ARE: Scaling Up Agent Environments and Evaluations"
+    ],
+    "twitter:description": [
+      "We introduce Meta Agents Research Environments (ARE), a research platform for scalable creation of environments, integration of synthetic or real applications, and execution of agentic..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ARE: Scaling Up Agent Environments and Evaluations"
+    ],
+    "citation_author": [
+      "Froger, Romain",
+      "Andrews, Pierre",
+      "Bettini, Matteo",
+      "Budhiraja, Amar",
+      "Cabral, Ricardo Silveira",
+      "Do, Virginie",
+      "Garreau, Emilien",
+      "Gaya, Jean-Baptiste",
+      "Laurençon, Hugo",
+      "Lecanu, Maxime",
+      "Malkan, Kunal",
+      "Mekala, Dheeraj",
+      "Ménard, Pierre",
+      "Bertran, Gerard Moreno-Torres",
+      "Piterbarg, Ulyana",
+      "Plekhanov, Mikhail",
+      "Rita, Mathieu",
+      "Rusakov, Andrey",
+      "Vorotilov, Vladislav",
+      "Wang, Mengjue",
+      "Yu, Ian",
+      "Benhalloum, Amine",
+      "Mialon, Grégoire",
+      "Scialom, Thomas"
+    ],
+    "citation_date": [
+      "2025/09/21"
+    ],
+    "citation_online_date": [
+      "2025/12/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.17158"
+    ],
+    "citation_arxiv_id": [
+      "2509.17158"
+    ],
+    "citation_abstract": [
+      "We introduce Meta Agents Research Environments (ARE), a research platform for scalable creation of environments, integration of synthetic or real applications, and execution of agentic orchestrations. ARE provides simple abstractions to build complex and diverse environments, each with their own rules, tools, content, and verifiers, helping to bridge the gap between model development and real-world deployment. We also propose Gaia2, a benchmark built in ARE and designed to measure general agent capabilities. Beyond search and execution, Gaia2 requires agents to handle ambiguities and noise, adapt to dynamic environments, collaborate with other agents, and operate under temporal constraints. Unlike prior benchmarks, Gaia2 runs asynchronously, surfacing new failure modes that are invisible in static settings. Our experiments show that no system dominates across the intelligence spectrum: stronger reasoning often comes at the cost of efficiency, and budget scaling curves plateau, highlighting the need for new architectures and adaptive compute strategies. Perhaps more importantly, ARE abstractions enable continuous extension of Gaia2 to other environments, empowering the community to rapidly create new benchmarks tailored to their domains. In AI's second half, progress increasingly depends on defining meaningful tasks and robust evaluations to drive frontier capabilities forward."
+    ]
+  },
+  "html_sha256": "304612ffccdf8e6845617e1650e1a779cc9894148e997a111fb9447f7bc80508",
+  "evidence_html": "evidence/a119387c86af95d30186.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=VTF8yNQM66",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=VTF8yNQM66",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Swe-bench: Can language models resolve real-world github issues?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=VTF8yNQM66",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:17.243130+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DVTF8yNQM66",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "cd09a068776ee90df63733d7cf93ac695ba0b930968ff7880ed7a604da3f67c3",
+  "evidence_html": "evidence/76edb73d8c55752ca40c.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2510.11892",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.11892",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "R-wom: Retrieval-augmented world model for computer-use agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.11892",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:43.259822+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.11892",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42333,
+  "title": "R-WoM: Retrieval-augmented World Model For Computer-use Agents",
+  "authors": [
+    "Mei, Kai",
+    "Guo, Jiang",
+    "Chang, Shuaichen",
+    "Dong, Mingwen",
+    "Lee, Dongkyu",
+    "Niu, Xing",
+    "Jiang, Jiarong"
+  ],
+  "first_author": "Mei, Kai",
+  "year": 2025,
+  "source_date": "2025/10/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.11892",
+  "abstract": "Large Language Models (LLMs) can serve as world models to enhance agent decision-making in digital environments by simulating future states and predicting action outcomes, potentially eliminating costly trial-and-error exploration. However, this capability is fundamentally limited by LLMs' tendency toward hallucination and their reliance on static training knowledge, which can lead to compounding errors that inhibit long-horizon simulations. To systematically investigate whether LLMs are appropriate for world modeling, we probe two core capabilities of world models--future state prediction and reward estimation--through three tasks: next-state identification, full-procedure planning alignment, and milestone transition recognition. Our analysis shows that while LLMs effectively capture immediate next states and identify meaningful state transitions, their performance rapidly degrades in full-procedure planning. This highlights LLMs' limitations in reliably modeling environment dynamics over long horizons. To address these limitations, we propose the Retrieval-augmented World Model (R-WoM), which grounds LLM simulations by incorporating factual, up-to-date knowledge retrieved from external tutorials. Experiments show that R-WoM achieves relative improvements of up to 23.4% and 16.3% on the subsets of OSWorld and Webarena compared to baselines, with particular advantage in longer-horizon simulations.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.11892: R-WoM: Retrieval-augmented World Model For Computer-use Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "R-WoM: Retrieval-augmented World Model For Computer-use Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.11892v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) can serve as world models to enhance agent decision-making in digital environments by simulating future states and predicting action outcomes, potentially eliminating costly trial-and-error exploration. However, this capability is fundamentally limited by LLMs' tendency toward hallucination and their reliance on static training knowledge, which can lead to compounding errors that inhibit long-horizon simulations. To systematically investigate whether LLMs are appropriate for world modeling, we probe two core capabilities of world models--future state prediction and reward estimation--through three tasks: next-state identification, full-procedure planning alignment, and milestone transition recognition. Our analysis shows that while LLMs effectively capture immediate next states and identify meaningful state transitions, their performance rapidly degrades in full-procedure planning. This highlights LLMs' limitations in reliably modeling environment dynamics over long horizons. To address these limitations, we propose the Retrieval-augmented World Model (R-WoM), which grounds LLM simulations by incorporating factual, up-to-date knowledge retrieved from external tutorials. Experiments show that R-WoM achieves relative improvements of up to 23.4% and 16.3% on the subsets of OSWorld and Webarena compared to baselines, with particular advantage in longer-horizon simulations."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "R-WoM: Retrieval-augmented World Model For Computer-use Agents"
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) can serve as world models to enhance agent decision-making in digital environments by simulating future states and predicting action outcomes, potentially eliminating..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "R-WoM: Retrieval-augmented World Model For Computer-use Agents"
+    ],
+    "citation_author": [
+      "Mei, Kai",
+      "Guo, Jiang",
+      "Chang, Shuaichen",
+      "Dong, Mingwen",
+      "Lee, Dongkyu",
+      "Niu, Xing",
+      "Jiang, Jiarong"
+    ],
+    "citation_date": [
+      "2025/10/13"
+    ],
+    "citation_online_date": [
+      "2026/03/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.11892"
+    ],
+    "citation_arxiv_id": [
+      "2510.11892"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) can serve as world models to enhance agent decision-making in digital environments by simulating future states and predicting action outcomes, potentially eliminating costly trial-and-error exploration. However, this capability is fundamentally limited by LLMs' tendency toward hallucination and their reliance on static training knowledge, which can lead to compounding errors that inhibit long-horizon simulations. To systematically investigate whether LLMs are appropriate for world modeling, we probe two core capabilities of world models--future state prediction and reward estimation--through three tasks: next-state identification, full-procedure planning alignment, and milestone transition recognition. Our analysis shows that while LLMs effectively capture immediate next states and identify meaningful state transitions, their performance rapidly degrades in full-procedure planning. This highlights LLMs' limitations in reliably modeling environment dynamics over long horizons. To address these limitations, we propose the Retrieval-augmented World Model (R-WoM), which grounds LLM simulations by incorporating factual, up-to-date knowledge retrieved from external tutorials. Experiments show that R-WoM achieves relative improvements of up to 23.4% and 16.3% on the subsets of OSWorld and Webarena compared to baselines, with particular advantage in longer-horizon simulations."
+    ]
+  },
+  "html_sha256": "af5b409ac79acfb937abe736965133615b9e44d05481987a1a91cd320ff62ec3",
+  "evidence_html": "evidence/06d00116f2961def0088.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,200 @@
+{
+  "url": "https://arxiv.org/abs/2508.09123",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.09123",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "OpenCUA: Open Foundations for Computer-Use Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.09123",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:07.631396+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.09123",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 48463,
+  "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+  "authors": [
+    "Wang, Xinyuan",
+    "Wang, Bowen",
+    "Lu, Dunjie",
+    "Yang, Junlin",
+    "Xie, Tianbao",
+    "Wang, Junli",
+    "Deng, Jiaqi",
+    "Guo, Xiaole",
+    "Xu, Yiheng",
+    "Wu, Chen Henry",
+    "Shen, Zhennan",
+    "Li, Zhuokai",
+    "Li, Ryan",
+    "Li, Xiaochuan",
+    "Chen, Junda",
+    "Zheng, Boyuan",
+    "Li, Peihang",
+    "Lei, Fangyu",
+    "Cao, Ruisheng",
+    "Fu, Yeqiao",
+    "Shin, Dongchan",
+    "Shin, Martin",
+    "Hu, Jiarui",
+    "Wang, Yuyan",
+    "Chen, Jixuan",
+    "Ye, Yuxiao",
+    "Zhang, Danyang",
+    "Du, Dikang",
+    "Hu, Hao",
+    "Chen, Huarong",
+    "Zhou, Zaida",
+    "Yao, Haotian",
+    "Chen, Ziwei",
+    "Gu, Qizheng",
+    "Wang, Yipu",
+    "Wang, Heng",
+    "Yang, Diyi",
+    "Zhong, Victor",
+    "Sung, Flood",
+    "Charles, Y.",
+    "Yang, Zhilin",
+    "Yu, Tao"
+  ],
+  "first_author": "Wang, Xinyuan",
+  "year": 2025,
+  "source_date": "2025/08/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.09123",
+  "abstract": "Vision-language models have demonstrated impressive capabilities as computer-use agents (CUAs) capable of automating diverse computer tasks. As their commercial potential grows, critical details of the most capable CUA systems remain closed. As these agents will increasingly mediate digital interactions and execute consequential decisions on our behalf, the research community needs access to open CUA frameworks to study their capabilities, limitations, and risks. To bridge this gap, we propose OpenCUA, a comprehensive open-source framework for scaling CUA data and foundation models. Our framework consists of: (1) an annotation infrastructure that seamlessly captures human computer-use demonstrations; (2) AgentNet, the first large-scale computer-use task dataset spanning 3 operating systems and 200+ applications and websites; (3) a scalable pipeline that transforms demonstrations into state-action pairs with reflective long Chain-of-Thought reasoning that sustain robust performance gains as data scales. Our end-to-end agent models demonstrate strong performance across CUA benchmarks. In particular, OpenCUA-72B achieves an average success rate of 45.0% on OSWorld-Verified, establishing a new state-of-the-art (SOTA) among open-source models. Further analysis confirms that our approach generalizes well across domains and benefits significantly from increased test-time computation. We release our annotation tool, datasets, code, and models to build open foundations for further CUA research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.09123: OpenCUA: Open Foundations for Computer-Use Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenCUA: Open Foundations for Computer-Use Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.09123v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Vision-language models have demonstrated impressive capabilities as computer-use agents (CUAs) capable of automating diverse computer tasks. As their commercial potential grows, critical details of the most capable CUA systems remain closed. As these agents will increasingly mediate digital interactions and execute consequential decisions on our behalf, the research community needs access to open CUA frameworks to study their capabilities, limitations, and risks. To bridge this gap, we propose OpenCUA, a comprehensive open-source framework for scaling CUA data and foundation models. Our framework consists of: (1) an annotation infrastructure that seamlessly captures human computer-use demonstrations; (2) AgentNet, the first large-scale computer-use task dataset spanning 3 operating systems and 200+ applications and websites; (3) a scalable pipeline that transforms demonstrations into state-action pairs with reflective long Chain-of-Thought reasoning that sustain robust performance gains as data scales. Our end-to-end agent models demonstrate strong performance across CUA benchmarks. In particular, OpenCUA-72B achieves an average success rate of 45.0% on OSWorld-Verified, establishing a new state-of-the-art (SOTA) among open-source models. Further analysis confirms that our approach generalizes well across domains and benefits significantly from increased test-time computation. We release our annotation tool, datasets, code, and models to build open foundations for further CUA research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenCUA: Open Foundations for Computer-Use Agents"
+    ],
+    "twitter:description": [
+      "Vision-language models have demonstrated impressive capabilities as computer-use agents (CUAs) capable of automating diverse computer tasks. As their commercial potential grows, critical details..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenCUA: Open Foundations for Computer-Use Agents"
+    ],
+    "citation_author": [
+      "Wang, Xinyuan",
+      "Wang, Bowen",
+      "Lu, Dunjie",
+      "Yang, Junlin",
+      "Xie, Tianbao",
+      "Wang, Junli",
+      "Deng, Jiaqi",
+      "Guo, Xiaole",
+      "Xu, Yiheng",
+      "Wu, Chen Henry",
+      "Shen, Zhennan",
+      "Li, Zhuokai",
+      "Li, Ryan",
+      "Li, Xiaochuan",
+      "Chen, Junda",
+      "Zheng, Boyuan",
+      "Li, Peihang",
+      "Lei, Fangyu",
+      "Cao, Ruisheng",
+      "Fu, Yeqiao",
+      "Shin, Dongchan",
+      "Shin, Martin",
+      "Hu, Jiarui",
+      "Wang, Yuyan",
+      "Chen, Jixuan",
+      "Ye, Yuxiao",
+      "Zhang, Danyang",
+      "Du, Dikang",
+      "Hu, Hao",
+      "Chen, Huarong",
+      "Zhou, Zaida",
+      "Yao, Haotian",
+      "Chen, Ziwei",
+      "Gu, Qizheng",
+      "Wang, Yipu",
+      "Wang, Heng",
+      "Yang, Diyi",
+      "Zhong, Victor",
+      "Sung, Flood",
+      "Charles, Y.",
+      "Yang, Zhilin",
+      "Yu, Tao"
+    ],
+    "citation_date": [
+      "2025/08/12"
+    ],
+    "citation_online_date": [
+      "2025/10/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.09123"
+    ],
+    "citation_arxiv_id": [
+      "2508.09123"
+    ],
+    "citation_abstract": [
+      "Vision-language models have demonstrated impressive capabilities as computer-use agents (CUAs) capable of automating diverse computer tasks. As their commercial potential grows, critical details of the most capable CUA systems remain closed. As these agents will increasingly mediate digital interactions and execute consequential decisions on our behalf, the research community needs access to open CUA frameworks to study their capabilities, limitations, and risks. To bridge this gap, we propose OpenCUA, a comprehensive open-source framework for scaling CUA data and foundation models. Our framework consists of: (1) an annotation infrastructure that seamlessly captures human computer-use demonstrations; (2) AgentNet, the first large-scale computer-use task dataset spanning 3 operating systems and 200+ applications and websites; (3) a scalable pipeline that transforms demonstrations into state-action pairs with reflective long Chain-of-Thought reasoning that sustain robust performance gains as data scales. Our end-to-end agent models demonstrate strong performance across CUA benchmarks. In particular, OpenCUA-72B achieves an average success rate of 45.0% on OSWorld-Verified, establishing a new state-of-the-art (SOTA) among open-source models. Further analysis confirms that our approach generalizes well across domains and benefits significantly from increased test-time computation. We release our annotation tool, datasets, code, and models to build open foundations for further CUA research."
+    ]
+  },
+  "html_sha256": "55a3e15f21f3f160f4be09ba8328567b8e85c88a681d0b0466136e0c6a75be54",
+  "evidence_html": "evidence/a1649a73ae4d7e88b738.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

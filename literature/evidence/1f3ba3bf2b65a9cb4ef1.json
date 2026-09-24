@@ -1,0 +1,158 @@
+{
+  "url": "https://arxiv.org/abs/2509.23045",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.23045",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.23045",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:38.414127+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.23045",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44063,
+  "title": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+  "authors": [
+    "Yang, Zonghan",
+    "Wang, Shengjie",
+    "Fu, Kelin",
+    "He, Wenyang",
+    "Xiong, Weimin",
+    "Liu, Yibo",
+    "Miao, Yibo",
+    "Gao, Bofei",
+    "Wang, Yejie",
+    "Ma, Yingwei",
+    "Li, Yanhao",
+    "Liu, Yue",
+    "Hu, Zhenxing",
+    "Zhang, Kaitai",
+    "Wang, Shuyi",
+    "Chen, Huarong",
+    "Sung, Flood",
+    "Liu, Yang",
+    "Gao, Yang",
+    "Yang, Zhilin",
+    "Liu, Tianyu"
+  ],
+  "first_author": "Yang, Zonghan",
+  "year": 2025,
+  "source_date": "2025/09/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.23045",
+  "abstract": "Large Language Models (LLMs) are increasingly applied to software engineering (SWE), with SWE-bench as a key benchmark. Solutions are split into SWE-Agent frameworks with multi-turn interactions and workflow-based Agentless methods with single-turn verifiable steps. We argue these paradigms are not mutually exclusive: reasoning-intensive Agentless training induces skill priors, including localization, code edit, and self-reflection that enable efficient and effective SWE-Agent adaptation. In this work, we first curate the Agentless training recipe and present Kimi-Dev, an open-source SWE LLM achieving 60.4\\% on SWE-bench Verified, the best among workflow approaches. With additional SFT adaptation on 5k publicly-available trajectories, Kimi-Dev powers SWE-Agents to 48.6\\% pass@1, on par with that of Claude 3.5 Sonnet (241022 version). These results show that structured skill priors from Agentless training can bridge workflow and agentic frameworks for transferable coding agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.23045: Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.23045v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) are increasingly applied to software engineering (SWE), with SWE-bench as a key benchmark. Solutions are split into SWE-Agent frameworks with multi-turn interactions and workflow-based Agentless methods with single-turn verifiable steps. We argue these paradigms are not mutually exclusive: reasoning-intensive Agentless training induces skill priors, including localization, code edit, and self-reflection that enable efficient and effective SWE-Agent adaptation. In this work, we first curate the Agentless training recipe and present Kimi-Dev, an open-source SWE LLM achieving 60.4\\% on SWE-bench Verified, the best among workflow approaches. With additional SFT adaptation on 5k publicly-available trajectories, Kimi-Dev powers SWE-Agents to 48.6\\% pass@1, on par with that of Claude 3.5 Sonnet (241022 version). These results show that structured skill priors from Agentless training can bridge workflow and agentic frameworks for transferable coding agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents"
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) are increasingly applied to software engineering (SWE), with SWE-bench as a key benchmark. Solutions are split into SWE-Agent frameworks with multi-turn interactions..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents"
+    ],
+    "citation_author": [
+      "Yang, Zonghan",
+      "Wang, Shengjie",
+      "Fu, Kelin",
+      "He, Wenyang",
+      "Xiong, Weimin",
+      "Liu, Yibo",
+      "Miao, Yibo",
+      "Gao, Bofei",
+      "Wang, Yejie",
+      "Ma, Yingwei",
+      "Li, Yanhao",
+      "Liu, Yue",
+      "Hu, Zhenxing",
+      "Zhang, Kaitai",
+      "Wang, Shuyi",
+      "Chen, Huarong",
+      "Sung, Flood",
+      "Liu, Yang",
+      "Gao, Yang",
+      "Yang, Zhilin",
+      "Liu, Tianyu"
+    ],
+    "citation_date": [
+      "2025/09/27"
+    ],
+    "citation_online_date": [
+      "2025/12/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.23045"
+    ],
+    "citation_arxiv_id": [
+      "2509.23045"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) are increasingly applied to software engineering (SWE), with SWE-bench as a key benchmark. Solutions are split into SWE-Agent frameworks with multi-turn interactions and workflow-based Agentless methods with single-turn verifiable steps. We argue these paradigms are not mutually exclusive: reasoning-intensive Agentless training induces skill priors, including localization, code edit, and self-reflection that enable efficient and effective SWE-Agent adaptation. In this work, we first curate the Agentless training recipe and present Kimi-Dev, an open-source SWE LLM achieving 60.4\\% on SWE-bench Verified, the best among workflow approaches. With additional SFT adaptation on 5k publicly-available trajectories, Kimi-Dev powers SWE-Agents to 48.6\\% pass@1, on par with that of Claude 3.5 Sonnet (241022 version). These results show that structured skill priors from Agentless training can bridge workflow and agentic frameworks for transferable coding agents."
+    ]
+  },
+  "html_sha256": "28ba025955bc65376b613a802da53c50fadc8ab112e3aeecec717eb3c9de5515",
+  "evidence_html": "evidence/1f3ba3bf2b65a9cb4ef1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

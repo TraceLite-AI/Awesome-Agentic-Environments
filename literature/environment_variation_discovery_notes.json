@@ -1,0 +1,40 @@
+{
+  "candidate_count": 20,
+  "discovery_source": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+  "source_snapshot": "discovery_agent/gui_new.md",
+  "sections": [
+    "Evaluation and Benchmarks",
+    "Safety, Robustness, and Security",
+    "Recent Research"
+  ],
+  "selection": "Direct configuration variation, realistic state changes, corruptions, error recovery, observation/accessibility constraints, and adversarial environment changes. Not a full copy of the directory.",
+  "existing_candidates_skipped": [
+    "macOSWorld",
+    "Mobile-Bench-v2",
+    "WASP"
+  ],
+  "less_direct_candidate_excluded": "DiffSpot (fine-grained visual difference spotting; narrower perception rather than interactive environment variation)",
+  "direct_arxiv_pages_opened": [
+    {
+      "url": "https://arxiv.org/abs/2511.20766",
+      "interpretation": "OpenApps changes app appearance/content and evaluates reliability across versions."
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.16660",
+      "interpretation": "B-MoCA randomizes mobile configuration, including UI layouts and language settings."
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.08047",
+      "interpretation": "WorldGUI systematically varies task initial states, enabling recovery/adaptation evaluation."
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.25707",
+      "interpretation": "AgentHijack studies configurable common environment corruptions without necessarily adversarial intent."
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.29447",
+      "interpretation": "GUI-RobustEval/RoTS focuses on recovery from policy-induced errors; retain as adjacent reliability, not as direct exogenous configuration variation."
+    }
+  ],
+  "quality_note": "Candidates carry titles only as discovery hints. Parent must use opened paper metadata; directory venue labels were not copied."
+}

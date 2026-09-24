@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/2509.17255",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.17255",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.17255",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:38.848886+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.17255",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44331,
+  "title": "Agentic Artificial Intelligence for Multistage Physics Experiments at a Large-Scale User Facility Particle Accelerator",
+  "authors": [
+    "Hellert, Thorsten",
+    "Bertwistle, Drew",
+    "Leemann, Simon C.",
+    "Sulc, Antonin",
+    "Venturini, Marco"
+  ],
+  "first_author": "Hellert, Thorsten",
+  "year": 2025,
+  "source_date": "2025/09/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "Phys. Rev. Research 8, L012017 (2026)",
+  "doi": "10.1103/jtqy-9jz1",
+  "arxiv_id": "2509.17255",
+  "abstract": "We present the first language-model-driven agentic artificial intelligence (AI) system to autonomously execute multi-stage physics experiments on a production synchrotron light source. Implemented at the Advanced Light Source particle accelerator, the system translates natural language user prompts into structured execution plans that combine archive data retrieval, control-system channel resolution, automated script generation, controlled machine interaction, and analysis. In a representative machine physics task, we show that preparation time was reduced by two orders of magnitude relative to manual scripting even for a system expert, while operator-standard safety constraints were strictly upheld. Core architectural features, plan-first orchestration, bounded tool access, and dynamic capability selection, enable transparent, auditable execution with fully reproducible artifacts. These results establish a blueprint for the safe integration of agentic AI into accelerator experiments and demanding machine physics studies, as well as routine operations, with direct portability across accelerators worldwide and, more broadly, to other large-scale scientific infrastructures.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.17255: Agentic Artificial Intelligence for Multistage Physics Experiments at a Large-Scale User Facility Particle Accelerator"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agentic Artificial Intelligence for Multistage Physics Experiments at a Large-Scale User Facility Particle Accelerator"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.17255v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present the first language-model-driven agentic artificial intelligence (AI) system to autonomously execute multi-stage physics experiments on a production synchrotron light source. Implemented at the Advanced Light Source particle accelerator, the system translates natural language user prompts into structured execution plans that combine archive data retrieval, control-system channel resolution, automated script generation, controlled machine interaction, and analysis. In a representative machine physics task, we show that preparation time was reduced by two orders of magnitude relative to manual scripting even for a system expert, while operator-standard safety constraints were strictly upheld. Core architectural features, plan-first orchestration, bounded tool access, and dynamic capability selection, enable transparent, auditable execution with fully reproducible artifacts. These results establish a blueprint for the safe integration of agentic AI into accelerator experiments and demanding machine physics studies, as well as routine operations, with direct portability across accelerators worldwide and, more broadly, to other large-scale scientific infrastructures."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agentic Artificial Intelligence for Multistage Physics Experiments..."
+    ],
+    "twitter:description": [
+      "We present the first language-model-driven agentic artificial intelligence (AI) system to autonomously execute multi-stage physics experiments on a production synchrotron light source. Implemented..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agentic Artificial Intelligence for Multistage Physics Experiments at a Large-Scale User Facility Particle Accelerator"
+    ],
+    "citation_author": [
+      "Hellert, Thorsten",
+      "Bertwistle, Drew",
+      "Leemann, Simon C.",
+      "Sulc, Antonin",
+      "Venturini, Marco"
+    ],
+    "citation_doi": [
+      "10.1103/jtqy-9jz1"
+    ],
+    "citation_date": [
+      "2025/09/21"
+    ],
+    "citation_online_date": [
+      "2026/07/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.17255"
+    ],
+    "citation_arxiv_id": [
+      "2509.17255"
+    ],
+    "citation_abstract": [
+      "We present the first language-model-driven agentic artificial intelligence (AI) system to autonomously execute multi-stage physics experiments on a production synchrotron light source. Implemented at the Advanced Light Source particle accelerator, the system translates natural language user prompts into structured execution plans that combine archive data retrieval, control-system channel resolution, automated script generation, controlled machine interaction, and analysis. In a representative machine physics task, we show that preparation time was reduced by two orders of magnitude relative to manual scripting even for a system expert, while operator-standard safety constraints were strictly upheld. Core architectural features, plan-first orchestration, bounded tool access, and dynamic capability selection, enable transparent, auditable execution with fully reproducible artifacts. These results establish a blueprint for the safe integration of agentic AI into accelerator experiments and demanding machine physics studies, as well as routine operations, with direct portability across accelerators worldwide and, more broadly, to other large-scale scientific infrastructures."
+    ]
+  },
+  "html_sha256": "e3fe4d4c74e23dff7990f98aa630343e1a929bd55e6be3893dc33f59f1ab8007",
+  "evidence_html": "evidence/efc04b68789868be9a58.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

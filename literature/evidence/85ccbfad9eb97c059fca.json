@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2310.02170",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.02170",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02170",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Dynamic LLM-Agent Network: An LLM-Agent Collaboration Framework with Agent Team Optimization (v2 retitled: A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration)",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.02170",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:22.483329+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.02170",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42672,
+  "title": "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration",
+  "authors": [
+    "Liu, Zijun",
+    "Zhang, Yanzhe",
+    "Li, Peng",
+    "Liu, Yang",
+    "Yang, Diyi"
+  ],
+  "first_author": "Liu, Zijun",
+  "year": 2023,
+  "source_date": "2023/10/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.02170",
+  "abstract": "Recent studies show that collaborating multiple large language model (LLM) powered agents is a promising way for task solving. However, current approaches are constrained by using a fixed number of agents and static communication structures. In this work, we propose automatically selecting a team of agents from candidates to collaborate in a dynamic communication structure toward different tasks and domains. Specifically, we build a framework named Dynamic LLM-Powered Agent Network ($\\textbf{DyLAN}$) for LLM-powered agent collaboration, operating a two-stage paradigm: (1) Team Optimization and (2) Task Solving. During the first stage, we utilize an $\\textit{agent selection}$ algorithm, based on an unsupervised metric called $\\textit{Agent Importance Score}$, enabling the selection of best agents according to their contributions in a preliminary trial, oriented to the given task. Then, in the second stage, the selected agents collaborate dynamically according to the query. Empirically, we demonstrate that DyLAN outperforms strong baselines in code generation, decision-making, general reasoning, and arithmetic reasoning tasks with moderate computational cost. On specific subjects in MMLU, selecting a team of agents in the team optimization stage improves accuracy by up to 25.0% in DyLAN.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.02170: A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.02170v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent studies show that collaborating multiple large language model (LLM) powered agents is a promising way for task solving. However, current approaches are constrained by using a fixed number of agents and static communication structures. In this work, we propose automatically selecting a team of agents from candidates to collaborate in a dynamic communication structure toward different tasks and domains. Specifically, we build a framework named Dynamic LLM-Powered Agent Network ($\\textbf{DyLAN}$) for LLM-powered agent collaboration, operating a two-stage paradigm: (1) Team Optimization and (2) Task Solving. During the first stage, we utilize an $\\textit{agent selection}$ algorithm, based on an unsupervised metric called $\\textit{Agent Importance Score}$, enabling the selection of best agents according to their contributions in a preliminary trial, oriented to the given task. Then, in the second stage, the selected agents collaborate dynamically according to the query. Empirically, we demonstrate that DyLAN outperforms strong baselines in code generation, decision-making, general reasoning, and arithmetic reasoning tasks with moderate computational cost. On specific subjects in MMLU, selecting a team of agents in the team optimization stage improves accuracy by up to 25.0% in DyLAN."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration"
+    ],
+    "twitter:description": [
+      "Recent studies show that collaborating multiple large language model (LLM) powered agents is a promising way for task solving. However, current approaches are constrained by using a fixed number..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration"
+    ],
+    "citation_author": [
+      "Liu, Zijun",
+      "Zhang, Yanzhe",
+      "Li, Peng",
+      "Liu, Yang",
+      "Yang, Diyi"
+    ],
+    "citation_date": [
+      "2023/10/03"
+    ],
+    "citation_online_date": [
+      "2024/11/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.02170"
+    ],
+    "citation_arxiv_id": [
+      "2310.02170"
+    ],
+    "citation_abstract": [
+      "Recent studies show that collaborating multiple large language model (LLM) powered agents is a promising way for task solving. However, current approaches are constrained by using a fixed number of agents and static communication structures. In this work, we propose automatically selecting a team of agents from candidates to collaborate in a dynamic communication structure toward different tasks and domains. Specifically, we build a framework named Dynamic LLM-Powered Agent Network ($\\textbf{DyLAN}$) for LLM-powered agent collaboration, operating a two-stage paradigm: (1) Team Optimization and (2) Task Solving. During the first stage, we utilize an $\\textit{agent selection}$ algorithm, based on an unsupervised metric called $\\textit{Agent Importance Score}$, enabling the selection of best agents according to their contributions in a preliminary trial, oriented to the given task. Then, in the second stage, the selected agents collaborate dynamically according to the query. Empirically, we demonstrate that DyLAN outperforms strong baselines in code generation, decision-making, general reasoning, and arithmetic reasoning tasks with moderate computational cost. On specific subjects in MMLU, selecting a team of agents in the team optimization stage improves accuracy by up to 25.0% in DyLAN."
+    ]
+  },
+  "html_sha256": "1911c8253629a89ee5dd4062485ce9b451c4ffbe2c68eec3114cdf8fb27fb1c2",
+  "evidence_html": "evidence/85ccbfad9eb97c059fca.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

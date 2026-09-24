@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2606.25447",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.25447",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "The Interplay of Harness Design and Post-Training in LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.25447",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:43.409184+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.25447",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42458,
+  "title": "The Interplay of Harness Design and Post-Training in LLM Agents",
+  "authors": [
+    "Kim, Kyungmin",
+    "Choi, Youngbin",
+    "Lee, Seoyeon",
+    "Jun, Suhyeon",
+    "Kim, Dongwoo",
+    "Park, Sangdon"
+  ],
+  "first_author": "Kim, Kyungmin",
+  "year": 2026,
+  "source_date": "2026/06/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.25447",
+  "abstract": "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each per-step observation. While agents are routinely post-trained, this scaffolding is typically treated as a fixed engineering detail, with design effort limited to the training-free regime. Moreover, existing post-training algorithms assume a static environment, even though tool environments and tasks often shift upon deployment. To address this gap, we extend $\\texttt{ALFWorld}$ (i) to treat the harness as a controllable design dimension and (ii) to support evaluation under task and tool environment shifts. Building on this, we systematically analyze how the harness design influences post-training in both in-distribution and out-of-distribution (OOD) settings. We empirically show that harness-aware post-training not only improves in-distribution performance but also enables agents to robustly adapt to OOD settings. Under a harness with minimal design effort, post-training suffers a drastic performance drop under stronger tool environment shifts, further highlighting the importance of harness-aware post-training under such shifts.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.25447: The Interplay of Harness Design and Post-Training in LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "The Interplay of Harness Design and Post-Training in LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.25447v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each per-step observation. While agents are routinely post-trained, this scaffolding is typically treated as a fixed engineering detail, with design effort limited to the training-free regime. Moreover, existing post-training algorithms assume a static environment, even though tool environments and tasks often shift upon deployment. To address this gap, we extend $\\texttt{ALFWorld}$ (i) to treat the harness as a controllable design dimension and (ii) to support evaluation under task and tool environment shifts. Building on this, we systematically analyze how the harness design influences post-training in both in-distribution and out-of-distribution (OOD) settings. We empirically show that harness-aware post-training not only improves in-distribution performance but also enables agents to robustly adapt to OOD settings. Under a harness with minimal design effort, post-training suffers a drastic performance drop under stronger tool environment shifts, further highlighting the importance of harness-aware post-training under such shifts."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "The Interplay of Harness Design and Post-Training in LLM Agents"
+    ],
+    "twitter:description": [
+      "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "The Interplay of Harness Design and Post-Training in LLM Agents"
+    ],
+    "citation_author": [
+      "Kim, Kyungmin",
+      "Choi, Youngbin",
+      "Lee, Seoyeon",
+      "Jun, Suhyeon",
+      "Kim, Dongwoo",
+      "Park, Sangdon"
+    ],
+    "citation_date": [
+      "2026/06/24"
+    ],
+    "citation_online_date": [
+      "2026/06/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.25447"
+    ],
+    "citation_arxiv_id": [
+      "2606.25447"
+    ],
+    "citation_abstract": [
+      "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each per-step observation. While agents are routinely post-trained, this scaffolding is typically treated as a fixed engineering detail, with design effort limited to the training-free regime. Moreover, existing post-training algorithms assume a static environment, even though tool environments and tasks often shift upon deployment. To address this gap, we extend $\\texttt{ALFWorld}$ (i) to treat the harness as a controllable design dimension and (ii) to support evaluation under task and tool environment shifts. Building on this, we systematically analyze how the harness design influences post-training in both in-distribution and out-of-distribution (OOD) settings. We empirically show that harness-aware post-training not only improves in-distribution performance but also enables agents to robustly adapt to OOD settings. Under a harness with minimal design effort, post-training suffers a drastic performance drop under stronger tool environment shifts, further highlighting the importance of harness-aware post-training under such shifts."
+    ]
+  },
+  "html_sha256": "a4b7f40a5007ed546987378decf5167c9da601d05226ac5e6a2b1946c7ed5d6c",
+  "evidence_html": "evidence/61e2a9e8606e25e2676a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

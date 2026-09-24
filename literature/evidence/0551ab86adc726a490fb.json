@@ -1,0 +1,152 @@
+{
+  "url": "https://arxiv.org/abs/2506.13131",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.13131",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.13131",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:21.982790+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.13131",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45620,
+  "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+  "authors": [
+    "Novikov, Alexander",
+    "Vũ, Ngân",
+    "Eisenberger, Marvin",
+    "Dupont, Emilien",
+    "Huang, Po-Sen",
+    "Wagner, Adam Zsolt",
+    "Shirobokov, Sergey",
+    "Kozlovskii, Borislav",
+    "Ruiz, Francisco J. R.",
+    "Mehrabian, Abbas",
+    "Kumar, M. Pawan",
+    "See, Abigail",
+    "Chaudhuri, Swarat",
+    "Holland, George",
+    "Davies, Alex",
+    "Nowozin, Sebastian",
+    "Kohli, Pushmeet",
+    "Balog, Matej"
+  ],
+  "first_author": "Novikov, Alexander",
+  "year": 2025,
+  "source_date": "2025/06/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.13131",
+  "abstract": "In this white paper, we present AlphaEvolve, an evolutionary coding agent that substantially enhances capabilities of state-of-the-art LLMs on highly challenging tasks such as tackling open scientific problems or optimizing critical pieces of computational infrastructure. AlphaEvolve orchestrates an autonomous pipeline of LLMs, whose task is to improve an algorithm by making direct changes to the code. Using an evolutionary approach, continuously receiving feedback from one or more evaluators, AlphaEvolve iteratively improves the algorithm, potentially leading to new scientific and practical discoveries. We demonstrate the broad applicability of this approach by applying it to a number of important computational problems. When applied to optimizing critical components of large-scale computational stacks at Google, AlphaEvolve developed a more efficient scheduling algorithm for data centers, found a functionally equivalent simplification in the circuit design of hardware accelerators, and accelerated the training of the LLM underpinning AlphaEvolve itself. Furthermore, AlphaEvolve discovered novel, provably correct algorithms that surpass state-of-the-art solutions on a spectrum of problems in mathematics and computer science, significantly expanding the scope of prior automated discovery methods (Romera-Paredes et al., 2023). Notably, AlphaEvolve developed a search algorithm that found a procedure to multiply two $4 \\times 4$ complex-valued matrices using $48$ scalar multiplications; offering the first improvement, after 56 years, over Strassen's algorithm in this setting. We believe AlphaEvolve and coding agents like it can have a significant impact in improving solutions of problems across many areas of science and computation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.13131: AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.13131v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "In this white paper, we present AlphaEvolve, an evolutionary coding agent that substantially enhances capabilities of state-of-the-art LLMs on highly challenging tasks such as tackling open scientific problems or optimizing critical pieces of computational infrastructure. AlphaEvolve orchestrates an autonomous pipeline of LLMs, whose task is to improve an algorithm by making direct changes to the code. Using an evolutionary approach, continuously receiving feedback from one or more evaluators, AlphaEvolve iteratively improves the algorithm, potentially leading to new scientific and practical discoveries. We demonstrate the broad applicability of this approach by applying it to a number of important computational problems. When applied to optimizing critical components of large-scale computational stacks at Google, AlphaEvolve developed a more efficient scheduling algorithm for data centers, found a functionally equivalent simplification in the circuit design of hardware accelerators, and accelerated the training of the LLM underpinning AlphaEvolve itself. Furthermore, AlphaEvolve discovered novel, provably correct algorithms that surpass state-of-the-art solutions on a spectrum of problems in mathematics and computer science, significantly expanding the scope of prior automated discovery methods (Romera-Paredes et al., 2023). Notably, AlphaEvolve developed a search algorithm that found a procedure to multiply two $4 \\times 4$ complex-valued matrices using $48$ scalar multiplications; offering the first improvement, after 56 years, over Strassen's algorithm in this setting. We believe AlphaEvolve and coding agents like it can have a significant impact in improving solutions of problems across many areas of science and computation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+    ],
+    "twitter:description": [
+      "In this white paper, we present AlphaEvolve, an evolutionary coding agent that substantially enhances capabilities of state-of-the-art LLMs on highly challenging tasks such as tackling open..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+    ],
+    "citation_author": [
+      "Novikov, Alexander",
+      "Vũ, Ngân",
+      "Eisenberger, Marvin",
+      "Dupont, Emilien",
+      "Huang, Po-Sen",
+      "Wagner, Adam Zsolt",
+      "Shirobokov, Sergey",
+      "Kozlovskii, Borislav",
+      "Ruiz, Francisco J. R.",
+      "Mehrabian, Abbas",
+      "Kumar, M. Pawan",
+      "See, Abigail",
+      "Chaudhuri, Swarat",
+      "Holland, George",
+      "Davies, Alex",
+      "Nowozin, Sebastian",
+      "Kohli, Pushmeet",
+      "Balog, Matej"
+    ],
+    "citation_date": [
+      "2025/06/16"
+    ],
+    "citation_online_date": [
+      "2025/06/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.13131"
+    ],
+    "citation_arxiv_id": [
+      "2506.13131"
+    ],
+    "citation_abstract": [
+      "In this white paper, we present AlphaEvolve, an evolutionary coding agent that substantially enhances capabilities of state-of-the-art LLMs on highly challenging tasks such as tackling open scientific problems or optimizing critical pieces of computational infrastructure. AlphaEvolve orchestrates an autonomous pipeline of LLMs, whose task is to improve an algorithm by making direct changes to the code. Using an evolutionary approach, continuously receiving feedback from one or more evaluators, AlphaEvolve iteratively improves the algorithm, potentially leading to new scientific and practical discoveries. We demonstrate the broad applicability of this approach by applying it to a number of important computational problems. When applied to optimizing critical components of large-scale computational stacks at Google, AlphaEvolve developed a more efficient scheduling algorithm for data centers, found a functionally equivalent simplification in the circuit design of hardware accelerators, and accelerated the training of the LLM underpinning AlphaEvolve itself. Furthermore, AlphaEvolve discovered novel, provably correct algorithms that surpass state-of-the-art solutions on a spectrum of problems in mathematics and computer science, significantly expanding the scope of prior automated discovery methods (Romera-Paredes et al., 2023). Notably, AlphaEvolve developed a search algorithm that found a procedure to multiply two $4 \\times 4$ complex-valued matrices using $48$ scalar multiplications; offering the first improvement, after 56 years, over Strassen's algorithm in this setting. We believe AlphaEvolve and coding agents like it can have a significant impact in improving solutions of problems across many areas of science and computation."
+    ]
+  },
+  "html_sha256": "7a0d9acc7002b1960fea119a059a925a6c20d27edd8233777aa0179cb5e8f451",
+  "evidence_html": "evidence/0551ab86adc726a490fb.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

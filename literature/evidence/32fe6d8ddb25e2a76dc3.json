@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/1710.07980",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1710.07980",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-44",
+      "topic": "软件工程：组合测试、配置空间、跨平台 bug、可复现",
+      "title_hint": "Halin et al. Test them all, is it worth it? Assessing configuration sampling on the JHipster Web development stack. EMSE 24(2), 2019. arXiv:1710.07980.",
+      "existing_reference_number": 44,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1710.07980",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:24.832492+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1710.07980",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45448,
+  "title": "Test them all, is it worth it? Assessing configuration sampling on the JHipster Web development stack",
+  "authors": [
+    "Halin, Axel",
+    "Nuttinck, Alexandre",
+    "Acher, Mathieu",
+    "Devroey, Xavier",
+    "Perrouin, Gilles",
+    "Baudry, Benoit"
+  ],
+  "first_author": "Halin, Axel",
+  "year": 2017,
+  "source_date": "2017/10/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1007/s10664-018-9635-4",
+  "arxiv_id": "1710.07980",
+  "abstract": "Many approaches for testing configurable software systems start from the same assumption: it is impossible to test all configurations. This motivated the definition of variability-aware abstractions and sampling techniques to cope with large configuration spaces. Yet, there is no theoretical barrier that prevents the exhaustive testing of all configurations by simply enumerating them, if the effort required to do so remains acceptable. Not only this: we believe there is lots to be learned by systematically and exhaustively testing a configurable system. In this case study, we report on the first ever endeavour to test all possible configurations of an industry-strength, open source configurable software system, JHipster, a popular code generator for web applications. We built a testing scaffold for the 26,000+ configurations of JHipster using a cluster of 80 machines during 4 nights for a total of 4,376 hours (182 days) CPU time. We find that 35.70% configurations fail and we identify the feature interactions that cause the errors. We show that sampling strategies (like dissimilarity and 2-wise): (1) are more effective to find faults than the 12 default configurations used in the JHipster continuous integration; (2) can be too costly and exceed the available testing budget. We cross this quantitative analysis with the qualitative assessment of JHipster's lead developers.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1710.07980: Test them all, is it worth it? Assessing configuration sampling on the JHipster Web development stack"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Test them all, is it worth it? Assessing configuration sampling on the JHipster Web development stack"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1710.07980v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Many approaches for testing configurable software systems start from the same assumption: it is impossible to test all configurations. This motivated the definition of variability-aware abstractions and sampling techniques to cope with large configuration spaces. Yet, there is no theoretical barrier that prevents the exhaustive testing of all configurations by simply enumerating them, if the effort required to do so remains acceptable. Not only this: we believe there is lots to be learned by systematically and exhaustively testing a configurable system. In this case study, we report on the first ever endeavour to test all possible configurations of an industry-strength, open source configurable software system, JHipster, a popular code generator for web applications. We built a testing scaffold for the 26,000+ configurations of JHipster using a cluster of 80 machines during 4 nights for a total of 4,376 hours (182 days) CPU time. We find that 35.70% configurations fail and we identify the feature interactions that cause the errors. We show that sampling strategies (like dissimilarity and 2-wise): (1) are more effective to find faults than the 12 default configurations used in the JHipster continuous integration; (2) can be too costly and exceed the available testing budget. We cross this quantitative analysis with the qualitative assessment of JHipster's lead developers."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Test them all, is it worth it? Assessing configuration sampling on..."
+    ],
+    "twitter:description": [
+      "Many approaches for testing configurable software systems start from the same assumption: it is impossible to test all configurations. This motivated the definition of variability-aware..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Test them all, is it worth it? Assessing configuration sampling on the JHipster Web development stack"
+    ],
+    "citation_author": [
+      "Halin, Axel",
+      "Nuttinck, Alexandre",
+      "Acher, Mathieu",
+      "Devroey, Xavier",
+      "Perrouin, Gilles",
+      "Baudry, Benoit"
+    ],
+    "citation_doi": [
+      "10.1007/s10664-018-9635-4"
+    ],
+    "citation_date": [
+      "2017/10/22"
+    ],
+    "citation_online_date": [
+      "2018/06/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1710.07980"
+    ],
+    "citation_arxiv_id": [
+      "1710.07980"
+    ],
+    "citation_abstract": [
+      "Many approaches for testing configurable software systems start from the same assumption: it is impossible to test all configurations. This motivated the definition of variability-aware abstractions and sampling techniques to cope with large configuration spaces. Yet, there is no theoretical barrier that prevents the exhaustive testing of all configurations by simply enumerating them, if the effort required to do so remains acceptable. Not only this: we believe there is lots to be learned by systematically and exhaustively testing a configurable system. In this case study, we report on the first ever endeavour to test all possible configurations of an industry-strength, open source configurable software system, JHipster, a popular code generator for web applications. We built a testing scaffold for the 26,000+ configurations of JHipster using a cluster of 80 machines during 4 nights for a total of 4,376 hours (182 days) CPU time. We find that 35.70% configurations fail and we identify the feature interactions that cause the errors. We show that sampling strategies (like dissimilarity and 2-wise): (1) are more effective to find faults than the 12 default configurations used in the JHipster continuous integration; (2) can be too costly and exceed the available testing budget. We cross this quantitative analysis with the qualitative assessment of JHipster's lead developers."
+    ]
+  },
+  "html_sha256": "2af16dc0595a1c23520ec7a68456db5c4342c30d487fbcd840b85e12b3c4d7e1",
+  "evidence_html": "evidence/32fe6d8ddb25e2a76dc3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

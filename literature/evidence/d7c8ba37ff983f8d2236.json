@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2403.09631",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.09631",
+      "discovery_url": "https://github.com/journee-live/awesome-world-models",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "3D-VLA : A 3D Vision-Language-Action Generative World Model",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.09631",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:51.911445+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.09631",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42937,
+  "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+  "authors": [
+    "Zhen, Haoyu",
+    "Qiu, Xiaowen",
+    "Chen, Peihao",
+    "Yang, Jincheng",
+    "Yan, Xin",
+    "Du, Yilun",
+    "Hong, Yining",
+    "Gan, Chuang"
+  ],
+  "first_author": "Zhen, Haoyu",
+  "year": 2024,
+  "source_date": "2024/03/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.09631",
+  "abstract": "Recent vision-language-action (VLA) models rely on 2D inputs, lacking integration with the broader realm of the 3D physical world. Furthermore, they perform action prediction by learning a direct mapping from perception to action, neglecting the vast dynamics of the world and the relations between actions and dynamics. In contrast, human beings are endowed with world models that depict imagination about future scenarios to plan actions accordingly. To this end, we propose 3D-VLA by introducing a new family of embodied foundation models that seamlessly link 3D perception, reasoning, and action through a generative world model. Specifically, 3D-VLA is built on top of a 3D-based large language model (LLM), and a set of interaction tokens is introduced to engage with the embodied environment. Furthermore, to inject generation abilities into the model, we train a series of embodied diffusion models and align them into the LLM for predicting the goal images and point clouds. To train our 3D-VLA, we curate a large-scale 3D embodied instruction dataset by extracting vast 3D-related information from existing robotics datasets. Our experiments on held-in datasets demonstrate that 3D-VLA significantly improves the reasoning, multimodal generation, and planning capabilities in embodied environments, showcasing its potential in real-world applications.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.09631: 3D-VLA: A 3D Vision-Language-Action Generative World Model"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "3D-VLA: A 3D Vision-Language-Action Generative World Model"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.09631v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent vision-language-action (VLA) models rely on 2D inputs, lacking integration with the broader realm of the 3D physical world. Furthermore, they perform action prediction by learning a direct mapping from perception to action, neglecting the vast dynamics of the world and the relations between actions and dynamics. In contrast, human beings are endowed with world models that depict imagination about future scenarios to plan actions accordingly. To this end, we propose 3D-VLA by introducing a new family of embodied foundation models that seamlessly link 3D perception, reasoning, and action through a generative world model. Specifically, 3D-VLA is built on top of a 3D-based large language model (LLM), and a set of interaction tokens is introduced to engage with the embodied environment. Furthermore, to inject generation abilities into the model, we train a series of embodied diffusion models and align them into the LLM for predicting the goal images and point clouds. To train our 3D-VLA, we curate a large-scale 3D embodied instruction dataset by extracting vast 3D-related information from existing robotics datasets. Our experiments on held-in datasets demonstrate that 3D-VLA significantly improves the reasoning, multimodal generation, and planning capabilities in embodied environments, showcasing its potential in real-world applications."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "3D-VLA: A 3D Vision-Language-Action Generative World Model"
+    ],
+    "twitter:description": [
+      "Recent vision-language-action (VLA) models rely on 2D inputs, lacking integration with the broader realm of the 3D physical world. Furthermore, they perform action prediction by learning a direct..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "3D-VLA: A 3D Vision-Language-Action Generative World Model"
+    ],
+    "citation_author": [
+      "Zhen, Haoyu",
+      "Qiu, Xiaowen",
+      "Chen, Peihao",
+      "Yang, Jincheng",
+      "Yan, Xin",
+      "Du, Yilun",
+      "Hong, Yining",
+      "Gan, Chuang"
+    ],
+    "citation_date": [
+      "2024/03/14"
+    ],
+    "citation_online_date": [
+      "2024/03/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.09631"
+    ],
+    "citation_arxiv_id": [
+      "2403.09631"
+    ],
+    "citation_abstract": [
+      "Recent vision-language-action (VLA) models rely on 2D inputs, lacking integration with the broader realm of the 3D physical world. Furthermore, they perform action prediction by learning a direct mapping from perception to action, neglecting the vast dynamics of the world and the relations between actions and dynamics. In contrast, human beings are endowed with world models that depict imagination about future scenarios to plan actions accordingly. To this end, we propose 3D-VLA by introducing a new family of embodied foundation models that seamlessly link 3D perception, reasoning, and action through a generative world model. Specifically, 3D-VLA is built on top of a 3D-based large language model (LLM), and a set of interaction tokens is introduced to engage with the embodied environment. Furthermore, to inject generation abilities into the model, we train a series of embodied diffusion models and align them into the LLM for predicting the goal images and point clouds. To train our 3D-VLA, we curate a large-scale 3D embodied instruction dataset by extracting vast 3D-related information from existing robotics datasets. Our experiments on held-in datasets demonstrate that 3D-VLA significantly improves the reasoning, multimodal generation, and planning capabilities in embodied environments, showcasing its potential in real-world applications."
+    ]
+  },
+  "html_sha256": "2f21733aef837ada792d06bb55b3cd8dabf64800602712f94bcfbef798b6fe6b",
+  "evidence_html": "evidence/d7c8ba37ff983f8d2236.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

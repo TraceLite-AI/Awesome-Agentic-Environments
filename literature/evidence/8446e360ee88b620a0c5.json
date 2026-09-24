@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2407.13729",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.13729",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Baba is ai: Break the rules to beat the benchmark",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.13729",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:21.531213+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.13729",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40206,
+  "title": "Baba Is AI: Break the Rules to Beat the Benchmark",
+  "authors": [
+    "Cloos, Nathan",
+    "Jens, Meagan",
+    "Naim, Michelangelo",
+    "Kuo, Yen-Ling",
+    "Cases, Ignacio",
+    "Barbu, Andrei",
+    "Cueva, Christopher J."
+  ],
+  "first_author": "Cloos, Nathan",
+  "year": 2024,
+  "source_date": "2024/07/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.13729",
+  "abstract": "Humans solve problems by following existing rules and procedures, and also by leaps of creativity to redefine those rules and objectives. To probe these abilities, we developed a new benchmark based on the game Baba Is You where an agent manipulates both objects in the environment and rules, represented by movable tiles with words written on them, to reach a specified goal and win the game. We test three state-of-the-art multi-modal large language models (OpenAI GPT-4o, Google Gemini-1.5-Pro and Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated and combined.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.13729: Baba Is AI: Break the Rules to Beat the Benchmark"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Baba Is AI: Break the Rules to Beat the Benchmark"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.13729v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Humans solve problems by following existing rules and procedures, and also by leaps of creativity to redefine those rules and objectives. To probe these abilities, we developed a new benchmark based on the game Baba Is You where an agent manipulates both objects in the environment and rules, represented by movable tiles with words written on them, to reach a specified goal and win the game. We test three state-of-the-art multi-modal large language models (OpenAI GPT-4o, Google Gemini-1.5-Pro and Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated and combined."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Baba Is AI: Break the Rules to Beat the Benchmark"
+    ],
+    "twitter:description": [
+      "Humans solve problems by following existing rules and procedures, and also by leaps of creativity to redefine those rules and objectives. To probe these abilities, we developed a new benchmark..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Baba Is AI: Break the Rules to Beat the Benchmark"
+    ],
+    "citation_author": [
+      "Cloos, Nathan",
+      "Jens, Meagan",
+      "Naim, Michelangelo",
+      "Kuo, Yen-Ling",
+      "Cases, Ignacio",
+      "Barbu, Andrei",
+      "Cueva, Christopher J."
+    ],
+    "citation_date": [
+      "2024/07/18"
+    ],
+    "citation_online_date": [
+      "2025/09/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.13729"
+    ],
+    "citation_arxiv_id": [
+      "2407.13729"
+    ],
+    "citation_abstract": [
+      "Humans solve problems by following existing rules and procedures, and also by leaps of creativity to redefine those rules and objectives. To probe these abilities, we developed a new benchmark based on the game Baba Is You where an agent manipulates both objects in the environment and rules, represented by movable tiles with words written on them, to reach a specified goal and win the game. We test three state-of-the-art multi-modal large language models (OpenAI GPT-4o, Google Gemini-1.5-Pro and Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated and combined."
+    ]
+  },
+  "html_sha256": "ba31af19aec365653396f97b75738db5065d78cb59b71a5dd4ce8141fe03573a",
+  "evidence_html": "evidence/8446e360ee88b620a0c5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

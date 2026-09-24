@@ -1,0 +1,21 @@
+{
+  "url": "https://proceedings.neurips.cc/paper/2020/file/2c6a0bae0f071cbbf0bb3d5b11d90a82-Paper.pdf",
+  "discoveries": [
+    {
+      "url": "https://proceedings.neurips.cc/paper/2020/file/2c6a0bae0f071cbbf0bb3d5b11d90a82-Paper.pdf",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Munchausen Reinforcement Learning, NeurIPS 2020. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://proceedings.neurips.cc/paper/2020/file/2c6a0bae0f071cbbf0bb3d5b11d90a82-Paper.pdf",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:09.544600+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.neurips.cc/paper/2020/file/2c6a0bae0f071cbbf0bb3d5b11d90a82-Paper.pdf",
+  "content_type": "application/pdf",
+  "response_bytes": 3381817,
+  "error": "PDF source opened; metadata requires manual extraction; not automatically counted."
+}

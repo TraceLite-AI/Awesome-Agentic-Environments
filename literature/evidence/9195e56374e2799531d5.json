@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/2605.25707",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2605.25707",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2605.25707",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:41.297420+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2605.25707",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42232,
+  "title": "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions",
+  "authors": [
+    "Sun, Jingwei",
+    "Zhu, Jianing",
+    "Li, Yuanyi",
+    "Liu, Tongliang",
+    "HU, Xia",
+    "Han, Bo"
+  ],
+  "first_author": "Sun, Jingwei",
+  "year": 2026,
+  "source_date": "2026/05/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2605.25707",
+  "abstract": "Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. However, real-world execution environments are far from ideal: pop-ups, resolution changes, and competing applications frequently interfere with agent perception and control. We introduce AgentHijack, a benchmark designed to evaluate the robustness of computer-use agents under common corruptions, where the uncertainties in dynamic environment disrupt the execution flow without direct adversarial intent. Specifically, AgentHijack introduces 9 configurable common corruptions to replicate realistic imperfect scenarios. We evaluate a variety of desktop tasks that utilize MLLM-based agents and discover that even minor instances of corruption can result in substantial performance degradation, which emphasizes the fragility of agents and underscores the necessity of robustness evaluation. Afterward, we propose AgentHijack-Agent, a framework that integrates an action generator with enhanced grounding capabilities and an onlooker responsible for behavior summarization and environment checking. Extensive experiments validate its effectiveness. Our code, environment, baseline models and data are publicly available at: this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2605.25707: AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2605.25707v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. However, real-world execution environments are far from ideal: pop-ups, resolution changes, and competing applications frequently interfere with agent perception and control. We introduce AgentHijack, a benchmark designed to evaluate the robustness of computer-use agents under common corruptions, where the uncertainties in dynamic environment disrupt the execution flow without direct adversarial intent. Specifically, AgentHijack introduces 9 configurable common corruptions to replicate realistic imperfect scenarios. We evaluate a variety of desktop tasks that utilize MLLM-based agents and discover that even minor instances of corruption can result in substantial performance degradation, which emphasizes the fragility of agents and underscores the necessity of robustness evaluation. Afterward, we propose AgentHijack-Agent, a framework that integrates an action generator with enhanced grounding capabilities and an onlooker responsible for behavior summarization and environment checking. Extensive experiments validate its effectiveness. Our code, environment, baseline models and data are publicly available at: https://AgentHijack.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentHijack: Benchmarking Computer Use Agent Robustness to Common..."
+    ],
+    "twitter:description": [
+      "Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. However, real-world execution..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions"
+    ],
+    "citation_author": [
+      "Sun, Jingwei",
+      "Zhu, Jianing",
+      "Li, Yuanyi",
+      "Liu, Tongliang",
+      "HU, Xia",
+      "Han, Bo"
+    ],
+    "citation_date": [
+      "2026/05/25"
+    ],
+    "citation_online_date": [
+      "2026/05/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2605.25707"
+    ],
+    "citation_arxiv_id": [
+      "2605.25707"
+    ],
+    "citation_abstract": [
+      "Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. However, real-world execution environments are far from ideal: pop-ups, resolution changes, and competing applications frequently interfere with agent perception and control. We introduce AgentHijack, a benchmark designed to evaluate the robustness of computer-use agents under common corruptions, where the uncertainties in dynamic environment disrupt the execution flow without direct adversarial intent. Specifically, AgentHijack introduces 9 configurable common corruptions to replicate realistic imperfect scenarios. We evaluate a variety of desktop tasks that utilize MLLM-based agents and discover that even minor instances of corruption can result in substantial performance degradation, which emphasizes the fragility of agents and underscores the necessity of robustness evaluation. Afterward, we propose AgentHijack-Agent, a framework that integrates an action generator with enhanced grounding capabilities and an onlooker responsible for behavior summarization and environment checking. Extensive experiments validate its effectiveness. Our code, environment, baseline models and data are publicly available at: https://AgentHijack.github.io."
+    ]
+  },
+  "html_sha256": "c62bf33c4c20632e1fed2450d86c60f00d63f4e5fdbaa370746ed7b72284c9b6",
+  "evidence_html": "evidence/9195e56374e2799531d5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

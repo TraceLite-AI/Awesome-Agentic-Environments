@@ -1,0 +1,221 @@
+{
+  "url": "https://arxiv.org/abs/2502.18864",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.18864",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "Towards an AI co-scientist",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.18864",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:18.056901+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.18864",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 52723,
+  "title": "Accelerating scientific discovery with Co-Scientist",
+  "authors": [
+    "Gottweis, Juraj",
+    "Weng, Wei-Hung",
+    "Daryin, Alexander",
+    "Tu, Tao",
+    "Sirkovic, Petar",
+    "Myaskovsky, Artiom",
+    "Glowaty, Grzegorz",
+    "Weissenberger, Felix",
+    "Orlandi, Alessio",
+    "Popovici, Dan",
+    "Palepu, Anil",
+    "Rong, Keran",
+    "Tanno, Ryutaro",
+    "Saab, Khaled",
+    "Zhang, Fan",
+    "Blum, Jacob",
+    "Carroll, Andrew",
+    "Kulkarni, Kavita",
+    "Tomasev, Nenad",
+    "Zverinski, Dina",
+    "Rendulic, Ivor",
+    "Vedadi, Elahe",
+    "Hasler, Florian",
+    "Rimanic, Luka",
+    "Boia, Marina",
+    "Budiselic, Ivan",
+    "Feinstein, Ben",
+    "Bellaiche, Mathias",
+    "Sheffer, Tom",
+    "Freyberg, Jan",
+    "Ratcliff, Jeremy",
+    "Bertolli, Ottavia",
+    "Chou, Katherine",
+    "Hassidim, Avinatan",
+    "Gokturk, Burak",
+    "Vahdat, Amin",
+    "Guan, Yuan",
+    "Dhillon, Vikram",
+    "Vaishnav, Eeshit Dhaval",
+    "Lee, Byron",
+    "Costa, Tiago R D",
+    "Penadés, José R",
+    "Peltz, Gary",
+    "Matias, Yossi",
+    "Manyika, James",
+    "Hassabis, Demis",
+    "Xu, Yunhan",
+    "Kohli, Pushmeet",
+    "Pawlosky, Annalisa",
+    "Karthikesalingam, Alan",
+    "Natarajan, Vivek"
+  ],
+  "first_author": "Gottweis, Juraj",
+  "year": 2025,
+  "source_date": "2025/02/26",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1038/s41586-026-10644-y",
+  "arxiv_id": "2502.18864",
+  "abstract": "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system built on Gemini for structured scientific thinking and hypothesis generation. Co-Scientist aims to help scientists discover new original knowledge. Conditioned on their research objectives and prior scientific evidence, it formulates demonstrably novel research hypotheses for experimental verification. The system's design involves agents continuously generating, critiquing and refining hypotheses accelerated by scaling test-time compute. Key contributions include: (1) a multi-agent architecture with an asynchronous task execution framework for flexible compute scaling; (2) a tournament evolution process for self-improving hypotheses generation. Automated evaluations show continued benefits of test-time compute scaling, improving hypothesis quality over time. While general purpose, we focus the validation in three biomedical applications: drug repurposing, novel target discovery, and explaining mechanisms of anti-microbial resistance. Specifically, Co-Scientist helped identify new drug repurposing candidates and synergistic combination therapies for acute myeloid leukemia, which were validated through in vitro experiments. These real-world validations demonstrate the potential of Co-Scientist to accelerate scientific discovery and usher in an era of AI empowered scientists.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.18864: Accelerating scientific discovery with Co-Scientist"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Accelerating scientific discovery with Co-Scientist"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.18864v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system built on Gemini for structured scientific thinking and hypothesis generation. Co-Scientist aims to help scientists discover new original knowledge. Conditioned on their research objectives and prior scientific evidence, it formulates demonstrably novel research hypotheses for experimental verification. The system's design involves agents continuously generating, critiquing and refining hypotheses accelerated by scaling test-time compute. Key contributions include: (1) a multi-agent architecture with an asynchronous task execution framework for flexible compute scaling; (2) a tournament evolution process for self-improving hypotheses generation. Automated evaluations show continued benefits of test-time compute scaling, improving hypothesis quality over time. While general purpose, we focus the validation in three biomedical applications: drug repurposing, novel target discovery, and explaining mechanisms of anti-microbial resistance. Specifically, Co-Scientist helped identify new drug repurposing candidates and synergistic combination therapies for acute myeloid leukemia, which were validated through in vitro experiments. These real-world validations demonstrate the potential of Co-Scientist to accelerate scientific discovery and usher in an era of AI empowered scientists."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Accelerating scientific discovery with Co-Scientist"
+    ],
+    "twitter:description": [
+      "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Accelerating scientific discovery with Co-Scientist"
+    ],
+    "citation_author": [
+      "Gottweis, Juraj",
+      "Weng, Wei-Hung",
+      "Daryin, Alexander",
+      "Tu, Tao",
+      "Sirkovic, Petar",
+      "Myaskovsky, Artiom",
+      "Glowaty, Grzegorz",
+      "Weissenberger, Felix",
+      "Orlandi, Alessio",
+      "Popovici, Dan",
+      "Palepu, Anil",
+      "Rong, Keran",
+      "Tanno, Ryutaro",
+      "Saab, Khaled",
+      "Zhang, Fan",
+      "Blum, Jacob",
+      "Carroll, Andrew",
+      "Kulkarni, Kavita",
+      "Tomasev, Nenad",
+      "Zverinski, Dina",
+      "Rendulic, Ivor",
+      "Vedadi, Elahe",
+      "Hasler, Florian",
+      "Rimanic, Luka",
+      "Boia, Marina",
+      "Budiselic, Ivan",
+      "Feinstein, Ben",
+      "Bellaiche, Mathias",
+      "Sheffer, Tom",
+      "Freyberg, Jan",
+      "Ratcliff, Jeremy",
+      "Bertolli, Ottavia",
+      "Chou, Katherine",
+      "Hassidim, Avinatan",
+      "Gokturk, Burak",
+      "Vahdat, Amin",
+      "Guan, Yuan",
+      "Dhillon, Vikram",
+      "Vaishnav, Eeshit Dhaval",
+      "Lee, Byron",
+      "Costa, Tiago R D",
+      "Penadés, José R",
+      "Peltz, Gary",
+      "Matias, Yossi",
+      "Manyika, James",
+      "Hassabis, Demis",
+      "Xu, Yunhan",
+      "Kohli, Pushmeet",
+      "Pawlosky, Annalisa",
+      "Karthikesalingam, Alan",
+      "Natarajan, Vivek"
+    ],
+    "citation_doi": [
+      "10.1038/s41586-026-10644-y"
+    ],
+    "citation_date": [
+      "2025/02/26"
+    ],
+    "citation_online_date": [
+      "2026/06/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.18864"
+    ],
+    "citation_arxiv_id": [
+      "2502.18864"
+    ],
+    "citation_abstract": [
+      "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system built on Gemini for structured scientific thinking and hypothesis generation. Co-Scientist aims to help scientists discover new original knowledge. Conditioned on their research objectives and prior scientific evidence, it formulates demonstrably novel research hypotheses for experimental verification. The system's design involves agents continuously generating, critiquing and refining hypotheses accelerated by scaling test-time compute. Key contributions include: (1) a multi-agent architecture with an asynchronous task execution framework for flexible compute scaling; (2) a tournament evolution process for self-improving hypotheses generation. Automated evaluations show continued benefits of test-time compute scaling, improving hypothesis quality over time. While general purpose, we focus the validation in three biomedical applications: drug repurposing, novel target discovery, and explaining mechanisms of anti-microbial resistance. Specifically, Co-Scientist helped identify new drug repurposing candidates and synergistic combination therapies for acute myeloid leukemia, which were validated through in vitro experiments. These real-world validations demonstrate the potential of Co-Scientist to accelerate scientific discovery and usher in an era of AI empowered scientists."
+    ]
+  },
+  "html_sha256": "dd8b7120f213b02738e71df13d7d6f64357b13c30ecd1d3347d9cd6d9e8067e2",
+  "evidence_html": "evidence/7166f089a529484eabf5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

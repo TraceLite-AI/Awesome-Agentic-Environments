@@ -1,0 +1,9 @@
+﻿kept_url,duplicate_url,title,reason
+https://arxiv.org/abs/2304.08244,https://doi.org/10.18653/v1/2023.emnlp-main.187,API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2401.13649,https://doi.org/10.18653/v1/2024.acl-long.50,VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2407.18901,https://doi.org/10.18653/v1/2024.acl-long.850,AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2403.07714,https://doi.org/10.18653/v1/2024.findings-acl.664,StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2404.07972,https://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html,OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2203.01302,https://proceedings.mlr.press/v162/parker-holder22a.html,Evolving Curricula with Regret-Based Environment Design,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2412.21139,https://proceedings.mlr.press/v267/pan25g.html,Training Software Engineering Agents and Verifiers with SWE-Gym,规范化标题相同；同一作品不重复计数
+https://arxiv.org/abs/2110.02439,https://proceedings.neurips.cc/paper/2021/hash/0e915db6326b6fb6a3c56546980a8c93-Abstract.html,Replay-Guided Adversarial Environment Design,规范化标题相同；同一作品不重复计数

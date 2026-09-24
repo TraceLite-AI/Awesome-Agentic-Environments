@@ -1,0 +1,131 @@
+{
+  "url": "https://arxiv.org/abs/2304.11477",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2304.11477",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2304.11477",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:01.897479+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2304.11477",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43165,
+  "title": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+  "authors": [
+    "Liu, Bo",
+    "Jiang, Yuqian",
+    "Zhang, Xiaohan",
+    "Liu, Qiang",
+    "Zhang, Shiqi",
+    "Biswas, Joydeep",
+    "Stone, Peter"
+  ],
+  "first_author": "Liu, Bo",
+  "year": 2023,
+  "source_date": "2023/04/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2304.11477",
+  "abstract": "Large language models (LLMs) have demonstrated remarkable zero-shot generalization abilities: state-of-the-art chatbots can provide plausible answers to many common questions that arise in daily life. However, so far, LLMs cannot reliably solve long-horizon planning problems. By contrast, classical planners, once a problem is given in a formatted way, can use efficient search algorithms to quickly identify correct, or even optimal, plans. In an effort to get the best of both worlds, this paper introduces LLM+P, the first framework that incorporates the strengths of classical planners into LLMs. LLM+P takes in a natural language description of a planning problem, then returns a correct (or optimal) plan for solving that problem in natural language. LLM+P does so by first converting the language description into a file written in the planning domain definition language (PDDL), then leveraging classical planners to quickly find a solution, and then translating the found solution back into natural language. Along with LLM+P, we define a diverse set of different benchmark problems taken from common planning scenarios. Via a comprehensive set of experiments on these benchmark problems, we find that LLM+P is able to provide optimal solutions for most problems, while LLMs fail to provide even feasible plans for most problems.\\footnote{The code and results are publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2304.11477: LLM+P: Empowering Large Language Models with Optimal Planning Proficiency"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2304.11477v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have demonstrated remarkable zero-shot generalization abilities: state-of-the-art chatbots can provide plausible answers to many common questions that arise in daily life. However, so far, LLMs cannot reliably solve long-horizon planning problems. By contrast, classical planners, once a problem is given in a formatted way, can use efficient search algorithms to quickly identify correct, or even optimal, plans. In an effort to get the best of both worlds, this paper introduces LLM+P, the first framework that incorporates the strengths of classical planners into LLMs. LLM+P takes in a natural language description of a planning problem, then returns a correct (or optimal) plan for solving that problem in natural language. LLM+P does so by first converting the language description into a file written in the planning domain definition language (PDDL), then leveraging classical planners to quickly find a solution, and then translating the found solution back into natural language. Along with LLM+P, we define a diverse set of different benchmark problems taken from common planning scenarios. Via a comprehensive set of experiments on these benchmark problems, we find that LLM+P is able to provide optimal solutions for most problems, while LLMs fail to provide even feasible plans for most problems.\\footnote{The code and results are publicly available at https://github.com/Cranial-XIX/llm-pddl.git."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have demonstrated remarkable zero-shot generalization abilities: state-of-the-art chatbots can provide plausible answers to many common questions that arise in daily..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency"
+    ],
+    "citation_author": [
+      "Liu, Bo",
+      "Jiang, Yuqian",
+      "Zhang, Xiaohan",
+      "Liu, Qiang",
+      "Zhang, Shiqi",
+      "Biswas, Joydeep",
+      "Stone, Peter"
+    ],
+    "citation_date": [
+      "2023/04/22"
+    ],
+    "citation_online_date": [
+      "2023/09/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2304.11477"
+    ],
+    "citation_arxiv_id": [
+      "2304.11477"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have demonstrated remarkable zero-shot generalization abilities: state-of-the-art chatbots can provide plausible answers to many common questions that arise in daily life. However, so far, LLMs cannot reliably solve long-horizon planning problems. By contrast, classical planners, once a problem is given in a formatted way, can use efficient search algorithms to quickly identify correct, or even optimal, plans. In an effort to get the best of both worlds, this paper introduces LLM+P, the first framework that incorporates the strengths of classical planners into LLMs. LLM+P takes in a natural language description of a planning problem, then returns a correct (or optimal) plan for solving that problem in natural language. LLM+P does so by first converting the language description into a file written in the planning domain definition language (PDDL), then leveraging classical planners to quickly find a solution, and then translating the found solution back into natural language. Along with LLM+P, we define a diverse set of different benchmark problems taken from common planning scenarios. Via a comprehensive set of experiments on these benchmark problems, we find that LLM+P is able to provide optimal solutions for most problems, while LLMs fail to provide even feasible plans for most problems.\\footnote{The code and results are publicly available at https://github.com/Cranial-XIX/llm-pddl.git."
+    ]
+  },
+  "html_sha256": "78c6394de80918d2b8b930dd9c30ad8eb893a1de2a9f46f53caed8c5b1a66e4d",
+  "evidence_html": "evidence/e6221458582fdfd25b1f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2409.19256",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2409.19256",
+      "discovery_url": "https://arxiv.org/abs/2409.19256",
+      "topic": "agent_training_and_rl",
+      "title_hint": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2409.19256",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:33.291457+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2409.19256",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46263,
+  "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+  "authors": [
+    "Sheng, Guangming",
+    "Zhang, Chi",
+    "Ye, Zilingfeng",
+    "Wu, Xibin",
+    "Zhang, Wang",
+    "Zhang, Ru",
+    "Peng, Yanghua",
+    "Lin, Haibin",
+    "Wu, Chuan"
+  ],
+  "first_author": "Sheng, Guangming",
+  "year": 2024,
+  "source_date": "2024/09/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1145/3689031.3696075",
+  "arxiv_id": "2409.19256",
+  "abstract": "Reinforcement Learning from Human Feedback (RLHF) is widely used in Large Language Model (LLM) alignment. Traditional RL can be modeled as a dataflow, where each node represents computation of a neural network (NN) and each edge denotes data dependencies between the NNs. RLHF complicates the dataflow by expanding each node into a distributed LLM training or generation program, and each edge into a many-to-many multicast. Traditional RL frameworks execute the dataflow using a single controller to instruct both intra-node computation and inter-node communication, which can be inefficient in RLHF due to large control dispatch overhead for distributed intra-node computation. Existing RLHF systems adopt a multi-controller paradigm, which can be inflexible due to nesting distributed computation and data communication. We propose HybridFlow, which combines single-controller and multi-controller paradigms in a hybrid manner to enable flexible representation and efficient execution of the RLHF dataflow. We carefully design a set of hierarchical APIs that decouple and encapsulate computation and data dependencies in the complex RLHF dataflow, allowing efficient operation orchestration to implement RLHF algorithms and flexible mapping of the computation onto various devices. We further design a 3D-HybridEngine for efficient actor model resharding between training and generation phases, with zero memory redundancy and significantly reduced communication overhead. Our experimental results demonstrate 1.53$\\times$~20.57$\\times$ throughput improvement when running various RLHF algorithms using HybridFlow, as compared with state-of-the-art baselines. HybridFlow source code will be available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2409.19256: HybridFlow: A Flexible and Efficient RLHF Framework"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "HybridFlow: A Flexible and Efficient RLHF Framework"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2409.19256v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Reinforcement Learning from Human Feedback (RLHF) is widely used in Large Language Model (LLM) alignment. Traditional RL can be modeled as a dataflow, where each node represents computation of a neural network (NN) and each edge denotes data dependencies between the NNs. RLHF complicates the dataflow by expanding each node into a distributed LLM training or generation program, and each edge into a many-to-many multicast. Traditional RL frameworks execute the dataflow using a single controller to instruct both intra-node computation and inter-node communication, which can be inefficient in RLHF due to large control dispatch overhead for distributed intra-node computation. Existing RLHF systems adopt a multi-controller paradigm, which can be inflexible due to nesting distributed computation and data communication. We propose HybridFlow, which combines single-controller and multi-controller paradigms in a hybrid manner to enable flexible representation and efficient execution of the RLHF dataflow. We carefully design a set of hierarchical APIs that decouple and encapsulate computation and data dependencies in the complex RLHF dataflow, allowing efficient operation orchestration to implement RLHF algorithms and flexible mapping of the computation onto various devices. We further design a 3D-HybridEngine for efficient actor model resharding between training and generation phases, with zero memory redundancy and significantly reduced communication overhead. Our experimental results demonstrate 1.53$\\times$~20.57$\\times$ throughput improvement when running various RLHF algorithms using HybridFlow, as compared with state-of-the-art baselines. HybridFlow source code will be available at https://github.com/volcengine/verl."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "HybridFlow: A Flexible and Efficient RLHF Framework"
+    ],
+    "twitter:description": [
+      "Reinforcement Learning from Human Feedback (RLHF) is widely used in Large Language Model (LLM) alignment. Traditional RL can be modeled as a dataflow, where each node represents computation of a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "HybridFlow: A Flexible and Efficient RLHF Framework"
+    ],
+    "citation_author": [
+      "Sheng, Guangming",
+      "Zhang, Chi",
+      "Ye, Zilingfeng",
+      "Wu, Xibin",
+      "Zhang, Wang",
+      "Zhang, Ru",
+      "Peng, Yanghua",
+      "Lin, Haibin",
+      "Wu, Chuan"
+    ],
+    "citation_doi": [
+      "10.1145/3689031.3696075"
+    ],
+    "citation_date": [
+      "2024/09/28"
+    ],
+    "citation_online_date": [
+      "2024/10/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2409.19256"
+    ],
+    "citation_arxiv_id": [
+      "2409.19256"
+    ],
+    "citation_abstract": [
+      "Reinforcement Learning from Human Feedback (RLHF) is widely used in Large Language Model (LLM) alignment. Traditional RL can be modeled as a dataflow, where each node represents computation of a neural network (NN) and each edge denotes data dependencies between the NNs. RLHF complicates the dataflow by expanding each node into a distributed LLM training or generation program, and each edge into a many-to-many multicast. Traditional RL frameworks execute the dataflow using a single controller to instruct both intra-node computation and inter-node communication, which can be inefficient in RLHF due to large control dispatch overhead for distributed intra-node computation. Existing RLHF systems adopt a multi-controller paradigm, which can be inflexible due to nesting distributed computation and data communication. We propose HybridFlow, which combines single-controller and multi-controller paradigms in a hybrid manner to enable flexible representation and efficient execution of the RLHF dataflow. We carefully design a set of hierarchical APIs that decouple and encapsulate computation and data dependencies in the complex RLHF dataflow, allowing efficient operation orchestration to implement RLHF algorithms and flexible mapping of the computation onto various devices. We further design a 3D-HybridEngine for efficient actor model resharding between training and generation phases, with zero memory redundancy and significantly reduced communication overhead. Our experimental results demonstrate 1.53$\\times$~20.57$\\times$ throughput improvement when running various RLHF algorithms using HybridFlow, as compared with state-of-the-art baselines. HybridFlow source code will be available at https://github.com/volcengine/verl."
+    ]
+  },
+  "html_sha256": "bcd3a485bc6eed538ca95977c181e3a5d42f87e1024d7d38020a46acd6063484",
+  "evidence_html": "evidence/e08180f4cd26dee65831.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

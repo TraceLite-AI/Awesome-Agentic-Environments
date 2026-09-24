@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2504.15965",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.15965",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.15965",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:04.963281+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.15965",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43481,
+  "title": "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs",
+  "authors": [
+    "Wu, Yaxiong",
+    "Liang, Sheng",
+    "Zhang, Chen",
+    "Wang, Yichao",
+    "Zhang, Yongyue",
+    "Guo, Huifeng",
+    "Tang, Ruiming",
+    "Liu, Yong"
+  ],
+  "first_author": "Wu, Yaxiong",
+  "year": 2025,
+  "source_date": "2025/04/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.15965",
+  "abstract": "Memory is the process of encoding, storing, and retrieving information, allowing humans to retain experiences, knowledge, skills, and facts over time, and serving as the foundation for growth and effective interaction with the world. It plays a crucial role in shaping our identity, making decisions, learning from past experiences, building relationships, and adapting to changes. In the era of large language models (LLMs), memory refers to the ability of an AI system to retain, recall, and use information from past interactions to improve future responses and interactions. Although previous research and reviews have provided detailed descriptions of memory mechanisms, there is still a lack of a systematic review that summarizes and analyzes the relationship between the memory of LLM-driven AI systems and human memory, as well as how we can be inspired by human memory to construct more powerful memory systems. To achieve this, in this paper, we propose a comprehensive survey on the memory of LLM-driven AI systems. In particular, we first conduct a detailed analysis of the categories of human memory and relate them to the memory of AI systems. Second, we systematically organize existing memory-related work and propose a categorization method based on three dimensions (object, form, and time) and eight quadrants. Finally, we illustrate some open problems regarding the memory of current AI systems and outline possible future directions for memory in the era of large language models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.15965: From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.15965v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Memory is the process of encoding, storing, and retrieving information, allowing humans to retain experiences, knowledge, skills, and facts over time, and serving as the foundation for growth and effective interaction with the world. It plays a crucial role in shaping our identity, making decisions, learning from past experiences, building relationships, and adapting to changes. In the era of large language models (LLMs), memory refers to the ability of an AI system to retain, recall, and use information from past interactions to improve future responses and interactions. Although previous research and reviews have provided detailed descriptions of memory mechanisms, there is still a lack of a systematic review that summarizes and analyzes the relationship between the memory of LLM-driven AI systems and human memory, as well as how we can be inspired by human memory to construct more powerful memory systems. To achieve this, in this paper, we propose a comprehensive survey on the memory of LLM-driven AI systems. In particular, we first conduct a detailed analysis of the categories of human memory and relate them to the memory of AI systems. Second, we systematically organize existing memory-related work and propose a categorization method based on three dimensions (object, form, and time) and eight quadrants. Finally, we illustrate some open problems regarding the memory of current AI systems and outline possible future directions for memory in the era of large language models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "From Human Memory to AI Memory: A Survey on Memory Mechanisms in..."
+    ],
+    "twitter:description": [
+      "Memory is the process of encoding, storing, and retrieving information, allowing humans to retain experiences, knowledge, skills, and facts over time, and serving as the foundation for growth and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs"
+    ],
+    "citation_author": [
+      "Wu, Yaxiong",
+      "Liang, Sheng",
+      "Zhang, Chen",
+      "Wang, Yichao",
+      "Zhang, Yongyue",
+      "Guo, Huifeng",
+      "Tang, Ruiming",
+      "Liu, Yong"
+    ],
+    "citation_date": [
+      "2025/04/22"
+    ],
+    "citation_online_date": [
+      "2025/04/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.15965"
+    ],
+    "citation_arxiv_id": [
+      "2504.15965"
+    ],
+    "citation_abstract": [
+      "Memory is the process of encoding, storing, and retrieving information, allowing humans to retain experiences, knowledge, skills, and facts over time, and serving as the foundation for growth and effective interaction with the world. It plays a crucial role in shaping our identity, making decisions, learning from past experiences, building relationships, and adapting to changes. In the era of large language models (LLMs), memory refers to the ability of an AI system to retain, recall, and use information from past interactions to improve future responses and interactions. Although previous research and reviews have provided detailed descriptions of memory mechanisms, there is still a lack of a systematic review that summarizes and analyzes the relationship between the memory of LLM-driven AI systems and human memory, as well as how we can be inspired by human memory to construct more powerful memory systems. To achieve this, in this paper, we propose a comprehensive survey on the memory of LLM-driven AI systems. In particular, we first conduct a detailed analysis of the categories of human memory and relate them to the memory of AI systems. Second, we systematically organize existing memory-related work and propose a categorization method based on three dimensions (object, form, and time) and eight quadrants. Finally, we illustrate some open problems regarding the memory of current AI systems and outline possible future directions for memory in the era of large language models."
+    ]
+  },
+  "html_sha256": "3ce73a8bfa4a238a1a399cdec76b007b9db81ce49ce7df70a69fddba287544d1",
+  "evidence_html": "evidence/b0d6bec1c713120fff74.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

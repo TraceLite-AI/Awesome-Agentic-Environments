@@ -1,0 +1,154 @@
+{
+  "url": "https://arxiv.org/abs/2308.00352",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.00352",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.00352",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.00352",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:54.756286+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.00352",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44151,
+  "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+  "authors": [
+    "Hong, Sirui",
+    "Zhuge, Mingchen",
+    "Chen, Jiaqi",
+    "Zheng, Xiawu",
+    "Cheng, Yuheng",
+    "Zhang, Ceyao",
+    "Wang, Jinlin",
+    "Wang, Zili",
+    "Yau, Steven Ka Shing",
+    "Lin, Zijuan",
+    "Zhou, Liyang",
+    "Ran, Chenyu",
+    "Xiao, Lingfeng",
+    "Wu, Chenglin",
+    "Schmidhuber, Jürgen"
+  ],
+  "first_author": "Hong, Sirui",
+  "year": 2023,
+  "source_date": "2023/08/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.00352",
+  "abstract": "Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.00352: MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.00352v7"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at https://github.com/geekan/MetaGPT"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
+    ],
+    "twitter:description": [
+      "Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
+    ],
+    "citation_author": [
+      "Hong, Sirui",
+      "Zhuge, Mingchen",
+      "Chen, Jiaqi",
+      "Zheng, Xiawu",
+      "Cheng, Yuheng",
+      "Zhang, Ceyao",
+      "Wang, Jinlin",
+      "Wang, Zili",
+      "Yau, Steven Ka Shing",
+      "Lin, Zijuan",
+      "Zhou, Liyang",
+      "Ran, Chenyu",
+      "Xiao, Lingfeng",
+      "Wu, Chenglin",
+      "Schmidhuber, Jürgen"
+    ],
+    "citation_date": [
+      "2023/08/01"
+    ],
+    "citation_online_date": [
+      "2024/11/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.00352"
+    ],
+    "citation_arxiv_id": [
+      "2308.00352"
+    ],
+    "citation_abstract": [
+      "Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at https://github.com/geekan/MetaGPT"
+    ]
+  },
+  "html_sha256": "78f8a73369a24d26cd176c4f770101b2f8bc4aae98c359b6f813d7052bd308c2",
+  "evidence_html": "evidence/a269c568b98611fd74e3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

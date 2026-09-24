@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2201.11903",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2201.11903",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2201.11903",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:39.132933+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2201.11903",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43176,
+  "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "authors": [
+    "Wei, Jason",
+    "Wang, Xuezhi",
+    "Schuurmans, Dale",
+    "Bosma, Maarten",
+    "Ichter, Brian",
+    "Xia, Fei",
+    "Chi, Ed",
+    "Le, Quoc",
+    "Zhou, Denny"
+  ],
+  "first_author": "Wei, Jason",
+  "year": 2022,
+  "source_date": "2022/01/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2201.11903",
+  "abstract": "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2201.11903: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2201.11903v6"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "twitter:description": [
+      "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "citation_author": [
+      "Wei, Jason",
+      "Wang, Xuezhi",
+      "Schuurmans, Dale",
+      "Bosma, Maarten",
+      "Ichter, Brian",
+      "Xia, Fei",
+      "Chi, Ed",
+      "Le, Quoc",
+      "Zhou, Denny"
+    ],
+    "citation_date": [
+      "2022/01/28"
+    ],
+    "citation_online_date": [
+      "2023/01/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2201.11903"
+    ],
+    "citation_arxiv_id": [
+      "2201.11903"
+    ],
+    "citation_abstract": [
+      "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier."
+    ]
+  },
+  "html_sha256": "24184a86d1b99c7c9451c66e538d41d3468d9f3d3dd371f55cbb62a7d285cb9a",
+  "evidence_html": "evidence/7d42a191f4b30946c036.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

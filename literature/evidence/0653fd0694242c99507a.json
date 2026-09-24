@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=axUf8BOjnH",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=axUf8BOjnH",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Agentstudio: A toolkit for building general virtual agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=axUf8BOjnH",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:29.472700+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DaxUf8BOjnH",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "e6121715a706869727b2a5969d836acd26f7c74706d209e40bef5231534945a2",
+  "evidence_html": "evidence/0653fd0694242c99507a.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

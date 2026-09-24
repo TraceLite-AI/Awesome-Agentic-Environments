@@ -1,0 +1,322 @@
+{
+  "url": "https://arxiv.org/abs/2504.15585",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.15585",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.15585",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:39.396285+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.15585",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 61563,
+  "title": "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",
+  "authors": [
+    "Wang, Kun",
+    "Zhang, Guibin",
+    "Zhou, Zhenhong",
+    "Wu, Jiahao",
+    "Yu, Miao",
+    "Zhao, Shiqian",
+    "Yin, Chenlong",
+    "Fu, Jinhu",
+    "Yan, Yibo",
+    "Luo, Hanjun",
+    "Lin, Liang",
+    "Xu, Zhihao",
+    "Lu, Haolang",
+    "Cao, Xinye",
+    "Zhou, Xinyun",
+    "Jin, Weifei",
+    "Meng, Fanci",
+    "Xu, Shicheng",
+    "Mao, Junyuan",
+    "Wang, Yu",
+    "Wu, Hao",
+    "Wang, Minghe",
+    "Zhang, Fan",
+    "Fang, Junfeng",
+    "Qu, Wenjie",
+    "Liu, Yue",
+    "Liu, Chengwei",
+    "Zhang, Yifan",
+    "Li, Qiankun",
+    "Guo, Chongye",
+    "Qin, Yalan",
+    "Fan, Zhaoxin",
+    "Wang, Kai",
+    "Ding, Yi",
+    "Hong, Donghai",
+    "Ji, Jiaming",
+    "Lai, Yingxin",
+    "Yu, Zitong",
+    "Li, Xinfeng",
+    "Jiang, Yifan",
+    "Li, Yanhui",
+    "Deng, Xinyu",
+    "Wu, Junlin",
+    "Wang, Dongxia",
+    "Huang, Yihao",
+    "Guo, Yufei",
+    "Huang, Jen-tse",
+    "Wang, Qiufeng",
+    "Jin, Xiaolong",
+    "Wang, Wenxuan",
+    "Liu, Dongrui",
+    "Yue, Yanwei",
+    "Huang, Wenke",
+    "Wan, Guancheng",
+    "Chang, Heng",
+    "Li, Tianlin",
+    "Yu, Yi",
+    "Li, Chenghao",
+    "Li, Jiawei",
+    "Bai, Lei",
+    "Zhang, Jie",
+    "Guo, Qing",
+    "Wang, Jingyi",
+    "Chen, Tianlong",
+    "Zhou, Joey Tianyi",
+    "Jia, Xiaojun",
+    "Sun, Weisong",
+    "Wu, Cong",
+    "Chen, Jing",
+    "Hu, Xuming",
+    "Li, Yiming",
+    "Wang, Xiao",
+    "Zhang, Ningyu",
+    "Tuan, Luu Anh",
+    "Xu, Guowen",
+    "Zhang, Jiaheng",
+    "Zhang, Tianwei",
+    "Ma, Xingjun",
+    "Gu, Jindong",
+    "Pang, Liang",
+    "Wang, Xiang",
+    "An, Bo",
+    "Sun, Jun",
+    "Bansal, Mohit",
+    "Pan, Shirui",
+    "Lyu, Lingjuan",
+    "Elovici, Yuval",
+    "Kailkhura, Bhavya",
+    "Yang, Yaodong",
+    "Li, Hongwei",
+    "Xu, Wenyuan",
+    "Sun, Yizhou",
+    "Wang, Wei",
+    "Li, Qing",
+    "Tang, Ke",
+    "Jiang, Yu-Gang",
+    "Juefei-Xu, Felix",
+    "Xiong, Hui",
+    "Wang, Xiaofeng",
+    "Tao, Dacheng",
+    "Yu, Philip S.",
+    "Wen, Qingsong",
+    "Liu, Yang"
+  ],
+  "first_author": "Wang, Kun",
+  "year": 2025,
+  "source_date": "2025/04/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.15585",
+  "abstract": "The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to their unprecedented performance across various applications. As LLMs continue to gain prominence in both research and commercial domains, their security and safety implications have become a growing concern, not only for researchers and corporations but also for every nation. Currently, existing surveys on LLM safety primarily focus on specific stages of the LLM lifecycle, e.g., deployment phase or fine-tuning phase, lacking a comprehensive understanding of the entire \"lifechain\" of LLMs. To address this gap, this paper introduces, for the first time, the concept of \"full-stack\" safety to systematically consider safety issues throughout the entire process of LLM training, deployment, and eventual commercialization. Compared to the off-the-shelf LLM safety surveys, our work demonstrates several distinctive advantages: (I) Comprehensive Perspective. We define the complete LLM lifecycle as encompassing data preparation, pre-training, post-training, deployment and final commercialization. To our knowledge, this represents the first safety survey to encompass the entire lifecycle of LLMs. (II) Extensive Literature Support. Our research is grounded in an exhaustive review of over 800+ papers, ensuring comprehensive coverage and systematic organization of security issues within a more holistic understanding. (III) Unique Insights. Through systematic literature analysis, we have developed reliable roadmaps and perspectives for each chapter. Our work identifies promising research directions, including safety in data generation, alignment techniques, model editing, and LLM-based agent systems. These insights provide valuable guidance for researchers pursuing future work in this field.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.15585: A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.15585v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to their unprecedented performance across various applications. As LLMs continue to gain prominence in both research and commercial domains, their security and safety implications have become a growing concern, not only for researchers and corporations but also for every nation. Currently, existing surveys on LLM safety primarily focus on specific stages of the LLM lifecycle, e.g., deployment phase or fine-tuning phase, lacking a comprehensive understanding of the entire \"lifechain\" of LLMs. To address this gap, this paper introduces, for the first time, the concept of \"full-stack\" safety to systematically consider safety issues throughout the entire process of LLM training, deployment, and eventual commercialization. Compared to the off-the-shelf LLM safety surveys, our work demonstrates several distinctive advantages: (I) Comprehensive Perspective. We define the complete LLM lifecycle as encompassing data preparation, pre-training, post-training, deployment and final commercialization. To our knowledge, this represents the first safety survey to encompass the entire lifecycle of LLMs. (II) Extensive Literature Support. Our research is grounded in an exhaustive review of over 800+ papers, ensuring comprehensive coverage and systematic organization of security issues within a more holistic understanding. (III) Unique Insights. Through systematic literature analysis, we have developed reliable roadmaps and perspectives for each chapter. Our work identifies promising research directions, including safety in data generation, alignment techniques, model editing, and LLM-based agent systems. These insights provide valuable guidance for researchers pursuing future work in this field."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data,..."
+    ],
+    "twitter:description": [
+      "The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"
+    ],
+    "citation_author": [
+      "Wang, Kun",
+      "Zhang, Guibin",
+      "Zhou, Zhenhong",
+      "Wu, Jiahao",
+      "Yu, Miao",
+      "Zhao, Shiqian",
+      "Yin, Chenlong",
+      "Fu, Jinhu",
+      "Yan, Yibo",
+      "Luo, Hanjun",
+      "Lin, Liang",
+      "Xu, Zhihao",
+      "Lu, Haolang",
+      "Cao, Xinye",
+      "Zhou, Xinyun",
+      "Jin, Weifei",
+      "Meng, Fanci",
+      "Xu, Shicheng",
+      "Mao, Junyuan",
+      "Wang, Yu",
+      "Wu, Hao",
+      "Wang, Minghe",
+      "Zhang, Fan",
+      "Fang, Junfeng",
+      "Qu, Wenjie",
+      "Liu, Yue",
+      "Liu, Chengwei",
+      "Zhang, Yifan",
+      "Li, Qiankun",
+      "Guo, Chongye",
+      "Qin, Yalan",
+      "Fan, Zhaoxin",
+      "Wang, Kai",
+      "Ding, Yi",
+      "Hong, Donghai",
+      "Ji, Jiaming",
+      "Lai, Yingxin",
+      "Yu, Zitong",
+      "Li, Xinfeng",
+      "Jiang, Yifan",
+      "Li, Yanhui",
+      "Deng, Xinyu",
+      "Wu, Junlin",
+      "Wang, Dongxia",
+      "Huang, Yihao",
+      "Guo, Yufei",
+      "Huang, Jen-tse",
+      "Wang, Qiufeng",
+      "Jin, Xiaolong",
+      "Wang, Wenxuan",
+      "Liu, Dongrui",
+      "Yue, Yanwei",
+      "Huang, Wenke",
+      "Wan, Guancheng",
+      "Chang, Heng",
+      "Li, Tianlin",
+      "Yu, Yi",
+      "Li, Chenghao",
+      "Li, Jiawei",
+      "Bai, Lei",
+      "Zhang, Jie",
+      "Guo, Qing",
+      "Wang, Jingyi",
+      "Chen, Tianlong",
+      "Zhou, Joey Tianyi",
+      "Jia, Xiaojun",
+      "Sun, Weisong",
+      "Wu, Cong",
+      "Chen, Jing",
+      "Hu, Xuming",
+      "Li, Yiming",
+      "Wang, Xiao",
+      "Zhang, Ningyu",
+      "Tuan, Luu Anh",
+      "Xu, Guowen",
+      "Zhang, Jiaheng",
+      "Zhang, Tianwei",
+      "Ma, Xingjun",
+      "Gu, Jindong",
+      "Pang, Liang",
+      "Wang, Xiang",
+      "An, Bo",
+      "Sun, Jun",
+      "Bansal, Mohit",
+      "Pan, Shirui",
+      "Lyu, Lingjuan",
+      "Elovici, Yuval",
+      "Kailkhura, Bhavya",
+      "Yang, Yaodong",
+      "Li, Hongwei",
+      "Xu, Wenyuan",
+      "Sun, Yizhou",
+      "Wang, Wei",
+      "Li, Qing",
+      "Tang, Ke",
+      "Jiang, Yu-Gang",
+      "Juefei-Xu, Felix",
+      "Xiong, Hui",
+      "Wang, Xiaofeng",
+      "Tao, Dacheng",
+      "Yu, Philip S.",
+      "Wen, Qingsong",
+      "Liu, Yang"
+    ],
+    "citation_date": [
+      "2025/04/22"
+    ],
+    "citation_online_date": [
+      "2025/06/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.15585"
+    ],
+    "citation_arxiv_id": [
+      "2504.15585"
+    ],
+    "citation_abstract": [
+      "The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to their unprecedented performance across various applications. As LLMs continue to gain prominence in both research and commercial domains, their security and safety implications have become a growing concern, not only for researchers and corporations but also for every nation. Currently, existing surveys on LLM safety primarily focus on specific stages of the LLM lifecycle, e.g., deployment phase or fine-tuning phase, lacking a comprehensive understanding of the entire \"lifechain\" of LLMs. To address this gap, this paper introduces, for the first time, the concept of \"full-stack\" safety to systematically consider safety issues throughout the entire process of LLM training, deployment, and eventual commercialization. Compared to the off-the-shelf LLM safety surveys, our work demonstrates several distinctive advantages: (I) Comprehensive Perspective. We define the complete LLM lifecycle as encompassing data preparation, pre-training, post-training, deployment and final commercialization. To our knowledge, this represents the first safety survey to encompass the entire lifecycle of LLMs. (II) Extensive Literature Support. Our research is grounded in an exhaustive review of over 800+ papers, ensuring comprehensive coverage and systematic organization of security issues within a more holistic understanding. (III) Unique Insights. Through systematic literature analysis, we have developed reliable roadmaps and perspectives for each chapter. Our work identifies promising research directions, including safety in data generation, alignment techniques, model editing, and LLM-based agent systems. These insights provide valuable guidance for researchers pursuing future work in this field."
+    ]
+  },
+  "html_sha256": "ee0478965df9f63ffd1e9f1c1d2b0ea8a721e36bc3a79cb24d908cf1b88a02f7",
+  "evidence_html": "evidence/6aa55ba9087047752c97.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

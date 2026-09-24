@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2510.04618",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.04618",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models (ACE)",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.04618",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:58.648297+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.04618",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45267,
+  "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+  "authors": [
+    "Zhang, Qizheng",
+    "Hu, Changran",
+    "Upasani, Shubhangi",
+    "Ma, Boyuan",
+    "Hong, Fenglu",
+    "Kamanuru, Vamsidhar",
+    "Rainton, Jay",
+    "Wu, Chen",
+    "Ji, Mengmeng",
+    "Li, Hanchen",
+    "Thakker, Urmish",
+    "Zou, James",
+    "Olukotun, Kunle"
+  ],
+  "first_author": "Zhang, Qizheng",
+  "year": 2025,
+  "source_date": "2025/10/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.04618",
+  "abstract": "Large language model (LLM) applications such as agents and domain-specific reasoning increasingly rely on context adaptation: modifying inputs with instructions, strategies, or evidence, rather than weight updates. Prior approaches improve usability but often suffer from brevity bias, which drops domain insights for concise summaries, and from context collapse, where iterative rewriting erodes details over time. We introduce ACE (Agentic Context Engineering), a framework that treats contexts as evolving playbooks that accumulate, refine, and organize strategies through a modular process of generation, reflection, and curation. ACE prevents collapse with structured, incremental updates that preserve detailed knowledge and scale with long-context models. Across agent and domain-specific benchmarks, ACE optimizes contexts both offline (e.g., system prompts) and online (e.g., agent memory), consistently outperforming strong baselines: +10.6% on agents and +8.6% on finance, while significantly reducing adaptation latency and rollout cost. Notably, ACE could adapt effectively without labeled supervision and instead by leveraging natural execution feedback. On the AppWorld leaderboard, ACE matches the top-ranked production-level agent on the overall average and surpasses it on the harder test-challenge split, despite using a smaller open-source model. These results show that comprehensive, evolving contexts enable scalable, efficient, and self-improving LLM systems with low overhead.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.04618: Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.04618v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM) applications such as agents and domain-specific reasoning increasingly rely on context adaptation: modifying inputs with instructions, strategies, or evidence, rather than weight updates. Prior approaches improve usability but often suffer from brevity bias, which drops domain insights for concise summaries, and from context collapse, where iterative rewriting erodes details over time. We introduce ACE (Agentic Context Engineering), a framework that treats contexts as evolving playbooks that accumulate, refine, and organize strategies through a modular process of generation, reflection, and curation. ACE prevents collapse with structured, incremental updates that preserve detailed knowledge and scale with long-context models. Across agent and domain-specific benchmarks, ACE optimizes contexts both offline (e.g., system prompts) and online (e.g., agent memory), consistently outperforming strong baselines: +10.6% on agents and +8.6% on finance, while significantly reducing adaptation latency and rollout cost. Notably, ACE could adapt effectively without labeled supervision and instead by leveraging natural execution feedback. On the AppWorld leaderboard, ACE matches the top-ranked production-level agent on the overall average and surpasses it on the harder test-challenge split, despite using a smaller open-source model. These results show that comprehensive, evolving contexts enable scalable, efficient, and self-improving LLM systems with low overhead."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agentic Context Engineering: Evolving Contexts for Self-Improving..."
+    ],
+    "twitter:description": [
+      "Large language model (LLM) applications such as agents and domain-specific reasoning increasingly rely on context adaptation: modifying inputs with instructions, strategies, or evidence, rather..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models"
+    ],
+    "citation_author": [
+      "Zhang, Qizheng",
+      "Hu, Changran",
+      "Upasani, Shubhangi",
+      "Ma, Boyuan",
+      "Hong, Fenglu",
+      "Kamanuru, Vamsidhar",
+      "Rainton, Jay",
+      "Wu, Chen",
+      "Ji, Mengmeng",
+      "Li, Hanchen",
+      "Thakker, Urmish",
+      "Zou, James",
+      "Olukotun, Kunle"
+    ],
+    "citation_date": [
+      "2025/10/06"
+    ],
+    "citation_online_date": [
+      "2026/03/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.04618"
+    ],
+    "citation_arxiv_id": [
+      "2510.04618"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM) applications such as agents and domain-specific reasoning increasingly rely on context adaptation: modifying inputs with instructions, strategies, or evidence, rather than weight updates. Prior approaches improve usability but often suffer from brevity bias, which drops domain insights for concise summaries, and from context collapse, where iterative rewriting erodes details over time. We introduce ACE (Agentic Context Engineering), a framework that treats contexts as evolving playbooks that accumulate, refine, and organize strategies through a modular process of generation, reflection, and curation. ACE prevents collapse with structured, incremental updates that preserve detailed knowledge and scale with long-context models. Across agent and domain-specific benchmarks, ACE optimizes contexts both offline (e.g., system prompts) and online (e.g., agent memory), consistently outperforming strong baselines: +10.6% on agents and +8.6% on finance, while significantly reducing adaptation latency and rollout cost. Notably, ACE could adapt effectively without labeled supervision and instead by leveraging natural execution feedback. On the AppWorld leaderboard, ACE matches the top-ranked production-level agent on the overall average and surpasses it on the harder test-challenge split, despite using a smaller open-source model. These results show that comprehensive, evolving contexts enable scalable, efficient, and self-improving LLM systems with low overhead."
+    ]
+  },
+  "html_sha256": "941443b32996ccfa8191e45e5100f97d6ce15cd01c303d47c9ae3c17819f4e17",
+  "evidence_html": "evidence/f789bce664fcaa515c50.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

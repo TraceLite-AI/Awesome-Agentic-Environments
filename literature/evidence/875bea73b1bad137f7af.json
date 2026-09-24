@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2505.15872",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.15872",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Infodeepseek: Benchmarking agentic information seeking for retrieval-augmented generation",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.15872",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:36.828104+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.15872",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43970,
+  "title": "InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation",
+  "authors": [
+    "Xi, Yunjia",
+    "Lin, Jianghao",
+    "Zhu, Menghui",
+    "Xiao, Yongzhao",
+    "Ou, Zhuoying",
+    "Liu, Jiaqi",
+    "Wan, Tong",
+    "Chen, Bo",
+    "Liu, Weiwen",
+    "Wang, Yasheng",
+    "Tang, Ruiming",
+    "Zhang, Weinan",
+    "Yu, Yong"
+  ],
+  "first_author": "Xi, Yunjia",
+  "year": 2025,
+  "source_date": "2025/05/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.15872",
+  "abstract": "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by introducing autonomous LLM agents into the information seeking process. However, existing benchmarks fall short in evaluating such systems, as they are confined to a static retrieval environment with a fixed, limited corpus} and simple queries that fail to elicit agentic behavior. Moreover, their evaluation protocols assess information seeking effectiveness by pre-defined gold sets of documents, making them unsuitable for the open-ended and dynamic nature of real-world web environments. To bridge this gap, we present InfoDeepSeek, a new benchmark with challenging questions designed for assessing agentic information seeking in real-world, dynamic web environments. We propose a systematic methodology for constructing challenging queries satisfying the criteria of determinacy, difficulty, and diversity. Based on this, we develop the first evaluation framework tailored to dynamic agentic information seeking, including fine-grained metrics about the accuracy, utility, and compactness of information seeking outcomes. Through extensive experiments across LLMs, search engines, and question types, InfoDeepSeek reveals nuanced agent behaviors and offers actionable insights for future research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.15872: InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.15872v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by introducing autonomous LLM agents into the information seeking process. However, existing benchmarks fall short in evaluating such systems, as they are confined to a static retrieval environment with a fixed, limited corpus} and simple queries that fail to elicit agentic behavior. Moreover, their evaluation protocols assess information seeking effectiveness by pre-defined gold sets of documents, making them unsuitable for the open-ended and dynamic nature of real-world web environments. To bridge this gap, we present InfoDeepSeek, a new benchmark with challenging questions designed for assessing agentic information seeking in real-world, dynamic web environments. We propose a systematic methodology for constructing challenging queries satisfying the criteria of determinacy, difficulty, and diversity. Based on this, we develop the first evaluation framework tailored to dynamic agentic information seeking, including fine-grained metrics about the accuracy, utility, and compactness of information seeking outcomes. Through extensive experiments across LLMs, search engines, and question types, InfoDeepSeek reveals nuanced agent behaviors and offers actionable insights for future research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "InfoDeepSeek: Benchmarking Agentic Information Seeking for..."
+    ],
+    "twitter:description": [
+      "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation"
+    ],
+    "citation_author": [
+      "Xi, Yunjia",
+      "Lin, Jianghao",
+      "Zhu, Menghui",
+      "Xiao, Yongzhao",
+      "Ou, Zhuoying",
+      "Liu, Jiaqi",
+      "Wan, Tong",
+      "Chen, Bo",
+      "Liu, Weiwen",
+      "Wang, Yasheng",
+      "Tang, Ruiming",
+      "Zhang, Weinan",
+      "Yu, Yong"
+    ],
+    "citation_date": [
+      "2025/05/21"
+    ],
+    "citation_online_date": [
+      "2025/05/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.15872"
+    ],
+    "citation_arxiv_id": [
+      "2505.15872"
+    ],
+    "citation_abstract": [
+      "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by introducing autonomous LLM agents into the information seeking process. However, existing benchmarks fall short in evaluating such systems, as they are confined to a static retrieval environment with a fixed, limited corpus} and simple queries that fail to elicit agentic behavior. Moreover, their evaluation protocols assess information seeking effectiveness by pre-defined gold sets of documents, making them unsuitable for the open-ended and dynamic nature of real-world web environments. To bridge this gap, we present InfoDeepSeek, a new benchmark with challenging questions designed for assessing agentic information seeking in real-world, dynamic web environments. We propose a systematic methodology for constructing challenging queries satisfying the criteria of determinacy, difficulty, and diversity. Based on this, we develop the first evaluation framework tailored to dynamic agentic information seeking, including fine-grained metrics about the accuracy, utility, and compactness of information seeking outcomes. Through extensive experiments across LLMs, search engines, and question types, InfoDeepSeek reveals nuanced agent behaviors and offers actionable insights for future research."
+    ]
+  },
+  "html_sha256": "e8ff151159ab058acc7cec632c0ea6119bf4c1a830179deb8cfe0d140571f3b8",
+  "evidence_html": "evidence/875bea73b1bad137f7af.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

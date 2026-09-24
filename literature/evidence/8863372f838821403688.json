@@ -1,0 +1,98 @@
+{
+  "url": "https://doi.org/10.18653/v1/2020.emnlp-main.356",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2020.emnlp-main.356",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Room-across-room: Multilingual vision-and-language navigation with dense spatiotemporal grounding",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2020.emnlp-main.356",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:44.905616+00:00",
+  "error": "ProxyError: HTTPSConnectionPool(host='aclanthology.org', port=443): Max retries exceeded with url: /2020.emnlp-main.356/ (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2020.emnlp-main.356/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42684,
+  "title": "Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding",
+  "authors": [
+    "Alexander Ku",
+    "Peter Anderson",
+    "Roma Patel",
+    "Eugene Ie",
+    "Jason Baldridge"
+  ],
+  "first_author": "Alexander Ku",
+  "year": 2020,
+  "source_date": "2020/11",
+  "venue_from_source": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2020.emnlp-main.356",
+  "arxiv_id": "",
+  "abstract": "We introduce Room-Across-Room (RxR), a new Vision-and-Language Navigation (VLN) dataset. RxR is multilingual (English, Hindi, and Telugu) and larger (more paths and instructions) than other VLN datasets. It emphasizes the role of language in VLN by addressing known biases in paths and eliciting more references to visible entities. Furthermore, each word in an instruction is time-aligned to the virtual poses of instruction creators and validators. We establish baseline scores for monolingual and multilingual settings and multitask learning when including Room-to-Room annotations (Anderson et al., 2018). We also provide results for a model that learns from synchronized pose traces by focusing only on portions of the panorama attended to in human demonstrations. The size, scope and detail of RxR dramatically expands the frontier for research on embodied language agents in photorealistic simulated environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding"
+    ],
+    "citation_author": [
+      "Alexander Ku",
+      "Peter Anderson",
+      "Roma Patel",
+      "Eugene Ie",
+      "Jason Baldridge"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+    ],
+    "citation_publication_date": [
+      "2020/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2020.emnlp-main.356.pdf"
+    ],
+    "citation_firstpage": [
+      "4392"
+    ],
+    "citation_lastpage": [
+      "4412"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2020.emnlp-main.356"
+    ],
+    "og:title": [
+      "Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2020.emnlp-main.356.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2020.emnlp-main.356/"
+    ],
+    "og:description": [
+      "Alexander Ku, Peter Anderson, Roma Patel, Eugene Ie, Jason Baldridge. Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2020."
+    ]
+  },
+  "html_sha256": "7a01294b0654194942f1c8dc9530090085c0ba56c0a60346bcdac341266644d5",
+  "evidence_html": "evidence/8863372f838821403688.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

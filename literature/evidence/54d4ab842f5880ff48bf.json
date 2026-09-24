@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2505.15047",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.15047",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.15047",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:22.610967+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.15047",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42592,
+  "title": "PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration",
+  "authors": [
+    "Pu, Yingming",
+    "Lin, Tao",
+    "Chen, Hongyu"
+  ],
+  "first_author": "Pu, Yingming",
+  "year": 2025,
+  "source_date": "2025/05/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.15047",
+  "abstract": "Large Language Model (LLM)-based multi-agent systems (MAS) demonstrate remarkable potential for scientific discovery. Existing approaches, however, often automate scientific discovery using predefined workflows that lack rationality constraints. This often leads to aimless hypothesizing and a failure to consistently link hypotheses with evidence, thereby hindering the systematic reduction of uncertainty. Overcoming these limitations fundamentally requires a principled approach to exploration. We introduce PiFlow, an information-theoretical framework, treating automated scientific discovery as a structured uncertainty reduction problem guided by principles (e.g., scientific laws). Extensive evaluations across three distinct scientific domains demonstrate that PiFlow (I) improves discovery efficiency by 31.18%~41.73% and solution quality by 12.47%~31.72% against state-of-the-art methods, (II) delivers a 5.6x speedup in time-to-solution while reducing token consumption by up to 27% compared to vanilla agents, and (III) serves as a Plug-and-Play module that generalizes on existing agent architecture. Overall, PiFlow establishes a novel paradigm shift in highly efficient agentic scientific discovery, paving the way for more robust and accelerated AI-driven research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.15047: PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.15047v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Model (LLM)-based multi-agent systems (MAS) demonstrate remarkable potential for scientific discovery. Existing approaches, however, often automate scientific discovery using predefined workflows that lack rationality constraints. This often leads to aimless hypothesizing and a failure to consistently link hypotheses with evidence, thereby hindering the systematic reduction of uncertainty. Overcoming these limitations fundamentally requires a principled approach to exploration. We introduce PiFlow, an information-theoretical framework, treating automated scientific discovery as a structured uncertainty reduction problem guided by principles (e.g., scientific laws). Extensive evaluations across three distinct scientific domains demonstrate that PiFlow (I) improves discovery efficiency by 31.18%~41.73% and solution quality by 12.47%~31.72% against state-of-the-art methods, (II) delivers a 5.6x speedup in time-to-solution while reducing token consumption by up to 27% compared to vanilla agents, and (III) serves as a Plug-and-Play module that generalizes on existing agent architecture. Overall, PiFlow establishes a novel paradigm shift in highly efficient agentic scientific discovery, paving the way for more robust and accelerated AI-driven research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration"
+    ],
+    "twitter:description": [
+      "Large Language Model (LLM)-based multi-agent systems (MAS) demonstrate remarkable potential for scientific discovery. Existing approaches, however, often automate scientific discovery using..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration"
+    ],
+    "citation_author": [
+      "Pu, Yingming",
+      "Lin, Tao",
+      "Chen, Hongyu"
+    ],
+    "citation_date": [
+      "2025/05/21"
+    ],
+    "citation_online_date": [
+      "2026/02/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.15047"
+    ],
+    "citation_arxiv_id": [
+      "2505.15047"
+    ],
+    "citation_abstract": [
+      "Large Language Model (LLM)-based multi-agent systems (MAS) demonstrate remarkable potential for scientific discovery. Existing approaches, however, often automate scientific discovery using predefined workflows that lack rationality constraints. This often leads to aimless hypothesizing and a failure to consistently link hypotheses with evidence, thereby hindering the systematic reduction of uncertainty. Overcoming these limitations fundamentally requires a principled approach to exploration. We introduce PiFlow, an information-theoretical framework, treating automated scientific discovery as a structured uncertainty reduction problem guided by principles (e.g., scientific laws). Extensive evaluations across three distinct scientific domains demonstrate that PiFlow (I) improves discovery efficiency by 31.18%~41.73% and solution quality by 12.47%~31.72% against state-of-the-art methods, (II) delivers a 5.6x speedup in time-to-solution while reducing token consumption by up to 27% compared to vanilla agents, and (III) serves as a Plug-and-Play module that generalizes on existing agent architecture. Overall, PiFlow establishes a novel paradigm shift in highly efficient agentic scientific discovery, paving the way for more robust and accelerated AI-driven research."
+    ]
+  },
+  "html_sha256": "6fa243c9cf82fd9871a81f6d826b21e1cb75f347d12e55fa998c84de1e59b4f7",
+  "evidence_html": "evidence/54d4ab842f5880ff48bf.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

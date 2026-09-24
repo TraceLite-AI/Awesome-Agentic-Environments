@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2601.22149",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.22149",
+      "discovery_url": "https://github.com/ggjy/Awesome-Agent-Engineering",
+      "topic": "agent_training_and_rl",
+      "title_hint": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.22149",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:49.155242+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.22149",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43087,
+  "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+  "authors": [
+    "Ding, Hang",
+    "Liu, Peidong",
+    "Wang, Junqiao",
+    "Ji, Ziwei",
+    "Cao, Meng",
+    "Zhang, Rongzhao",
+    "Ai, Lynn",
+    "Yang, Eric",
+    "Shi, Tianyu",
+    "Yu, Lei"
+  ],
+  "first_author": "Ding, Hang",
+  "year": 2026,
+  "source_date": "2026/01/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.22149",
+  "abstract": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This paper introduces DynaWeb, a novel MBRL framework that trains web agents through interacting with a web world model trained to predict naturalistic web page representations given agent actions. This model serves as a synthetic web environment where an agent policy can dream by generating vast quantities of rollout action trajectories for efficient online reinforcement learning. Beyond free policy rollouts, DynaWeb incorporates real expert trajectories from training data, which are randomly interleaved with on-policy rollouts during training to improve stability and sample efficiency. Experiments conducted on the challenging WebArena and WebVoyager benchmarks demonstrate that DynaWeb consistently and significantly improves the performance of state-of-the-art open-source web agent models. Our findings establish the viability of training web agents through imagination, offering a scalable and efficient way to scale up online agentic RL.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.22149: DynaWeb: Model-Based Reinforcement Learning of Web Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DynaWeb: Model-Based Reinforcement Learning of Web Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.22149v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This paper introduces DynaWeb, a novel MBRL framework that trains web agents through interacting with a web world model trained to predict naturalistic web page representations given agent actions. This model serves as a synthetic web environment where an agent policy can dream by generating vast quantities of rollout action trajectories for efficient online reinforcement learning. Beyond free policy rollouts, DynaWeb incorporates real expert trajectories from training data, which are randomly interleaved with on-policy rollouts during training to improve stability and sample efficiency. Experiments conducted on the challenging WebArena and WebVoyager benchmarks demonstrate that DynaWeb consistently and significantly improves the performance of state-of-the-art open-source web agent models. Our findings establish the viability of training web agents through imagination, offering a scalable and efficient way to scale up online agentic RL."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DynaWeb: Model-Based Reinforcement Learning of Web Agents"
+    ],
+    "twitter:description": [
+      "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DynaWeb: Model-Based Reinforcement Learning of Web Agents"
+    ],
+    "citation_author": [
+      "Ding, Hang",
+      "Liu, Peidong",
+      "Wang, Junqiao",
+      "Ji, Ziwei",
+      "Cao, Meng",
+      "Zhang, Rongzhao",
+      "Ai, Lynn",
+      "Yang, Eric",
+      "Shi, Tianyu",
+      "Yu, Lei"
+    ],
+    "citation_date": [
+      "2026/01/29"
+    ],
+    "citation_online_date": [
+      "2026/04/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.22149"
+    ],
+    "citation_arxiv_id": [
+      "2601.22149"
+    ],
+    "citation_abstract": [
+      "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This paper introduces DynaWeb, a novel MBRL framework that trains web agents through interacting with a web world model trained to predict naturalistic web page representations given agent actions. This model serves as a synthetic web environment where an agent policy can dream by generating vast quantities of rollout action trajectories for efficient online reinforcement learning. Beyond free policy rollouts, DynaWeb incorporates real expert trajectories from training data, which are randomly interleaved with on-policy rollouts during training to improve stability and sample efficiency. Experiments conducted on the challenging WebArena and WebVoyager benchmarks demonstrate that DynaWeb consistently and significantly improves the performance of state-of-the-art open-source web agent models. Our findings establish the viability of training web agents through imagination, offering a scalable and efficient way to scale up online agentic RL."
+    ]
+  },
+  "html_sha256": "f2f1255f013b7cd17cb6083a1db15dfc146bb8150620b81b28230fe8b8389474",
+  "evidence_html": "evidence/7ff655db43495ed173fd.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

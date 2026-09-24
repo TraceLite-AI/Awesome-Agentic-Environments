@@ -1,0 +1,146 @@
+{
+  "url": "https://arxiv.org/abs/2602.14296",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.14296",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Autowebworld: Synthesizing infinite verifiable web environments via finite state machines",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.14296",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:32.321853+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.14296",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43929,
+  "title": "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines",
+  "authors": [
+    "Wu, Yifan",
+    "Peng, Yiran",
+    "Chen, Yiyu",
+    "Ruan, Jianhao",
+    "Zhuang, Zijie",
+    "Yang, Cheng",
+    "Zhang, Jiayi",
+    "Chen, Man",
+    "Tseng, Yenchi",
+    "Yu, Zhaoyang",
+    "Chen, Liang",
+    "Zhai, Yuyao",
+    "Liu, Bang",
+    "Wu, Chenglin",
+    "Luo, Yuyu"
+  ],
+  "first_author": "Wu, Yifan",
+  "year": 2026,
+  "source_date": "2026/02/15",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.14296",
+  "abstract": "The performance of autonomous Web GUI agents heavily relies on the quality and quantity of their training data. However, a fundamental bottleneck persists: collecting interaction trajectories from real-world websites is expensive and difficult to verify. The underlying state transitions are hidden, leading to reliance on inconsistent and costly external verifiers to evaluate step-level correctness. To address this, we propose AutoWebWorld, a novel framework for synthesizing controllable and verifiable web environments by modeling them as Finite State Machines (FSMs) and use coding agents to translate FSMs into interactive websites. Unlike real websites, where state transitions are implicit, AutoWebWorld explicitly defines all states, actions, and transition rules. This enables programmatic verification: action correctness is checked against predefined rules, and task success is confirmed by reaching a goal state in the FSM graph. AutoWebWorld enables a fully automated search-and-verify pipeline, generating over 11,663 verified trajectories from 29 diverse web environments at only $0.04 per trajectory. Training on this synthetic data significantly boosts real-world performance. Our 7B Web GUI agent outperforms all baselines within 15 steps on WebVoyager. Furthermore, we observe a clear scaling law: as the synthetic data volume increases, performance on WebVoyager and Online-Mind2Web consistently improves.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.14296: AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.14296v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The performance of autonomous Web GUI agents heavily relies on the quality and quantity of their training data. However, a fundamental bottleneck persists: collecting interaction trajectories from real-world websites is expensive and difficult to verify. The underlying state transitions are hidden, leading to reliance on inconsistent and costly external verifiers to evaluate step-level correctness. To address this, we propose AutoWebWorld, a novel framework for synthesizing controllable and verifiable web environments by modeling them as Finite State Machines (FSMs) and use coding agents to translate FSMs into interactive websites. Unlike real websites, where state transitions are implicit, AutoWebWorld explicitly defines all states, actions, and transition rules. This enables programmatic verification: action correctness is checked against predefined rules, and task success is confirmed by reaching a goal state in the FSM graph. AutoWebWorld enables a fully automated search-and-verify pipeline, generating over 11,663 verified trajectories from 29 diverse web environments at only $0.04 per trajectory. Training on this synthetic data significantly boosts real-world performance. Our 7B Web GUI agent outperforms all baselines within 15 steps on WebVoyager. Furthermore, we observe a clear scaling law: as the synthetic data volume increases, performance on WebVoyager and Online-Mind2Web consistently improves."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments..."
+    ],
+    "twitter:description": [
+      "The performance of autonomous Web GUI agents heavily relies on the quality and quantity of their training data. However, a fundamental bottleneck persists: collecting interaction trajectories from..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines"
+    ],
+    "citation_author": [
+      "Wu, Yifan",
+      "Peng, Yiran",
+      "Chen, Yiyu",
+      "Ruan, Jianhao",
+      "Zhuang, Zijie",
+      "Yang, Cheng",
+      "Zhang, Jiayi",
+      "Chen, Man",
+      "Tseng, Yenchi",
+      "Yu, Zhaoyang",
+      "Chen, Liang",
+      "Zhai, Yuyao",
+      "Liu, Bang",
+      "Wu, Chenglin",
+      "Luo, Yuyu"
+    ],
+    "citation_date": [
+      "2026/02/15"
+    ],
+    "citation_online_date": [
+      "2026/02/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.14296"
+    ],
+    "citation_arxiv_id": [
+      "2602.14296"
+    ],
+    "citation_abstract": [
+      "The performance of autonomous Web GUI agents heavily relies on the quality and quantity of their training data. However, a fundamental bottleneck persists: collecting interaction trajectories from real-world websites is expensive and difficult to verify. The underlying state transitions are hidden, leading to reliance on inconsistent and costly external verifiers to evaluate step-level correctness. To address this, we propose AutoWebWorld, a novel framework for synthesizing controllable and verifiable web environments by modeling them as Finite State Machines (FSMs) and use coding agents to translate FSMs into interactive websites. Unlike real websites, where state transitions are implicit, AutoWebWorld explicitly defines all states, actions, and transition rules. This enables programmatic verification: action correctness is checked against predefined rules, and task success is confirmed by reaching a goal state in the FSM graph. AutoWebWorld enables a fully automated search-and-verify pipeline, generating over 11,663 verified trajectories from 29 diverse web environments at only $0.04 per trajectory. Training on this synthetic data significantly boosts real-world performance. Our 7B Web GUI agent outperforms all baselines within 15 steps on WebVoyager. Furthermore, we observe a clear scaling law: as the synthetic data volume increases, performance on WebVoyager and Online-Mind2Web consistently improves."
+    ]
+  },
+  "html_sha256": "5edf98e55692da257d481e2dc09a4c82cfda4e625b3168fab7bc4e6802b20669",
+  "evidence_html": "evidence/3f2dbbf4323abcc8745f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

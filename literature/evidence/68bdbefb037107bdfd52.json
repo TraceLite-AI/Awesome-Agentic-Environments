@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=Y1XkzMJpPd",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=Y1XkzMJpPd",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2024 · OMNI-EPIC — OMNI-EPIC: Open-endedness via Models of human Notions of Interestingness with Environments Programmed in Code",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=Y1XkzMJpPd",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:35.870545+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DY1XkzMJpPd",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "9769b42b1270a67c31da4ffbd43d65bfeff8a75a76a2850513bce37489e9abee",
+  "evidence_html": "evidence/68bdbefb037107bdfd52.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

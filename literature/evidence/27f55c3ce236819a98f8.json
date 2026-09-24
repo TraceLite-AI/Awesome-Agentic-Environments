@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2602.10999",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.10999",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Cli-gym: Scalable cli task generation via agentic environment inversion",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.10999",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:34.782971+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.10999",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41452,
+  "title": "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion",
+  "authors": [
+    "Lin, Yusong",
+    "Wang, Haiyang",
+    "Wu, Shuzhe",
+    "Fan, Lue",
+    "Pan, Feiyang",
+    "Zhao, Sanyuan",
+    "Tu, Dandan"
+  ],
+  "first_author": "Lin, Yusong",
+  "year": 2026,
+  "source_date": "2026/02/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.10999",
+  "abstract": "Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system problems, etc. But it remains underexplored how such environment-intensive tasks can be obtained at scale to enhance agents' capabilities. To address this, based on an analogy between the Dockerfile and the agentic task, we propose to employ agents to simulate and explore environment histories, guided by execution feedback. By tracing histories of a healthy environment, its state can be inverted to an earlier one with runtime failures, from which a task can be derived by packing the buggy state and the corresponding error messages. With our method, named CLI-Gym, a total of 1,655 environment-intensive tasks are derived, being the largest collection of its kind. Moreover, with curated successful trajectories, our fine-tuned model, named LiberCoder, achieves substantial absolute improvements of +21.1% (to 46.1%) on Terminal-Bench, outperforming various strong baselines. To our knowledge, this is the first public pipeline for scalable derivation of environment-intensive tasks.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.10999: CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.10999v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system problems, etc. But it remains underexplored how such environment-intensive tasks can be obtained at scale to enhance agents' capabilities. To address this, based on an analogy between the Dockerfile and the agentic task, we propose to employ agents to simulate and explore environment histories, guided by execution feedback. By tracing histories of a healthy environment, its state can be inverted to an earlier one with runtime failures, from which a task can be derived by packing the buggy state and the corresponding error messages. With our method, named CLI-Gym, a total of 1,655 environment-intensive tasks are derived, being the largest collection of its kind. Moreover, with curated successful trajectories, our fine-tuned model, named LiberCoder, achieves substantial absolute improvements of +21.1% (to 46.1%) on Terminal-Bench, outperforming various strong baselines. To our knowledge, this is the first public pipeline for scalable derivation of environment-intensive tasks."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion"
+    ],
+    "twitter:description": [
+      "Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion"
+    ],
+    "citation_author": [
+      "Lin, Yusong",
+      "Wang, Haiyang",
+      "Wu, Shuzhe",
+      "Fan, Lue",
+      "Pan, Feiyang",
+      "Zhao, Sanyuan",
+      "Tu, Dandan"
+    ],
+    "citation_date": [
+      "2026/02/11"
+    ],
+    "citation_online_date": [
+      "2026/02/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.10999"
+    ],
+    "citation_arxiv_id": [
+      "2602.10999"
+    ],
+    "citation_abstract": [
+      "Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system problems, etc. But it remains underexplored how such environment-intensive tasks can be obtained at scale to enhance agents' capabilities. To address this, based on an analogy between the Dockerfile and the agentic task, we propose to employ agents to simulate and explore environment histories, guided by execution feedback. By tracing histories of a healthy environment, its state can be inverted to an earlier one with runtime failures, from which a task can be derived by packing the buggy state and the corresponding error messages. With our method, named CLI-Gym, a total of 1,655 environment-intensive tasks are derived, being the largest collection of its kind. Moreover, with curated successful trajectories, our fine-tuned model, named LiberCoder, achieves substantial absolute improvements of +21.1% (to 46.1%) on Terminal-Bench, outperforming various strong baselines. To our knowledge, this is the first public pipeline for scalable derivation of environment-intensive tasks."
+    ]
+  },
+  "html_sha256": "0cfaf2d11d2c562286b3e428503b6f0c9b318a6a92b7803ab68de3701c2c65b7",
+  "evidence_html": "evidence/27f55c3ce236819a98f8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

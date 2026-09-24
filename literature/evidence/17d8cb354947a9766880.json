@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2508.00828",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.00828",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Finance agent benchmark: Benchmarking llms on real-world financial research tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.00828",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:21.000616+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.00828",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42025,
+  "title": "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks",
+  "authors": [
+    "Bigeard, Antoine",
+    "Nashold, Langston",
+    "Krishnan, Rayan",
+    "Wu, Shirley"
+  ],
+  "first_author": "Bigeard, Antoine",
+  "year": 2025,
+  "source_date": "2025/05/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.00828",
+  "abstract": "Artificial Intelligence (AI) technology has emerged as a transformative force in financial analysis and the finance industry, though significant questions remain about the full capabilities of Large Language Model (LLM) agents in this domain. We present the Finance Agent Benchmark, featuring challenging and diverse real-world finance research problems that require LLMs to perform complex analysis using recent SEC filings. We construct the benchmark using a taxonomy of nine financial task categories, developed in consultation with experts from banks, hedge funds, and private equity firms. The dataset includes 537 expert-authored questions covering tasks from information retrieval to complex financial modeling, each validated through a rigorous review process to ensure accuracy and relevance. Moreover, we implement an agentic harness that equips LLMs with tools sufficient to produce accurate responses, including Google Search and EDGAR database access. Overall, the Finance Agent Benchmark provides a comprehensive testbed for measuring the progress of LLM-driven finance agents. Our evaluation reveals significant limitations in current AI capabilities - even the best-performing model (OpenAI o3) achieved only 46.8% accuracy at an average cost of $3.79 per query. This underscores the need for further advancements before reliable deployment in high-stakes finance settings.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.00828: Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.00828v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Artificial Intelligence (AI) technology has emerged as a transformative force in financial analysis and the finance industry, though significant questions remain about the full capabilities of Large Language Model (LLM) agents in this domain. We present the Finance Agent Benchmark, featuring challenging and diverse real-world finance research problems that require LLMs to perform complex analysis using recent SEC filings. We construct the benchmark using a taxonomy of nine financial task categories, developed in consultation with experts from banks, hedge funds, and private equity firms. The dataset includes 537 expert-authored questions covering tasks from information retrieval to complex financial modeling, each validated through a rigorous review process to ensure accuracy and relevance. Moreover, we implement an agentic harness that equips LLMs with tools sufficient to produce accurate responses, including Google Search and EDGAR database access. Overall, the Finance Agent Benchmark provides a comprehensive testbed for measuring the progress of LLM-driven finance agents. Our evaluation reveals significant limitations in current AI capabilities - even the best-performing model (OpenAI o3) achieved only 46.8% accuracy at an average cost of $3.79 per query. This underscores the need for further advancements before reliable deployment in high-stakes finance settings."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial..."
+    ],
+    "twitter:description": [
+      "Artificial Intelligence (AI) technology has emerged as a transformative force in financial analysis and the finance industry, though significant questions remain about the full capabilities of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks"
+    ],
+    "citation_author": [
+      "Bigeard, Antoine",
+      "Nashold, Langston",
+      "Krishnan, Rayan",
+      "Wu, Shirley"
+    ],
+    "citation_date": [
+      "2025/05/20"
+    ],
+    "citation_online_date": [
+      "2025/05/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.00828"
+    ],
+    "citation_arxiv_id": [
+      "2508.00828"
+    ],
+    "citation_abstract": [
+      "Artificial Intelligence (AI) technology has emerged as a transformative force in financial analysis and the finance industry, though significant questions remain about the full capabilities of Large Language Model (LLM) agents in this domain. We present the Finance Agent Benchmark, featuring challenging and diverse real-world finance research problems that require LLMs to perform complex analysis using recent SEC filings. We construct the benchmark using a taxonomy of nine financial task categories, developed in consultation with experts from banks, hedge funds, and private equity firms. The dataset includes 537 expert-authored questions covering tasks from information retrieval to complex financial modeling, each validated through a rigorous review process to ensure accuracy and relevance. Moreover, we implement an agentic harness that equips LLMs with tools sufficient to produce accurate responses, including Google Search and EDGAR database access. Overall, the Finance Agent Benchmark provides a comprehensive testbed for measuring the progress of LLM-driven finance agents. Our evaluation reveals significant limitations in current AI capabilities - even the best-performing model (OpenAI o3) achieved only 46.8% accuracy at an average cost of $3.79 per query. This underscores the need for further advancements before reliable deployment in high-stakes finance settings."
+    ]
+  },
+  "html_sha256": "dba91ff6f94a5eef86fe1ef0f48c9e033d0c5732de5d7e7e4f9508d0532a2f48",
+  "evidence_html": "evidence/17d8cb354947a9766880.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

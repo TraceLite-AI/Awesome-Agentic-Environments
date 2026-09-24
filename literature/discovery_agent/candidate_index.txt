@@ -1,0 +1,578 @@
+Eligible 565
+Counter({'coding_agents': 279, 'web_computer_mobile_agents': 114, 'scientific_research_agents': 85, 'multi_agent_interaction': 61, 'embodied_llm_agents': 26})
+Counter({'se': 141, 'code': 138, 'os': 114, 'science': 77, 'multi': 58, 'general': 22, 'all': 15})
+
+ coding_agents
+0 2405.03256 se MARE: Multi-Agents Collaboration Framework for Requirements Engineering
+1 2404.16045 se Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation
+2 2401.08807 se SpecGen: Automated Generation of Formal Program Specifications via Large Language Models
+3 2310.13976 se Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs
+4 2411.14503 se Planning-Driven Programming: A Large Language Model Programming Workflow
+5 2411.10753 se Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation
+6 2410.23074 se Multi-Programming Language Sandbox for LLMs
+7 2410.21909 se SceneGenAgent: Precise Industrial Scene Generation with Coding Agent
+8 2410.15154 se MCCoder: Streamlining Motion Control with LLM-Assisted Code Generation and Rigorous Verification
+9 2410.14209 se Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents
+10 2410.15625 se Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers
+11 2410.07706 se AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories
+12 2410.02089 se RLEF: GROUNDING CODE LLMS IN EXECUTION FEEDBACK WITH REINFORCEMENT LEARNING
+13 2410.05434 se Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback
+14 2410.00558 se AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation
+15 2410.01242 se RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance
+16 2409.10737 se AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing
+17 2409.05001 se A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement
+18 2408.13976 se Sifting through the Chaff: On Utilizing Execution Feedback for Ranking the Generated Code Candidates
+19 2408.03910 se CODEXGRAPH: Bridging Large Language Models and Code Repositories via Code Graph Databases
+20 2407.16741 se OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS
+21 2405.01573 se Class-Level Code Generation from Natural Language Using Iterative, Tool-Enhanced Reasoning over Repository
+22 2405.11403 se MapCoder: Multi-Agent Code Generation for Competitive Problem Solving
+23 2405.14906 se AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT
+24 2404.10362 se 3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers
+25 2404.02183 se Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization
+26 2403.08299 se AutoDev: Automated AI-Driven Development
+27 2403.13583 se CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing
+28 2403.05313 se RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
+29 2402.01030 se Executable Code Actions Elicit Better LLM Agents
+30 2402.05120 se More Agents Is All You Need
+31 2402.13521 se Test-Driven Development for Code Generation
+32 2402.16906 se LDB: A Large Language Model Debugger via Verifying Runtime Execution Step by Step
+33 2402.16823 se GPTSwarm: Language Agents as Optimizable Graphs
+34 2401.07339 se CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges
+35 2401.06391 se Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code Generation
+36 2401.08500 se Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering
+37 2312.13010 se AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation
+38 2312.04687 se LLM4TDD: Best Practices for Test Driven Development Using Large Language Models
+39 2311.09868 se INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair
+40 2310.02170 se Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization
+41 2310.06830 se Lemur: Harmonizing Natural Language and Code for Language Agents
+42 2310.10996 se ClarifyGPT: Empowering LLM-based Code Generation with Intention Clarification
+43 2310.08992 se CODECHAIN: TOWARDS MODULAR CODE GENERATION THROUGH CHAIN OF SELF-REVISIONS WITH REPRESENTATIVE SUB-MODULES
+44 2310.04406 se Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models
+45 2309.16120 se Test-Case-Driven Programming Understanding in Large Language Models for Better Code Generation
+46 2309.12499 se CodePlan: Repository-level Coding using LLMs and Planning
+47 2309.15606 se From Misuse to Mastery: Enhancing Code Generation with Knowledge-Driven AI Chaining
+48 2308.08155 se AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
+49 2308.04030 se Gentopia: A Collaborative Platform for Tool-Augmented LLMs
+50 2308.01285 se Flows: Building Blocks of Reasoning and Collaborating AI
+51 2308.08784 se CodeCoT: Tackling Code Syntax Errors in CoT Reasoning for Code Generation
+52 2306.02907 se SELFEVOLVE: A Code Evolution Framework via Large Language Models
+53 2306.09896 se IS SELF-REPAIR A SILVER BULLET FOR CODE GENERATION?
+54 2305.04032 se ToolCoder: Teach Code Generation Models to use API search tools
+55 2304.05128 se Teaching Large Language Models to Self-Debug
+56 2303.17760 se CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society
+57 2303.11366 se Reflexion: Language Agents with Verbal Reinforcement Learning
+58 2303.17651 se SELF-REFINE: Iterative Refinement with Self-Feedback
+59 2409.13082 se AutoVerus: Automated Proof Generation for Rust Code
+60 2410.13918 se Leveraging Fine-Tuned Language Models for Efficient and Accurate Smart Contract Auditing
+61 2410.09381 se LLM-SmartAudit: Advanced Smart Contract Vulnerability Detection
+62 2405.17238 se LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
+63 2405.02580 se PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation
+64 2403.14274 se Multi-role Consensus through LLMs Discussions for Vulnerability Detection
+65 2403.16073 se Combining Fine-tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications
+66 2402.10754 se When Dataflow Analysis Meets Large Language Models
+67 2312.08477 se E&V: Prompting Large Language Models to Perform Static Analysis by Pseudo-code Execution and Verification
+68 2310.01152 se Large Language Model-Powered Smart Contract Vulnerability Detection: New Perspectives
+69 2310.08837 se Static Code Analysis in the AI Era: An In-depth Exploration of the Concept, Function, and Potential of Intelligent Code Analysis
+70 2303.09014 se ART: Automatic multi-step reasoning and tool-use for large language models
+71 2404.18496 se AI-powered Code Review with LLMs: Early Results
+72 2402.02172 se CodeAgent: Collaborative Agents for Software Engineering
+73 2411.11033 se ReAccept: Automated Co-evolution of Production and Test Code Based on Dynamic Validation and Large Language Models
+74 2409.09271 se Python Symbolic Execution with LLM-powered Code Generation
+75 2406.10375 se Mokav: Execution-driven Differential Testing with LLMs
+76 2404.04966 se Enhancing LLM-based Test Generation for Hard-to-Cover Branches via Program Analysis
+77 2403.16218 se COVERUP: Coverage-Guided LLM-Based Test Generation
+78 2308.16557 se Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing
+79 2305.04764 se ChatUniTest: A Framework for LLM-Based Test Generation
+80 2411.11532 se A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation
+81 2407.03037 se Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model
+82 2404.08144 se LLM Agents can Autonomously Exploit One-day Vulnerabilities
+83 2402.05102 se You Can REST Now: Automated Specification Inference and Black-Box Testing of RESTful APIs with Large Language Models
+84 2401.02705 se XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model
+85 2401.00563 se KernelGPT: Enhanced Kernel Fuzzing via Large Language Models
+86 2310.15780 se Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions
+87 2310.02424 se AXNav: Replaying Accessibility Tests from Natural Language
+88 2310.15991 se White-box Compiler Fuzzing Empowered by Large Language Models
+89 2308.06782 se PENTESTGPT: An LLM-empowered Automatic Penetration Testing Tool
+90 2308.04748 se Fuzz4All: Universal Fuzzing with Large Language Models
+91 2307.00593 se Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models
+92 2306.01987 se Prompting Is All You Need: Automated Android Bug Replay with Large Language Models
+93 2411.10714 se FlexFL: Flexible and Effective Fault Localization with Open-Source Large Language Models
+94 2409.13642 se Enhancing Fault Localization Through Ordered Code Analysis with LLM Agents and Self-Reflection
+95 2403.16362 se AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context
+96 2310.16340 se RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models
+97 2410.16655 se Semantic-guided Search for Efficient Program Repair with Large Language Models
+98 2404.12833 se How Far Can We Go with Practical Function-Level Program Repair?
+99 2403.17134 se RepairAgent: An Autonomous, LLM-Based Agent for Program Repair
+100 2403.06838 se ACFIX: Guiding LLMs with Mined Common RBAC Practices for Context-Aware Repair of Access Control Vulnerabilities in Smart Contracts
+101 2402.06598 se CigaR: Cost-efficient Program Repair with LLMs
+102 2304.02195 se Explainable Automated Debugging via Large Language Model-driven Scientific Debugging
+103 2304.00385 se Keep the Conversation Going: Fixing 162 out of 337 bugs for $0.42 each using ChatGPT
+104 2301.13246 se Conversational Automated Program Repair
+105 2404.17153 se A Unified Debugging Approach via LLM-Based Multi-Agent Synergy
+106 2408.09785 se GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making
+107 2407.15568 se Empowering Agile-Based Generative Software Development through Human-AI Teamwork
+108 2406.05381 se Experimenting with Multi-Agent Software Development: Towards a Unified Platform
+109 2406.07155 se Scaling Large-Language-Model-based Multi-Agent Collaboration
+110 2406.08979 se Multi-Agent Software Development through Cross-Team Collaboration
+111 2406.11912 se AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology
+112 2405.04219 se Iterative Experience Refinement of Software-Developing Agents
+113 2403.15852 se When LLM-based Code Generation Meets the Software Development Process
+114 2403.16443 se CodeS: Natural Language to Code Repository via Multi-Layer Sketch
+115 2402.01411 se CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents
+116 2401.01062 se Experimenting a New Programming Practice with LLMs
+117 2401.05443 se LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems
+118 2312.17025 se Experiential Co-Learning of Software-Developing Agents
+119 2311.18440 se Autonomous Agents in Software Development: A Vision Paper
+120 2309.17288 se AutoAgents: A Framework for Automatic Agent Generation
+121 2308.10848 se AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors
+122 2308.00352 se METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK
+123 2307.07924 se Communicative Agents for Software Development
+124 2306.03314 se MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
+125 2306.02230 se Prompt Sapper: LLM-Empowered Software Engineering Infrastructure for AI-Native Services
+126 2304.07590 se Self-collaboration Code Generation via ChatGPT
+127 2304.08103 se Low-code LLM: Visual Programming over LLMs
+128 2411.13941 se LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues
+129 2411.12924 se Human-In-the-Loop Software Development Agents
+130 2411.00622 se Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement
+131 2410.14684 se RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph
+132 2409.00899 se MarsCode Agent: AI-native Automated Bug Fixing
+133 2408.07060 se DIVERSITY EMPOWERS INTELLIGENCE:INTEGRAT-ING EXPERTISE OF SOFTWARE ENGINEERING AGENTS
+134 2408.02232 se SpecRover: Code Intent Extraction via LLMs
+135 2407.01489 se Agentless: Demystifying LLM-based Software Engineering Agents
+136 2406.01422 se How to Understand Whole Software Repository?
+137 2406.01304 se CODER: ISSUE RESOLVING WITH MULTI-AGENT AND TASK GRAPHS
+138 2406.11638 se MASAI: Modular Architecture for Software-engineering AI Agents
+139 2405.15793 se SWE-AGENT: AGENT-COMPUTER INTERFACES ENABLE AUTOMATED SOFTWARE ENGINEERING
+140 2403.17927 se MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue ReSolution
+141 2606.28436 code Dockerless: Environment-Free Program Verifier for Coding Agents
+142 2606.14066 code FastContext: Training Efficient Repository Explorer for Coding Agents
+143 2605.25430 code CODESKILL: Learning Self-Evolving Skills for Coding Agents
+144 2605.05980 code TACT: Mitigating Overthinking and Overacting in Coding Agents via Activation Steering
+145 2604.24212 code Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis
+146 2604.14624 code Asking What Matters: Reward-Driven Clarification for Software Engineering Tasks
+147 2604.16529 code Scaling Test-Time Compute for Agentic Coding
+148 2603.29378 code How and Why Agents Can Identify Bug-Introducing Commits
+149 2603.24631 code Coherence Collapse: Diagnosing Why Code Agents Fail After Reaching the Right Code
+150 2603.20691 code SWE-Next: Scalable Real-World Software Engineering Tasks for Agents
+151 2603.13023 code daVinci-Env: Open SWE Environment Synthesis at Scale
+152 2603.03194 code BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?
+153 2602.11210 code SWE-MiniSandbox: Container-Free Reinforcement Learning for Building Software Engineering Agents
+154 2602.09892 code Immersion in the GitHub Universe: Scaling Coding Agents to Mastery
+155 2602.07900 code Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents
+156 2602.02361 code SWE-Universe: Scale Real-World Verifiable Environments to Millions
+157 2602.02084 code Closing the Loop: Universal Repository Representation with RPG-Encoder
+158 2601.01426 code SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving
+159 2512.18552 code Toward Training Superintelligent Software Agents through Self-Play SWE-RL
+160 2512.10398 code Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases
+161 2511.16004 code InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution
+162 2511.13646 code Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?
+163 2511.03690 code The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents
+164 2511.01047 code HAFixAgent: History-Aware Automated Program Repair Agent
+165 2510.23761 code TDFlow: Agentic Workflows for Test Driven Software Engineering
+166 2510.19898 code BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills
+167 2510.16059 code SIADAFIX: issue description response for adaptive program repair
+168 2510.11838 code Lingxi: Repository-Level Issue Resolution Framework Enhanced by Procedural Knowledge Guided Scaling
+169 2510.03588 code REFINE: Enhancing Program Repair Agents through Context-Aware Patch Refinement
+170 2510.03217 code Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair
+171 2510.01003 code Improving Code Localization with Repository Memory
+172 2509.25140 code ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory
+173 2509.23045 code Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents
+174 2509.21427 code Extracting Conceptual Knowledge to Locate Software Issues
+175 2509.01616 code Automated Generation of Issue-Reproducing Tests by Combining LLMs and Search-Based Testing
+176 2508.06365 code Execution-Feedback Driven Test Generation from SWE Issues
+177 2508.03012 code Tool-integrated Reinforcement Learning for Repo Deep Search
+178 2508.03501 code Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning
+179 2508.02085 code SE-Agent: Self-Evolution Trajectory Optimization in Multi-Step Reasoning with LLM-Based Agents
+180 2508.01550 code RepoForge: Training a SOTA Fast-thinking SWE Agent with an End-to-End Data Curation Pipeline Synergizing SFT and RL at Scale
+181 2508.00253 code Leveraging Large Language Model for Information Retrieval-based Bug Localization
+182 2507.23370 code Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling
+183 2507.23361 code SWE-Exp: Experience-Driven Software Issue Resolution
+184 2507.23348 code SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution
+185 2507.22414 code AutoCodeSherpa: Symbolic Explanations in AI Coding Agents
+186 2507.19942 code Prometheus: Unified Knowledge Graphs for Issue Resolution in Multilingual Codebases
+187 2507.18755 code Agentic Program Repair from Test Failures at Scale: A Neuro-symbolic approach with static analysis and test execution feedback
+188 2507.17542 code AssertFlip: Reproducing Bugs via Inversion of LLM-Generated Passing Tests
+189 2607.00041 code ATM: CID-Brokered Pre-Write Admission for Multi-Agent Code Co-Synthesis
+190 2606.10728 code DeNovoSWE: Scaling Long-Horizon Environments for Generating Entire Repositories from Scratch
+191 2606.06492 code Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution
+192 2605.24812 code CoRe-Code: Collaborative Reinforcement Learning for Code Generation
+193 2605.07122 code RepoZero: Can LLMs Generate a Code Repository from Scratch?
+194 2604.19742 code PlayCoder: Making LLM-Generated GUI Code Playable
+195 2603.16790 code InCoder-32B: Code Foundation Model for Industrial Scenarios
+196 2511.08301 code Smarter Together: Creating Agentic Communities of Practice through Shared Experiential Learning
+197 2511.03404 code Towards Realistic Project-Level Code Generation via Multi-Agent Collaboration and Semantic Architecture Modeling
+198 2510.23538 code JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence
+199 2510.17925 code SpecAgent: A Speculative Retrieval and Forecasting Agent for Code Completion
+200 2510.02387 code CWM: An Open-Weights LLM for Research on Code Generation with World Models
+201 2509.16198 code RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation
+202 2509.05980 code GRACE: Graph-Guided Repository-Aware Code Completion through Hierarchical Code Fusion
+203 2508.09945 code VisCodex: Unified Multimodal Code Generation via Merging Vision and Coding Models
+204 2508.10074 code Next Edit Prediction: Learning to Predict Code Edits from Context and Interaction History
+205 2605.26186 code SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?
+206 2511.01316 code Exploring and Unleashing the Power of Large Language Models in CI/CD Configuration Translation
+207 2511.00780 code Can Language Models Go Beyond Coding? Assessing the Capability of Language Models to Build Real-World Systems
+208 2601.07348 code Controlled Self-Evolution for Algorithmic Code Optimization
+209 2511.03153 code RefAgent: A Multi-agent LLM-based Framework for Automatic Software Refactoring
+210 2511.00160 code What a diff makes: automating code migration with large language models
+211 2509.16187 code MatchFixAgent: Language-Agnostic Autonomous Repository-Level Code Translation Validation and Repair
+212 2507.12415 code SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?
+213 2605.30208 code Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency
+214 2511.00517 code Issue-Oriented Agent-Based Framework for Automated Review Comment Generation
+215 2512.07533 code VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection
+216 2510.17862 code When “Correct” Is Not Safe: Can We Trust Functionally Correct Patches Generated by Code Agents?
+217 2510.02389 code From Trace to Line: LLM Agent for Real-World OSS Vulnerability Localization
+218 2508.21302 code Locus: Agentic Predicate Synthesis for Directed Fuzzing
+219 2511.02475 code Lost in Code Generation: Reimagining the Role of Software Models in AI-driven Software Engineering
+220 2510.26790 code Gistify! Codebase-Level Understanding via Runtime Execution
+221 2509.25257 code RANGER: Repository-Level Agent for Graph-Enhanced Retrieval
+222 2509.14635 code SWE-QA: Can Language Models Answer Repository-level Code Questions?
+223 2606.00530 code Sakura: An Approach for Generating Complex Tests from Natural Language Test Descriptions
+224 2605.22175 code SWE-Mutation: Can LLMs Generate Reliable Test Suites in Software Engineering?
+225 2602.11724 code WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Eleme
+226 2511.00202 code Position: Vibe Coding Needs Vibe Reasoning: Improving Vibe Coding with Formal Verification
+227 2507.20619 code Intention-Driven Generation of Project-Specific Test Cases
+228 2511.03517 code U2F: Encouraging SWE-Agent to Seize Novelty without Losing Feasibility
+229 2511.02399 code EvoDev: An Iterative Feature-Driven Framework for End-to-End Software Development with LLM-based Agents
+230 2507.14969 code Think Like an Engineer: A Neuro-Symbolic Collaboration Agent for Generative Software Requirements Elicitation and Self-Review
+231 2605.19587 code SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects
+232 2605.18451 code Code-as-Room: Generating 3D Rooms from Top-Down View Images via Agentic Code Synthesis
+233 2510.14980 code Agentic Design of Compositional Machines
+234 2508.14879 code MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds
+235 2508.01031 code CADDesigner: Conceptual Design of CAD Models Based on General-Purpose Agent
+236 2604.13648 code Figma2Code: Automating Multimodal Design to Code in the Wild
+237 2510.11498 code ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding
+238 2509.25297 code Automatically Generating Web Applications from Requirements Via Multi-Agent Test-Driven Development
+239 2509.22644 code WebGen-Agent: Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning
+240 2509.12159 code EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression
+241 2508.03560 code LaTCoder: Converting Webpage Design to Code with Layout-as-Thought
+242 2507.22827 code ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents
+243 2606.00547 code Learning to Retrieve: Dual-Level Long-Term Memory for Text-to-SQL Agents
+244 2510.10661 code AGENTIQL: An Agent-Inspired Multi-Expert Framework for Text-to-SQL Generation
+245 2510.12831 code MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training
+246 2605.29692 code Towards Reliable Agentic Progressive Text-to-Visualization with Verification Rules
+247 2510.03341 code OpusAnimation: Code-Based Dynamic Chart Generation
+248 2605.31463 code PithTrain: A Compact and Agent-Native MoE Training System
+249 2605.29734 code HTAM: Hierarchical Transition-Attended Memory for Operator Optimization
+250 2605.26720 code Towards Feedback-to-Plan Decisions for Self-Evolving LLM Agents in CUDA Kernel Generation
+251 2511.03586 code PerfDojo: Automated ML Library Generation for Heterogeneous Architectures
+252 2510.08803 code Man-Made Heuristics Are Dead. Long Live Code Generators!
+253 2604.18394 code OpenGame: Open Agentic Coding for Games
+254 2509.26161 code 90% Faster, 100% Code-Free: MLLM-Driven Zero-Code 3D Game Development
+255 2511.02285 code Focus: Better Verilog Generation from Large Language Model via Focused Reasoning
+256 2601.05930 code Can We Predict Before Executing Machine Learning Agents?
+257 2601.03513 code Deploy-Master: Automating the Deployment of 50,000+ Agent-Ready Scientific Tools in One Day
+258 2511.03985 code ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering
+259 2510.16872 code DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
+260 2510.07297 code Agentic generative AI for media content discovery at the national football league
+261 2510.07307 code MLE-Smith: Scaling MLE Tasks with Automated Multi-Agent Pipeline
+262 2509.01684 code Reinforcement Learning for Machine Learning Engineering Agents
+263 2606.03461 code What Makes Interaction Trajectories Effective for Training Terminal Agents?
+264 2605.29559 code LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents
+265 2605.24517 code ECHO: Terminal Agents Learn World Models for Free
+266 2605.08013 code Learning CLI Agents with Structured Action Credit under Selective Observation
+267 2605.03195 code Terminus-4B: Can a Smaller Model Replace Frontier LLMs at Agentic Execution Tasks?
+268 2604.25727 code Toward Scalable Terminal Task Synthesis via Skill Graphs
+269 2604.19572 code A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression
+270 2604.00073 code Terminal Agents Suffice for Enterprise Automation
+271 2602.21193 code On Data Engineering for Scaling LLM Terminal Capabilities
+272 2602.07274 code TermiGen: High-Fidelity Environment and Robust Trajectory Synthesis for Terminal Agents
+273 2602.01244 code Large-Scale Terminal Agentic Trajectory Generation from Dockerized Environments
+274 2601.16443 code Endless Terminals: Scaling RL Environments for Terminal Agents
+275 2601.16206 code Computer Environments Elicit General Agentic Intelligence in LLMs
+276 2512.24873 code Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem
+277 2510.12088 code One Life to Learn: Inferring Symbolic World Models for Stochastic Environments from Unguided Exploration
+278 2605.30248 code GenClaw: Code-Driven Agentic Image Generation
+
+ web_computer_mobile_agents
+0 2502.11357 os Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
+1 2412.09362 os Falcon-UI: Understanding GUI Before Following User Instructions
+2 2412.09605 os AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials
+3 2412.04454 os AGUVIS: Unified Pure Vision Agents for Autonomous GUI Interaction
+4 2411.17465 os ShowUI: One Vision-Language-Action Model for GUI Visual Agent
+5 2411.15004 os ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data
+6 2411.13591 os Improved GUI Grounding via Iterative Narrowing
+7 2410.23218 os OS-ATLAS: A Foundation Action Model for Generalist GUI Agents
+8 2411.00820 os AutoGLM: Autonomous Foundation Agents for GUIs
+9 2410.19461 os EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data
+10 2410.18967 os Ferret-UI One: Mastering Universal User Interface Understanding Across Platforms
+11 2410.13824 os Harnessing Webpage UIs for Text-Rich Visual Understanding
+12 2410.11871 os TinyClick: Single-Turn Agent for Empowering GUI Automation
+13 2410.05243 os Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
+14 2410.02907 os NNetscape Navigator: Complex Demonstrations for Web Agents Without a Demonstrator
+15 2409.15637 os Synatra: Turning indirect knowledge into direct demonstrations for digital agents at scale
+16 2409.14818 os MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding
+17 2406.13719 os GUI Action Narrator: Where and When Did That Action Take Place?
+18 2407.04346 os MobileFlow: A Multimodal LLM for Mobile GUI Agent
+19 2406.14056 os VGA: Vision GUI Assistant - Minimizing Hallucinations through Image-Centric Fine-Tuning
+20 2406.07822 os Tell Me What's Next: Textual Foresight for Generic UI Representations
+21 2407.01558 os Visual grounding for desktop graphical user interfaces
+22 2403.02713 os Android in the Zoo：Chain-of-Action-Thought for GUI Agents
+23 2405.00516 os Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning
+24 2404.10887 os Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning
+25 2404.08755 os Training a Vision Language Model as Smartphone Assistant
+26 2404.06474 os Autonomous Evaluation and Refinement of Web Agents
+27 2404.05719 os Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+28 2404.03648 os AutoWebGLM: A Large Language Model-based Web Navigating Agent
+29 2404.01744 os Octopus v2: On-device language model for super agent
+30 2405.20309 os Large Language Models Can Self-Improve At Web Agent Tasks
+31 2402.05930 os WebLINX: Real-World website navigation with Multi-Turn dialogue
+32 2402.04615 os ScreenAI: A Vision-Language Model for UI and Infographics Understanding
+33 2402.04476 os Dual-View Visual Contextualization for Web Navigation
+34 2401.10935 os SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents
+35 2406.11317 os GUICourse: From General Vision Language Models to Versatile GUI Agents
+36 2312.15820 os WebVLN: Vision-and-Language Navigation on Websites
+37 2312.08914 os CogAgent: A Visual Language Model for GUI Agents
+38 2312.06677 os Intelligent Virtual Assistants with LLM-based Process Automation
+39 2311.18751 os Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web
+40 2310.05126 os UReader: Universal OCR-free Visually-situated Language Understanding with Multimodal Large Language Model
+41 2310.04869 os ILuvUI: Instruction-tuned Language-Vision modeling of UIs from Machine Conversations
+42 2310.04716 os Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API
+43 2307.12856 os A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
+44 2306.00245 os From pixels to UI actions: Learning to follow instructions via graphical user interfaces
+45 2305.11854 os Multimodal Web Navigation with Instruction-Finetuned Foundation Models
+46 2301.10165 os Lexi: Self-Supervised Learning of the UI Language
+47 2210.02663 os Towards Better Semantic Understanding of Mobile Interfaces
+48 2209.14927 os Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus
+49 2207.01206 os WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
+50 2205.11029 os META-GUI: Towards multi-modal conversational agents on mobile gui
+51 2202.08137 os A data-driven approach for learning to control computers
+52 2412.01268 os Ponder & Press: Advancing Visual GUI Agent towards General Computer Control
+53 2411.13451 os AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations
+54 2411.10323 os The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
+55 2411.06559 os Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents
+56 2410.22552 os Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents
+57 2410.19609 os OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization
+58 2410.18963 os OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning
+59 2410.18603 os AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
+60 2410.19054 os Infogent: An Agent-Based Framework for Web Information Aggregation
+61 2410.17236 os Large Language Models Empowered Personalized Web Agents
+62 2410.16464 os Beyond Browsing: API-Based Web Agents
+63 2410.13825 os AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents
+64 2410.13757 os MobA: A Two-Level Agent System for Efficient Mobile Task Automation
+65 2410.08164 os Agent S: An Open Agentic Framework that Uses Computers Like a Human
+66 2410.11872 os ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents
+67 2410.00467 os Dynamic Planning for LLM-based Graphical User Interface Automation
+68 2410.00689 os Multimodal Auto Validation For Self-Refinement in Web Agents
+69 2409.17140 os Turn Every Application into an Agent: Towards Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents
+70 2410.11843 os From Commands to Prompts: LLM-based Semantic File System for AIOS
+71 2409.15441 os Steward: Natural Language Web Automation
+72 2409.10741 os NaviQAte: Functionality-Guided Web Application Navigation
+73 2409.09354 os PeriGuru: A Peripheral Robotic Mobile App Operation Assistant based on GUI Image Understanding and Prompting with LLM
+74 2409.08264 os Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale
+75 2409.07429 os Agent Workflow Memory
+76 2408.15978 os Webpilot: A versatile and autonomous multi-agent system for web task execution with strategic exploration
+77 2408.00203 os Omniparser for pure vision based gui agent
+78 2407.13032 os Agent-e: From autonomous web navigation to foundational design principles in agentic systems
+79 2407.03913 os MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices
+80 2407.01476 os Tree Search for Language Model Agents
+81 2406.19263 os Read anywhere pointed: Layout-aware gui screen reading with tree-of-lens grounding
+82 2406.06947 os CAAP: Context-Aware Action Planning Prompting to Solve Computer Tasks with Front-End UI Only
+83 2406.01014 os Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
+84 2405.11120 os Latent State Estimation Helps UI Agents to Reason
+85 2404.18074 os MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot
+86 2404.02475 os PromptRPA: Generating Robotic Process Automation on Smartphones from Textual Prompts
+87 2403.16971 os AIOS: LLM Agent Operating System
+88 2403.03186 os Cradle: Empowering Foundation Agents Towards General Computer Control
+89 2402.15057 os On the Multi-turn Instruction Following for Conversational Web Agents
+90 2402.11941 os CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation
+91 2402.07456 os OS-Copilot: Towards Generalist Computer Agents with Self-Improvement
+92 2402.07945 os ScreenAgent: A Vision Language Model-driven Computer Control Agent
+93 2402.07939 os Ufo: A ui-focused agent for windows os interaction
+94 2401.16158 os Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
+95 2401.13919 os WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models
+96 2401.04124 os MobileAgent: enhancing mobile control via human-machine interaction and SOP integration
+97 2401.01614 os GPT-4V(ision) is a Generalist Web Agent, if Grounded
+98 2312.13771 os AppAgent: Multimodal Agents as Smartphone Users
+99 2312.13108 os Assistgui: Task-oriented desktop graphical user interface automation
+100 2312.03003 os MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation
+101 2311.07562 os GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation
+102 2310.16042 os WebWISE: Web Interface Control and Sequential Exploration with Large Language Models
+103 2310.08740 os A Zero-Shot Language Agent for Computer Control with Structured Reflection
+104 2309.11436 os You only look at screens: Multimodal chain-of-action agents
+105 2309.08172 os Laser: Llm agent with state-space exploration for web navigation
+106 2308.15272 os AutoDroid: LLM-powered Task Automation in Android
+107 2306.07863 os Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control
+108 2306.06070 os Mind2Web: Towards a Generalist Agent for the Web
+109 2305.19308 os Sheetcopilot: Bringing software productivity to the next level through large language models
+110 2305.14257 os Hierarchical prompting assists large language model on web navigation
+111 2305.05662 os InternGPT: Solving Vision-Centric Tasks by Interacting with ChatGPT Beyond Language
+112 2303.17491 os Language Models can Solve Computer Tasks
+113 2209.08655 os Enabling conversational interaction with mobile ui using large language models
+
+ scientific_research_agents
+0 2507.05241 science SciMaster: Towards General-Purpose Scientific AI Agents, Part I. X-Master as Foundation: Can We Lead on Humanity's Last Exam?
+1 2505.16938 science NovelSeek: When Agent Becomes the Scientist--Building Closed-Loop System from Hypothesis to Verification
+2 2309.02726 science Large language models for automated open-domain scientific hypotheses discovery
+3 2503.16905 science Maps: A multi-agent framework based on big seven personality and socratic guidance for multimodal scientific problem solving
+4 2503.18102 science Agentrxiv: Towards collaborative autonomous research
+5 2502.18864 science Towards an AI co-scientist
+6 2408.06292 science The AI scientist: Towards fully automated open-ended scientific discovery
+7 2411.08063 science Matpilot: An LLM-enabled AI materials scientist under the framework of human-machine collaboration
+8 2309.17452 science Tora: A tool-integrated reasoning agent for mathematical problem solving
+9 2507.02004 science STELLA: Self-Evolving LLM Agent for Biomedical Research
+10 2404.07738 science ResearchAgent: Iterative research idea generation over scientific literature with large language models
+11 2501.04227 science Agent laboratory: Using LLM agents as research assistants
+12 2405.02957 science Agent hospital: A simulacrum of hospital with evolvable medical agents
+13 2310.02374 science Conversational health agents: A personalized LLM-powered agent framework
+14 2506.13131 science AlphaEvolve: A coding agent for scientific and algorithmic discovery
+15 2504.19565 science m-KAILIN: A Knowledge-Driven Agentic Scientific Corpus Distillation Framework for Biomedical Large Language Models Training
+16 2505.15047 science PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration
+17 2405.16205 science GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases
+18 2407.09811 science CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis
+19 2402.12391 science Toward a Team of AI-Made Scientists for Scientific Discovery from Gene Expression Data
+20 2507.21035 science GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis
+21 2404.18021 science CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments
+22 2501.06314 science BioAgents: Democratizing Bioinformatics Analysis with Multi-Agent Systems
+23 2503.23170 science AstroAgents: A Multi-Agent AI for Hypothesis Generation from Mass Spectrometry Data
+24 2405.17631 science BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments
+25 2504.19017 science Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles
+26 2507.02925 science Large Language Model Agent for Modular Task Execution in Drug Discovery
+27 2503.10970 science TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools
+28 2505.13400 science Robin: A Multi-Agent System for Automating Scientific Discovery
+29 2411.15692 science DrugAgent: Automating AI-Aided Drug Discovery Programming Through LLM Multi-Agent Collaboration
+30 2502.13959 science LIDDIA: Language-Based Intelligent Drug Discovery Agent
+31 2503.22164 science PharmAgents: Building a Virtual Pharma with Large Language Model Agents
+32 2502.17506 science CLADD: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
+33 2507.09023 science Tippy: Accelerating Drug Discovery Through Agentic AI
+34 2506.22189 science Exploring Modularity of Agentic Systems for Drug Discovery
+35 2504.19912 science DO Challenge: Can AI Agents Design and Implement Drug Discovery Pipelines?
+36 2402.12993 science An autonomous large language model agent for chemical literature data mining
+37 2506.07551 science ChemAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning
+38 2505.21569 science ChemHAS: Hierarchical Agent Stacking for Enhancing Chemistry Tools
+39 2411.07228 science ChemToolAgent: The impact of tools on language agents for chemistry problem solving
+40 2501.06590 science Chemagent: Self-updating library in large language models improves chemical reasoning
+41 2505.20820 science MT-Mol: Multi Agent System with Tool-based Reasoning for Molecular Optimization
+42 2502.19629 science Agentic Mixture-of-Workflows for Multi-Modal Chemical Search
+43 2311.10776 science Chemist-X: Large language model-empowered agent for reaction condition recommendation in chemical synthesis
+44 2505.24584 science AutoChemSchematic AI: A Closed-Loop, Physics-Aware Agentic Framework for Auto-Generating Chemical Process and Instrumentation Diag
+45 2504.14110 science System of agentic AI for the discovery of metal-organic frameworks
+46 2506.06363 science ChemGraph: An Agentic Framework for Computational Chemistry Workflows
+47 2505.20574 science xchemagents: Agentic AI for explainable quantum chemistry
+48 2501.10385 science AILA: Autonomous microscopy experiments through large language model agents
+49 2505.04997 science Foam-Agent: Towards Automated Intelligent CFD Workflows
+50 2406.13163 science LLMatDesign: Autonomous materials discovery with large language models
+51 2506.05616 science MAPPS: Toward Greater Autonomy in Materials Discovery Agents: Unifying Planning, Physics, and Scientists
+52 2409.00135 science HoneyComb: A flexible LLM-based agent system for materials science
+53 2505.15132 science Multicrossmodal Automated Agent for Integrating Diverse Materials Science Data
+54 2410.03963 science dZiner: Rational inverse design of materials with AI agents
+55 2501.13299 science Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents
+56 2505.12650 science AutoMat: Enabling Automated Crystal Structure Reconstruction from Microscopy via Agentic Tool Use
+57 2407.10022 science AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence
+58 2410.13768 science Rapid and automated alloy design with graph neural network-powered LLM-driven multi-agent systems
+59 2506.06935 science An Agentic Framework for Autonomous Metamaterial Modeling and Inverse Design
+60 2504.08810 science PriM: Principle-inspired material discovery through multi-agent collaboration
+61 2507.04053 science TopoMAS: Large Language Model Driven Topological Materials Multiagent System
+62 2412.00821 science MoRA: Improving physics reasoning in large language models using mixture of refinement agents
+63 2411.14214 science LP-COMDA: Physics-informed LLM-agent for automated modulation design in power electronics systems
+64 2405.01392 science LLMSat: A large language model-based goal-oriented agent for autonomous space exploration
+65 2510.02426 science ArgoLOOM: Agentic AI for Fundamental Physics from Quarks to Cosmos
+66 2509.17255 science Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator
+67 2402.13184 science CosmoAgent: What if LLMs have different world views: Simulating alien civilizations with LLM-based agents
+68 2412.06412 science StarWhisper: Agent-based observation assistant system to approach AI astrophysicist
+69 2409.14807 science mephisto: Interpreting multi-band galaxy observations with large language model-based agents
+70 2503.00821 science AI Agents for ground-based gamma astronomy
+71 2504.03424 science The AI Cosmologist I: An Agentic System for Automated Data Analysis
+72 2507.08958 science SimAgents: Bridging Literature and the Universe Via A Multi-Agent Large Language Model System
+73 2501.06327 science OpenFOAMGPT: A RAG-augmented LLM agent for OpenFOAM-based computational fluid dynamics
+74 2504.19338 science OpenFOAMGPT 2.0: End-to-end, trustworthy automation for computational fluid dynamics
+75 2507.02938 science LLM-Agent: A Large Language Model-Empowered Agent for Reliable and Robust Structural Analysis
+76 2412.07978 science k-agents: Agents for self-driving laboratories applied to quantum computing
+77 2606.24177 multi Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy. Youran Sun et al
+78 2602.17607 multi AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing. Jianda Du et al
+79 2504.16918 multi OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents. Raghav Thind et al
+80 2402.04268 multi ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning. A. Ghafa
+81 2304.05376 multi ChemCrow: Augmenting large-language models with chemistry tools. Andres M Bran et al
+82 2304.05332 multi Emergent autonomous scientific research capabilities of large language models. Daniil A. Boiko et al
+83 2508.21720 all PosterForest: Hierarchical Multi-Agent Collaboration for Scientific Poster Generation
+84 2508.15126 all aiXiv: A Next-Generation Open Access Ecosystem for Scientific Discovery Generated by AI Scientists
+
+ embodied_llm_agents
+0 2204.01691 general SayCan
+1 2207.05608 general Inner monologue
+2 2201.07207 general Language-Planners
+3 2301.12050 general DECKARD
+4 2302.00763 general Planner-Actor-Reporter
+5 2302.01560 general DEPS
+6 2305.10626 general E2WM
+7 2305.05658 general TidyBot
+8 2305.02412 general PET
+9 2305.16291 general Voyager
+10 2305.17144 general GITM
+11 2306.03604 general LLM4RL
+12 2306.07929 general REMEMBER
+13 2307.15833 general Dialogue shaping
+14 2307.01848 general TaPA
+15 2307.09668 general Unified Agent
+16 2307.06135 general RoCo
+17 2307.04738 general Sayplan
+18 2308.11339 general ProAgent
+19 2309.09971 general MindAgent
+20 2311.12871 general LEO
+21 2311.05997 general JARVIS-1
+22 2310.20151 multi Multi-Agent Consensus Seeking via Large Language Models. Huaben Chen et al
+23 2310.07937 multi Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation using Large Language Models. Bangguo Yu et al
+24 2309.15943 multi Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?. Yongchao Chen et al
+25 2307.02485 multi Building Cooperative Embodied Agents Modularly with Large Language Models. Hongxin Zhang et al
+
+ multi_agent_interaction
+0 2403.02419 multi Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems. Lingjiao Chen et al
+1 2402.18272 multi Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?. Qineng Wang et al
+2 2402.15538 multi AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System. Zhiwei Liu et al
+3 2312.03664 multi Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia. Alexander Sasha Vezhn
+4 2310.02003 multi L2MAC: Large Language Model Automatic Computer for Extensive Code Generation. Samuel Holt et al
+5 2310.10634 multi OpenAgents: An Open Platform for Language Agents in the Wild. Tianbao Xie et al
+6 2310.06500 multi MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agent
+7 2309.07870 multi Agents: An Open-source Framework for Autonomous Language Agents. Wangchunshu Zhou et al
+8 2604.01658 multi CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery. Ao Qu et al
+9 2510.08529 multi CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards. Xiangyuan Xue et al
+10 2504.07461 multi Achilles Heel of Distributed Multi-Agent Systems
+11 2311.13884 multi Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach. Bin Zhang et al
+12 2310.01444 multi Adapting LLM Agents Through Communication. Kuan Wang et al
+13 2307.06187 multi Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems. Nathalia Nascimento et al
+14 2307.05300 multi Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration. Zhenhailong 
+15 2305.19118 multi Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate. Tian Liang et al
+16 2402.01386 multi Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for Qualitative Data Analysis. Zeeshan Rasheed e
+17 2401.14589 multi Enhancing Diagnostic Accuracy through Multi-Agent Conversations: Using Large Language Models to Mitigate Cognitive Bias. Yu He Ke 
+18 2311.08166 multi MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowled
+19 2311.10537 multi MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning. Xiangru Tang et al
+20 2308.07201 multi ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate. Chi-Min Chan et al
+21 2305.14325 multi Improving Factuality and Reasoning in Language Models through Multiagent Debate. Yilun Du et al
+22 2305.11595 multi Examining Inter-Consistency of Large Language Models Collaboration: An In-depth Analysis via Debate. Kai Xiong et al
+23 2312.01454 multi D-Bot: Database Diagnosis System using Large Language Models. et al
+24 2308.05481 multi LLM As DBA. et al
+25 2608.16897 multi CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents. Nicolas Bougie et al
+26 2606.05697 multi PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation. Nicolas Bougie et al
+27 2506.21805 multi CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation. Nicolas Bougie et al
+28 2402.04559 multi Can Large Language Model Agents Simulate Human Trust Behaviors? Chengxing Xie et al
+29 2312.07850 multi Large Language Model Enhanced Multi-Agent Systems for 6G Communications. Feibo Jiang et al
+30 2310.02172 multi Lyfe Agents: Generative agents for low-cost real-time social interactions. Zhao Kaiya et al
+31 2308.03313 multi Quantifying the Impact of Large Language Models on Collective Opinion Dynamics. Chao Li et al
+32 2307.14984 multi S3 Social-network Simulation System with Large Language Model-Empowered Agents. Chen Gao et al
+33 2307.10337 multi Are you in a Masquerade? Exploring the Behavior and Impact of Large Language Model Driven Social Bots in Online Social Networks. S
+34 2306.02552 multi User Behavior Simulation with Large Language Model based Agents. Lei Wang et al
+35 2305.03514 multi Can Large Language Models Transform Computational Social Science?. Caleb Ziems et al
+36 2304.03442 multi Generative Agents- Interactive Simulacra of Human Behavior. Joon Sung Park et al
+37 2312.00746 multi Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games. Dekun Wu et al
+38 2312.05488 multi Can Large Language Models Serve as Rational Players in Game Theory? A Systematic Analysis. Caoyun Fan et al
+39 2311.03220 multi ALYMPICS: Language Agents Meet Game Theory. Shaoguang Mao et al
+40 2310.18940 multi Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game. Zelai Xu et al
+41 2310.10701 multi Theory of Mind for Multi-Agent Collaboration via Large Language Models. Huao Li et al
+42 2310.08901 multi Welfare Diplomacy: Benchmarking Language Model Cooperation. Gabriel Mukobi et al
+43 2310.08067 multi GameGPT: Multi-agent Collaborative Framework for Game Development. Dake Chen et al
+44 2310.05036 multi AVALONBENCH: Evaluating LLMs Playing the Game of Avalon. Jonathan Light et al
+45 2310.01320 multi Avalon’s Game of Thoughts: Battle Against Deception through Recursive Contemplation. Shenzhi Wang et al
+46 2309.04658 multi Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf. Yuzhuang Xu et al
+47 2305.16867 multi Playing repeated games with Large Language Models. Elif Akata et al
+48 2503.13657 all Why Do Multi-Agent LLM Systems Fail?
+49 2501.05707 all Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains
+50 2506.08292 all From Debate to Equilibrium: Belief-Driven Multi-Agent LLM Reasoning via Bayesian Nash Equilibrium
+51 2508.09549 all CS-Agent: LLM-based Community Search via Dual-agent Collaboration
+52 2508.18669 all MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use
+53 2510.20733 all Thought Communication in Multiagent Collaboration
+54 2510.03215 all Cache-to-Cache: Direct Semantic Communication Between Large Language Models
+55 2309.13007 all ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs
+56 2402.06782 all Debating with More Persuasive LLMs Leads to More Truthful Answers
+57 2401.05268 all AutoAct: Automatic Agent Learning from Scratch for QA via Self-Planning
+58 2401.12954 all Meta-Prompting: Enhancing Language Models with Task-Agnostic Scaffolding
+59 2404.11943 all AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration
+60 2412.20138 all TradingAgents: Multi-Agents LLM Financial Trading Framework

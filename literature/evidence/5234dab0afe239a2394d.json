@@ -1,0 +1,143 @@
+{
+  "url": "https://arxiv.org/abs/2402.15538",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.15538",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System. Zhiwei Liu et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.15538",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:01.606941+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.15538",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43678,
+  "title": "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System",
+  "authors": [
+    "Liu, Zhiwei",
+    "Yao, Weiran",
+    "Zhang, Jianguo",
+    "Yang, Liangwei",
+    "Liu, Zuxin",
+    "Tan, Juntao",
+    "Choubey, Prafulla K.",
+    "Lan, Tian",
+    "Wu, Jason",
+    "Wang, Huan",
+    "Heinecke, Shelby",
+    "Xiong, Caiming",
+    "Savarese, Silvio"
+  ],
+  "first_author": "Liu, Zhiwei",
+  "year": 2024,
+  "source_date": "2024/02/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.15538",
+  "abstract": "The booming success of LLMs initiates rapid development in LLM agents. Though the foundation of an LLM agent is the generative model, it is critical to devise the optimal reasoning strategies and agent architectures. Accordingly, LLM agent research advances from the simple chain-of-thought prompting to more complex ReAct and Reflection reasoning strategy; agent architecture also evolves from single agent generation to multi-agent conversation, as well as multi-LLM multi-agent group chat. However, with the existing intricate frameworks and libraries, creating and evaluating new reasoning strategies and agent architectures has become a complex challenge, which hinders research investigation into LLM agents. Thus, we open-source a new AI agent library, AgentLite, which simplifies this process by offering a lightweight, user-friendly platform for innovating LLM agent reasoning, architectures, and applications with ease. AgentLite is a task-oriented framework designed to enhance the ability of agents to break down tasks and facilitate the development of multi-agent systems. Furthermore, we introduce multiple practical applications developed with AgentLite to demonstrate its convenience and flexibility. Get started now at: \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.15538: AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.15538v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The booming success of LLMs initiates rapid development in LLM agents. Though the foundation of an LLM agent is the generative model, it is critical to devise the optimal reasoning strategies and agent architectures. Accordingly, LLM agent research advances from the simple chain-of-thought prompting to more complex ReAct and Reflection reasoning strategy; agent architecture also evolves from single agent generation to multi-agent conversation, as well as multi-LLM multi-agent group chat. However, with the existing intricate frameworks and libraries, creating and evaluating new reasoning strategies and agent architectures has become a complex challenge, which hinders research investigation into LLM agents. Thus, we open-source a new AI agent library, AgentLite, which simplifies this process by offering a lightweight, user-friendly platform for innovating LLM agent reasoning, architectures, and applications with ease. AgentLite is a task-oriented framework designed to enhance the ability of agents to break down tasks and facilitate the development of multi-agent systems. Furthermore, we introduce multiple practical applications developed with AgentLite to demonstrate its convenience and flexibility. Get started now at: \\url{https://github.com/SalesforceAIResearch/AgentLite}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentLite: A Lightweight Library for Building and Advancing..."
+    ],
+    "twitter:description": [
+      "The booming success of LLMs initiates rapid development in LLM agents. Though the foundation of an LLM agent is the generative model, it is critical to devise the optimal reasoning strategies and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System"
+    ],
+    "citation_author": [
+      "Liu, Zhiwei",
+      "Yao, Weiran",
+      "Zhang, Jianguo",
+      "Yang, Liangwei",
+      "Liu, Zuxin",
+      "Tan, Juntao",
+      "Choubey, Prafulla K.",
+      "Lan, Tian",
+      "Wu, Jason",
+      "Wang, Huan",
+      "Heinecke, Shelby",
+      "Xiong, Caiming",
+      "Savarese, Silvio"
+    ],
+    "citation_date": [
+      "2024/02/23"
+    ],
+    "citation_online_date": [
+      "2024/02/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.15538"
+    ],
+    "citation_arxiv_id": [
+      "2402.15538"
+    ],
+    "citation_abstract": [
+      "The booming success of LLMs initiates rapid development in LLM agents. Though the foundation of an LLM agent is the generative model, it is critical to devise the optimal reasoning strategies and agent architectures. Accordingly, LLM agent research advances from the simple chain-of-thought prompting to more complex ReAct and Reflection reasoning strategy; agent architecture also evolves from single agent generation to multi-agent conversation, as well as multi-LLM multi-agent group chat. However, with the existing intricate frameworks and libraries, creating and evaluating new reasoning strategies and agent architectures has become a complex challenge, which hinders research investigation into LLM agents. Thus, we open-source a new AI agent library, AgentLite, which simplifies this process by offering a lightweight, user-friendly platform for innovating LLM agent reasoning, architectures, and applications with ease. AgentLite is a task-oriented framework designed to enhance the ability of agents to break down tasks and facilitate the development of multi-agent systems. Furthermore, we introduce multiple practical applications developed with AgentLite to demonstrate its convenience and flexibility. Get started now at: \\url{https://github.com/SalesforceAIResearch/AgentLite}."
+    ]
+  },
+  "html_sha256": "6f577e332c00e97b64d51261368defff2890f334d769a67abdb0e1541d042efc",
+  "evidence_html": "evidence/5234dab0afe239a2394d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

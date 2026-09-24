@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2605.26186",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2605.26186",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2605.26186",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:41.648868+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2605.26186",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44899,
+  "title": "SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?",
+  "authors": [
+    "Zhou, Zihang",
+    "Ren, Ziqian",
+    "Wu, Yukai",
+    "Xiong, Yingjie",
+    "Zhou, Wei",
+    "Peng, Chao",
+    "Zhang, Dong",
+    "Yan, Bingheng",
+    "Zhou, Xuanhe",
+    "Wu, Fan"
+  ],
+  "first_author": "Zhou, Zihang",
+  "year": 2026,
+  "source_date": "2026/05/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2605.26186",
+  "abstract": "Functionality-correct repository setup aims to configure execution environments (e.g., dependencies, build scripts) to successfully execute a repository's documented features. It presents significant challenges due to diverse, repository-specific failures, including dependency incompatibilities, missing toolchains, incomplete installations, and verification-strategy mismatches. Existing LLM agents struggle to robustly resolve these issues, specifically failing to support (1) cross-repository experience transfer, (2) multi-step trial-and-repair under non-invertible state changes, and (3) robust verification of setup outcomes to distinguish setup-induced failures from repository bugs. To address this, we introduce SetupX, an experiential learning-based setup framework. First, we construct a Self-Evolving Experience Representation (XPU), a dual-modality knowledge unit encoding setup signals, textual guidance, executable actions to dynamically transfer verified environment fixes to unseen repositories. Second, we employ Experience-Augmented Speculative Execution backed by a LIFO Docker snapshot stack, enabling the agent to proactively trial fixes and safely roll back to known-good states. Third, we introduce a Prosecutor-Judge Verification Protocol that separates evidence collection from final judgment, enabling more reliable setup verification beyond superficial build-time metrics. Evaluation results on carefully-crafted benchmarks show SetupX achieves highest performance (e.g., 92% pass rate) and outperforms the strongest baseline by over 19%. Crucially, SetupX excels in complex multi-repository setup requiring coordinating multiple interconnected services across different containers. The code repository is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2605.26186: SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2605.26186v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Functionality-correct repository setup aims to configure execution environments (e.g., dependencies, build scripts) to successfully execute a repository's documented features. It presents significant challenges due to diverse, repository-specific failures, including dependency incompatibilities, missing toolchains, incomplete installations, and verification-strategy mismatches. Existing LLM agents struggle to robustly resolve these issues, specifically failing to support (1) cross-repository experience transfer, (2) multi-step trial-and-repair under non-invertible state changes, and (3) robust verification of setup outcomes to distinguish setup-induced failures from repository bugs. To address this, we introduce SetupX, an experiential learning-based setup framework. First, we construct a Self-Evolving Experience Representation (XPU), a dual-modality knowledge unit encoding setup signals, textual guidance, executable actions to dynamically transfer verified environment fixes to unseen repositories. Second, we employ Experience-Augmented Speculative Execution backed by a LIFO Docker snapshot stack, enabling the agent to proactively trial fixes and safely roll back to known-good states. Third, we introduce a Prosecutor-Judge Verification Protocol that separates evidence collection from final judgment, enabling more reliable setup verification beyond superficial build-time metrics. Evaluation results on carefully-crafted benchmarks show SetupX achieves highest performance (e.g., 92% pass rate) and outperforms the strongest baseline by over 19%. Crucially, SetupX excels in complex multi-repository setup requiring coordinating multiple interconnected services across different containers. The code repository is available at https://github.com/OpenDataBox/SetupX."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SetupX: Can LLM Agents Learn from Past Failures in..."
+    ],
+    "twitter:description": [
+      "Functionality-correct repository setup aims to configure execution environments (e.g., dependencies, build scripts) to successfully execute a repository's documented features. It presents..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?"
+    ],
+    "citation_author": [
+      "Zhou, Zihang",
+      "Ren, Ziqian",
+      "Wu, Yukai",
+      "Xiong, Yingjie",
+      "Zhou, Wei",
+      "Peng, Chao",
+      "Zhang, Dong",
+      "Yan, Bingheng",
+      "Zhou, Xuanhe",
+      "Wu, Fan"
+    ],
+    "citation_date": [
+      "2026/05/25"
+    ],
+    "citation_online_date": [
+      "2026/05/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2605.26186"
+    ],
+    "citation_arxiv_id": [
+      "2605.26186"
+    ],
+    "citation_abstract": [
+      "Functionality-correct repository setup aims to configure execution environments (e.g., dependencies, build scripts) to successfully execute a repository's documented features. It presents significant challenges due to diverse, repository-specific failures, including dependency incompatibilities, missing toolchains, incomplete installations, and verification-strategy mismatches. Existing LLM agents struggle to robustly resolve these issues, specifically failing to support (1) cross-repository experience transfer, (2) multi-step trial-and-repair under non-invertible state changes, and (3) robust verification of setup outcomes to distinguish setup-induced failures from repository bugs. To address this, we introduce SetupX, an experiential learning-based setup framework. First, we construct a Self-Evolving Experience Representation (XPU), a dual-modality knowledge unit encoding setup signals, textual guidance, executable actions to dynamically transfer verified environment fixes to unseen repositories. Second, we employ Experience-Augmented Speculative Execution backed by a LIFO Docker snapshot stack, enabling the agent to proactively trial fixes and safely roll back to known-good states. Third, we introduce a Prosecutor-Judge Verification Protocol that separates evidence collection from final judgment, enabling more reliable setup verification beyond superficial build-time metrics. Evaluation results on carefully-crafted benchmarks show SetupX achieves highest performance (e.g., 92% pass rate) and outperforms the strongest baseline by over 19%. Crucially, SetupX excels in complex multi-repository setup requiring coordinating multiple interconnected services across different containers. The code repository is available at https://github.com/OpenDataBox/SetupX."
+    ]
+  },
+  "html_sha256": "0a966dadf7fe047757e95da88d75003519b5f76639a39e25b08c7425fc32aa4e",
+  "evidence_html": "evidence/13d7b10bb79c841f2236.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

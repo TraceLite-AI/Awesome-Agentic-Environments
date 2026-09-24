@@ -1,0 +1,144 @@
+{
+  "url": "https://arxiv.org/abs/2509.10723",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.10723",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Adversarial environment variation/GUI and web security",
+      "title_hint": "Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.10723",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:45.846810+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.10723",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43148,
+  "title": "Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight",
+  "authors": [
+    "Tang, Jingyu",
+    "Chen, Chaoran",
+    "Li, Jiawen",
+    "Zhang, Zhiping",
+    "Guo, Bingcan",
+    "Khalilov, Ibrahim",
+    "Gebreegziabher, Simret Araya",
+    "Yao, Bingsheng",
+    "Wang, Dakuo",
+    "Ye, Yanfang",
+    "Li, Tianshi",
+    "Xiao, Ziang",
+    "Yao, Yaxing",
+    "Li, Toby Jia-Jun"
+  ],
+  "first_author": "Tang, Jingyu",
+  "year": 2025,
+  "source_date": "2025/09/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.10723",
+  "abstract": "The dark patterns, deceptive interface designs manipulating user behaviors, have been extensively studied for their effects on human decision-making and autonomy. Yet, with the rising prominence of LLM-powered GUI agents that automate tasks from high-level intents, understanding how dark patterns affect agents is increasingly important. We present a two-phase empirical study examining how agents, human participants, and human-AI teams respond to 16 types of dark patterns across diverse scenarios. Phase 1 highlights that agents often fail to recognize dark patterns, and even when aware, prioritize task completion over protective action. Phase 2 revealed divergent failure modes: humans succumb due to cognitive shortcuts and habitual compliance, while agents falter from procedural blind spots. Human oversight improved avoidance but introduced costs such as attentional tunneling and cognitive load. Our findings show neither humans nor agents are uniformly resilient, and collaboration introduces new vulnerabilities, suggesting design needs for transparency, adjustable autonomy, and oversight.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.10723: Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.10723v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The dark patterns, deceptive interface designs manipulating user behaviors, have been extensively studied for their effects on human decision-making and autonomy. Yet, with the rising prominence of LLM-powered GUI agents that automate tasks from high-level intents, understanding how dark patterns affect agents is increasingly important. We present a two-phase empirical study examining how agents, human participants, and human-AI teams respond to 16 types of dark patterns across diverse scenarios. Phase 1 highlights that agents often fail to recognize dark patterns, and even when aware, prioritize task completion over protective action. Phase 2 revealed divergent failure modes: humans succumb due to cognitive shortcuts and habitual compliance, while agents falter from procedural blind spots. Human oversight improved avoidance but introduced costs such as attentional tunneling and cognitive load. Our findings show neither humans nor agents are uniformly resilient, and collaboration introduces new vulnerabilities, suggesting design needs for transparency, adjustable autonomy, and oversight."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to..."
+    ],
+    "twitter:description": [
+      "The dark patterns, deceptive interface designs manipulating user behaviors, have been extensively studied for their effects on human decision-making and autonomy. Yet, with the rising prominence..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight"
+    ],
+    "citation_author": [
+      "Tang, Jingyu",
+      "Chen, Chaoran",
+      "Li, Jiawen",
+      "Zhang, Zhiping",
+      "Guo, Bingcan",
+      "Khalilov, Ibrahim",
+      "Gebreegziabher, Simret Araya",
+      "Yao, Bingsheng",
+      "Wang, Dakuo",
+      "Ye, Yanfang",
+      "Li, Tianshi",
+      "Xiao, Ziang",
+      "Yao, Yaxing",
+      "Li, Toby Jia-Jun"
+    ],
+    "citation_date": [
+      "2025/09/12"
+    ],
+    "citation_online_date": [
+      "2025/09/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.10723"
+    ],
+    "citation_arxiv_id": [
+      "2509.10723"
+    ],
+    "citation_abstract": [
+      "The dark patterns, deceptive interface designs manipulating user behaviors, have been extensively studied for their effects on human decision-making and autonomy. Yet, with the rising prominence of LLM-powered GUI agents that automate tasks from high-level intents, understanding how dark patterns affect agents is increasingly important. We present a two-phase empirical study examining how agents, human participants, and human-AI teams respond to 16 types of dark patterns across diverse scenarios. Phase 1 highlights that agents often fail to recognize dark patterns, and even when aware, prioritize task completion over protective action. Phase 2 revealed divergent failure modes: humans succumb due to cognitive shortcuts and habitual compliance, while agents falter from procedural blind spots. Human oversight improved avoidance but introduced costs such as attentional tunneling and cognitive load. Our findings show neither humans nor agents are uniformly resilient, and collaboration introduces new vulnerabilities, suggesting design needs for transparency, adjustable autonomy, and oversight."
+    ]
+  },
+  "html_sha256": "71d12bf331b78cffa83bd07e1bdb4a1809d963a69d7b65cc41cf93cddc4d5cdc",
+  "evidence_html": "evidence/650d8ccfbb95b1573e9b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

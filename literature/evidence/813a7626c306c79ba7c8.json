@@ -1,0 +1,123 @@
+{
+  "url": "https://arxiv.org/abs/2402.04253",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.04253",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.04253",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:49.537665+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.04253",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41292,
+  "title": "AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls",
+  "authors": [
+    "Du, Yu",
+    "Wei, Fangyun",
+    "Zhang, Hongyang"
+  ],
+  "first_author": "Du, Yu",
+  "year": 2024,
+  "source_date": "2024/02/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.04253",
+  "abstract": "We introduce AnyTool, a large language model agent designed to revolutionize the utilization of a vast array of tools in addressing user queries. We utilize over 16,000 APIs from Rapid API, operating under the assumption that a subset of these APIs could potentially resolve the queries. AnyTool primarily incorporates three elements: an API retriever with a hierarchical structure, a solver aimed at resolving user queries using a selected set of API candidates, and a self-reflection mechanism, which re-activates AnyTool if the initial solution proves impracticable. AnyTool is powered by the function calling feature of GPT-4, eliminating the need for training external modules. We also revisit the evaluation protocol introduced by previous works and identify a limitation in this protocol that leads to an artificially high pass rate. By revising the evaluation protocol to better reflect practical application scenarios, we introduce an additional benchmark, termed AnyToolBench. Experiments across various datasets demonstrate the superiority of our AnyTool over strong baselines such as ToolLLM and a GPT-4 variant tailored for tool utilization. For instance, AnyTool outperforms ToolLLM by +35.4% in terms of average pass rate on ToolBench. Code will be available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.04253: AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.04253v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce AnyTool, a large language model agent designed to revolutionize the utilization of a vast array of tools in addressing user queries. We utilize over 16,000 APIs from Rapid API, operating under the assumption that a subset of these APIs could potentially resolve the queries. AnyTool primarily incorporates three elements: an API retriever with a hierarchical structure, a solver aimed at resolving user queries using a selected set of API candidates, and a self-reflection mechanism, which re-activates AnyTool if the initial solution proves impracticable. AnyTool is powered by the function calling feature of GPT-4, eliminating the need for training external modules. We also revisit the evaluation protocol introduced by previous works and identify a limitation in this protocol that leads to an artificially high pass rate. By revising the evaluation protocol to better reflect practical application scenarios, we introduce an additional benchmark, termed AnyToolBench. Experiments across various datasets demonstrate the superiority of our AnyTool over strong baselines such as ToolLLM and a GPT-4 variant tailored for tool utilization. For instance, AnyTool outperforms ToolLLM by +35.4% in terms of average pass rate on ToolBench. Code will be available at https://github.com/dyabel/AnyTool."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls"
+    ],
+    "twitter:description": [
+      "We introduce AnyTool, a large language model agent designed to revolutionize the utilization of a vast array of tools in addressing user queries. We utilize over 16,000 APIs from Rapid API,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls"
+    ],
+    "citation_author": [
+      "Du, Yu",
+      "Wei, Fangyun",
+      "Zhang, Hongyang"
+    ],
+    "citation_date": [
+      "2024/02/06"
+    ],
+    "citation_online_date": [
+      "2024/02/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.04253"
+    ],
+    "citation_arxiv_id": [
+      "2402.04253"
+    ],
+    "citation_abstract": [
+      "We introduce AnyTool, a large language model agent designed to revolutionize the utilization of a vast array of tools in addressing user queries. We utilize over 16,000 APIs from Rapid API, operating under the assumption that a subset of these APIs could potentially resolve the queries. AnyTool primarily incorporates three elements: an API retriever with a hierarchical structure, a solver aimed at resolving user queries using a selected set of API candidates, and a self-reflection mechanism, which re-activates AnyTool if the initial solution proves impracticable. AnyTool is powered by the function calling feature of GPT-4, eliminating the need for training external modules. We also revisit the evaluation protocol introduced by previous works and identify a limitation in this protocol that leads to an artificially high pass rate. By revising the evaluation protocol to better reflect practical application scenarios, we introduce an additional benchmark, termed AnyToolBench. Experiments across various datasets demonstrate the superiority of our AnyTool over strong baselines such as ToolLLM and a GPT-4 variant tailored for tool utilization. For instance, AnyTool outperforms ToolLLM by +35.4% in terms of average pass rate on ToolBench. Code will be available at https://github.com/dyabel/AnyTool."
+    ]
+  },
+  "html_sha256": "03d5425b108a850f6fdef37de9334337ba3516188c73b2876a9697cc3a5fa293",
+  "evidence_html": "evidence/813a7626c306c79ba7c8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

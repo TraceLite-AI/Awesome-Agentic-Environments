@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2505.19253",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.19253",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Deepresearchgym: A free, transparent, and reproducible evaluation sandbox for deep research",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.19253",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:42.417946+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.19253",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43881,
+  "title": "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research",
+  "authors": [
+    "Coelho, João",
+    "Ning, Jingjie",
+    "He, Jingyuan",
+    "Mao, Kangrui",
+    "Paladugu, Abhijay",
+    "Setlur, Pranav",
+    "Jin, Jiahe",
+    "Callan, Jamie",
+    "Magalhães, João",
+    "Martins, Bruno",
+    "Xiong, Chenyan"
+  ],
+  "first_author": "Coelho, João",
+  "year": 2025,
+  "source_date": "2025/05/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.19253",
+  "abstract": "Deep research systems represent an emerging class of agentic information retrieval methods that generate comprehensive and well-supported reports to complex queries. However, most existing frameworks rely on dynamic commercial search APIs, which pose reproducibility and transparency challenges in addition to their cost. To address these limitations, we introduce \\textsc{DeepResearchGym} as an open-source sandbox that combines a reproducible search API with a rigorous evaluation protocol for benchmarking deep research systems. The API indexes large-scale public web corpora, namely ClueWeb22 and FineWeb, using a state-of-the-art dense retriever and approximate nearest neighbor search via DiskANN. It achieves lower latency than popular commercial APIs while ensuring stable document rankings across runs, and is free for research use. To evaluate deep research systems' outputs, we extend the Researchy Questions benchmark with automatic metrics through LLM-as-a-judge to measure alignment with users' information needs, retrieval faithfulness, and report quality. Experimental results show that systems integrated with~\\textsc{DeepResearchGym} achieve performance comparable to those using commercial APIs, with performance rankings remaining consistent across evaluation metrics. A case study on short-answer search agents further demonstrates the sandbox's utility for cost-effective training, showing that models trained within the sandbox can generalize to commercial search.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.19253: DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.19253v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Deep research systems represent an emerging class of agentic information retrieval methods that generate comprehensive and well-supported reports to complex queries. However, most existing frameworks rely on dynamic commercial search APIs, which pose reproducibility and transparency challenges in addition to their cost. To address these limitations, we introduce \\textsc{DeepResearchGym} as an open-source sandbox that combines a reproducible search API with a rigorous evaluation protocol for benchmarking deep research systems. The API indexes large-scale public web corpora, namely ClueWeb22 and FineWeb, using a state-of-the-art dense retriever and approximate nearest neighbor search via DiskANN. It achieves lower latency than popular commercial APIs while ensuring stable document rankings across runs, and is free for research use. To evaluate deep research systems' outputs, we extend the Researchy Questions benchmark with automatic metrics through LLM-as-a-judge to measure alignment with users' information needs, retrieval faithfulness, and report quality. Experimental results show that systems integrated with~\\textsc{DeepResearchGym} achieve performance comparable to those using commercial APIs, with performance rankings remaining consistent across evaluation metrics. A case study on short-answer search agents further demonstrates the sandbox's utility for cost-effective training, showing that models trained within the sandbox can generalize to commercial search."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation..."
+    ],
+    "twitter:description": [
+      "Deep research systems represent an emerging class of agentic information retrieval methods that generate comprehensive and well-supported reports to complex queries. However, most existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research"
+    ],
+    "citation_author": [
+      "Coelho, João",
+      "Ning, Jingjie",
+      "He, Jingyuan",
+      "Mao, Kangrui",
+      "Paladugu, Abhijay",
+      "Setlur, Pranav",
+      "Jin, Jiahe",
+      "Callan, Jamie",
+      "Magalhães, João",
+      "Martins, Bruno",
+      "Xiong, Chenyan"
+    ],
+    "citation_date": [
+      "2025/05/25"
+    ],
+    "citation_online_date": [
+      "2025/12/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.19253"
+    ],
+    "citation_arxiv_id": [
+      "2505.19253"
+    ],
+    "citation_abstract": [
+      "Deep research systems represent an emerging class of agentic information retrieval methods that generate comprehensive and well-supported reports to complex queries. However, most existing frameworks rely on dynamic commercial search APIs, which pose reproducibility and transparency challenges in addition to their cost. To address these limitations, we introduce \\textsc{DeepResearchGym} as an open-source sandbox that combines a reproducible search API with a rigorous evaluation protocol for benchmarking deep research systems. The API indexes large-scale public web corpora, namely ClueWeb22 and FineWeb, using a state-of-the-art dense retriever and approximate nearest neighbor search via DiskANN. It achieves lower latency than popular commercial APIs while ensuring stable document rankings across runs, and is free for research use. To evaluate deep research systems' outputs, we extend the Researchy Questions benchmark with automatic metrics through LLM-as-a-judge to measure alignment with users' information needs, retrieval faithfulness, and report quality. Experimental results show that systems integrated with~\\textsc{DeepResearchGym} achieve performance comparable to those using commercial APIs, with performance rankings remaining consistent across evaluation metrics. A case study on short-answer search agents further demonstrates the sandbox's utility for cost-effective training, showing that models trained within the sandbox can generalize to commercial search."
+    ]
+  },
+  "html_sha256": "9f5d50577803a581ba7edee5e986686ae572a2b682a054439f923dc784dbce3f",
+  "evidence_html": "evidence/e121f7b8d4fc4c5d88d8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

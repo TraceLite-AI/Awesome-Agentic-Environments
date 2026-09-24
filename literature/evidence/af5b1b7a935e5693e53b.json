@@ -1,0 +1,149 @@
+{
+  "url": "https://arxiv.org/abs/2506.09042",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.09042",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Cosmos-drive-dreams: Scalable synthetic driving data generation with world foundation models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.09042",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:42.383411+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.09042",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44547,
+  "title": "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models",
+  "authors": [
+    "Ren, Xuanchi",
+    "Lu, Yifan",
+    "Cao, Tianshi",
+    "Gao, Ruiyuan",
+    "Huang, Shengyu",
+    "Sabour, Amirmojtaba",
+    "Shen, Tianchang",
+    "Pfaff, Tobias",
+    "Wu, Jay Zhangjie",
+    "Chen, Runjian",
+    "Kim, Seung Wook",
+    "Gao, Jun",
+    "Leal-Taixe, Laura",
+    "Chen, Mike",
+    "Fidler, Sanja",
+    "Ling, Huan"
+  ],
+  "first_author": "Ren, Xuanchi",
+  "year": 2025,
+  "source_date": "2025/06/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.09042",
+  "abstract": "Collecting and annotating real-world data for safety-critical physical AI systems, such as Autonomous Vehicle (AV), is time-consuming and costly. It is especially challenging to capture rare edge cases, which play a critical role in training and testing of an AV system. To address this challenge, we introduce the Cosmos-Drive-Dreams - a synthetic data generation (SDG) pipeline that aims to generate challenging scenarios to facilitate downstream tasks such as perception and driving policy training. Powering this pipeline is Cosmos-Drive, a suite of models specialized from NVIDIA Cosmos world foundation model for the driving domain and are capable of controllable, high-fidelity, multi-view, and spatiotemporally consistent driving video generation. We showcase the utility of these models by applying Cosmos-Drive-Dreams to scale the quantity and diversity of driving datasets with high-fidelity and challenging scenarios. Experimentally, we demonstrate that our generated data helps in mitigating long-tail distribution problems and enhances generalization in downstream tasks such as 3D lane detection, 3D object detection and driving policy learning. We open source our pipeline toolkit, dataset and model weights through the NVIDIA's Cosmos platform. Project page: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.09042: Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.09042v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Collecting and annotating real-world data for safety-critical physical AI systems, such as Autonomous Vehicle (AV), is time-consuming and costly. It is especially challenging to capture rare edge cases, which play a critical role in training and testing of an AV system. To address this challenge, we introduce the Cosmos-Drive-Dreams - a synthetic data generation (SDG) pipeline that aims to generate challenging scenarios to facilitate downstream tasks such as perception and driving policy training. Powering this pipeline is Cosmos-Drive, a suite of models specialized from NVIDIA Cosmos world foundation model for the driving domain and are capable of controllable, high-fidelity, multi-view, and spatiotemporally consistent driving video generation. We showcase the utility of these models by applying Cosmos-Drive-Dreams to scale the quantity and diversity of driving datasets with high-fidelity and challenging scenarios. Experimentally, we demonstrate that our generated data helps in mitigating long-tail distribution problems and enhances generalization in downstream tasks such as 3D lane detection, 3D object detection and driving policy learning. We open source our pipeline toolkit, dataset and model weights through the NVIDIA's Cosmos platform.\n  Project page: https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation..."
+    ],
+    "twitter:description": [
+      "Collecting and annotating real-world data for safety-critical physical AI systems, such as Autonomous Vehicle (AV), is time-consuming and costly. It is especially challenging to capture rare edge..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models"
+    ],
+    "citation_author": [
+      "Ren, Xuanchi",
+      "Lu, Yifan",
+      "Cao, Tianshi",
+      "Gao, Ruiyuan",
+      "Huang, Shengyu",
+      "Sabour, Amirmojtaba",
+      "Shen, Tianchang",
+      "Pfaff, Tobias",
+      "Wu, Jay Zhangjie",
+      "Chen, Runjian",
+      "Kim, Seung Wook",
+      "Gao, Jun",
+      "Leal-Taixe, Laura",
+      "Chen, Mike",
+      "Fidler, Sanja",
+      "Ling, Huan"
+    ],
+    "citation_date": [
+      "2025/06/10"
+    ],
+    "citation_online_date": [
+      "2025/06/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.09042"
+    ],
+    "citation_arxiv_id": [
+      "2506.09042"
+    ],
+    "citation_abstract": [
+      "Collecting and annotating real-world data for safety-critical physical AI systems, such as Autonomous Vehicle (AV), is time-consuming and costly. It is especially challenging to capture rare edge cases, which play a critical role in training and testing of an AV system. To address this challenge, we introduce the Cosmos-Drive-Dreams - a synthetic data generation (SDG) pipeline that aims to generate challenging scenarios to facilitate downstream tasks such as perception and driving policy training. Powering this pipeline is Cosmos-Drive, a suite of models specialized from NVIDIA Cosmos world foundation model for the driving domain and are capable of controllable, high-fidelity, multi-view, and spatiotemporally consistent driving video generation. We showcase the utility of these models by applying Cosmos-Drive-Dreams to scale the quantity and diversity of driving datasets with high-fidelity and challenging scenarios. Experimentally, we demonstrate that our generated data helps in mitigating long-tail distribution problems and enhances generalization in downstream tasks such as 3D lane detection, 3D object detection and driving policy learning. We open source our pipeline toolkit, dataset and model weights through the NVIDIA's Cosmos platform. Project page: https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams"
+    ]
+  },
+  "html_sha256": "7711a60b936c615b90ea4efb408b1b8ccaf259828ebdbbee3f558263e49b9c7d",
+  "evidence_html": "evidence/af5b1b7a935e5693e53b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

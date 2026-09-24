@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2303.03376",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2303.03376",
+      "discovery_url": "https://web.stanford.edu/~mrifaki/ued-readings.html",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2303.03376",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:56.856153+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2303.03376",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43084,
+  "title": "MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning",
+  "authors": [
+    "Samvelyan, Mikayel",
+    "Khan, Akbir",
+    "Dennis, Michael",
+    "Jiang, Minqi",
+    "Parker-Holder, Jack",
+    "Foerster, Jakob",
+    "Raileanu, Roberta",
+    "Rocktäschel, Tim"
+  ],
+  "first_author": "Samvelyan, Mikayel",
+  "year": 2023,
+  "source_date": "2023/03/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2303.03376",
+  "abstract": "Open-ended learning methods that automatically generate a curriculum of increasingly challenging tasks serve as a promising avenue toward generally capable reinforcement learning agents. Existing methods adapt curricula independently over either environment parameters (in single-agent settings) or co-player policies (in multi-agent settings). However, the strengths and weaknesses of co-players can manifest themselves differently depending on environmental features. It is thus crucial to consider the dependency between the environment and co-player when shaping a curriculum in multi-agent domains. In this work, we use this insight and extend Unsupervised Environment Design (UED) to multi-agent environments. We then introduce Multi-Agent Environment Design Strategist for Open-Ended Learning (MAESTRO), the first multi-agent UED approach for two-player zero-sum settings. MAESTRO efficiently produces adversarial, joint curricula over both environments and co-players and attains minimax-regret guarantees at Nash equilibrium. Our experiments show that MAESTRO outperforms a number of strong baselines on competitive two-player games, spanning discrete and continuous control settings.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2303.03376: MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2303.03376v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Open-ended learning methods that automatically generate a curriculum of increasingly challenging tasks serve as a promising avenue toward generally capable reinforcement learning agents. Existing methods adapt curricula independently over either environment parameters (in single-agent settings) or co-player policies (in multi-agent settings). However, the strengths and weaknesses of co-players can manifest themselves differently depending on environmental features. It is thus crucial to consider the dependency between the environment and co-player when shaping a curriculum in multi-agent domains. In this work, we use this insight and extend Unsupervised Environment Design (UED) to multi-agent environments. We then introduce Multi-Agent Environment Design Strategist for Open-Ended Learning (MAESTRO), the first multi-agent UED approach for two-player zero-sum settings. MAESTRO efficiently produces adversarial, joint curricula over both environments and co-players and attains minimax-regret guarantees at Nash equilibrium. Our experiments show that MAESTRO outperforms a number of strong baselines on competitive two-player games, spanning discrete and continuous control settings."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MAESTRO: Open-Ended Environment Design for Multi-Agent..."
+    ],
+    "twitter:description": [
+      "Open-ended learning methods that automatically generate a curriculum of increasingly challenging tasks serve as a promising avenue toward generally capable reinforcement learning agents. Existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Samvelyan, Mikayel",
+      "Khan, Akbir",
+      "Dennis, Michael",
+      "Jiang, Minqi",
+      "Parker-Holder, Jack",
+      "Foerster, Jakob",
+      "Raileanu, Roberta",
+      "Rocktäschel, Tim"
+    ],
+    "citation_date": [
+      "2023/03/06"
+    ],
+    "citation_online_date": [
+      "2023/03/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2303.03376"
+    ],
+    "citation_arxiv_id": [
+      "2303.03376"
+    ],
+    "citation_abstract": [
+      "Open-ended learning methods that automatically generate a curriculum of increasingly challenging tasks serve as a promising avenue toward generally capable reinforcement learning agents. Existing methods adapt curricula independently over either environment parameters (in single-agent settings) or co-player policies (in multi-agent settings). However, the strengths and weaknesses of co-players can manifest themselves differently depending on environmental features. It is thus crucial to consider the dependency between the environment and co-player when shaping a curriculum in multi-agent domains. In this work, we use this insight and extend Unsupervised Environment Design (UED) to multi-agent environments. We then introduce Multi-Agent Environment Design Strategist for Open-Ended Learning (MAESTRO), the first multi-agent UED approach for two-player zero-sum settings. MAESTRO efficiently produces adversarial, joint curricula over both environments and co-players and attains minimax-regret guarantees at Nash equilibrium. Our experiments show that MAESTRO outperforms a number of strong baselines on competitive two-player games, spanning discrete and continuous control settings."
+    ]
+  },
+  "html_sha256": "93d90c1bc8ebcaa2f1ab2c8eaf4eff520bfcd1cc6f18bb65cd7049fe5e682a56",
+  "evidence_html": "evidence/18aa9a5c540c8a26e1bb.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

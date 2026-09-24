@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2603.28052",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.28052",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.28052",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:59.310616+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.28052",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41166,
+  "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+  "authors": [
+    "Lee, Yoonho",
+    "Nair, Roshen",
+    "Zhang, Qizheng",
+    "Lee, Kangwook",
+    "Khattab, Omar",
+    "Finn, Chelsea"
+  ],
+  "first_author": "Lee, Yoonho",
+  "year": 2026,
+  "source_date": "2026/03/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2603.28052",
+  "abstract": "The performance of large language model (LLM) systems depends not only on model weights, but also on their harness: the code that determines what information to store, retrieve, and present to the model. Yet harnesses are still designed largely by hand, and existing text optimizers are poorly matched to this setting because they compress feedback too aggressively. We introduce Meta-Harness, an outer-loop system that searches over harness code for LLM applications. It uses an agentic proposer that accesses the source code, scores, and execution traces of all prior candidates through a filesystem. On online text classification, Meta-Harness improves over a state-of-the-art context management system by 7.7 points while using 4x fewer context tokens. On retrieval-augmented math reasoning, a single discovered harness improves accuracy on 200 IMO-level problems by 4.7 points on average across five held-out models. On agentic coding, discovered harnesses surpass the best hand-engineered baselines on TerminalBench-2. Together, these results show that richer access to prior experience can enable automated harness engineering.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.28052: Meta-Harness: End-to-End Optimization of Model Harnesses"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Meta-Harness: End-to-End Optimization of Model Harnesses"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.28052v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The performance of large language model (LLM) systems depends not only on model weights, but also on their harness: the code that determines what information to store, retrieve, and present to the model. Yet harnesses are still designed largely by hand, and existing text optimizers are poorly matched to this setting because they compress feedback too aggressively. We introduce Meta-Harness, an outer-loop system that searches over harness code for LLM applications. It uses an agentic proposer that accesses the source code, scores, and execution traces of all prior candidates through a filesystem. On online text classification, Meta-Harness improves over a state-of-the-art context management system by 7.7 points while using 4x fewer context tokens. On retrieval-augmented math reasoning, a single discovered harness improves accuracy on 200 IMO-level problems by 4.7 points on average across five held-out models. On agentic coding, discovered harnesses surpass the best hand-engineered baselines on TerminalBench-2. Together, these results show that richer access to prior experience can enable automated harness engineering."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Meta-Harness: End-to-End Optimization of Model Harnesses"
+    ],
+    "twitter:description": [
+      "The performance of large language model (LLM) systems depends not only on model weights, but also on their harness: the code that determines what information to store, retrieve, and present to the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Meta-Harness: End-to-End Optimization of Model Harnesses"
+    ],
+    "citation_author": [
+      "Lee, Yoonho",
+      "Nair, Roshen",
+      "Zhang, Qizheng",
+      "Lee, Kangwook",
+      "Khattab, Omar",
+      "Finn, Chelsea"
+    ],
+    "citation_date": [
+      "2026/03/30"
+    ],
+    "citation_online_date": [
+      "2026/03/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.28052"
+    ],
+    "citation_arxiv_id": [
+      "2603.28052"
+    ],
+    "citation_abstract": [
+      "The performance of large language model (LLM) systems depends not only on model weights, but also on their harness: the code that determines what information to store, retrieve, and present to the model. Yet harnesses are still designed largely by hand, and existing text optimizers are poorly matched to this setting because they compress feedback too aggressively. We introduce Meta-Harness, an outer-loop system that searches over harness code for LLM applications. It uses an agentic proposer that accesses the source code, scores, and execution traces of all prior candidates through a filesystem. On online text classification, Meta-Harness improves over a state-of-the-art context management system by 7.7 points while using 4x fewer context tokens. On retrieval-augmented math reasoning, a single discovered harness improves accuracy on 200 IMO-level problems by 4.7 points on average across five held-out models. On agentic coding, discovered harnesses surpass the best hand-engineered baselines on TerminalBench-2. Together, these results show that richer access to prior experience can enable automated harness engineering."
+    ]
+  },
+  "html_sha256": "e25f14e1e507216df47702e5410dc3d208b8e0d0d3dc4a875c2a2911f7d280c1",
+  "evidence_html": "evidence/9b9bdcb8a1796dc01ee9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

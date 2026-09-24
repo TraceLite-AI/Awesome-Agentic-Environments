@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=unDQOUah0F",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=unDQOUah0F",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Videowebarena: Evaluating long context multimodal agents with video understanding web tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=unDQOUah0F",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:29.704824+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DunDQOUah0F",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "474313d28a148748f4f1ca6f2cddca4dab7288b6a9de7384a84dfb603df77ca8",
+  "evidence_html": "evidence/8baf12d83d49b1c4ea52.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

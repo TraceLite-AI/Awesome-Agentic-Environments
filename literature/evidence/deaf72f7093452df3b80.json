@@ -1,0 +1,121 @@
+{
+  "url": "https://arxiv.org/abs/1903.12261",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1903.12261",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-36",
+      "topic": "机器学习：不变性、因果、鲁棒性",
+      "title_hint": "Hendrycks & Dietterich. Benchmarking Neural Network Robustness to Common Corruptions and Perturbations. ICLR 2019. arXiv:1903.12261.",
+      "existing_reference_number": 36,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1903.12261",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:22.266088+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1903.12261",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42330,
+  "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+  "authors": [
+    "Hendrycks, Dan",
+    "Dietterich, Thomas"
+  ],
+  "first_author": "Hendrycks, Dan",
+  "year": 2019,
+  "source_date": "2019/03/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1903.12261",
+  "abstract": "In this paper we establish rigorous benchmarks for image classifier robustness. Our first benchmark, ImageNet-C, standardizes and expands the corruption robustness topic, while showing which classifiers are preferable in safety-critical applications. Then we propose a new dataset called ImageNet-P which enables researchers to benchmark a classifier's robustness to common perturbations. Unlike recent robustness research, this benchmark evaluates performance on common corruptions and perturbations not worst-case adversarial perturbations. We find that there are negligible changes in relative corruption robustness from AlexNet classifiers to ResNet classifiers. Afterward we discover ways to enhance corruption and perturbation robustness. We even find that a bypassed adversarial defense provides substantial common perturbation robustness. Together our benchmarks may aid future work toward networks that robustly generalize.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1903.12261: Benchmarking Neural Network Robustness to Common Corruptions and Perturbations"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1903.12261v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "In this paper we establish rigorous benchmarks for image classifier robustness. Our first benchmark, ImageNet-C, standardizes and expands the corruption robustness topic, while showing which classifiers are preferable in safety-critical applications. Then we propose a new dataset called ImageNet-P which enables researchers to benchmark a classifier's robustness to common perturbations. Unlike recent robustness research, this benchmark evaluates performance on common corruptions and perturbations not worst-case adversarial perturbations. We find that there are negligible changes in relative corruption robustness from AlexNet classifiers to ResNet classifiers. Afterward we discover ways to enhance corruption and perturbation robustness. We even find that a bypassed adversarial defense provides substantial common perturbation robustness. Together our benchmarks may aid future work toward networks that robustly generalize."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Benchmarking Neural Network Robustness to Common Corruptions and..."
+    ],
+    "twitter:description": [
+      "In this paper we establish rigorous benchmarks for image classifier robustness. Our first benchmark, ImageNet-C, standardizes and expands the corruption robustness topic, while showing which..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations"
+    ],
+    "citation_author": [
+      "Hendrycks, Dan",
+      "Dietterich, Thomas"
+    ],
+    "citation_date": [
+      "2019/03/28"
+    ],
+    "citation_online_date": [
+      "2019/03/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1903.12261"
+    ],
+    "citation_arxiv_id": [
+      "1903.12261"
+    ],
+    "citation_abstract": [
+      "In this paper we establish rigorous benchmarks for image classifier robustness. Our first benchmark, ImageNet-C, standardizes and expands the corruption robustness topic, while showing which classifiers are preferable in safety-critical applications. Then we propose a new dataset called ImageNet-P which enables researchers to benchmark a classifier's robustness to common perturbations. Unlike recent robustness research, this benchmark evaluates performance on common corruptions and perturbations not worst-case adversarial perturbations. We find that there are negligible changes in relative corruption robustness from AlexNet classifiers to ResNet classifiers. Afterward we discover ways to enhance corruption and perturbation robustness. We even find that a bypassed adversarial defense provides substantial common perturbation robustness. Together our benchmarks may aid future work toward networks that robustly generalize."
+    ]
+  },
+  "html_sha256": "55026022565760748255c2517abb28f9aecb6b7a3d268ef6b0d87706d0894239",
+  "evidence_html": "evidence/deaf72f7093452df3b80.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

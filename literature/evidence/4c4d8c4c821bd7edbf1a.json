@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2312.01454",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2312.01454",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "D-Bot: Database Diagnosis System using Large Language Models. et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2312.01454",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:08.744813+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2312.01454",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42978,
+  "title": "D-Bot: Database Diagnosis System using Large Language Models",
+  "authors": [
+    "Zhou, Xuanhe",
+    "Li, Guoliang",
+    "Sun, Zhaoyan",
+    "Liu, Zhiyuan",
+    "Chen, Weize",
+    "Wu, Jianming",
+    "Liu, Jiesi",
+    "Feng, Ruohang",
+    "Zeng, Guoyang"
+  ],
+  "first_author": "Zhou, Xuanhe",
+  "year": 2023,
+  "source_date": "2023/12/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2312.01454",
+  "abstract": "Database administrators (DBAs) play an important role in managing, maintaining and optimizing database systems. However, it is hard and tedious for DBAs to manage a large number of databases and give timely response (waiting for hours is intolerable in many online cases). In addition, existing empirical methods only support limited diagnosis scenarios, which are also labor-intensive to update the diagnosis rules for database version updates. Recently large language models (LLMs) have shown great potential in various fields. Thus, we propose D-Bot, an LLM-based database diagnosis system that can automatically acquire knowledge from diagnosis documents, and generate reasonable and well-founded diagnosis report (i.e., identifying the root causes and solutions) within acceptable time (e.g., under 10 minutes compared to hours by a DBA). The techniques in D-Bot include (i) offline knowledge extraction from documents, (ii) automatic prompt generation (e.g., knowledge matching, tool retrieval), (iii) root cause analysis using tree search algorithm, and (iv) collaborative mechanism for complex anomalies with multiple root causes. We verify D-Bot on real benchmarks (including 539 anomalies of six typical applications), and the results show that D-Bot can effectively analyze the root causes of unseen anomalies and significantly outperforms traditional methods and vanilla models like GPT-4.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2312.01454: D-Bot: Database Diagnosis System using Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "D-Bot: Database Diagnosis System using Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2312.01454v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Database administrators (DBAs) play an important role in managing, maintaining and optimizing database systems. However, it is hard and tedious for DBAs to manage a large number of databases and give timely response (waiting for hours is intolerable in many online cases). In addition, existing empirical methods only support limited diagnosis scenarios, which are also labor-intensive to update the diagnosis rules for database version updates. Recently large language models (LLMs) have shown great potential in various fields. Thus, we propose D-Bot, an LLM-based database diagnosis system that can automatically acquire knowledge from diagnosis documents, and generate reasonable and well-founded diagnosis report (i.e., identifying the root causes and solutions) within acceptable time (e.g., under 10 minutes compared to hours by a DBA). The techniques in D-Bot include (i) offline knowledge extraction from documents, (ii) automatic prompt generation (e.g., knowledge matching, tool retrieval), (iii) root cause analysis using tree search algorithm, and (iv) collaborative mechanism for complex anomalies with multiple root causes. We verify D-Bot on real benchmarks (including 539 anomalies of six typical applications), and the results show that D-Bot can effectively analyze the root causes of unseen anomalies and significantly outperforms traditional methods and vanilla models like GPT-4."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "D-Bot: Database Diagnosis System using Large Language Models"
+    ],
+    "twitter:description": [
+      "Database administrators (DBAs) play an important role in managing, maintaining and optimizing database systems. However, it is hard and tedious for DBAs to manage a large number of databases and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "D-Bot: Database Diagnosis System using Large Language Models"
+    ],
+    "citation_author": [
+      "Zhou, Xuanhe",
+      "Li, Guoliang",
+      "Sun, Zhaoyan",
+      "Liu, Zhiyuan",
+      "Chen, Weize",
+      "Wu, Jianming",
+      "Liu, Jiesi",
+      "Feng, Ruohang",
+      "Zeng, Guoyang"
+    ],
+    "citation_date": [
+      "2023/12/03"
+    ],
+    "citation_online_date": [
+      "2023/12/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2312.01454"
+    ],
+    "citation_arxiv_id": [
+      "2312.01454"
+    ],
+    "citation_abstract": [
+      "Database administrators (DBAs) play an important role in managing, maintaining and optimizing database systems. However, it is hard and tedious for DBAs to manage a large number of databases and give timely response (waiting for hours is intolerable in many online cases). In addition, existing empirical methods only support limited diagnosis scenarios, which are also labor-intensive to update the diagnosis rules for database version updates. Recently large language models (LLMs) have shown great potential in various fields. Thus, we propose D-Bot, an LLM-based database diagnosis system that can automatically acquire knowledge from diagnosis documents, and generate reasonable and well-founded diagnosis report (i.e., identifying the root causes and solutions) within acceptable time (e.g., under 10 minutes compared to hours by a DBA). The techniques in D-Bot include (i) offline knowledge extraction from documents, (ii) automatic prompt generation (e.g., knowledge matching, tool retrieval), (iii) root cause analysis using tree search algorithm, and (iv) collaborative mechanism for complex anomalies with multiple root causes. We verify D-Bot on real benchmarks (including 539 anomalies of six typical applications), and the results show that D-Bot can effectively analyze the root causes of unseen anomalies and significantly outperforms traditional methods and vanilla models like GPT-4."
+    ]
+  },
+  "html_sha256": "e2f7f69e1067c65e3bef0de67f0aeacd1febb608c72df2f284cc49828cc27c6a",
+  "evidence_html": "evidence/4c4d8c4c821bd7edbf1a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

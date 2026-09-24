@@ -1,0 +1,121 @@
+{
+  "url": "https://arxiv.org/abs/2007.01434",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2007.01434",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-39",
+      "topic": "机器学习：不变性、因果、鲁棒性",
+      "title_hint": "Gulrajani & Lopez-Paz. In Search of Lost Domain Generalization. ICLR 2021. arXiv:2007.01434.",
+      "existing_reference_number": 39,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2007.01434",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:23.589805+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2007.01434",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42128,
+  "title": "In Search of Lost Domain Generalization",
+  "authors": [
+    "Gulrajani, Ishaan",
+    "Lopez-Paz, David"
+  ],
+  "first_author": "Gulrajani, Ishaan",
+  "year": 2020,
+  "source_date": "2020/07/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2007.01434",
+  "abstract": "The goal of domain generalization algorithms is to predict well on distributions different from those seen during training. While a myriad of domain generalization algorithms exist, inconsistencies in experimental conditions -- datasets, architectures, and model selection criteria -- render fair and realistic comparisons difficult. In this paper, we are interested in understanding how useful domain generalization algorithms are in realistic settings. As a first step, we realize that model selection is non-trivial for domain generalization tasks. Contrary to prior work, we argue that domain generalization algorithms without a model selection strategy should be regarded as incomplete. Next, we implement DomainBed, a testbed for domain generalization including seven multi-domain datasets, nine baseline algorithms, and three model selection criteria. We conduct extensive experiments using DomainBed and find that, when carefully implemented, empirical risk minimization shows state-of-the-art performance across all datasets. Looking forward, we hope that the release of DomainBed, along with contributions from fellow researchers, will streamline reproducible and rigorous research in domain generalization.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2007.01434: In Search of Lost Domain Generalization"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "In Search of Lost Domain Generalization"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2007.01434v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The goal of domain generalization algorithms is to predict well on distributions different from those seen during training. While a myriad of domain generalization algorithms exist, inconsistencies in experimental conditions -- datasets, architectures, and model selection criteria -- render fair and realistic comparisons difficult. In this paper, we are interested in understanding how useful domain generalization algorithms are in realistic settings. As a first step, we realize that model selection is non-trivial for domain generalization tasks. Contrary to prior work, we argue that domain generalization algorithms without a model selection strategy should be regarded as incomplete. Next, we implement DomainBed, a testbed for domain generalization including seven multi-domain datasets, nine baseline algorithms, and three model selection criteria. We conduct extensive experiments using DomainBed and find that, when carefully implemented, empirical risk minimization shows state-of-the-art performance across all datasets. Looking forward, we hope that the release of DomainBed, along with contributions from fellow researchers, will streamline reproducible and rigorous research in domain generalization."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "In Search of Lost Domain Generalization"
+    ],
+    "twitter:description": [
+      "The goal of domain generalization algorithms is to predict well on distributions different from those seen during training. While a myriad of domain generalization algorithms exist,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "In Search of Lost Domain Generalization"
+    ],
+    "citation_author": [
+      "Gulrajani, Ishaan",
+      "Lopez-Paz, David"
+    ],
+    "citation_date": [
+      "2020/07/02"
+    ],
+    "citation_online_date": [
+      "2020/07/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2007.01434"
+    ],
+    "citation_arxiv_id": [
+      "2007.01434"
+    ],
+    "citation_abstract": [
+      "The goal of domain generalization algorithms is to predict well on distributions different from those seen during training. While a myriad of domain generalization algorithms exist, inconsistencies in experimental conditions -- datasets, architectures, and model selection criteria -- render fair and realistic comparisons difficult. In this paper, we are interested in understanding how useful domain generalization algorithms are in realistic settings. As a first step, we realize that model selection is non-trivial for domain generalization tasks. Contrary to prior work, we argue that domain generalization algorithms without a model selection strategy should be regarded as incomplete. Next, we implement DomainBed, a testbed for domain generalization including seven multi-domain datasets, nine baseline algorithms, and three model selection criteria. We conduct extensive experiments using DomainBed and find that, when carefully implemented, empirical risk minimization shows state-of-the-art performance across all datasets. Looking forward, we hope that the release of DomainBed, along with contributions from fellow researchers, will streamline reproducible and rigorous research in domain generalization."
+    ]
+  },
+  "html_sha256": "0fd7ec4e595287fc66990558aeacfb170036724b7342e36d3d9b6796a114f2f5",
+  "evidence_html": "evidence/312bbc47c5c5ccc0f5ae.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

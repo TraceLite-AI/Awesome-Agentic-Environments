@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2412.17481",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.17481",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.17481",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:35.270572+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.17481",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40399,
+  "title": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+  "authors": [
+    "Chen, Shuaihang",
+    "Liu, Yuanxing",
+    "Han, Wei",
+    "Zhang, Weinan",
+    "Liu, Ting"
+  ],
+  "first_author": "Chen, Shuaihang",
+  "year": 2024,
+  "source_date": "2024/12/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2412.17481",
+  "abstract": "LLM-based Multi-Agent Systems ( LLM-MAS ) have become a research hotspot since the rise of large language models (LLMs). However, with the continuous influx of new related works, the existing reviews struggle to capture them comprehensively. This paper presents a comprehensive survey of these studies. We first discuss the definition of LLM-MAS, a framework encompassing much of previous work. We provide an overview of the various applications of LLM-MAS in (i) solving complex tasks, (ii) simulating specific scenarios, and (iii) evaluating generative agents. Building on previous studies, we also highlight several challenges and propose future directions for research in this field.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.17481: A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.17481v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM-based Multi-Agent Systems ( LLM-MAS ) have become a research hotspot since the rise of large language models (LLMs). However, with the continuous influx of new related works, the existing reviews struggle to capture them comprehensively. This paper presents a comprehensive survey of these studies. We first discuss the definition of LLM-MAS, a framework encompassing much of previous work. We provide an overview of the various applications of LLM-MAS in (i) solving complex tasks, (ii) simulating specific scenarios, and (iii) evaluating generative agents. Building on previous studies, we also highlight several challenges and propose future directions for research in this field."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Survey on LLM-based Multi-Agent System: Recent Advances and New..."
+    ],
+    "twitter:description": [
+      "LLM-based Multi-Agent Systems ( LLM-MAS ) have become a research hotspot since the rise of large language models (LLMs). However, with the continuous influx of new related works, the existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application"
+    ],
+    "citation_author": [
+      "Chen, Shuaihang",
+      "Liu, Yuanxing",
+      "Han, Wei",
+      "Zhang, Weinan",
+      "Liu, Ting"
+    ],
+    "citation_date": [
+      "2024/12/23"
+    ],
+    "citation_online_date": [
+      "2025/01/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.17481"
+    ],
+    "citation_arxiv_id": [
+      "2412.17481"
+    ],
+    "citation_abstract": [
+      "LLM-based Multi-Agent Systems ( LLM-MAS ) have become a research hotspot since the rise of large language models (LLMs). However, with the continuous influx of new related works, the existing reviews struggle to capture them comprehensively. This paper presents a comprehensive survey of these studies. We first discuss the definition of LLM-MAS, a framework encompassing much of previous work. We provide an overview of the various applications of LLM-MAS in (i) solving complex tasks, (ii) simulating specific scenarios, and (iii) evaluating generative agents. Building on previous studies, we also highlight several challenges and propose future directions for research in this field."
+    ]
+  },
+  "html_sha256": "9fa68dfda9f15c9a7e313b01c07a27d1dc96d5f58cc4794846e65cee1817f0e9",
+  "evidence_html": "evidence/5ec3f58cd689a19b3b00.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

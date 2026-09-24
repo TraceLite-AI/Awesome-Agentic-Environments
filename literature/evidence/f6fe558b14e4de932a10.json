@@ -1,0 +1,108 @@
+{
+  "url": "https://aclanthology.org/2025.coling-main.12/",
+  "discoveries": [
+    {
+      "url": "https://aclanthology.org/2025.coling-main.12/",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Tooleyes: Fine-grained evaluation for tool learning capabilities of large language models in real-world scenarios",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://aclanthology.org/2025.coling-main.12/",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:15.907074+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.coling-main.12/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 48412,
+  "title": "ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios",
+  "authors": [
+    "Junjie Ye (叶俊杰)",
+    "Guanyu Li",
+    "Songyang Gao",
+    "Caishuang Huang",
+    "Yilong Wu",
+    "Sixian Li",
+    "Xiaoran Fan",
+    "Shihan Dou",
+    "Tao Ji",
+    "Qi Zhang",
+    "Tao Gui",
+    "Xuan-Jing Huang (黄萱菁)"
+  ],
+  "first_author": "Junjie Ye (叶俊杰)",
+  "year": 2025,
+  "source_date": "2025/1",
+  "venue_from_source": "Proceedings of the 31st International Conference on Computational Linguistics",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Existing evaluations of tool learning primarily focus on validating the alignment of selected tools for large language models (LLMs) with expected outcomes. However, these approaches rely on a limited set of scenarios where answers can be pre-determined. Furthermore, a sole emphasis on outcomes disregards the complex capabilities required for LLMs to effectively use tools. To tackle this issue, we propose ToolEyes, a fine-grained system tailored for the evaluation of the LLMs’ tool learning capabilities in authentic scenarios. The system meticulously examines seven real-world scenarios, analyzing five dimensions crucial to LLMs in tool learning: format alignment, intent comprehension, behavior planning, tool selection, and answer organization. Additionally, ToolEyes incorporates a tool library boasting approximately 600 tools, serving as an intermediary between LLMs and the physical world. Evaluations involving ten LLMs across three categories reveal a preference for specific scenarios and limited cognitive abilities in tool learning. Intriguingly, expanding the model size even exacerbates the hindrance to tool learning. The code and data are available at https://github.com/Junjie-Ye/ToolEyes .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios"
+    ],
+    "citation_author": [
+      "Junjie Ye (叶俊杰)",
+      "Guanyu Li",
+      "Songyang Gao",
+      "Caishuang Huang",
+      "Yilong Wu",
+      "Sixian Li",
+      "Xiaoran Fan",
+      "Shihan Dou",
+      "Tao Ji",
+      "Qi Zhang",
+      "Tao Gui",
+      "Xuan-Jing Huang (黄萱菁)"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 31st International Conference on Computational Linguistics"
+    ],
+    "citation_publication_date": [
+      "2025/1"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.coling-main.12.pdf"
+    ],
+    "citation_firstpage": [
+      "156"
+    ],
+    "citation_lastpage": [
+      "187"
+    ],
+    "og:title": [
+      "ToolEyes: Fine-Grained Evaluation for Tool Learning Capabilities of Large Language Models in Real-world Scenarios"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.coling-main.12.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.coling-main.12/"
+    ],
+    "og:description": [
+      "Junjie Ye, Guanyu Li, SongYang Gao, Caishuang Huang, Yilong Wu, Sixian Li, Xiaoran Fan, Shihan Dou, Tao Ji, Qi Zhang, Tao Gui, Xuanjing Huang. Proceedings of the 31st International Conference on Computational Linguistics. 2025."
+    ]
+  },
+  "html_sha256": "7d6e256ae83118e4bca0da35e032ab13eb8cd89455344c8c301a7268957a612f",
+  "evidence_html": "evidence/f6fe558b14e4de932a10.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

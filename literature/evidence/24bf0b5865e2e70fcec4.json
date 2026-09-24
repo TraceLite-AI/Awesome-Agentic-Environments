@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2311.11855",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2311.11855",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Evil Geniuses: Delving into the Safety of LLM-based Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2311.11855",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:31.631544+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2311.11855",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42129,
+  "title": "Evil Geniuses: Delving into the Safety of LLM-based Agents",
+  "authors": [
+    "Tian, Yu",
+    "Yang, Xiao",
+    "Zhang, Jingyuan",
+    "Dong, Yinpeng",
+    "Su, Hang"
+  ],
+  "first_author": "Tian, Yu",
+  "year": 2023,
+  "source_date": "2023/11/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2311.11855",
+  "abstract": "Rapid advancements in large language models (LLMs) have revitalized in LLM-based agents, exhibiting impressive human-like behaviors and cooperative capabilities in various scenarios. However, these agents also bring some exclusive risks, stemming from the complexity of interaction environments and the usability of tools. This paper delves into the safety of LLM-based agents from three perspectives: agent quantity, role definition, and attack level. Specifically, we initially propose to employ a template-based attack strategy on LLM-based agents to find the influence of agent quantity. In addition, to address interaction environment and role specificity issues, we introduce Evil Geniuses (EG), an effective attack method that autonomously generates prompts related to the original role to examine the impact across various role definitions and attack levels. EG leverages Red-Blue exercises, significantly improving the generated prompt aggressiveness and similarity to original roles. Our evaluations on CAMEL, Metagpt and ChatDev based on GPT-3.5 and GPT-4, demonstrate high success rates. Extensive evaluation and discussion reveal that these agents are less robust, prone to more harmful behaviors, and capable of generating stealthier content than LLMs, highlighting significant safety challenges and guiding future research. Our code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2311.11855: Evil Geniuses: Delving into the Safety of LLM-based Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Evil Geniuses: Delving into the Safety of LLM-based Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2311.11855v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Rapid advancements in large language models (LLMs) have revitalized in LLM-based agents, exhibiting impressive human-like behaviors and cooperative capabilities in various scenarios. However, these agents also bring some exclusive risks, stemming from the complexity of interaction environments and the usability of tools. This paper delves into the safety of LLM-based agents from three perspectives: agent quantity, role definition, and attack level. Specifically, we initially propose to employ a template-based attack strategy on LLM-based agents to find the influence of agent quantity. In addition, to address interaction environment and role specificity issues, we introduce Evil Geniuses (EG), an effective attack method that autonomously generates prompts related to the original role to examine the impact across various role definitions and attack levels. EG leverages Red-Blue exercises, significantly improving the generated prompt aggressiveness and similarity to original roles. Our evaluations on CAMEL, Metagpt and ChatDev based on GPT-3.5 and GPT-4, demonstrate high success rates. Extensive evaluation and discussion reveal that these agents are less robust, prone to more harmful behaviors, and capable of generating stealthier content than LLMs, highlighting significant safety challenges and guiding future research. Our code is available at https://github.com/T1aNS1R/Evil-Geniuses."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Evil Geniuses: Delving into the Safety of LLM-based Agents"
+    ],
+    "twitter:description": [
+      "Rapid advancements in large language models (LLMs) have revitalized in LLM-based agents, exhibiting impressive human-like behaviors and cooperative capabilities in various scenarios. However,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Evil Geniuses: Delving into the Safety of LLM-based Agents"
+    ],
+    "citation_author": [
+      "Tian, Yu",
+      "Yang, Xiao",
+      "Zhang, Jingyuan",
+      "Dong, Yinpeng",
+      "Su, Hang"
+    ],
+    "citation_date": [
+      "2023/11/20"
+    ],
+    "citation_online_date": [
+      "2024/02/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2311.11855"
+    ],
+    "citation_arxiv_id": [
+      "2311.11855"
+    ],
+    "citation_abstract": [
+      "Rapid advancements in large language models (LLMs) have revitalized in LLM-based agents, exhibiting impressive human-like behaviors and cooperative capabilities in various scenarios. However, these agents also bring some exclusive risks, stemming from the complexity of interaction environments and the usability of tools. This paper delves into the safety of LLM-based agents from three perspectives: agent quantity, role definition, and attack level. Specifically, we initially propose to employ a template-based attack strategy on LLM-based agents to find the influence of agent quantity. In addition, to address interaction environment and role specificity issues, we introduce Evil Geniuses (EG), an effective attack method that autonomously generates prompts related to the original role to examine the impact across various role definitions and attack levels. EG leverages Red-Blue exercises, significantly improving the generated prompt aggressiveness and similarity to original roles. Our evaluations on CAMEL, Metagpt and ChatDev based on GPT-3.5 and GPT-4, demonstrate high success rates. Extensive evaluation and discussion reveal that these agents are less robust, prone to more harmful behaviors, and capable of generating stealthier content than LLMs, highlighting significant safety challenges and guiding future research. Our code is available at https://github.com/T1aNS1R/Evil-Geniuses."
+    ]
+  },
+  "html_sha256": "51f91809cc976652b610e549d891b735e650341eb30aae54c0ea551891bb8f23",
+  "evidence_html": "evidence/24bf0b5865e2e70fcec4.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2502.13959",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.13959",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "LIDDIA: Language-Based Intelligent Drug Discovery Agent",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.13959",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:29.783970+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.13959",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41436,
+  "title": "LIDDIA: Language-based Intelligent Drug Discovery Agent",
+  "authors": [
+    "Averly, Reza",
+    "Baker, Frazier N.",
+    "Watson, Ian A.",
+    "Ning, Xia"
+  ],
+  "first_author": "Averly, Reza",
+  "year": 2025,
+  "source_date": "2025/02/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2502.13959",
+  "abstract": "Drug discovery is a long, expensive, and complex process, relying heavily on human medicinal chemists, who can spend years searching the vast space of potential therapies. Recent advances in artificial intelligence for chemistry have sought to expedite individual drug discovery tasks; however, there remains a critical need for an intelligent agent that can navigate the drug discovery process. Towards this end, we introduce LIDDIA, an autonomous agent capable of intelligently navigating the drug discovery process in silico. By leveraging the reasoning capabilities of large language models, LIDDIA serves as a low-cost and highly-adaptable tool for autonomous drug discovery. We comprehensively examine LIDDIA , demonstrating that (1) it can generate molecules meeting key pharmaceutical criteria on over 70% of 30 clinically relevant targets, (2) it intelligently balances exploration and exploitation in the chemical space, and (3) it identifies one promising novel candidate on AR/NR3C4, a critical target for both prostate and breast cancers. Code and dataset are available at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.13959: LIDDIA: Language-based Intelligent Drug Discovery Agent"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LIDDIA: Language-based Intelligent Drug Discovery Agent"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.13959v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Drug discovery is a long, expensive, and complex process, relying heavily on human medicinal chemists, who can spend years searching the vast space of potential therapies. Recent advances in artificial intelligence for chemistry have sought to expedite individual drug discovery tasks; however, there remains a critical need for an intelligent agent that can navigate the drug discovery process. Towards this end, we introduce LIDDIA, an autonomous agent capable of intelligently navigating the drug discovery process in silico. By leveraging the reasoning capabilities of large language models, LIDDIA serves as a low-cost and highly-adaptable tool for autonomous drug discovery. We comprehensively examine LIDDIA , demonstrating that (1) it can generate molecules meeting key pharmaceutical criteria on over 70% of 30 clinically relevant targets, (2) it intelligently balances exploration and exploitation in the chemical space, and (3) it identifies one promising novel candidate on AR/NR3C4, a critical target for both prostate and breast cancers. Code and dataset are available at https://github.com/ninglab/LIDDiA"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LIDDIA: Language-based Intelligent Drug Discovery Agent"
+    ],
+    "twitter:description": [
+      "Drug discovery is a long, expensive, and complex process, relying heavily on human medicinal chemists, who can spend years searching the vast space of potential therapies. Recent advances in..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LIDDIA: Language-based Intelligent Drug Discovery Agent"
+    ],
+    "citation_author": [
+      "Averly, Reza",
+      "Baker, Frazier N.",
+      "Watson, Ian A.",
+      "Ning, Xia"
+    ],
+    "citation_date": [
+      "2025/02/19"
+    ],
+    "citation_online_date": [
+      "2025/10/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.13959"
+    ],
+    "citation_arxiv_id": [
+      "2502.13959"
+    ],
+    "citation_abstract": [
+      "Drug discovery is a long, expensive, and complex process, relying heavily on human medicinal chemists, who can spend years searching the vast space of potential therapies. Recent advances in artificial intelligence for chemistry have sought to expedite individual drug discovery tasks; however, there remains a critical need for an intelligent agent that can navigate the drug discovery process. Towards this end, we introduce LIDDIA, an autonomous agent capable of intelligently navigating the drug discovery process in silico. By leveraging the reasoning capabilities of large language models, LIDDIA serves as a low-cost and highly-adaptable tool for autonomous drug discovery. We comprehensively examine LIDDIA , demonstrating that (1) it can generate molecules meeting key pharmaceutical criteria on over 70% of 30 clinically relevant targets, (2) it intelligently balances exploration and exploitation in the chemical space, and (3) it identifies one promising novel candidate on AR/NR3C4, a critical target for both prostate and breast cancers. Code and dataset are available at https://github.com/ninglab/LIDDiA"
+    ]
+  },
+  "html_sha256": "df611c4263adeafe9b380ac51c76a0beb86c38fdd2a903e728cb0c36491e91e3",
+  "evidence_html": "evidence/8f1852bb36daad4e4229.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

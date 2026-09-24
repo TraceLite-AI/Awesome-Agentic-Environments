@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/1703.06907",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1703.06907",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-32",
+      "topic": "RL 基础设施与产业",
+      "title_hint": "Tobin et al. Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World. IROS 2017. arXiv:1703.06907.",
+      "existing_reference_number": 32,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1703.06907",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:09.878035+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1703.06907",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43042,
+  "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+  "authors": [
+    "Tobin, Josh",
+    "Fong, Rachel",
+    "Ray, Alex",
+    "Schneider, Jonas",
+    "Zaremba, Wojciech",
+    "Abbeel, Pieter"
+  ],
+  "first_author": "Tobin, Josh",
+  "year": 2017,
+  "source_date": "2017/03/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1703.06907",
+  "abstract": "Bridging the 'reality gap' that separates simulated robotics from experiments on hardware could accelerate robotic research through improved data availability. This paper explores domain randomization, a simple technique for training models on simulated images that transfer to real images by randomizing rendering in the simulator. With enough variability in the simulator, the real world may appear to the model as just another variation. We focus on the task of object localization, which is a stepping stone to general robotic manipulation skills. We find that it is possible to train a real-world object detector that is accurate to $1.5$cm and robust to distractors and partial occlusions using only data from a simulator with non-realistic random textures. To demonstrate the capabilities of our detectors, we show they can be used to perform grasping in a cluttered environment. To our knowledge, this is the first successful transfer of a deep neural network trained only on simulated RGB images (without pre-training on real images) to the real world for the purpose of robotic control.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1703.06907: Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1703.06907v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Bridging the 'reality gap' that separates simulated robotics from experiments on hardware could accelerate robotic research through improved data availability. This paper explores domain randomization, a simple technique for training models on simulated images that transfer to real images by randomizing rendering in the simulator. With enough variability in the simulator, the real world may appear to the model as just another variation. We focus on the task of object localization, which is a stepping stone to general robotic manipulation skills. We find that it is possible to train a real-world object detector that is accurate to $1.5$cm and robust to distractors and partial occlusions using only data from a simulator with non-realistic random textures. To demonstrate the capabilities of our detectors, we show they can be used to perform grasping in a cluttered environment. To our knowledge, this is the first successful transfer of a deep neural network trained only on simulated RGB images (without pre-training on real images) to the real world for the purpose of robotic control."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Domain Randomization for Transferring Deep Neural Networks from..."
+    ],
+    "twitter:description": [
+      "Bridging the 'reality gap' that separates simulated robotics from experiments on hardware could accelerate robotic research through improved data availability. This paper explores domain..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World"
+    ],
+    "citation_author": [
+      "Tobin, Josh",
+      "Fong, Rachel",
+      "Ray, Alex",
+      "Schneider, Jonas",
+      "Zaremba, Wojciech",
+      "Abbeel, Pieter"
+    ],
+    "citation_date": [
+      "2017/03/20"
+    ],
+    "citation_online_date": [
+      "2017/03/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1703.06907"
+    ],
+    "citation_arxiv_id": [
+      "1703.06907"
+    ],
+    "citation_abstract": [
+      "Bridging the 'reality gap' that separates simulated robotics from experiments on hardware could accelerate robotic research through improved data availability. This paper explores domain randomization, a simple technique for training models on simulated images that transfer to real images by randomizing rendering in the simulator. With enough variability in the simulator, the real world may appear to the model as just another variation. We focus on the task of object localization, which is a stepping stone to general robotic manipulation skills. We find that it is possible to train a real-world object detector that is accurate to $1.5$cm and robust to distractors and partial occlusions using only data from a simulator with non-realistic random textures. To demonstrate the capabilities of our detectors, we show they can be used to perform grasping in a cluttered environment. To our knowledge, this is the first successful transfer of a deep neural network trained only on simulated RGB images (without pre-training on real images) to the real world for the purpose of robotic control."
+    ]
+  },
+  "html_sha256": "d3ffdac6e7db209616c5fc0222350d77515efe5f0960201904312960efff8830",
+  "evidence_html": "evidence/77857de39a873e56d64e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

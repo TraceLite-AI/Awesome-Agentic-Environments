@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2402.02172",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.02172",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "CodeAgent: Collaborative Agents for Software Engineering",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.02172",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:14.981041+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.02172",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42386,
+  "title": "CodeAgent: Autonomous Communicative Agents for Code Review",
+  "authors": [
+    "Tang, Xunzhu",
+    "Kim, Kisub",
+    "Song, Yewei",
+    "Lothritz, Cedric",
+    "Li, Bei",
+    "Ezzini, Saad",
+    "Tian, Haoye",
+    "Klein, Jacques",
+    "Bissyande, Tegawende F."
+  ],
+  "first_author": "Tang, Xunzhu",
+  "year": 2024,
+  "source_date": "2024/02/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.02172",
+  "abstract": "Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive process that the research community is looking to automate. Existing automated methods rely on single input-output generative models and thus generally struggle to emulate the collaborative nature of code review. This work introduces \\tool{}, a novel multi-agent Large Language Model (LLM) system for code review automation. CodeAgent incorporates a supervisory agent, QA-Checker, to ensure that all the agents' contributions address the initial review question. We evaluated CodeAgent on critical code review tasks: (1) detect inconsistencies between code changes and commit messages, (2) identify vulnerability introductions, (3) validate code style adherence, and (4) suggest code revision. The results demonstrate CodeAgent's effectiveness, contributing to a new state-of-the-art in code review automation. Our data and code are publicly available (\\url{ this https URL }).",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.02172: CodeAgent: Autonomous Communicative Agents for Code Review"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CodeAgent: Autonomous Communicative Agents for Code Review"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.02172v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive process that the research community is looking to automate. Existing automated methods rely on single input-output generative models and thus generally struggle to emulate the collaborative nature of code review. This work introduces \\tool{}, a novel multi-agent Large Language Model (LLM) system for code review automation. CodeAgent incorporates a supervisory agent, QA-Checker, to ensure that all the agents' contributions address the initial review question. We evaluated CodeAgent on critical code review tasks: (1) detect inconsistencies between code changes and commit messages, (2) identify vulnerability introductions, (3) validate code style adherence, and (4) suggest code revision. The results demonstrate CodeAgent's effectiveness, contributing to a new state-of-the-art in code review automation. Our data and code are publicly available (\\url{https://github.com/Code4Agent/codeagent})."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CodeAgent: Autonomous Communicative Agents for Code Review"
+    ],
+    "twitter:description": [
+      "Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CodeAgent: Autonomous Communicative Agents for Code Review"
+    ],
+    "citation_author": [
+      "Tang, Xunzhu",
+      "Kim, Kisub",
+      "Song, Yewei",
+      "Lothritz, Cedric",
+      "Li, Bei",
+      "Ezzini, Saad",
+      "Tian, Haoye",
+      "Klein, Jacques",
+      "Bissyande, Tegawende F."
+    ],
+    "citation_date": [
+      "2024/02/03"
+    ],
+    "citation_online_date": [
+      "2024/09/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.02172"
+    ],
+    "citation_arxiv_id": [
+      "2402.02172"
+    ],
+    "citation_abstract": [
+      "Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive process that the research community is looking to automate. Existing automated methods rely on single input-output generative models and thus generally struggle to emulate the collaborative nature of code review. This work introduces \\tool{}, a novel multi-agent Large Language Model (LLM) system for code review automation. CodeAgent incorporates a supervisory agent, QA-Checker, to ensure that all the agents' contributions address the initial review question. We evaluated CodeAgent on critical code review tasks: (1) detect inconsistencies between code changes and commit messages, (2) identify vulnerability introductions, (3) validate code style adherence, and (4) suggest code revision. The results demonstrate CodeAgent's effectiveness, contributing to a new state-of-the-art in code review automation. Our data and code are publicly available (\\url{https://github.com/Code4Agent/codeagent})."
+    ]
+  },
+  "html_sha256": "d5cc16550f48993313c234c32e795cbecca7d82ec1f96ae450ac72b3d0deb20b",
+  "evidence_html": "evidence/56d052103f23f5d479c2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

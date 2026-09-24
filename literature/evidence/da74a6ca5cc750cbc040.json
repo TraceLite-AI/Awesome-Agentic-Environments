@@ -1,0 +1,139 @@
+{
+  "url": "https://arxiv.org/abs/2508.08791",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.08791",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "Feedback-driven tool-use improvements in large language models via automated build environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.08791",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:59.065256+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.08791",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43576,
+  "title": "Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments",
+  "authors": [
+    "Ye, Junjie",
+    "Jiang, Changhao",
+    "Du, Zhengyin",
+    "Xu, Yufei",
+    "Yao, Xuesong",
+    "Xi, Zhiheng",
+    "Fan, Xiaoran",
+    "Zhang, Qi",
+    "Gui, Tao",
+    "Huang, Xuanjing",
+    "Chen, Jiecao"
+  ],
+  "first_author": "Ye, Junjie",
+  "year": 2025,
+  "source_date": "2025/08/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.08791",
+  "abstract": "Effective tool use is essential for large language models (LLMs) to interact with their environment. However, progress is limited by the lack of efficient reinforcement learning (RL) frameworks specifically designed for tool use, due to challenges in constructing stable training environments and designing verifiable reward mechanisms. To address this, we propose an automated environment construction pipeline, incorporating scenario decomposition, document generation, function integration, complexity scaling, and localized deployment. This enables the creation of high-quality training environments that provide detailed and measurable feedback without relying on external tools. Additionally, we introduce a verifiable reward mechanism that evaluates both the precision of tool use and the completeness of task execution. When combined with trajectory data collected from the constructed environments, this mechanism integrates seamlessly with standard RL algorithms to facilitate feedback-driven model training. Experiments on LLMs of varying scales demonstrate that our approach significantly enhances the models' tool-use performance without degrading their general capabilities. Our analysis suggests that these gains result from improved context understanding and reasoning, driven by updates to the lower-layer MLP parameters in models. Code and data are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.08791: Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.08791v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Effective tool use is essential for large language models (LLMs) to interact with their environment. However, progress is limited by the lack of efficient reinforcement learning (RL) frameworks specifically designed for tool use, due to challenges in constructing stable training environments and designing verifiable reward mechanisms. To address this, we propose an automated environment construction pipeline, incorporating scenario decomposition, document generation, function integration, complexity scaling, and localized deployment. This enables the creation of high-quality training environments that provide detailed and measurable feedback without relying on external tools. Additionally, we introduce a verifiable reward mechanism that evaluates both the precision of tool use and the completeness of task execution. When combined with trajectory data collected from the constructed environments, this mechanism integrates seamlessly with standard RL algorithms to facilitate feedback-driven model training. Experiments on LLMs of varying scales demonstrate that our approach significantly enhances the models' tool-use performance without degrading their general capabilities. Our analysis suggests that these gains result from improved context understanding and reasoning, driven by updates to the lower-layer MLP parameters in models. Code and data are available at https://github.com/bytedance/FTRL."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Feedback-Driven Tool-Use Improvements in Large Language Models via..."
+    ],
+    "twitter:description": [
+      "Effective tool use is essential for large language models (LLMs) to interact with their environment. However, progress is limited by the lack of efficient reinforcement learning (RL) frameworks..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments"
+    ],
+    "citation_author": [
+      "Ye, Junjie",
+      "Jiang, Changhao",
+      "Du, Zhengyin",
+      "Xu, Yufei",
+      "Yao, Xuesong",
+      "Xi, Zhiheng",
+      "Fan, Xiaoran",
+      "Zhang, Qi",
+      "Gui, Tao",
+      "Huang, Xuanjing",
+      "Chen, Jiecao"
+    ],
+    "citation_date": [
+      "2025/08/12"
+    ],
+    "citation_online_date": [
+      "2026/04/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.08791"
+    ],
+    "citation_arxiv_id": [
+      "2508.08791"
+    ],
+    "citation_abstract": [
+      "Effective tool use is essential for large language models (LLMs) to interact with their environment. However, progress is limited by the lack of efficient reinforcement learning (RL) frameworks specifically designed for tool use, due to challenges in constructing stable training environments and designing verifiable reward mechanisms. To address this, we propose an automated environment construction pipeline, incorporating scenario decomposition, document generation, function integration, complexity scaling, and localized deployment. This enables the creation of high-quality training environments that provide detailed and measurable feedback without relying on external tools. Additionally, we introduce a verifiable reward mechanism that evaluates both the precision of tool use and the completeness of task execution. When combined with trajectory data collected from the constructed environments, this mechanism integrates seamlessly with standard RL algorithms to facilitate feedback-driven model training. Experiments on LLMs of varying scales demonstrate that our approach significantly enhances the models' tool-use performance without degrading their general capabilities. Our analysis suggests that these gains result from improved context understanding and reasoning, driven by updates to the lower-layer MLP parameters in models. Code and data are available at https://github.com/bytedance/FTRL."
+    ]
+  },
+  "html_sha256": "c3bfdace0050f7db38426ea58f605914e66bb8ef3a4cd2fb0ec9b7573bb1a6ea",
+  "evidence_html": "evidence/da74a6ca5cc750cbc040.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2410.10762",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.10762",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "AFlow: Automating Agentic Workflow Generation",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.10762",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:48.583852+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.10762",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43683,
+  "title": "AFlow: Automating Agentic Workflow Generation",
+  "authors": [
+    "Zhang, Jiayi",
+    "Xiang, Jinyu",
+    "Yu, Zhaoyang",
+    "Teng, Fengwei",
+    "Chen, Xionghui",
+    "Chen, Jiaqi",
+    "Zhuge, Mingchen",
+    "Cheng, Xin",
+    "Hong, Sirui",
+    "Wang, Jinlin",
+    "Zheng, Bingnan",
+    "Liu, Bang",
+    "Luo, Yuyu",
+    "Wu, Chenglin"
+  ],
+  "first_author": "Zhang, Jiayi",
+  "year": 2024,
+  "source_date": "2024/10/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.10762",
+  "abstract": "Large language models (LLMs) have demonstrated remarkable potential in solving complex tasks across diverse domains, typically by employing agentic workflows that follow detailed instructions and operational sequences. However, constructing these workflows requires significant human effort, limiting scalability and generalizability. Recent research has sought to automate the generation and optimization of these workflows, but existing methods still rely on initial manual setup and fall short of achieving fully automated and effective workflow generation. To address this challenge, we reformulate workflow optimization as a search problem over code-represented workflows, where LLM-invoking nodes are connected by edges. We introduce AFlow, an automated framework that efficiently explores this space using Monte Carlo Tree Search, iteratively refining workflows through code modification, tree-structured experience, and execution feedback. Empirical evaluations across six benchmark datasets demonstrate AFlow's efficacy, yielding a 5.7% average improvement over state-of-the-art baselines. Furthermore, AFlow enables smaller models to outperform GPT-4o on specific tasks at 4.55% of its inference cost in dollars. The code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.10762: AFlow: Automating Agentic Workflow Generation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AFlow: Automating Agentic Workflow Generation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.10762v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have demonstrated remarkable potential in solving complex tasks across diverse domains, typically by employing agentic workflows that follow detailed instructions and operational sequences. However, constructing these workflows requires significant human effort, limiting scalability and generalizability. Recent research has sought to automate the generation and optimization of these workflows, but existing methods still rely on initial manual setup and fall short of achieving fully automated and effective workflow generation. To address this challenge, we reformulate workflow optimization as a search problem over code-represented workflows, where LLM-invoking nodes are connected by edges. We introduce AFlow, an automated framework that efficiently explores this space using Monte Carlo Tree Search, iteratively refining workflows through code modification, tree-structured experience, and execution feedback. Empirical evaluations across six benchmark datasets demonstrate AFlow's efficacy, yielding a 5.7% average improvement over state-of-the-art baselines. Furthermore, AFlow enables smaller models to outperform GPT-4o on specific tasks at 4.55% of its inference cost in dollars. The code is available at https://github.com/FoundationAgents/AFlow."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AFlow: Automating Agentic Workflow Generation"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have demonstrated remarkable potential in solving complex tasks across diverse domains, typically by employing agentic workflows that follow detailed instructions and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AFlow: Automating Agentic Workflow Generation"
+    ],
+    "citation_author": [
+      "Zhang, Jiayi",
+      "Xiang, Jinyu",
+      "Yu, Zhaoyang",
+      "Teng, Fengwei",
+      "Chen, Xionghui",
+      "Chen, Jiaqi",
+      "Zhuge, Mingchen",
+      "Cheng, Xin",
+      "Hong, Sirui",
+      "Wang, Jinlin",
+      "Zheng, Bingnan",
+      "Liu, Bang",
+      "Luo, Yuyu",
+      "Wu, Chenglin"
+    ],
+    "citation_date": [
+      "2024/10/14"
+    ],
+    "citation_online_date": [
+      "2025/04/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.10762"
+    ],
+    "citation_arxiv_id": [
+      "2410.10762"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have demonstrated remarkable potential in solving complex tasks across diverse domains, typically by employing agentic workflows that follow detailed instructions and operational sequences. However, constructing these workflows requires significant human effort, limiting scalability and generalizability. Recent research has sought to automate the generation and optimization of these workflows, but existing methods still rely on initial manual setup and fall short of achieving fully automated and effective workflow generation. To address this challenge, we reformulate workflow optimization as a search problem over code-represented workflows, where LLM-invoking nodes are connected by edges. We introduce AFlow, an automated framework that efficiently explores this space using Monte Carlo Tree Search, iteratively refining workflows through code modification, tree-structured experience, and execution feedback. Empirical evaluations across six benchmark datasets demonstrate AFlow's efficacy, yielding a 5.7% average improvement over state-of-the-art baselines. Furthermore, AFlow enables smaller models to outperform GPT-4o on specific tasks at 4.55% of its inference cost in dollars. The code is available at https://github.com/FoundationAgents/AFlow."
+    ]
+  },
+  "html_sha256": "4032b3e05d44613f14676c854c64f967f623da9b1a062e84fdecb1fa4187bba5",
+  "evidence_html": "evidence/9641fb4f7e4bbacc2233.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

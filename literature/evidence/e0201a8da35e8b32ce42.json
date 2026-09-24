@@ -1,0 +1,77 @@
+{
+  "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.html",
+  "discoveries": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:43.609876+00:00",
+  "http_status": 200,
+  "opened_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.html",
+  "content_type": "text/html; charset=UTF-8",
+  "response_bytes": 5591,
+  "title": "Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments",
+  "authors": [
+    "Anderson, Peter",
+    "Wu, Qi",
+    "Teney, Damien",
+    "Bruce, Jake",
+    "Johnson, Mark",
+    "Sünderhauf, Niko",
+    "Reid, Ian",
+    "Gould, Stephen",
+    "van den Hengel, Anton"
+  ],
+  "first_author": "Anderson, Peter",
+  "year": 2018,
+  "source_date": "2018",
+  "venue_from_source": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "A robot that can carry out a natural-language instruction has been a dream since before the Jetsons cartoon series imagined a life of leisure mediated by a fleet of attentive robot helpers.  It is a dream that remains stubbornly distant. However, recent advances in vision and language methods have made incredible progress in closely related areas. This is significant because a robot interpreting a natural-language navigation instruction on the basis of what it sees is carrying out a vision and language process that is similar to Visual Question Answering.  Both tasks can be interpreted as visually grounded sequence-to-sequence translation problems, and many of the same methods are applicable. To enable and encourage the application of vision and language methods to the problem of interpreting visually-grounded navigation instructions, we present the Matterport3D Simulator -- a large-scale reinforcement learning environment based on real imagery. Using this simulator, which can in future support a range of embodied vision and language tasks, we provide the first benchmark dataset for visually-grounded natural language navigation in real buildings -- the Room-to-Room (R2R) dataset.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "citation_title": [
+      "Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments"
+    ],
+    "citation_author": [
+      "Anderson, Peter",
+      "Wu, Qi",
+      "Teney, Damien",
+      "Bruce, Jake",
+      "Johnson, Mark",
+      "Sünderhauf, Niko",
+      "Reid, Ian",
+      "Gould, Stephen",
+      "van den Hengel, Anton"
+    ],
+    "citation_publication_date": [
+      "2018"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "citation_firstpage": [
+      "3674"
+    ],
+    "citation_lastpage": [
+      "3683"
+    ],
+    "citation_pdf_url": [
+      "http://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.pdf"
+    ]
+  },
+  "html_sha256": "4e9edf18f79f8c4152059a1d6723df11b82494a416d1d99bf0150c4ebdafd272",
+  "evidence_html": "evidence/e0201a8da35e8b32ce42.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

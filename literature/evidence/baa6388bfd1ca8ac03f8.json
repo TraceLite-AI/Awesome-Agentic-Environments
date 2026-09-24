@@ -1,0 +1,121 @@
+{
+  "url": "https://arxiv.org/abs/2211.09527",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2211.09527",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Ignore Previous Prompt: Attack Techniques For Language Models",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2211.09527",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:39.600424+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2211.09527",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40132,
+  "title": "Ignore Previous Prompt: Attack Techniques For Language Models",
+  "authors": [
+    "Perez, Fábio",
+    "Ribeiro, Ian"
+  ],
+  "first_author": "Perez, Fábio",
+  "year": 2022,
+  "source_date": "2022/11/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2211.09527",
+  "abstract": "Transformer-based large language models (LLMs) provide a powerful foundation for natural language tasks in large-scale customer-facing applications. However, studies that explore their vulnerabilities emerging from malicious user interaction are scarce. By proposing PromptInject, a prosaic alignment framework for mask-based iterative adversarial prompt composition, we examine how GPT-3, the most widely deployed language model in production, can be easily misaligned by simple handcrafted inputs. In particular, we investigate two types of attacks -- goal hijacking and prompt leaking -- and demonstrate that even low-aptitude, but sufficiently ill-intentioned agents, can easily exploit GPT-3's stochastic nature, creating long-tail risks. The code for PromptInject is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2211.09527: Ignore Previous Prompt: Attack Techniques For Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Ignore Previous Prompt: Attack Techniques For Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2211.09527v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Transformer-based large language models (LLMs) provide a powerful foundation for natural language tasks in large-scale customer-facing applications. However, studies that explore their vulnerabilities emerging from malicious user interaction are scarce. By proposing PromptInject, a prosaic alignment framework for mask-based iterative adversarial prompt composition, we examine how GPT-3, the most widely deployed language model in production, can be easily misaligned by simple handcrafted inputs. In particular, we investigate two types of attacks -- goal hijacking and prompt leaking -- and demonstrate that even low-aptitude, but sufficiently ill-intentioned agents, can easily exploit GPT-3's stochastic nature, creating long-tail risks. The code for PromptInject is available at https://github.com/agencyenterprise/PromptInject."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Ignore Previous Prompt: Attack Techniques For Language Models"
+    ],
+    "twitter:description": [
+      "Transformer-based large language models (LLMs) provide a powerful foundation for natural language tasks in large-scale customer-facing applications. However, studies that explore their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Ignore Previous Prompt: Attack Techniques For Language Models"
+    ],
+    "citation_author": [
+      "Perez, Fábio",
+      "Ribeiro, Ian"
+    ],
+    "citation_date": [
+      "2022/11/17"
+    ],
+    "citation_online_date": [
+      "2022/11/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2211.09527"
+    ],
+    "citation_arxiv_id": [
+      "2211.09527"
+    ],
+    "citation_abstract": [
+      "Transformer-based large language models (LLMs) provide a powerful foundation for natural language tasks in large-scale customer-facing applications. However, studies that explore their vulnerabilities emerging from malicious user interaction are scarce. By proposing PromptInject, a prosaic alignment framework for mask-based iterative adversarial prompt composition, we examine how GPT-3, the most widely deployed language model in production, can be easily misaligned by simple handcrafted inputs. In particular, we investigate two types of attacks -- goal hijacking and prompt leaking -- and demonstrate that even low-aptitude, but sufficiently ill-intentioned agents, can easily exploit GPT-3's stochastic nature, creating long-tail risks. The code for PromptInject is available at https://github.com/agencyenterprise/PromptInject."
+    ]
+  },
+  "html_sha256": "52f2d4d8c5cfee5cfe8826899508e86f94a448de721c6de4ae22e81dfaa3eae4",
+  "evidence_html": "evidence/baa6388bfd1ca8ac03f8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

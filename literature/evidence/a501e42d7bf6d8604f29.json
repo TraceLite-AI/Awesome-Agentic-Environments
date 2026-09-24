@@ -1,0 +1,150 @@
+{
+  "url": "https://arxiv.org/abs/2502.14499",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.14499",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Mlgym: A new framework and benchmark for advancing ai research agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.14499",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:26.340430+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.14499",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44752,
+  "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+  "authors": [
+    "Nathani, Deepak",
+    "Madaan, Lovish",
+    "Roberts, Nicholas",
+    "Bashlykov, Nikolay",
+    "Menon, Ajay",
+    "Moens, Vincent",
+    "Budhiraja, Amar",
+    "Magka, Despoina",
+    "Vorotilov, Vladislav",
+    "Chaurasia, Gaurav",
+    "Hupkes, Dieuwke",
+    "Cabral, Ricardo Silveira",
+    "Shavrina, Tatiana",
+    "Foerster, Jakob",
+    "Bachrach, Yoram",
+    "Wang, William Yang",
+    "Raileanu, Roberta"
+  ],
+  "first_author": "Nathani, Deepak",
+  "year": 2025,
+  "source_date": "2025/02/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2502.14499",
+  "abstract": "We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for evaluating and developing LLM agents on AI research tasks. This is the first Gym environment for machine learning (ML) tasks, enabling research on reinforcement learning (RL) algorithms for training such agents. MLGym-bench consists of 13 diverse and open-ended AI research tasks from diverse domains such as computer vision, natural language processing, reinforcement learning, and game theory. Solving these tasks requires real-world AI research skills such as generating new ideas and hypotheses, creating and processing data, implementing ML methods, training models, running experiments, analyzing the results, and iterating through this process to improve on a given task. We evaluate a number of frontier large language models (LLMs) on our benchmarks such as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5 Pro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate models or agents, generate synthetic data at scale, as well as develop new learning algorithms for training agents on AI research tasks. We find that current frontier models can improve on the given baselines, usually by finding better hyperparameters, but do not generate novel hypotheses, algorithms, architectures, or substantial improvements. We open-source our framework and benchmark to facilitate future research in advancing the AI research capabilities of LLM agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.14499: MLGym: A New Framework and Benchmark for Advancing AI Research Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MLGym: A New Framework and Benchmark for Advancing AI Research Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.14499v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for evaluating and developing LLM agents on AI research tasks. This is the first Gym environment for machine learning (ML) tasks, enabling research on reinforcement learning (RL) algorithms for training such agents. MLGym-bench consists of 13 diverse and open-ended AI research tasks from diverse domains such as computer vision, natural language processing, reinforcement learning, and game theory. Solving these tasks requires real-world AI research skills such as generating new ideas and hypotheses, creating and processing data, implementing ML methods, training models, running experiments, analyzing the results, and iterating through this process to improve on a given task. We evaluate a number of frontier large language models (LLMs) on our benchmarks such as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5 Pro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate models or agents, generate synthetic data at scale, as well as develop new learning algorithms for training agents on AI research tasks. We find that current frontier models can improve on the given baselines, usually by finding better hyperparameters, but do not generate novel hypotheses, algorithms, architectures, or substantial improvements. We open-source our framework and benchmark to facilitate future research in advancing the AI research capabilities of LLM agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MLGym: A New Framework and Benchmark for Advancing AI Research Agents"
+    ],
+    "twitter:description": [
+      "We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for evaluating and developing LLM agents on AI research tasks. This is the first Gym environment for machine learning (ML)..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MLGym: A New Framework and Benchmark for Advancing AI Research Agents"
+    ],
+    "citation_author": [
+      "Nathani, Deepak",
+      "Madaan, Lovish",
+      "Roberts, Nicholas",
+      "Bashlykov, Nikolay",
+      "Menon, Ajay",
+      "Moens, Vincent",
+      "Budhiraja, Amar",
+      "Magka, Despoina",
+      "Vorotilov, Vladislav",
+      "Chaurasia, Gaurav",
+      "Hupkes, Dieuwke",
+      "Cabral, Ricardo Silveira",
+      "Shavrina, Tatiana",
+      "Foerster, Jakob",
+      "Bachrach, Yoram",
+      "Wang, William Yang",
+      "Raileanu, Roberta"
+    ],
+    "citation_date": [
+      "2025/02/20"
+    ],
+    "citation_online_date": [
+      "2025/02/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.14499"
+    ],
+    "citation_arxiv_id": [
+      "2502.14499"
+    ],
+    "citation_abstract": [
+      "We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for evaluating and developing LLM agents on AI research tasks. This is the first Gym environment for machine learning (ML) tasks, enabling research on reinforcement learning (RL) algorithms for training such agents. MLGym-bench consists of 13 diverse and open-ended AI research tasks from diverse domains such as computer vision, natural language processing, reinforcement learning, and game theory. Solving these tasks requires real-world AI research skills such as generating new ideas and hypotheses, creating and processing data, implementing ML methods, training models, running experiments, analyzing the results, and iterating through this process to improve on a given task. We evaluate a number of frontier large language models (LLMs) on our benchmarks such as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5 Pro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate models or agents, generate synthetic data at scale, as well as develop new learning algorithms for training agents on AI research tasks. We find that current frontier models can improve on the given baselines, usually by finding better hyperparameters, but do not generate novel hypotheses, algorithms, architectures, or substantial improvements. We open-source our framework and benchmark to facilitate future research in advancing the AI research capabilities of LLM agents."
+    ]
+  },
+  "html_sha256": "96a2db881b23e31904cd1c3ec36e934def35009e7fb4af7a1136970676157594",
+  "evidence_html": "evidence/a501e42d7bf6d8604f29.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

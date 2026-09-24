@@ -1,0 +1,178 @@
+{
+  "url": "https://arxiv.org/abs/2510.11977",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.11977",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.11977",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:29.199307+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.11977",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46461,
+  "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+  "authors": [
+    "Kapoor, Sayash",
+    "Stroebl, Benedikt",
+    "Kirgis, Peter",
+    "Nadgir, Nitya",
+    "Siegel, Zachary S",
+    "Wei, Boyi",
+    "Xue, Tianci",
+    "Chen, Ziru",
+    "Chen, Felix",
+    "Utpala, Saiteja",
+    "Ndzomga, Franck",
+    "Oruganty, Dheeraj",
+    "Luskin, Sophie",
+    "Liu, Kangheng",
+    "Yu, Botao",
+    "Arora, Amit",
+    "Hahm, Dongyoon",
+    "Trivedi, Harsh",
+    "Sun, Huan",
+    "Lee, Juyong",
+    "Jin, Tengjun",
+    "Mai, Yifan",
+    "Zhou, Yifei",
+    "Zhu, Yuxuan",
+    "Bommasani, Rishi",
+    "Kang, Daniel",
+    "Song, Dawn",
+    "Henderson, Peter",
+    "Su, Yu",
+    "Liang, Percy",
+    "Narayanan, Arvind"
+  ],
+  "first_author": "Kapoor, Sayash",
+  "year": 2025,
+  "source_date": "2025/10/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.11977",
+  "abstract": "AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents really work. We introduce the Holistic Agent Leaderboard (HAL) to address these challenges. We make three main contributions. First, we provide a standardized evaluation harness that orchestrates parallel evaluations across hundreds of VMs, reducing evaluation time from weeks to hours while eliminating common implementation bugs. Second, we conduct three-dimensional analysis spanning models, scaffolds, and benchmarks. We validate the harness by conducting 21,730 agent rollouts across 9 models and 9 benchmarks in coding, web navigation, science, and customer service with a total cost of about $40,000. Our analysis reveals surprising insights, such as higher reasoning effort reducing accuracy in the majority of runs. Third, we use LLM-aided log inspection to uncover previously unreported behaviors, such as searching for the benchmark on HuggingFace instead of solving a task, or misusing credit cards in flight booking tasks. We share all agent logs, comprising 2.5B tokens of language model calls, to incentivize further research into agent behavior. By standardizing how the field evaluates agents and addressing common pitfalls in agent evaluation, we hope to shift the focus from agents that ace benchmarks to agents that work reliably in the real world.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.11977: Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.11977v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents really work. We introduce the Holistic Agent Leaderboard (HAL) to address these challenges. We make three main contributions. First, we provide a standardized evaluation harness that orchestrates parallel evaluations across hundreds of VMs, reducing evaluation time from weeks to hours while eliminating common implementation bugs. Second, we conduct three-dimensional analysis spanning models, scaffolds, and benchmarks. We validate the harness by conducting 21,730 agent rollouts across 9 models and 9 benchmarks in coding, web navigation, science, and customer service with a total cost of about $40,000. Our analysis reveals surprising insights, such as higher reasoning effort reducing accuracy in the majority of runs. Third, we use LLM-aided log inspection to uncover previously unreported behaviors, such as searching for the benchmark on HuggingFace instead of solving a task, or misusing credit cards in flight booking tasks. We share all agent logs, comprising 2.5B tokens of language model calls, to incentivize further research into agent behavior. By standardizing how the field evaluates agents and addressing common pitfalls in agent evaluation, we hope to shift the focus from agents that ace benchmarks to agents that work reliably in the real world."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Holistic Agent Leaderboard: The Missing Infrastructure for AI..."
+    ],
+    "twitter:description": [
+      "AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation"
+    ],
+    "citation_author": [
+      "Kapoor, Sayash",
+      "Stroebl, Benedikt",
+      "Kirgis, Peter",
+      "Nadgir, Nitya",
+      "Siegel, Zachary S",
+      "Wei, Boyi",
+      "Xue, Tianci",
+      "Chen, Ziru",
+      "Chen, Felix",
+      "Utpala, Saiteja",
+      "Ndzomga, Franck",
+      "Oruganty, Dheeraj",
+      "Luskin, Sophie",
+      "Liu, Kangheng",
+      "Yu, Botao",
+      "Arora, Amit",
+      "Hahm, Dongyoon",
+      "Trivedi, Harsh",
+      "Sun, Huan",
+      "Lee, Juyong",
+      "Jin, Tengjun",
+      "Mai, Yifan",
+      "Zhou, Yifei",
+      "Zhu, Yuxuan",
+      "Bommasani, Rishi",
+      "Kang, Daniel",
+      "Song, Dawn",
+      "Henderson, Peter",
+      "Su, Yu",
+      "Liang, Percy",
+      "Narayanan, Arvind"
+    ],
+    "citation_date": [
+      "2025/10/13"
+    ],
+    "citation_online_date": [
+      "2025/10/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.11977"
+    ],
+    "citation_arxiv_id": [
+      "2510.11977"
+    ],
+    "citation_abstract": [
+      "AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents really work. We introduce the Holistic Agent Leaderboard (HAL) to address these challenges. We make three main contributions. First, we provide a standardized evaluation harness that orchestrates parallel evaluations across hundreds of VMs, reducing evaluation time from weeks to hours while eliminating common implementation bugs. Second, we conduct three-dimensional analysis spanning models, scaffolds, and benchmarks. We validate the harness by conducting 21,730 agent rollouts across 9 models and 9 benchmarks in coding, web navigation, science, and customer service with a total cost of about $40,000. Our analysis reveals surprising insights, such as higher reasoning effort reducing accuracy in the majority of runs. Third, we use LLM-aided log inspection to uncover previously unreported behaviors, such as searching for the benchmark on HuggingFace instead of solving a task, or misusing credit cards in flight booking tasks. We share all agent logs, comprising 2.5B tokens of language model calls, to incentivize further research into agent behavior. By standardizing how the field evaluates agents and addressing common pitfalls in agent evaluation, we hope to shift the focus from agents that ace benchmarks to agents that work reliably in the real world."
+    ]
+  },
+  "html_sha256": "d1184a420b01d05e12edfc73b31048c0957348296eb5cf6c34b420267ababcfb",
+  "evidence_html": "evidence/cdd35ebf8f7d00eac675.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

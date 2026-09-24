@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2502.10517",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.10517",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Kernelbench: Can llms write efficient gpu kernels?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.10517",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:26.096072+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.10517",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42827,
+  "title": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
+  "authors": [
+    "Ouyang, Anne",
+    "Guo, Simon",
+    "Arora, Simran",
+    "Zhang, Alex L.",
+    "Hu, William",
+    "Ré, Christopher",
+    "Mirhoseini, Azalia"
+  ],
+  "first_author": "Ouyang, Anne",
+  "year": 2025,
+  "source_date": "2025/02/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2502.10517",
+  "abstract": "Efficient GPU kernels are crucial for building performant machine learning architectures, but writing them is a time-consuming challenge that requires significant expertise; therefore, we explore using language models (LMs) to automate kernel generation. We introduce KernelBench, an open-source framework for evaluating LMs' ability to write fast and correct kernels on a suite of 250 carefully selected PyTorch ML workloads. KernelBench represents a real-world engineering environment and making progress on the introduced benchmark directly translates to faster practical kernels. We introduce a new evaluation metric fast_p, which measures the percentage of generated kernels that are functionally correct and offer a speedup greater than an adjustable threshold p over baseline. Our experiments across various state-of-the-art models and test-time methods show that frontier reasoning models perform the best out of the box but still fall short overall, matching the PyTorch baseline in less than 20% of the cases. While we show that results can improve by leveraging execution and profiling feedback during iterative refinement, KernelBench remains a challenging benchmark, with its difficulty increasing as we raise speedup threshold p.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.10517: KernelBench: Can LLMs Write Efficient GPU Kernels?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "KernelBench: Can LLMs Write Efficient GPU Kernels?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.10517v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Efficient GPU kernels are crucial for building performant machine learning architectures, but writing them is a time-consuming challenge that requires significant expertise; therefore, we explore using language models (LMs) to automate kernel generation. We introduce KernelBench, an open-source framework for evaluating LMs' ability to write fast and correct kernels on a suite of 250 carefully selected PyTorch ML workloads. KernelBench represents a real-world engineering environment and making progress on the introduced benchmark directly translates to faster practical kernels. We introduce a new evaluation metric fast_p, which measures the percentage of generated kernels that are functionally correct and offer a speedup greater than an adjustable threshold p over baseline. Our experiments across various state-of-the-art models and test-time methods show that frontier reasoning models perform the best out of the box but still fall short overall, matching the PyTorch baseline in less than 20% of the cases. While we show that results can improve by leveraging execution and profiling feedback during iterative refinement, KernelBench remains a challenging benchmark, with its difficulty increasing as we raise speedup threshold p."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "KernelBench: Can LLMs Write Efficient GPU Kernels?"
+    ],
+    "twitter:description": [
+      "Efficient GPU kernels are crucial for building performant machine learning architectures, but writing them is a time-consuming challenge that requires significant expertise; therefore, we explore..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "KernelBench: Can LLMs Write Efficient GPU Kernels?"
+    ],
+    "citation_author": [
+      "Ouyang, Anne",
+      "Guo, Simon",
+      "Arora, Simran",
+      "Zhang, Alex L.",
+      "Hu, William",
+      "Ré, Christopher",
+      "Mirhoseini, Azalia"
+    ],
+    "citation_date": [
+      "2025/02/14"
+    ],
+    "citation_online_date": [
+      "2025/02/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.10517"
+    ],
+    "citation_arxiv_id": [
+      "2502.10517"
+    ],
+    "citation_abstract": [
+      "Efficient GPU kernels are crucial for building performant machine learning architectures, but writing them is a time-consuming challenge that requires significant expertise; therefore, we explore using language models (LMs) to automate kernel generation. We introduce KernelBench, an open-source framework for evaluating LMs' ability to write fast and correct kernels on a suite of 250 carefully selected PyTorch ML workloads. KernelBench represents a real-world engineering environment and making progress on the introduced benchmark directly translates to faster practical kernels. We introduce a new evaluation metric fast_p, which measures the percentage of generated kernels that are functionally correct and offer a speedup greater than an adjustable threshold p over baseline. Our experiments across various state-of-the-art models and test-time methods show that frontier reasoning models perform the best out of the box but still fall short overall, matching the PyTorch baseline in less than 20% of the cases. While we show that results can improve by leveraging execution and profiling feedback during iterative refinement, KernelBench remains a challenging benchmark, with its difficulty increasing as we raise speedup threshold p."
+    ]
+  },
+  "html_sha256": "653ecb73013593602ff2330f73cb71770debde2e40586830c8fc3181f6679c01",
+  "evidence_html": "evidence/75d483d1dc3d6e8b171a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2403.02419",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.02419",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems. Lingjiao Chen et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.02419",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:00.282308+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.02419",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44637,
+  "title": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems",
+  "authors": [
+    "Chen, Lingjiao",
+    "Davis, Jared Quincy",
+    "Hanin, Boris",
+    "Bailis, Peter",
+    "Stoica, Ion",
+    "Zaharia, Matei",
+    "Zou, James"
+  ],
+  "first_author": "Chen, Lingjiao",
+  "year": 2024,
+  "source_date": "2024/03/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.02419",
+  "abstract": "Many recent state-of-the-art results in language tasks were achieved using compound systems that perform multiple Language Model (LM) calls and aggregate their responses. However, there is little understanding of how the number of LM calls - e.g., when asking the LM to answer each question multiple times and taking a majority vote - affects such a compound system's performance. In this paper, we initiate the study of scaling properties of compound inference systems. We analyze, theoretically and empirically, how the number of LM calls affects the performance of Vote and Filter-Vote, two of the simplest compound system designs, which aggregate LM responses via majority voting, optionally applying LM filters. We find, surprisingly, that across multiple language tasks, the performance of both Vote and Filter-Vote can first increase but then decrease as a function of the number of LM calls. Our theoretical results suggest that this non-monotonicity is due to the diversity of query difficulties within a task: more LM calls lead to higher performance on \"easy\" queries, but lower performance on \"hard\" queries, and non-monotone behavior can emerge when a task contains both types of queries. This insight then allows us to compute, from a small number of samples, the number of LM calls that maximizes system performance, and define an analytical scaling model for both systems. Experiments show that our scaling model can accurately predict the performance of Vote and Filter-Vote systems and thus find the optimal number of LM calls to make.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.02419: Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.02419v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Many recent state-of-the-art results in language tasks were achieved using compound systems that perform multiple Language Model (LM) calls and aggregate their responses. However, there is little understanding of how the number of LM calls - e.g., when asking the LM to answer each question multiple times and taking a majority vote - affects such a compound system's performance. In this paper, we initiate the study of scaling properties of compound inference systems. We analyze, theoretically and empirically, how the number of LM calls affects the performance of Vote and Filter-Vote, two of the simplest compound system designs, which aggregate LM responses via majority voting, optionally applying LM filters. We find, surprisingly, that across multiple language tasks, the performance of both Vote and Filter-Vote can first increase but then decrease as a function of the number of LM calls. Our theoretical results suggest that this non-monotonicity is due to the diversity of query difficulties within a task: more LM calls lead to higher performance on \"easy\" queries, but lower performance on \"hard\" queries, and non-monotone behavior can emerge when a task contains both types of queries. This insight then allows us to compute, from a small number of samples, the number of LM calls that maximizes system performance, and define an analytical scaling model for both systems. Experiments show that our scaling model can accurately predict the performance of Vote and Filter-Vote systems and thus find the optimal number of LM calls to make."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Are More LLM Calls All You Need? Towards Scaling Laws of Compound..."
+    ],
+    "twitter:description": [
+      "Many recent state-of-the-art results in language tasks were achieved using compound systems that perform multiple Language Model (LM) calls and aggregate their responses. However, there is little..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems"
+    ],
+    "citation_author": [
+      "Chen, Lingjiao",
+      "Davis, Jared Quincy",
+      "Hanin, Boris",
+      "Bailis, Peter",
+      "Stoica, Ion",
+      "Zaharia, Matei",
+      "Zou, James"
+    ],
+    "citation_date": [
+      "2024/03/04"
+    ],
+    "citation_online_date": [
+      "2024/06/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.02419"
+    ],
+    "citation_arxiv_id": [
+      "2403.02419"
+    ],
+    "citation_abstract": [
+      "Many recent state-of-the-art results in language tasks were achieved using compound systems that perform multiple Language Model (LM) calls and aggregate their responses. However, there is little understanding of how the number of LM calls - e.g., when asking the LM to answer each question multiple times and taking a majority vote - affects such a compound system's performance. In this paper, we initiate the study of scaling properties of compound inference systems. We analyze, theoretically and empirically, how the number of LM calls affects the performance of Vote and Filter-Vote, two of the simplest compound system designs, which aggregate LM responses via majority voting, optionally applying LM filters. We find, surprisingly, that across multiple language tasks, the performance of both Vote and Filter-Vote can first increase but then decrease as a function of the number of LM calls. Our theoretical results suggest that this non-monotonicity is due to the diversity of query difficulties within a task: more LM calls lead to higher performance on \"easy\" queries, but lower performance on \"hard\" queries, and non-monotone behavior can emerge when a task contains both types of queries. This insight then allows us to compute, from a small number of samples, the number of LM calls that maximizes system performance, and define an analytical scaling model for both systems. Experiments show that our scaling model can accurately predict the performance of Vote and Filter-Vote systems and thus find the optimal number of LM calls to make."
+    ]
+  },
+  "html_sha256": "479492ba3311b5ff9045e1cd8d87fed9d370d9b04ef1317372398385779f5188",
+  "evidence_html": "evidence/5dc66913a033e0d173c6.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,186 @@
+{
+  "url": "https://arxiv.org/abs/2501.12326",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.12326",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.12326",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:06.381027+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.12326",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 48253,
+  "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+  "authors": [
+    "Qin, Yujia",
+    "Ye, Yining",
+    "Fang, Junjie",
+    "Wang, Haoming",
+    "Liang, Shihao",
+    "Tian, Shizuo",
+    "Zhang, Junda",
+    "Li, Jiahao",
+    "Li, Yunxin",
+    "Huang, Shijue",
+    "Zhong, Wanjun",
+    "Li, Kuanye",
+    "Yang, Jiale",
+    "Miao, Yu",
+    "Lin, Woyu",
+    "Liu, Longxiang",
+    "Jiang, Xu",
+    "Ma, Qianli",
+    "Li, Jingyu",
+    "Xiao, Xiaojun",
+    "Cai, Kai",
+    "Li, Chuang",
+    "Zheng, Yaowei",
+    "Jin, Chaolin",
+    "Li, Chen",
+    "Zhou, Xiao",
+    "Wang, Minchao",
+    "Chen, Haoli",
+    "Li, Zhaojian",
+    "Yang, Haihua",
+    "Liu, Haifeng",
+    "Lin, Feng",
+    "Peng, Tao",
+    "Liu, Xin",
+    "Shi, Guang"
+  ],
+  "first_author": "Qin, Yujia",
+  "year": 2025,
+  "source_date": "2025/01/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.12326",
+  "abstract": "This paper introduces UI-TARS, a native GUI agent model that solely perceives the screenshots as input and performs human-like interactions (e.g., keyboard and mouse operations). Unlike prevailing agent frameworks that depend on heavily wrapped commercial models (e.g., GPT-4o) with expert-crafted prompts and workflows, UI-TARS is an end-to-end model that outperforms these sophisticated frameworks. Experiments demonstrate its superior performance: UI-TARS achieves SOTA performance in 10+ GUI agent benchmarks evaluating perception, grounding, and GUI task execution. Notably, in the OSWorld benchmark, UI-TARS achieves scores of 24.6 with 50 steps and 22.7 with 15 steps, outperforming Claude (22.0 and 14.9 respectively). In AndroidWorld, UI-TARS achieves 46.6, surpassing GPT-4o (34.5). UI-TARS incorporates several key innovations: (1) Enhanced Perception: leveraging a large-scale dataset of GUI screenshots for context-aware understanding of UI elements and precise captioning; (2) Unified Action Modeling, which standardizes actions into a unified space across platforms and achieves precise grounding and interaction through large-scale action traces; (3) System-2 Reasoning, which incorporates deliberate reasoning into multi-step decision making, involving multiple reasoning patterns such as task decomposition, reflection thinking, milestone recognition, etc. (4) Iterative Training with Reflective Online Traces, which addresses the data bottleneck by automatically collecting, filtering, and reflectively refining new interaction traces on hundreds of virtual machines. Through iterative training and reflection tuning, UI-TARS continuously learns from its mistakes and adapts to unforeseen situations with minimal human intervention. We also analyze the evolution path of GUI agents to guide the further development of this domain.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.12326: UI-TARS: Pioneering Automated GUI Interaction with Native Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "UI-TARS: Pioneering Automated GUI Interaction with Native Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.12326v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "This paper introduces UI-TARS, a native GUI agent model that solely perceives the screenshots as input and performs human-like interactions (e.g., keyboard and mouse operations). Unlike prevailing agent frameworks that depend on heavily wrapped commercial models (e.g., GPT-4o) with expert-crafted prompts and workflows, UI-TARS is an end-to-end model that outperforms these sophisticated frameworks. Experiments demonstrate its superior performance: UI-TARS achieves SOTA performance in 10+ GUI agent benchmarks evaluating perception, grounding, and GUI task execution. Notably, in the OSWorld benchmark, UI-TARS achieves scores of 24.6 with 50 steps and 22.7 with 15 steps, outperforming Claude (22.0 and 14.9 respectively). In AndroidWorld, UI-TARS achieves 46.6, surpassing GPT-4o (34.5). UI-TARS incorporates several key innovations: (1) Enhanced Perception: leveraging a large-scale dataset of GUI screenshots for context-aware understanding of UI elements and precise captioning; (2) Unified Action Modeling, which standardizes actions into a unified space across platforms and achieves precise grounding and interaction through large-scale action traces; (3) System-2 Reasoning, which incorporates deliberate reasoning into multi-step decision making, involving multiple reasoning patterns such as task decomposition, reflection thinking, milestone recognition, etc. (4) Iterative Training with Reflective Online Traces, which addresses the data bottleneck by automatically collecting, filtering, and reflectively refining new interaction traces on hundreds of virtual machines. Through iterative training and reflection tuning, UI-TARS continuously learns from its mistakes and adapts to unforeseen situations with minimal human intervention. We also analyze the evolution path of GUI agents to guide the further development of this domain."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "UI-TARS: Pioneering Automated GUI Interaction with Native Agents"
+    ],
+    "twitter:description": [
+      "This paper introduces UI-TARS, a native GUI agent model that solely perceives the screenshots as input and performs human-like interactions (e.g., keyboard and mouse operations). Unlike prevailing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "UI-TARS: Pioneering Automated GUI Interaction with Native Agents"
+    ],
+    "citation_author": [
+      "Qin, Yujia",
+      "Ye, Yining",
+      "Fang, Junjie",
+      "Wang, Haoming",
+      "Liang, Shihao",
+      "Tian, Shizuo",
+      "Zhang, Junda",
+      "Li, Jiahao",
+      "Li, Yunxin",
+      "Huang, Shijue",
+      "Zhong, Wanjun",
+      "Li, Kuanye",
+      "Yang, Jiale",
+      "Miao, Yu",
+      "Lin, Woyu",
+      "Liu, Longxiang",
+      "Jiang, Xu",
+      "Ma, Qianli",
+      "Li, Jingyu",
+      "Xiao, Xiaojun",
+      "Cai, Kai",
+      "Li, Chuang",
+      "Zheng, Yaowei",
+      "Jin, Chaolin",
+      "Li, Chen",
+      "Zhou, Xiao",
+      "Wang, Minchao",
+      "Chen, Haoli",
+      "Li, Zhaojian",
+      "Yang, Haihua",
+      "Liu, Haifeng",
+      "Lin, Feng",
+      "Peng, Tao",
+      "Liu, Xin",
+      "Shi, Guang"
+    ],
+    "citation_date": [
+      "2025/01/21"
+    ],
+    "citation_online_date": [
+      "2025/01/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.12326"
+    ],
+    "citation_arxiv_id": [
+      "2501.12326"
+    ],
+    "citation_abstract": [
+      "This paper introduces UI-TARS, a native GUI agent model that solely perceives the screenshots as input and performs human-like interactions (e.g., keyboard and mouse operations). Unlike prevailing agent frameworks that depend on heavily wrapped commercial models (e.g., GPT-4o) with expert-crafted prompts and workflows, UI-TARS is an end-to-end model that outperforms these sophisticated frameworks. Experiments demonstrate its superior performance: UI-TARS achieves SOTA performance in 10+ GUI agent benchmarks evaluating perception, grounding, and GUI task execution. Notably, in the OSWorld benchmark, UI-TARS achieves scores of 24.6 with 50 steps and 22.7 with 15 steps, outperforming Claude (22.0 and 14.9 respectively). In AndroidWorld, UI-TARS achieves 46.6, surpassing GPT-4o (34.5). UI-TARS incorporates several key innovations: (1) Enhanced Perception: leveraging a large-scale dataset of GUI screenshots for context-aware understanding of UI elements and precise captioning; (2) Unified Action Modeling, which standardizes actions into a unified space across platforms and achieves precise grounding and interaction through large-scale action traces; (3) System-2 Reasoning, which incorporates deliberate reasoning into multi-step decision making, involving multiple reasoning patterns such as task decomposition, reflection thinking, milestone recognition, etc. (4) Iterative Training with Reflective Online Traces, which addresses the data bottleneck by automatically collecting, filtering, and reflectively refining new interaction traces on hundreds of virtual machines. Through iterative training and reflection tuning, UI-TARS continuously learns from its mistakes and adapts to unforeseen situations with minimal human intervention. We also analyze the evolution path of GUI agents to guide the further development of this domain."
+    ]
+  },
+  "html_sha256": "0f19ac87068c5055dc055ef73dd6a105b1f1dc93d4cc167653516a21abf55458",
+  "evidence_html": "evidence/f800a6ceccdd1752c6e1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

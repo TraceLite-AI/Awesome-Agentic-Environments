@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/2406.03816",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.03816",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.03816",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:05.214521+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.03816",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43124,
+  "title": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search",
+  "authors": [
+    "Zhang, Dan",
+    "Zhoubian, Sining",
+    "Hu, Ziniu",
+    "Yue, Yisong",
+    "Dong, Yuxiao",
+    "Tang, Jie"
+  ],
+  "first_author": "Zhang, Dan",
+  "year": 2024,
+  "source_date": "2024/06/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.03816",
+  "abstract": "Recent methodologies in LLM self-training mostly rely on LLM generating responses and filtering those with correct output answers as training data. This approach often yields a low-quality fine-tuning training set (e.g., incorrect plans or intermediate reasoning). In this paper, we develop a reinforced self-training approach, called ReST-MCTS*, based on integrating process reward guidance with tree search MCTS* for collecting higher-quality reasoning traces as well as per-step value to train policy and reward models. ReST-MCTS* circumvents the per-step manual annotation typically used to train process rewards by tree-search-based reinforcement learning: Given oracle final correct answers, ReST-MCTS* is able to infer the correct process rewards by estimating the probability this step can help lead to the correct answer. These inferred rewards serve dual purposes: they act as value targets for further refining the process reward model and also facilitate the selection of high-quality traces for policy model self-training. We first show that the tree-search policy in ReST-MCTS* achieves higher accuracy compared with prior LLM reasoning baselines such as Best-of-N and Tree-of-Thought, within the same search budget. We then show that by using traces searched by this tree-search policy as training data, we can continuously enhance the three language models for multiple iterations, and outperform other self-training algorithms such as ReST$^\\text{EM}$ and Self-Rewarding LM. We release all code at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.03816: ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.03816v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent methodologies in LLM self-training mostly rely on LLM generating responses and filtering those with correct output answers as training data. This approach often yields a low-quality fine-tuning training set (e.g., incorrect plans or intermediate reasoning). In this paper, we develop a reinforced self-training approach, called ReST-MCTS*, based on integrating process reward guidance with tree search MCTS* for collecting higher-quality reasoning traces as well as per-step value to train policy and reward models. ReST-MCTS* circumvents the per-step manual annotation typically used to train process rewards by tree-search-based reinforcement learning: Given oracle final correct answers, ReST-MCTS* is able to infer the correct process rewards by estimating the probability this step can help lead to the correct answer. These inferred rewards serve dual purposes: they act as value targets for further refining the process reward model and also facilitate the selection of high-quality traces for policy model self-training. We first show that the tree-search policy in ReST-MCTS* achieves higher accuracy compared with prior LLM reasoning baselines such as Best-of-N and Tree-of-Thought, within the same search budget. We then show that by using traces searched by this tree-search policy as training data, we can continuously enhance the three language models for multiple iterations, and outperform other self-training algorithms such as ReST$^\\text{EM}$ and Self-Rewarding LM. We release all code at https://github.com/THUDM/ReST-MCTS."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search"
+    ],
+    "twitter:description": [
+      "Recent methodologies in LLM self-training mostly rely on LLM generating responses and filtering those with correct output answers as training data. This approach often yields a low-quality..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search"
+    ],
+    "citation_author": [
+      "Zhang, Dan",
+      "Zhoubian, Sining",
+      "Hu, Ziniu",
+      "Yue, Yisong",
+      "Dong, Yuxiao",
+      "Tang, Jie"
+    ],
+    "citation_date": [
+      "2024/06/06"
+    ],
+    "citation_online_date": [
+      "2024/11/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.03816"
+    ],
+    "citation_arxiv_id": [
+      "2406.03816"
+    ],
+    "citation_abstract": [
+      "Recent methodologies in LLM self-training mostly rely on LLM generating responses and filtering those with correct output answers as training data. This approach often yields a low-quality fine-tuning training set (e.g., incorrect plans or intermediate reasoning). In this paper, we develop a reinforced self-training approach, called ReST-MCTS*, based on integrating process reward guidance with tree search MCTS* for collecting higher-quality reasoning traces as well as per-step value to train policy and reward models. ReST-MCTS* circumvents the per-step manual annotation typically used to train process rewards by tree-search-based reinforcement learning: Given oracle final correct answers, ReST-MCTS* is able to infer the correct process rewards by estimating the probability this step can help lead to the correct answer. These inferred rewards serve dual purposes: they act as value targets for further refining the process reward model and also facilitate the selection of high-quality traces for policy model self-training. We first show that the tree-search policy in ReST-MCTS* achieves higher accuracy compared with prior LLM reasoning baselines such as Best-of-N and Tree-of-Thought, within the same search budget. We then show that by using traces searched by this tree-search policy as training data, we can continuously enhance the three language models for multiple iterations, and outperform other self-training algorithms such as ReST$^\\text{EM}$ and Self-Rewarding LM. We release all code at https://github.com/THUDM/ReST-MCTS."
+    ]
+  },
+  "html_sha256": "7dcaf23bab04fe8de8fddf66812268e0ea791f7f3d03ea49d7fe92a22b4a51c1",
+  "evidence_html": "evidence/efed21994b5e6d50873d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

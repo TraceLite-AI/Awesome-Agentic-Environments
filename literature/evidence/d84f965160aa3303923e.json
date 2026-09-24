@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2410.04587",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.04587",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "Hammer: Robust Function-Calling for On-Device Language Models via Function Masking",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.04587",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:51.037884+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.04587",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43662,
+  "title": "Hammer: Robust Function-Calling for On-Device Language Models via Function Masking",
+  "authors": [
+    "Lin, Qiqiang",
+    "Wen, Muning",
+    "Peng, Qiuying",
+    "Nie, Guanyu",
+    "Liao, Junwei",
+    "Wang, Jun",
+    "Mo, Xiaoyun",
+    "Zhou, Jiamu",
+    "Cheng, Cheng",
+    "Zhao, Yin",
+    "Wang, Jun",
+    "Zhang, Weinan"
+  ],
+  "first_author": "Lin, Qiqiang",
+  "year": 2024,
+  "source_date": "2024/10/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.04587",
+  "abstract": "Large language models have demonstrated impressive value in performing as autonomous agents when equipped with external tools and API calls. Nonetheless, effectively harnessing their potential for executing complex tasks crucially relies on enhancements in their function calling capabilities. This paper identifies a critical gap in existing function calling models, where performance varies significantly across benchmarks, often due to being misled by specific naming conventions. To address such an issue, we introduce Hammer, a novel family of foundation models specifically engineered for on-device function calling. Hammer employs an augmented dataset that enhances models' sensitivity to irrelevant functions and incorporates function masking techniques to minimize misleading. Our empirical evaluations reveal that Hammer not only outperforms larger models but also demonstrates robust generalization across diverse benchmarks, achieving sota results. Our open source contributions include a specialized dataset for irrelevance detection, a tuning framework for enhanced generalization, and the Hammer models, establishing a new standard for function calling performance.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.04587: Hammer: Robust Function-Calling for On-Device Language Models via Function Masking"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Hammer: Robust Function-Calling for On-Device Language Models via Function Masking"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.04587v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models have demonstrated impressive value in performing as autonomous agents when equipped with external tools and API calls. Nonetheless, effectively harnessing their potential for executing complex tasks crucially relies on enhancements in their function calling capabilities. This paper identifies a critical gap in existing function calling models, where performance varies significantly across benchmarks, often due to being misled by specific naming conventions. To address such an issue, we introduce Hammer, a novel family of foundation models specifically engineered for on-device function calling. Hammer employs an augmented dataset that enhances models' sensitivity to irrelevant functions and incorporates function masking techniques to minimize misleading. Our empirical evaluations reveal that Hammer not only outperforms larger models but also demonstrates robust generalization across diverse benchmarks, achieving sota results. Our open source contributions include a specialized dataset for irrelevance detection, a tuning framework for enhanced generalization, and the Hammer models, establishing a new standard for function calling performance."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Hammer: Robust Function-Calling for On-Device Language Models via..."
+    ],
+    "twitter:description": [
+      "Large language models have demonstrated impressive value in performing as autonomous agents when equipped with external tools and API calls. Nonetheless, effectively harnessing their potential for..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Hammer: Robust Function-Calling for On-Device Language Models via Function Masking"
+    ],
+    "citation_author": [
+      "Lin, Qiqiang",
+      "Wen, Muning",
+      "Peng, Qiuying",
+      "Nie, Guanyu",
+      "Liao, Junwei",
+      "Wang, Jun",
+      "Mo, Xiaoyun",
+      "Zhou, Jiamu",
+      "Cheng, Cheng",
+      "Zhao, Yin",
+      "Wang, Jun",
+      "Zhang, Weinan"
+    ],
+    "citation_date": [
+      "2024/10/06"
+    ],
+    "citation_online_date": [
+      "2024/10/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.04587"
+    ],
+    "citation_arxiv_id": [
+      "2410.04587"
+    ],
+    "citation_abstract": [
+      "Large language models have demonstrated impressive value in performing as autonomous agents when equipped with external tools and API calls. Nonetheless, effectively harnessing their potential for executing complex tasks crucially relies on enhancements in their function calling capabilities. This paper identifies a critical gap in existing function calling models, where performance varies significantly across benchmarks, often due to being misled by specific naming conventions. To address such an issue, we introduce Hammer, a novel family of foundation models specifically engineered for on-device function calling. Hammer employs an augmented dataset that enhances models' sensitivity to irrelevant functions and incorporates function masking techniques to minimize misleading. Our empirical evaluations reveal that Hammer not only outperforms larger models but also demonstrates robust generalization across diverse benchmarks, achieving sota results. Our open source contributions include a specialized dataset for irrelevance detection, a tuning framework for enhanced generalization, and the Hammer models, establishing a new standard for function calling performance."
+    ]
+  },
+  "html_sha256": "859528e515536a9e6b6ea4d743da07340f7fa334f9c6d56fc40829da277cab65",
+  "evidence_html": "evidence/d84f965160aa3303923e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2110.02439",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2110.02439",
+      "discovery_url": "https://web.stanford.edu/~mrifaki/ued-readings.html",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Replay-Guided Adversarial Environment Design",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2110.02439",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:53.628848+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2110.02439",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44711,
+  "title": "Replay-Guided Adversarial Environment Design",
+  "authors": [
+    "Jiang, Minqi",
+    "Dennis, Michael",
+    "Parker-Holder, Jack",
+    "Foerster, Jakob",
+    "Grefenstette, Edward",
+    "Rocktäschel, Tim"
+  ],
+  "first_author": "Jiang, Minqi",
+  "year": 2021,
+  "source_date": "2021/10/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2110.02439",
+  "abstract": "Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent's capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR$^{\\perp}$, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR$^{\\perp}$ improves the performance of PAIRED, from which it inherited its theoretical framework.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2110.02439: Replay-Guided Adversarial Environment Design"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Replay-Guided Adversarial Environment Design"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2110.02439v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent's capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR$^{\\perp}$, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR$^{\\perp}$ improves the performance of PAIRED, from which it inherited its theoretical framework."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Replay-Guided Adversarial Environment Design"
+    ],
+    "twitter:description": [
+      "Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Replay-Guided Adversarial Environment Design"
+    ],
+    "citation_author": [
+      "Jiang, Minqi",
+      "Dennis, Michael",
+      "Parker-Holder, Jack",
+      "Foerster, Jakob",
+      "Grefenstette, Edward",
+      "Rocktäschel, Tim"
+    ],
+    "citation_date": [
+      "2021/10/06"
+    ],
+    "citation_online_date": [
+      "2022/01/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2110.02439"
+    ],
+    "citation_arxiv_id": [
+      "2110.02439"
+    ],
+    "citation_abstract": [
+      "Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent's capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR$^{\\perp}$, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR$^{\\perp}$ improves the performance of PAIRED, from which it inherited its theoretical framework."
+    ]
+  },
+  "html_sha256": "a4d27b8f7b81fbec73107f8ca467703d58880aa4c1998179b95850637450df9b",
+  "evidence_html": "evidence/5a799fe66b7d9e4c7f5d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

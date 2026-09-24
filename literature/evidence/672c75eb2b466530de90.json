@@ -1,0 +1,124 @@
+{
+  "url": "https://proceedings.mlr.press/v139/lee21g.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v139/lee21g.html",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "SUNRISE: A simple unified framework for ensemble learning in deep reinforcement learning, ICML 2021. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v139/lee21g.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:04.415434+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v139/lee21g.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 15465,
+  "title": "SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning",
+  "authors": [
+    "Kimin Lee",
+    "Michael Laskin",
+    "Aravind Srinivas",
+    "Pieter Abbeel"
+  ],
+  "first_author": "Kimin Lee",
+  "year": 2021,
+  "source_date": "2021/07/01",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Off-policy deep reinforcement learning (RL) has been successful in a range of challenging domains. However, standard off-policy RL algorithms can suffer from several issues, such as instability in Q-learning and balancing exploration and exploitation. To mitigate these issues, we present SUNRISE, a simple unified ensemble method, which is compatible with various off-policy RL algorithms. SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. By enforcing the diversity between agents using Bootstrap with random initialization, we show that these different ideas are largely orthogonal and can be fruitfully integrated, together further improving the performance of existing off-policy RL algorithms, such as Soft Actor-Critic and Rainbow DQN, for both continuous and discrete control tasks on both low-dimensional and high-dimensional environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement LearningKimin Lee, Michael Laskin, Aravind Srinivas, Pieter Ab..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v139/lee21g.html"
+    ],
+    "citation_pdf_url": [
+      "http://proceedings.mlr.press/v139/lee21g/lee21g.pdf"
+    ],
+    "citation_firstpage": [
+      "6131"
+    ],
+    "citation_lastpage": [
+      "6141"
+    ],
+    "citation_author": [
+      "Kimin Lee",
+      "Michael Laskin",
+      "Aravind Srinivas",
+      "Pieter Abbeel"
+    ],
+    "citation_publication_date": [
+      "2021/07/01"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Off-policy deep reinforcement learning (RL) has been successful in a range of challenging domains. However, standard off-policy RL algorithms can suffer from..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v139/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning"
+    ],
+    "og:description": [
+      "Off-policy deep reinforcement learning (RL) has been successful in a range of challenging domains. However, standard off-policy RL algorithms can suffer from several issues, such as instability in ..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2021-07-01T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v139/lee21g.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v139/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "5a32b49eaeeaf6d75b58802e1952a226712d229cf46ba653f3759aaf2d17ad5d",
+  "evidence_html": "evidence/672c75eb2b466530de90.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

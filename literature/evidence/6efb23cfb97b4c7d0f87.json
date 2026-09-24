@@ -1,0 +1,118 @@
+{
+  "url": "https://arxiv.org/abs/2601.01743",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.01743",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "AI Agent Systems: Architectures, Applications, and Evaluation",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.01743",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:57.165644+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.01743",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42038,
+  "title": "AI Agent Systems: Architectures, Applications, and Evaluation",
+  "authors": [
+    "Xu, Bin"
+  ],
+  "first_author": "Xu, Bin",
+  "year": 2026,
+  "source_date": "2026/01/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.01743",
+  "abstract": "AI agents -- systems that combine foundation models with reasoning, planning, memory, and tool use -- are rapidly becoming a practical interface between natural-language intent and real-world computation. This survey synthesizes the emerging landscape of AI agent architectures across: (i) deliberation and reasoning (e.g., chain-of-thought-style decomposition, self-reflection and verification, and constraint-aware decision making), (ii) planning and control (from reactive policies to hierarchical and multi-step planners), and (iii) tool calling and environment interaction (retrieval, code execution, APIs, and multimodal perception). We organize prior work into a unified taxonomy spanning agent components (policy/LLM core, memory, world models, planners, tool routers, and critics), orchestration patterns (single-agent vs.\\ multi-agent; centralized vs.\\ decentralized coordination), and deployment settings (offline analysis vs.\\ online interactive assistance; safety-critical vs.\\ open-ended tasks). We discuss key design trade-offs -- latency vs.\\ accuracy, autonomy vs.\\ controllability, and capability vs.\\ reliability -- and highlight how evaluation is complicated by non-determinism, long-horizon credit assignment, tool and environment variability, and hidden costs such as retries and context growth. Finally, we summarize measurement and benchmarking practices (task suites, human preference and utility metrics, success under constraints, robustness and security) and identify open challenges including verification and guardrails for tool actions, scalable memory and context management, interpretability of agent decisions, and reproducible evaluation under realistic workloads.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.01743: AI Agent Systems: Architectures, Applications, and Evaluation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AI Agent Systems: Architectures, Applications, and Evaluation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.01743v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "AI agents -- systems that combine foundation models with reasoning, planning, memory, and tool use -- are rapidly becoming a practical interface between natural-language intent and real-world computation. This survey synthesizes the emerging landscape of AI agent architectures across: (i) deliberation and reasoning (e.g., chain-of-thought-style decomposition, self-reflection and verification, and constraint-aware decision making), (ii) planning and control (from reactive policies to hierarchical and multi-step planners), and (iii) tool calling and environment interaction (retrieval, code execution, APIs, and multimodal perception). We organize prior work into a unified taxonomy spanning agent components (policy/LLM core, memory, world models, planners, tool routers, and critics), orchestration patterns (single-agent vs.\\ multi-agent; centralized vs.\\ decentralized coordination), and deployment settings (offline analysis vs.\\ online interactive assistance; safety-critical vs.\\ open-ended tasks). We discuss key design trade-offs -- latency vs.\\ accuracy, autonomy vs.\\ controllability, and capability vs.\\ reliability -- and highlight how evaluation is complicated by non-determinism, long-horizon credit assignment, tool and environment variability, and hidden costs such as retries and context growth. Finally, we summarize measurement and benchmarking practices (task suites, human preference and utility metrics, success under constraints, robustness and security) and identify open challenges including verification and guardrails for tool actions, scalable memory and context management, interpretability of agent decisions, and reproducible evaluation under realistic workloads."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AI Agent Systems: Architectures, Applications, and Evaluation"
+    ],
+    "twitter:description": [
+      "AI agents -- systems that combine foundation models with reasoning, planning, memory, and tool use -- are rapidly becoming a practical interface between natural-language intent and real-world..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AI Agent Systems: Architectures, Applications, and Evaluation"
+    ],
+    "citation_author": [
+      "Xu, Bin"
+    ],
+    "citation_date": [
+      "2026/01/05"
+    ],
+    "citation_online_date": [
+      "2026/01/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.01743"
+    ],
+    "citation_arxiv_id": [
+      "2601.01743"
+    ],
+    "citation_abstract": [
+      "AI agents -- systems that combine foundation models with reasoning, planning, memory, and tool use -- are rapidly becoming a practical interface between natural-language intent and real-world computation. This survey synthesizes the emerging landscape of AI agent architectures across: (i) deliberation and reasoning (e.g., chain-of-thought-style decomposition, self-reflection and verification, and constraint-aware decision making), (ii) planning and control (from reactive policies to hierarchical and multi-step planners), and (iii) tool calling and environment interaction (retrieval, code execution, APIs, and multimodal perception). We organize prior work into a unified taxonomy spanning agent components (policy/LLM core, memory, world models, planners, tool routers, and critics), orchestration patterns (single-agent vs.\\ multi-agent; centralized vs.\\ decentralized coordination), and deployment settings (offline analysis vs.\\ online interactive assistance; safety-critical vs.\\ open-ended tasks). We discuss key design trade-offs -- latency vs.\\ accuracy, autonomy vs.\\ controllability, and capability vs.\\ reliability -- and highlight how evaluation is complicated by non-determinism, long-horizon credit assignment, tool and environment variability, and hidden costs such as retries and context growth. Finally, we summarize measurement and benchmarking practices (task suites, human preference and utility metrics, success under constraints, robustness and security) and identify open challenges including verification and guardrails for tool actions, scalable memory and context management, interpretability of agent decisions, and reproducible evaluation under realistic workloads."
+    ]
+  },
+  "html_sha256": "544062413ca928fbc43cd4e28f54e19af435349aa9d9f9cfed70c2dd68f74a8c",
+  "evidence_html": "evidence/6efb23cfb97b4c7d0f87.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://arxiv.org/abs/2411.14499",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.14499",
+      "discovery_url": "https://github.com/journee-live/awesome-world-models",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "World Models Survey : Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.14499",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:53.637129+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.14499",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44168,
+  "title": "Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+  "authors": [
+    "Ding, Jingtao",
+    "Zhang, Yunke",
+    "Shang, Yu",
+    "Feng, Jie",
+    "Zhang, Yuheng",
+    "Zong, Zefang",
+    "Yuan, Yuan",
+    "Su, Hongyuan",
+    "Li, Nian",
+    "Piao, Jinghua",
+    "Deng, Yucheng",
+    "Sukiennik, Nicholas",
+    "Gao, Chen",
+    "Xu, Fengli",
+    "Li, Yong"
+  ],
+  "first_author": "Ding, Jingtao",
+  "year": 2024,
+  "source_date": "2024/11/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.14499",
+  "abstract": "The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to the pursuit of artificial general intelligence. This survey offers a comprehensive review of the literature on world models. Generally, world models are regarded as tools for either understanding the present state of the world or predicting its future dynamics. This review presents a systematic categorization of world models, emphasizing two primary functions: (1) constructing internal representations to understand the mechanisms of the world, and (2) predicting future states to simulate and guide decision-making. Initially, we examine the current progress in these two categories. We then explore the application of world models in key domains, including generative games, autonomous driving, robotics, and social simulacra, with a focus on how each domain utilizes these aspects. Finally, we outline key challenges and provide insights into potential future research directions. We summarize the representative papers along with their code repositories in this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.14499: Understanding World or Predicting Future? A Comprehensive Survey of World Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Understanding World or Predicting Future? A Comprehensive Survey of World Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.14499v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to the pursuit of artificial general intelligence. This survey offers a comprehensive review of the literature on world models. Generally, world models are regarded as tools for either understanding the present state of the world or predicting its future dynamics. This review presents a systematic categorization of world models, emphasizing two primary functions: (1) constructing internal representations to understand the mechanisms of the world, and (2) predicting future states to simulate and guide decision-making. Initially, we examine the current progress in these two categories. We then explore the application of world models in key domains, including generative games, autonomous driving, robotics, and social simulacra, with a focus on how each domain utilizes these aspects. Finally, we outline key challenges and provide insights into potential future research directions. We summarize the representative papers along with their code repositories in https://github.com/tsinghua-fib-lab/World-Model."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Understanding World or Predicting Future? A Comprehensive Survey..."
+    ],
+    "twitter:description": [
+      "The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Understanding World or Predicting Future? A Comprehensive Survey of World Models"
+    ],
+    "citation_author": [
+      "Ding, Jingtao",
+      "Zhang, Yunke",
+      "Shang, Yu",
+      "Feng, Jie",
+      "Zhang, Yuheng",
+      "Zong, Zefang",
+      "Yuan, Yuan",
+      "Su, Hongyuan",
+      "Li, Nian",
+      "Piao, Jinghua",
+      "Deng, Yucheng",
+      "Sukiennik, Nicholas",
+      "Gao, Chen",
+      "Xu, Fengli",
+      "Li, Yong"
+    ],
+    "citation_date": [
+      "2024/11/21"
+    ],
+    "citation_online_date": [
+      "2025/12/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.14499"
+    ],
+    "citation_arxiv_id": [
+      "2411.14499"
+    ],
+    "citation_abstract": [
+      "The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to the pursuit of artificial general intelligence. This survey offers a comprehensive review of the literature on world models. Generally, world models are regarded as tools for either understanding the present state of the world or predicting its future dynamics. This review presents a systematic categorization of world models, emphasizing two primary functions: (1) constructing internal representations to understand the mechanisms of the world, and (2) predicting future states to simulate and guide decision-making. Initially, we examine the current progress in these two categories. We then explore the application of world models in key domains, including generative games, autonomous driving, robotics, and social simulacra, with a focus on how each domain utilizes these aspects. Finally, we outline key challenges and provide insights into potential future research directions. We summarize the representative papers along with their code repositories in https://github.com/tsinghua-fib-lab/World-Model."
+    ]
+  },
+  "html_sha256": "b55c50dc53a78f557f807b327c231e2d63f8700365d542513edce3eb5b3b968f",
+  "evidence_html": "evidence/6a6e8dac1ee9db42b75a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

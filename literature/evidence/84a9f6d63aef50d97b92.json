@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2510.19898",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.19898",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.19898",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:35.783667+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.19898",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42976,
+  "title": "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills",
+  "authors": [
+    "Sonwane, Atharv",
+    "White, Isadora",
+    "Lee, Hyunji",
+    "Pereira, Matheus",
+    "Caccia, Lucas",
+    "Kim, Minseon",
+    "Shi, Zhengyan",
+    "Singh, Chinmay",
+    "Sordoni, Alessandro",
+    "Côté, Marc-Alexandre",
+    "Yuan, Xingdi"
+  ],
+  "first_author": "Sonwane, Atharv",
+  "year": 2025,
+  "source_date": "2025/10/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.19898",
+  "abstract": "High quality bugs are key to training the next generation of language model based software engineering (SWE) agents. We introduce a novel method for synthetic generation of difficult and diverse bugs. Our method instructs SWE Agents to introduce a feature into the codebase whereby they may unintentionally break tests, resulting in bugs. Prior approaches often induce an out-of-distribution effect by generating bugs intentionally (e.g. by introducing local perturbation to existing code), which does not reflect realistic development processes. We perform qualitative analysis to demonstrate that our approach for generating bugs more closely reflects the patterns found in human-authored edits. Through extensive experiments, we demonstrate that our bugs provide more efficient training data for supervised fine-tuning, outperforming other bug datasets by 2% with half the training data (1.2k vs. 3k bugs). We train on our newly generated bugs in addition to existing bug datasets to get FrogBoss a state-of-the-art 32B parameter model on SWE-bench Verified with a pass@1 of 54.6% and FrogMini a state-of-the-art 14B model on SWE-bench Verified with a pass@1 of 45.3% on SWE-bench Verified averaged over three seeds.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.19898: BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.19898v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "High quality bugs are key to training the next generation of language model based software engineering (SWE) agents. We introduce a novel method for synthetic generation of difficult and diverse bugs. Our method instructs SWE Agents to introduce a feature into the codebase whereby they may unintentionally break tests, resulting in bugs. Prior approaches often induce an out-of-distribution effect by generating bugs intentionally (e.g. by introducing local perturbation to existing code), which does not reflect realistic development processes. We perform qualitative analysis to demonstrate that our approach for generating bugs more closely reflects the patterns found in human-authored edits. Through extensive experiments, we demonstrate that our bugs provide more efficient training data for supervised fine-tuning, outperforming other bug datasets by 2% with half the training data (1.2k vs. 3k bugs). We train on our newly generated bugs in addition to existing bug datasets to get FrogBoss a state-of-the-art 32B parameter model on SWE-bench Verified with a pass@1 of 54.6% and FrogMini a state-of-the-art 14B model on SWE-bench Verified with a pass@1 of 45.3% on SWE-bench Verified averaged over three seeds."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
+    ],
+    "twitter:description": [
+      "High quality bugs are key to training the next generation of language model based software engineering (SWE) agents. We introduce a novel method for synthetic generation of difficult and diverse..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
+    ],
+    "citation_author": [
+      "Sonwane, Atharv",
+      "White, Isadora",
+      "Lee, Hyunji",
+      "Pereira, Matheus",
+      "Caccia, Lucas",
+      "Kim, Minseon",
+      "Shi, Zhengyan",
+      "Singh, Chinmay",
+      "Sordoni, Alessandro",
+      "Côté, Marc-Alexandre",
+      "Yuan, Xingdi"
+    ],
+    "citation_date": [
+      "2025/10/22"
+    ],
+    "citation_online_date": [
+      "2025/10/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.19898"
+    ],
+    "citation_arxiv_id": [
+      "2510.19898"
+    ],
+    "citation_abstract": [
+      "High quality bugs are key to training the next generation of language model based software engineering (SWE) agents. We introduce a novel method for synthetic generation of difficult and diverse bugs. Our method instructs SWE Agents to introduce a feature into the codebase whereby they may unintentionally break tests, resulting in bugs. Prior approaches often induce an out-of-distribution effect by generating bugs intentionally (e.g. by introducing local perturbation to existing code), which does not reflect realistic development processes. We perform qualitative analysis to demonstrate that our approach for generating bugs more closely reflects the patterns found in human-authored edits. Through extensive experiments, we demonstrate that our bugs provide more efficient training data for supervised fine-tuning, outperforming other bug datasets by 2% with half the training data (1.2k vs. 3k bugs). We train on our newly generated bugs in addition to existing bug datasets to get FrogBoss a state-of-the-art 32B parameter model on SWE-bench Verified with a pass@1 of 54.6% and FrogMini a state-of-the-art 14B model on SWE-bench Verified with a pass@1 of 45.3% on SWE-bench Verified averaged over three seeds."
+    ]
+  },
+  "html_sha256": "90091620a33bcaed8c6f6b4ff10e92b93d5ac7421b0f9fa84964fe5b0af80be8",
+  "evidence_html": "evidence/84a9f6d63aef50d97b92.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

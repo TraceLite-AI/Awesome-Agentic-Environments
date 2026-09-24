@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2312.08914",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2312.08914",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "CogAgent: A Visual Language Model for GUI Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2312.08914",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:50.171020+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2312.08914",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43264,
+  "title": "CogAgent: A Visual Language Model for GUI Agents",
+  "authors": [
+    "Hong, Wenyi",
+    "Wang, Weihan",
+    "Lv, Qingsong",
+    "Xu, Jiazheng",
+    "Yu, Wenmeng",
+    "Ji, Junhui",
+    "Wang, Yan",
+    "Wang, Zihan",
+    "Zhang, Yuxuan",
+    "Li, Juanzi",
+    "Xu, Bin",
+    "Dong, Yuxiao",
+    "Ding, Ming",
+    "Tang, Jie"
+  ],
+  "first_author": "Hong, Wenyi",
+  "year": 2023,
+  "source_date": "2023/12/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2312.08914",
+  "abstract": "People are spending an enormous amount of time on digital devices through graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large language models (LLMs) such as ChatGPT can assist people in tasks like writing emails, but struggle to understand and interact with GUIs, thus limiting their potential to increase automation levels. In this paper, we introduce CogAgent, an 18-billion-parameter visual language model (VLM) specializing in GUI understanding and navigation. By utilizing both low-resolution and high-resolution image encoders, CogAgent supports input at a resolution of 1120*1120, enabling it to recognize tiny page elements and text. As a generalist visual language model, CogAgent achieves the state of the art on five text-rich and four general VQA benchmarks, including VQAv2, OK-VQA, Text-VQA, ST-VQA, ChartQA, infoVQA, DocVQA, MM-Vet, and POPE. CogAgent, using only screenshots as input, outperforms LLM-based methods that consume extracted HTML text on both PC and Android GUI navigation tasks -- Mind2Web and AITW, advancing the state of the art. The model and codes are available at this https URL , with a new version of CogAgent-9B-20241220 available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2312.08914: CogAgent: A Visual Language Model for GUI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CogAgent: A Visual Language Model for GUI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2312.08914v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "People are spending an enormous amount of time on digital devices through graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large language models (LLMs) such as ChatGPT can assist people in tasks like writing emails, but struggle to understand and interact with GUIs, thus limiting their potential to increase automation levels. In this paper, we introduce CogAgent, an 18-billion-parameter visual language model (VLM) specializing in GUI understanding and navigation. By utilizing both low-resolution and high-resolution image encoders, CogAgent supports input at a resolution of 1120*1120, enabling it to recognize tiny page elements and text. As a generalist visual language model, CogAgent achieves the state of the art on five text-rich and four general VQA benchmarks, including VQAv2, OK-VQA, Text-VQA, ST-VQA, ChartQA, infoVQA, DocVQA, MM-Vet, and POPE. CogAgent, using only screenshots as input, outperforms LLM-based methods that consume extracted HTML text on both PC and Android GUI navigation tasks -- Mind2Web and AITW, advancing the state of the art. The model and codes are available at https://github.com/THUDM/CogVLM, with a new version of CogAgent-9B-20241220 available at https://github.com/THUDM/CogAgent."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CogAgent: A Visual Language Model for GUI Agents"
+    ],
+    "twitter:description": [
+      "People are spending an enormous amount of time on digital devices through graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large language models (LLMs) such as ChatGPT can..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CogAgent: A Visual Language Model for GUI Agents"
+    ],
+    "citation_author": [
+      "Hong, Wenyi",
+      "Wang, Weihan",
+      "Lv, Qingsong",
+      "Xu, Jiazheng",
+      "Yu, Wenmeng",
+      "Ji, Junhui",
+      "Wang, Yan",
+      "Wang, Zihan",
+      "Zhang, Yuxuan",
+      "Li, Juanzi",
+      "Xu, Bin",
+      "Dong, Yuxiao",
+      "Ding, Ming",
+      "Tang, Jie"
+    ],
+    "citation_date": [
+      "2023/12/14"
+    ],
+    "citation_online_date": [
+      "2024/12/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2312.08914"
+    ],
+    "citation_arxiv_id": [
+      "2312.08914"
+    ],
+    "citation_abstract": [
+      "People are spending an enormous amount of time on digital devices through graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large language models (LLMs) such as ChatGPT can assist people in tasks like writing emails, but struggle to understand and interact with GUIs, thus limiting their potential to increase automation levels. In this paper, we introduce CogAgent, an 18-billion-parameter visual language model (VLM) specializing in GUI understanding and navigation. By utilizing both low-resolution and high-resolution image encoders, CogAgent supports input at a resolution of 1120*1120, enabling it to recognize tiny page elements and text. As a generalist visual language model, CogAgent achieves the state of the art on five text-rich and four general VQA benchmarks, including VQAv2, OK-VQA, Text-VQA, ST-VQA, ChartQA, infoVQA, DocVQA, MM-Vet, and POPE. CogAgent, using only screenshots as input, outperforms LLM-based methods that consume extracted HTML text on both PC and Android GUI navigation tasks -- Mind2Web and AITW, advancing the state of the art. The model and codes are available at https://github.com/THUDM/CogVLM, with a new version of CogAgent-9B-20241220 available at https://github.com/THUDM/CogAgent."
+    ]
+  },
+  "html_sha256": "64157cc0a4f46e7d4b491f8fab7b21a0de64ec90133b41c5b56fe74aed68fef8",
+  "evidence_html": "evidence/5ba207976f68fdc95f93.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

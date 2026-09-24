@@ -1,0 +1,131 @@
+{
+  "url": "https://arxiv.org/abs/2310.06770",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.06770",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-1",
+      "topic": "Agent benchmark",
+      "title_hint": "Jimenez et al. SWE-bench: Can Language Models Resolve Real-World GitHub Issues? ICLR 2024. arXiv:2310.06770.",
+      "existing_reference_number": 1,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.06770",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:00.796490+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.06770",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43179,
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "authors": [
+    "Jimenez, Carlos E.",
+    "Yang, John",
+    "Wettig, Alexander",
+    "Yao, Shunyu",
+    "Pei, Kexin",
+    "Press, Ofir",
+    "Narasimhan, Karthik"
+  ],
+  "first_author": "Jimenez, Carlos E.",
+  "year": 2023,
+  "source_date": "2023/10/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.06770",
+  "abstract": "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue. Resolving issues in SWE-bench frequently requires understanding and coordinating changes across multiple functions, classes, and even files simultaneously, calling for models to interact with execution environments, process extremely long contexts and perform complex reasoning that goes far beyond traditional code generation tasks. Our evaluations show that both state-of-the-art proprietary models and our fine-tuned model SWE-Llama can resolve only the simplest issues. The best-performing model, Claude 2, is able to solve a mere $1.96$% of the issues. Advances on SWE-bench represent steps towards LMs that are more practical, intelligent, and autonomous.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.06770: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.06770v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue. Resolving issues in SWE-bench frequently requires understanding and coordinating changes across multiple functions, classes, and even files simultaneously, calling for models to interact with execution environments, process extremely long contexts and perform complex reasoning that goes far beyond traditional code generation tasks. Our evaluations show that both state-of-the-art proprietary models and our fine-tuned model SWE-Llama can resolve only the simplest issues. The best-performing model, Claude 2, is able to solve a mere $1.96$% of the issues. Advances on SWE-bench represent steps towards LMs that are more practical, intelligent, and autonomous."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+    ],
+    "twitter:description": [
+      "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+    ],
+    "citation_author": [
+      "Jimenez, Carlos E.",
+      "Yang, John",
+      "Wettig, Alexander",
+      "Yao, Shunyu",
+      "Pei, Kexin",
+      "Press, Ofir",
+      "Narasimhan, Karthik"
+    ],
+    "citation_date": [
+      "2023/10/10"
+    ],
+    "citation_online_date": [
+      "2024/11/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.06770"
+    ],
+    "citation_arxiv_id": [
+      "2310.06770"
+    ],
+    "citation_abstract": [
+      "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue. Resolving issues in SWE-bench frequently requires understanding and coordinating changes across multiple functions, classes, and even files simultaneously, calling for models to interact with execution environments, process extremely long contexts and perform complex reasoning that goes far beyond traditional code generation tasks. Our evaluations show that both state-of-the-art proprietary models and our fine-tuned model SWE-Llama can resolve only the simplest issues. The best-performing model, Claude 2, is able to solve a mere $1.96$% of the issues. Advances on SWE-bench represent steps towards LMs that are more practical, intelligent, and autonomous."
+    ]
+  },
+  "html_sha256": "cd170cab3a56f891ee94070d5748d923685f2a84a91201d6336a221436fd0f9f",
+  "evidence_html": "evidence/3e4a5dea3aec490fe3b7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

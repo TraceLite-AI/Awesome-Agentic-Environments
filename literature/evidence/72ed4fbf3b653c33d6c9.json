@@ -1,0 +1,93 @@
+{
+  "url": "https://doi.org/10.18653/v1/2025.emnlp-main.936",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.936",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Procedural environment generation for tool-use agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2025.emnlp-main.936",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:36.913905+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.emnlp-main.936/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40858,
+  "title": "Procedural Environment Generation for Tool-Use Agents",
+  "authors": [
+    "Michael Sullivan",
+    "Mareike Hartmann",
+    "Alexander Koller"
+  ],
+  "first_author": "Michael Sullivan",
+  "year": 2025,
+  "source_date": "2025/11",
+  "venue_from_source": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2025.emnlp-main.936",
+  "arxiv_id": "",
+  "abstract": "Although the power of LLM tool-use agents has ignited a flurry of recent research in this area, the curation of tool-use training data remains an open problem — especially for online RL training. Existing approaches to synthetic tool-use data generation tend to be non-interactive and/or non-compositional. We introduce RandomWorld, a pipeline for the procedural generation of interactive tools and compositional tool-use data. We show that models tuned via SFT and RL on synthetic RandomWorld data improve on a range of tool-use benchmarks, and set the new SoTA for two metrics on the NESTFUL dataset. Further experiments show that downstream performance scales with the amount of RandomWorld-generated training data, opening up the possibility of further improvement through the use of entirely synthetic data.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "Procedural Environment Generation for Tool-Use Agents"
+    ],
+    "citation_author": [
+      "Michael Sullivan",
+      "Mareike Hartmann",
+      "Alexander Koller"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "citation_publication_date": [
+      "2025/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.emnlp-main.936.pdf"
+    ],
+    "citation_firstpage": [
+      "18544"
+    ],
+    "citation_lastpage": [
+      "18562"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.emnlp-main.936"
+    ],
+    "og:title": [
+      "Procedural Environment Generation for Tool-Use Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.emnlp-main.936.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.emnlp-main.936/"
+    ],
+    "og:description": [
+      "Michael Sullivan, Mareike Hartmann, Alexander Koller. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. 2025."
+    ]
+  },
+  "html_sha256": "07957990baa835e7b8d5df6e1db9fc9878cae5081b260ff7870c692cacc53d1c",
+  "evidence_html": "evidence/72ed4fbf3b653c33d6c9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,107 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.acl-demos.32",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.acl-demos.32",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "LEGENT: open platform for embodied agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.acl-demos.32",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:50.101495+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.acl-demos.32/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44074,
+  "title": "LEGENT: Open Platform for Embodied Agents",
+  "authors": [
+    "Zhili Cheng",
+    "Zhitong Wang",
+    "Jinyi Hu",
+    "Shengding Hu",
+    "An Liu",
+    "Yuge Tu",
+    "Pengkai Li",
+    "Lei Shi",
+    "Zhiyuan Liu",
+    "Maosong Sun (孙茂松)"
+  ],
+  "first_author": "Zhili Cheng",
+  "year": 2024,
+  "source_date": "2024/8",
+  "venue_from_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.acl-demos.32",
+  "arxiv_id": "",
+  "abstract": "Despite advancements in Large Language Models (LLMs) and Large Multimodal Models (LMMs), their integration into language-grounded, human-like embodied agents remains incomplete, hindering complex real-life task performance in 3D environments. Existing integrations often feature limited open-sourcing, challenging collective progress in this field. We introduce LEGENT, an open, scalable platform for developing embodied agents using LLMs and LMMs. LEGENT offers a dual approach: a rich 3D environment with interactive, communicable, and actionable agents, paired with a user-friendly interface, and a sophisticated data generation pipeline utilizing advanced algorithms to exploit supervision from simulated worlds at scale. In our experiments, an embryonic vision-language-action model trained on LEGENT-generated data surpasses GPT-4V in embodied tasks, showcasing promising generalization capabilities. The demo video is available at the following link https://video.legent.ai .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "LEGENT: Open Platform for Embodied Agents"
+    ],
+    "citation_author": [
+      "Zhili Cheng",
+      "Zhitong Wang",
+      "Jinyi Hu",
+      "Shengding Hu",
+      "An Liu",
+      "Yuge Tu",
+      "Pengkai Li",
+      "Lei Shi",
+      "Zhiyuan Liu",
+      "Maosong Sun (孙茂松)"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.acl-demos.32.pdf"
+    ],
+    "citation_firstpage": [
+      "335"
+    ],
+    "citation_lastpage": [
+      "345"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.acl-demos.32"
+    ],
+    "og:title": [
+      "LEGENT: Open Platform for Embodied Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.acl-demos.32.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.acl-demos.32/"
+    ],
+    "og:description": [
+      "Zhili Cheng, Zhitong Wang, Jinyi Hu, Shengding Hu, An Liu, Yuge Tu, Pengkai Li, Lei Shi, Zhiyuan Liu, Maosong Sun. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations). 2024."
+    ]
+  },
+  "html_sha256": "7795c6e29f581918f548f6f1374674fa18cc63bff8e67321aeeba060564d4a30",
+  "evidence_html": "evidence/31c84683d0881b90091c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

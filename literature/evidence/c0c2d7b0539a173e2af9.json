@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2508.03501",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.03501",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.03501",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:39.736997+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.03501",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44875,
+  "title": "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning",
+  "authors": [
+    "Golubev, Alexander",
+    "Trofimova, Maria",
+    "Polezhaev, Sergei",
+    "Badertdinov, Ibragim",
+    "Nekrashevich, Maksim",
+    "Shevtsov, Anton",
+    "Karasik, Simon",
+    "Abramov, Sergey",
+    "Andriushchenko, Andrei",
+    "Fisin, Filipp",
+    "Skvortsov, Sergei",
+    "Yangel, Boris"
+  ],
+  "first_author": "Golubev, Alexander",
+  "year": 2025,
+  "source_date": "2025/08/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.03501",
+  "abstract": "Research on applications of reinforcement learning (RL) to large language models has mostly been focused on single-turn problems, such as mathematical reasoning or single-shot code generation. While these problems can be viewed as token-level multi-turn Markov decision processes (MDPs), this view corresponds to a degenerate case of multi-turn interaction where the environment provides no feedback. This contrasts with many real-world domains, such as software engineering (SWE), which require rich multi-turn interactions with a stateful environment that responds to each action with a non-trivial observation. To bridge this gap, we demonstrate the successful application of RL to this general regime. Our methodology begins with rejection fine-tuning (RFT) using execution feedback to train a policy to follow instructions and formatting effectively, followed by a synchronous RL pipeline using DAPO for iterative improvement. Applying this pipeline to Qwen2.5-72B-Instruct, we increase its Pass@1 on the SWE-bench Verified benchmark from 11% to 39%, substantially improving upon the 20% RFT baseline. On the May and June splits of SWE-rebench, the resulting agent achieves Pass@1 of 35% and 31% respectively, competitive with even larger models such as DeepSeek-V3-0324 or Qwen3-235B-A22B, demonstrating that our methodology offers a practical approach for training capable agents for multi-turn interactive tasks using open-weight models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.03501: Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.03501v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Research on applications of reinforcement learning (RL) to large language models has mostly been focused on single-turn problems, such as mathematical reasoning or single-shot code generation. While these problems can be viewed as token-level multi-turn Markov decision processes (MDPs), this view corresponds to a degenerate case of multi-turn interaction where the environment provides no feedback. This contrasts with many real-world domains, such as software engineering (SWE), which require rich multi-turn interactions with a stateful environment that responds to each action with a non-trivial observation. To bridge this gap, we demonstrate the successful application of RL to this general regime. Our methodology begins with rejection fine-tuning (RFT) using execution feedback to train a policy to follow instructions and formatting effectively, followed by a synchronous RL pipeline using DAPO for iterative improvement. Applying this pipeline to Qwen2.5-72B-Instruct, we increase its Pass@1 on the SWE-bench Verified benchmark from 11% to 39%, substantially improving upon the 20% RFT baseline. On the May and June splits of SWE-rebench, the resulting agent achieves Pass@1 of 35% and 31% respectively, competitive with even larger models such as DeepSeek-V3-0324 or Qwen3-235B-A22B, demonstrating that our methodology offers a practical approach for training capable agents for multi-turn interactive tasks using open-weight models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Training Long-Context, Multi-Turn Software Engineering Agents with..."
+    ],
+    "twitter:description": [
+      "Research on applications of reinforcement learning (RL) to large language models has mostly been focused on single-turn problems, such as mathematical reasoning or single-shot code generation...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Golubev, Alexander",
+      "Trofimova, Maria",
+      "Polezhaev, Sergei",
+      "Badertdinov, Ibragim",
+      "Nekrashevich, Maksim",
+      "Shevtsov, Anton",
+      "Karasik, Simon",
+      "Abramov, Sergey",
+      "Andriushchenko, Andrei",
+      "Fisin, Filipp",
+      "Skvortsov, Sergei",
+      "Yangel, Boris"
+    ],
+    "citation_date": [
+      "2025/08/05"
+    ],
+    "citation_online_date": [
+      "2025/10/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.03501"
+    ],
+    "citation_arxiv_id": [
+      "2508.03501"
+    ],
+    "citation_abstract": [
+      "Research on applications of reinforcement learning (RL) to large language models has mostly been focused on single-turn problems, such as mathematical reasoning or single-shot code generation. While these problems can be viewed as token-level multi-turn Markov decision processes (MDPs), this view corresponds to a degenerate case of multi-turn interaction where the environment provides no feedback. This contrasts with many real-world domains, such as software engineering (SWE), which require rich multi-turn interactions with a stateful environment that responds to each action with a non-trivial observation. To bridge this gap, we demonstrate the successful application of RL to this general regime. Our methodology begins with rejection fine-tuning (RFT) using execution feedback to train a policy to follow instructions and formatting effectively, followed by a synchronous RL pipeline using DAPO for iterative improvement. Applying this pipeline to Qwen2.5-72B-Instruct, we increase its Pass@1 on the SWE-bench Verified benchmark from 11% to 39%, substantially improving upon the 20% RFT baseline. On the May and June splits of SWE-rebench, the resulting agent achieves Pass@1 of 35% and 31% respectively, competitive with even larger models such as DeepSeek-V3-0324 or Qwen3-235B-A22B, demonstrating that our methodology offers a practical approach for training capable agents for multi-turn interactive tasks using open-weight models."
+    ]
+  },
+  "html_sha256": "84fb257488e4162eb4ee0403e98efb7dc201204da89d180f35891b57e0897ba5",
+  "evidence_html": "evidence/c0c2d7b0539a173e2af9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2402.07939",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.07939",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Ufo: A ui-focused agent for windows os interaction",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.07939",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:02.442112+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.07939",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43375,
+  "title": "UFO: A UI-Focused Agent for Windows OS Interaction",
+  "authors": [
+    "Zhang, Chaoyun",
+    "Li, Liqun",
+    "He, Shilin",
+    "Zhang, Xu",
+    "Qiao, Bo",
+    "Qin, Si",
+    "Ma, Minghua",
+    "Kang, Yu",
+    "Lin, Qingwei",
+    "Rajmohan, Saravan",
+    "Zhang, Dongmei",
+    "Zhang, Qi"
+  ],
+  "first_author": "Zhang, Chaoyun",
+  "year": 2024,
+  "source_date": "2024/02/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.07939",
+  "abstract": "We introduce UFO, an innovative UI-Focused agent to fulfill user requests tailored to applications on Windows OS, harnessing the capabilities of GPT-Vision. UFO employs a dual-agent framework to meticulously observe and analyze the graphical user interface (GUI) and control information of Windows applications. This enables the agent to seamlessly navigate and operate within individual applications and across them to fulfill user requests, even when spanning multiple applications. The framework incorporates a control interaction module, facilitating action grounding without human intervention and enabling fully automated execution. Consequently, UFO transforms arduous and time-consuming processes into simple tasks achievable solely through natural language commands. We conducted testing of UFO across 9 popular Windows applications, encompassing a variety of scenarios reflective of users' daily usage. The results, derived from both quantitative metrics and real-case studies, underscore the superior effectiveness of UFO in fulfilling user requests. To the best of our knowledge, UFO stands as the first UI agent specifically tailored for task completion within the Windows OS environment. The open-source code for UFO is available on this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.07939: UFO: A UI-Focused Agent for Windows OS Interaction"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "UFO: A UI-Focused Agent for Windows OS Interaction"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.07939v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce UFO, an innovative UI-Focused agent to fulfill user requests tailored to applications on Windows OS, harnessing the capabilities of GPT-Vision. UFO employs a dual-agent framework to meticulously observe and analyze the graphical user interface (GUI) and control information of Windows applications. This enables the agent to seamlessly navigate and operate within individual applications and across them to fulfill user requests, even when spanning multiple applications. The framework incorporates a control interaction module, facilitating action grounding without human intervention and enabling fully automated execution. Consequently, UFO transforms arduous and time-consuming processes into simple tasks achievable solely through natural language commands. We conducted testing of UFO across 9 popular Windows applications, encompassing a variety of scenarios reflective of users' daily usage. The results, derived from both quantitative metrics and real-case studies, underscore the superior effectiveness of UFO in fulfilling user requests. To the best of our knowledge, UFO stands as the first UI agent specifically tailored for task completion within the Windows OS environment. The open-source code for UFO is available on https://github.com/microsoft/UFO."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "UFO: A UI-Focused Agent for Windows OS Interaction"
+    ],
+    "twitter:description": [
+      "We introduce UFO, an innovative UI-Focused agent to fulfill user requests tailored to applications on Windows OS, harnessing the capabilities of GPT-Vision. UFO employs a dual-agent framework to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "UFO: A UI-Focused Agent for Windows OS Interaction"
+    ],
+    "citation_author": [
+      "Zhang, Chaoyun",
+      "Li, Liqun",
+      "He, Shilin",
+      "Zhang, Xu",
+      "Qiao, Bo",
+      "Qin, Si",
+      "Ma, Minghua",
+      "Kang, Yu",
+      "Lin, Qingwei",
+      "Rajmohan, Saravan",
+      "Zhang, Dongmei",
+      "Zhang, Qi"
+    ],
+    "citation_date": [
+      "2024/02/08"
+    ],
+    "citation_online_date": [
+      "2024/05/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.07939"
+    ],
+    "citation_arxiv_id": [
+      "2402.07939"
+    ],
+    "citation_abstract": [
+      "We introduce UFO, an innovative UI-Focused agent to fulfill user requests tailored to applications on Windows OS, harnessing the capabilities of GPT-Vision. UFO employs a dual-agent framework to meticulously observe and analyze the graphical user interface (GUI) and control information of Windows applications. This enables the agent to seamlessly navigate and operate within individual applications and across them to fulfill user requests, even when spanning multiple applications. The framework incorporates a control interaction module, facilitating action grounding without human intervention and enabling fully automated execution. Consequently, UFO transforms arduous and time-consuming processes into simple tasks achievable solely through natural language commands. We conducted testing of UFO across 9 popular Windows applications, encompassing a variety of scenarios reflective of users' daily usage. The results, derived from both quantitative metrics and real-case studies, underscore the superior effectiveness of UFO in fulfilling user requests. To the best of our knowledge, UFO stands as the first UI agent specifically tailored for task completion within the Windows OS environment. The open-source code for UFO is available on https://github.com/microsoft/UFO."
+    ]
+  },
+  "html_sha256": "65482a83d8fdb3a1291ad68eb5457c0baf95e749e21aca4f9615e753da542ac9",
+  "evidence_html": "evidence/768b770dbaf61df7b34b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

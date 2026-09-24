@@ -1,0 +1,21 @@
+{
+  "url": "https://proceedings.neurips.cc/paper_files/paper/1994/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf",
+  "discoveries": [
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/1994/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Generalization in Reinforcement Learning : Safely approximating the value function, NeurIPS 1994. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://proceedings.neurips.cc/paper_files/paper/1994/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:59.473557+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.neurips.cc/paper_files/paper/1994/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf",
+  "content_type": "application/pdf",
+  "response_bytes": 1726434,
+  "error": "PDF source opened; metadata requires manual extraction; not automatically counted."
+}

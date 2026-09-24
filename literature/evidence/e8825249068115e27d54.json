@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=8xLkv08d70T",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=8xLkv08d70T",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2020 · APT-Gen — Adaptive Procedural Task Generation for Hard-Exploration Problems",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=8xLkv08d70T",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:35.182147+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3D8xLkv08d70T",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4789,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "e006de39af6a0f8f2da6651617cb842ce316c6437fe94b5edcb108ad46f9402e",
+  "evidence_html": "evidence/e8825249068115e27d54.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

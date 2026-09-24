@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2506.14205",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.14205",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Agentsynth: Scalable task generation for generalist computer-use agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.14205",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:28.454467+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.14205",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40788,
+  "title": "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents",
+  "authors": [
+    "Xie, Jingxu",
+    "Xu, Dylan",
+    "Zhao, Xuandong",
+    "Song, Dawn"
+  ],
+  "first_author": "Xie, Jingxu",
+  "year": 2025,
+  "source_date": "2025/06/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.14205",
+  "abstract": "We introduce AgentSynth, a scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents. Leveraging information asymmetry, AgentSynth constructs subtasks that are simple during generation but significantly more challenging when composed into long-horizon tasks, enabling the creation of over 6,000 diverse and realistic tasks. A key strength of AgentSynth is its ability to precisely modulate task complexity by varying the number of subtasks. Empirical evaluations show that state-of-the-art LLM agents suffer a steep performance drop, from 18% success at difficulty level 1 to just 4% at level 6, highlighting the benchmark's difficulty and discriminative power. Moreover, our pipeline achieves a low average cost of $0.60 per trajectory, orders of magnitude cheaper than human annotations. Our code and data are available at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.14205: AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.14205v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce AgentSynth, a scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents. Leveraging information asymmetry, AgentSynth constructs subtasks that are simple during generation but significantly more challenging when composed into long-horizon tasks, enabling the creation of over 6,000 diverse and realistic tasks. A key strength of AgentSynth is its ability to precisely modulate task complexity by varying the number of subtasks. Empirical evaluations show that state-of-the-art LLM agents suffer a steep performance drop, from 18% success at difficulty level 1 to just 4% at level 6, highlighting the benchmark's difficulty and discriminative power. Moreover, our pipeline achieves a low average cost of $0.60 per trajectory, orders of magnitude cheaper than human annotations. Our code and data are available at https://github.com/sunblaze-ucb/AgentSynth"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
+    ],
+    "twitter:description": [
+      "We introduce AgentSynth, a scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents. Leveraging information..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
+    ],
+    "citation_author": [
+      "Xie, Jingxu",
+      "Xu, Dylan",
+      "Zhao, Xuandong",
+      "Song, Dawn"
+    ],
+    "citation_date": [
+      "2025/06/17"
+    ],
+    "citation_online_date": [
+      "2026/03/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.14205"
+    ],
+    "citation_arxiv_id": [
+      "2506.14205"
+    ],
+    "citation_abstract": [
+      "We introduce AgentSynth, a scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents. Leveraging information asymmetry, AgentSynth constructs subtasks that are simple during generation but significantly more challenging when composed into long-horizon tasks, enabling the creation of over 6,000 diverse and realistic tasks. A key strength of AgentSynth is its ability to precisely modulate task complexity by varying the number of subtasks. Empirical evaluations show that state-of-the-art LLM agents suffer a steep performance drop, from 18% success at difficulty level 1 to just 4% at level 6, highlighting the benchmark's difficulty and discriminative power. Moreover, our pipeline achieves a low average cost of $0.60 per trajectory, orders of magnitude cheaper than human annotations. Our code and data are available at https://github.com/sunblaze-ucb/AgentSynth"
+    ]
+  },
+  "html_sha256": "f337320d0579832904c64f6bcfc7b9fffb044af9fe6ec0241e7e7f59562ad97f",
+  "evidence_html": "evidence/f8ce82e6b7d3e5d14c5c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

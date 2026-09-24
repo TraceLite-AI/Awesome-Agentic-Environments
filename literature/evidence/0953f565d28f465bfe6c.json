@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=DSsSPr0RZJ",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=DSsSPr0RZJ",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Dsbench: How far are data science agents from becoming data science experts?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=DSsSPr0RZJ",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:20.628076+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DDSsSPr0RZJ",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "d129b36dd51aeae6f7a2e06f1c8106f93a79769eb1da9aa1ac94fcd7966ee41d",
+  "evidence_html": "evidence/0953f565d28f465bfe6c.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

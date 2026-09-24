@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2607.21653",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2607.21653",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2607.21653",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:45.989340+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2607.21653",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45312,
+  "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+  "authors": [
+    "Hu, Jian",
+    "Li, Huiying",
+    "Zhang, Hao",
+    "Xu, Binfeng",
+    "Zhang, Yifan",
+    "Zhang, Shaokun",
+    "Desai, Hemil",
+    "Demoret, Michael",
+    "Molchanov, Pavlo",
+    "Kautz, Jan",
+    "Dong, Yi"
+  ],
+  "first_author": "Hu, Jian",
+  "year": 2026,
+  "source_date": "2026/07/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.13140/RG.2.2.23375.65447",
+  "arxiv_id": "2607.21653",
+  "abstract": "Agentic reinforcement learning requires rapid experimentation with agents and learning algorithms, yet large policies and long, multimodal trajectories demand substantial distributed infrastructure. We present MOLT, a lightweight, PyTorch- and Hugging Face-native framework that brings these goals together through four contributions. MOLT combines direct loading of Hugging Face models with experimentally validated trillion-parameter scalability in approximately 9.2K lines of framework code. Unified OpenAI- and Anthropic-compatible interfaces integrate existing agents with automatic handling of context compaction. Fully asynchronous training overlaps agent rollouts and policy optimization, accommodating variable agent execution times. Distributed experience storage removes centralized rollout-memory bottlenecks for long, multimodal trajectories. We experimentally validate the complete RL training pipeline on a one-trillion-parameter policy and demonstrate sustained learning with a 30B mixture-of-experts agent, establishing MOLT as a lightweight foundation for large-scale agentic RL research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2607.21653: Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2607.21653v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agentic reinforcement learning requires rapid experimentation with agents and learning algorithms, yet large policies and long, multimodal trajectories demand substantial distributed infrastructure. We present MOLT, a lightweight, PyTorch- and Hugging Face-native framework that brings these goals together through four contributions. MOLT combines direct loading of Hugging Face models with experimentally validated trillion-parameter scalability in approximately 9.2K lines of framework code. Unified OpenAI- and Anthropic-compatible interfaces integrate existing agents with automatic handling of context compaction. Fully asynchronous training overlaps agent rollouts and policy optimization, accommodating variable agent execution times. Distributed experience storage removes centralized rollout-memory bottlenecks for long, multimodal trajectories. We experimentally validate the complete RL training pipeline on a one-trillion-parameter policy and demonstrate sustained learning with a 30B mixture-of-experts agent, establishing MOLT as a lightweight foundation for large-scale agentic RL research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Molt: A Scalable PyTorch-Native Training Framework for Agentic..."
+    ],
+    "twitter:description": [
+      "Agentic reinforcement learning requires rapid experimentation with agents and learning algorithms, yet large policies and long, multimodal trajectories demand substantial distributed..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Hu, Jian",
+      "Li, Huiying",
+      "Zhang, Hao",
+      "Xu, Binfeng",
+      "Zhang, Yifan",
+      "Zhang, Shaokun",
+      "Desai, Hemil",
+      "Demoret, Michael",
+      "Molchanov, Pavlo",
+      "Kautz, Jan",
+      "Dong, Yi"
+    ],
+    "citation_doi": [
+      "10.13140/RG.2.2.23375.65447"
+    ],
+    "citation_date": [
+      "2026/07/22"
+    ],
+    "citation_online_date": [
+      "2026/09/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2607.21653"
+    ],
+    "citation_arxiv_id": [
+      "2607.21653"
+    ],
+    "citation_abstract": [
+      "Agentic reinforcement learning requires rapid experimentation with agents and learning algorithms, yet large policies and long, multimodal trajectories demand substantial distributed infrastructure. We present MOLT, a lightweight, PyTorch- and Hugging Face-native framework that brings these goals together through four contributions. MOLT combines direct loading of Hugging Face models with experimentally validated trillion-parameter scalability in approximately 9.2K lines of framework code. Unified OpenAI- and Anthropic-compatible interfaces integrate existing agents with automatic handling of context compaction. Fully asynchronous training overlaps agent rollouts and policy optimization, accommodating variable agent execution times. Distributed experience storage removes centralized rollout-memory bottlenecks for long, multimodal trajectories. We experimentally validate the complete RL training pipeline on a one-trillion-parameter policy and demonstrate sustained learning with a 30B mixture-of-experts agent, establishing MOLT as a lightweight foundation for large-scale agentic RL research."
+    ]
+  },
+  "html_sha256": "53fc9768d4e4ce99762f227559b3156873093457ee693cae008339d5688d602a",
+  "evidence_html": "evidence/15c64acf14a039610296.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

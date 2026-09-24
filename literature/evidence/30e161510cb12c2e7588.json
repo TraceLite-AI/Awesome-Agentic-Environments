@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2306.07929",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2306.07929",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "REMEMBER",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2306.07929",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:51.862108+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2306.07929",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41528,
+  "title": "Large Language Models Are Semi-Parametric Reinforcement Learning Agents",
+  "authors": [
+    "Zhang, Danyang",
+    "Chen, Lu",
+    "Zhang, Situo",
+    "Xu, Hongshen",
+    "Zhao, Zihan",
+    "Yu, Kai"
+  ],
+  "first_author": "Zhang, Danyang",
+  "year": 2023,
+  "source_date": "2023/06/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2306.07929",
+  "abstract": "Inspired by the insights in cognitive science with respect to human memory and reasoning mechanism, a novel evolvable LLM-based (Large Language Model) agent framework is proposed as REMEMBERER. By equipping the LLM with a long-term experience memory, REMEMBERER is capable of exploiting the experiences from the past episodes even for different task goals, which excels an LLM-based agent with fixed exemplars or equipped with a transient working memory. We further introduce Reinforcement Learning with Experience Memory (RLEM) to update the memory. Thus, the whole system can learn from the experiences of both success and failure, and evolve its capability without fine-tuning the parameters of the LLM. In this way, the proposed REMEMBERER constitutes a semi-parametric RL agent. Extensive experiments are conducted on two RL task sets to evaluate the proposed framework. The average results with different initialization and training sets exceed the prior SOTA by 4% and 2% for the success rate on two task sets and demonstrate the superiority and robustness of REMEMBERER.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2306.07929: Large Language Models Are Semi-Parametric Reinforcement Learning Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Large Language Models Are Semi-Parametric Reinforcement Learning Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2306.07929v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Inspired by the insights in cognitive science with respect to human memory and reasoning mechanism, a novel evolvable LLM-based (Large Language Model) agent framework is proposed as REMEMBERER. By equipping the LLM with a long-term experience memory, REMEMBERER is capable of exploiting the experiences from the past episodes even for different task goals, which excels an LLM-based agent with fixed exemplars or equipped with a transient working memory. We further introduce Reinforcement Learning with Experience Memory (RLEM) to update the memory. Thus, the whole system can learn from the experiences of both success and failure, and evolve its capability without fine-tuning the parameters of the LLM. In this way, the proposed REMEMBERER constitutes a semi-parametric RL agent. Extensive experiments are conducted on two RL task sets to evaluate the proposed framework. The average results with different initialization and training sets exceed the prior SOTA by 4% and 2% for the success rate on two task sets and demonstrate the superiority and robustness of REMEMBERER."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Large Language Models Are Semi-Parametric Reinforcement Learning Agents"
+    ],
+    "twitter:description": [
+      "Inspired by the insights in cognitive science with respect to human memory and reasoning mechanism, a novel evolvable LLM-based (Large Language Model) agent framework is proposed as REMEMBERER. By..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Large Language Models Are Semi-Parametric Reinforcement Learning Agents"
+    ],
+    "citation_author": [
+      "Zhang, Danyang",
+      "Chen, Lu",
+      "Zhang, Situo",
+      "Xu, Hongshen",
+      "Zhao, Zihan",
+      "Yu, Kai"
+    ],
+    "citation_date": [
+      "2023/06/09"
+    ],
+    "citation_online_date": [
+      "2023/10/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2306.07929"
+    ],
+    "citation_arxiv_id": [
+      "2306.07929"
+    ],
+    "citation_abstract": [
+      "Inspired by the insights in cognitive science with respect to human memory and reasoning mechanism, a novel evolvable LLM-based (Large Language Model) agent framework is proposed as REMEMBERER. By equipping the LLM with a long-term experience memory, REMEMBERER is capable of exploiting the experiences from the past episodes even for different task goals, which excels an LLM-based agent with fixed exemplars or equipped with a transient working memory. We further introduce Reinforcement Learning with Experience Memory (RLEM) to update the memory. Thus, the whole system can learn from the experiences of both success and failure, and evolve its capability without fine-tuning the parameters of the LLM. In this way, the proposed REMEMBERER constitutes a semi-parametric RL agent. Extensive experiments are conducted on two RL task sets to evaluate the proposed framework. The average results with different initialization and training sets exceed the prior SOTA by 4% and 2% for the success rate on two task sets and demonstrate the superiority and robustness of REMEMBERER."
+    ]
+  },
+  "html_sha256": "36553f20f72146020ed557b9ca48b736649a9ec96f7adbe98a14edca94ee9323",
+  "evidence_html": "evidence/30e161510cb12c2e7588.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

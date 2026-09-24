@@ -1,0 +1,123 @@
+{
+  "url": "https://arxiv.org/abs/2410.07765",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.07765",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Gametraversalbenchmark: Evaluating planning abilities of large language models through traversing 2d game maps",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.07765",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:52.666752+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.07765",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41443,
+  "title": "GameTraversalBenchmark: Evaluating Planning Abilities Of Large Language Models Through Traversing 2D Game Maps",
+  "authors": [
+    "Nasir, Muhammad Umair",
+    "James, Steven",
+    "Togelius, Julian"
+  ],
+  "first_author": "Nasir, Muhammad Umair",
+  "year": 2024,
+  "source_date": "2024/10/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.07765",
+  "abstract": "Large language models (LLMs) have recently demonstrated great success in generating and understanding natural language. While they have also shown potential beyond the domain of natural language, it remains an open question as to what extent and in which way these LLMs can plan. We investigate their planning capabilities by proposing GameTraversalBenchmark (GTB), a benchmark consisting of diverse 2D grid-based game maps. An LLM succeeds if it can traverse through given objectives, with a minimum number of steps and a minimum number of generation errors. We evaluate a number of LLMs on GTB and found that GPT-4-Turbo achieved the highest score of 44.97% on GTB\\_Score (GTBS), a composite score that combines the three above criteria. Furthermore, we preliminarily test large reasoning models, namely o1, which scores $67.84\\%$ on GTBS, indicating that the benchmark remains challenging for current models. Code, data, and documentation are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.07765: GameTraversalBenchmark: Evaluating Planning Abilities Of Large Language Models Through Traversing 2D Game Maps"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GameTraversalBenchmark: Evaluating Planning Abilities Of Large Language Models Through Traversing 2D Game Maps"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.07765v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have recently demonstrated great success in generating and understanding natural language. While they have also shown potential beyond the domain of natural language, it remains an open question as to what extent and in which way these LLMs can plan. We investigate their planning capabilities by proposing GameTraversalBenchmark (GTB), a benchmark consisting of diverse 2D grid-based game maps. An LLM succeeds if it can traverse through given objectives, with a minimum number of steps and a minimum number of generation errors. We evaluate a number of LLMs on GTB and found that GPT-4-Turbo achieved the highest score of 44.97% on GTB\\_Score (GTBS), a composite score that combines the three above criteria. Furthermore, we preliminarily test large reasoning models, namely o1, which scores $67.84\\%$ on GTBS, indicating that the benchmark remains challenging for current models. Code, data, and documentation are available at https://github.com/umair-nasir14/Game-Traversal-Benchmark."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GameTraversalBenchmark: Evaluating Planning Abilities Of Large..."
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have recently demonstrated great success in generating and understanding natural language. While they have also shown potential beyond the domain of natural language,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GameTraversalBenchmark: Evaluating Planning Abilities Of Large Language Models Through Traversing 2D Game Maps"
+    ],
+    "citation_author": [
+      "Nasir, Muhammad Umair",
+      "James, Steven",
+      "Togelius, Julian"
+    ],
+    "citation_date": [
+      "2024/10/10"
+    ],
+    "citation_online_date": [
+      "2024/10/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.07765"
+    ],
+    "citation_arxiv_id": [
+      "2410.07765"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have recently demonstrated great success in generating and understanding natural language. While they have also shown potential beyond the domain of natural language, it remains an open question as to what extent and in which way these LLMs can plan. We investigate their planning capabilities by proposing GameTraversalBenchmark (GTB), a benchmark consisting of diverse 2D grid-based game maps. An LLM succeeds if it can traverse through given objectives, with a minimum number of steps and a minimum number of generation errors. We evaluate a number of LLMs on GTB and found that GPT-4-Turbo achieved the highest score of 44.97% on GTB\\_Score (GTBS), a composite score that combines the three above criteria. Furthermore, we preliminarily test large reasoning models, namely o1, which scores $67.84\\%$ on GTBS, indicating that the benchmark remains challenging for current models. Code, data, and documentation are available at https://github.com/umair-nasir14/Game-Traversal-Benchmark."
+    ]
+  },
+  "html_sha256": "fc007c112b608b3c14cfb8862b5db5cf52af54b5bacc3fcbcdb316531f037da5",
+  "evidence_html": "evidence/32cec132d7ead8d816fc.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

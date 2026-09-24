@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-24",
+  "status": "Discovery sources opened; individual paper metadata verification delegated to root agent",
+  "selected_count": 240,
+  "sources": [
+    {
+      "source_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn43view0",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/se.md",
+      "sha256": "e29a940eb4c7853b0735d010771f6a341d36f8cdff4887a1013be7cbbf706b9f",
+      "selected_candidates": 55
+    },
+    {
+      "source_url": "https://github.com/EuniAI/awesome-code-agents",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn49view2",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/code.md",
+      "sha256": "3607d8905359d41c901ffe1873a2db36ad84c69c5b5668a0284bb6f80e9c01d7",
+      "selected_candidates": 25
+    },
+    {
+      "source_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn49view0",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/os.md",
+      "sha256": "d6d48ef6fca566eb2f0cd9ed757de98752f9a96f77a205a12f7bcb6e5ca32f54",
+      "selected_candidates": 40
+    },
+    {
+      "source_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn61view0",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/gui_new.md",
+      "sha256": "ec638560743ecc3ca578f1d2e72ea5836c1eb05bb71e9ed08802d5a8320fae40",
+      "selected_candidates": 13
+    },
+    {
+      "source_url": "https://github.com/simular-ai/Agent-S",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn62view0",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/agent_s.md",
+      "sha256": "e6762b5107deb65e2a13519fab05862db61296994d8ac7e45b51088bb1be739c",
+      "selected_candidates": 2
+    },
+    {
+      "source_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn49view1",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/science.md",
+      "sha256": "15039926ef62c559836f4cb31d1e044a190fa76918df19d301e45b1de5364ca3",
+      "selected_candidates": 42
+    },
+    {
+      "source_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn43view2",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/multi.md",
+      "sha256": "80fb970f99081eb7671e369305877f1202ef289e1d0c7e82fc6e58f55a5178f8",
+      "selected_candidates": 37
+    },
+    {
+      "source_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn43view1",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/general.md",
+      "sha256": "0dc077c517761007ebb1f159c4b06082988859ada7cd987239d32cf676481711",
+      "selected_candidates": 22
+    },
+    {
+      "source_url": "https://github.com/luo-junyu/Awesome-Agent-Papers",
+      "opened_with": "web__run.open",
+      "tool_ref": "turn43view3",
+      "snapshot": "/Users/conglin/Downloads/环境综述/文献库500/discovery_agent/all.md",
+      "sha256": "69723ccbdc3243ac3729b0f99e0f8c38a5f37a0560ef7840cd88e0cff18630ae",
+      "selected_candidates": 4
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "url": "https://arxiv.org/abs/2605.16402",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2605.16402",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "WinDeskGround: A Benchmark for Robust GUI Grounding in Complex Multi-Window Desktop Environments",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2605.16402",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:43.904574+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2605.16402",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41341,
+  "title": "WinDeskGround: A Benchmark for Robust GUI Grounding in Complex Multi-Window Desktop Environments",
+  "authors": [
+    "Zhao, Haoren",
+    "Chen, Tianyi",
+    "Wang, Zhen"
+  ],
+  "first_author": "Zhao, Haoren",
+  "year": 2026,
+  "source_date": "2026/05/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2605.16402",
+  "abstract": "Multimodal Large Language Models (MLLMs) have revolutionized GUI automation, yet their efficacy is largely established on idealized, single-layer interfaces. This paper identifies a critical reliability gap: state-of-the-art agents face distinct robustness challenges in real-world desktop environments characterized by multi-window stacking, occlusion, and visual clutter. To address this, we introduce WinDeskGround, a novel benchmark and synthesis framework tailored for evaluating GUI grounding robustness. Unlike static datasets, our framework parametrically generates complex desktop scenarios by controlling window occlusion, layout density, and semantic similarity, thereby simulating the distribution shifts of authentic workflows. We construct a diverse meta-dataset of 1,356 high-fidelity instruction-target pairs and conduct comprehensive evaluations of five leading MLLMs. Our results demonstrate that while top-tier agents excel in simplified settings, their accuracy declines under partial occlusion. WinDeskGround provides a valuable benchmark to facilitate the assessment and advancement of GUI agent robustness in realistic environments. The code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2605.16402: WinDeskGround: A Benchmark for Robust GUI Grounding in Complex Multi-Window Desktop Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WinDeskGround: A Benchmark for Robust GUI Grounding in Complex Multi-Window Desktop Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2605.16402v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Multimodal Large Language Models (MLLMs) have revolutionized GUI automation, yet their efficacy is largely established on idealized, single-layer interfaces. This paper identifies a critical reliability gap: state-of-the-art agents face distinct robustness challenges in real-world desktop environments characterized by multi-window stacking, occlusion, and visual clutter. To address this, we introduce WinDeskGround, a novel benchmark and synthesis framework tailored for evaluating GUI grounding robustness. Unlike static datasets, our framework parametrically generates complex desktop scenarios by controlling window occlusion, layout density, and semantic similarity, thereby simulating the distribution shifts of authentic workflows. We construct a diverse meta-dataset of 1,356 high-fidelity instruction-target pairs and conduct comprehensive evaluations of five leading MLLMs. Our results demonstrate that while top-tier agents excel in simplified settings, their accuracy declines under partial occlusion. WinDeskGround provides a valuable benchmark to facilitate the assessment and advancement of GUI agent robustness in realistic environments. The code is available at https://github.com/ZZZhr-1/WinDeskGround."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WinDeskGround: A Benchmark for Robust GUI Grounding in Complex..."
+    ],
+    "twitter:description": [
+      "Multimodal Large Language Models (MLLMs) have revolutionized GUI automation, yet their efficacy is largely established on idealized, single-layer interfaces. This paper identifies a critical..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WinDeskGround: A Benchmark for Robust GUI Grounding in Complex Multi-Window Desktop Environments"
+    ],
+    "citation_author": [
+      "Zhao, Haoren",
+      "Chen, Tianyi",
+      "Wang, Zhen"
+    ],
+    "citation_date": [
+      "2026/05/13"
+    ],
+    "citation_online_date": [
+      "2026/05/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2605.16402"
+    ],
+    "citation_arxiv_id": [
+      "2605.16402"
+    ],
+    "citation_abstract": [
+      "Multimodal Large Language Models (MLLMs) have revolutionized GUI automation, yet their efficacy is largely established on idealized, single-layer interfaces. This paper identifies a critical reliability gap: state-of-the-art agents face distinct robustness challenges in real-world desktop environments characterized by multi-window stacking, occlusion, and visual clutter. To address this, we introduce WinDeskGround, a novel benchmark and synthesis framework tailored for evaluating GUI grounding robustness. Unlike static datasets, our framework parametrically generates complex desktop scenarios by controlling window occlusion, layout density, and semantic similarity, thereby simulating the distribution shifts of authentic workflows. We construct a diverse meta-dataset of 1,356 high-fidelity instruction-target pairs and conduct comprehensive evaluations of five leading MLLMs. Our results demonstrate that while top-tier agents excel in simplified settings, their accuracy declines under partial occlusion. WinDeskGround provides a valuable benchmark to facilitate the assessment and advancement of GUI agent robustness in realistic environments. The code is available at https://github.com/ZZZhr-1/WinDeskGround."
+    ]
+  },
+  "html_sha256": "2fd81474da337e188e2243b381221f3274d8db81ef29e47d70ce44f4ab6a6f60",
+  "evidence_html": "evidence/c3aa1c24c63ba2dfb295.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2502.05907",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.05907",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2025 · EvolvingAgent — EvolvingAgent: Curriculum Self-evolving Agent with Continual World Model for Long-Horizon Tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.05907",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:00.145671+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.05907",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43670,
+  "title": "EvolvingAgent: Curriculum Self-evolving Agent with Continual World Model for Long-Horizon Tasks",
+  "authors": [
+    "Feng, Tongtong",
+    "Wang, Xin",
+    "Zhou, Zekai",
+    "Wang, Ren",
+    "Zhan, Yuwei",
+    "Li, Guangyao",
+    "Li, Qing",
+    "Zhu, Wenwu"
+  ],
+  "first_author": "Feng, Tongtong",
+  "year": 2025,
+  "source_date": "2025/02/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2502.05907",
+  "abstract": "Completing Long-Horizon (LH) tasks in open-ended worlds is an important yet difficult problem for embodied agents. Existing approaches suffer from two key challenges: (1) they heavily rely on experiences obtained from human-created data or curricula, failing to autonomously update and select multimodal experiences, and (2) they may encounter catastrophic forgetting issues when faced with new tasks, failing to autonomously update world knowledge. To solve these challenges, this paper presents {\\bf EvolvingAgent}, a curriculum self-evolving agent with a continual World Model (WM), which can autonomously complete various LH tasks across environments through self-planning, self-control, and self-reflection, without human intervention. Specifically, EvolvingAgent contains three modules, i.e., i) the experience-driven task planner, which uses an LLM along with multimodal experiences to convert LH tasks into executable sub-tasks; ii) the WM-guided action controller, which leverages WM to generate low-level actions and incorporates a self-verification mechanism to update multimodal experiences; iii) the Curriculum Learning (CL) -based reflector, which implements a two-stage CL algorithm to select multimodal experiences for task-adaptive WM updates. By building a planner-controller-reflector closed-loop dynamic, the continual WM for EvolvingAgent can autonomously update multimodal experiences and world knowledge. We conducted extensive experiments on Minecraft, compared with existing methods, EvolvingAgent can improve 111.74{\\%} average success rate, reduce more than 6x ineffective actions, and generalize to the Atari environment with human-level performance.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.05907: EvolvingAgent: Curriculum Self-evolving Agent with Continual World Model for Long-Horizon Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "EvolvingAgent: Curriculum Self-evolving Agent with Continual World Model for Long-Horizon Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.05907v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Completing Long-Horizon (LH) tasks in open-ended worlds is an important yet difficult problem for embodied agents. Existing approaches suffer from two key challenges: (1) they heavily rely on experiences obtained from human-created data or curricula, failing to autonomously update and select multimodal experiences, and (2) they may encounter catastrophic forgetting issues when faced with new tasks, failing to autonomously update world knowledge. To solve these challenges, this paper presents {\\bf EvolvingAgent}, a curriculum self-evolving agent with a continual World Model (WM), which can autonomously complete various LH tasks across environments through self-planning, self-control, and self-reflection, without human intervention. Specifically, EvolvingAgent contains three modules, i.e., i) the experience-driven task planner, which uses an LLM along with multimodal experiences to convert LH tasks into executable sub-tasks; ii) the WM-guided action controller, which leverages WM to generate low-level actions and incorporates a self-verification mechanism to update multimodal experiences; iii) the Curriculum Learning (CL) -based reflector, which implements a two-stage CL algorithm to select multimodal experiences for task-adaptive WM updates. By building a planner-controller-reflector closed-loop dynamic, the continual WM for EvolvingAgent can autonomously update multimodal experiences and world knowledge. We conducted extensive experiments on Minecraft, compared with existing methods, EvolvingAgent can improve 111.74{\\%} average success rate, reduce more than 6x ineffective actions, and generalize to the Atari environment with human-level performance."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "EvolvingAgent: Curriculum Self-evolving Agent with Continual World..."
+    ],
+    "twitter:description": [
+      "Completing Long-Horizon (LH) tasks in open-ended worlds is an important yet difficult problem for embodied agents. Existing approaches suffer from two key challenges: (1) they heavily rely on..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "EvolvingAgent: Curriculum Self-evolving Agent with Continual World Model for Long-Horizon Tasks"
+    ],
+    "citation_author": [
+      "Feng, Tongtong",
+      "Wang, Xin",
+      "Zhou, Zekai",
+      "Wang, Ren",
+      "Zhan, Yuwei",
+      "Li, Guangyao",
+      "Li, Qing",
+      "Zhu, Wenwu"
+    ],
+    "citation_date": [
+      "2025/02/09"
+    ],
+    "citation_online_date": [
+      "2026/04/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.05907"
+    ],
+    "citation_arxiv_id": [
+      "2502.05907"
+    ],
+    "citation_abstract": [
+      "Completing Long-Horizon (LH) tasks in open-ended worlds is an important yet difficult problem for embodied agents. Existing approaches suffer from two key challenges: (1) they heavily rely on experiences obtained from human-created data or curricula, failing to autonomously update and select multimodal experiences, and (2) they may encounter catastrophic forgetting issues when faced with new tasks, failing to autonomously update world knowledge. To solve these challenges, this paper presents {\\bf EvolvingAgent}, a curriculum self-evolving agent with a continual World Model (WM), which can autonomously complete various LH tasks across environments through self-planning, self-control, and self-reflection, without human intervention. Specifically, EvolvingAgent contains three modules, i.e., i) the experience-driven task planner, which uses an LLM along with multimodal experiences to convert LH tasks into executable sub-tasks; ii) the WM-guided action controller, which leverages WM to generate low-level actions and incorporates a self-verification mechanism to update multimodal experiences; iii) the Curriculum Learning (CL) -based reflector, which implements a two-stage CL algorithm to select multimodal experiences for task-adaptive WM updates. By building a planner-controller-reflector closed-loop dynamic, the continual WM for EvolvingAgent can autonomously update multimodal experiences and world knowledge. We conducted extensive experiments on Minecraft, compared with existing methods, EvolvingAgent can improve 111.74{\\%} average success rate, reduce more than 6x ineffective actions, and generalize to the Atari environment with human-level performance."
+    ]
+  },
+  "html_sha256": "fbb2219442dbbfa77aecb84519802f5ba37eed39129095ca975f40adf4092a0f",
+  "evidence_html": "evidence/7ced0a82edb50c4a3fd8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

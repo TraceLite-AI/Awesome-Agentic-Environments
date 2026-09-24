@@ -1,0 +1,139 @@
+{
+  "url": "https://arxiv.org/abs/2510.24284",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.24284",
+      "discovery_url": "https://github.com/ggjy/Awesome-Agent-Engineering",
+      "topic": "agent_training_and_rl",
+      "title_hint": "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.24284",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:47.871943+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.24284",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42722,
+  "title": "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools",
+  "authors": [
+    "Wang, Wenhao",
+    "Niu, Peizhi",
+    "Xu, Zhao",
+    "Chen, Zhaoyu",
+    "Du, Jian",
+    "Du, Yaxin",
+    "Pang, Xianghe",
+    "Huang, Keduan",
+    "Wang, Yanfeng",
+    "Yan, Qiang",
+    "Chen, Siheng"
+  ],
+  "first_author": "Wang, Wenhao",
+  "year": 2025,
+  "source_date": "2025/10/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.24284",
+  "abstract": "Large Language Models (LLMs) increasingly rely on external tools to perform complex, realistic tasks, yet their ability to utilize the rapidly expanding Model Contextual Protocol (MCP) ecosystem remains limited. Existing MCP research covers few servers, depends on costly manual curation, and lacks training support, hindering progress toward real-world deployment. To overcome these limitations, we introduce MCP-Flow, an automated web-agent-driven pipeline for large-scale server discovery, data synthesis, and model training. MCP-Flow collects and filters data from 1166 servers and 11536 tools, producing 68733 high-quality instruction-function call pairs and 6439 trajectories, far exceeding prior work in scale and diversity. Extensive experiments demonstrate MCP-Flow's effectiveness in driving superior MCP tool selection, function-call generation, and enhanced agentic task performance. MCP-Flow thus provides a scalable foundation for advancing LLM agents' proficiency in real-world MCP environments. MCP-Flow is publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.24284: MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.24284v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) increasingly rely on external tools to perform complex, realistic tasks, yet their ability to utilize the rapidly expanding Model Contextual Protocol (MCP) ecosystem remains limited. Existing MCP research covers few servers, depends on costly manual curation, and lacks training support, hindering progress toward real-world deployment. To overcome these limitations, we introduce MCP-Flow, an automated web-agent-driven pipeline for large-scale server discovery, data synthesis, and model training. MCP-Flow collects and filters data from 1166 servers and 11536 tools, producing 68733 high-quality instruction-function call pairs and 6439 trajectories, far exceeding prior work in scale and diversity. Extensive experiments demonstrate MCP-Flow's effectiveness in driving superior MCP tool selection, function-call generation, and enhanced agentic task performance. MCP-Flow thus provides a scalable foundation for advancing LLM agents' proficiency in real-world MCP environments. MCP-Flow is publicly available at https://github.com/wwh0411/MCP-Flow."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) increasingly rely on external tools to perform complex, realistic tasks, yet their ability to utilize the rapidly expanding Model Contextual Protocol (MCP) ecosystem..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools"
+    ],
+    "citation_author": [
+      "Wang, Wenhao",
+      "Niu, Peizhi",
+      "Xu, Zhao",
+      "Chen, Zhaoyu",
+      "Du, Jian",
+      "Du, Yaxin",
+      "Pang, Xianghe",
+      "Huang, Keduan",
+      "Wang, Yanfeng",
+      "Yan, Qiang",
+      "Chen, Siheng"
+    ],
+    "citation_date": [
+      "2025/10/28"
+    ],
+    "citation_online_date": [
+      "2026/04/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.24284"
+    ],
+    "citation_arxiv_id": [
+      "2510.24284"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) increasingly rely on external tools to perform complex, realistic tasks, yet their ability to utilize the rapidly expanding Model Contextual Protocol (MCP) ecosystem remains limited. Existing MCP research covers few servers, depends on costly manual curation, and lacks training support, hindering progress toward real-world deployment. To overcome these limitations, we introduce MCP-Flow, an automated web-agent-driven pipeline for large-scale server discovery, data synthesis, and model training. MCP-Flow collects and filters data from 1166 servers and 11536 tools, producing 68733 high-quality instruction-function call pairs and 6439 trajectories, far exceeding prior work in scale and diversity. Extensive experiments demonstrate MCP-Flow's effectiveness in driving superior MCP tool selection, function-call generation, and enhanced agentic task performance. MCP-Flow thus provides a scalable foundation for advancing LLM agents' proficiency in real-world MCP environments. MCP-Flow is publicly available at https://github.com/wwh0411/MCP-Flow."
+    ]
+  },
+  "html_sha256": "abd04eafbab758ab005a73fb908f7454a72920462593361a2664acb95823bdd3",
+  "evidence_html": "evidence/f5227becc41b15b45853.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

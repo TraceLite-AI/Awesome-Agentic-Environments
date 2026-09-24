@@ -1,0 +1,131 @@
+{
+  "url": "https://arxiv.org/abs/2310.08560",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.08560",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "memory_and_context",
+      "title_hint": "MemGPT: Towards LLMs as Operating Systems",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.08560",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:08.385444+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.08560",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42540,
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "authors": [
+    "Packer, Charles",
+    "Wooders, Sarah",
+    "Lin, Kevin",
+    "Fang, Vivian",
+    "Patil, Shishir G.",
+    "Stoica, Ion",
+    "Gonzalez, Joseph E."
+  ],
+  "first_author": "Packer, Charles",
+  "year": 2023,
+  "source_date": "2023/10/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.08560",
+  "abstract": "Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable using context beyond limited context windows, we propose virtual context management, a technique drawing inspiration from hierarchical memory systems in traditional operating systems that provide the appearance of large memory resources through data movement between fast and slow memory. Using this technique, we introduce MemGPT (Memory-GPT), a system that intelligently manages different memory tiers in order to effectively provide extended context within the LLM's limited context window, and utilizes interrupts to manage control flow between itself and the user. We evaluate our OS-inspired design in two domains where the limited context windows of modern LLMs severely handicaps their performance: document analysis, where MemGPT is able to analyze large documents that far exceed the underlying LLM's context window, and multi-session chat, where MemGPT can create conversational agents that remember, reflect, and evolve dynamically through long-term interactions with their users. We release MemGPT code and data for our experiments at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.08560: MemGPT: Towards LLMs as Operating Systems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MemGPT: Towards LLMs as Operating Systems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.08560v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable using context beyond limited context windows, we propose virtual context management, a technique drawing inspiration from hierarchical memory systems in traditional operating systems that provide the appearance of large memory resources through data movement between fast and slow memory. Using this technique, we introduce MemGPT (Memory-GPT), a system that intelligently manages different memory tiers in order to effectively provide extended context within the LLM's limited context window, and utilizes interrupts to manage control flow between itself and the user. We evaluate our OS-inspired design in two domains where the limited context windows of modern LLMs severely handicaps their performance: document analysis, where MemGPT is able to analyze large documents that far exceed the underlying LLM's context window, and multi-session chat, where MemGPT can create conversational agents that remember, reflect, and evolve dynamically through long-term interactions with their users. We release MemGPT code and data for our experiments at https://memgpt.ai."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MemGPT: Towards LLMs as Operating Systems"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MemGPT: Towards LLMs as Operating Systems"
+    ],
+    "citation_author": [
+      "Packer, Charles",
+      "Wooders, Sarah",
+      "Lin, Kevin",
+      "Fang, Vivian",
+      "Patil, Shishir G.",
+      "Stoica, Ion",
+      "Gonzalez, Joseph E."
+    ],
+    "citation_date": [
+      "2023/10/12"
+    ],
+    "citation_online_date": [
+      "2024/02/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.08560"
+    ],
+    "citation_arxiv_id": [
+      "2310.08560"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable using context beyond limited context windows, we propose virtual context management, a technique drawing inspiration from hierarchical memory systems in traditional operating systems that provide the appearance of large memory resources through data movement between fast and slow memory. Using this technique, we introduce MemGPT (Memory-GPT), a system that intelligently manages different memory tiers in order to effectively provide extended context within the LLM's limited context window, and utilizes interrupts to manage control flow between itself and the user. We evaluate our OS-inspired design in two domains where the limited context windows of modern LLMs severely handicaps their performance: document analysis, where MemGPT is able to analyze large documents that far exceed the underlying LLM's context window, and multi-session chat, where MemGPT can create conversational agents that remember, reflect, and evolve dynamically through long-term interactions with their users. We release MemGPT code and data for our experiments at https://memgpt.ai."
+    ]
+  },
+  "html_sha256": "fa7328c6c6b801fa1b9b6a5dd76fb1d2a8afddfc6e33bb2dd58978462bc6906f",
+  "evidence_html": "evidence/26e7ae529ac5e81bc7e0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

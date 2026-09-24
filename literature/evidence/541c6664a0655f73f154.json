@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2405.17935",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2405.17935",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "Tool Learning with Large Language Models: A Survey",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2405.17935",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:37.191225+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2405.17935",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45344,
+  "title": "Tool Learning with Large Language Models: A Survey",
+  "authors": [
+    "Qu, Changle",
+    "Dai, Sunhao",
+    "Wei, Xiaochi",
+    "Cai, Hengyi",
+    "Wang, Shuaiqiang",
+    "Yin, Dawei",
+    "Xu, Jun",
+    "Wen, Ji-Rong"
+  ],
+  "first_author": "Qu, Changle",
+  "year": 2024,
+  "source_date": "2024/05/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1007/s11704-024-40678-2",
+  "arxiv_id": "2405.17935",
+  "abstract": "Recently, tool learning with large language models (LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems. Despite growing attention and rapid advancements in this field, the existing literature remains fragmented and lacks systematic organization, posing barriers to entry for newcomers. This gap motivates us to conduct a comprehensive survey of existing works on tool learning with LLMs. In this survey, we focus on reviewing existing literature from the two primary aspects (1) why tool learning is beneficial and (2) how tool learning is implemented, enabling a comprehensive understanding of tool learning with LLMs. We first explore the \"why\" by reviewing both the benefits of tool integration and the inherent benefits of the tool learning paradigm from six specific aspects. In terms of \"how\", we systematically review the literature according to a taxonomy of four key stages in the tool learning workflow: task planning, tool selection, tool calling, and response generation. Additionally, we provide a detailed summary of existing benchmarks and evaluation methods, categorizing them according to their relevance to different stages. Finally, we discuss current challenges and outline potential future directions, aiming to inspire both researchers and industrial developers to further explore this emerging and promising area. We also maintain a GitHub repository to continually keep track of the relevant papers and resources in this rising area at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2405.17935: Tool Learning with Large Language Models: A Survey"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Tool Learning with Large Language Models: A Survey"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2405.17935v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recently, tool learning with large language models (LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems. Despite growing attention and rapid advancements in this field, the existing literature remains fragmented and lacks systematic organization, posing barriers to entry for newcomers. This gap motivates us to conduct a comprehensive survey of existing works on tool learning with LLMs. In this survey, we focus on reviewing existing literature from the two primary aspects (1) why tool learning is beneficial and (2) how tool learning is implemented, enabling a comprehensive understanding of tool learning with LLMs. We first explore the \"why\" by reviewing both the benefits of tool integration and the inherent benefits of the tool learning paradigm from six specific aspects. In terms of \"how\", we systematically review the literature according to a taxonomy of four key stages in the tool learning workflow: task planning, tool selection, tool calling, and response generation. Additionally, we provide a detailed summary of existing benchmarks and evaluation methods, categorizing them according to their relevance to different stages. Finally, we discuss current challenges and outline potential future directions, aiming to inspire both researchers and industrial developers to further explore this emerging and promising area. We also maintain a GitHub repository to continually keep track of the relevant papers and resources in this rising area at https://github.com/quchangle1/LLM-Tool-Survey."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Tool Learning with Large Language Models: A Survey"
+    ],
+    "twitter:description": [
+      "Recently, tool learning with large language models (LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems. Despite growing attention..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Tool Learning with Large Language Models: A Survey"
+    ],
+    "citation_author": [
+      "Qu, Changle",
+      "Dai, Sunhao",
+      "Wei, Xiaochi",
+      "Cai, Hengyi",
+      "Wang, Shuaiqiang",
+      "Yin, Dawei",
+      "Xu, Jun",
+      "Wen, Ji-Rong"
+    ],
+    "citation_doi": [
+      "10.1007/s11704-024-40678-2"
+    ],
+    "citation_date": [
+      "2024/05/28"
+    ],
+    "citation_online_date": [
+      "2024/11/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2405.17935"
+    ],
+    "citation_arxiv_id": [
+      "2405.17935"
+    ],
+    "citation_abstract": [
+      "Recently, tool learning with large language models (LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems. Despite growing attention and rapid advancements in this field, the existing literature remains fragmented and lacks systematic organization, posing barriers to entry for newcomers. This gap motivates us to conduct a comprehensive survey of existing works on tool learning with LLMs. In this survey, we focus on reviewing existing literature from the two primary aspects (1) why tool learning is beneficial and (2) how tool learning is implemented, enabling a comprehensive understanding of tool learning with LLMs. We first explore the \"why\" by reviewing both the benefits of tool integration and the inherent benefits of the tool learning paradigm from six specific aspects. In terms of \"how\", we systematically review the literature according to a taxonomy of four key stages in the tool learning workflow: task planning, tool selection, tool calling, and response generation. Additionally, we provide a detailed summary of existing benchmarks and evaluation methods, categorizing them according to their relevance to different stages. Finally, we discuss current challenges and outline potential future directions, aiming to inspire both researchers and industrial developers to further explore this emerging and promising area. We also maintain a GitHub repository to continually keep track of the relevant papers and resources in this rising area at https://github.com/quchangle1/LLM-Tool-Survey."
+    ]
+  },
+  "html_sha256": "587df24e0685ef98f6f7805f01c0a0dc43e0440dc865eb869806f7ebfba5710f",
+  "evidence_html": "evidence/541c6664a0655f73f154.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

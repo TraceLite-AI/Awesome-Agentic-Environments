@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2508.00400",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.00400",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Sari sandbox: A virtual retail store environment for embodied AI agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.00400",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:11.395887+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.00400",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41264,
+  "title": "Sari Sandbox: A Virtual Retail Store Environment for Embodied AI Agents",
+  "authors": [
+    "Gajo, Janika Deborah",
+    "Merales, Gerarld Paul",
+    "Escarcha, Jerome",
+    "Molina, Brenden Ashley",
+    "Nartea, Gian",
+    "Maminta, Emmanuel G.",
+    "Roldan, Juan Carlos",
+    "Atienza, Rowel O."
+  ],
+  "first_author": "Gajo, Janika Deborah",
+  "year": 2025,
+  "source_date": "2025/08/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.00400",
+  "abstract": "We present Sari Sandbox, a high-fidelity, photorealistic 3D retail store simulation for benchmarking embodied agents against human performance in shopping tasks. Addressing a gap in retail-specific sim environments for embodied agent training, Sari Sandbox features over 250 interactive grocery items across three store configurations, controlled via an API. It supports both virtual reality (VR) for human interaction and a vision language model (VLM)-powered embodied agent. We also introduce SariBench, a dataset of annotated human demonstrations across varied task difficulties. Our sandbox enables embodied agents to navigate, inspect, and manipulate retail items, providing baselines against human performance. We conclude with benchmarks, performance analysis, and recommendations for enhancing realism and scalability. The source code can be accessed via this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.00400: Sari Sandbox: A Virtual Retail Store Environment for Embodied AI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Sari Sandbox: A Virtual Retail Store Environment for Embodied AI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.00400v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present Sari Sandbox, a high-fidelity, photorealistic 3D retail store simulation for benchmarking embodied agents against human performance in shopping tasks. Addressing a gap in retail-specific sim environments for embodied agent training, Sari Sandbox features over 250 interactive grocery items across three store configurations, controlled via an API. It supports both virtual reality (VR) for human interaction and a vision language model (VLM)-powered embodied agent. We also introduce SariBench, a dataset of annotated human demonstrations across varied task difficulties. Our sandbox enables embodied agents to navigate, inspect, and manipulate retail items, providing baselines against human performance. We conclude with benchmarks, performance analysis, and recommendations for enhancing realism and scalability. The source code can be accessed via https://github.com/upeee/sari-sandbox-env."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Sari Sandbox: A Virtual Retail Store Environment for Embodied AI Agents"
+    ],
+    "twitter:description": [
+      "We present Sari Sandbox, a high-fidelity, photorealistic 3D retail store simulation for benchmarking embodied agents against human performance in shopping tasks. Addressing a gap in..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Sari Sandbox: A Virtual Retail Store Environment for Embodied AI Agents"
+    ],
+    "citation_author": [
+      "Gajo, Janika Deborah",
+      "Merales, Gerarld Paul",
+      "Escarcha, Jerome",
+      "Molina, Brenden Ashley",
+      "Nartea, Gian",
+      "Maminta, Emmanuel G.",
+      "Roldan, Juan Carlos",
+      "Atienza, Rowel O."
+    ],
+    "citation_date": [
+      "2025/08/01"
+    ],
+    "citation_online_date": [
+      "2025/08/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.00400"
+    ],
+    "citation_arxiv_id": [
+      "2508.00400"
+    ],
+    "citation_abstract": [
+      "We present Sari Sandbox, a high-fidelity, photorealistic 3D retail store simulation for benchmarking embodied agents against human performance in shopping tasks. Addressing a gap in retail-specific sim environments for embodied agent training, Sari Sandbox features over 250 interactive grocery items across three store configurations, controlled via an API. It supports both virtual reality (VR) for human interaction and a vision language model (VLM)-powered embodied agent. We also introduce SariBench, a dataset of annotated human demonstrations across varied task difficulties. Our sandbox enables embodied agents to navigate, inspect, and manipulate retail items, providing baselines against human performance. We conclude with benchmarks, performance analysis, and recommendations for enhancing realism and scalability. The source code can be accessed via https://github.com/upeee/sari-sandbox-env."
+    ]
+  },
+  "html_sha256": "e9a33124ed3034ba5247b531f9860cb84eed48a64ef96a1187e8434b5ca59856",
+  "evidence_html": "evidence/56f3f09dff445eb2a9ce.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

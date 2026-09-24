@@ -1,0 +1,164 @@
+{
+  "url": "https://arxiv.org/abs/2607.01120",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2607.01120",
+      "discovery_url": "https://github.com/areal-project/AReaL",
+      "topic": "agent_training_and_rl",
+      "title_hint": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2607.01120",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:59.083794+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2607.01120",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46422,
+  "title": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+  "authors": [
+    "Yan, Ran",
+    "Fu, Wei",
+    "Li, Jiale",
+    "Xu, Shusheng",
+    "Mei, Zhiyu",
+    "Gao, Jiaxuan",
+    "Zhang, Jiarui",
+    "Zhang, Wentai",
+    "Dai, Hao",
+    "Shen, Xujie",
+    "He, Chuyi",
+    "Pu, Zhen",
+    "Mei, Jun",
+    "Lin, Zhiyao",
+    "Wang, Haitao",
+    "Ding, Zhiqiang",
+    "Zhang, Jiawei",
+    "Wang, Huaijie",
+    "Xu, Ruida",
+    "Dong, Honghua",
+    "Jiang, Youhe",
+    "Wu, Yi",
+    "Yang, Tongkai",
+    "Yuan, Binhang"
+  ],
+  "first_author": "Yan, Ran",
+  "year": 2026,
+  "source_date": "2026/07/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2607.01120",
+  "abstract": "LLM agents are rapidly being deployed in production, including coding assistants, customer-support chatbots, and scientific research assistants, yet they remain fundamentally static in enterprise deployment. The LLM weights, system prompts, tool repertoires, and in-context harnesses are frozen at deployment time, and any improvement requires a manual loop of human-curated data collection, offline fine-tuning, modification of the agentic paradigm, and re-deployment. Recent work on self-evolving agents, such as OpenClaw for individual users, indicates that the next leap in agent capability will come from agents that continually learn from their own experience. In this paper, we argue that this vision for self-evolving agent deployment is being held back for enterprise-level large-scale agentic service not by reinforcement learning (RL) algorithms but by agentic online RL systems. Specifically, current agentic RL systems and the surrounding observability software stack are inadequate along three essential aspects: (i) there is no standardized agent trajectory data protocol capable of carrying RL learning signals at step granularity across heterogeneous agent paradigms; (ii) there is no enterprise-grade comprehensive data proxy that converts real workloads into governed learning substrates; and (iii) there is no unified agent evolution control plane that automatically decides, based on trajectory statistics, when to update policy weights or evolve the in-context harness. The next generation of agentic RL systems must be co-designed around these three pillars, and we sketch concrete architectures, case studies, and counter-arguments. We instantiate one branch through AReaL2.0, reorganizing existing RL infrastructure into an agent-oriented online RL loop for policy weight updates from deployed workloads.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2607.01120: Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2607.01120v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM agents are rapidly being deployed in production, including coding assistants, customer-support chatbots, and scientific research assistants, yet they remain fundamentally static in enterprise deployment. The LLM weights, system prompts, tool repertoires, and in-context harnesses are frozen at deployment time, and any improvement requires a manual loop of human-curated data collection, offline fine-tuning, modification of the agentic paradigm, and re-deployment. Recent work on self-evolving agents, such as OpenClaw for individual users, indicates that the next leap in agent capability will come from agents that continually learn from their own experience. In this paper, we argue that this vision for self-evolving agent deployment is being held back for enterprise-level large-scale agentic service not by reinforcement learning (RL) algorithms but by agentic online RL systems. Specifically, current agentic RL systems and the surrounding observability software stack are inadequate along three essential aspects: (i) there is no standardized agent trajectory data protocol capable of carrying RL learning signals at step granularity across heterogeneous agent paradigms; (ii) there is no enterprise-grade comprehensive data proxy that converts real workloads into governed learning substrates; and (iii) there is no unified agent evolution control plane that automatically decides, based on trajectory statistics, when to update policy weights or evolve the in-context harness. The next generation of agentic RL systems must be co-designed around these three pillars, and we sketch concrete architectures, case studies, and counter-arguments. We instantiate one branch through AReaL2.0, reorganizing existing RL infrastructure into an agent-oriented online RL loop for policy weight updates from deployed workloads."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Next-Generation Agentic Reinforcement Learning Systems Enable..."
+    ],
+    "twitter:description": [
+      "LLM agents are rapidly being deployed in production, including coding assistants, customer-support chatbots, and scientific research assistants, yet they remain fundamentally static in enterprise..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents"
+    ],
+    "citation_author": [
+      "Yan, Ran",
+      "Fu, Wei",
+      "Li, Jiale",
+      "Xu, Shusheng",
+      "Mei, Zhiyu",
+      "Gao, Jiaxuan",
+      "Zhang, Jiarui",
+      "Zhang, Wentai",
+      "Dai, Hao",
+      "Shen, Xujie",
+      "He, Chuyi",
+      "Pu, Zhen",
+      "Mei, Jun",
+      "Lin, Zhiyao",
+      "Wang, Haitao",
+      "Ding, Zhiqiang",
+      "Zhang, Jiawei",
+      "Wang, Huaijie",
+      "Xu, Ruida",
+      "Dong, Honghua",
+      "Jiang, Youhe",
+      "Wu, Yi",
+      "Yang, Tongkai",
+      "Yuan, Binhang"
+    ],
+    "citation_date": [
+      "2026/07/01"
+    ],
+    "citation_online_date": [
+      "2026/07/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2607.01120"
+    ],
+    "citation_arxiv_id": [
+      "2607.01120"
+    ],
+    "citation_abstract": [
+      "LLM agents are rapidly being deployed in production, including coding assistants, customer-support chatbots, and scientific research assistants, yet they remain fundamentally static in enterprise deployment. The LLM weights, system prompts, tool repertoires, and in-context harnesses are frozen at deployment time, and any improvement requires a manual loop of human-curated data collection, offline fine-tuning, modification of the agentic paradigm, and re-deployment. Recent work on self-evolving agents, such as OpenClaw for individual users, indicates that the next leap in agent capability will come from agents that continually learn from their own experience. In this paper, we argue that this vision for self-evolving agent deployment is being held back for enterprise-level large-scale agentic service not by reinforcement learning (RL) algorithms but by agentic online RL systems. Specifically, current agentic RL systems and the surrounding observability software stack are inadequate along three essential aspects: (i) there is no standardized agent trajectory data protocol capable of carrying RL learning signals at step granularity across heterogeneous agent paradigms; (ii) there is no enterprise-grade comprehensive data proxy that converts real workloads into governed learning substrates; and (iii) there is no unified agent evolution control plane that automatically decides, based on trajectory statistics, when to update policy weights or evolve the in-context harness. The next generation of agentic RL systems must be co-designed around these three pillars, and we sketch concrete architectures, case studies, and counter-arguments. We instantiate one branch through AReaL2.0, reorganizing existing RL infrastructure into an agent-oriented online RL loop for policy weight updates from deployed workloads."
+    ]
+  },
+  "html_sha256": "bfa08370a8a33d0e4e268a9ffab40c33e8cd374ae8da036c1e8ad340c7e4771d",
+  "evidence_html": "evidence/a0eddae9fd3f0212b46a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,139 @@
+{
+  "url": "https://arxiv.org/abs/2604.05477",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.05477",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.05477",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:51.047921+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.05477",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42729,
+  "title": "Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction",
+  "authors": [
+    "Zhang, Yuzhe",
+    "Xue, Xianwei",
+    "Wu, Xingyong",
+    "Chen, Mengke",
+    "Liu, Chen",
+    "He, Xinran",
+    "Shao, Run",
+    "Liu, Feiran",
+    "Xu, Huanmin",
+    "Pan, Qiutong",
+    "Wang, Haiwei"
+  ],
+  "first_author": "Zhang, Yuzhe",
+  "year": 2026,
+  "source_date": "2026/04/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.05477",
+  "abstract": "Autonomous GUI agents based on vision-language models (VLMs) often assume deterministic environment responses, generating actions without verifying whether previous operations succeeded. In real-world settings with network latency, rendering delays, and system interruptions, this assumption leads to undetected action failures, repetitive ineffective behaviors, and catastrophic error accumulation. Moreover, learning robust recovery strategies is challenging due to the high cost of online interaction and the lack of real-time feedback in offline this http URL propose VeriGUI (Verification-driven GUI Agent), which explicitly models action outcomes and recovery under noisy environments. VeriGUI introduces a Thinking--Verification--Action--Expectation (TVAE) framework to detect failures and guide corrective reasoning, and a two-stage training pipeline that combines Robust SFT with synthetic failure trajectories and GRPO with asymmetric verification rewards. We further construct a Robustness Benchmark based on AndroidControl to evaluate failure recognition and correction. Experiments show that VeriGUI significantly reduces failure loops and improves recovery success while maintaining competitive standard task performance.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.05477: Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.05477v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous GUI agents based on vision-language models (VLMs) often assume deterministic environment responses, generating actions without verifying whether previous operations succeeded. In real-world settings with network latency, rendering delays, and system interruptions, this assumption leads to undetected action failures, repetitive ineffective behaviors, and catastrophic error accumulation. Moreover, learning robust recovery strategies is challenging due to the high cost of online interaction and the lack of real-time feedback in offline datasets.We propose VeriGUI (Verification-driven GUI Agent), which explicitly models action outcomes and recovery under noisy environments. VeriGUI introduces a Thinking--Verification--Action--Expectation (TVAE) framework to detect failures and guide corrective reasoning, and a two-stage training pipeline that combines Robust SFT with synthetic failure trajectories and GRPO with asymmetric verification rewards. We further construct a Robustness Benchmark based on AndroidControl to evaluate failure recognition and correction. Experiments show that VeriGUI significantly reduces failure loops and improves recovery success while maintaining competitive standard task performance."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Don't Act Blindly: Robust GUI Automation via Action-Effect..."
+    ],
+    "twitter:description": [
+      "Autonomous GUI agents based on vision-language models (VLMs) often assume deterministic environment responses, generating actions without verifying whether previous operations succeeded. In..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction"
+    ],
+    "citation_author": [
+      "Zhang, Yuzhe",
+      "Xue, Xianwei",
+      "Wu, Xingyong",
+      "Chen, Mengke",
+      "Liu, Chen",
+      "He, Xinran",
+      "Shao, Run",
+      "Liu, Feiran",
+      "Xu, Huanmin",
+      "Pan, Qiutong",
+      "Wang, Haiwei"
+    ],
+    "citation_date": [
+      "2026/04/07"
+    ],
+    "citation_online_date": [
+      "2026/04/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.05477"
+    ],
+    "citation_arxiv_id": [
+      "2604.05477"
+    ],
+    "citation_abstract": [
+      "Autonomous GUI agents based on vision-language models (VLMs) often assume deterministic environment responses, generating actions without verifying whether previous operations succeeded. In real-world settings with network latency, rendering delays, and system interruptions, this assumption leads to undetected action failures, repetitive ineffective behaviors, and catastrophic error accumulation. Moreover, learning robust recovery strategies is challenging due to the high cost of online interaction and the lack of real-time feedback in offline datasets.We propose VeriGUI (Verification-driven GUI Agent), which explicitly models action outcomes and recovery under noisy environments. VeriGUI introduces a Thinking--Verification--Action--Expectation (TVAE) framework to detect failures and guide corrective reasoning, and a two-stage training pipeline that combines Robust SFT with synthetic failure trajectories and GRPO with asymmetric verification rewards. We further construct a Robustness Benchmark based on AndroidControl to evaluate failure recognition and correction. Experiments show that VeriGUI significantly reduces failure loops and improves recovery success while maintaining competitive standard task performance."
+    ]
+  },
+  "html_sha256": "d9fa697abcb9f9a812185c7f7c075305f2f3fe6c41d87b0a04f6497789bef750",
+  "evidence_html": "evidence/e78e277666b17bfc46a4.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

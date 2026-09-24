@@ -1,0 +1,139 @@
+{
+  "url": "https://arxiv.org/abs/2509.26354",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.26354",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Your agent may misevolve: Emergent risks in self-evolving llm agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.26354",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:36.336318+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.26354",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43891,
+  "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+  "authors": [
+    "Shao, Shuai",
+    "Ren, Qihan",
+    "Qian, Chen",
+    "Wei, Boyi",
+    "Guo, Dadi",
+    "Yang, Jingyi",
+    "Song, Xinhao",
+    "Zhang, Linfeng",
+    "Zhang, Weinan",
+    "Liu, Dongrui",
+    "Shao, Jing"
+  ],
+  "first_author": "Shao, Shuai",
+  "year": 2025,
+  "source_date": "2025/09/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.26354",
+  "abstract": "Advances in Large Language Models (LLMs) have enabled a new class of self-evolving agents that autonomously improve through interaction with the environment, demonstrating strong capabilities. However, self-evolution also introduces novel risks overlooked by current safety research. In this work, we study the case where an agent's self-evolution deviates in unintended ways, leading to undesirable or even harmful outcomes. We refer to this as Misevolution. To provide a systematic investigation, we evaluate misevolution along four key evolutionary pathways: model, memory, tool, and workflow. Our empirical findings reveal that misevolution is a widespread risk, affecting agents built even on top-tier LLMs (e.g., Gemini-2.5-Pro). Different emergent risks are observed in the self-evolutionary process, such as the degradation of safety alignment after memory accumulation, or the unintended introduction of vulnerabilities in tool creation and reuse. To our knowledge, this is the first study to systematically conceptualize misevolution and provide empirical evidence of its occurrence, highlighting an urgent need for new safety paradigms for self-evolving agents. Finally, we discuss potential mitigation strategies to inspire further research on building safer and more trustworthy self-evolving agents. Our code and data are available at this https URL . Warning: this paper includes examples that may be offensive or harmful in nature.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.26354: Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.26354v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Advances in Large Language Models (LLMs) have enabled a new class of self-evolving agents that autonomously improve through interaction with the environment, demonstrating strong capabilities. However, self-evolution also introduces novel risks overlooked by current safety research. In this work, we study the case where an agent's self-evolution deviates in unintended ways, leading to undesirable or even harmful outcomes. We refer to this as Misevolution. To provide a systematic investigation, we evaluate misevolution along four key evolutionary pathways: model, memory, tool, and workflow. Our empirical findings reveal that misevolution is a widespread risk, affecting agents built even on top-tier LLMs (e.g., Gemini-2.5-Pro). Different emergent risks are observed in the self-evolutionary process, such as the degradation of safety alignment after memory accumulation, or the unintended introduction of vulnerabilities in tool creation and reuse. To our knowledge, this is the first study to systematically conceptualize misevolution and provide empirical evidence of its occurrence, highlighting an urgent need for new safety paradigms for self-evolving agents. Finally, we discuss potential mitigation strategies to inspire further research on building safer and more trustworthy self-evolving agents. Our code and data are available at https://github.com/ShaoShuai0605/Misevolution . Warning: this paper includes examples that may be offensive or harmful in nature."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents"
+    ],
+    "twitter:description": [
+      "Advances in Large Language Models (LLMs) have enabled a new class of self-evolving agents that autonomously improve through interaction with the environment, demonstrating strong capabilities...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents"
+    ],
+    "citation_author": [
+      "Shao, Shuai",
+      "Ren, Qihan",
+      "Qian, Chen",
+      "Wei, Boyi",
+      "Guo, Dadi",
+      "Yang, Jingyi",
+      "Song, Xinhao",
+      "Zhang, Linfeng",
+      "Zhang, Weinan",
+      "Liu, Dongrui",
+      "Shao, Jing"
+    ],
+    "citation_date": [
+      "2025/09/30"
+    ],
+    "citation_online_date": [
+      "2026/03/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.26354"
+    ],
+    "citation_arxiv_id": [
+      "2509.26354"
+    ],
+    "citation_abstract": [
+      "Advances in Large Language Models (LLMs) have enabled a new class of self-evolving agents that autonomously improve through interaction with the environment, demonstrating strong capabilities. However, self-evolution also introduces novel risks overlooked by current safety research. In this work, we study the case where an agent's self-evolution deviates in unintended ways, leading to undesirable or even harmful outcomes. We refer to this as Misevolution. To provide a systematic investigation, we evaluate misevolution along four key evolutionary pathways: model, memory, tool, and workflow. Our empirical findings reveal that misevolution is a widespread risk, affecting agents built even on top-tier LLMs (e.g., Gemini-2.5-Pro). Different emergent risks are observed in the self-evolutionary process, such as the degradation of safety alignment after memory accumulation, or the unintended introduction of vulnerabilities in tool creation and reuse. To our knowledge, this is the first study to systematically conceptualize misevolution and provide empirical evidence of its occurrence, highlighting an urgent need for new safety paradigms for self-evolving agents. Finally, we discuss potential mitigation strategies to inspire further research on building safer and more trustworthy self-evolving agents. Our code and data are available at https://github.com/ShaoShuai0605/Misevolution . Warning: this paper includes examples that may be offensive or harmful in nature."
+    ]
+  },
+  "html_sha256": "4ac5f540a362aebcfb7de47cd4a3f9d2e14051c0200bef7326ef40d914936b8b",
+  "evidence_html": "evidence/0c31f98fd89eb96b1f4d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

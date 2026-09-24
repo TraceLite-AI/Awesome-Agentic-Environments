@@ -1,0 +1,164 @@
+{
+  "url": "https://arxiv.org/abs/2012.07421",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2012.07421",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-40",
+      "topic": "机器学习：不变性、因果、鲁棒性",
+      "title_hint": "Koh et al. WILDS: A Benchmark of in-the-Wild Distribution Shifts. ICML 2021. arXiv:2012.07421.",
+      "existing_reference_number": 40,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2012.07421",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:24.181720+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2012.07421",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46676,
+  "title": "WILDS: A Benchmark of in-the-Wild Distribution Shifts",
+  "authors": [
+    "Koh, Pang Wei",
+    "Sagawa, Shiori",
+    "Marklund, Henrik",
+    "Xie, Sang Michael",
+    "Zhang, Marvin",
+    "Balsubramani, Akshay",
+    "Hu, Weihua",
+    "Yasunaga, Michihiro",
+    "Phillips, Richard Lanas",
+    "Gao, Irena",
+    "Lee, Tony",
+    "David, Etienne",
+    "Stavness, Ian",
+    "Guo, Wei",
+    "Earnshaw, Berton A.",
+    "Haque, Imran S.",
+    "Beery, Sara",
+    "Leskovec, Jure",
+    "Kundaje, Anshul",
+    "Pierson, Emma",
+    "Levine, Sergey",
+    "Finn, Chelsea",
+    "Liang, Percy"
+  ],
+  "first_author": "Koh, Pang Wei",
+  "year": 2020,
+  "source_date": "2020/12/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2012.07421",
+  "abstract": "Distribution shifts -- where the training distribution differs from the test distribution -- can substantially degrade the accuracy of machine learning (ML) systems deployed in the wild. Despite their ubiquity in the real-world deployments, these distribution shifts are under-represented in the datasets widely used in the ML community today. To address this gap, we present WILDS, a curated benchmark of 10 datasets reflecting a diverse range of distribution shifts that naturally arise in real-world applications, such as shifts across hospitals for tumor identification; across camera traps for wildlife monitoring; and across time and location in satellite imaging and poverty mapping. On each dataset, we show that standard training yields substantially lower out-of-distribution than in-distribution performance. This gap remains even with models trained by existing methods for tackling distribution shifts, underscoring the need for new methods for training models that are more robust to the types of distribution shifts that arise in practice. To facilitate method development, we provide an open-source package that automates dataset loading, contains default model architectures and hyperparameters, and standardizes evaluations. Code and leaderboards are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2012.07421: WILDS: A Benchmark of in-the-Wild Distribution Shifts"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WILDS: A Benchmark of in-the-Wild Distribution Shifts"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2012.07421v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Distribution shifts -- where the training distribution differs from the test distribution -- can substantially degrade the accuracy of machine learning (ML) systems deployed in the wild. Despite their ubiquity in the real-world deployments, these distribution shifts are under-represented in the datasets widely used in the ML community today. To address this gap, we present WILDS, a curated benchmark of 10 datasets reflecting a diverse range of distribution shifts that naturally arise in real-world applications, such as shifts across hospitals for tumor identification; across camera traps for wildlife monitoring; and across time and location in satellite imaging and poverty mapping. On each dataset, we show that standard training yields substantially lower out-of-distribution than in-distribution performance. This gap remains even with models trained by existing methods for tackling distribution shifts, underscoring the need for new methods for training models that are more robust to the types of distribution shifts that arise in practice. To facilitate method development, we provide an open-source package that automates dataset loading, contains default model architectures and hyperparameters, and standardizes evaluations. Code and leaderboards are available at https://wilds.stanford.edu."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WILDS: A Benchmark of in-the-Wild Distribution Shifts"
+    ],
+    "twitter:description": [
+      "Distribution shifts -- where the training distribution differs from the test distribution -- can substantially degrade the accuracy of machine learning (ML) systems deployed in the wild. Despite..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WILDS: A Benchmark of in-the-Wild Distribution Shifts"
+    ],
+    "citation_author": [
+      "Koh, Pang Wei",
+      "Sagawa, Shiori",
+      "Marklund, Henrik",
+      "Xie, Sang Michael",
+      "Zhang, Marvin",
+      "Balsubramani, Akshay",
+      "Hu, Weihua",
+      "Yasunaga, Michihiro",
+      "Phillips, Richard Lanas",
+      "Gao, Irena",
+      "Lee, Tony",
+      "David, Etienne",
+      "Stavness, Ian",
+      "Guo, Wei",
+      "Earnshaw, Berton A.",
+      "Haque, Imran S.",
+      "Beery, Sara",
+      "Leskovec, Jure",
+      "Kundaje, Anshul",
+      "Pierson, Emma",
+      "Levine, Sergey",
+      "Finn, Chelsea",
+      "Liang, Percy"
+    ],
+    "citation_date": [
+      "2020/12/14"
+    ],
+    "citation_online_date": [
+      "2021/07/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2012.07421"
+    ],
+    "citation_arxiv_id": [
+      "2012.07421"
+    ],
+    "citation_abstract": [
+      "Distribution shifts -- where the training distribution differs from the test distribution -- can substantially degrade the accuracy of machine learning (ML) systems deployed in the wild. Despite their ubiquity in the real-world deployments, these distribution shifts are under-represented in the datasets widely used in the ML community today. To address this gap, we present WILDS, a curated benchmark of 10 datasets reflecting a diverse range of distribution shifts that naturally arise in real-world applications, such as shifts across hospitals for tumor identification; across camera traps for wildlife monitoring; and across time and location in satellite imaging and poverty mapping. On each dataset, we show that standard training yields substantially lower out-of-distribution than in-distribution performance. This gap remains even with models trained by existing methods for tackling distribution shifts, underscoring the need for new methods for training models that are more robust to the types of distribution shifts that arise in practice. To facilitate method development, we provide an open-source package that automates dataset loading, contains default model architectures and hyperparameters, and standardizes evaluations. Code and leaderboards are available at https://wilds.stanford.edu."
+    ]
+  },
+  "html_sha256": "641d2b81c18c8c8422c0898f566ae3eedbdfb5898a6145401ab62ea058f37ca3",
+  "evidence_html": "evidence/ab451c500482e04913cf.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

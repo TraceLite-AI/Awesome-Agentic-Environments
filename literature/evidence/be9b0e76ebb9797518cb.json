@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2504.19793",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.19793",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Prompt Injection Attack to Tool Selection in LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.19793",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:31.177003+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.19793",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41821,
+  "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+  "authors": [
+    "Shi, Jiawen",
+    "Yuan, Zenghui",
+    "Tie, Guiyao",
+    "Zhou, Pan",
+    "Gong, Neil Zhenqiang",
+    "Sun, Lichao"
+  ],
+  "first_author": "Shi, Jiawen",
+  "year": 2025,
+  "source_date": "2025/04/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.19793",
+  "abstract": "Tool selection is a key component of LLM agents. A popular approach follows a two-step process - \\emph{retrieval} and \\emph{selection} - to pick the most appropriate tool from a tool library for a given task. In this work, we introduce \\textit{ToolHijacker}, a novel prompt injection attack targeting tool selection in no-box scenarios. ToolHijacker injects a malicious tool document into the tool library to manipulate the LLM agent's tool selection process, compelling it to consistently choose the attacker's malicious tool for an attacker-chosen target task. Specifically, we formulate the crafting of such tool documents as an optimization problem and propose a two-phase optimization strategy to solve it. Our extensive experimental evaluation shows that ToolHijacker is highly effective, significantly outperforming existing manual-based and automated prompt injection attacks when applied to tool selection. Moreover, we explore various defenses, including prevention-based defenses (StruQ and SecAlign) and detection-based defenses (known-answer detection, DataSentinel, perplexity detection, and perplexity windowed detection). Our experimental results indicate that these defenses are insufficient, highlighting the urgent need for developing new defense strategies.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.19793: Prompt Injection Attack to Tool Selection in LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Prompt Injection Attack to Tool Selection in LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.19793v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Tool selection is a key component of LLM agents. A popular approach follows a two-step process - \\emph{retrieval} and \\emph{selection} - to pick the most appropriate tool from a tool library for a given task. In this work, we introduce \\textit{ToolHijacker}, a novel prompt injection attack targeting tool selection in no-box scenarios. ToolHijacker injects a malicious tool document into the tool library to manipulate the LLM agent's tool selection process, compelling it to consistently choose the attacker's malicious tool for an attacker-chosen target task. Specifically, we formulate the crafting of such tool documents as an optimization problem and propose a two-phase optimization strategy to solve it. Our extensive experimental evaluation shows that ToolHijacker is highly effective, significantly outperforming existing manual-based and automated prompt injection attacks when applied to tool selection. Moreover, we explore various defenses, including prevention-based defenses (StruQ and SecAlign) and detection-based defenses (known-answer detection, DataSentinel, perplexity detection, and perplexity windowed detection). Our experimental results indicate that these defenses are insufficient, highlighting the urgent need for developing new defense strategies."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Prompt Injection Attack to Tool Selection in LLM Agents"
+    ],
+    "twitter:description": [
+      "Tool selection is a key component of LLM agents. A popular approach follows a two-step process - \\emph{retrieval} and \\emph{selection} - to pick the most appropriate tool from a tool library for a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Prompt Injection Attack to Tool Selection in LLM Agents"
+    ],
+    "citation_author": [
+      "Shi, Jiawen",
+      "Yuan, Zenghui",
+      "Tie, Guiyao",
+      "Zhou, Pan",
+      "Gong, Neil Zhenqiang",
+      "Sun, Lichao"
+    ],
+    "citation_date": [
+      "2025/04/28"
+    ],
+    "citation_online_date": [
+      "2025/08/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.19793"
+    ],
+    "citation_arxiv_id": [
+      "2504.19793"
+    ],
+    "citation_abstract": [
+      "Tool selection is a key component of LLM agents. A popular approach follows a two-step process - \\emph{retrieval} and \\emph{selection} - to pick the most appropriate tool from a tool library for a given task. In this work, we introduce \\textit{ToolHijacker}, a novel prompt injection attack targeting tool selection in no-box scenarios. ToolHijacker injects a malicious tool document into the tool library to manipulate the LLM agent's tool selection process, compelling it to consistently choose the attacker's malicious tool for an attacker-chosen target task. Specifically, we formulate the crafting of such tool documents as an optimization problem and propose a two-phase optimization strategy to solve it. Our extensive experimental evaluation shows that ToolHijacker is highly effective, significantly outperforming existing manual-based and automated prompt injection attacks when applied to tool selection. Moreover, we explore various defenses, including prevention-based defenses (StruQ and SecAlign) and detection-based defenses (known-answer detection, DataSentinel, perplexity detection, and perplexity windowed detection). Our experimental results indicate that these defenses are insufficient, highlighting the urgent need for developing new defense strategies."
+    ]
+  },
+  "html_sha256": "e2c250aebf16337b0e1986f806b02ffc455c7139cfc066fe44b6eb8e22f72d9d",
+  "evidence_html": "evidence/be9b0e76ebb9797518cb.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

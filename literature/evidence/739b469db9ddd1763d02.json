@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2502.08047",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.08047",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.08047",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:43.221339+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.08047",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43298,
+  "title": "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point",
+  "authors": [
+    "Zhao, Henry Hengyuan",
+    "Yang, Kaiming",
+    "Yu, Wendi",
+    "Gao, Difei",
+    "Shou, Mike Zheng"
+  ],
+  "first_author": "Zhao, Henry Hengyuan",
+  "year": 2025,
+  "source_date": "2025/02/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2502.08047",
+  "abstract": "Recent progress in GUI agents has substantially improved visual grounding, yet robust planning remains challenging, particularly when the environment deviates from a canonical initial state. In real applications, users often invoke assistance mid-workflow, where software may be partially configured, steps may have been executed in different orders, or the interface may differ from its default setup. Such task-state variability is pervasive but insufficiently evaluated in existing GUI benchmarks. To address this gap, we introduce WorldGUI, a benchmark covering ten widely used desktop and web applications with tasks instantiated under diverse, systematically constructed initial states. These variations capture realistic human-computer interaction settings and enable diagnostic evaluation of an agent's ability to recover, adapt plans, and handle non-default contexts. We further present WorldGUI-Agent, a simple and model-agnostic framework that organizes planning and execution around three critique stages, improving reliability in dynamic environments. Experiments demonstrate that state-of-the-art GUI agents exhibit substantial performance degradation under non-default initial conditions, revealing limited robustness and fragile planning behaviors. Our benchmark and framework provide a foundation for developing more adaptable and reliable GUI agents. The code and data are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.08047: WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.08047v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent progress in GUI agents has substantially improved visual grounding, yet robust planning remains challenging, particularly when the environment deviates from a canonical initial state. In real applications, users often invoke assistance mid-workflow, where software may be partially configured, steps may have been executed in different orders, or the interface may differ from its default setup. Such task-state variability is pervasive but insufficiently evaluated in existing GUI benchmarks. To address this gap, we introduce WorldGUI, a benchmark covering ten widely used desktop and web applications with tasks instantiated under diverse, systematically constructed initial states. These variations capture realistic human-computer interaction settings and enable diagnostic evaluation of an agent's ability to recover, adapt plans, and handle non-default contexts. We further present WorldGUI-Agent, a simple and model-agnostic framework that organizes planning and execution around three critique stages, improving reliability in dynamic environments. Experiments demonstrate that state-of-the-art GUI agents exhibit substantial performance degradation under non-default initial conditions, revealing limited robustness and fragile planning behaviors. Our benchmark and framework provide a foundation for developing more adaptable and reliable GUI agents. The code and data are available at https://github.com/showlab/WorldGUI."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from..."
+    ],
+    "twitter:description": [
+      "Recent progress in GUI agents has substantially improved visual grounding, yet robust planning remains challenging, particularly when the environment deviates from a canonical initial state. In..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point"
+    ],
+    "citation_author": [
+      "Zhao, Henry Hengyuan",
+      "Yang, Kaiming",
+      "Yu, Wendi",
+      "Gao, Difei",
+      "Shou, Mike Zheng"
+    ],
+    "citation_date": [
+      "2025/02/12"
+    ],
+    "citation_online_date": [
+      "2026/05/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.08047"
+    ],
+    "citation_arxiv_id": [
+      "2502.08047"
+    ],
+    "citation_abstract": [
+      "Recent progress in GUI agents has substantially improved visual grounding, yet robust planning remains challenging, particularly when the environment deviates from a canonical initial state. In real applications, users often invoke assistance mid-workflow, where software may be partially configured, steps may have been executed in different orders, or the interface may differ from its default setup. Such task-state variability is pervasive but insufficiently evaluated in existing GUI benchmarks. To address this gap, we introduce WorldGUI, a benchmark covering ten widely used desktop and web applications with tasks instantiated under diverse, systematically constructed initial states. These variations capture realistic human-computer interaction settings and enable diagnostic evaluation of an agent's ability to recover, adapt plans, and handle non-default contexts. We further present WorldGUI-Agent, a simple and model-agnostic framework that organizes planning and execution around three critique stages, improving reliability in dynamic environments. Experiments demonstrate that state-of-the-art GUI agents exhibit substantial performance degradation under non-default initial conditions, revealing limited robustness and fragile planning behaviors. Our benchmark and framework provide a foundation for developing more adaptable and reliable GUI agents. The code and data are available at https://github.com/showlab/WorldGUI."
+    ]
+  },
+  "html_sha256": "b7106a8aefef221bb231ffbe117ef5b68abe3a2447ec3579316694f83ae08872",
+  "evidence_html": "evidence/739b469db9ddd1763d02.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

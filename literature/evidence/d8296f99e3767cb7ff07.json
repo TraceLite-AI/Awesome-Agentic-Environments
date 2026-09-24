@@ -1,0 +1,210 @@
+{
+  "url": "https://arxiv.org/abs/2512.13564",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.13564",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "memory_and_context",
+      "title_hint": "Memory in the Age of AI Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.13564",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:12.947190+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.13564",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 50075,
+  "title": "Memory in the Age of AI Agents",
+  "authors": [
+    "Hu, Yuyang",
+    "Liu, Shichun",
+    "Yue, Yanwei",
+    "Zhang, Guibin",
+    "Liu, Boyang",
+    "Zhu, Fangyi",
+    "Lin, Jiahang",
+    "Guo, Honglin",
+    "Dou, Shihan",
+    "Xi, Zhiheng",
+    "Jin, Senjie",
+    "Tan, Jiejun",
+    "Yin, Yanbin",
+    "Liu, Jiongnan",
+    "Zhang, Zeyu",
+    "Sun, Zhongxiang",
+    "Zhu, Yutao",
+    "Sun, Hao",
+    "Peng, Boci",
+    "Cheng, Zhenrong",
+    "Fan, Xuanbo",
+    "Guo, Jiaxin",
+    "Yu, Xinlei",
+    "Zhou, Zhenhong",
+    "Hu, Zewen",
+    "Huo, Jiahao",
+    "Wang, Junhao",
+    "Niu, Yuwei",
+    "Wang, Yu",
+    "Yin, Zhenfei",
+    "Hu, Xiaobin",
+    "Liao, Yue",
+    "Li, Qiankun",
+    "Wang, Kun",
+    "Zhou, Wangchunshu",
+    "Liu, Yixin",
+    "Cheng, Dawei",
+    "Zhang, Qi",
+    "Gui, Tao",
+    "Pan, Shirui",
+    "Zhang, Yan",
+    "Torr, Philip",
+    "Dou, Zhicheng",
+    "Wen, Ji-Rong",
+    "Huang, Xuanjing",
+    "Jiang, Yu-Gang",
+    "Yan, Shuicheng"
+  ],
+  "first_author": "Hu, Yuyang",
+  "year": 2025,
+  "source_date": "2025/12/15",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.13564",
+  "abstract": "Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.13564: Memory in the Age of AI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Memory in the Age of AI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.13564v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Memory in the Age of AI Agents"
+    ],
+    "twitter:description": [
+      "Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Memory in the Age of AI Agents"
+    ],
+    "citation_author": [
+      "Hu, Yuyang",
+      "Liu, Shichun",
+      "Yue, Yanwei",
+      "Zhang, Guibin",
+      "Liu, Boyang",
+      "Zhu, Fangyi",
+      "Lin, Jiahang",
+      "Guo, Honglin",
+      "Dou, Shihan",
+      "Xi, Zhiheng",
+      "Jin, Senjie",
+      "Tan, Jiejun",
+      "Yin, Yanbin",
+      "Liu, Jiongnan",
+      "Zhang, Zeyu",
+      "Sun, Zhongxiang",
+      "Zhu, Yutao",
+      "Sun, Hao",
+      "Peng, Boci",
+      "Cheng, Zhenrong",
+      "Fan, Xuanbo",
+      "Guo, Jiaxin",
+      "Yu, Xinlei",
+      "Zhou, Zhenhong",
+      "Hu, Zewen",
+      "Huo, Jiahao",
+      "Wang, Junhao",
+      "Niu, Yuwei",
+      "Wang, Yu",
+      "Yin, Zhenfei",
+      "Hu, Xiaobin",
+      "Liao, Yue",
+      "Li, Qiankun",
+      "Wang, Kun",
+      "Zhou, Wangchunshu",
+      "Liu, Yixin",
+      "Cheng, Dawei",
+      "Zhang, Qi",
+      "Gui, Tao",
+      "Pan, Shirui",
+      "Zhang, Yan",
+      "Torr, Philip",
+      "Dou, Zhicheng",
+      "Wen, Ji-Rong",
+      "Huang, Xuanjing",
+      "Jiang, Yu-Gang",
+      "Yan, Shuicheng"
+    ],
+    "citation_date": [
+      "2025/12/15"
+    ],
+    "citation_online_date": [
+      "2026/01/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.13564"
+    ],
+    "citation_arxiv_id": [
+      "2512.13564"
+    ],
+    "citation_abstract": [
+      "Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence."
+    ]
+  },
+  "html_sha256": "89c9b2532240ff37e601ef6be1f8d929a6ca5ee46979f946a6f6d96b0b93ac43",
+  "evidence_html": "evidence/d8296f99e3767cb7ff07.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

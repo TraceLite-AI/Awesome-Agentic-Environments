@@ -1,0 +1,148 @@
+{
+  "url": "https://arxiv.org/abs/2601.15876",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.15876",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.15876",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:09.618388+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.15876",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45770,
+  "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+  "authors": [
+    "Xue, Taofeng",
+    "Peng, Chong",
+    "Huang, Mianqiu",
+    "Guo, Linsen",
+    "Han, Tiancheng",
+    "Wang, Haozhe",
+    "Wang, Jianing",
+    "Zhang, Xiaocheng",
+    "Yang, Xin",
+    "Zhao, Dengchang",
+    "Ding, Jinrui",
+    "Ma, Xiandi",
+    "Xie, Yuchen",
+    "Pei, Peng",
+    "Cai, Xunliang",
+    "Qiu, Xipeng"
+  ],
+  "first_author": "Xue, Taofeng",
+  "year": 2026,
+  "source_date": "2026/01/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.15876",
+  "abstract": "The development of native computer-use agents (CUA) represents a significant leap in multimodal AI. However, their potential is currently bottlenecked by the constraints of static data scaling. Existing paradigms relying primarily on passive imitation of static datasets struggle to capture the intricate causal dynamics inherent in long-horizon computer tasks. In this work, we introduce EvoCUA, a native computer use agentic model. Unlike static imitation, EvoCUA integrates data generation and policy optimization into a self-sustaining evolutionary cycle. To mitigate data scarcity, we develop a verifiable synthesis engine that autonomously generates diverse tasks coupled with executable validators. To enable large-scale experience acquisition, we design a scalable infrastructure orchestrating tens of thousands of asynchronous sandbox rollouts. Building on these massive trajectories, we propose an iterative evolving learning strategy to efficiently internalize this experience. This mechanism dynamically regulates policy updates by identifying capability boundaries -- reinforcing successful routines while transforming failure trajectories into rich supervision through error analysis and self-correction. Empirical evaluations on the OSWorld benchmark demonstrate that EvoCUA achieves a success rate of 56.7%, establishing a new open-source state-of-the-art. Notably, EvoCUA significantly outperforms the previous best open-source model, OpenCUA-72B (45.0%), and surpasses leading closed-weights models such as UI-TARS-2 (53.1%). Crucially, our results underscore the generalizability of this approach: the evolving paradigm driven by learning from experience yields consistent performance gains across foundation models of varying scales, establishing a robust and scalable path for advancing native agent capabilities.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.15876: EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.15876v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The development of native computer-use agents (CUA) represents a significant leap in multimodal AI. However, their potential is currently bottlenecked by the constraints of static data scaling. Existing paradigms relying primarily on passive imitation of static datasets struggle to capture the intricate causal dynamics inherent in long-horizon computer tasks. In this work, we introduce EvoCUA, a native computer use agentic model. Unlike static imitation, EvoCUA integrates data generation and policy optimization into a self-sustaining evolutionary cycle. To mitigate data scarcity, we develop a verifiable synthesis engine that autonomously generates diverse tasks coupled with executable validators. To enable large-scale experience acquisition, we design a scalable infrastructure orchestrating tens of thousands of asynchronous sandbox rollouts. Building on these massive trajectories, we propose an iterative evolving learning strategy to efficiently internalize this experience. This mechanism dynamically regulates policy updates by identifying capability boundaries -- reinforcing successful routines while transforming failure trajectories into rich supervision through error analysis and self-correction. Empirical evaluations on the OSWorld benchmark demonstrate that EvoCUA achieves a success rate of 56.7%, establishing a new open-source state-of-the-art. Notably, EvoCUA significantly outperforms the previous best open-source model, OpenCUA-72B (45.0%), and surpasses leading closed-weights models such as UI-TARS-2 (53.1%). Crucially, our results underscore the generalizability of this approach: the evolving paradigm driven by learning from experience yields consistent performance gains across foundation models of varying scales, establishing a robust and scalable path for advancing native agent capabilities."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "EvoCUA: Evolving Computer Use Agents via Learning from Scalable..."
+    ],
+    "twitter:description": [
+      "The development of native computer-use agents (CUA) represents a significant leap in multimodal AI. However, their potential is currently bottlenecked by the constraints of static data scaling...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience"
+    ],
+    "citation_author": [
+      "Xue, Taofeng",
+      "Peng, Chong",
+      "Huang, Mianqiu",
+      "Guo, Linsen",
+      "Han, Tiancheng",
+      "Wang, Haozhe",
+      "Wang, Jianing",
+      "Zhang, Xiaocheng",
+      "Yang, Xin",
+      "Zhao, Dengchang",
+      "Ding, Jinrui",
+      "Ma, Xiandi",
+      "Xie, Yuchen",
+      "Pei, Peng",
+      "Cai, Xunliang",
+      "Qiu, Xipeng"
+    ],
+    "citation_date": [
+      "2026/01/22"
+    ],
+    "citation_online_date": [
+      "2026/01/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.15876"
+    ],
+    "citation_arxiv_id": [
+      "2601.15876"
+    ],
+    "citation_abstract": [
+      "The development of native computer-use agents (CUA) represents a significant leap in multimodal AI. However, their potential is currently bottlenecked by the constraints of static data scaling. Existing paradigms relying primarily on passive imitation of static datasets struggle to capture the intricate causal dynamics inherent in long-horizon computer tasks. In this work, we introduce EvoCUA, a native computer use agentic model. Unlike static imitation, EvoCUA integrates data generation and policy optimization into a self-sustaining evolutionary cycle. To mitigate data scarcity, we develop a verifiable synthesis engine that autonomously generates diverse tasks coupled with executable validators. To enable large-scale experience acquisition, we design a scalable infrastructure orchestrating tens of thousands of asynchronous sandbox rollouts. Building on these massive trajectories, we propose an iterative evolving learning strategy to efficiently internalize this experience. This mechanism dynamically regulates policy updates by identifying capability boundaries -- reinforcing successful routines while transforming failure trajectories into rich supervision through error analysis and self-correction. Empirical evaluations on the OSWorld benchmark demonstrate that EvoCUA achieves a success rate of 56.7%, establishing a new open-source state-of-the-art. Notably, EvoCUA significantly outperforms the previous best open-source model, OpenCUA-72B (45.0%), and surpasses leading closed-weights models such as UI-TARS-2 (53.1%). Crucially, our results underscore the generalizability of this approach: the evolving paradigm driven by learning from experience yields consistent performance gains across foundation models of varying scales, establishing a robust and scalable path for advancing native agent capabilities."
+    ]
+  },
+  "html_sha256": "3002a1b8717e681d88869c715e2fb4b48cc8802773f63b410e19f034859f6b6b",
+  "evidence_html": "evidence/9d0d578a5b2aba17ba70.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

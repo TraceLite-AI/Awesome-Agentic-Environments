@@ -1,0 +1,100 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:16.955108+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 11621,
+  "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+  "authors": [
+    "Xie, Tianbao",
+    "Zhang, Danyang",
+    "Chen, Jixuan",
+    "Li, Xiaochuan",
+    "Zhao, Siheng",
+    "Cao, Ruisheng",
+    "Hua, Toh J.",
+    "Cheng, Zhoujun",
+    "Shin, Dongchan",
+    "Lei, Fangyu",
+    "Liu, Yitao",
+    "Xu, Yiheng",
+    "Zhou, Shuyan",
+    "Savarese, Silvio",
+    "Xiong, Caiming",
+    "Zhong, Victor",
+    "Yu, Tao"
+  ],
+  "first_author": "Xie, Tianbao",
+  "year": 2024,
+  "source_date": "2024-12-16",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/079017-1650",
+  "arxiv_id": "",
+  "abstract": "Autonomous agents that accomplish complex computer tasks with minimal human interventions have the potential to transform human-computer interaction, significantly enhancing accessibility and productivity. However, existing benchmarks either lack an interactive environment or are limited to environments specific to certain applications or domains, failing to reflect the diverse and complex nature of real-world computer use, thereby limiting the scope of tasks and agent scalability. To address this issue, we introduce OSWorld, the first-of-its-kind scalable, real computer environment for multimodal agents, supporting task setup, execution-based evaluation, and interactive learning across various operating systems such as Ubuntu, Windows, and macOS. OSWorld can serve as a unified, integrated computer environment for assessing open-ended computer tasks that involve arbitrary applications. Building upon OSWorld, we create a benchmark of 369 computer tasks involving real web and desktop apps in open domains, OS file I/O, and workflows spanning multiple applications. Each task example is derived from real-world computer use cases and includes a detailed initial state setup configuration and a custom execution-based evaluation script for reliable, reproducible evaluation. Extensive evaluation of state-of-the-art LLM/VLM-based agents on OSWorld reveals significant deficiencies in their ability to serve as computer assistants. While humans can accomplish over 72.36% of the tasks, the best model achieves only 12.24% success, primarily struggling with GUI grounding and operational knowledge. Comprehensive analysis using OSWorld provides valuable insights for developing multimodal generalist agents that were not possible with previous benchmarks. Our code, environment, baseline models, and data are publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+    ],
+    "citation_author": [
+      "Xie, Tianbao",
+      "Zhang, Danyang",
+      "Chen, Jixuan",
+      "Li, Xiaochuan",
+      "Zhao, Siheng",
+      "Cao, Ruisheng",
+      "Hua, Toh J.",
+      "Cheng, Zhoujun",
+      "Shin, Dongchan",
+      "Lei, Fangyu",
+      "Liu, Yitao",
+      "Xu, Yiheng",
+      "Zhou, Shuyan",
+      "Savarese, Silvio",
+      "Xiong, Caiming",
+      "Zhong, Victor",
+      "Yu, Tao"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-1650"
+    ],
+    "citation_firstpage": [
+      "52040"
+    ],
+    "citation_lastpage": [
+      "52094"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "html_sha256": "f62cbd2e5c92d250cc894a05e46f9052cfd38f0cdbf14902af6a96b96bcc9e8d",
+  "evidence_html": "evidence/06718b1f0a8e4de30786.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

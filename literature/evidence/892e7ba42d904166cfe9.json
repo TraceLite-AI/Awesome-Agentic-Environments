@@ -1,0 +1,144 @@
+{
+  "url": "https://arxiv.org/abs/2603.11076",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.11076",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Dive: Scaling diversity in agentic task synthesis for generalizable tool use",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.11076",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:31.054562+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.11076",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42925,
+  "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+  "authors": [
+    "Chen, Aili",
+    "Zhang, Chi",
+    "Liu, Junteng",
+    "Chen, Jiangjie",
+    "Du, Chengyu",
+    "Li, Yunji",
+    "Zhong, Ming",
+    "Wang, Qin",
+    "Zhu, Zhengmao",
+    "Song, Jiayuan",
+    "Ji, Ke",
+    "He, Junxian",
+    "Zhao, Pengyu",
+    "Xiao, Yanghua"
+  ],
+  "first_author": "Chen, Aili",
+  "year": 2026,
+  "source_date": "2026/03/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2603.11076",
+  "abstract": "Recent work synthesizes agentic tasks for post-training tool-using LLMs, yet robust generalization under shifts in tasks and toolsets remains an open challenge. We trace this brittleness to insufficient diversity in synthesized tasks. Scaling diversity is difficult because training requires tasks to remain executable and verifiable, while generalization demands coverage of diverse tool types, toolset combinations, and heterogeneous tool-use patterns. We propose DIVE, an evidence-driven recipe that inverts synthesis order, executing diverse, real-world tools first and reverse-deriving tasks strictly entailed by the resulting traces, thereby providing grounding by construction. DIVE scales structural diversity along two controllable axes, tool-pool coverage and per-task toolset variety, and an Evidence Collection--Task Derivation loop further induces rich multi-step tool-use patterns across 373 tools in five domains. Training Qwen3-8B on DIVE data (48k SFT + 3.2k RL) improves by +22 average points across 9 OOD benchmarks and outperforms the strongest 8B baseline by +68. Remarkably, controlled scaling analysis reveals that diversity scaling consistently outperforms quantity scaling for OOD generalization, even with 4x less data.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.11076: DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.11076v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent work synthesizes agentic tasks for post-training tool-using LLMs, yet robust generalization under shifts in tasks and toolsets remains an open challenge. We trace this brittleness to insufficient diversity in synthesized tasks. Scaling diversity is difficult because training requires tasks to remain executable and verifiable, while generalization demands coverage of diverse tool types, toolset combinations, and heterogeneous tool-use patterns. We propose DIVE, an evidence-driven recipe that inverts synthesis order, executing diverse, real-world tools first and reverse-deriving tasks strictly entailed by the resulting traces, thereby providing grounding by construction. DIVE scales structural diversity along two controllable axes, tool-pool coverage and per-task toolset variety, and an Evidence Collection--Task Derivation loop further induces rich multi-step tool-use patterns across 373 tools in five domains. Training Qwen3-8B on DIVE data (48k SFT + 3.2k RL) improves by +22 average points across 9 OOD benchmarks and outperforms the strongest 8B baseline by +68. Remarkably, controlled scaling analysis reveals that diversity scaling consistently outperforms quantity scaling for OOD generalization, even with 4x less data."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DIVE: Scaling Diversity in Agentic Task Synthesis for..."
+    ],
+    "twitter:description": [
+      "Recent work synthesizes agentic tasks for post-training tool-using LLMs, yet robust generalization under shifts in tasks and toolsets remains an open challenge. We trace this brittleness to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use"
+    ],
+    "citation_author": [
+      "Chen, Aili",
+      "Zhang, Chi",
+      "Liu, Junteng",
+      "Chen, Jiangjie",
+      "Du, Chengyu",
+      "Li, Yunji",
+      "Zhong, Ming",
+      "Wang, Qin",
+      "Zhu, Zhengmao",
+      "Song, Jiayuan",
+      "Ji, Ke",
+      "He, Junxian",
+      "Zhao, Pengyu",
+      "Xiao, Yanghua"
+    ],
+    "citation_date": [
+      "2026/03/10"
+    ],
+    "citation_online_date": [
+      "2026/03/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.11076"
+    ],
+    "citation_arxiv_id": [
+      "2603.11076"
+    ],
+    "citation_abstract": [
+      "Recent work synthesizes agentic tasks for post-training tool-using LLMs, yet robust generalization under shifts in tasks and toolsets remains an open challenge. We trace this brittleness to insufficient diversity in synthesized tasks. Scaling diversity is difficult because training requires tasks to remain executable and verifiable, while generalization demands coverage of diverse tool types, toolset combinations, and heterogeneous tool-use patterns. We propose DIVE, an evidence-driven recipe that inverts synthesis order, executing diverse, real-world tools first and reverse-deriving tasks strictly entailed by the resulting traces, thereby providing grounding by construction. DIVE scales structural diversity along two controllable axes, tool-pool coverage and per-task toolset variety, and an Evidence Collection--Task Derivation loop further induces rich multi-step tool-use patterns across 373 tools in five domains. Training Qwen3-8B on DIVE data (48k SFT + 3.2k RL) improves by +22 average points across 9 OOD benchmarks and outperforms the strongest 8B baseline by +68. Remarkably, controlled scaling analysis reveals that diversity scaling consistently outperforms quantity scaling for OOD generalization, even with 4x less data."
+    ]
+  },
+  "html_sha256": "52c17ecb1a1ea9cd84998477e726601f11253b1e4b1c8291a47702447c4c3893",
+  "evidence_html": "evidence/892e7ba42d904166cfe9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

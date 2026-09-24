@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2601.12307",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.12307",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.12307",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:53.425553+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.12307",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43309,
+  "title": "Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline",
+  "authors": [
+    "Xu, Jiawei",
+    "Koesdwiady, Arief",
+    "Bei, Sisong",
+    "Han, Yan",
+    "Huang, Baixiang",
+    "Wang, Dakuo",
+    "Chen, Yutong",
+    "Wang, Zheshen",
+    "Wang, Peihao",
+    "Li, Pan",
+    "Ding, Ying"
+  ],
+  "first_author": "Xu, Jiawei",
+  "year": 2026,
+  "source_date": "2026/01/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.12307",
+  "abstract": "Recent advances in LLM-based multi-agent systems (MAS) show that workflows composed of multiple LLM agents with distinct roles, tools, and communication patterns can outperform single-LLM baselines on complex tasks. However, most frameworks are homogeneous, where all agents share the same base LLM and differ only in prompts, tools, and positions in the workflow. This raises the question of whether such workflows can be simulated by a single agent through multi-turn conversations. We investigate this across seven benchmarks spanning coding, mathematics, general question answering, domain-specific reasoning, and real-world planning and tool use. Our results show that a single agent can reach the performance of homogeneous workflows with an efficiency advantage from KV cache reuse, and can even match the performance of an automatically optimized heterogeneous workflow. Building on this finding, we propose \\textbf{OneFlow}, an algorithm that automatically tailors workflows for single-agent execution, reducing inference costs compared to existing automatic multi-agent design frameworks without trading off accuracy. These results position the single-LLM implementation of multi-agent workflows as a strong baseline for MAS research. We also note that single-LLM methods cannot capture heterogeneous workflows due to the lack of KV cache sharing across different LLMs, highlighting future opportunities in developing \\textit{truly} heterogeneous multi-agent systems.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.12307: Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.12307v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in LLM-based multi-agent systems (MAS) show that workflows composed of multiple LLM agents with distinct roles, tools, and communication patterns can outperform single-LLM baselines on complex tasks. However, most frameworks are homogeneous, where all agents share the same base LLM and differ only in prompts, tools, and positions in the workflow. This raises the question of whether such workflows can be simulated by a single agent through multi-turn conversations. We investigate this across seven benchmarks spanning coding, mathematics, general question answering, domain-specific reasoning, and real-world planning and tool use. Our results show that a single agent can reach the performance of homogeneous workflows with an efficiency advantage from KV cache reuse, and can even match the performance of an automatically optimized heterogeneous workflow. Building on this finding, we propose \\textbf{OneFlow}, an algorithm that automatically tailors workflows for single-agent execution, reducing inference costs compared to existing automatic multi-agent design frameworks without trading off accuracy. These results position the single-LLM implementation of multi-agent workflows as a strong baseline for MAS research. We also note that single-LLM methods cannot capture heterogeneous workflows due to the lack of KV cache sharing across different LLMs, highlighting future opportunities in developing \\textit{truly} heterogeneous multi-agent systems."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Rethinking the Value of Multi-Agent Workflow: A Strong Single..."
+    ],
+    "twitter:description": [
+      "Recent advances in LLM-based multi-agent systems (MAS) show that workflows composed of multiple LLM agents with distinct roles, tools, and communication patterns can outperform single-LLM..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline"
+    ],
+    "citation_author": [
+      "Xu, Jiawei",
+      "Koesdwiady, Arief",
+      "Bei, Sisong",
+      "Han, Yan",
+      "Huang, Baixiang",
+      "Wang, Dakuo",
+      "Chen, Yutong",
+      "Wang, Zheshen",
+      "Wang, Peihao",
+      "Li, Pan",
+      "Ding, Ying"
+    ],
+    "citation_date": [
+      "2026/01/18"
+    ],
+    "citation_online_date": [
+      "2026/01/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.12307"
+    ],
+    "citation_arxiv_id": [
+      "2601.12307"
+    ],
+    "citation_abstract": [
+      "Recent advances in LLM-based multi-agent systems (MAS) show that workflows composed of multiple LLM agents with distinct roles, tools, and communication patterns can outperform single-LLM baselines on complex tasks. However, most frameworks are homogeneous, where all agents share the same base LLM and differ only in prompts, tools, and positions in the workflow. This raises the question of whether such workflows can be simulated by a single agent through multi-turn conversations. We investigate this across seven benchmarks spanning coding, mathematics, general question answering, domain-specific reasoning, and real-world planning and tool use. Our results show that a single agent can reach the performance of homogeneous workflows with an efficiency advantage from KV cache reuse, and can even match the performance of an automatically optimized heterogeneous workflow. Building on this finding, we propose \\textbf{OneFlow}, an algorithm that automatically tailors workflows for single-agent execution, reducing inference costs compared to existing automatic multi-agent design frameworks without trading off accuracy. These results position the single-LLM implementation of multi-agent workflows as a strong baseline for MAS research. We also note that single-LLM methods cannot capture heterogeneous workflows due to the lack of KV cache sharing across different LLMs, highlighting future opportunities in developing \\textit{truly} heterogeneous multi-agent systems."
+    ]
+  },
+  "html_sha256": "4f459736c7822dbc5cb1968da2cfff1067091f9ba466e2135dbb84a3a3e5acfe",
+  "evidence_html": "evidence/f5daac0ade5df2da8119.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

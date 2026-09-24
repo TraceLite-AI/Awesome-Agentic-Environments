@@ -1,0 +1,148 @@
+{
+  "url": "https://arxiv.org/abs/2509.13311",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.13311",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Towards general agentic intelligence via environment scaling",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.13311",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:23.305312+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.13311",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43579,
+  "title": "Towards General Agentic Intelligence via Environment Scaling",
+  "authors": [
+    "Fang, Runnan",
+    "Cai, Shihao",
+    "Li, Baixuan",
+    "Wu, Jialong",
+    "Li, Guangyu",
+    "Yin, Wenbiao",
+    "Wang, Xinyu",
+    "Wang, Xiaobin",
+    "Su, Liangcai",
+    "Zhang, Zhen",
+    "Wu, Shibin",
+    "Tao, Zhengwei",
+    "Jiang, Yong",
+    "Xie, Pengjun",
+    "Huang, Fei",
+    "Zhou, Jingren"
+  ],
+  "first_author": "Fang, Runnan",
+  "year": 2025,
+  "source_date": "2025/09/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.13311",
+  "abstract": "Advanced agentic intelligence is a prerequisite for deploying Large Language Models in practical, real-world applications. Diverse real-world APIs demand precise, robust function-calling intelligence, which needs agents to develop these capabilities through interaction in varied environments. The breadth of function-calling competence is closely tied to the diversity of environments in which agents are trained. In this work, we scale up environments as a step towards advancing general agentic intelligence. This gives rise to two central challenges: (i) how to scale environments in a principled manner, and (ii) how to effectively train agentic capabilities from experiences derived through interactions with these environments. To address these, we design a scalable framework that automatically constructs heterogeneous environments that are fully simulated, systematically broadening the space of function-calling scenarios. We further adapt a two-phase agent fine-tuning strategy: first endowing agents with fundamental agentic capabilities, then specializing them for domain-specific contexts. Extensive experiments on agentic benchmarks, tau-bench, tau2-Bench, and ACEBench, demonstrate that our trained model, AgentScaler, significantly enhances the function-calling capability of models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.13311: Towards General Agentic Intelligence via Environment Scaling"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Towards General Agentic Intelligence via Environment Scaling"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.13311v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Advanced agentic intelligence is a prerequisite for deploying Large Language Models in practical, real-world applications. Diverse real-world APIs demand precise, robust function-calling intelligence, which needs agents to develop these capabilities through interaction in varied environments. The breadth of function-calling competence is closely tied to the diversity of environments in which agents are trained. In this work, we scale up environments as a step towards advancing general agentic intelligence. This gives rise to two central challenges: (i) how to scale environments in a principled manner, and (ii) how to effectively train agentic capabilities from experiences derived through interactions with these environments. To address these, we design a scalable framework that automatically constructs heterogeneous environments that are fully simulated, systematically broadening the space of function-calling scenarios. We further adapt a two-phase agent fine-tuning strategy: first endowing agents with fundamental agentic capabilities, then specializing them for domain-specific contexts. Extensive experiments on agentic benchmarks, tau-bench, tau2-Bench, and ACEBench, demonstrate that our trained model, AgentScaler, significantly enhances the function-calling capability of models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Towards General Agentic Intelligence via Environment Scaling"
+    ],
+    "twitter:description": [
+      "Advanced agentic intelligence is a prerequisite for deploying Large Language Models in practical, real-world applications. Diverse real-world APIs demand precise, robust function-calling..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Towards General Agentic Intelligence via Environment Scaling"
+    ],
+    "citation_author": [
+      "Fang, Runnan",
+      "Cai, Shihao",
+      "Li, Baixuan",
+      "Wu, Jialong",
+      "Li, Guangyu",
+      "Yin, Wenbiao",
+      "Wang, Xinyu",
+      "Wang, Xiaobin",
+      "Su, Liangcai",
+      "Zhang, Zhen",
+      "Wu, Shibin",
+      "Tao, Zhengwei",
+      "Jiang, Yong",
+      "Xie, Pengjun",
+      "Huang, Fei",
+      "Zhou, Jingren"
+    ],
+    "citation_date": [
+      "2025/09/16"
+    ],
+    "citation_online_date": [
+      "2025/09/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.13311"
+    ],
+    "citation_arxiv_id": [
+      "2509.13311"
+    ],
+    "citation_abstract": [
+      "Advanced agentic intelligence is a prerequisite for deploying Large Language Models in practical, real-world applications. Diverse real-world APIs demand precise, robust function-calling intelligence, which needs agents to develop these capabilities through interaction in varied environments. The breadth of function-calling competence is closely tied to the diversity of environments in which agents are trained. In this work, we scale up environments as a step towards advancing general agentic intelligence. This gives rise to two central challenges: (i) how to scale environments in a principled manner, and (ii) how to effectively train agentic capabilities from experiences derived through interactions with these environments. To address these, we design a scalable framework that automatically constructs heterogeneous environments that are fully simulated, systematically broadening the space of function-calling scenarios. We further adapt a two-phase agent fine-tuning strategy: first endowing agents with fundamental agentic capabilities, then specializing them for domain-specific contexts. Extensive experiments on agentic benchmarks, tau-bench, tau2-Bench, and ACEBench, demonstrate that our trained model, AgentScaler, significantly enhances the function-calling capability of models."
+    ]
+  },
+  "html_sha256": "d2da19aa2a524297314a3850002f85ea80265ce5d7ea3f23fe442ed1560703fc",
+  "evidence_html": "evidence/b0d71a2c23edd9946560.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

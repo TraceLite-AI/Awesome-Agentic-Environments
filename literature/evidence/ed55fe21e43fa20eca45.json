@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=il5yUQsrjC",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=il5yUQsrjC",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Androidworld: A dynamic benchmarking environment for autonomous agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=il5yUQsrjC",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:21.934567+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dil5yUQsrjC",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "2a018cc8399ebf169d13f7b35c4116f105768e94b56aab2dc009dce198fe2d4e",
+  "evidence_html": "evidence/ed55fe21e43fa20eca45.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

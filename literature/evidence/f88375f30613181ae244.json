@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/1509.06461",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/pdf/1509.06461.pdf",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Deep reinforcement learning with double Q-learning, AAAI 2016. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1509.06461",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:00.789119+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1509.06461",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42198,
+  "title": "Deep Reinforcement Learning with Double Q-learning",
+  "authors": [
+    "van Hasselt, Hado",
+    "Guez, Arthur",
+    "Silver, David"
+  ],
+  "first_author": "van Hasselt, Hado",
+  "year": 2015,
+  "source_date": "2015/09/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1509.06461",
+  "abstract": "The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they harm performance, and whether they can generally be prevented. In this paper, we answer all these questions affirmatively. In particular, we first show that the recent DQN algorithm, which combines Q-learning with a deep neural network, suffers from substantial overestimations in some games in the Atari 2600 domain. We then show that the idea behind the Double Q-learning algorithm, which was introduced in a tabular setting, can be generalized to work with large-scale function approximation. We propose a specific adaptation to the DQN algorithm and show that the resulting algorithm not only reduces the observed overestimations, as hypothesized, but that this also leads to much better performance on several games.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1509.06461: Deep Reinforcement Learning with Double Q-learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Deep Reinforcement Learning with Double Q-learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1509.06461v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they harm performance, and whether they can generally be prevented. In this paper, we answer all these questions affirmatively. In particular, we first show that the recent DQN algorithm, which combines Q-learning with a deep neural network, suffers from substantial overestimations in some games in the Atari 2600 domain. We then show that the idea behind the Double Q-learning algorithm, which was introduced in a tabular setting, can be generalized to work with large-scale function approximation. We propose a specific adaptation to the DQN algorithm and show that the resulting algorithm not only reduces the observed overestimations, as hypothesized, but that this also leads to much better performance on several games."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Deep Reinforcement Learning with Double Q-learning"
+    ],
+    "twitter:description": [
+      "The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Deep Reinforcement Learning with Double Q-learning"
+    ],
+    "citation_author": [
+      "van Hasselt, Hado",
+      "Guez, Arthur",
+      "Silver, David"
+    ],
+    "citation_date": [
+      "2015/09/22"
+    ],
+    "citation_online_date": [
+      "2015/12/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1509.06461"
+    ],
+    "citation_arxiv_id": [
+      "1509.06461"
+    ],
+    "citation_abstract": [
+      "The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they harm performance, and whether they can generally be prevented. In this paper, we answer all these questions affirmatively. In particular, we first show that the recent DQN algorithm, which combines Q-learning with a deep neural network, suffers from substantial overestimations in some games in the Atari 2600 domain. We then show that the idea behind the Double Q-learning algorithm, which was introduced in a tabular setting, can be generalized to work with large-scale function approximation. We propose a specific adaptation to the DQN algorithm and show that the resulting algorithm not only reduces the observed overestimations, as hypothesized, but that this also leads to much better performance on several games."
+    ]
+  },
+  "html_sha256": "38bbd9cdc76a5057b5bcdd9e9f021455f1e9e2b0cffc7a90bb98da8092adf1e1",
+  "evidence_html": "evidence/f88375f30613181ae244.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

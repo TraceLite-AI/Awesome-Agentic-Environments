@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2604.04202",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.04202",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Clawarena: Benchmarking ai agents in evolving information environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.04202",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:25.041384+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.04202",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45333,
+  "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+  "authors": [
+    "Ji, Haonian",
+    "Xiong, Kaiwen",
+    "Han, Siwei",
+    "Xia, Peng",
+    "Qiu, Shi",
+    "Zhou, Yiyang",
+    "Liu, Jiaqi",
+    "Li, Jinlong",
+    "Li, Bingzhou",
+    "Zheng, Zeyu",
+    "Xie, Cihang",
+    "Yao, Huaxiu"
+  ],
+  "first_author": "Ji, Haonian",
+  "year": 2026,
+  "source_date": "2026/04/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.04202",
+  "abstract": "AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface through corrections rather than explicit instructions. Existing benchmarks largely assume static, single-authority settings and do not evaluate whether agents can keep up with this complexity. We introduce ClawArena, a benchmark for evaluating AI agents in evolving information environments. Each scenario maintains a complete hidden ground truth while exposing the agent only to noisy, partial, and sometimes contradictory traces across multi-channel sessions, workspace files, and staged updates. Evaluation is organized around three coupled challenges: multi-source conflict reasoning, dynamic belief revision, and implicit personalization, whose interactions yield a 14-category question taxonomy. Two question formats, multi-choice (set-selection) and shell-based executable checks, test both reasoning and workspace grounding. ClawArena comprises 12 multi-turn scenarios spanning 337 evaluation rounds with 45 dynamic updates, evaluated across five agent frameworks and 18 language models from proprietary, community-accessible, and self-hosted sources. Experiments show that model capability accounts for a 29-point score range across models while framework design accounts for up to a 24-point range, that MetaClaw's skill overlay reliably improves score without degrading accuracy, and that belief revision difficulty is determined by update design strategy rather than update volume. Code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.04202: ClawArena: Benchmarking AI Agents in Evolving Information Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ClawArena: Benchmarking AI Agents in Evolving Information Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.04202v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface through corrections rather than explicit instructions. Existing benchmarks largely assume static, single-authority settings and do not evaluate whether agents can keep up with this complexity. We introduce ClawArena, a benchmark for evaluating AI agents in evolving information environments. Each scenario maintains a complete hidden ground truth while exposing the agent only to noisy, partial, and sometimes contradictory traces across multi-channel sessions, workspace files, and staged updates. Evaluation is organized around three coupled challenges: multi-source conflict reasoning, dynamic belief revision, and implicit personalization, whose interactions yield a 14-category question taxonomy. Two question formats, multi-choice (set-selection) and shell-based executable checks, test both reasoning and workspace grounding. ClawArena comprises 12 multi-turn scenarios spanning 337 evaluation rounds with 45 dynamic updates, evaluated across five agent frameworks and 18 language models from proprietary, community-accessible, and self-hosted sources. Experiments show that model capability accounts for a 29-point score range across models while framework design accounts for up to a 24-point range, that MetaClaw's skill overlay reliably improves score without degrading accuracy, and that belief revision difficulty is determined by update design strategy rather than update volume. Code is available at https://github.com/aiming-lab/ClawArena."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ClawArena: Benchmarking AI Agents in Evolving Information Environments"
+    ],
+    "twitter:description": [
+      "AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ClawArena: Benchmarking AI Agents in Evolving Information Environments"
+    ],
+    "citation_author": [
+      "Ji, Haonian",
+      "Xiong, Kaiwen",
+      "Han, Siwei",
+      "Xia, Peng",
+      "Qiu, Shi",
+      "Zhou, Yiyang",
+      "Liu, Jiaqi",
+      "Li, Jinlong",
+      "Li, Bingzhou",
+      "Zheng, Zeyu",
+      "Xie, Cihang",
+      "Yao, Huaxiu"
+    ],
+    "citation_date": [
+      "2026/04/05"
+    ],
+    "citation_online_date": [
+      "2026/05/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.04202"
+    ],
+    "citation_arxiv_id": [
+      "2604.04202"
+    ],
+    "citation_abstract": [
+      "AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface through corrections rather than explicit instructions. Existing benchmarks largely assume static, single-authority settings and do not evaluate whether agents can keep up with this complexity. We introduce ClawArena, a benchmark for evaluating AI agents in evolving information environments. Each scenario maintains a complete hidden ground truth while exposing the agent only to noisy, partial, and sometimes contradictory traces across multi-channel sessions, workspace files, and staged updates. Evaluation is organized around three coupled challenges: multi-source conflict reasoning, dynamic belief revision, and implicit personalization, whose interactions yield a 14-category question taxonomy. Two question formats, multi-choice (set-selection) and shell-based executable checks, test both reasoning and workspace grounding. ClawArena comprises 12 multi-turn scenarios spanning 337 evaluation rounds with 45 dynamic updates, evaluated across five agent frameworks and 18 language models from proprietary, community-accessible, and self-hosted sources. Experiments show that model capability accounts for a 29-point score range across models while framework design accounts for up to a 24-point range, that MetaClaw's skill overlay reliably improves score without degrading accuracy, and that belief revision difficulty is determined by update design strategy rather than update volume. Code is available at https://github.com/aiming-lab/ClawArena."
+    ]
+  },
+  "html_sha256": "676409f8d6d6351fa6666c7793a2bade7a18baa8a5edf48f1f699f8de4ddb0d3",
+  "evidence_html": "evidence/8da5e42e88952b2bc6af.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

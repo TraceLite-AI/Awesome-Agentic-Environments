@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2602.16819",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.16819",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Hybrid-gym: Training coding agents to generalize across tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.16819",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:40.634273+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.16819",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42482,
+  "title": "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks",
+  "authors": [
+    "Xie, Yiqing",
+    "Liu, Emmy",
+    "Zhang, Gaokai",
+    "Kotalwar, Nachiket",
+    "Gandhi, Shubham",
+    "Acharya, Sathwik",
+    "Wang, Xingyao",
+    "Rose, Carolyn",
+    "Neubig, Graham",
+    "Fried, Daniel"
+  ],
+  "first_author": "Xie, Yiqing",
+  "year": 2026,
+  "source_date": "2026/02/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.16819",
+  "abstract": "When assessing the quality of coding agents, predominant benchmarks focus on solving single issues on GitHub, such as SWE-Bench. In contrast, in real use, these agents solve more various and complex tasks that involve other skills such as exploring codebases, testing software, and designing architecture. In this paper, we first characterize some transferable skills that are shared across diverse tasks by decomposing trajectories into fine-grained components, and derive a set of principles for designing auxiliary training tasks to teach language models these skills. Guided by these principles, we propose a training environment, Hybrid-Gym, consisting of a set of scalable synthetic tasks, such as function localization and dependency search. Experiments show that agents trained on our synthetic tasks effectively generalize to diverse real-world tasks that are not present in training, improving a base model by 25.4% absolute gain on SWE-Bench Verified, 7.9% on SWT-Bench Verified, and 5.1% on Commit-0 Lite. Hybrid-Gym also complements datasets built for the downstream tasks (e.g., improving SWE-Play by 4.9% on SWT-Bench Verified). Code available at: this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.16819: Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.16819v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "When assessing the quality of coding agents, predominant benchmarks focus on solving single issues on GitHub, such as SWE-Bench. In contrast, in real use, these agents solve more various and complex tasks that involve other skills such as exploring codebases, testing software, and designing architecture. In this paper, we first characterize some transferable skills that are shared across diverse tasks by decomposing trajectories into fine-grained components, and derive a set of principles for designing auxiliary training tasks to teach language models these skills. Guided by these principles, we propose a training environment, Hybrid-Gym, consisting of a set of scalable synthetic tasks, such as function localization and dependency search. Experiments show that agents trained on our synthetic tasks effectively generalize to diverse real-world tasks that are not present in training, improving a base model by 25.4% absolute gain on SWE-Bench Verified, 7.9% on SWT-Bench Verified, and 5.1% on Commit-0 Lite. Hybrid-Gym also complements datasets built for the downstream tasks (e.g., improving SWE-Play by 4.9% on SWT-Bench Verified). Code available at: https://github.com/yiqingxyq/Hybrid-Gym."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+    ],
+    "twitter:description": [
+      "When assessing the quality of coding agents, predominant benchmarks focus on solving single issues on GitHub, such as SWE-Bench. In contrast, in real use, these agents solve more various and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+    ],
+    "citation_author": [
+      "Xie, Yiqing",
+      "Liu, Emmy",
+      "Zhang, Gaokai",
+      "Kotalwar, Nachiket",
+      "Gandhi, Shubham",
+      "Acharya, Sathwik",
+      "Wang, Xingyao",
+      "Rose, Carolyn",
+      "Neubig, Graham",
+      "Fried, Daniel"
+    ],
+    "citation_date": [
+      "2026/02/18"
+    ],
+    "citation_online_date": [
+      "2026/02/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.16819"
+    ],
+    "citation_arxiv_id": [
+      "2602.16819"
+    ],
+    "citation_abstract": [
+      "When assessing the quality of coding agents, predominant benchmarks focus on solving single issues on GitHub, such as SWE-Bench. In contrast, in real use, these agents solve more various and complex tasks that involve other skills such as exploring codebases, testing software, and designing architecture. In this paper, we first characterize some transferable skills that are shared across diverse tasks by decomposing trajectories into fine-grained components, and derive a set of principles for designing auxiliary training tasks to teach language models these skills. Guided by these principles, we propose a training environment, Hybrid-Gym, consisting of a set of scalable synthetic tasks, such as function localization and dependency search. Experiments show that agents trained on our synthetic tasks effectively generalize to diverse real-world tasks that are not present in training, improving a base model by 25.4% absolute gain on SWE-Bench Verified, 7.9% on SWT-Bench Verified, and 5.1% on Commit-0 Lite. Hybrid-Gym also complements datasets built for the downstream tasks (e.g., improving SWE-Play by 4.9% on SWT-Bench Verified). Code available at: https://github.com/yiqingxyq/Hybrid-Gym."
+    ]
+  },
+  "html_sha256": "ba68f3d792fc3ab9f8dde1d94d054291121b73d93f7ea9c4608f7708fb2d40cf",
+  "evidence_html": "evidence/0ec71b67df0825c472fc.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2410.09024",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.09024",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.09024",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:37.651987+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.09024",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44828,
+  "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+  "authors": [
+    "Andriushchenko, Maksym",
+    "Souly, Alexandra",
+    "Dziemian, Mateusz",
+    "Duenas, Derek",
+    "Lin, Maxwell",
+    "Wang, Justin",
+    "Hendrycks, Dan",
+    "Zou, Andy",
+    "Kolter, Zico",
+    "Fredrikson, Matt",
+    "Winsor, Eric",
+    "Wynne, Jerome",
+    "Gal, Yarin",
+    "Davies, Xander"
+  ],
+  "first_author": "Andriushchenko, Maksym",
+  "year": 2024,
+  "source_date": "2024/10/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.09024",
+  "abstract": "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents -- which use external tools and can execute multi-stage tasks -- may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm. The benchmark includes a diverse set of 110 explicitly malicious agent tasks (440 with augmentations), covering 11 harm categories including fraud, cybercrime, and harassment. In addition to measuring whether models refuse harmful agentic requests, scoring well on AgentHarm requires jailbroken agents to maintain their capabilities following an attack to complete a multi-step task. We evaluate a range of leading LLMs, and find (1) leading LLMs are surprisingly compliant with malicious agent requests without jailbreaking, (2) simple universal jailbreak templates can be adapted to effectively jailbreak agents, and (3) these jailbreaks enable coherent and malicious multi-step agent behavior and retain model capabilities. To enable simple and reliable evaluation of attacks and defenses for LLM-based agents, we publicly release AgentHarm at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.09024: AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.09024v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents -- which use external tools and can execute multi-stage tasks -- may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm. The benchmark includes a diverse set of 110 explicitly malicious agent tasks (440 with augmentations), covering 11 harm categories including fraud, cybercrime, and harassment. In addition to measuring whether models refuse harmful agentic requests, scoring well on AgentHarm requires jailbroken agents to maintain their capabilities following an attack to complete a multi-step task. We evaluate a range of leading LLMs, and find (1) leading LLMs are surprisingly compliant with malicious agent requests without jailbreaking, (2) simple universal jailbreak templates can be adapted to effectively jailbreak agents, and (3) these jailbreaks enable coherent and malicious multi-step agent behavior and retain model capabilities. To enable simple and reliable evaluation of attacks and defenses for LLM-based agents, we publicly release AgentHarm at https://huggingface.co/datasets/ai-safety-institute/AgentHarm."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+    ],
+    "twitter:description": [
+      "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+    ],
+    "citation_author": [
+      "Andriushchenko, Maksym",
+      "Souly, Alexandra",
+      "Dziemian, Mateusz",
+      "Duenas, Derek",
+      "Lin, Maxwell",
+      "Wang, Justin",
+      "Hendrycks, Dan",
+      "Zou, Andy",
+      "Kolter, Zico",
+      "Fredrikson, Matt",
+      "Winsor, Eric",
+      "Wynne, Jerome",
+      "Gal, Yarin",
+      "Davies, Xander"
+    ],
+    "citation_date": [
+      "2024/10/11"
+    ],
+    "citation_online_date": [
+      "2025/04/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.09024"
+    ],
+    "citation_arxiv_id": [
+      "2410.09024"
+    ],
+    "citation_abstract": [
+      "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents -- which use external tools and can execute multi-stage tasks -- may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm. The benchmark includes a diverse set of 110 explicitly malicious agent tasks (440 with augmentations), covering 11 harm categories including fraud, cybercrime, and harassment. In addition to measuring whether models refuse harmful agentic requests, scoring well on AgentHarm requires jailbroken agents to maintain their capabilities following an attack to complete a multi-step task. We evaluate a range of leading LLMs, and find (1) leading LLMs are surprisingly compliant with malicious agent requests without jailbreaking, (2) simple universal jailbreak templates can be adapted to effectively jailbreak agents, and (3) these jailbreaks enable coherent and malicious multi-step agent behavior and retain model capabilities. To enable simple and reliable evaluation of attacks and defenses for LLM-based agents, we publicly release AgentHarm at https://huggingface.co/datasets/ai-safety-institute/AgentHarm."
+    ]
+  },
+  "html_sha256": "41ddac1c6779405777b2268858a9d1b1e0de210ffccc224797a4d52c3a08e89f",
+  "evidence_html": "evidence/9d3771ee05215ce0e910.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

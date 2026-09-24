@@ -1,0 +1,144 @@
+{
+  "url": "https://proceedings.mlr.press/v164/srivastava22a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v164/srivastava22a.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "BEHAVIOR: benchmark for everyday household activities in virtual, interactive, and ecological environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v164/srivastava22a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:46.273030+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v164/srivastava22a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 18405,
+  "title": "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments",
+  "authors": [
+    "Sanjana Srivastava",
+    "Chengshu Li",
+    "Michael Lingelbach",
+    "Roberto Martín-Martín",
+    "Fei Xia",
+    "Kent Elliott Vainio",
+    "Zheng Lian",
+    "Cem Gokmen",
+    "Shyamal Buch",
+    "Karen Liu",
+    "Silvio Savarese",
+    "Hyowon Gweon",
+    "Jiajun Wu",
+    "Li Fei-Fei"
+  ],
+  "first_author": "Sanjana Srivastava",
+  "year": 2022,
+  "source_date": "2022/01/11",
+  "venue_from_source": "Conference on Robot Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "We introduce BEHAVIOR, a benchmark for embodied AI with 100 activities in simulation, spanning a range of everyday household chores such as cleaning, maintenance, and food preparation. These activities are designed to be realistic, diverse and complex, aiming to reproduce the challenges that agents must face in the real world. Building such a benchmark poses three fundamental difficulties for each activity: definition (it can differ by time, place, or person), instantiation in a simulator, and evaluation. BEHAVIOR addresses these with three innovations. First, we propose a predicate logic-based description language for expressing an activity’s initial and goal conditions, enabling generation of diverse instances for any activity. Second, we identify the simulator-agnostic features required by an underlying environment to support BEHAVIOR, and demonstrate in one such simulator. Third, we introduce a set of metrics to measure task progress and efficiency, absolute and relative to human demonstrators. We include 500 human demonstrations in virtual reality (VR) to serve as the human ground truth. Our experiments demonstrate that even state-of-the-art embodied AI solutions struggle with the level of realism, diversity, and complexity imposed by the activities in our benchmark. We make BEHAVIOR publicly available at behavior.stanford.edu to facilitate and calibrate the development of new embodied AI solutions.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological EnvironmentsSanjana Srivastava, Chengshu Li, Michael ..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v164/srivastava22a.html"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.mlr.press/v164/srivastava22a/srivastava22a.pdf"
+    ],
+    "citation_firstpage": [
+      "477"
+    ],
+    "citation_lastpage": [
+      "490"
+    ],
+    "citation_author": [
+      "Sanjana Srivastava",
+      "Chengshu Li",
+      "Michael Lingelbach",
+      "Roberto Martín-Martín",
+      "Fei Xia",
+      "Kent Elliott Vainio",
+      "Zheng Lian",
+      "Cem Gokmen",
+      "Shyamal Buch",
+      "Karen Liu",
+      "Silvio Savarese",
+      "Hyowon Gweon",
+      "Jiajun Wu",
+      "Li Fei-Fei"
+    ],
+    "citation_publication_date": [
+      "2022/01/11"
+    ],
+    "citation_inbook_title": [
+      "Conference on Robot Learning"
+    ],
+    "citation_conference_title": [
+      "Conference on Robot Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "We introduce BEHAVIOR, a benchmark for embodied AI with 100 activities in simulation, spanning a range of everyday household chores such as cleaning, mainten..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v164/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments"
+    ],
+    "og:description": [
+      "We introduce BEHAVIOR, a benchmark for embodied AI with 100 activities in simulation, spanning a range of everyday household chores such as cleaning, maintenance, and food preparation. These activi..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2022-01-11T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v164/srivastava22a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v164/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "a878f8d2d92741eaf31529b289cc912717183ac62fcf7b0c772729c7823819d4",
+  "evidence_html": "evidence/01f4fde4b638e4e11fda.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

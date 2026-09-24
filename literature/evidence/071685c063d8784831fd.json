@@ -1,0 +1,154 @@
+{
+  "url": "https://arxiv.org/abs/2504.02605",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.02605",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Multi-swe-bench: A multilingual benchmark for issue resolving",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.02605",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:20.573511+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.02605",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45388,
+  "title": "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving",
+  "authors": [
+    "Zan, Daoguang",
+    "Huang, Zhirong",
+    "Liu, Wei",
+    "Chen, Hanwu",
+    "Zhang, Linhao",
+    "Xin, Shulin",
+    "Chen, Lu",
+    "Liu, Qi",
+    "Zhong, Xiaojian",
+    "Li, Aoyan",
+    "Liu, Siyao",
+    "Xiao, Yongsheng",
+    "Chen, Liangqiang",
+    "Zhang, Yuyu",
+    "Su, Jing",
+    "Liu, Tianyu",
+    "Long, Rui",
+    "Shen, Kai",
+    "Xiang, Liang"
+  ],
+  "first_author": "Zan, Daoguang",
+  "year": 2025,
+  "source_date": "2025/04/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.02605",
+  "abstract": "The task of issue resolving is to modify a codebase to generate a patch that addresses a given issue. However, existing benchmarks, such as SWE-bench, focus almost exclusively on Python, making them insufficient for evaluating Large Language Models (LLMs) across diverse software ecosystems. To address this, we introduce a multilingual issue-resolving benchmark, called Multi-SWE-bench, covering Java, TypeScript, JavaScript, Go, Rust, C, and C++. It includes a total of 1,632 high-quality instances, which were carefully annotated from 2,456 candidates by 68 expert annotators, ensuring that the benchmark can provide an accurate and reliable evaluation. Based on Multi-SWE-bench, we evaluate a series of state-of-the-art models using three representative methods (Agentless, SWE-agent, and OpenHands) and present a comprehensive analysis with key empirical insights. In addition, we launch a Multi-SWE-RL open-source community, aimed at building large-scale reinforcement learning (RL) training datasets for issue-resolving tasks. As an initial contribution, we release a set of 4,723 well-structured instances spanning seven programming languages, laying a solid foundation for RL research in this domain. More importantly, we open-source our entire data production pipeline, along with detailed tutorials, encouraging the open-source community to continuously contribute and expand the dataset. We envision our Multi-SWE-bench and the ever-growing Multi-SWE-RL community as catalysts for advancing RL toward its full potential, bringing us one step closer to the dawn of AGI.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.02605: Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.02605v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The task of issue resolving is to modify a codebase to generate a patch that addresses a given issue. However, existing benchmarks, such as SWE-bench, focus almost exclusively on Python, making them insufficient for evaluating Large Language Models (LLMs) across diverse software ecosystems. To address this, we introduce a multilingual issue-resolving benchmark, called Multi-SWE-bench, covering Java, TypeScript, JavaScript, Go, Rust, C, and C++. It includes a total of 1,632 high-quality instances, which were carefully annotated from 2,456 candidates by 68 expert annotators, ensuring that the benchmark can provide an accurate and reliable evaluation. Based on Multi-SWE-bench, we evaluate a series of state-of-the-art models using three representative methods (Agentless, SWE-agent, and OpenHands) and present a comprehensive analysis with key empirical insights. In addition, we launch a Multi-SWE-RL open-source community, aimed at building large-scale reinforcement learning (RL) training datasets for issue-resolving tasks. As an initial contribution, we release a set of 4,723 well-structured instances spanning seven programming languages, laying a solid foundation for RL research in this domain. More importantly, we open-source our entire data production pipeline, along with detailed tutorials, encouraging the open-source community to continuously contribute and expand the dataset. We envision our Multi-SWE-bench and the ever-growing Multi-SWE-RL community as catalysts for advancing RL toward its full potential, bringing us one step closer to the dawn of AGI."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving"
+    ],
+    "twitter:description": [
+      "The task of issue resolving is to modify a codebase to generate a patch that addresses a given issue. However, existing benchmarks, such as SWE-bench, focus almost exclusively on Python, making..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving"
+    ],
+    "citation_author": [
+      "Zan, Daoguang",
+      "Huang, Zhirong",
+      "Liu, Wei",
+      "Chen, Hanwu",
+      "Zhang, Linhao",
+      "Xin, Shulin",
+      "Chen, Lu",
+      "Liu, Qi",
+      "Zhong, Xiaojian",
+      "Li, Aoyan",
+      "Liu, Siyao",
+      "Xiao, Yongsheng",
+      "Chen, Liangqiang",
+      "Zhang, Yuyu",
+      "Su, Jing",
+      "Liu, Tianyu",
+      "Long, Rui",
+      "Shen, Kai",
+      "Xiang, Liang"
+    ],
+    "citation_date": [
+      "2025/04/03"
+    ],
+    "citation_online_date": [
+      "2025/04/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.02605"
+    ],
+    "citation_arxiv_id": [
+      "2504.02605"
+    ],
+    "citation_abstract": [
+      "The task of issue resolving is to modify a codebase to generate a patch that addresses a given issue. However, existing benchmarks, such as SWE-bench, focus almost exclusively on Python, making them insufficient for evaluating Large Language Models (LLMs) across diverse software ecosystems. To address this, we introduce a multilingual issue-resolving benchmark, called Multi-SWE-bench, covering Java, TypeScript, JavaScript, Go, Rust, C, and C++. It includes a total of 1,632 high-quality instances, which were carefully annotated from 2,456 candidates by 68 expert annotators, ensuring that the benchmark can provide an accurate and reliable evaluation. Based on Multi-SWE-bench, we evaluate a series of state-of-the-art models using three representative methods (Agentless, SWE-agent, and OpenHands) and present a comprehensive analysis with key empirical insights. In addition, we launch a Multi-SWE-RL open-source community, aimed at building large-scale reinforcement learning (RL) training datasets for issue-resolving tasks. As an initial contribution, we release a set of 4,723 well-structured instances spanning seven programming languages, laying a solid foundation for RL research in this domain. More importantly, we open-source our entire data production pipeline, along with detailed tutorials, encouraging the open-source community to continuously contribute and expand the dataset. We envision our Multi-SWE-bench and the ever-growing Multi-SWE-RL community as catalysts for advancing RL toward its full potential, bringing us one step closer to the dawn of AGI."
+    ]
+  },
+  "html_sha256": "c2d648b8f74eef0d5d3e3cdf909174bdc0fdf5560c7614997b584f594ff103fa",
+  "evidence_html": "evidence/071685c063d8784831fd.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

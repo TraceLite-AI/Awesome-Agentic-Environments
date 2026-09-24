@@ -1,0 +1,107 @@
+{
+  "url": "https://aclanthology.org/2025.findings-acl.1337/",
+  "discoveries": [
+    {
+      "url": "https://aclanthology.org/2025.findings-acl.1337/",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Text2world: Benchmarking large language models for symbolic world model generation",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://aclanthology.org/2025.findings-acl.1337/",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:24.578647+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.findings-acl.1337/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46180,
+  "title": "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation",
+  "authors": [
+    "Mengkang Hu",
+    "Tianxing Chen",
+    "Yude Zou",
+    "Yuheng Lei",
+    "Qiguang Chen (陈麒光)",
+    "Ming Li",
+    "Yao Mu",
+    "Hongyuan Zhang",
+    "Wenqi Shao",
+    "Ping Luo"
+  ],
+  "first_author": "Mengkang Hu",
+  "year": 2025,
+  "source_date": "2025/7",
+  "venue_from_source": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2025.findings-acl.1337",
+  "arxiv_id": "",
+  "abstract": "Recently, there has been growing interest in leveraging large language models (LLMs) to generate symbolic world models from textual descriptions. Although LLMs have been extensively explored in the context of world modeling, prior studies encountered several challenges, including evaluation randomness, dependence on indirect metrics, and a limited domain scope. To address these limitations, we introduce a novel benchmark, Text2World, based on planning domain definition language (PDDL), featuring hundreds of diverse domains and employing multi-criteria, execution-based metrics for a more robust evaluation. We benchmark current LLMs using Text2World and find that reasoning models trained with large-scale reinforcement learning outperform others. However, even the best-performing model still demonstrates limited capabilities in world modeling. Building on these insights, we examine several promising strategies to enhance the world modeling capabilities of LLMs, including test-time scaling, agent training, and more. We hope that Text2World can serve as a crucial resource, laying the groundwork for future research in leveraging LLMs as world models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation"
+    ],
+    "citation_author": [
+      "Mengkang Hu",
+      "Tianxing Chen",
+      "Yude Zou",
+      "Yuheng Lei",
+      "Qiguang Chen (陈麒光)",
+      "Ming Li",
+      "Yao Mu",
+      "Hongyuan Zhang",
+      "Wenqi Shao",
+      "Ping Luo"
+    ],
+    "citation_conference_title": [
+      "Findings of the Association for Computational Linguistics: ACL 2025"
+    ],
+    "citation_publication_date": [
+      "2025/7"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.findings-acl.1337.pdf"
+    ],
+    "citation_firstpage": [
+      "26043"
+    ],
+    "citation_lastpage": [
+      "26066"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.findings-acl.1337"
+    ],
+    "og:title": [
+      "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.findings-acl.1337.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.findings-acl.1337/"
+    ],
+    "og:description": [
+      "Mengkang Hu, Tianxing Chen, Yude Zou, Yuheng Lei, Qiguang Chen, Ming Li, Yao Mu, Hongyuan Zhang, Wenqi Shao, Ping Luo. Findings of the Association for Computational Linguistics: ACL 2025. 2025."
+    ]
+  },
+  "html_sha256": "ed5bf2fa8a4b292f0a689c275d117cba21004b38eeb969dc96428d5daedd060e",
+  "evidence_html": "evidence/2d883dc5a17e2921239a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

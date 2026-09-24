@@ -1,0 +1,17 @@
+{
+  "url": "https://doi.org/10.1609/aaai.v38i18.30006",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.1609/aaai.v38i18.30006",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Generalized planning in PDDL domains with pretrained large language models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://doi.org/10.1609/aaai.v38i18.30006",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:30.463750+00:00",
+  "error": "ProxyError: HTTPSConnectionPool(host='ojs.aaai.org', port=443): Max retries exceeded with url: /index.php/AAAI/article/view/30006 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+}

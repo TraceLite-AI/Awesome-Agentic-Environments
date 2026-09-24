@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2408.02544",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2408.02544",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2408.02544",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:44.509133+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2408.02544",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41743,
+  "title": "Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions",
+  "authors": [
+    "Ma, Xinbei",
+    "Wang, Yiting",
+    "Yao, Yao",
+    "Yuan, Tongxin",
+    "Zhang, Aston",
+    "Zhang, Zhuosheng",
+    "Zhao, Hai"
+  ],
+  "first_author": "Ma, Xinbei",
+  "year": 2024,
+  "source_date": "2024/08/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2408.02544",
+  "abstract": "This paper investigates the faithfulness of multimodal large language model (MLLM) agents in a graphical user interface (GUI) environment, aiming to address the research question of whether multimodal GUI agents can be distracted by environmental context. A general scenario is proposed where both the user and the agent are benign, and the environment, while not malicious, contains unrelated content. A wide range of MLLMs are evaluated as GUI agents using a simulated dataset, following three working patterns with different levels of perception. Experimental results reveal that even the most powerful models, whether generalist agents or specialist GUI agents, are susceptible to distractions. While recent studies predominantly focus on the helpfulness of agents, our findings first indicate that these agents are prone to environmental distractions. Furthermore, we implement an adversarial environment injection and analyze the approach to improve faithfulness, calling for a collective focus on this important topic.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2408.02544: Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2408.02544v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "This paper investigates the faithfulness of multimodal large language model (MLLM) agents in a graphical user interface (GUI) environment, aiming to address the research question of whether multimodal GUI agents can be distracted by environmental context. A general scenario is proposed where both the user and the agent are benign, and the environment, while not malicious, contains unrelated content. A wide range of MLLMs are evaluated as GUI agents using a simulated dataset, following three working patterns with different levels of perception. Experimental results reveal that even the most powerful models, whether generalist agents or specialist GUI agents, are susceptible to distractions. While recent studies predominantly focus on the helpfulness of agents, our findings first indicate that these agents are prone to environmental distractions. Furthermore, we implement an adversarial environment injection and analyze the approach to improve faithfulness, calling for a collective focus on this important topic."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Caution for the Environment: Multimodal LLM Agents are Susceptible..."
+    ],
+    "twitter:description": [
+      "This paper investigates the faithfulness of multimodal large language model (MLLM) agents in a graphical user interface (GUI) environment, aiming to address the research question of whether..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions"
+    ],
+    "citation_author": [
+      "Ma, Xinbei",
+      "Wang, Yiting",
+      "Yao, Yao",
+      "Yuan, Tongxin",
+      "Zhang, Aston",
+      "Zhang, Zhuosheng",
+      "Zhao, Hai"
+    ],
+    "citation_date": [
+      "2024/08/05"
+    ],
+    "citation_online_date": [
+      "2025/09/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2408.02544"
+    ],
+    "citation_arxiv_id": [
+      "2408.02544"
+    ],
+    "citation_abstract": [
+      "This paper investigates the faithfulness of multimodal large language model (MLLM) agents in a graphical user interface (GUI) environment, aiming to address the research question of whether multimodal GUI agents can be distracted by environmental context. A general scenario is proposed where both the user and the agent are benign, and the environment, while not malicious, contains unrelated content. A wide range of MLLMs are evaluated as GUI agents using a simulated dataset, following three working patterns with different levels of perception. Experimental results reveal that even the most powerful models, whether generalist agents or specialist GUI agents, are susceptible to distractions. While recent studies predominantly focus on the helpfulness of agents, our findings first indicate that these agents are prone to environmental distractions. Furthermore, we implement an adversarial environment injection and analyze the approach to improve faithfulness, calling for a collective focus on this important topic."
+    ]
+  },
+  "html_sha256": "d57f2278b536f3655490a24dcbb753ab2181af95c5b2167d1527d18eb01c03ba",
+  "evidence_html": "evidence/1a76f8305d4baf7a5783.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

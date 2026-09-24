@@ -1,0 +1,156 @@
+{
+  "url": "https://arxiv.org/abs/2602.12984",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.12984",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Sciagentgym: Benchmarking multi-step scientific tool-use in llm agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.12984",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:35.418831+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.12984",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44000,
+  "title": "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents",
+  "authors": [
+    "Shen, Yujiong",
+    "Yang, Yajie",
+    "Xi, Zhiheng",
+    "Hu, Binze",
+    "Sha, Huayu",
+    "Zhang, Jiazheng",
+    "Peng, Qiyuan",
+    "Shang, Junlin",
+    "Huang, Jixuan",
+    "Fan, Yutao",
+    "Tong, Jingqi",
+    "Dou, Shihan",
+    "Zhang, Ming",
+    "Bai, Lei",
+    "Yin, Zhenfei",
+    "Gui, Tao",
+    "Ma, Xingjun",
+    "Zhang, Qi",
+    "Huang, Xuanjing",
+    "Jiang, Yu-Gang"
+  ],
+  "first_author": "Shen, Yujiong",
+  "year": 2026,
+  "source_date": "2026/02/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.12984",
+  "abstract": "Scientific reasoning inherently demands integrating sophisticated toolkits to navigate domain-specific knowledge. Yet, current benchmarks largely overlook agents' ability to orchestrate tools for such rigorous workflows. To bridge this gap, we introduce SciAgentGym, a scalable interactive environment featuring 1,780 domain-specific tools across four natural science disciplines, supported by a robust execution infrastructure. Complementing this, we present SciAgentBench, a tiered evaluation suite designed to stress-test agentic capabilities from elementary actions to long-horizon workflows. Our evaluation identifies a critical bottleneck: state-of-the-art models still struggle with complex scientific tool-use, and their performance degrades substantially as interaction horizons extend. To address this, we propose SciForge, a data synthesis method that models the tool action space as a dependency graph to generate logic-aware training trajectories. By fine-tuning on these trajectories, our SciAgent-8B outperforms the significantly larger Qwen3-VL-235B-Instruct while exhibiting positive cross-domain transfer of scientific tool-use capabilities. These results underscore the promising potential of next-generation autonomous scientific agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.12984: SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.12984v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Scientific reasoning inherently demands integrating sophisticated toolkits to navigate domain-specific knowledge. Yet, current benchmarks largely overlook agents' ability to orchestrate tools for such rigorous workflows. To bridge this gap, we introduce SciAgentGym, a scalable interactive environment featuring 1,780 domain-specific tools across four natural science disciplines, supported by a robust execution infrastructure. Complementing this, we present SciAgentBench, a tiered evaluation suite designed to stress-test agentic capabilities from elementary actions to long-horizon workflows. Our evaluation identifies a critical bottleneck: state-of-the-art models still struggle with complex scientific tool-use, and their performance degrades substantially as interaction horizons extend. To address this, we propose SciForge, a data synthesis method that models the tool action space as a dependency graph to generate logic-aware training trajectories. By fine-tuning on these trajectories, our SciAgent-8B outperforms the significantly larger Qwen3-VL-235B-Instruct while exhibiting positive cross-domain transfer of scientific tool-use capabilities. These results underscore the promising potential of next-generation autonomous scientific agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents"
+    ],
+    "twitter:description": [
+      "Scientific reasoning inherently demands integrating sophisticated toolkits to navigate domain-specific knowledge. Yet, current benchmarks largely overlook agents' ability to orchestrate tools for..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents"
+    ],
+    "citation_author": [
+      "Shen, Yujiong",
+      "Yang, Yajie",
+      "Xi, Zhiheng",
+      "Hu, Binze",
+      "Sha, Huayu",
+      "Zhang, Jiazheng",
+      "Peng, Qiyuan",
+      "Shang, Junlin",
+      "Huang, Jixuan",
+      "Fan, Yutao",
+      "Tong, Jingqi",
+      "Dou, Shihan",
+      "Zhang, Ming",
+      "Bai, Lei",
+      "Yin, Zhenfei",
+      "Gui, Tao",
+      "Ma, Xingjun",
+      "Zhang, Qi",
+      "Huang, Xuanjing",
+      "Jiang, Yu-Gang"
+    ],
+    "citation_date": [
+      "2026/02/13"
+    ],
+    "citation_online_date": [
+      "2026/05/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.12984"
+    ],
+    "citation_arxiv_id": [
+      "2602.12984"
+    ],
+    "citation_abstract": [
+      "Scientific reasoning inherently demands integrating sophisticated toolkits to navigate domain-specific knowledge. Yet, current benchmarks largely overlook agents' ability to orchestrate tools for such rigorous workflows. To bridge this gap, we introduce SciAgentGym, a scalable interactive environment featuring 1,780 domain-specific tools across four natural science disciplines, supported by a robust execution infrastructure. Complementing this, we present SciAgentBench, a tiered evaluation suite designed to stress-test agentic capabilities from elementary actions to long-horizon workflows. Our evaluation identifies a critical bottleneck: state-of-the-art models still struggle with complex scientific tool-use, and their performance degrades substantially as interaction horizons extend. To address this, we propose SciForge, a data synthesis method that models the tool action space as a dependency graph to generate logic-aware training trajectories. By fine-tuning on these trajectories, our SciAgent-8B outperforms the significantly larger Qwen3-VL-235B-Instruct while exhibiting positive cross-domain transfer of scientific tool-use capabilities. These results underscore the promising potential of next-generation autonomous scientific agents."
+    ]
+  },
+  "html_sha256": "a37918850e7b5d033b673bb8469c55e1fe1bd70fb41c1185563d8ec417ef051e",
+  "evidence_html": "evidence/5c59027bc73655fbb7b3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://doi.org/10.1007/978-3-030-58604-1_7",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.1007/978-3-030-58604-1_7",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Beyond the nav-graph: Vision-and-language navigation in continuous environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://doi.org/10.1007/978-3-030-58604-1_7",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:24.536929+00:00",
+  "http_status": 200,
+  "opened_url": "https://link.springer.com/10.1007/978-3-030-58604-1_7",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 3038,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+  "evidence_html": "evidence/081671d016498fc5fb3c.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

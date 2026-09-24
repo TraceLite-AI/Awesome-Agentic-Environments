@@ -1,0 +1,155 @@
+{
+  "url": "https://arxiv.org/abs/2602.16855",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.16855",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.16855",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:08.952601+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.16855",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44860,
+  "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+  "authors": [
+    "Xu, Haiyang",
+    "Zhang, Xi",
+    "Liu, Haowei",
+    "Wang, Junyang",
+    "Zhu, Zhaozai",
+    "Zhou, Shengjie",
+    "Hu, Xuhao",
+    "Gao, Feiyu",
+    "Cao, Junjie",
+    "Wang, Zihua",
+    "Chen, Zhiyuan",
+    "Liao, Jitong",
+    "Zheng, Qi",
+    "Zeng, Jiahui",
+    "Xu, Ze",
+    "Bai, Shuai",
+    "Lin, Junyang",
+    "Zhou, Jingren",
+    "Yan, Ming"
+  ],
+  "first_author": "Xu, Haiyang",
+  "year": 2026,
+  "source_date": "2026/02/15",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.16855",
+  "abstract": "The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collaboration and real-time interaction. GUI-Owl-1.5 achieves state-of-the-art results on more than 20+ GUI benchmarks on open-source models: (1) on GUI automation tasks, it obtains 56.5 on OSWorld, 71.6 on AndroidWorld, and 48.4 on WebArena; (2) on grounding tasks, it obtains 80.3 on ScreenSpotPro; (3) on tool-calling tasks, it obtains 47.6 on OSWorld-MCP, and 46.8 on MobileWorld; (4) on memory and knowledge tasks, it obtains 75.5 on GUI-Knowledge Bench. GUI-Owl-1.5 incorporates several key innovations: (1) Hybird Data Flywheel: we construct the data pipeline for UI understanding and trajectory generation based on a combination of simulated environments and cloud-based sandbox environments, in order to improve the efficiency and quality of data collection. (2) Unified Enhancement of Agent Capabilities: we use a unified thought-synthesis pipeline to enhance the model's reasoning capabilities, while placing particular emphasis on improving key agent abilities, including Tool/MCP use, memory and multi-agent adaptation; (3) Multi-platform Environment RL Scaling: We propose a new environment RL algorithm, MRPO, to address the challenges of multi-platform conflicts and the low training efficiency of long-horizon tasks. The GUI-Owl-1.5 models are open-sourced, and an online cloud-sandbox demo is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.16855: Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.16855v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collaboration and real-time interaction. GUI-Owl-1.5 achieves state-of-the-art results on more than 20+ GUI benchmarks on open-source models: (1) on GUI automation tasks, it obtains 56.5 on OSWorld, 71.6 on AndroidWorld, and 48.4 on WebArena; (2) on grounding tasks, it obtains 80.3 on ScreenSpotPro; (3) on tool-calling tasks, it obtains 47.6 on OSWorld-MCP, and 46.8 on MobileWorld; (4) on memory and knowledge tasks, it obtains 75.5 on GUI-Knowledge Bench. GUI-Owl-1.5 incorporates several key innovations: (1) Hybird Data Flywheel: we construct the data pipeline for UI understanding and trajectory generation based on a combination of simulated environments and cloud-based sandbox environments, in order to improve the efficiency and quality of data collection. (2) Unified Enhancement of Agent Capabilities: we use a unified thought-synthesis pipeline to enhance the model's reasoning capabilities, while placing particular emphasis on improving key agent abilities, including Tool/MCP use, memory and multi-agent adaptation; (3) Multi-platform Environment RL Scaling: We propose a new environment RL algorithm, MRPO, to address the challenges of multi-platform conflicts and the low training efficiency of long-horizon tasks. The GUI-Owl-1.5 models are open-sourced, and an online cloud-sandbox demo is available at https://github.com/X-PLUG/MobileAgent."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents"
+    ],
+    "twitter:description": [
+      "The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents"
+    ],
+    "citation_author": [
+      "Xu, Haiyang",
+      "Zhang, Xi",
+      "Liu, Haowei",
+      "Wang, Junyang",
+      "Zhu, Zhaozai",
+      "Zhou, Shengjie",
+      "Hu, Xuhao",
+      "Gao, Feiyu",
+      "Cao, Junjie",
+      "Wang, Zihua",
+      "Chen, Zhiyuan",
+      "Liao, Jitong",
+      "Zheng, Qi",
+      "Zeng, Jiahui",
+      "Xu, Ze",
+      "Bai, Shuai",
+      "Lin, Junyang",
+      "Zhou, Jingren",
+      "Yan, Ming"
+    ],
+    "citation_date": [
+      "2026/02/15"
+    ],
+    "citation_online_date": [
+      "2026/02/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.16855"
+    ],
+    "citation_arxiv_id": [
+      "2602.16855"
+    ],
+    "citation_abstract": [
+      "The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collaboration and real-time interaction. GUI-Owl-1.5 achieves state-of-the-art results on more than 20+ GUI benchmarks on open-source models: (1) on GUI automation tasks, it obtains 56.5 on OSWorld, 71.6 on AndroidWorld, and 48.4 on WebArena; (2) on grounding tasks, it obtains 80.3 on ScreenSpotPro; (3) on tool-calling tasks, it obtains 47.6 on OSWorld-MCP, and 46.8 on MobileWorld; (4) on memory and knowledge tasks, it obtains 75.5 on GUI-Knowledge Bench. GUI-Owl-1.5 incorporates several key innovations: (1) Hybird Data Flywheel: we construct the data pipeline for UI understanding and trajectory generation based on a combination of simulated environments and cloud-based sandbox environments, in order to improve the efficiency and quality of data collection. (2) Unified Enhancement of Agent Capabilities: we use a unified thought-synthesis pipeline to enhance the model's reasoning capabilities, while placing particular emphasis on improving key agent abilities, including Tool/MCP use, memory and multi-agent adaptation; (3) Multi-platform Environment RL Scaling: We propose a new environment RL algorithm, MRPO, to address the challenges of multi-platform conflicts and the low training efficiency of long-horizon tasks. The GUI-Owl-1.5 models are open-sourced, and an online cloud-sandbox demo is available at https://github.com/X-PLUG/MobileAgent."
+    ]
+  },
+  "html_sha256": "de33f5127c58c28f472156011f31bd0d3019491a509deb48583499c17d85ff31",
+  "evidence_html": "evidence/c93e83f3e5559abbe980.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

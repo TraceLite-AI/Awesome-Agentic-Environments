@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2501.06327",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.06327",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "OpenFOAMGPT: A RAG-augmented LLM agent for OpenFOAM-based computational fluid dynamics",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.06327",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:40.845155+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.06327",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44313,
+  "title": "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics",
+  "authors": [
+    "Pandey, Sandeep",
+    "Xu, Ran",
+    "Wang, Wenkang",
+    "Chu, Xu"
+  ],
+  "first_author": "Pandey, Sandeep",
+  "year": 2025,
+  "source_date": "2025/01/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1063/5.0257555",
+  "arxiv_id": "2501.06327",
+  "abstract": "This work presents a large language model (LLM)-based agent OpenFOAMGPT tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations, leveraging two foundation models from OpenAI: the GPT-4o and a chain-of-thought (CoT)-enabled o1 preview model. Both agents demonstrate success across multiple tasks. While the price of token with o1 model is six times as that of GPT-4o, it consistently exhibits superior performance in handling complex tasks, from zero-shot case setup to boundary condition modifications, turbulence model adjustments, and code translation. Through an iterative correction loop, the agent efficiently addressed single- and multi-phase flow, heat transfer, RANS, LES, and other engineering scenarios, often converging in a limited number of iterations at low token costs. To embed domain-specific knowledge, we employed a retrieval-augmented generation (RAG) pipeline, demonstrating how preexisting simulation setups can further specialize the agent for sub-domains such as energy and aerospace. Despite the great performance of the agent, human oversight remains crucial for ensuring accuracy and adapting to shifting contexts. Fluctuations in model performance over time suggest the need for monitoring in mission-critical applications. Although our demonstrations focus on OpenFOAM, the adaptable nature of this framework opens the door to developing LLM-driven agents into a wide range of solvers and codes. By streamlining CFD simulations, this approach has the potential to accelerate both fundamental research and industrial engineering advancements.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.06327: OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.06327v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "This work presents a large language model (LLM)-based agent OpenFOAMGPT tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations, leveraging two foundation models from OpenAI: the GPT-4o and a chain-of-thought (CoT)-enabled o1 preview model. Both agents demonstrate success across multiple tasks. While the price of token with o1 model is six times as that of GPT-4o, it consistently exhibits superior performance in handling complex tasks, from zero-shot case setup to boundary condition modifications, turbulence model adjustments, and code translation. Through an iterative correction loop, the agent efficiently addressed single- and multi-phase flow, heat transfer, RANS, LES, and other engineering scenarios, often converging in a limited number of iterations at low token costs. To embed domain-specific knowledge, we employed a retrieval-augmented generation (RAG) pipeline, demonstrating how preexisting simulation setups can further specialize the agent for sub-domains such as energy and aerospace. Despite the great performance of the agent, human oversight remains crucial for ensuring accuracy and adapting to shifting contexts. Fluctuations in model performance over time suggest the need for monitoring in mission-critical applications. Although our demonstrations focus on OpenFOAM, the adaptable nature of this framework opens the door to developing LLM-driven agents into a wide range of solvers and codes. By streamlining CFD simulations, this approach has the potential to accelerate both fundamental research and industrial engineering advancements."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based..."
+    ],
+    "twitter:description": [
+      "This work presents a large language model (LLM)-based agent OpenFOAMGPT tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations, leveraging two foundation models from OpenAI:..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics"
+    ],
+    "citation_author": [
+      "Pandey, Sandeep",
+      "Xu, Ran",
+      "Wang, Wenkang",
+      "Chu, Xu"
+    ],
+    "citation_doi": [
+      "10.1063/5.0257555"
+    ],
+    "citation_date": [
+      "2025/01/10"
+    ],
+    "citation_online_date": [
+      "2025/01/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.06327"
+    ],
+    "citation_arxiv_id": [
+      "2501.06327"
+    ],
+    "citation_abstract": [
+      "This work presents a large language model (LLM)-based agent OpenFOAMGPT tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations, leveraging two foundation models from OpenAI: the GPT-4o and a chain-of-thought (CoT)-enabled o1 preview model. Both agents demonstrate success across multiple tasks. While the price of token with o1 model is six times as that of GPT-4o, it consistently exhibits superior performance in handling complex tasks, from zero-shot case setup to boundary condition modifications, turbulence model adjustments, and code translation. Through an iterative correction loop, the agent efficiently addressed single- and multi-phase flow, heat transfer, RANS, LES, and other engineering scenarios, often converging in a limited number of iterations at low token costs. To embed domain-specific knowledge, we employed a retrieval-augmented generation (RAG) pipeline, demonstrating how preexisting simulation setups can further specialize the agent for sub-domains such as energy and aerospace. Despite the great performance of the agent, human oversight remains crucial for ensuring accuracy and adapting to shifting contexts. Fluctuations in model performance over time suggest the need for monitoring in mission-critical applications. Although our demonstrations focus on OpenFOAM, the adaptable nature of this framework opens the door to developing LLM-driven agents into a wide range of solvers and codes. By streamlining CFD simulations, this approach has the potential to accelerate both fundamental research and industrial engineering advancements."
+    ]
+  },
+  "html_sha256": "bb0bd75c3e2096ff14fd0a939fae02e70fc55c93956cdabef4efab0e3338d985",
+  "evidence_html": "evidence/214cf794fc3cd3f2227a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2609.25531",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2609.25531",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-49",
+      "topic": "软件工程：组合测试、配置空间、跨平台 bug、可复现",
+      "title_hint": "Silva, Farahat, d'Amorim. An Empirical Analysis of Cross-OS Portability Issues in Python Projects. MSR 2026. arXiv:2609.25531.",
+      "existing_reference_number": 49,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2609.25531",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:25.503383+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2609.25531",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43883,
+  "title": "An Empirical Analysis of Cross-OS Portability Issues in Python Projects",
+  "authors": [
+    "Silva, Denini",
+    "Farahat, MohamadAli",
+    "d'Amorim, Marcelo"
+  ],
+  "first_author": "Silva, Denini",
+  "year": 2026,
+  "source_date": "2026/09/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "MSR 2026: Proceedings of the 23rd International Conference on Mining Software Repositories",
+  "doi": "10.1145/3793302.3793373",
+  "arxiv_id": "2609.25531",
+  "abstract": "While Python is designed as a cross-platform language, real-world applications encounter portability failures when deployed across different operating systems. We present the first large-scale empirical study of cross-OS portability issues in Python, analyzing 2,042 open-source repositories using two complementary approaches: systematic cross-OS test reexecution and manual analysis of GitHub issues. Our cross-platform testing of 500 projects reveals that 11.2% exhibit OS-dependent test failures. Through systematic analysis of 240 GitHub issues, we confirm 102 genuine portability problems spanning 95 additional projects. We develop a comprehensive taxonomy identifying 7 primary failure categories - with file/directory operations, process management, and library dependencies being most prevalent - along with 24 distinct sub-categories, 15 diagnostic signatures, and 4 systematic repair patterns. Our evaluation reveals that existing static analysis tools provide minimal support for portability detection, while large language models achieve 40-79% accuracy in identifying issues and 50-77% success in generating fixes when provided with structured guidance. Through 33 contributed pull requests, we demonstrate practical applicability and developer acceptance (17 merged, zero rejected) of our findings. This work establishes the first comprehensive baseline for understanding and addressing cross-OS portability issues in Python, providing actionable insights for developers, tool designers, and the broader research community.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2609.25531: An Empirical Analysis of Cross-OS Portability Issues in Python Projects"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "An Empirical Analysis of Cross-OS Portability Issues in Python Projects"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2609.25531v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "While Python is designed as a cross-platform language, real-world applications encounter portability failures when deployed across different operating systems. We present the first large-scale empirical study of cross-OS portability issues in Python, analyzing 2,042 open-source repositories using two complementary approaches: systematic cross-OS test reexecution and manual analysis of GitHub issues. Our cross-platform testing of 500 projects reveals that 11.2% exhibit OS-dependent test failures. Through systematic analysis of 240 GitHub issues, we confirm 102 genuine portability problems spanning 95 additional projects. We develop a comprehensive taxonomy identifying 7 primary failure categories - with file/directory operations, process management, and library dependencies being most prevalent - along with 24 distinct sub-categories, 15 diagnostic signatures, and 4 systematic repair patterns. Our evaluation reveals that existing static analysis tools provide minimal support for portability detection, while large language models achieve 40-79% accuracy in identifying issues and 50-77% success in generating fixes when provided with structured guidance. Through 33 contributed pull requests, we demonstrate practical applicability and developer acceptance (17 merged, zero rejected) of our findings. This work establishes the first comprehensive baseline for understanding and addressing cross-OS portability issues in Python, providing actionable insights for developers, tool designers, and the broader research community."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "An Empirical Analysis of Cross-OS Portability Issues in Python Projects"
+    ],
+    "twitter:description": [
+      "While Python is designed as a cross-platform language, real-world applications encounter portability failures when deployed across different operating systems. We present the first large-scale..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "An Empirical Analysis of Cross-OS Portability Issues in Python Projects"
+    ],
+    "citation_author": [
+      "Silva, Denini",
+      "Farahat, MohamadAli",
+      "d'Amorim, Marcelo"
+    ],
+    "citation_doi": [
+      "10.1145/3793302.3793373"
+    ],
+    "citation_date": [
+      "2026/09/22"
+    ],
+    "citation_online_date": [
+      "2026/09/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2609.25531"
+    ],
+    "citation_arxiv_id": [
+      "2609.25531"
+    ],
+    "citation_abstract": [
+      "While Python is designed as a cross-platform language, real-world applications encounter portability failures when deployed across different operating systems. We present the first large-scale empirical study of cross-OS portability issues in Python, analyzing 2,042 open-source repositories using two complementary approaches: systematic cross-OS test reexecution and manual analysis of GitHub issues. Our cross-platform testing of 500 projects reveals that 11.2% exhibit OS-dependent test failures. Through systematic analysis of 240 GitHub issues, we confirm 102 genuine portability problems spanning 95 additional projects. We develop a comprehensive taxonomy identifying 7 primary failure categories - with file/directory operations, process management, and library dependencies being most prevalent - along with 24 distinct sub-categories, 15 diagnostic signatures, and 4 systematic repair patterns. Our evaluation reveals that existing static analysis tools provide minimal support for portability detection, while large language models achieve 40-79% accuracy in identifying issues and 50-77% success in generating fixes when provided with structured guidance. Through 33 contributed pull requests, we demonstrate practical applicability and developer acceptance (17 merged, zero rejected) of our findings. This work establishes the first comprehensive baseline for understanding and addressing cross-OS portability issues in Python, providing actionable insights for developers, tool designers, and the broader research community."
+    ]
+  },
+  "html_sha256": "b3c631917ee45e9f0fc7826fe29765e266afacf60b7aa6c2e860440d3ff5ca12",
+  "evidence_html": "evidence/f25a5feea3816d3750ec.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,100 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.acl-long.477",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.477",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "On the multi-turn instruction following for conversational web agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.acl-long.477",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:06.177017+00:00",
+  "error": "ProxyError: HTTPSConnectionPool(host='aclanthology.org', port=443): Max retries exceeded with url: /2024.acl-long.477/ (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.acl-long.477/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42606,
+  "title": "On the Multi-turn Instruction Following for Conversational Web Agents",
+  "authors": [
+    "Yang Deng",
+    "Xuan Zhang",
+    "Wenxuan Zhang",
+    "Yifei Yuan",
+    "See Kiong Ng",
+    "Tat-Seng Chua"
+  ],
+  "first_author": "Yang Deng",
+  "year": 2024,
+  "source_date": "2024/8",
+  "venue_from_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.acl-long.477",
+  "arxiv_id": "",
+  "abstract": "Web agents powered by Large Language Models (LLMs) have demonstrated remarkable abilities in planning and executing multi-step interactions within complex web-based environments, fulfilling a wide range of web navigation tasks. Despite these advancements, the potential for LLM-powered agents to effectively engage with sequential user instructions in real-world scenarios has not been fully explored. In this work, we introduce a new task of Conversational Web Navigation, which necessitates sophisticated interactions that span multiple turns with both the users and the environment, supported by a specially developed dataset named Multi-Turn Mind2Web (MT-Mind2Web). To tackle the limited context length of LLMs and the context-dependency issue of the conversational tasks, we further propose a novel framework, named self-reflective memory-augmented planning (Self-MAP), which employs memory utilization and self-reflection techniques. Extensive experiments are conducted to benchmark the MT-Mind2Web dataset, and validate the effectiveness of the proposed method.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "On the Multi-turn Instruction Following for Conversational Web Agents"
+    ],
+    "citation_author": [
+      "Yang Deng",
+      "Xuan Zhang",
+      "Wenxuan Zhang",
+      "Yifei Yuan",
+      "See Kiong Ng",
+      "Tat-Seng Chua"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.acl-long.477.pdf"
+    ],
+    "citation_firstpage": [
+      "8795"
+    ],
+    "citation_lastpage": [
+      "8812"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.acl-long.477"
+    ],
+    "og:title": [
+      "On the Multi-turn Instruction Following for Conversational Web Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.acl-long.477.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.acl-long.477/"
+    ],
+    "og:description": [
+      "Yang Deng, Xuan Zhang, Wenxuan Zhang, Yifei Yuan, See-Kiong Ng, Tat-Seng Chua. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024."
+    ]
+  },
+  "html_sha256": "ebf5d275634f38ff1517bcd375a20cf799b861fa75da7778816493545c14fdd1",
+  "evidence_html": "evidence/8b21107a786a0a011898.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

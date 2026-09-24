@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2601.04035",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.04035",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Mobiledreamer: Generative sketch world model for GUI agent",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.04035",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:44.325998+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.04035",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42605,
+  "title": "MobileDreamer: Generative Sketch World Model for GUI Agent",
+  "authors": [
+    "Cao, Yilin",
+    "Zhong, Yufeng",
+    "Zeng, Zhixiong",
+    "Dai, Siran",
+    "Zheng, Liming",
+    "Huang, Jing",
+    "Qiu, Haibo",
+    "Shi, Peng",
+    "Mao, Wenji"
+  ],
+  "first_author": "Cao, Yilin",
+  "year": 2026,
+  "source_date": "2026/01/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.04035",
+  "abstract": "Mobile GUI agents have shown strong potential in real-world automation and practical applications. However, most existing agents remain reactive, making decisions mainly from current screen, which limits their performance on long-horizon tasks. Building a world model from repeated interactions enables forecasting action outcomes and supports better decision making for mobile GUI agents. This is challenging because the model must predict post-action states with spatial awareness while remaining efficient enough for practical deployment. In this paper, we propose MobileDreamer, an efficient world-model-based lookahead framework to equip the GUI agents based on the future imagination provided by the world model. It consists of textual sketch world model and rollout imagination for GUI agent. Textual sketch world model forecasts post-action states through a learning process to transform digital images into key task-related sketches, and designs a novel order-invariant learning strategy to preserve the spatial information of GUI elements. The rollout imagination strategy for GUI agent optimizes the action-selection process by leveraging the prediction capability of world model. Experiments on Android World show that MobileDreamer achieves state-of-the-art performance and improves task success by 5.25%. World model evaluations further verify that our textual sketch modeling accurately forecasts key GUI elements.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.04035: MobileDreamer: Generative Sketch World Model for GUI Agent"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MobileDreamer: Generative Sketch World Model for GUI Agent"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.04035v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Mobile GUI agents have shown strong potential in real-world automation and practical applications. However, most existing agents remain reactive, making decisions mainly from current screen, which limits their performance on long-horizon tasks. Building a world model from repeated interactions enables forecasting action outcomes and supports better decision making for mobile GUI agents. This is challenging because the model must predict post-action states with spatial awareness while remaining efficient enough for practical deployment. In this paper, we propose MobileDreamer, an efficient world-model-based lookahead framework to equip the GUI agents based on the future imagination provided by the world model. It consists of textual sketch world model and rollout imagination for GUI agent. Textual sketch world model forecasts post-action states through a learning process to transform digital images into key task-related sketches, and designs a novel order-invariant learning strategy to preserve the spatial information of GUI elements. The rollout imagination strategy for GUI agent optimizes the action-selection process by leveraging the prediction capability of world model. Experiments on Android World show that MobileDreamer achieves state-of-the-art performance and improves task success by 5.25%. World model evaluations further verify that our textual sketch modeling accurately forecasts key GUI elements."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MobileDreamer: Generative Sketch World Model for GUI Agent"
+    ],
+    "twitter:description": [
+      "Mobile GUI agents have shown strong potential in real-world automation and practical applications. However, most existing agents remain reactive, making decisions mainly from current screen, which..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MobileDreamer: Generative Sketch World Model for GUI Agent"
+    ],
+    "citation_author": [
+      "Cao, Yilin",
+      "Zhong, Yufeng",
+      "Zeng, Zhixiong",
+      "Dai, Siran",
+      "Zheng, Liming",
+      "Huang, Jing",
+      "Qiu, Haibo",
+      "Shi, Peng",
+      "Mao, Wenji"
+    ],
+    "citation_date": [
+      "2026/01/07"
+    ],
+    "citation_online_date": [
+      "2026/08/31"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.04035"
+    ],
+    "citation_arxiv_id": [
+      "2601.04035"
+    ],
+    "citation_abstract": [
+      "Mobile GUI agents have shown strong potential in real-world automation and practical applications. However, most existing agents remain reactive, making decisions mainly from current screen, which limits their performance on long-horizon tasks. Building a world model from repeated interactions enables forecasting action outcomes and supports better decision making for mobile GUI agents. This is challenging because the model must predict post-action states with spatial awareness while remaining efficient enough for practical deployment. In this paper, we propose MobileDreamer, an efficient world-model-based lookahead framework to equip the GUI agents based on the future imagination provided by the world model. It consists of textual sketch world model and rollout imagination for GUI agent. Textual sketch world model forecasts post-action states through a learning process to transform digital images into key task-related sketches, and designs a novel order-invariant learning strategy to preserve the spatial information of GUI elements. The rollout imagination strategy for GUI agent optimizes the action-selection process by leveraging the prediction capability of world model. Experiments on Android World show that MobileDreamer achieves state-of-the-art performance and improves task success by 5.25%. World model evaluations further verify that our textual sketch modeling accurately forecasts key GUI elements."
+    ]
+  },
+  "html_sha256": "1e66e612c2b8ebd56557658275e2191294f884013faf08941b3c3b6cae16e7f6",
+  "evidence_html": "evidence/c5691a0a2200c6e5421b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

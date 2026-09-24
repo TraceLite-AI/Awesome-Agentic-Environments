@@ -1,0 +1,122 @@
+{
+  "url": "https://proceedings.mlr.press/v119/laskin20a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v119/laskin20a.html",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "CURL: contrastive unsupervised representations for reinforcement learning, ICML 2020. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v119/laskin20a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:05.297568+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v119/laskin20a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 14423,
+  "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
+  "authors": [
+    "Michael Laskin",
+    "Aravind Srinivas",
+    "Pieter Abbeel"
+  ],
+  "first_author": "Michael Laskin",
+  "year": 2020,
+  "source_date": "2020/11/21",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "We present CURL: Contrastive Unsupervised Representations for Reinforcement Learning. CURL extracts high-level features from raw pixels using contrastive learning and performs off-policy control on top of the extracted features. CURL outperforms prior pixel-based methods, both model-based and model-free, on complex tasks in the DeepMind Control Suite and Atari Games showing 1.9x and 1.2x performance gains at the 100K environment and interaction steps benchmarks respectively. On the DeepMind Control Suite, CURL is the first image-based algorithm to nearly match the sample-efficiency of methods that use state-based features. Our code is open-sourced and available at https://www.github.com/MishaLaskin/curl.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "CURL: Contrastive Unsupervised Representations for Reinforcement LearningMichael Laskin, Aravind Srinivas, Pieter AbbeelWe present CURL: Contrastiv..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "CURL: Contrastive Unsupervised Representations for Reinforcement Learning"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v119/laskin20a.html"
+    ],
+    "citation_pdf_url": [
+      "http://proceedings.mlr.press/v119/laskin20a/laskin20a.pdf"
+    ],
+    "citation_firstpage": [
+      "5639"
+    ],
+    "citation_lastpage": [
+      "5650"
+    ],
+    "citation_author": [
+      "Michael Laskin",
+      "Aravind Srinivas",
+      "Pieter Abbeel"
+    ],
+    "citation_publication_date": [
+      "2020/11/21"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CURL: Contrastive Unsupervised Representations for Reinforcement Learning"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "We present CURL: Contrastive Unsupervised Representations for Reinforcement Learning. CURL extracts high-level features from raw pixels using contrastive lea..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v119/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "CURL: Contrastive Unsupervised Representations for Reinforcement Learning"
+    ],
+    "og:description": [
+      "We present CURL: Contrastive Unsupervised Representations for Reinforcement Learning. CURL extracts high-level features from raw pixels using contrastive learning and performs off-policy control on..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2020-11-21T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v119/laskin20a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v119/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "40abcad3cd11ac499b9ce45935781a5abb554986304df2eacde571a772a74320",
+  "evidence_html": "evidence/8212d2519bbc899ffd3d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

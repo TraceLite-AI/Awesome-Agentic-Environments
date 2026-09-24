@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2601.16206",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.16206",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Llm-in-sandbox elicits general agentic intelligence",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.16206",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:25.874707+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.16206",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42879,
+  "title": "Computer Environments Elicit General Agentic Intelligence in LLMs",
+  "authors": [
+    "Cheng, Daixuan",
+    "Huang, Shaohan",
+    "Gu, Yuxian",
+    "Song, Huatong",
+    "Chen, Guoxin",
+    "Dong, Li",
+    "Zhao, Wayne Xin",
+    "Wen, Ji-Rong",
+    "Wei, Furu"
+  ],
+  "first_author": "Cheng, Daixuan",
+  "year": 2026,
+  "source_date": "2026/01/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.16206",
+  "abstract": "Agentic intelligence in large language models (LLMs) requires not only model intrinsic capabilities but also interactions with external environments. Equipping LLMs with computers now represents a prevailing trend. However, the computer environment's intrinsic value has not been systematically investigated, particularly its potential to elicit general capabilities. Here we introduce LLM-in-Sandbox, which virtualizes the computer as a code sandbox with only basic functionalities, and demonstrate that this minimal setting elicits computer-based meta-capabilities for general task solving: external resource access, file management, and code execution. Without additional training, strong models achieve substantial gains (up to 15.5%) across mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following, while reducing token consumption by up to 8 times. Furthermore, we develop LLM-in-Sandbox-RL to train models exclusively on non-agentic data within the sandbox, empowering weaker models to harness the environment and internalize these interactions. Our results demonstrate that computer environments elicit general intelligence, yield efficiency gains, and can be harnessed through training, serving as a promising foundation for generalist agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.16206: Computer Environments Elicit General Agentic Intelligence in LLMs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Computer Environments Elicit General Agentic Intelligence in LLMs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.16206v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agentic intelligence in large language models (LLMs) requires not only model intrinsic capabilities but also interactions with external environments. Equipping LLMs with computers now represents a prevailing trend. However, the computer environment's intrinsic value has not been systematically investigated, particularly its potential to elicit general capabilities. Here we introduce LLM-in-Sandbox, which virtualizes the computer as a code sandbox with only basic functionalities, and demonstrate that this minimal setting elicits computer-based meta-capabilities for general task solving: external resource access, file management, and code execution. Without additional training, strong models achieve substantial gains (up to 15.5%) across mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following, while reducing token consumption by up to 8 times. Furthermore, we develop LLM-in-Sandbox-RL to train models exclusively on non-agentic data within the sandbox, empowering weaker models to harness the environment and internalize these interactions. Our results demonstrate that computer environments elicit general intelligence, yield efficiency gains, and can be harnessed through training, serving as a promising foundation for generalist agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Computer Environments Elicit General Agentic Intelligence in LLMs"
+    ],
+    "twitter:description": [
+      "Agentic intelligence in large language models (LLMs) requires not only model intrinsic capabilities but also interactions with external environments. Equipping LLMs with computers now represents a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Computer Environments Elicit General Agentic Intelligence in LLMs"
+    ],
+    "citation_author": [
+      "Cheng, Daixuan",
+      "Huang, Shaohan",
+      "Gu, Yuxian",
+      "Song, Huatong",
+      "Chen, Guoxin",
+      "Dong, Li",
+      "Zhao, Wayne Xin",
+      "Wen, Ji-Rong",
+      "Wei, Furu"
+    ],
+    "citation_date": [
+      "2026/01/22"
+    ],
+    "citation_online_date": [
+      "2026/04/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.16206"
+    ],
+    "citation_arxiv_id": [
+      "2601.16206"
+    ],
+    "citation_abstract": [
+      "Agentic intelligence in large language models (LLMs) requires not only model intrinsic capabilities but also interactions with external environments. Equipping LLMs with computers now represents a prevailing trend. However, the computer environment's intrinsic value has not been systematically investigated, particularly its potential to elicit general capabilities. Here we introduce LLM-in-Sandbox, which virtualizes the computer as a code sandbox with only basic functionalities, and demonstrate that this minimal setting elicits computer-based meta-capabilities for general task solving: external resource access, file management, and code execution. Without additional training, strong models achieve substantial gains (up to 15.5%) across mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following, while reducing token consumption by up to 8 times. Furthermore, we develop LLM-in-Sandbox-RL to train models exclusively on non-agentic data within the sandbox, empowering weaker models to harness the environment and internalize these interactions. Our results demonstrate that computer environments elicit general intelligence, yield efficiency gains, and can be harnessed through training, serving as a promising foundation for generalist agents."
+    ]
+  },
+  "html_sha256": "94d77850d9679b950ef5b84eb48220f17b7a37fcd660b6aa5ce745c9ffbea034",
+  "evidence_html": "evidence/870fcd263ef7e48d8583.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

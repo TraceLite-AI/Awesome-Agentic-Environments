@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2408.15978",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2408.15978",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Webpilot: A versatile and autonomous multi-agent system for web task execution with strategic exploration",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2408.15978",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:56.626973+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2408.15978",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43768,
+  "title": "WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration",
+  "authors": [
+    "Zhang, Yao",
+    "Ma, Zijian",
+    "Ma, Yunpu",
+    "Han, Zhen",
+    "Wu, Yu",
+    "Tresp, Volker"
+  ],
+  "first_author": "Zhang, Yao",
+  "year": 2024,
+  "source_date": "2024/08/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2408.15978",
+  "abstract": "LLM-based autonomous agents often fail to execute complex web tasks that require dynamic interaction due to the inherent uncertainty and complexity of these environments. Existing LLM-based web agents typically rely on rigid, expert-designed policies specific to certain states and actions, which lack the flexibility and generalizability needed to adapt to unseen tasks. In contrast, humans excel by exploring unknowns, continuously adapting strategies, and resolving ambiguities through exploration. To emulate human-like adaptability, web agents need strategic exploration and complex decision-making. Monte Carlo Tree Search (MCTS) is well-suited for this, but classical MCTS struggles with vast action spaces, unpredictable state transitions, and incomplete information in web tasks. In light of this, we develop WebPilot, a multi-agent system with a dual optimization strategy that improves MCTS to better handle complex web environments. Specifically, the Global Optimization phase involves generating a high-level plan by breaking down tasks into manageable subtasks and continuously refining this plan, thereby focusing the search process and mitigating the challenges posed by vast action spaces in classical MCTS. Subsequently, the Local Optimization phase executes each subtask using a tailored MCTS designed for complex environments, effectively addressing uncertainties and managing incomplete information. Experimental results on WebArena and MiniWoB++ demonstrate the effectiveness of WebPilot. Notably, on WebArena, WebPilot achieves SOTA performance with GPT-4, achieving a 93% relative increase in success rate over the concurrent tree search-based method. WebPilot marks a significant advancement in general autonomous agent capabilities, paving the way for more advanced and reliable decision-making in practical environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2408.15978: WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2408.15978v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM-based autonomous agents often fail to execute complex web tasks that require dynamic interaction due to the inherent uncertainty and complexity of these environments. Existing LLM-based web agents typically rely on rigid, expert-designed policies specific to certain states and actions, which lack the flexibility and generalizability needed to adapt to unseen tasks. In contrast, humans excel by exploring unknowns, continuously adapting strategies, and resolving ambiguities through exploration. To emulate human-like adaptability, web agents need strategic exploration and complex decision-making. Monte Carlo Tree Search (MCTS) is well-suited for this, but classical MCTS struggles with vast action spaces, unpredictable state transitions, and incomplete information in web tasks. In light of this, we develop WebPilot, a multi-agent system with a dual optimization strategy that improves MCTS to better handle complex web environments. Specifically, the Global Optimization phase involves generating a high-level plan by breaking down tasks into manageable subtasks and continuously refining this plan, thereby focusing the search process and mitigating the challenges posed by vast action spaces in classical MCTS. Subsequently, the Local Optimization phase executes each subtask using a tailored MCTS designed for complex environments, effectively addressing uncertainties and managing incomplete information. Experimental results on WebArena and MiniWoB++ demonstrate the effectiveness of WebPilot. Notably, on WebArena, WebPilot achieves SOTA performance with GPT-4, achieving a 93% relative increase in success rate over the concurrent tree search-based method. WebPilot marks a significant advancement in general autonomous agent capabilities, paving the way for more advanced and reliable decision-making in practical environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WebPilot: A Versatile and Autonomous Multi-Agent System for Web..."
+    ],
+    "twitter:description": [
+      "LLM-based autonomous agents often fail to execute complex web tasks that require dynamic interaction due to the inherent uncertainty and complexity of these environments. Existing LLM-based web..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration"
+    ],
+    "citation_author": [
+      "Zhang, Yao",
+      "Ma, Zijian",
+      "Ma, Yunpu",
+      "Han, Zhen",
+      "Wu, Yu",
+      "Tresp, Volker"
+    ],
+    "citation_date": [
+      "2024/08/28"
+    ],
+    "citation_online_date": [
+      "2024/08/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2408.15978"
+    ],
+    "citation_arxiv_id": [
+      "2408.15978"
+    ],
+    "citation_abstract": [
+      "LLM-based autonomous agents often fail to execute complex web tasks that require dynamic interaction due to the inherent uncertainty and complexity of these environments. Existing LLM-based web agents typically rely on rigid, expert-designed policies specific to certain states and actions, which lack the flexibility and generalizability needed to adapt to unseen tasks. In contrast, humans excel by exploring unknowns, continuously adapting strategies, and resolving ambiguities through exploration. To emulate human-like adaptability, web agents need strategic exploration and complex decision-making. Monte Carlo Tree Search (MCTS) is well-suited for this, but classical MCTS struggles with vast action spaces, unpredictable state transitions, and incomplete information in web tasks. In light of this, we develop WebPilot, a multi-agent system with a dual optimization strategy that improves MCTS to better handle complex web environments. Specifically, the Global Optimization phase involves generating a high-level plan by breaking down tasks into manageable subtasks and continuously refining this plan, thereby focusing the search process and mitigating the challenges posed by vast action spaces in classical MCTS. Subsequently, the Local Optimization phase executes each subtask using a tailored MCTS designed for complex environments, effectively addressing uncertainties and managing incomplete information. Experimental results on WebArena and MiniWoB++ demonstrate the effectiveness of WebPilot. Notably, on WebArena, WebPilot achieves SOTA performance with GPT-4, achieving a 93% relative increase in success rate over the concurrent tree search-based method. WebPilot marks a significant advancement in general autonomous agent capabilities, paving the way for more advanced and reliable decision-making in practical environments."
+    ]
+  },
+  "html_sha256": "964263d5a59f47c1f8b8b096df81fad901d97e7f9f5f847ad1ec1801ee16cea8",
+  "evidence_html": "evidence/00cdfd142beaabb9bc12.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

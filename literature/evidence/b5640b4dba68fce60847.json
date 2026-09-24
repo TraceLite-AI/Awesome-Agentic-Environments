@@ -1,0 +1,120 @@
+{
+  "url": "https://arxiv.org/abs/2407.10022",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.10022",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.10022",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:37.543637+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.10022",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44271,
+  "title": "AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence",
+  "authors": [
+    "Ghafarollahi, Alireza",
+    "Buehler, Markus J."
+  ],
+  "first_author": "Ghafarollahi, Alireza",
+  "year": 2024,
+  "source_date": "2024/07/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.10022",
+  "abstract": "The design of alloys is a multi-scale problem that requires a holistic approach that involves retrieving relevant knowledge, applying advanced computational methods, conducting experimental validations, and analyzing the results, a process that is typically reserved for human experts. Machine learning (ML) can help accelerate this process, for instance, through the use of deep surrogate models that connect structural features to material properties, or vice versa. However, existing data-driven models often target specific material objectives, offering limited flexibility to integrate out-of-domain knowledge and cannot adapt to new, unforeseen challenges. Here, we overcome these limitations by leveraging the distinct capabilities of multiple AI agents that collaborate autonomously within a dynamic environment to solve complex materials design tasks. The proposed physics-aware generative AI platform, AtomAgents, synergizes the intelligence of large language models (LLM) the dynamic collaboration among AI agents with expertise in various domains, including knowledge retrieval, multi-modal data integration, physics-based simulations, and comprehensive results analysis across modalities that includes numerical data and images of physical simulation results. The concerted effort of the multi-agent system allows for addressing complex materials design problems, as demonstrated by examples that include autonomously designing metallic alloys with enhanced properties compared to their pure counterparts. Our results enable accurate prediction of key characteristics across alloys and highlight the crucial role of solid solution alloying to steer the development of advanced metallic alloys. Our framework enhances the efficiency of complex multi-objective design tasks and opens new avenues in fields such as biomedical materials engineering, renewable energy, and environmental sustainability.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.10022: AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.10022v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The design of alloys is a multi-scale problem that requires a holistic approach that involves retrieving relevant knowledge, applying advanced computational methods, conducting experimental validations, and analyzing the results, a process that is typically reserved for human experts. Machine learning (ML) can help accelerate this process, for instance, through the use of deep surrogate models that connect structural features to material properties, or vice versa. However, existing data-driven models often target specific material objectives, offering limited flexibility to integrate out-of-domain knowledge and cannot adapt to new, unforeseen challenges. Here, we overcome these limitations by leveraging the distinct capabilities of multiple AI agents that collaborate autonomously within a dynamic environment to solve complex materials design tasks. The proposed physics-aware generative AI platform, AtomAgents, synergizes the intelligence of large language models (LLM) the dynamic collaboration among AI agents with expertise in various domains, including knowledge retrieval, multi-modal data integration, physics-based simulations, and comprehensive results analysis across modalities that includes numerical data and images of physical simulation results. The concerted effort of the multi-agent system allows for addressing complex materials design problems, as demonstrated by examples that include autonomously designing metallic alloys with enhanced properties compared to their pure counterparts. Our results enable accurate prediction of key characteristics across alloys and highlight the crucial role of solid solution alloying to steer the development of advanced metallic alloys. Our framework enhances the efficiency of complex multi-objective design tasks and opens new avenues in fields such as biomedical materials engineering, renewable energy, and environmental sustainability."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AtomAgents: Alloy design and discovery through physics-aware..."
+    ],
+    "twitter:description": [
+      "The design of alloys is a multi-scale problem that requires a holistic approach that involves retrieving relevant knowledge, applying advanced computational methods, conducting experimental..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence"
+    ],
+    "citation_author": [
+      "Ghafarollahi, Alireza",
+      "Buehler, Markus J."
+    ],
+    "citation_date": [
+      "2024/07/13"
+    ],
+    "citation_online_date": [
+      "2024/07/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.10022"
+    ],
+    "citation_arxiv_id": [
+      "2407.10022"
+    ],
+    "citation_abstract": [
+      "The design of alloys is a multi-scale problem that requires a holistic approach that involves retrieving relevant knowledge, applying advanced computational methods, conducting experimental validations, and analyzing the results, a process that is typically reserved for human experts. Machine learning (ML) can help accelerate this process, for instance, through the use of deep surrogate models that connect structural features to material properties, or vice versa. However, existing data-driven models often target specific material objectives, offering limited flexibility to integrate out-of-domain knowledge and cannot adapt to new, unforeseen challenges. Here, we overcome these limitations by leveraging the distinct capabilities of multiple AI agents that collaborate autonomously within a dynamic environment to solve complex materials design tasks. The proposed physics-aware generative AI platform, AtomAgents, synergizes the intelligence of large language models (LLM) the dynamic collaboration among AI agents with expertise in various domains, including knowledge retrieval, multi-modal data integration, physics-based simulations, and comprehensive results analysis across modalities that includes numerical data and images of physical simulation results. The concerted effort of the multi-agent system allows for addressing complex materials design problems, as demonstrated by examples that include autonomously designing metallic alloys with enhanced properties compared to their pure counterparts. Our results enable accurate prediction of key characteristics across alloys and highlight the crucial role of solid solution alloying to steer the development of advanced metallic alloys. Our framework enhances the efficiency of complex multi-objective design tasks and opens new avenues in fields such as biomedical materials engineering, renewable energy, and environmental sustainability."
+    ]
+  },
+  "html_sha256": "548cc7a43ffc6b1ce71e1f99a98365b3dc81df5ee65058485f6d7e6246c90622",
+  "evidence_html": "evidence/b5640b4dba68fce60847.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

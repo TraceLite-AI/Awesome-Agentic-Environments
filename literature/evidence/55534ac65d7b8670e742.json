@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2605.25430",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2605.25430",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "CODESKILL: Learning Self-Evolving Skills for Coding Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2605.25430",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:27.997572+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2605.25430",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41475,
+  "title": "CODESKILL: Learning Self-Evolving Skills for Coding Agents",
+  "authors": [
+    "Li, Yanzhou",
+    "Zhang, Yiran",
+    "Zhang, Xiaoyu",
+    "Liu, Xiaoxia",
+    "Liu, Yang"
+  ],
+  "first_author": "Li, Yanzhou",
+  "year": 2026,
+  "source_date": "2026/05/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2605.25430",
+  "abstract": "Coding agents produce rich trajectories while solving software-engineering tasks. To enable agent self-evolution, these trajectories can be distilled into reusable procedural skills that compactly encode experience to guide future behavior. However, existing skill construction and maintenance methods often rely on fixed prompts and heuristic update rules, leaving it unclear how knowledge should be selected, abstracted, and maintained to best serve downstream agents. We propose CODESKILL, an LLM-based framework that reformulates skill extraction and skill-bank maintenance as a learnable management policy. CODESKILL extracts multi-granularity procedural skills from coding-agent trajectories, evolves skills with new experience, and maintains a compact skill bank for future task solving. We train CODESKILL with reinforcement learning, using a hybrid reward that combines dense rubric-based skill-quality feedback with sparse verifiable execution feedback from the frozen downstream agent. Experiments on EnvBench, SWE-Bench Verified, and Terminal-Bench 2 show that CODESKILL improves average pass rate by 9.69 over the no-skill baseline and by 4.01 over the strongest prompt-based or memory baseline, while maintaining the skill bank at a stable size during iterative construction.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2605.25430: CODESKILL: Learning Self-Evolving Skills for Coding Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CODESKILL: Learning Self-Evolving Skills for Coding Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2605.25430v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Coding agents produce rich trajectories while solving software-engineering tasks. To enable agent self-evolution, these trajectories can be distilled into reusable procedural skills that compactly encode experience to guide future behavior. However, existing skill construction and maintenance methods often rely on fixed prompts and heuristic update rules, leaving it unclear how knowledge should be selected, abstracted, and maintained to best serve downstream agents. We propose CODESKILL, an LLM-based framework that reformulates skill extraction and skill-bank maintenance as a learnable management policy. CODESKILL extracts multi-granularity procedural skills from coding-agent trajectories, evolves skills with new experience, and maintains a compact skill bank for future task solving. We train CODESKILL with reinforcement learning, using a hybrid reward that combines dense rubric-based skill-quality feedback with sparse verifiable execution feedback from the frozen downstream agent. Experiments on EnvBench, SWE-Bench Verified, and Terminal-Bench 2 show that CODESKILL improves average pass rate by 9.69 over the no-skill baseline and by 4.01 over the strongest prompt-based or memory baseline, while maintaining the skill bank at a stable size during iterative construction."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CODESKILL: Learning Self-Evolving Skills for Coding Agents"
+    ],
+    "twitter:description": [
+      "Coding agents produce rich trajectories while solving software-engineering tasks. To enable agent self-evolution, these trajectories can be distilled into reusable procedural skills that compactly..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CODESKILL: Learning Self-Evolving Skills for Coding Agents"
+    ],
+    "citation_author": [
+      "Li, Yanzhou",
+      "Zhang, Yiran",
+      "Zhang, Xiaoyu",
+      "Liu, Xiaoxia",
+      "Liu, Yang"
+    ],
+    "citation_date": [
+      "2026/05/25"
+    ],
+    "citation_online_date": [
+      "2026/05/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2605.25430"
+    ],
+    "citation_arxiv_id": [
+      "2605.25430"
+    ],
+    "citation_abstract": [
+      "Coding agents produce rich trajectories while solving software-engineering tasks. To enable agent self-evolution, these trajectories can be distilled into reusable procedural skills that compactly encode experience to guide future behavior. However, existing skill construction and maintenance methods often rely on fixed prompts and heuristic update rules, leaving it unclear how knowledge should be selected, abstracted, and maintained to best serve downstream agents. We propose CODESKILL, an LLM-based framework that reformulates skill extraction and skill-bank maintenance as a learnable management policy. CODESKILL extracts multi-granularity procedural skills from coding-agent trajectories, evolves skills with new experience, and maintains a compact skill bank for future task solving. We train CODESKILL with reinforcement learning, using a hybrid reward that combines dense rubric-based skill-quality feedback with sparse verifiable execution feedback from the frozen downstream agent. Experiments on EnvBench, SWE-Bench Verified, and Terminal-Bench 2 show that CODESKILL improves average pass rate by 9.69 over the no-skill baseline and by 4.01 over the strongest prompt-based or memory baseline, while maintaining the skill bank at a stable size during iterative construction."
+    ]
+  },
+  "html_sha256": "ec1c8de8c04fba9933df4508ca192a31061397bb18686ff3d295ec848a33649e",
+  "evidence_html": "evidence/55534ac65d7b8670e742.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,71 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rowe_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Generating_Driving_Simulation_Environments_CVPR_2025_paper.html",
+  "discoveries": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rowe_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Generating_Driving_Simulation_Environments_CVPR_2025_paper.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Scenario dreamer: Vectorized latent diffusion for generating driving simulation environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rowe_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Generating_Driving_Simulation_Environments_CVPR_2025_paper.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:04.677274+00:00",
+  "http_status": 200,
+  "opened_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rowe_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Generating_Driving_Simulation_Environments_CVPR_2025_paper.html",
+  "content_type": "text/html; charset=UTF-8",
+  "response_bytes": 6893,
+  "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+  "authors": [
+    "Rowe, Luke",
+    "Girgis, Roger",
+    "Gosselin, Anthony",
+    "Paull, Liam",
+    "Pal, Christopher",
+    "Heide, Felix"
+  ],
+  "first_author": "Rowe, Luke",
+  "year": 2025,
+  "source_date": "2025",
+  "venue_from_source": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "We introduce Scenario Dreamer, a fully data-driven generative simulator for autonomous vehicle planning that generates both the initial traffic scene--comprising a lane graph and agent bounding boxes--and closed-loop agent behaviours. Existing methods for generating driving simulation environments encode the initial traffic scene as a rasterized image and, as such, require parameter-heavy networks that perform unnecessary computation due to many empty pixels in the rasterized scene. Moreover, we find that existing methods that employ rule-based agent behaviours lack diversity and realism. Scenario Dreamer instead employs a novel vectorized latent diffusion model for initial scene generation that directly operates on the vectorized scene elements and an autoregressive Transformer for data-driven agent behaviour simulation. Scenario Dreamer additionally supports scene extrapolation via diffusion inpainting, enabling the generation of unbounded simulation environments. Extensive experiments show that Scenario Dreamer outperforms existing generative simulators in realism and efficiency: the vectorized scene-generation base model achieves superior generation quality with around 2x fewer parameters, 6x lower generation latency, and 10x fewer GPU training hours compared to the strongest baseline. We confirm its practical utility by showing that reinforcement learning planning agents are more challenged in Scenario Dreamer environments than traditional non-generative simulation environments, especially on long and adversarial driving environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "citation_title": [
+      "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments"
+    ],
+    "citation_author": [
+      "Rowe, Luke",
+      "Girgis, Roger",
+      "Gosselin, Anthony",
+      "Paull, Liam",
+      "Pal, Christopher",
+      "Heide, Felix"
+    ],
+    "citation_publication_date": [
+      "2025"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ],
+    "citation_firstpage": [
+      "17207"
+    ],
+    "citation_lastpage": [
+      "17218"
+    ],
+    "citation_pdf_url": [
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Rowe_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Generating_Driving_Simulation_Environments_CVPR_2025_paper.pdf"
+    ]
+  },
+  "html_sha256": "f8f1afdc183a5ce297d42f5bc6606e1f895cfddfeb258567251141d4ceea7be4",
+  "evidence_html": "evidence/dcb2df75b71bfefcf919.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

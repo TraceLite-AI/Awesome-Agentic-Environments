@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2310.07937",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.07937",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "embodied_llm_agents",
+      "title_hint": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation using Large Language Models. Bangguo Yu et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.07937",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:59.051469+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.07937",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42464,
+  "title": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models",
+  "authors": [
+    "Yu, Bangguo",
+    "Yuan, Qihao",
+    "Li, Kailai",
+    "Kasaei, Hamidreza",
+    "Cao, Ming"
+  ],
+  "first_author": "Yu, Bangguo",
+  "year": 2023,
+  "source_date": "2023/10/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.07937",
+  "abstract": "Visual target navigation is a critical capability for autonomous robots operating in unknown environments, particularly in human-robot interaction scenarios. While classical and learning-based methods have shown promise, most existing approaches lack common-sense reasoning and are typically designed for single-robot settings, leading to reduced efficiency and robustness in complex environments. To address these limitations, we introduce Co-NavGPT, a novel framework that integrates a Vision Language Model (VLM) as a global planner to enable common-sense multi-robot visual target navigation. Co-NavGPT aggregates sub-maps from multiple robots with diverse viewpoints into a unified global map, encoding robot states and frontier regions. The VLM uses this information to assign frontiers across the robots, facilitating coordinated and efficient exploration. Experiments on the Habitat-Matterport 3D (HM3D) demonstrate that Co-NavGPT outperforms existing baselines in terms of success rate and navigation efficiency, without requiring task-specific training. Ablation studies further confirm the importance of semantic priors from the VLM. We also validate the framework in real-world scenarios using quadrupedal robots. Supplementary video and code are available at: this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.07937: Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.07937v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Visual target navigation is a critical capability for autonomous robots operating in unknown environments, particularly in human-robot interaction scenarios. While classical and learning-based methods have shown promise, most existing approaches lack common-sense reasoning and are typically designed for single-robot settings, leading to reduced efficiency and robustness in complex environments. To address these limitations, we introduce Co-NavGPT, a novel framework that integrates a Vision Language Model (VLM) as a global planner to enable common-sense multi-robot visual target navigation. Co-NavGPT aggregates sub-maps from multiple robots with diverse viewpoints into a unified global map, encoding robot states and frontier regions. The VLM uses this information to assign frontiers across the robots, facilitating coordinated and efficient exploration. Experiments on the Habitat-Matterport 3D (HM3D) demonstrate that Co-NavGPT outperforms existing baselines in terms of success rate and navigation efficiency, without requiring task-specific training. Ablation studies further confirm the importance of semantic priors from the VLM. We also validate the framework in real-world scenarios using quadrupedal robots. Supplementary video and code are available at: https://sites.google.com/view/co-navgpt2."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation..."
+    ],
+    "twitter:description": [
+      "Visual target navigation is a critical capability for autonomous robots operating in unknown environments, particularly in human-robot interaction scenarios. While classical and learning-based..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models"
+    ],
+    "citation_author": [
+      "Yu, Bangguo",
+      "Yuan, Qihao",
+      "Li, Kailai",
+      "Kasaei, Hamidreza",
+      "Cao, Ming"
+    ],
+    "citation_date": [
+      "2023/10/11"
+    ],
+    "citation_online_date": [
+      "2025/05/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.07937"
+    ],
+    "citation_arxiv_id": [
+      "2310.07937"
+    ],
+    "citation_abstract": [
+      "Visual target navigation is a critical capability for autonomous robots operating in unknown environments, particularly in human-robot interaction scenarios. While classical and learning-based methods have shown promise, most existing approaches lack common-sense reasoning and are typically designed for single-robot settings, leading to reduced efficiency and robustness in complex environments. To address these limitations, we introduce Co-NavGPT, a novel framework that integrates a Vision Language Model (VLM) as a global planner to enable common-sense multi-robot visual target navigation. Co-NavGPT aggregates sub-maps from multiple robots with diverse viewpoints into a unified global map, encoding robot states and frontier regions. The VLM uses this information to assign frontiers across the robots, facilitating coordinated and efficient exploration. Experiments on the Habitat-Matterport 3D (HM3D) demonstrate that Co-NavGPT outperforms existing baselines in terms of success rate and navigation efficiency, without requiring task-specific training. Ablation studies further confirm the importance of semantic priors from the VLM. We also validate the framework in real-world scenarios using quadrupedal robots. Supplementary video and code are available at: https://sites.google.com/view/co-navgpt2."
+    ]
+  },
+  "html_sha256": "f65ae85962321cc785ff3f9e766ef6ea7a02d8e25d667c120b140c7959d1cf41",
+  "evidence_html": "evidence/daedbf0096c0f407f474.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

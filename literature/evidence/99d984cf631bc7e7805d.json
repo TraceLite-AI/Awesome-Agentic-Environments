@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2406.04692",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.04692",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.04692",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:53.969856+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.04692",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40354,
+  "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+  "authors": [
+    "Wang, Junlin",
+    "Wang, Jue",
+    "Athiwaratkun, Ben",
+    "Zhang, Ce",
+    "Zou, James"
+  ],
+  "first_author": "Wang, Junlin",
+  "year": 2024,
+  "source_date": "2024/06/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.04692",
+  "abstract": "Recent advances in large language models (LLMs) demonstrate substantial capabilities in natural language understanding and generation tasks. With the growing number of LLMs, how to harness the collective expertise of multiple LLMs is an exciting open direction. Toward this goal, we propose a new approach that leverages the collective strengths of multiple LLMs through a Mixture-of-Agents (MoA) methodology. In our approach, we construct a layered MoA architecture wherein each layer comprises multiple LLM agents. Each agent takes all the outputs from agents in the previous layer as auxiliary information in generating its response. MoA models achieves state-of-art performance on AlpacaEval 2.0, MT-Bench and FLASK, surpassing GPT-4 Omni. For example, our MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.04692: Mixture-of-Agents Enhances Large Language Model Capabilities"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Mixture-of-Agents Enhances Large Language Model Capabilities"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.04692v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in large language models (LLMs) demonstrate substantial capabilities in natural language understanding and generation tasks. With the growing number of LLMs, how to harness the collective expertise of multiple LLMs is an exciting open direction. Toward this goal, we propose a new approach that leverages the collective strengths of multiple LLMs through a Mixture-of-Agents (MoA) methodology. In our approach, we construct a layered MoA architecture wherein each layer comprises multiple LLM agents. Each agent takes all the outputs from agents in the previous layer as auxiliary information in generating its response. MoA models achieves state-of-art performance on AlpacaEval 2.0, MT-Bench and FLASK, surpassing GPT-4 Omni. For example, our MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Mixture-of-Agents Enhances Large Language Model Capabilities"
+    ],
+    "twitter:description": [
+      "Recent advances in large language models (LLMs) demonstrate substantial capabilities in natural language understanding and generation tasks. With the growing number of LLMs, how to harness the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Mixture-of-Agents Enhances Large Language Model Capabilities"
+    ],
+    "citation_author": [
+      "Wang, Junlin",
+      "Wang, Jue",
+      "Athiwaratkun, Ben",
+      "Zhang, Ce",
+      "Zou, James"
+    ],
+    "citation_date": [
+      "2024/06/07"
+    ],
+    "citation_online_date": [
+      "2024/06/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.04692"
+    ],
+    "citation_arxiv_id": [
+      "2406.04692"
+    ],
+    "citation_abstract": [
+      "Recent advances in large language models (LLMs) demonstrate substantial capabilities in natural language understanding and generation tasks. With the growing number of LLMs, how to harness the collective expertise of multiple LLMs is an exciting open direction. Toward this goal, we propose a new approach that leverages the collective strengths of multiple LLMs through a Mixture-of-Agents (MoA) methodology. In our approach, we construct a layered MoA architecture wherein each layer comprises multiple LLM agents. Each agent takes all the outputs from agents in the previous layer as auxiliary information in generating its response. MoA models achieves state-of-art performance on AlpacaEval 2.0, MT-Bench and FLASK, surpassing GPT-4 Omni. For example, our MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni."
+    ]
+  },
+  "html_sha256": "dd0aa8847739e5e57b817056872a3e53b0285d9171e4594e575e7ce62e890be6",
+  "evidence_html": "evidence/99d984cf631bc7e7805d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

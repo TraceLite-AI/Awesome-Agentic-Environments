@@ -1,0 +1,175 @@
+{
+  "url": "https://arxiv.org/abs/2309.07864",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2309.07864",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2309.07864",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:34.581969+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2309.07864",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 47916,
+  "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+  "authors": [
+    "Xi, Zhiheng",
+    "Chen, Wenxiang",
+    "Guo, Xin",
+    "He, Wei",
+    "Ding, Yiwen",
+    "Hong, Boyang",
+    "Zhang, Ming",
+    "Wang, Junzhe",
+    "Jin, Senjie",
+    "Zhou, Enyu",
+    "Zheng, Rui",
+    "Fan, Xiaoran",
+    "Wang, Xiao",
+    "Xiong, Limao",
+    "Zhou, Yuhao",
+    "Wang, Weiran",
+    "Jiang, Changhao",
+    "Zou, Yicheng",
+    "Liu, Xiangyang",
+    "Yin, Zhangyue",
+    "Dou, Shihan",
+    "Weng, Rongxiang",
+    "Cheng, Wensen",
+    "Zhang, Qi",
+    "Qin, Wenjuan",
+    "Zheng, Yongyan",
+    "Qiu, Xipeng",
+    "Huang, Xuanjing",
+    "Gui, Tao"
+  ],
+  "first_author": "Xi, Zhiheng",
+  "year": 2023,
+  "source_date": "2023/09/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2309.07864",
+  "abstract": "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the community lacks is a general and powerful model to serve as a starting point for designing AI agents that can adapt to diverse scenarios. Due to the versatile capabilities they demonstrate, large language models (LLMs) are regarded as potential sparks for Artificial General Intelligence (AGI), offering hope for building general AI agents. Many researchers have leveraged LLMs as the foundation to build AI agents and have achieved significant progress. In this paper, we perform a comprehensive survey on LLM-based agents. We start by tracing the concept of agents from its philosophical origins to its development in AI, and explain why LLMs are suitable foundations for agents. Building upon this, we present a general framework for LLM-based agents, comprising three main components: brain, perception, and action, and the framework can be tailored for different applications. Subsequently, we explore the extensive applications of LLM-based agents in three aspects: single-agent scenarios, multi-agent scenarios, and human-agent cooperation. Following this, we delve into agent societies, exploring the behavior and personality of LLM-based agents, the social phenomena that emerge from an agent society, and the insights they offer for human society. Finally, we discuss several key topics and open problems within the field. A repository for the related papers at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2309.07864: The Rise and Potential of Large Language Model Based Agents: A Survey"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "The Rise and Potential of Large Language Model Based Agents: A Survey"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2309.07864v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the community lacks is a general and powerful model to serve as a starting point for designing AI agents that can adapt to diverse scenarios. Due to the versatile capabilities they demonstrate, large language models (LLMs) are regarded as potential sparks for Artificial General Intelligence (AGI), offering hope for building general AI agents. Many researchers have leveraged LLMs as the foundation to build AI agents and have achieved significant progress. In this paper, we perform a comprehensive survey on LLM-based agents. We start by tracing the concept of agents from its philosophical origins to its development in AI, and explain why LLMs are suitable foundations for agents. Building upon this, we present a general framework for LLM-based agents, comprising three main components: brain, perception, and action, and the framework can be tailored for different applications. Subsequently, we explore the extensive applications of LLM-based agents in three aspects: single-agent scenarios, multi-agent scenarios, and human-agent cooperation. Following this, we delve into agent societies, exploring the behavior and personality of LLM-based agents, the social phenomena that emerge from an agent society, and the insights they offer for human society. Finally, we discuss several key topics and open problems within the field. A repository for the related papers at https://github.com/WooooDyy/LLM-Agent-Paper-List."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "The Rise and Potential of Large Language Model Based Agents: A Survey"
+    ],
+    "twitter:description": [
+      "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "The Rise and Potential of Large Language Model Based Agents: A Survey"
+    ],
+    "citation_author": [
+      "Xi, Zhiheng",
+      "Chen, Wenxiang",
+      "Guo, Xin",
+      "He, Wei",
+      "Ding, Yiwen",
+      "Hong, Boyang",
+      "Zhang, Ming",
+      "Wang, Junzhe",
+      "Jin, Senjie",
+      "Zhou, Enyu",
+      "Zheng, Rui",
+      "Fan, Xiaoran",
+      "Wang, Xiao",
+      "Xiong, Limao",
+      "Zhou, Yuhao",
+      "Wang, Weiran",
+      "Jiang, Changhao",
+      "Zou, Yicheng",
+      "Liu, Xiangyang",
+      "Yin, Zhangyue",
+      "Dou, Shihan",
+      "Weng, Rongxiang",
+      "Cheng, Wensen",
+      "Zhang, Qi",
+      "Qin, Wenjuan",
+      "Zheng, Yongyan",
+      "Qiu, Xipeng",
+      "Huang, Xuanjing",
+      "Gui, Tao"
+    ],
+    "citation_date": [
+      "2023/09/14"
+    ],
+    "citation_online_date": [
+      "2023/09/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2309.07864"
+    ],
+    "citation_arxiv_id": [
+      "2309.07864"
+    ],
+    "citation_abstract": [
+      "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the community lacks is a general and powerful model to serve as a starting point for designing AI agents that can adapt to diverse scenarios. Due to the versatile capabilities they demonstrate, large language models (LLMs) are regarded as potential sparks for Artificial General Intelligence (AGI), offering hope for building general AI agents. Many researchers have leveraged LLMs as the foundation to build AI agents and have achieved significant progress. In this paper, we perform a comprehensive survey on LLM-based agents. We start by tracing the concept of agents from its philosophical origins to its development in AI, and explain why LLMs are suitable foundations for agents. Building upon this, we present a general framework for LLM-based agents, comprising three main components: brain, perception, and action, and the framework can be tailored for different applications. Subsequently, we explore the extensive applications of LLM-based agents in three aspects: single-agent scenarios, multi-agent scenarios, and human-agent cooperation. Following this, we delve into agent societies, exploring the behavior and personality of LLM-based agents, the social phenomena that emerge from an agent society, and the insights they offer for human society. Finally, we discuss several key topics and open problems within the field. A repository for the related papers at https://github.com/WooooDyy/LLM-Agent-Paper-List."
+    ]
+  },
+  "html_sha256": "bccdcb8dbc3e3c26c9cfe80bfdaa917f676db61dcd9690eb12b144f671334138",
+  "evidence_html": "evidence/41bb9bdd493875f63218.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2402.08191",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.08191",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-68",
+      "topic": "机器人与世界模型",
+      "title_hint": "Pumacay et al. THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation. RSS 2024. arXiv:2402.08191.",
+      "existing_reference_number": 68,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.08191",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:17.728940+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.08191",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43549,
+  "title": "THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation",
+  "authors": [
+    "Pumacay, Wilbert",
+    "Singh, Ishika",
+    "Duan, Jiafei",
+    "Krishna, Ranjay",
+    "Thomason, Jesse",
+    "Fox, Dieter"
+  ],
+  "first_author": "Pumacay, Wilbert",
+  "year": 2024,
+  "source_date": "2024/02/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.08191",
+  "abstract": "To realize effective large-scale, real-world robotic applications, we must evaluate how well our robot policies adapt to changes in environmental conditions. Unfortunately, a majority of studies evaluate robot performance in environments closely resembling or even identical to the training setup. We present THE COLOSSEUM, a novel simulation benchmark, with 20 diverse manipulation tasks, that enables systematical evaluation of models across 14 axes of environmental perturbations. These perturbations include changes in color, texture, and size of objects, table-tops, and backgrounds; we also vary lighting, distractors, physical properties perturbations and camera pose. Using THE COLOSSEUM, we compare 5 state-of-the-art manipulation models to reveal that their success rate degrades between 30-50% across these perturbation factors. When multiple perturbations are applied in unison, the success rate degrades $\\geq$75%. We identify that changing the number of distractor objects, target object color, or lighting conditions are the perturbations that reduce model performance the most. To verify the ecological validity of our results, we show that our results in simulation are correlated ($\\bar{R}^2 = 0.614$) to similar perturbations in real-world experiments. We open source code for others to use THE COLOSSEUM, and also release code to 3D print the objects used to replicate the real-world perturbations. Ultimately, we hope that THE COLOSSEUM will serve as a benchmark to identify modeling decisions that systematically improve generalization for manipulation. See this https URL for more details.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.08191: THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.08191v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "To realize effective large-scale, real-world robotic applications, we must evaluate how well our robot policies adapt to changes in environmental conditions. Unfortunately, a majority of studies evaluate robot performance in environments closely resembling or even identical to the training setup. We present THE COLOSSEUM, a novel simulation benchmark, with 20 diverse manipulation tasks, that enables systematical evaluation of models across 14 axes of environmental perturbations. These perturbations include changes in color, texture, and size of objects, table-tops, and backgrounds; we also vary lighting, distractors, physical properties perturbations and camera pose. Using THE COLOSSEUM, we compare 5 state-of-the-art manipulation models to reveal that their success rate degrades between 30-50% across these perturbation factors. When multiple perturbations are applied in unison, the success rate degrades $\\geq$75%. We identify that changing the number of distractor objects, target object color, or lighting conditions are the perturbations that reduce model performance the most. To verify the ecological validity of our results, we show that our results in simulation are correlated ($\\bar{R}^2 = 0.614$) to similar perturbations in real-world experiments. We open source code for others to use THE COLOSSEUM, and also release code to 3D print the objects used to replicate the real-world perturbations. Ultimately, we hope that THE COLOSSEUM will serve as a benchmark to identify modeling decisions that systematically improve generalization for manipulation. See https://robot-colosseum.github.io/ for more details."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "THE COLOSSEUM: A Benchmark for Evaluating Generalization for..."
+    ],
+    "twitter:description": [
+      "To realize effective large-scale, real-world robotic applications, we must evaluate how well our robot policies adapt to changes in environmental conditions. Unfortunately, a majority of studies..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation"
+    ],
+    "citation_author": [
+      "Pumacay, Wilbert",
+      "Singh, Ishika",
+      "Duan, Jiafei",
+      "Krishna, Ranjay",
+      "Thomason, Jesse",
+      "Fox, Dieter"
+    ],
+    "citation_date": [
+      "2024/02/13"
+    ],
+    "citation_online_date": [
+      "2024/05/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.08191"
+    ],
+    "citation_arxiv_id": [
+      "2402.08191"
+    ],
+    "citation_abstract": [
+      "To realize effective large-scale, real-world robotic applications, we must evaluate how well our robot policies adapt to changes in environmental conditions. Unfortunately, a majority of studies evaluate robot performance in environments closely resembling or even identical to the training setup. We present THE COLOSSEUM, a novel simulation benchmark, with 20 diverse manipulation tasks, that enables systematical evaluation of models across 14 axes of environmental perturbations. These perturbations include changes in color, texture, and size of objects, table-tops, and backgrounds; we also vary lighting, distractors, physical properties perturbations and camera pose. Using THE COLOSSEUM, we compare 5 state-of-the-art manipulation models to reveal that their success rate degrades between 30-50% across these perturbation factors. When multiple perturbations are applied in unison, the success rate degrades $\\geq$75%. We identify that changing the number of distractor objects, target object color, or lighting conditions are the perturbations that reduce model performance the most. To verify the ecological validity of our results, we show that our results in simulation are correlated ($\\bar{R}^2 = 0.614$) to similar perturbations in real-world experiments. We open source code for others to use THE COLOSSEUM, and also release code to 3D print the objects used to replicate the real-world perturbations. Ultimately, we hope that THE COLOSSEUM will serve as a benchmark to identify modeling decisions that systematically improve generalization for manipulation. See https://robot-colosseum.github.io/ for more details."
+    ]
+  },
+  "html_sha256": "928768a020a2ab4526109bdcebc36a661bd654d6116d4dd1b5c04eb33470907e",
+  "evidence_html": "evidence/a0ae5ddc213be490e3e6.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

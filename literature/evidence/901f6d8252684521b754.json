@@ -1,0 +1,103 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.638",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.638",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Flowbench: Revisiting and benchmarking workflow-guided planning for llm-based agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.findings-emnlp.638",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:17.215032+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.findings-emnlp.638/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44464,
+  "title": "FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents",
+  "authors": [
+    "Ruixuan Xiao",
+    "Wentao Ma",
+    "Ke Wang",
+    "Yuchuan Wu",
+    "Junbo Zhao",
+    "Haobo Wang",
+    "Fei Huang",
+    "Yongbin Li"
+  ],
+  "first_author": "Ruixuan Xiao",
+  "year": 2024,
+  "source_date": "2024/11",
+  "venue_from_source": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.findings-emnlp.638",
+  "arxiv_id": "",
+  "abstract": "LLM-based agents have emerged as promising tools, which are crafted to fulfill complex tasks by iterative planning and action. However, these agents are susceptible to undesired planning hallucinations when lacking specific knowledge for expertise-intensive tasks. To address this, preliminary attempts are made to enhance planning reliability by incorporating external workflow-related knowledge. Despite the promise, such infused knowledge is mostly disorganized and diverse in formats, lacking rigorous formalization and comprehensive comparisons. Motivated by this, we formalize different formats of workflow knowledge and present FlowBench, the first benchmark for workflow-guided planning. FlowBench covers 51 different scenarios from 6 domains, with knowledge presented in diverse formats. To assess different LLMs on FlowBench, we design a multi-tiered evaluation framework. We evaluate the efficacy of workflow knowledge across multiple formats, and the results indicate that current LLM agents need considerable improvements for satisfactory planning. We hope that our challenging benchmark can pave the way for future agent planning research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents"
+    ],
+    "citation_author": [
+      "Ruixuan Xiao",
+      "Wentao Ma",
+      "Ke Wang",
+      "Yuchuan Wu",
+      "Junbo Zhao",
+      "Haobo Wang",
+      "Fei Huang",
+      "Yongbin Li"
+    ],
+    "citation_conference_title": [
+      "Findings of the Association for Computational Linguistics: EMNLP 2024"
+    ],
+    "citation_publication_date": [
+      "2024/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.findings-emnlp.638.pdf"
+    ],
+    "citation_firstpage": [
+      "10883"
+    ],
+    "citation_lastpage": [
+      "10900"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.findings-emnlp.638"
+    ],
+    "og:title": [
+      "FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.findings-emnlp.638.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.findings-emnlp.638/"
+    ],
+    "og:description": [
+      "Ruixuan Xiao, Wentao Ma, Ke Wang, Yuchuan Wu, Junbo Zhao, Haobo Wang, Fei Huang, Yongbin Li. Findings of the Association for Computational Linguistics: EMNLP 2024. 2024."
+    ]
+  },
+  "html_sha256": "25dbffdad6367591c45e14178728dd4865eef9f037aeb965d9b281cf71430c7e",
+  "evidence_html": "evidence/901f6d8252684521b754.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

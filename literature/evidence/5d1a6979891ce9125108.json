@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2504.13936",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.13936",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Vimo: A generative visual gui world model for app agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.13936",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:38.347001+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.13936",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43335,
+  "title": "ViMo: A Generative Visual GUI World Model for App Agents",
+  "authors": [
+    "Luo, Dezhao",
+    "Tang, Bohan",
+    "Li, Kang",
+    "Papoudakis, Georgios",
+    "Song, Jifei",
+    "Gong, Shaogang",
+    "Hao, Jianye",
+    "Wang, Jun",
+    "Shao, Kun"
+  ],
+  "first_author": "Luo, Dezhao",
+  "year": 2025,
+  "source_date": "2025/04/15",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.13936",
+  "abstract": "App agents, which autonomously operate mobile Apps through Graphical User Interfaces (GUIs), have gained significant interest in real-world applications. Yet, they often struggle with long-horizon planning, failing to find the optimal actions for complex tasks with longer steps. To address this, world models are used to predict the next GUI observation based on user actions, enabling more effective agent planning. However, existing world models primarily focus on generating only textual descriptions, lacking essential visual details. To fill this gap, we propose ViMo, the first visual world model designed to generate future App observations as images. For the challenge of generating text in image patches, where even minor pixel errors can distort readability, we decompose GUI generation into graphic and text content generation. We propose a novel data representation, the Symbolic Text Representation~(STR) to overlay text content with symbolic placeholders while preserving graphics. With this design, ViMo employs a STR Predictor to predict future GUIs' graphics and a GUI-text Predictor for generating the corresponding text. Moreover, we deploy ViMo to enhance agent-focused tasks by predicting the outcome of different action options. Experiments show ViMo's ability to generate visually plausible and functionally effective GUIs that enable App agents to make more informed decisions.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.13936: ViMo: A Generative Visual GUI World Model for App Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ViMo: A Generative Visual GUI World Model for App Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.13936v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "App agents, which autonomously operate mobile Apps through Graphical User Interfaces (GUIs), have gained significant interest in real-world applications. Yet, they often struggle with long-horizon planning, failing to find the optimal actions for complex tasks with longer steps. To address this, world models are used to predict the next GUI observation based on user actions, enabling more effective agent planning. However, existing world models primarily focus on generating only textual descriptions, lacking essential visual details. To fill this gap, we propose ViMo, the first visual world model designed to generate future App observations as images. For the challenge of generating text in image patches, where even minor pixel errors can distort readability, we decompose GUI generation into graphic and text content generation. We propose a novel data representation, the Symbolic Text Representation~(STR) to overlay text content with symbolic placeholders while preserving graphics. With this design, ViMo employs a STR Predictor to predict future GUIs' graphics and a GUI-text Predictor for generating the corresponding text. Moreover, we deploy ViMo to enhance agent-focused tasks by predicting the outcome of different action options. Experiments show ViMo's ability to generate visually plausible and functionally effective GUIs that enable App agents to make more informed decisions."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ViMo: A Generative Visual GUI World Model for App Agents"
+    ],
+    "twitter:description": [
+      "App agents, which autonomously operate mobile Apps through Graphical User Interfaces (GUIs), have gained significant interest in real-world applications. Yet, they often struggle with long-horizon..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ViMo: A Generative Visual GUI World Model for App Agents"
+    ],
+    "citation_author": [
+      "Luo, Dezhao",
+      "Tang, Bohan",
+      "Li, Kang",
+      "Papoudakis, Georgios",
+      "Song, Jifei",
+      "Gong, Shaogang",
+      "Hao, Jianye",
+      "Wang, Jun",
+      "Shao, Kun"
+    ],
+    "citation_date": [
+      "2025/04/15"
+    ],
+    "citation_online_date": [
+      "2025/05/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.13936"
+    ],
+    "citation_arxiv_id": [
+      "2504.13936"
+    ],
+    "citation_abstract": [
+      "App agents, which autonomously operate mobile Apps through Graphical User Interfaces (GUIs), have gained significant interest in real-world applications. Yet, they often struggle with long-horizon planning, failing to find the optimal actions for complex tasks with longer steps. To address this, world models are used to predict the next GUI observation based on user actions, enabling more effective agent planning. However, existing world models primarily focus on generating only textual descriptions, lacking essential visual details. To fill this gap, we propose ViMo, the first visual world model designed to generate future App observations as images. For the challenge of generating text in image patches, where even minor pixel errors can distort readability, we decompose GUI generation into graphic and text content generation. We propose a novel data representation, the Symbolic Text Representation~(STR) to overlay text content with symbolic placeholders while preserving graphics. With this design, ViMo employs a STR Predictor to predict future GUIs' graphics and a GUI-text Predictor for generating the corresponding text. Moreover, we deploy ViMo to enhance agent-focused tasks by predicting the outcome of different action options. Experiments show ViMo's ability to generate visually plausible and functionally effective GUIs that enable App agents to make more informed decisions."
+    ]
+  },
+  "html_sha256": "b8bcbe674e5ef216033f10024078eeaa69b5012b412e2ed160ddfade8254494b",
+  "evidence_html": "evidence/5d1a6979891ce9125108.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

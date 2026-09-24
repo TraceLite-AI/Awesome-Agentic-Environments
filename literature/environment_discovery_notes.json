@@ -1,0 +1,90 @@
+{
+  "sources_opened": [
+    "https://arxiv.org/html/2606.12191v1",
+    "https://github.com/clvrai/awesome-rl-envs",
+    "https://github.com/journee-live/awesome-world-models",
+    "https://github.com/zongqing0068/awesome-co-evolution"
+  ],
+  "count": 261,
+  "topic_counts": {
+    "Interactive agent benchmarks/tool/code/enterprise environments": 58,
+    "Environment synthesis/generation/executable task construction": 44,
+    "GUI/web/mobile/OS interactive environments": 21,
+    "Research/search interactive environments": 23,
+    "Embodied/game/simulation environments": 42,
+    "Interactive world models/neural simulators": 39,
+    "Environment evolution/curriculum/unsupervised environment design": 20,
+    "Environment survey": 1,
+    "Open-ended learning/procedural environment evolution": 11,
+    "Contextual RL/environment variation": 2
+  },
+  "source_reference_numbers_without_paper_url": [
+    [
+      58,
+      "Mobile-bench: An evaluation benchmark for llm-based mobile agents,"
+    ],
+    [
+      84,
+      "Rlbench: The robot learning benchmark & learning environment,"
+    ],
+    [
+      102,
+      "Whodunitbench: Evaluating llms on murder mystery games,"
+    ],
+    [
+      136,
+      "Csr-bench: Benchmarking llm agents in deployment of computer science research repositories,"
+    ],
+    [
+      138,
+      "Intercode: Standardizing and benchmarking interactive coding with execution feedback,"
+    ],
+    [
+      371,
+      "Teach: Task-driven embodied agents that chat,"
+    ],
+    [
+      372,
+      "Realfred: An embodied instruction following benchmark in photo-realistic environments,"
+    ],
+    [
+      392,
+      "Enterpriseops-gym: Environments and evaluations for stateful agentic planning and tool use in enterprise settings."
+    ]
+  ],
+  "status": "Discovery candidates only; individual paper metadata verification delegated to parent.",
+  "direct_paper_pages_opened": [
+    "https://arxiv.org/abs/1909.12271",
+    "https://arxiv.org/abs/2306.14898",
+    "https://arxiv.org/abs/1912.01588",
+    "https://arxiv.org/abs/1801.00690",
+    "https://arxiv.org/abs/2202.04500",
+    "https://arxiv.org/abs/1502.02259",
+    "https://arxiv.org/abs/2502.06111",
+    "https://arxiv.org/abs/2603.13594",
+    "https://arxiv.org/abs/2407.00993",
+    "https://arxiv.org/abs/2505.11891"
+  ],
+  "excluded_discovery_items": "Generic LLM/model reports, static QA/code-only benchmarks without agent interaction, ART-V generic text-to-video, standalone product blogs (Genie 2/Oasis), README code and dataset links were excluded.",
+  "potential_alias_duplicates": "OpenReview/venue and arXiv versions may still be aliases; parent metadata stage should deduplicate by normalized title.",
+  "dedup_removed": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html",
+      "keep": "https://arxiv.org/abs/2405.12399",
+      "reason": "Same DIAMOND paper, conference/arXiv aliases"
+    }
+  ],
+  "selection_rule": "Initial script selects reference-number ranges by manually reviewed environment-relevant titles and excludes generic model reports, static QA/code-only work, unrelated medical world models, and pure generic text-to-video. It extracts only arXiv/DOI/recognized scholarly venues. Final candidate file additionally contains 10 individually searched/opened core papers and excludes one conference/arXiv alias; initial script alone recreates the 252-item initial list, not final supplement.",
+  "resolved_missing_reference_numbers": [
+    58,
+    84,
+    136,
+    138,
+    392
+  ],
+  "unresolved_missing_reference_numbers": [
+    102,
+    371,
+    372
+  ]
+}

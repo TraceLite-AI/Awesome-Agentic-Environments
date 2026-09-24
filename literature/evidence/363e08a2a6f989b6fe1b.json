@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2305.14322",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2305.14322",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "RET-LLM: Towards a General Read-Write Memory for Large Language Models",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2305.14322",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:59.166305+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2305.14322",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41052,
+  "title": "RET-LLM: Towards a General Read-Write Memory for Large Language Models",
+  "authors": [
+    "Modarressi, Ali",
+    "Imani, Ayyoob",
+    "Fayyaz, Mohsen",
+    "Schütze, Hinrich"
+  ],
+  "first_author": "Modarressi, Ali",
+  "year": 2023,
+  "source_date": "2023/05/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2305.14322",
+  "abstract": "Large language models (LLMs) have significantly advanced the field of natural language processing (NLP) through their extensive parameters and comprehensive data utilization. However, existing LLMs lack a dedicated memory unit, limiting their ability to explicitly store and retrieve knowledge for various tasks. In this paper, we propose RET-LLM a novel framework that equips LLMs with a general write-read memory unit, allowing them to extract, store, and recall knowledge from the text as needed for task performance. Inspired by Davidsonian semantics theory, we extract and save knowledge in the form of triplets. The memory unit is designed to be scalable, aggregatable, updatable, and interpretable. Through qualitative evaluations, we demonstrate the superiority of our proposed framework over baseline approaches in question answering tasks. Moreover, our framework exhibits robust performance in handling temporal-based question answering tasks, showcasing its ability to effectively manage time-dependent information.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2305.14322: RET-LLM: Towards a General Read-Write Memory for Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RET-LLM: Towards a General Read-Write Memory for Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2305.14322v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have significantly advanced the field of natural language processing (NLP) through their extensive parameters and comprehensive data utilization. However, existing LLMs lack a dedicated memory unit, limiting their ability to explicitly store and retrieve knowledge for various tasks. In this paper, we propose RET-LLM a novel framework that equips LLMs with a general write-read memory unit, allowing them to extract, store, and recall knowledge from the text as needed for task performance. Inspired by Davidsonian semantics theory, we extract and save knowledge in the form of triplets. The memory unit is designed to be scalable, aggregatable, updatable, and interpretable. Through qualitative evaluations, we demonstrate the superiority of our proposed framework over baseline approaches in question answering tasks. Moreover, our framework exhibits robust performance in handling temporal-based question answering tasks, showcasing its ability to effectively manage time-dependent information."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RET-LLM: Towards a General Read-Write Memory for Large Language Models"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have significantly advanced the field of natural language processing (NLP) through their extensive parameters and comprehensive data utilization. However, existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RET-LLM: Towards a General Read-Write Memory for Large Language Models"
+    ],
+    "citation_author": [
+      "Modarressi, Ali",
+      "Imani, Ayyoob",
+      "Fayyaz, Mohsen",
+      "Schütze, Hinrich"
+    ],
+    "citation_date": [
+      "2023/05/23"
+    ],
+    "citation_online_date": [
+      "2024/10/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2305.14322"
+    ],
+    "citation_arxiv_id": [
+      "2305.14322"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have significantly advanced the field of natural language processing (NLP) through their extensive parameters and comprehensive data utilization. However, existing LLMs lack a dedicated memory unit, limiting their ability to explicitly store and retrieve knowledge for various tasks. In this paper, we propose RET-LLM a novel framework that equips LLMs with a general write-read memory unit, allowing them to extract, store, and recall knowledge from the text as needed for task performance. Inspired by Davidsonian semantics theory, we extract and save knowledge in the form of triplets. The memory unit is designed to be scalable, aggregatable, updatable, and interpretable. Through qualitative evaluations, we demonstrate the superiority of our proposed framework over baseline approaches in question answering tasks. Moreover, our framework exhibits robust performance in handling temporal-based question answering tasks, showcasing its ability to effectively manage time-dependent information."
+    ]
+  },
+  "html_sha256": "4ae104b2696f7134800ef6dbcc8987784359a8e2306cfcef589d3ce3fe4a88a0",
+  "evidence_html": "evidence/363e08a2a6f989b6fe1b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

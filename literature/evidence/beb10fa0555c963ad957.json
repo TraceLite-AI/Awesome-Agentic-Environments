@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2507.02004",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.02004",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.02004",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:19.997379+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.02004",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41884,
+  "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+  "authors": [
+    "Jin, Ruofan",
+    "Zhang, Zaixi",
+    "Wang, Mengdi",
+    "Cong, Le"
+  ],
+  "first_author": "Jin, Ruofan",
+  "year": 2025,
+  "source_date": "2025/07/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.02004",
+  "abstract": "The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on static, manually curated toolsets, limiting their ability to adapt and scale. Here, we introduce STELLA, a self-evolving AI agent designed to overcome these limitations. STELLA employs a multi-agent architecture that autonomously improves its own capabilities through two core mechanisms: an evolving Template Library for reasoning strategies and a dynamic Tool Ocean that expands as a Tool Creation Agent automatically discovers and integrates new bioinformatics tools. This allows STELLA to learn from experience. We demonstrate that STELLA achieves state-of-the-art accuracy on a suite of biomedical benchmarks, scoring approximately 26\\% on Humanity's Last Exam: Biomedicine, 54\\% on LAB-Bench: DBQA, and 63\\% on LAB-Bench: LitQA, outperforming leading models by up to 6 percentage points. More importantly, we show that its performance systematically improves with experience; for instance, its accuracy on the Humanity's Last Exam benchmark almost doubles with increased trials. STELLA represents a significant advance towards AI Agent systems that can learn and grow, dynamically scaling their expertise to accelerate the pace of biomedical discovery.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.02004: STELLA: Self-Evolving LLM Agent for Biomedical Research"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "STELLA: Self-Evolving LLM Agent for Biomedical Research"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.02004v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on static, manually curated toolsets, limiting their ability to adapt and scale. Here, we introduce STELLA, a self-evolving AI agent designed to overcome these limitations. STELLA employs a multi-agent architecture that autonomously improves its own capabilities through two core mechanisms: an evolving Template Library for reasoning strategies and a dynamic Tool Ocean that expands as a Tool Creation Agent automatically discovers and integrates new bioinformatics tools. This allows STELLA to learn from experience. We demonstrate that STELLA achieves state-of-the-art accuracy on a suite of biomedical benchmarks, scoring approximately 26\\% on Humanity's Last Exam: Biomedicine, 54\\% on LAB-Bench: DBQA, and 63\\% on LAB-Bench: LitQA, outperforming leading models by up to 6 percentage points. More importantly, we show that its performance systematically improves with experience; for instance, its accuracy on the Humanity's Last Exam benchmark almost doubles with increased trials. STELLA represents a significant advance towards AI Agent systems that can learn and grow, dynamically scaling their expertise to accelerate the pace of biomedical discovery."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "STELLA: Self-Evolving LLM Agent for Biomedical Research"
+    ],
+    "twitter:description": [
+      "The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "STELLA: Self-Evolving LLM Agent for Biomedical Research"
+    ],
+    "citation_author": [
+      "Jin, Ruofan",
+      "Zhang, Zaixi",
+      "Wang, Mengdi",
+      "Cong, Le"
+    ],
+    "citation_date": [
+      "2025/07/01"
+    ],
+    "citation_online_date": [
+      "2025/07/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.02004"
+    ],
+    "citation_arxiv_id": [
+      "2507.02004"
+    ],
+    "citation_abstract": [
+      "The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on static, manually curated toolsets, limiting their ability to adapt and scale. Here, we introduce STELLA, a self-evolving AI agent designed to overcome these limitations. STELLA employs a multi-agent architecture that autonomously improves its own capabilities through two core mechanisms: an evolving Template Library for reasoning strategies and a dynamic Tool Ocean that expands as a Tool Creation Agent automatically discovers and integrates new bioinformatics tools. This allows STELLA to learn from experience. We demonstrate that STELLA achieves state-of-the-art accuracy on a suite of biomedical benchmarks, scoring approximately 26\\% on Humanity's Last Exam: Biomedicine, 54\\% on LAB-Bench: DBQA, and 63\\% on LAB-Bench: LitQA, outperforming leading models by up to 6 percentage points. More importantly, we show that its performance systematically improves with experience; for instance, its accuracy on the Humanity's Last Exam benchmark almost doubles with increased trials. STELLA represents a significant advance towards AI Agent systems that can learn and grow, dynamically scaling their expertise to accelerate the pace of biomedical discovery."
+    ]
+  },
+  "html_sha256": "0456a05dfb5a2f15ab6ec6a41175792927162b79f53ab6969d8176feea2e5e5e",
+  "evidence_html": "evidence/beb10fa0555c963ad957.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

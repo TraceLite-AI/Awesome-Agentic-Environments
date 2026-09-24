@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2406.11176",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.11176",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.11176",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:25.336726+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.11176",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42711,
+  "title": "Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement",
+  "authors": [
+    "Xiong, Weimin",
+    "Song, Yifan",
+    "Zhao, Xiutian",
+    "Wu, Wenhao",
+    "Wang, Xun",
+    "Wang, Ke",
+    "Li, Cheng",
+    "Peng, Wei",
+    "Li, Sujian"
+  ],
+  "first_author": "Xiong, Weimin",
+  "year": 2024,
+  "source_date": "2024/06/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.11176",
+  "abstract": "Large language model agents have exhibited exceptional performance across a range of complex interactive tasks. Recent approaches have utilized tuning with expert trajectories to enhance agent performance, yet they primarily concentrate on outcome rewards, which may lead to errors or suboptimal actions due to the absence of process supervision signals. In this paper, we introduce the Iterative step-level Process Refinement (IPR) framework, which provides detailed step-by-step guidance to enhance agent training. Specifically, we adopt the Monte Carlo method to estimate step-level rewards. During each iteration, the agent explores along the expert trajectory and generates new actions. These actions are then evaluated against the corresponding step of expert trajectory using step-level rewards. Such comparison helps identify discrepancies, yielding contrastive action pairs that serve as training data for the agent. Our experiments on three complex agent tasks demonstrate that our framework outperforms a variety of strong baselines. Moreover, our analytical findings highlight the effectiveness of IPR in augmenting action efficiency and its applicability to diverse models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.11176: Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.11176v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model agents have exhibited exceptional performance across a range of complex interactive tasks. Recent approaches have utilized tuning with expert trajectories to enhance agent performance, yet they primarily concentrate on outcome rewards, which may lead to errors or suboptimal actions due to the absence of process supervision signals. In this paper, we introduce the Iterative step-level Process Refinement (IPR) framework, which provides detailed step-by-step guidance to enhance agent training. Specifically, we adopt the Monte Carlo method to estimate step-level rewards. During each iteration, the agent explores along the expert trajectory and generates new actions. These actions are then evaluated against the corresponding step of expert trajectory using step-level rewards. Such comparison helps identify discrepancies, yielding contrastive action pairs that serve as training data for the agent. Our experiments on three complex agent tasks demonstrate that our framework outperforms a variety of strong baselines. Moreover, our analytical findings highlight the effectiveness of IPR in augmenting action efficiency and its applicability to diverse models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Watch Every Step! LLM Agent Learning via Iterative Step-Level..."
+    ],
+    "twitter:description": [
+      "Large language model agents have exhibited exceptional performance across a range of complex interactive tasks. Recent approaches have utilized tuning with expert trajectories to enhance agent..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement"
+    ],
+    "citation_author": [
+      "Xiong, Weimin",
+      "Song, Yifan",
+      "Zhao, Xiutian",
+      "Wu, Wenhao",
+      "Wang, Xun",
+      "Wang, Ke",
+      "Li, Cheng",
+      "Peng, Wei",
+      "Li, Sujian"
+    ],
+    "citation_date": [
+      "2024/06/17"
+    ],
+    "citation_online_date": [
+      "2024/09/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.11176"
+    ],
+    "citation_arxiv_id": [
+      "2406.11176"
+    ],
+    "citation_abstract": [
+      "Large language model agents have exhibited exceptional performance across a range of complex interactive tasks. Recent approaches have utilized tuning with expert trajectories to enhance agent performance, yet they primarily concentrate on outcome rewards, which may lead to errors or suboptimal actions due to the absence of process supervision signals. In this paper, we introduce the Iterative step-level Process Refinement (IPR) framework, which provides detailed step-by-step guidance to enhance agent training. Specifically, we adopt the Monte Carlo method to estimate step-level rewards. During each iteration, the agent explores along the expert trajectory and generates new actions. These actions are then evaluated against the corresponding step of expert trajectory using step-level rewards. Such comparison helps identify discrepancies, yielding contrastive action pairs that serve as training data for the agent. Our experiments on three complex agent tasks demonstrate that our framework outperforms a variety of strong baselines. Moreover, our analytical findings highlight the effectiveness of IPR in augmenting action efficiency and its applicability to diverse models."
+    ]
+  },
+  "html_sha256": "02ade99588a29ba9294d8bd8c60b66efae8250bce50b7a412cf9c1bcbf93f1be",
+  "evidence_html": "evidence/cd19717905fdde268eea.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

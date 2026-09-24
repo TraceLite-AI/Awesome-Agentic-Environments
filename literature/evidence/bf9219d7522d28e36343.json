@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=SkxpxJBKwS",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=SkxpxJBKwS",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2019 · Emergent Tool Use — Emergent Tool Use From Multi-Agent Autocurricula",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=SkxpxJBKwS",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:33.691871+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DSkxpxJBKwS",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "79cacdb7d8257e786a5c2d4ad3f32ba0a17e283ffda59673989659dbe1babcad",
+  "evidence_html": "evidence/bf9219d7522d28e36343.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

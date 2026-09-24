@@ -1,0 +1,143 @@
+{
+  "url": "https://arxiv.org/abs/2505.22648",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.22648",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "WebDancer: Towards Autonomous Information Seeking Agency",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.22648",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:14.187537+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.22648",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42724,
+  "title": "WebDancer: Towards Autonomous Information Seeking Agency",
+  "authors": [
+    "Wu, Jialong",
+    "Li, Baixuan",
+    "Fang, Runnan",
+    "Yin, Wenbiao",
+    "Zhang, Liwen",
+    "Tao, Zhengwei",
+    "Zhang, Dingchu",
+    "Xi, Zekun",
+    "Fu, Gang",
+    "Jiang, Yong",
+    "Xie, Pengjun",
+    "Huang, Fei",
+    "Zhou, Jingren"
+  ],
+  "first_author": "Wu, Jialong",
+  "year": 2025,
+  "source_date": "2025/05/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.22648",
+  "abstract": "Addressing intricate real-world problems necessitates in-depth information seeking and multi-step reasoning. Recent progress in agentic systems, exemplified by Deep Research, underscores the potential for autonomous multi-step research. In this work, we present a cohesive paradigm for building end-to-end agentic information seeking agents from a data-centric and training-stage perspective. Our approach consists of four key stages: (1) browsing data construction, (2) trajectories sampling, (3) supervised fine-tuning for effective cold start, and (4) reinforcement learning for enhanced generalisation. We instantiate this framework in a web agent based on the ReAct, WebDancer. Empirical evaluations on the challenging information seeking benchmarks, GAIA and WebWalkerQA, demonstrate the strong performance of WebDancer, achieving considerable results and highlighting the efficacy of our training paradigm. Further analysis of agent training provides valuable insights and actionable, systematic pathways for developing more capable agentic models. The codes and demo will be released in this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.22648: WebDancer: Towards Autonomous Information Seeking Agency"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WebDancer: Towards Autonomous Information Seeking Agency"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.22648v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Addressing intricate real-world problems necessitates in-depth information seeking and multi-step reasoning. Recent progress in agentic systems, exemplified by Deep Research, underscores the potential for autonomous multi-step research. In this work, we present a cohesive paradigm for building end-to-end agentic information seeking agents from a data-centric and training-stage perspective. Our approach consists of four key stages: (1) browsing data construction, (2) trajectories sampling, (3) supervised fine-tuning for effective cold start, and (4) reinforcement learning for enhanced generalisation. We instantiate this framework in a web agent based on the ReAct, WebDancer. Empirical evaluations on the challenging information seeking benchmarks, GAIA and WebWalkerQA, demonstrate the strong performance of WebDancer, achieving considerable results and highlighting the efficacy of our training paradigm. Further analysis of agent training provides valuable insights and actionable, systematic pathways for developing more capable agentic models. The codes and demo will be released in https://github.com/Alibaba-NLP/WebAgent."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WebDancer: Towards Autonomous Information Seeking Agency"
+    ],
+    "twitter:description": [
+      "Addressing intricate real-world problems necessitates in-depth information seeking and multi-step reasoning. Recent progress in agentic systems, exemplified by Deep Research, underscores the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WebDancer: Towards Autonomous Information Seeking Agency"
+    ],
+    "citation_author": [
+      "Wu, Jialong",
+      "Li, Baixuan",
+      "Fang, Runnan",
+      "Yin, Wenbiao",
+      "Zhang, Liwen",
+      "Tao, Zhengwei",
+      "Zhang, Dingchu",
+      "Xi, Zekun",
+      "Fu, Gang",
+      "Jiang, Yong",
+      "Xie, Pengjun",
+      "Huang, Fei",
+      "Zhou, Jingren"
+    ],
+    "citation_date": [
+      "2025/05/28"
+    ],
+    "citation_online_date": [
+      "2025/08/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.22648"
+    ],
+    "citation_arxiv_id": [
+      "2505.22648"
+    ],
+    "citation_abstract": [
+      "Addressing intricate real-world problems necessitates in-depth information seeking and multi-step reasoning. Recent progress in agentic systems, exemplified by Deep Research, underscores the potential for autonomous multi-step research. In this work, we present a cohesive paradigm for building end-to-end agentic information seeking agents from a data-centric and training-stage perspective. Our approach consists of four key stages: (1) browsing data construction, (2) trajectories sampling, (3) supervised fine-tuning for effective cold start, and (4) reinforcement learning for enhanced generalisation. We instantiate this framework in a web agent based on the ReAct, WebDancer. Empirical evaluations on the challenging information seeking benchmarks, GAIA and WebWalkerQA, demonstrate the strong performance of WebDancer, achieving considerable results and highlighting the efficacy of our training paradigm. Further analysis of agent training provides valuable insights and actionable, systematic pathways for developing more capable agentic models. The codes and demo will be released in https://github.com/Alibaba-NLP/WebAgent."
+    ]
+  },
+  "html_sha256": "65117a5d24532ca55b9fcfb8c785bc1b78d60072d2fbab899b531a6656f4569c",
+  "evidence_html": "evidence/319a659f5acdc53e5493.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

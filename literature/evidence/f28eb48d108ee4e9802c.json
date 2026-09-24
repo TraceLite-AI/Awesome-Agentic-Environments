@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2412.01268",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.01268",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Ponder & Press: Advancing Visual GUI Agent towards General Computer Control",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.01268",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:51.401052+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.01268",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42393,
+  "title": "Ponder & Press: Advancing Visual GUI Agent towards General Computer Control",
+  "authors": [
+    "Wang, Yiqin",
+    "Zhang, Haoji",
+    "Tian, Jingqi",
+    "Tang, Yansong"
+  ],
+  "first_author": "Wang, Yiqin",
+  "year": 2024,
+  "source_date": "2024/12/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2412.01268",
+  "abstract": "Most existing GUI agents typically depend on non-vision inputs like HTML source code or accessibility trees, limiting their flexibility across diverse software environments and platforms. Current multimodal large language models (MLLMs), which excel at using vision to ground real-world objects, offer a potential alternative. However, they often struggle with accurately localizing GUI elements -- a critical requirement for effective GUI automation -- due to the semantic gap between real-world objects and GUI elements. In this work, we introduce Ponder & Press, a divide-and-conquer framework for general computer control using only visual input. Our approach combines an general-purpose MLLM as an 'interpreter', responsible for translating high-level user instructions into detailed action descriptions, with a GUI-specific MLLM as a 'locator' that precisely locates GUI elements for action placement. By leveraging a purely visual input, our agent offers a versatile, human-like interaction paradigm applicable to a wide range of applications. Ponder & Press locator outperforms existing models by +22.5% on the ScreenSpot GUI grounding benchmark. Both offline and interactive agent benchmarks across various GUI environments -- including web pages, desktop software, and mobile UIs -- demonstrate that Ponder & Press framework achieves state-of-the-art performance, highlighting the potential of visual GUI agents. Refer to the project homepage this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.01268: Ponder & Press: Advancing Visual GUI Agent towards General Computer Control"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Ponder & Press: Advancing Visual GUI Agent towards General Computer Control"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.01268v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Most existing GUI agents typically depend on non-vision inputs like HTML source code or accessibility trees, limiting their flexibility across diverse software environments and platforms. Current multimodal large language models (MLLMs), which excel at using vision to ground real-world objects, offer a potential alternative. However, they often struggle with accurately localizing GUI elements -- a critical requirement for effective GUI automation -- due to the semantic gap between real-world objects and GUI elements. In this work, we introduce Ponder & Press, a divide-and-conquer framework for general computer control using only visual input. Our approach combines an general-purpose MLLM as an 'interpreter', responsible for translating high-level user instructions into detailed action descriptions, with a GUI-specific MLLM as a 'locator' that precisely locates GUI elements for action placement. By leveraging a purely visual input, our agent offers a versatile, human-like interaction paradigm applicable to a wide range of applications. Ponder & Press locator outperforms existing models by +22.5% on the ScreenSpot GUI grounding benchmark. Both offline and interactive agent benchmarks across various GUI environments -- including web pages, desktop software, and mobile UIs -- demonstrate that Ponder & Press framework achieves state-of-the-art performance, highlighting the potential of visual GUI agents. Refer to the project homepage https://invinciblewyq.github.io/ponder-press-page/"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Ponder & Press: Advancing Visual GUI Agent towards General..."
+    ],
+    "twitter:description": [
+      "Most existing GUI agents typically depend on non-vision inputs like HTML source code or accessibility trees, limiting their flexibility across diverse software environments and platforms. Current..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Ponder & Press: Advancing Visual GUI Agent towards General Computer Control"
+    ],
+    "citation_author": [
+      "Wang, Yiqin",
+      "Zhang, Haoji",
+      "Tian, Jingqi",
+      "Tang, Yansong"
+    ],
+    "citation_date": [
+      "2024/12/02"
+    ],
+    "citation_online_date": [
+      "2024/12/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.01268"
+    ],
+    "citation_arxiv_id": [
+      "2412.01268"
+    ],
+    "citation_abstract": [
+      "Most existing GUI agents typically depend on non-vision inputs like HTML source code or accessibility trees, limiting their flexibility across diverse software environments and platforms. Current multimodal large language models (MLLMs), which excel at using vision to ground real-world objects, offer a potential alternative. However, they often struggle with accurately localizing GUI elements -- a critical requirement for effective GUI automation -- due to the semantic gap between real-world objects and GUI elements. In this work, we introduce Ponder & Press, a divide-and-conquer framework for general computer control using only visual input. Our approach combines an general-purpose MLLM as an 'interpreter', responsible for translating high-level user instructions into detailed action descriptions, with a GUI-specific MLLM as a 'locator' that precisely locates GUI elements for action placement. By leveraging a purely visual input, our agent offers a versatile, human-like interaction paradigm applicable to a wide range of applications. Ponder & Press locator outperforms existing models by +22.5% on the ScreenSpot GUI grounding benchmark. Both offline and interactive agent benchmarks across various GUI environments -- including web pages, desktop software, and mobile UIs -- demonstrate that Ponder & Press framework achieves state-of-the-art performance, highlighting the potential of visual GUI agents. Refer to the project homepage https://invinciblewyq.github.io/ponder-press-page/"
+    ]
+  },
+  "html_sha256": "8e4d670f45b7e16cd83ccaf7d2a650f92ac2f6163ea754c8da56a30349cf8798",
+  "evidence_html": "evidence/f28eb48d108ee4e9802c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

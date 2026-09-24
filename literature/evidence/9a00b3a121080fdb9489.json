@@ -1,0 +1,176 @@
+{
+  "url": "https://arxiv.org/abs/2411.00820",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.00820",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "AutoGLM: Autonomous Foundation Agents for GUIs",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.00820",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:44.292725+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.00820",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46933,
+  "title": "AutoGLM: Autonomous Foundation Agents for GUIs",
+  "authors": [
+    "Liu, Xiao",
+    "Qin, Bo",
+    "Liang, Dongzhu",
+    "Dong, Guang",
+    "Lai, Hanyu",
+    "Zhang, Hanchen",
+    "Zhao, Hanlin",
+    "Iong, Iat Long",
+    "Sun, Jiadai",
+    "Wang, Jiaqi",
+    "Gao, Junjie",
+    "Shan, Junjun",
+    "Liu, Kangning",
+    "Zhang, Shudan",
+    "Yao, Shuntian",
+    "Cheng, Siyi",
+    "Yao, Wentao",
+    "Zhao, Wenyi",
+    "Liu, Xinghan",
+    "Liu, Xinyi",
+    "Chen, Xinying",
+    "Yang, Xinyue",
+    "Yang, Yang",
+    "Xu, Yifan",
+    "Yang, Yu",
+    "Wang, Yujia",
+    "Xu, Yulin",
+    "Qi, Zehan",
+    "Dong, Yuxiao",
+    "Tang, Jie"
+  ],
+  "first_author": "Liu, Xiao",
+  "year": 2024,
+  "source_date": "2024/10/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.00820",
+  "abstract": "We present AutoGLM, a new series in the ChatGLM family, designed to serve as foundation agents for autonomous control of digital devices through Graphical User Interfaces (GUIs). While foundation models excel at acquiring human knowledge, they often struggle with decision-making in dynamic real-world environments, limiting their progress toward artificial general intelligence. This limitation underscores the importance of developing foundation agents capable of learning through autonomous environmental interactions by reinforcing existing models. Focusing on Web Browser and Phone as representative GUI scenarios, we have developed AutoGLM as a practical foundation agent system for real-world GUI interactions. Our approach integrates a comprehensive suite of techniques and infrastructures to create deployable agent systems suitable for user delivery. Through this development, we have derived two key insights: First, the design of an appropriate \"intermediate interface\" for GUI control is crucial, enabling the separation of planning and grounding behaviors, which require distinct optimization for flexibility and accuracy respectively. Second, we have developed a novel progressive training framework that enables self-evolving online curriculum reinforcement learning for AutoGLM. Our evaluations demonstrate AutoGLM's effectiveness across multiple domains. For web browsing, AutoGLM achieves a 55.2% success rate on VAB-WebArena-Lite (improving to 59.1% with a second attempt) and 96.2% on OpenTable evaluation tasks. In Android device control, AutoGLM attains a 36.2% success rate on AndroidLab (VAB-Mobile) and 89.7% on common tasks in popular Chinese APPs.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.00820: AutoGLM: Autonomous Foundation Agents for GUIs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AutoGLM: Autonomous Foundation Agents for GUIs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.00820v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present AutoGLM, a new series in the ChatGLM family, designed to serve as foundation agents for autonomous control of digital devices through Graphical User Interfaces (GUIs). While foundation models excel at acquiring human knowledge, they often struggle with decision-making in dynamic real-world environments, limiting their progress toward artificial general intelligence. This limitation underscores the importance of developing foundation agents capable of learning through autonomous environmental interactions by reinforcing existing models. Focusing on Web Browser and Phone as representative GUI scenarios, we have developed AutoGLM as a practical foundation agent system for real-world GUI interactions. Our approach integrates a comprehensive suite of techniques and infrastructures to create deployable agent systems suitable for user delivery. Through this development, we have derived two key insights: First, the design of an appropriate \"intermediate interface\" for GUI control is crucial, enabling the separation of planning and grounding behaviors, which require distinct optimization for flexibility and accuracy respectively. Second, we have developed a novel progressive training framework that enables self-evolving online curriculum reinforcement learning for AutoGLM. Our evaluations demonstrate AutoGLM's effectiveness across multiple domains. For web browsing, AutoGLM achieves a 55.2% success rate on VAB-WebArena-Lite (improving to 59.1% with a second attempt) and 96.2% on OpenTable evaluation tasks. In Android device control, AutoGLM attains a 36.2% success rate on AndroidLab (VAB-Mobile) and 89.7% on common tasks in popular Chinese APPs."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AutoGLM: Autonomous Foundation Agents for GUIs"
+    ],
+    "twitter:description": [
+      "We present AutoGLM, a new series in the ChatGLM family, designed to serve as foundation agents for autonomous control of digital devices through Graphical User Interfaces (GUIs). While foundation..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AutoGLM: Autonomous Foundation Agents for GUIs"
+    ],
+    "citation_author": [
+      "Liu, Xiao",
+      "Qin, Bo",
+      "Liang, Dongzhu",
+      "Dong, Guang",
+      "Lai, Hanyu",
+      "Zhang, Hanchen",
+      "Zhao, Hanlin",
+      "Iong, Iat Long",
+      "Sun, Jiadai",
+      "Wang, Jiaqi",
+      "Gao, Junjie",
+      "Shan, Junjun",
+      "Liu, Kangning",
+      "Zhang, Shudan",
+      "Yao, Shuntian",
+      "Cheng, Siyi",
+      "Yao, Wentao",
+      "Zhao, Wenyi",
+      "Liu, Xinghan",
+      "Liu, Xinyi",
+      "Chen, Xinying",
+      "Yang, Xinyue",
+      "Yang, Yang",
+      "Xu, Yifan",
+      "Yang, Yu",
+      "Wang, Yujia",
+      "Xu, Yulin",
+      "Qi, Zehan",
+      "Dong, Yuxiao",
+      "Tang, Jie"
+    ],
+    "citation_date": [
+      "2024/10/28"
+    ],
+    "citation_online_date": [
+      "2024/10/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.00820"
+    ],
+    "citation_arxiv_id": [
+      "2411.00820"
+    ],
+    "citation_abstract": [
+      "We present AutoGLM, a new series in the ChatGLM family, designed to serve as foundation agents for autonomous control of digital devices through Graphical User Interfaces (GUIs). While foundation models excel at acquiring human knowledge, they often struggle with decision-making in dynamic real-world environments, limiting their progress toward artificial general intelligence. This limitation underscores the importance of developing foundation agents capable of learning through autonomous environmental interactions by reinforcing existing models. Focusing on Web Browser and Phone as representative GUI scenarios, we have developed AutoGLM as a practical foundation agent system for real-world GUI interactions. Our approach integrates a comprehensive suite of techniques and infrastructures to create deployable agent systems suitable for user delivery. Through this development, we have derived two key insights: First, the design of an appropriate \"intermediate interface\" for GUI control is crucial, enabling the separation of planning and grounding behaviors, which require distinct optimization for flexibility and accuracy respectively. Second, we have developed a novel progressive training framework that enables self-evolving online curriculum reinforcement learning for AutoGLM. Our evaluations demonstrate AutoGLM's effectiveness across multiple domains. For web browsing, AutoGLM achieves a 55.2% success rate on VAB-WebArena-Lite (improving to 59.1% with a second attempt) and 96.2% on OpenTable evaluation tasks. In Android device control, AutoGLM attains a 36.2% success rate on AndroidLab (VAB-Mobile) and 89.7% on common tasks in popular Chinese APPs."
+    ]
+  },
+  "html_sha256": "d6f981655791397bf289baabe8e3ec546baf88a44a95d555aaae69c5a769a3d7",
+  "evidence_html": "evidence/9a00b3a121080fdb9489.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

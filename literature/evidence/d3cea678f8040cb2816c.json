@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2111.09794",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2111.09794",
+      "topic": "强化学习泛化/环境变化",
+      "discovery_url": "https://arxiv.org/abs/2111.09794",
+      "title_hint": "",
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2111.09794",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:27.437781+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2111.09794",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45732,
+  "title": "A Survey of Zero-shot Generalisation in Deep Reinforcement Learning",
+  "authors": [
+    "Kirk, Robert",
+    "Zhang, Amy",
+    "Grefenstette, Edward",
+    "Rocktäschel, Tim"
+  ],
+  "first_author": "Kirk, Robert",
+  "year": 2023,
+  "source_date": "2023",
+  "venue_from_source": "Journal of Artificial Intelligence Research",
+  "journal_reference_from_source": "Journal of Artificial Intelligence Research (JAIR), 76:201-264, 2023",
+  "doi": "10.1613/jair.1.14174",
+  "arxiv_id": "2111.09794",
+  "abstract": "The study of zero-shot generalisation (ZSG) in deep Reinforcement Learning (RL) aims to produce RL algorithms whose policies generalise well to novel unseen situations at deployment time, avoiding overfitting to their training environments. Tackling this is vital if we are to deploy reinforcement learning algorithms in real world scenarios, where the environment will be diverse, dynamic and unpredictable. This survey is an overview of this nascent field. We rely on a unifying formalism and terminology for discussing different ZSG problems, building upon previous works. We go on to categorise existing benchmarks for ZSG, as well as current methods for tackling these problems. Finally, we provide a critical discussion of the current state of the field, including recommendations for future work. Among other conclusions, we argue that taking a purely procedural content generation approach to benchmark design is not conducive to progress in ZSG, we suggest fast online adaptation and tackling RL-specific problems as some areas for future work on methods for ZSG, and we recommend building benchmarks in underexplored problem settings such as offline RL ZSG and reward-function variation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2111.09794: A Survey of Zero-shot Generalisation in Deep Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Survey of Zero-shot Generalisation in Deep Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2111.09794v6"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The study of zero-shot generalisation (ZSG) in deep Reinforcement Learning (RL) aims to produce RL algorithms whose policies generalise well to novel unseen situations at deployment time, avoiding overfitting to their training environments. Tackling this is vital if we are to deploy reinforcement learning algorithms in real world scenarios, where the environment will be diverse, dynamic and unpredictable. This survey is an overview of this nascent field. We rely on a unifying formalism and terminology for discussing different ZSG problems, building upon previous works. We go on to categorise existing benchmarks for ZSG, as well as current methods for tackling these problems. Finally, we provide a critical discussion of the current state of the field, including recommendations for future work. Among other conclusions, we argue that taking a purely procedural content generation approach to benchmark design is not conducive to progress in ZSG, we suggest fast online adaptation and tackling RL-specific problems as some areas for future work on methods for ZSG, and we recommend building benchmarks in underexplored problem settings such as offline RL ZSG and reward-function variation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Survey of Zero-shot Generalisation in Deep Reinforcement Learning"
+    ],
+    "twitter:description": [
+      "The study of zero-shot generalisation (ZSG) in deep Reinforcement Learning (RL) aims to produce RL algorithms whose policies generalise well to novel unseen situations at deployment time, avoiding..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Survey of Zero-shot Generalisation in Deep Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Kirk, Robert",
+      "Zhang, Amy",
+      "Grefenstette, Edward",
+      "Rocktäschel, Tim"
+    ],
+    "citation_journal_title": [
+      "Journal of Artificial Intelligence Research"
+    ],
+    "citation_publication_date": [
+      "2023"
+    ],
+    "citation_doi": [
+      "10.1613/jair.1.14174"
+    ],
+    "citation_online_date": [
+      "2023/01/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2111.09794"
+    ],
+    "citation_arxiv_id": [
+      "2111.09794"
+    ],
+    "citation_abstract": [
+      "The study of zero-shot generalisation (ZSG) in deep Reinforcement Learning (RL) aims to produce RL algorithms whose policies generalise well to novel unseen situations at deployment time, avoiding overfitting to their training environments. Tackling this is vital if we are to deploy reinforcement learning algorithms in real world scenarios, where the environment will be diverse, dynamic and unpredictable. This survey is an overview of this nascent field. We rely on a unifying formalism and terminology for discussing different ZSG problems, building upon previous works. We go on to categorise existing benchmarks for ZSG, as well as current methods for tackling these problems. Finally, we provide a critical discussion of the current state of the field, including recommendations for future work. Among other conclusions, we argue that taking a purely procedural content generation approach to benchmark design is not conducive to progress in ZSG, we suggest fast online adaptation and tackling RL-specific problems as some areas for future work on methods for ZSG, and we recommend building benchmarks in underexplored problem settings such as offline RL ZSG and reward-function variation."
+    ]
+  },
+  "html_sha256": "c1d7a14d9605c0c198fdfc473a1634fad1a9a410d97cc4077fb6d622255c5877",
+  "evidence_html": "evidence/d3cea678f8040cb2816c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

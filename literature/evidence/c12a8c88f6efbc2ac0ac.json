@@ -1,0 +1,131 @@
+{
+  "url": "https://arxiv.org/abs/2203.01302",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2203.01302",
+      "discovery_url": "https://web.stanford.edu/~mrifaki/ued-readings.html",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Evolving Curricula with Regret-Based Environment Design",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2203.01302",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:54.348830+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2203.01302",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43470,
+  "title": "Evolving Curricula with Regret-Based Environment Design",
+  "authors": [
+    "Parker-Holder, Jack",
+    "Jiang, Minqi",
+    "Dennis, Michael",
+    "Samvelyan, Mikayel",
+    "Foerster, Jakob",
+    "Grefenstette, Edward",
+    "Rocktäschel, Tim"
+  ],
+  "first_author": "Parker-Holder, Jack",
+  "year": 2022,
+  "source_date": "2022/03/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2203.01302",
+  "abstract": "It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent's capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent's capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at this http URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2203.01302: Evolving Curricula with Regret-Based Environment Design"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Evolving Curricula with Regret-Based Environment Design"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2203.01302v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent's capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent's capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at accelagent.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Evolving Curricula with Regret-Based Environment Design"
+    ],
+    "twitter:description": [
+      "It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Evolving Curricula with Regret-Based Environment Design"
+    ],
+    "citation_author": [
+      "Parker-Holder, Jack",
+      "Jiang, Minqi",
+      "Dennis, Michael",
+      "Samvelyan, Mikayel",
+      "Foerster, Jakob",
+      "Grefenstette, Edward",
+      "Rocktäschel, Tim"
+    ],
+    "citation_date": [
+      "2022/03/02"
+    ],
+    "citation_online_date": [
+      "2023/09/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2203.01302"
+    ],
+    "citation_arxiv_id": [
+      "2203.01302"
+    ],
+    "citation_abstract": [
+      "It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent's capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent's capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at accelagent.github.io."
+    ]
+  },
+  "html_sha256": "d6e0f485a4e8ecee0852f7a0bc97a590752287bb9851c26377fe3a5d4903d4dd",
+  "evidence_html": "evidence/c12a8c88f6efbc2ac0ac.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

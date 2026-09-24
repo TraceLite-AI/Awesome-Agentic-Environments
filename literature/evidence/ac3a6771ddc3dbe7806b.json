@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2106.13687",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2106.13687",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "panda-gym: Open-source goal-conditioned environments for robotic learning",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2106.13687",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:47.518961+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2106.13687",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41740,
+  "title": "panda-gym: Open-source goal-conditioned environments for robotic learning",
+  "authors": [
+    "Gallouédec, Quentin",
+    "Cazin, Nicolas",
+    "Dellandréa, Emmanuel",
+    "Chen, Liming"
+  ],
+  "first_author": "Gallouédec, Quentin",
+  "year": 2021,
+  "source_date": "2021/06/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2106.13687",
+  "abstract": "This paper presents panda-gym, a set of Reinforcement Learning (RL) environments for the Franka Emika Panda robot integrated with OpenAI Gym. Five tasks are included: reach, push, slide, pick & place and stack. They all follow a Multi-Goal RL framework, allowing to use goal-oriented RL algorithms. To foster open-research, we chose to use the open-source physics engine PyBullet. The implementation chosen for this package allows to define very easily new tasks or new robots. This paper also presents a baseline of results obtained with state-of-the-art model-free off-policy algorithms. panda-gym is open-source and freely available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2106.13687: panda-gym: Open-source goal-conditioned environments for robotic learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "panda-gym: Open-source goal-conditioned environments for robotic learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2106.13687v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "This paper presents panda-gym, a set of Reinforcement Learning (RL) environments for the Franka Emika Panda robot integrated with OpenAI Gym. Five tasks are included: reach, push, slide, pick & place and stack. They all follow a Multi-Goal RL framework, allowing to use goal-oriented RL algorithms. To foster open-research, we chose to use the open-source physics engine PyBullet. The implementation chosen for this package allows to define very easily new tasks or new robots. This paper also presents a baseline of results obtained with state-of-the-art model-free off-policy algorithms. panda-gym is open-source and freely available at https://github.com/qgallouedec/panda-gym."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "panda-gym: Open-source goal-conditioned environments for robotic learning"
+    ],
+    "twitter:description": [
+      "This paper presents panda-gym, a set of Reinforcement Learning (RL) environments for the Franka Emika Panda robot integrated with OpenAI Gym. Five tasks are included: reach, push, slide, pick &..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "panda-gym: Open-source goal-conditioned environments for robotic learning"
+    ],
+    "citation_author": [
+      "Gallouédec, Quentin",
+      "Cazin, Nicolas",
+      "Dellandréa, Emmanuel",
+      "Chen, Liming"
+    ],
+    "citation_date": [
+      "2021/06/25"
+    ],
+    "citation_online_date": [
+      "2021/12/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2106.13687"
+    ],
+    "citation_arxiv_id": [
+      "2106.13687"
+    ],
+    "citation_abstract": [
+      "This paper presents panda-gym, a set of Reinforcement Learning (RL) environments for the Franka Emika Panda robot integrated with OpenAI Gym. Five tasks are included: reach, push, slide, pick & place and stack. They all follow a Multi-Goal RL framework, allowing to use goal-oriented RL algorithms. To foster open-research, we chose to use the open-source physics engine PyBullet. The implementation chosen for this package allows to define very easily new tasks or new robots. This paper also presents a baseline of results obtained with state-of-the-art model-free off-policy algorithms. panda-gym is open-source and freely available at https://github.com/qgallouedec/panda-gym."
+    ]
+  },
+  "html_sha256": "0ded90b66b22f16d01de7bb5b908f08e0c22b6423fdca3e57c2044a3dd5d2f10",
+  "evidence_html": "evidence/ac3a6771ddc3dbe7806b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

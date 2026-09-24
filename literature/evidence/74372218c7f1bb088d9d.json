@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2509.24282",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.24282",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Simuhome: A temporal-and environment-aware benchmark for smart home llm agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.24282",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:10.738188+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.24282",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42315,
+  "title": "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents",
+  "authors": [
+    "Seo, Gyuhyeon",
+    "Yang, Jungwoo",
+    "Pyo, Junseong",
+    "Kim, Nalim",
+    "Lee, Jonggeun",
+    "Jo, Yohan"
+  ],
+  "first_author": "Seo, Gyuhyeon",
+  "year": 2025,
+  "source_date": "2025/09/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.24282",
+  "abstract": "We introduce $\\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes for LLM-based smart home agents. Existing smart home benchmarks treat the home as a static system, neither simulating how device operations affect environmental variables over time nor supporting workflow scheduling of device commands. SimuHome is grounded in the Matter protocol, the industry standard that defines how real smart home devices communicate and operate. Agents interact with devices through SimuHome's APIs and observe how their actions continuously affect environmental variables such as temperature and humidity. Our benchmark covers state inquiry, implicit user intent inference, explicit device control, and workflow scheduling, each with both feasible and infeasible requests. For workflow scheduling, the simulator accelerates time so that scheduled workflows can be evaluated immediately. An evaluation of 18 agents reveals that workflow scheduling is the hardest category, with failures persisting across alternative agent frameworks and fine-tuning. These findings suggest that SimuHome's time-accelerated simulation could serve as an environment for agents to pre-validate their actions before committing them to the real world.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.24282: SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.24282v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce $\\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes for LLM-based smart home agents. Existing smart home benchmarks treat the home as a static system, neither simulating how device operations affect environmental variables over time nor supporting workflow scheduling of device commands. SimuHome is grounded in the Matter protocol, the industry standard that defines how real smart home devices communicate and operate. Agents interact with devices through SimuHome's APIs and observe how their actions continuously affect environmental variables such as temperature and humidity. Our benchmark covers state inquiry, implicit user intent inference, explicit device control, and workflow scheduling, each with both feasible and infeasible requests. For workflow scheduling, the simulator accelerates time so that scheduled workflows can be evaluated immediately. An evaluation of 18 agents reveals that workflow scheduling is the hardest category, with failures persisting across alternative agent frameworks and fine-tuning. These findings suggest that SimuHome's time-accelerated simulation could serve as an environment for agents to pre-validate their actions before committing them to the real world."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart..."
+    ],
+    "twitter:description": [
+      "We introduce $\\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes for LLM-based smart home agents. Existing smart home benchmarks treat the home as a static..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents"
+    ],
+    "citation_author": [
+      "Seo, Gyuhyeon",
+      "Yang, Jungwoo",
+      "Pyo, Junseong",
+      "Kim, Nalim",
+      "Lee, Jonggeun",
+      "Jo, Yohan"
+    ],
+    "citation_date": [
+      "2025/09/29"
+    ],
+    "citation_online_date": [
+      "2026/03/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.24282"
+    ],
+    "citation_arxiv_id": [
+      "2509.24282"
+    ],
+    "citation_abstract": [
+      "We introduce $\\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes for LLM-based smart home agents. Existing smart home benchmarks treat the home as a static system, neither simulating how device operations affect environmental variables over time nor supporting workflow scheduling of device commands. SimuHome is grounded in the Matter protocol, the industry standard that defines how real smart home devices communicate and operate. Agents interact with devices through SimuHome's APIs and observe how their actions continuously affect environmental variables such as temperature and humidity. Our benchmark covers state inquiry, implicit user intent inference, explicit device control, and workflow scheduling, each with both feasible and infeasible requests. For workflow scheduling, the simulator accelerates time so that scheduled workflows can be evaluated immediately. An evaluation of 18 agents reveals that workflow scheduling is the hardest category, with failures persisting across alternative agent frameworks and fine-tuning. These findings suggest that SimuHome's time-accelerated simulation could serve as an environment for agents to pre-validate their actions before committing them to the real world."
+    ]
+  },
+  "html_sha256": "69f222a3ef1ce4eb43be14b2277444aeca78116135a04fe6d115891c3001b0ce",
+  "evidence_html": "evidence/74372218c7f1bb088d9d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

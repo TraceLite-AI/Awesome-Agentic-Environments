@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2403.02713",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.02713",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Android in the Zoo：Chain-of-Action-Thought for GUI Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.02713",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:46.191585+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.02713",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42541,
+  "title": "Android in the Zoo: Chain-of-Action-Thought for GUI Agents",
+  "authors": [
+    "Zhang, Jiwen",
+    "Wu, Jihao",
+    "Teng, Yihua",
+    "Liao, Minghui",
+    "Xu, Nuo",
+    "Xiao, Xiao",
+    "Wei, Zhongyu",
+    "Tang, Duyu"
+  ],
+  "first_author": "Zhang, Jiwen",
+  "year": 2024,
+  "source_date": "2024/03/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.02713",
+  "abstract": "Large language model (LLM) leads to a surge of autonomous GUI agents for smartphone, which completes a task triggered by natural language through predicting a sequence of actions of API. Even though the task highly relies on past actions and visual observations, existing studies typically consider little semantic information carried out by intermediate screenshots and screen operations. To address this, this work presents Chain-of-Action-Thought (dubbed CoAT), which takes the description of the previous actions, the current screen, and more importantly the action thinking of what actions should be performed and the outcomes led by the chosen action. We demonstrate that, in a zero-shot setting upon three off-the-shelf LMMs, CoAT significantly improves the action prediction compared to previous proposed context modeling. To further facilitate the research in this line, we construct a dataset Android-In-The-Zoo (AitZ), which contains 18,643 screen-action pairs together with chain-of-action-thought annotations. Experiments show that fine-tuning a 1B model (i.e. AUTO-UI-base) on our AitZ dataset achieves on-par performance with CogAgent-Chat-18B.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.02713: Android in the Zoo: Chain-of-Action-Thought for GUI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Android in the Zoo: Chain-of-Action-Thought for GUI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.02713v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM) leads to a surge of autonomous GUI agents for smartphone, which completes a task triggered by natural language through predicting a sequence of actions of API. Even though the task highly relies on past actions and visual observations, existing studies typically consider little semantic information carried out by intermediate screenshots and screen operations. To address this, this work presents Chain-of-Action-Thought (dubbed CoAT), which takes the description of the previous actions, the current screen, and more importantly the action thinking of what actions should be performed and the outcomes led by the chosen action. We demonstrate that, in a zero-shot setting upon three off-the-shelf LMMs, CoAT significantly improves the action prediction compared to previous proposed context modeling. To further facilitate the research in this line, we construct a dataset Android-In-The-Zoo (AitZ), which contains 18,643 screen-action pairs together with chain-of-action-thought annotations. Experiments show that fine-tuning a 1B model (i.e. AUTO-UI-base) on our AitZ dataset achieves on-par performance with CogAgent-Chat-18B."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Android in the Zoo: Chain-of-Action-Thought for GUI Agents"
+    ],
+    "twitter:description": [
+      "Large language model (LLM) leads to a surge of autonomous GUI agents for smartphone, which completes a task triggered by natural language through predicting a sequence of actions of API. Even..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Android in the Zoo: Chain-of-Action-Thought for GUI Agents"
+    ],
+    "citation_author": [
+      "Zhang, Jiwen",
+      "Wu, Jihao",
+      "Teng, Yihua",
+      "Liao, Minghui",
+      "Xu, Nuo",
+      "Xiao, Xiao",
+      "Wei, Zhongyu",
+      "Tang, Duyu"
+    ],
+    "citation_date": [
+      "2024/03/05"
+    ],
+    "citation_online_date": [
+      "2024/07/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.02713"
+    ],
+    "citation_arxiv_id": [
+      "2403.02713"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM) leads to a surge of autonomous GUI agents for smartphone, which completes a task triggered by natural language through predicting a sequence of actions of API. Even though the task highly relies on past actions and visual observations, existing studies typically consider little semantic information carried out by intermediate screenshots and screen operations. To address this, this work presents Chain-of-Action-Thought (dubbed CoAT), which takes the description of the previous actions, the current screen, and more importantly the action thinking of what actions should be performed and the outcomes led by the chosen action. We demonstrate that, in a zero-shot setting upon three off-the-shelf LMMs, CoAT significantly improves the action prediction compared to previous proposed context modeling. To further facilitate the research in this line, we construct a dataset Android-In-The-Zoo (AitZ), which contains 18,643 screen-action pairs together with chain-of-action-thought annotations. Experiments show that fine-tuning a 1B model (i.e. AUTO-UI-base) on our AitZ dataset achieves on-par performance with CogAgent-Chat-18B."
+    ]
+  },
+  "html_sha256": "7f36a6ea154023f2e59f6021c015239b2ed8bdadbc58b0eda55a69f57e3c246f",
+  "evidence_html": "evidence/d9a8c0698c56156188cd.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

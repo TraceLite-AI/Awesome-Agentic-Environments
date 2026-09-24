@@ -1,0 +1,148 @@
+{
+  "url": "https://arxiv.org/abs/2310.10634",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.10634",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "OpenAgents: An Open Platform for Language Agents in the Wild. Tianbao Xie et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.10634",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:02.891072+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.10634",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43251,
+  "title": "OpenAgents: An Open Platform for Language Agents in the Wild",
+  "authors": [
+    "Xie, Tianbao",
+    "Zhou, Fan",
+    "Cheng, Zhoujun",
+    "Shi, Peng",
+    "Weng, Luoxuan",
+    "Liu, Yitao",
+    "Hua, Toh Jing",
+    "Zhao, Junning",
+    "Liu, Qian",
+    "Liu, Che",
+    "Liu, Leo Z.",
+    "Xu, Yiheng",
+    "Su, Hongjin",
+    "Shin, Dongchan",
+    "Xiong, Caiming",
+    "Yu, Tao"
+  ],
+  "first_author": "Xie, Tianbao",
+  "year": 2023,
+  "source_date": "2023/10/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.10634",
+  "abstract": "Language agents show potential in being capable of utilizing natural language for varied and intricate tasks in diverse environments, particularly when built upon large language models (LLMs). Current language agent frameworks aim to facilitate the construction of proof-of-concept language agents while neglecting the non-expert user access to agents and paying little attention to application-level designs. We present OpenAgents, an open platform for using and hosting language agents in the wild of everyday life. OpenAgents includes three agents: (1) Data Agent for data analysis with Python/SQL and data tools; (2) Plugins Agent with 200+ daily API tools; (3) Web Agent for autonomous web browsing. OpenAgents enables general users to interact with agent functionalities through a web user interface optimized for swift responses and common failures while offering developers and researchers a seamless deployment experience on local setups, providing a foundation for crafting innovative language agents and facilitating real-world evaluations. We elucidate the challenges and opportunities, aspiring to set a foundation for future research and development of real-world language agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.10634: OpenAgents: An Open Platform for Language Agents in the Wild"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenAgents: An Open Platform for Language Agents in the Wild"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.10634v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Language agents show potential in being capable of utilizing natural language for varied and intricate tasks in diverse environments, particularly when built upon large language models (LLMs). Current language agent frameworks aim to facilitate the construction of proof-of-concept language agents while neglecting the non-expert user access to agents and paying little attention to application-level designs. We present OpenAgents, an open platform for using and hosting language agents in the wild of everyday life. OpenAgents includes three agents: (1) Data Agent for data analysis with Python/SQL and data tools; (2) Plugins Agent with 200+ daily API tools; (3) Web Agent for autonomous web browsing. OpenAgents enables general users to interact with agent functionalities through a web user interface optimized for swift responses and common failures while offering developers and researchers a seamless deployment experience on local setups, providing a foundation for crafting innovative language agents and facilitating real-world evaluations. We elucidate the challenges and opportunities, aspiring to set a foundation for future research and development of real-world language agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenAgents: An Open Platform for Language Agents in the Wild"
+    ],
+    "twitter:description": [
+      "Language agents show potential in being capable of utilizing natural language for varied and intricate tasks in diverse environments, particularly when built upon large language models (LLMs)...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenAgents: An Open Platform for Language Agents in the Wild"
+    ],
+    "citation_author": [
+      "Xie, Tianbao",
+      "Zhou, Fan",
+      "Cheng, Zhoujun",
+      "Shi, Peng",
+      "Weng, Luoxuan",
+      "Liu, Yitao",
+      "Hua, Toh Jing",
+      "Zhao, Junning",
+      "Liu, Qian",
+      "Liu, Che",
+      "Liu, Leo Z.",
+      "Xu, Yiheng",
+      "Su, Hongjin",
+      "Shin, Dongchan",
+      "Xiong, Caiming",
+      "Yu, Tao"
+    ],
+    "citation_date": [
+      "2023/10/16"
+    ],
+    "citation_online_date": [
+      "2023/10/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.10634"
+    ],
+    "citation_arxiv_id": [
+      "2310.10634"
+    ],
+    "citation_abstract": [
+      "Language agents show potential in being capable of utilizing natural language for varied and intricate tasks in diverse environments, particularly when built upon large language models (LLMs). Current language agent frameworks aim to facilitate the construction of proof-of-concept language agents while neglecting the non-expert user access to agents and paying little attention to application-level designs. We present OpenAgents, an open platform for using and hosting language agents in the wild of everyday life. OpenAgents includes three agents: (1) Data Agent for data analysis with Python/SQL and data tools; (2) Plugins Agent with 200+ daily API tools; (3) Web Agent for autonomous web browsing. OpenAgents enables general users to interact with agent functionalities through a web user interface optimized for swift responses and common failures while offering developers and researchers a seamless deployment experience on local setups, providing a foundation for crafting innovative language agents and facilitating real-world evaluations. We elucidate the challenges and opportunities, aspiring to set a foundation for future research and development of real-world language agents."
+    ]
+  },
+  "html_sha256": "3f2a1b2e8c6aab30c7979f3a4877753fa6583590e73404adac39a8c60a178509",
+  "evidence_html": "evidence/79f5ae0792e3f5f6f888.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

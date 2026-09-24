@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2308.06782",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.06782",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "PENTESTGPT: An LLM-empowered Automatic Penetration Testing Tool",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.06782",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:18.895922+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.06782",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43737,
+  "title": "PentestGPT: An LLM-empowered Automatic Penetration Testing Tool",
+  "authors": [
+    "Deng, Gelei",
+    "Liu, Yi",
+    "Mayoral-Vilches, Víctor",
+    "Liu, Peng",
+    "Li, Yuekang",
+    "Xu, Yuan",
+    "Zhang, Tianwei",
+    "Liu, Yang",
+    "Pinzger, Martin",
+    "Rass, Stefan"
+  ],
+  "first_author": "Deng, Gelei",
+  "year": 2023,
+  "source_date": "2023/08/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.06782",
+  "abstract": "Penetration testing, a crucial industrial practice for ensuring system security, has traditionally resisted automation due to the extensive expertise required by human professionals. Large Language Models (LLMs) have shown significant advancements in various domains, and their emergent abilities suggest their potential to revolutionize industries. In this research, we evaluate the performance of LLMs on real-world penetration testing tasks using a robust benchmark created from test machines with platforms. Our findings reveal that while LLMs demonstrate proficiency in specific sub-tasks within the penetration testing process, such as using testing tools, interpreting outputs, and proposing subsequent actions, they also encounter difficulties maintaining an integrated understanding of the overall testing scenario. In response to these insights, we introduce PentestGPT, an LLM-empowered automatic penetration testing tool that leverages the abundant domain knowledge inherent in LLMs. PentestGPT is meticulously designed with three self-interacting modules, each addressing individual sub-tasks of penetration testing, to mitigate the challenges related to context loss. Our evaluation shows that PentestGPT not only outperforms LLMs with a task-completion increase of 228.6\\% compared to the \\gptthree model among the benchmark targets but also proves effective in tackling real-world penetration testing challenges. Having been open-sourced on GitHub, PentestGPT has garnered over 4,700 stars and fostered active community engagement, attesting to its value and impact in both the academic and industrial spheres.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.06782: PentestGPT: An LLM-empowered Automatic Penetration Testing Tool"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "PentestGPT: An LLM-empowered Automatic Penetration Testing Tool"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.06782v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Penetration testing, a crucial industrial practice for ensuring system security, has traditionally resisted automation due to the extensive expertise required by human professionals. Large Language Models (LLMs) have shown significant advancements in various domains, and their emergent abilities suggest their potential to revolutionize industries. In this research, we evaluate the performance of LLMs on real-world penetration testing tasks using a robust benchmark created from test machines with platforms. Our findings reveal that while LLMs demonstrate proficiency in specific sub-tasks within the penetration testing process, such as using testing tools, interpreting outputs, and proposing subsequent actions, they also encounter difficulties maintaining an integrated understanding of the overall testing scenario.\n  In response to these insights, we introduce PentestGPT, an LLM-empowered automatic penetration testing tool that leverages the abundant domain knowledge inherent in LLMs. PentestGPT is meticulously designed with three self-interacting modules, each addressing individual sub-tasks of penetration testing, to mitigate the challenges related to context loss. Our evaluation shows that PentestGPT not only outperforms LLMs with a task-completion increase of 228.6\\% compared to the \\gptthree model among the benchmark targets but also proves effective in tackling real-world penetration testing challenges. Having been open-sourced on GitHub, PentestGPT has garnered over 4,700 stars and fostered active community engagement, attesting to its value and impact in both the academic and industrial spheres."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "PentestGPT: An LLM-empowered Automatic Penetration Testing Tool"
+    ],
+    "twitter:description": [
+      "Penetration testing, a crucial industrial practice for ensuring system security, has traditionally resisted automation due to the extensive expertise required by human professionals. Large..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "PentestGPT: An LLM-empowered Automatic Penetration Testing Tool"
+    ],
+    "citation_author": [
+      "Deng, Gelei",
+      "Liu, Yi",
+      "Mayoral-Vilches, Víctor",
+      "Liu, Peng",
+      "Li, Yuekang",
+      "Xu, Yuan",
+      "Zhang, Tianwei",
+      "Liu, Yang",
+      "Pinzger, Martin",
+      "Rass, Stefan"
+    ],
+    "citation_date": [
+      "2023/08/13"
+    ],
+    "citation_online_date": [
+      "2024/06/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.06782"
+    ],
+    "citation_arxiv_id": [
+      "2308.06782"
+    ],
+    "citation_abstract": [
+      "Penetration testing, a crucial industrial practice for ensuring system security, has traditionally resisted automation due to the extensive expertise required by human professionals. Large Language Models (LLMs) have shown significant advancements in various domains, and their emergent abilities suggest their potential to revolutionize industries. In this research, we evaluate the performance of LLMs on real-world penetration testing tasks using a robust benchmark created from test machines with platforms. Our findings reveal that while LLMs demonstrate proficiency in specific sub-tasks within the penetration testing process, such as using testing tools, interpreting outputs, and proposing subsequent actions, they also encounter difficulties maintaining an integrated understanding of the overall testing scenario. In response to these insights, we introduce PentestGPT, an LLM-empowered automatic penetration testing tool that leverages the abundant domain knowledge inherent in LLMs. PentestGPT is meticulously designed with three self-interacting modules, each addressing individual sub-tasks of penetration testing, to mitigate the challenges related to context loss. Our evaluation shows that PentestGPT not only outperforms LLMs with a task-completion increase of 228.6\\% compared to the \\gptthree model among the benchmark targets but also proves effective in tackling real-world penetration testing challenges. Having been open-sourced on GitHub, PentestGPT has garnered over 4,700 stars and fostered active community engagement, attesting to its value and impact in both the academic and industrial spheres."
+    ]
+  },
+  "html_sha256": "fb204f80f0c51cb3d6ee757ff6937888196aeba39a2d242a1ef1f9ab698e78c5",
+  "evidence_html": "evidence/6885f39ebfb369d0e995.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

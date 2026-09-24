@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2605.27922",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2605.27922",
+      "discovery_url": "https://arxiv.org/abs/2605.27922",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2605.27922",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:30.067694+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2605.27922",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44642,
+  "title": "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows",
+  "authors": [
+    "Yao, Yilun",
+    "Tan, Xinyu",
+    "Liu, Chao-Hsuan",
+    "Li, Yaoming",
+    "Wang, Zhengyang",
+    "Yu, Wenhan",
+    "Tan, Zhewen",
+    "Tian, Yuxuan",
+    "Zhao, Guangxiang",
+    "Sun, Lin",
+    "Zhang, Xiangzheng",
+    "Yang, Tong"
+  ],
+  "first_author": "Yao, Yilun",
+  "year": 2026,
+  "source_date": "2026/05/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2605.27922",
+  "abstract": "LLM agents are increasingly deployed as executable systems that use tools, modify workspaces, and produce concrete artifacts. In such workflows, performance depends not only on the base model, but also on the harness: the system layer that manages context, tools, state, constraints, permissions, tracing, and recovery. However, existing benchmarks typically abstract away execution, compare complete agent systems, or hold the harness fixed, making execution-layer variation difficult to study. We introduce Harness-Bench, a diagnostic benchmark for evaluating configuration-level harness effects in realistic agent workflows. Harness-Bench evaluates representative harness configurations across multiple model backends under shared task environments, budgets, and evaluation protocols, while preserving each harness's native execution behavior. The benchmark contains 106 sandboxed offline tasks constructed from practical agent-use patterns and manually reviewed for realism, solvability, oracle-checkability, and integrity. Each run records final artifacts, execution traces, usage statistics, and validator outputs, enabling analysis beyond final completion. Across 5,194 execution trajectories, we observe substantial variation in completion, process quality, efficiency, and failure behavior across model-harness pairings. These results suggest that agent capability should be reported at the model-harness configuration level rather than attributed to the base model alone. Our analysis further identifies recurring execution-alignment failures, where plausible reasoning becomes decoupled from tool feedback, workspace state, evidence, or verifiable output contracts. Harness-Bench provides a reproducible foundation for diagnosing and improving reliable, efficient, and auditable agent execution stacks.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2605.27922: Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2605.27922v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM agents are increasingly deployed as executable systems that use tools, modify workspaces, and produce concrete artifacts. In such workflows, performance depends not only on the base model, but also on the harness: the system layer that manages context, tools, state, constraints, permissions, tracing, and recovery. However, existing benchmarks typically abstract away execution, compare complete agent systems, or hold the harness fixed, making execution-layer variation difficult to study. We introduce Harness-Bench, a diagnostic benchmark for evaluating configuration-level harness effects in realistic agent workflows. Harness-Bench evaluates representative harness configurations across multiple model backends under shared task environments, budgets, and evaluation protocols, while preserving each harness's native execution behavior. The benchmark contains 106 sandboxed offline tasks constructed from practical agent-use patterns and manually reviewed for realism, solvability, oracle-checkability, and integrity. Each run records final artifacts, execution traces, usage statistics, and validator outputs, enabling analysis beyond final completion. Across 5,194 execution trajectories, we observe substantial variation in completion, process quality, efficiency, and failure behavior across model-harness pairings. These results suggest that agent capability should be reported at the model-harness configuration level rather than attributed to the base model alone. Our analysis further identifies recurring execution-alignment failures, where plausible reasoning becomes decoupled from tool feedback, workspace state, evidence, or verifiable output contracts. Harness-Bench provides a reproducible foundation for diagnosing and improving reliable, efficient, and auditable agent execution stacks."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Harness-Bench: Measuring Harness Effects across Models in..."
+    ],
+    "twitter:description": [
+      "LLM agents are increasingly deployed as executable systems that use tools, modify workspaces, and produce concrete artifacts. In such workflows, performance depends not only on the base model, but..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows"
+    ],
+    "citation_author": [
+      "Yao, Yilun",
+      "Tan, Xinyu",
+      "Liu, Chao-Hsuan",
+      "Li, Yaoming",
+      "Wang, Zhengyang",
+      "Yu, Wenhan",
+      "Tan, Zhewen",
+      "Tian, Yuxuan",
+      "Zhao, Guangxiang",
+      "Sun, Lin",
+      "Zhang, Xiangzheng",
+      "Yang, Tong"
+    ],
+    "citation_date": [
+      "2026/05/27"
+    ],
+    "citation_online_date": [
+      "2026/05/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2605.27922"
+    ],
+    "citation_arxiv_id": [
+      "2605.27922"
+    ],
+    "citation_abstract": [
+      "LLM agents are increasingly deployed as executable systems that use tools, modify workspaces, and produce concrete artifacts. In such workflows, performance depends not only on the base model, but also on the harness: the system layer that manages context, tools, state, constraints, permissions, tracing, and recovery. However, existing benchmarks typically abstract away execution, compare complete agent systems, or hold the harness fixed, making execution-layer variation difficult to study. We introduce Harness-Bench, a diagnostic benchmark for evaluating configuration-level harness effects in realistic agent workflows. Harness-Bench evaluates representative harness configurations across multiple model backends under shared task environments, budgets, and evaluation protocols, while preserving each harness's native execution behavior. The benchmark contains 106 sandboxed offline tasks constructed from practical agent-use patterns and manually reviewed for realism, solvability, oracle-checkability, and integrity. Each run records final artifacts, execution traces, usage statistics, and validator outputs, enabling analysis beyond final completion. Across 5,194 execution trajectories, we observe substantial variation in completion, process quality, efficiency, and failure behavior across model-harness pairings. These results suggest that agent capability should be reported at the model-harness configuration level rather than attributed to the base model alone. Our analysis further identifies recurring execution-alignment failures, where plausible reasoning becomes decoupled from tool feedback, workspace state, evidence, or verifiable output contracts. Harness-Bench provides a reproducible foundation for diagnosing and improving reliable, efficient, and auditable agent execution stacks."
+    ]
+  },
+  "html_sha256": "a0620770966bfeb6fe239290e25aa23d2748f9a8a032a34fc2de6e21cf1cd33b",
+  "evidence_html": "evidence/5abc49c856bbb7cc12d8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

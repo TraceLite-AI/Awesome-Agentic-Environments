@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2508.03012",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.03012",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Tool-integrated Reinforcement Learning for Repo Deep Search",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.03012",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:39.040126+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.03012",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42173,
+  "title": "Tool-integrated Reinforcement Learning for Repo Deep Search",
+  "authors": [
+    "Ma, Zexiong",
+    "Peng, Chao",
+    "Zeng, Qunhong",
+    "Gao, Pengfei",
+    "Zou, Yanzhen",
+    "Xie, Bing"
+  ],
+  "first_author": "Ma, Zexiong",
+  "year": 2025,
+  "source_date": "2025/08/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.03012",
+  "abstract": "Issue localization, the process of identifying code locations that need modification to resolve software issues, is a critical yet challenging task in software development. The semantic gap between natural language issue descriptions and faulty code requires complex multi-hop reasoning through code dependencies. Existing LLM-based agents attempt to address this by integrating repository retrieval tools. However, this transforms issue localization into a demanding task we call Repo Deep Search, which requires the LLM to effectively utilize various repository retrieval tools throughout a multi-step reasoning and navigation process. To tackle this challenge, we present ToolTrain, a two-stage tool-integrated training framework combining rejection-sampled supervised fine-tuning and tool-integrated reinforcement learning to enhance LLMs' ability to use retrieval tools for issue localization. Experimental results show that ToolTrain-trained models achieve state-of-the-art performance, with our 32B model even surpassing Claude-3.7 on function-level localization. The results also show that improved localization performance translates to better end-to-end issue resolution performance. This further demonstrates that training for issue localization is a viable and effective strategy for improving automated software development.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.03012: Tool-integrated Reinforcement Learning for Repo Deep Search"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Tool-integrated Reinforcement Learning for Repo Deep Search"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.03012v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Issue localization, the process of identifying code locations that need modification to resolve software issues, is a critical yet challenging task in software development. The semantic gap between natural language issue descriptions and faulty code requires complex multi-hop reasoning through code dependencies. Existing LLM-based agents attempt to address this by integrating repository retrieval tools. However, this transforms issue localization into a demanding task we call Repo Deep Search, which requires the LLM to effectively utilize various repository retrieval tools throughout a multi-step reasoning and navigation process. To tackle this challenge, we present ToolTrain, a two-stage tool-integrated training framework combining rejection-sampled supervised fine-tuning and tool-integrated reinforcement learning to enhance LLMs' ability to use retrieval tools for issue localization. Experimental results show that ToolTrain-trained models achieve state-of-the-art performance, with our 32B model even surpassing Claude-3.7 on function-level localization. The results also show that improved localization performance translates to better end-to-end issue resolution performance. This further demonstrates that training for issue localization is a viable and effective strategy for improving automated software development."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Tool-integrated Reinforcement Learning for Repo Deep Search"
+    ],
+    "twitter:description": [
+      "Issue localization, the process of identifying code locations that need modification to resolve software issues, is a critical yet challenging task in software development. The semantic gap..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Tool-integrated Reinforcement Learning for Repo Deep Search"
+    ],
+    "citation_author": [
+      "Ma, Zexiong",
+      "Peng, Chao",
+      "Zeng, Qunhong",
+      "Gao, Pengfei",
+      "Zou, Yanzhen",
+      "Xie, Bing"
+    ],
+    "citation_date": [
+      "2025/08/05"
+    ],
+    "citation_online_date": [
+      "2025/08/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.03012"
+    ],
+    "citation_arxiv_id": [
+      "2508.03012"
+    ],
+    "citation_abstract": [
+      "Issue localization, the process of identifying code locations that need modification to resolve software issues, is a critical yet challenging task in software development. The semantic gap between natural language issue descriptions and faulty code requires complex multi-hop reasoning through code dependencies. Existing LLM-based agents attempt to address this by integrating repository retrieval tools. However, this transforms issue localization into a demanding task we call Repo Deep Search, which requires the LLM to effectively utilize various repository retrieval tools throughout a multi-step reasoning and navigation process. To tackle this challenge, we present ToolTrain, a two-stage tool-integrated training framework combining rejection-sampled supervised fine-tuning and tool-integrated reinforcement learning to enhance LLMs' ability to use retrieval tools for issue localization. Experimental results show that ToolTrain-trained models achieve state-of-the-art performance, with our 32B model even surpassing Claude-3.7 on function-level localization. The results also show that improved localization performance translates to better end-to-end issue resolution performance. This further demonstrates that training for issue localization is a viable and effective strategy for improving automated software development."
+    ]
+  },
+  "html_sha256": "2207c3bd31402d682c755756b0a90e804f0492ae7810da37d3163d632e9f525a",
+  "evidence_html": "evidence/f56d041afbbc8940ae72.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

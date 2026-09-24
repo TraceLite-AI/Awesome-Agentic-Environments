@@ -1,0 +1,150 @@
+{
+  "url": "https://arxiv.org/abs/2511.07317",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2511.07317",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "RLVE: scaling up reinforcement learning for language models with adaptive verifiable environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2511.07317",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:56.439771+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2511.07317",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44241,
+  "title": "RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments",
+  "authors": [
+    "Zeng, Zhiyuan",
+    "Ivison, Hamish",
+    "Wang, Yiping",
+    "Yuan, Lifan",
+    "Li, Shuyue Stella",
+    "Ye, Zhuorui",
+    "Li, Siting",
+    "He, Jacqueline",
+    "Zhou, Runlong",
+    "Chen, Tong",
+    "Zhao, Chenyang",
+    "Tsvetkov, Yulia",
+    "Du, Simon Shaolei",
+    "Jaques, Natasha",
+    "Peng, Hao",
+    "Koh, Pang Wei",
+    "Hajishirzi, Hannaneh"
+  ],
+  "first_author": "Zeng, Zhiyuan",
+  "year": 2025,
+  "source_date": "2025/11/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2511.07317",
+  "abstract": "We introduce Reinforcement Learning (RL) with Adaptive Verifiable Environments (RLVE), an approach using verifiable environments that procedurally generate problems and provide algorithmically verifiable rewards, to scale up RL for language models (LMs). RLVE enables each verifiable environment to dynamically adapt its problem difficulty distribution to the policy model's capabilities as training progresses. In contrast, static data distributions often lead to vanishing learning signals when problems are either too easy or too hard for the policy. To implement RLVE, we create RLVE-Gym, a large-scale suite of 400 verifiable environments carefully developed through manual environment engineering. Using RLVE-Gym, we show that environment scaling, i.e., expanding the collection of training environments, consistently improves generalizable reasoning capabilities. RLVE with joint training across all 400 environments in RLVE-Gym yields a 3.37% absolute average improvement across six reasoning benchmarks, starting from one of the strongest 1.5B reasoning LMs. By comparison, continuing this LM's original RL training yields only a 0.49% average absolute gain despite using over 3x more compute. We release our code publicly.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2511.07317: RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2511.07317v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Reinforcement Learning (RL) with Adaptive Verifiable Environments (RLVE), an approach using verifiable environments that procedurally generate problems and provide algorithmically verifiable rewards, to scale up RL for language models (LMs). RLVE enables each verifiable environment to dynamically adapt its problem difficulty distribution to the policy model's capabilities as training progresses. In contrast, static data distributions often lead to vanishing learning signals when problems are either too easy or too hard for the policy. To implement RLVE, we create RLVE-Gym, a large-scale suite of 400 verifiable environments carefully developed through manual environment engineering. Using RLVE-Gym, we show that environment scaling, i.e., expanding the collection of training environments, consistently improves generalizable reasoning capabilities. RLVE with joint training across all 400 environments in RLVE-Gym yields a 3.37% absolute average improvement across six reasoning benchmarks, starting from one of the strongest 1.5B reasoning LMs. By comparison, continuing this LM's original RL training yields only a 0.49% average absolute gain despite using over 3x more compute. We release our code publicly."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RLVE: Scaling Up Reinforcement Learning for Language Models with..."
+    ],
+    "twitter:description": [
+      "We introduce Reinforcement Learning (RL) with Adaptive Verifiable Environments (RLVE), an approach using verifiable environments that procedurally generate problems and provide algorithmically..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments"
+    ],
+    "citation_author": [
+      "Zeng, Zhiyuan",
+      "Ivison, Hamish",
+      "Wang, Yiping",
+      "Yuan, Lifan",
+      "Li, Shuyue Stella",
+      "Ye, Zhuorui",
+      "Li, Siting",
+      "He, Jacqueline",
+      "Zhou, Runlong",
+      "Chen, Tong",
+      "Zhao, Chenyang",
+      "Tsvetkov, Yulia",
+      "Du, Simon Shaolei",
+      "Jaques, Natasha",
+      "Peng, Hao",
+      "Koh, Pang Wei",
+      "Hajishirzi, Hannaneh"
+    ],
+    "citation_date": [
+      "2025/11/10"
+    ],
+    "citation_online_date": [
+      "2026/06/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2511.07317"
+    ],
+    "citation_arxiv_id": [
+      "2511.07317"
+    ],
+    "citation_abstract": [
+      "We introduce Reinforcement Learning (RL) with Adaptive Verifiable Environments (RLVE), an approach using verifiable environments that procedurally generate problems and provide algorithmically verifiable rewards, to scale up RL for language models (LMs). RLVE enables each verifiable environment to dynamically adapt its problem difficulty distribution to the policy model's capabilities as training progresses. In contrast, static data distributions often lead to vanishing learning signals when problems are either too easy or too hard for the policy. To implement RLVE, we create RLVE-Gym, a large-scale suite of 400 verifiable environments carefully developed through manual environment engineering. Using RLVE-Gym, we show that environment scaling, i.e., expanding the collection of training environments, consistently improves generalizable reasoning capabilities. RLVE with joint training across all 400 environments in RLVE-Gym yields a 3.37% absolute average improvement across six reasoning benchmarks, starting from one of the strongest 1.5B reasoning LMs. By comparison, continuing this LM's original RL training yields only a 0.49% average absolute gain despite using over 3x more compute. We release our code publicly."
+    ]
+  },
+  "html_sha256": "f5089d0240b3f00a436db8dc8a26090c9620bd1eebbc6375dab6519a20a92078",
+  "evidence_html": "evidence/5574baee2b14fd19fd96.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2402.07456",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.07456",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.07456",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:01.188013+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.07456",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42363,
+  "title": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
+  "authors": [
+    "Wu, Zhiyong",
+    "Han, Chengcheng",
+    "Ding, Zichen",
+    "Weng, Zhenmin",
+    "Liu, Zhoumianze",
+    "Yao, Shunyu",
+    "Yu, Tao",
+    "Kong, Lingpeng"
+  ],
+  "first_author": "Wu, Zhiyong",
+  "year": 2024,
+  "source_date": "2024/02/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.07456",
+  "abstract": "Autonomous interaction with the computer has been a longstanding challenge with great potential, and the recent proliferation of large language models (LLMs) has markedly accelerated progress in building digital agents. However, most of these agents are designed to interact with a narrow domain, such as a specific software or website. This narrow focus constrains their applicability for general computer tasks. To this end, we introduce OS-Copilot, a framework to build generalist agents capable of interfacing with comprehensive elements in an operating system (OS), including the web, code terminals, files, multimedia, and various third-party applications. We use OS-Copilot to create FRIDAY, a self-improving embodied agent for automating general computer tasks. On GAIA, a general AI assistants benchmark, FRIDAY outperforms previous methods by 35%, showcasing strong generalization to unseen applications via accumulated skills from previous tasks. We also present numerical and quantitative evidence that FRIDAY learns to control and self-improve on Excel and Powerpoint with minimal supervision. Our OS-Copilot framework and empirical findings provide infrastructure and insights for future research toward more capable and general-purpose computer agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.07456: OS-Copilot: Towards Generalist Computer Agents with Self-Improvement"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.07456v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous interaction with the computer has been a longstanding challenge with great potential, and the recent proliferation of large language models (LLMs) has markedly accelerated progress in building digital agents. However, most of these agents are designed to interact with a narrow domain, such as a specific software or website. This narrow focus constrains their applicability for general computer tasks. To this end, we introduce OS-Copilot, a framework to build generalist agents capable of interfacing with comprehensive elements in an operating system (OS), including the web, code terminals, files, multimedia, and various third-party applications. We use OS-Copilot to create FRIDAY, a self-improving embodied agent for automating general computer tasks. On GAIA, a general AI assistants benchmark, FRIDAY outperforms previous methods by 35%, showcasing strong generalization to unseen applications via accumulated skills from previous tasks. We also present numerical and quantitative evidence that FRIDAY learns to control and self-improve on Excel and Powerpoint with minimal supervision. Our OS-Copilot framework and empirical findings provide infrastructure and insights for future research toward more capable and general-purpose computer agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement"
+    ],
+    "twitter:description": [
+      "Autonomous interaction with the computer has been a longstanding challenge with great potential, and the recent proliferation of large language models (LLMs) has markedly accelerated progress in..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement"
+    ],
+    "citation_author": [
+      "Wu, Zhiyong",
+      "Han, Chengcheng",
+      "Ding, Zichen",
+      "Weng, Zhenmin",
+      "Liu, Zhoumianze",
+      "Yao, Shunyu",
+      "Yu, Tao",
+      "Kong, Lingpeng"
+    ],
+    "citation_date": [
+      "2024/02/12"
+    ],
+    "citation_online_date": [
+      "2024/02/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.07456"
+    ],
+    "citation_arxiv_id": [
+      "2402.07456"
+    ],
+    "citation_abstract": [
+      "Autonomous interaction with the computer has been a longstanding challenge with great potential, and the recent proliferation of large language models (LLMs) has markedly accelerated progress in building digital agents. However, most of these agents are designed to interact with a narrow domain, such as a specific software or website. This narrow focus constrains their applicability for general computer tasks. To this end, we introduce OS-Copilot, a framework to build generalist agents capable of interfacing with comprehensive elements in an operating system (OS), including the web, code terminals, files, multimedia, and various third-party applications. We use OS-Copilot to create FRIDAY, a self-improving embodied agent for automating general computer tasks. On GAIA, a general AI assistants benchmark, FRIDAY outperforms previous methods by 35%, showcasing strong generalization to unseen applications via accumulated skills from previous tasks. We also present numerical and quantitative evidence that FRIDAY learns to control and self-improve on Excel and Powerpoint with minimal supervision. Our OS-Copilot framework and empirical findings provide infrastructure and insights for future research toward more capable and general-purpose computer agents."
+    ]
+  },
+  "html_sha256": "7ef85854aa76d9ab5257bd89126b967cb7a7e937123880ae0680654d0030be65",
+  "evidence_html": "evidence/fb418138a2dc431b082c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

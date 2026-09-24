@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2512.18571",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.18571",
+      "discovery_url": "https://github.com/ggjy/Awesome-Agent-Engineering",
+      "topic": "agent_training_and_rl",
+      "title_hint": "ESearch-R1: Learning Cost-Aware MLLM Agents for Interactive Embodied Search via Reinforcement Learning",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.18571",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:48.484155+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.18571",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43420,
+  "title": "ESearch-R1: Learning Cost-Aware MLLM Agents for Interactive Embodied Search via Reinforcement Learning",
+  "authors": [
+    "Zhou, Weijie",
+    "Xiong, Xuangtang",
+    "Tian, Ye",
+    "Yue, Lijun",
+    "Wu, Xinyu",
+    "Li, Wei",
+    "Zhao, Chaoyang",
+    "Dong, Honghui",
+    "Tang, Ming",
+    "Wang, Jinqiao",
+    "Zhang, Zhengyou"
+  ],
+  "first_author": "Zhou, Weijie",
+  "year": 2025,
+  "source_date": "2025/12/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.18571",
+  "abstract": "Multimodal Large Language Models (MLLMs) have empowered embodied agents with remarkable capabilities in planning and reasoning. However, when facing ambiguous natural language instructions (e.g., \"fetch the tool\" in a cluttered room), current agents often fail to balance the high cost of physical exploration against the cognitive cost of human interaction. They typically treat disambiguation as a passive perception problem, lacking the strategic reasoning to minimize total task execution costs. To bridge this gap, we propose ESearch-R1, a cost-aware embodied reasoning framework that unifies interactive dialogue (Ask), episodic memory retrieval (GetMemory), and physical navigation (Navigate) into a single decision process. We introduce HC-GRPO (Heterogeneous Cost-Aware Group Relative Policy Optimization). Unlike traditional PPO which relies on a separate value critic, HC-GRPO optimizes the MLLM by sampling groups of reasoning trajectories and reinforcing those that achieve the optimal trade-off between information gain and heterogeneous costs (e.g., navigate time, and human attention). Extensive experiments in AI2-THOR demonstrate that ESearch-R1 significantly outperforms standard ReAct-based agents. It improves task success rates while reducing total operational costs by approximately 50\\%, validating the effectiveness of GRPO in aligning MLLM agents with physical world constraints.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.18571: ESearch-R1: Learning Cost-Aware MLLM Agents for Interactive Embodied Search via Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ESearch-R1: Learning Cost-Aware MLLM Agents for Interactive Embodied Search via Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.18571v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Multimodal Large Language Models (MLLMs) have empowered embodied agents with remarkable capabilities in planning and reasoning. However, when facing ambiguous natural language instructions (e.g., \"fetch the tool\" in a cluttered room), current agents often fail to balance the high cost of physical exploration against the cognitive cost of human interaction. They typically treat disambiguation as a passive perception problem, lacking the strategic reasoning to minimize total task execution costs. To bridge this gap, we propose ESearch-R1, a cost-aware embodied reasoning framework that unifies interactive dialogue (Ask), episodic memory retrieval (GetMemory), and physical navigation (Navigate) into a single decision process. We introduce HC-GRPO (Heterogeneous Cost-Aware Group Relative Policy Optimization). Unlike traditional PPO which relies on a separate value critic, HC-GRPO optimizes the MLLM by sampling groups of reasoning trajectories and reinforcing those that achieve the optimal trade-off between information gain and heterogeneous costs (e.g., navigate time, and human attention). Extensive experiments in AI2-THOR demonstrate that ESearch-R1 significantly outperforms standard ReAct-based agents. It improves task success rates while reducing total operational costs by approximately 50\\%, validating the effectiveness of GRPO in aligning MLLM agents with physical world constraints."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ESearch-R1: Learning Cost-Aware MLLM Agents for Interactive..."
+    ],
+    "twitter:description": [
+      "Multimodal Large Language Models (MLLMs) have empowered embodied agents with remarkable capabilities in planning and reasoning. However, when facing ambiguous natural language instructions (e.g.,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ESearch-R1: Learning Cost-Aware MLLM Agents for Interactive Embodied Search via Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Zhou, Weijie",
+      "Xiong, Xuangtang",
+      "Tian, Ye",
+      "Yue, Lijun",
+      "Wu, Xinyu",
+      "Li, Wei",
+      "Zhao, Chaoyang",
+      "Dong, Honghui",
+      "Tang, Ming",
+      "Wang, Jinqiao",
+      "Zhang, Zhengyou"
+    ],
+    "citation_date": [
+      "2025/12/21"
+    ],
+    "citation_online_date": [
+      "2025/12/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.18571"
+    ],
+    "citation_arxiv_id": [
+      "2512.18571"
+    ],
+    "citation_abstract": [
+      "Multimodal Large Language Models (MLLMs) have empowered embodied agents with remarkable capabilities in planning and reasoning. However, when facing ambiguous natural language instructions (e.g., \"fetch the tool\" in a cluttered room), current agents often fail to balance the high cost of physical exploration against the cognitive cost of human interaction. They typically treat disambiguation as a passive perception problem, lacking the strategic reasoning to minimize total task execution costs. To bridge this gap, we propose ESearch-R1, a cost-aware embodied reasoning framework that unifies interactive dialogue (Ask), episodic memory retrieval (GetMemory), and physical navigation (Navigate) into a single decision process. We introduce HC-GRPO (Heterogeneous Cost-Aware Group Relative Policy Optimization). Unlike traditional PPO which relies on a separate value critic, HC-GRPO optimizes the MLLM by sampling groups of reasoning trajectories and reinforcing those that achieve the optimal trade-off between information gain and heterogeneous costs (e.g., navigate time, and human attention). Extensive experiments in AI2-THOR demonstrate that ESearch-R1 significantly outperforms standard ReAct-based agents. It improves task success rates while reducing total operational costs by approximately 50\\%, validating the effectiveness of GRPO in aligning MLLM agents with physical world constraints."
+    ]
+  },
+  "html_sha256": "c9117f161b7f19e6b365b289efcdd694e99e88fe67b2ecf4f1aae0d909c211e4",
+  "evidence_html": "evidence/2e42ac5afe764c3c8729.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

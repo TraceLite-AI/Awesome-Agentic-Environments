@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2307.12856",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.12856",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.12856",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:50.753425+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.12856",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43752,
+  "title": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+  "authors": [
+    "Gur, Izzeddin",
+    "Furuta, Hiroki",
+    "Huang, Austin",
+    "Safdari, Mustafa",
+    "Matsuo, Yutaka",
+    "Eck, Douglas",
+    "Faust, Aleksandra"
+  ],
+  "first_author": "Gur, Izzeddin",
+  "year": 2023,
+  "source_date": "2023/07/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.12856",
+  "abstract": "Pre-trained large language models (LLMs) have recently achieved better generalization and sample efficiency in autonomous web automation. However, the performance on real-world websites has still suffered from (1) open domainness, (2) limited context length, and (3) lack of inductive bias on HTML. We introduce WebAgent, an LLM-driven agent that learns from self-experience to complete tasks on real websites following natural language instructions. WebAgent plans ahead by decomposing instructions into canonical sub-instructions, summarizes long HTML documents into task-relevant snippets, and acts on websites via Python programs generated from those. We design WebAgent with Flan-U-PaLM, for grounded code generation, and HTML-T5, new pre-trained LLMs for long HTML documents using local and global attention mechanisms and a mixture of long-span denoising objectives, for planning and summarization. We empirically demonstrate that our modular recipe improves the success on real websites by over 50%, and that HTML-T5 is the best model to solve various HTML understanding tasks; achieving 18.7% higher success rate than the prior method on MiniWoB web automation benchmark, and SoTA performance on Mind2Web, an offline task planning evaluation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.12856: A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.12856v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Pre-trained large language models (LLMs) have recently achieved better generalization and sample efficiency in autonomous web automation. However, the performance on real-world websites has still suffered from (1) open domainness, (2) limited context length, and (3) lack of inductive bias on HTML. We introduce WebAgent, an LLM-driven agent that learns from self-experience to complete tasks on real websites following natural language instructions. WebAgent plans ahead by decomposing instructions into canonical sub-instructions, summarizes long HTML documents into task-relevant snippets, and acts on websites via Python programs generated from those. We design WebAgent with Flan-U-PaLM, for grounded code generation, and HTML-T5, new pre-trained LLMs for long HTML documents using local and global attention mechanisms and a mixture of long-span denoising objectives, for planning and summarization. We empirically demonstrate that our modular recipe improves the success on real websites by over 50%, and that HTML-T5 is the best model to solve various HTML understanding tasks; achieving 18.7% higher success rate than the prior method on MiniWoB web automation benchmark, and SoTA performance on Mind2Web, an offline task planning evaluation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Real-World WebAgent with Planning, Long Context Understanding,..."
+    ],
+    "twitter:description": [
+      "Pre-trained large language models (LLMs) have recently achieved better generalization and sample efficiency in autonomous web automation. However, the performance on real-world websites has still..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis"
+    ],
+    "citation_author": [
+      "Gur, Izzeddin",
+      "Furuta, Hiroki",
+      "Huang, Austin",
+      "Safdari, Mustafa",
+      "Matsuo, Yutaka",
+      "Eck, Douglas",
+      "Faust, Aleksandra"
+    ],
+    "citation_date": [
+      "2023/07/24"
+    ],
+    "citation_online_date": [
+      "2024/02/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.12856"
+    ],
+    "citation_arxiv_id": [
+      "2307.12856"
+    ],
+    "citation_abstract": [
+      "Pre-trained large language models (LLMs) have recently achieved better generalization and sample efficiency in autonomous web automation. However, the performance on real-world websites has still suffered from (1) open domainness, (2) limited context length, and (3) lack of inductive bias on HTML. We introduce WebAgent, an LLM-driven agent that learns from self-experience to complete tasks on real websites following natural language instructions. WebAgent plans ahead by decomposing instructions into canonical sub-instructions, summarizes long HTML documents into task-relevant snippets, and acts on websites via Python programs generated from those. We design WebAgent with Flan-U-PaLM, for grounded code generation, and HTML-T5, new pre-trained LLMs for long HTML documents using local and global attention mechanisms and a mixture of long-span denoising objectives, for planning and summarization. We empirically demonstrate that our modular recipe improves the success on real websites by over 50%, and that HTML-T5 is the best model to solve various HTML understanding tasks; achieving 18.7% higher success rate than the prior method on MiniWoB web automation benchmark, and SoTA performance on Mind2Web, an offline task planning evaluation."
+    ]
+  },
+  "html_sha256": "c47bb6ddd4a2438f6dc1696fdcb5cf781b7a32fd64e8d3d2c733a6ad43b249c8",
+  "evidence_html": "evidence/abd662cb969d2b5fb5bd.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

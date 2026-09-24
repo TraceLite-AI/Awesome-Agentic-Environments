@@ -1,0 +1,160 @@
+{
+  "url": "https://arxiv.org/abs/2509.16941",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.16941",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Swe-bench pro: Can AI agents solve long-horizon software engineering tasks?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.16941",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:15.500734+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.16941",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45614,
+  "title": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?",
+  "authors": [
+    "Deng, Xiang",
+    "Da, Jeff",
+    "Pan, Edwin",
+    "He, Yannis Yiming",
+    "Ide, Charles",
+    "Garg, Kanak",
+    "Lauffer, Niklas",
+    "Park, Andrew",
+    "Pasari, Nitin",
+    "Rane, Chetan",
+    "Sampath, Karmini",
+    "Krishnan, Maya",
+    "Kundurthy, Srivatsa",
+    "Hendryx, Sean",
+    "Wang, Zifan",
+    "Bharadwaj, Vijay",
+    "Holm, Jeff",
+    "Aluri, Raja",
+    "Zhang, Chen Bo Calvin",
+    "Jacobson, Noah",
+    "Liu, Bing",
+    "Kenstler, Brad"
+  ],
+  "first_author": "Deng, Xiang",
+  "year": 2025,
+  "source_date": "2025/09/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.16941",
+  "abstract": "We introduce SWE-Bench Pro, a substantially more challenging benchmark that builds upon the best practices of SWE-BENCH [25], but is explicitly designed to capture realistic, complex, enterprise-level problems beyond the scope of SWE-BENCH. SWE-BENCH PRO contains 1,865 problems sourced from a diverse set of 41 actively maintained repositories spanning business applications, B2B services, and developer tools. The benchmark is partitioned into a public set with open access to problems sourced from 11 repositories, a held-out set of 12 repositories and a commercial set of 18 proprietary repositories where we have formal partnership agreements with early-stage startups. Problems in the held-out and the commercial set are not publicly accessible, but we release results on the commercial set. Our benchmark features long-horizon tasks that may require hours to days for a professional software engineer to complete, often involving patches across multiple files and substantial code modifications. All tasks are human-verified and augmented with sufficient context to ensure resolvability. To better understand these limitations, we cluster the failure modes observed in the collected agent trajectories for a clearer characterization of the error patterns exhibited by current models. Overall, SWE-BENCH PRO provides a contamination-resistant testbed that more faithfully captures the complexity and diversity of real-world software development, advancing the pursuit of truly autonomous software engineering agents at a professional level.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.16941: SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.16941v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce SWE-Bench Pro, a substantially more challenging benchmark that builds upon the best practices of SWE-BENCH [25], but is explicitly designed to capture realistic, complex, enterprise-level problems beyond the scope of SWE-BENCH. SWE-BENCH PRO contains 1,865 problems sourced from a diverse set of 41 actively maintained repositories spanning business applications, B2B services, and developer tools. The benchmark is partitioned into a public set with open access to problems sourced from 11 repositories, a held-out set of 12 repositories and a commercial set of 18 proprietary repositories where we have formal partnership agreements with early-stage startups. Problems in the held-out and the commercial set are not publicly accessible, but we release results on the commercial set. Our benchmark features long-horizon tasks that may require hours to days for a professional software engineer to complete, often involving patches across multiple files and substantial code modifications. All tasks are human-verified and augmented with sufficient context to ensure resolvability. To better understand these limitations, we cluster the failure modes observed in the collected agent trajectories for a clearer characterization of the error patterns exhibited by current models. Overall, SWE-BENCH PRO provides a contamination-resistant testbed that more faithfully captures the complexity and diversity of real-world software development, advancing the pursuit of truly autonomous software engineering agents at a professional level."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+    ],
+    "twitter:description": [
+      "We introduce SWE-Bench Pro, a substantially more challenging benchmark that builds upon the best practices of SWE-BENCH [25], but is explicitly designed to capture realistic, complex,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+    ],
+    "citation_author": [
+      "Deng, Xiang",
+      "Da, Jeff",
+      "Pan, Edwin",
+      "He, Yannis Yiming",
+      "Ide, Charles",
+      "Garg, Kanak",
+      "Lauffer, Niklas",
+      "Park, Andrew",
+      "Pasari, Nitin",
+      "Rane, Chetan",
+      "Sampath, Karmini",
+      "Krishnan, Maya",
+      "Kundurthy, Srivatsa",
+      "Hendryx, Sean",
+      "Wang, Zifan",
+      "Bharadwaj, Vijay",
+      "Holm, Jeff",
+      "Aluri, Raja",
+      "Zhang, Chen Bo Calvin",
+      "Jacobson, Noah",
+      "Liu, Bing",
+      "Kenstler, Brad"
+    ],
+    "citation_date": [
+      "2025/09/21"
+    ],
+    "citation_online_date": [
+      "2025/11/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.16941"
+    ],
+    "citation_arxiv_id": [
+      "2509.16941"
+    ],
+    "citation_abstract": [
+      "We introduce SWE-Bench Pro, a substantially more challenging benchmark that builds upon the best practices of SWE-BENCH [25], but is explicitly designed to capture realistic, complex, enterprise-level problems beyond the scope of SWE-BENCH. SWE-BENCH PRO contains 1,865 problems sourced from a diverse set of 41 actively maintained repositories spanning business applications, B2B services, and developer tools. The benchmark is partitioned into a public set with open access to problems sourced from 11 repositories, a held-out set of 12 repositories and a commercial set of 18 proprietary repositories where we have formal partnership agreements with early-stage startups. Problems in the held-out and the commercial set are not publicly accessible, but we release results on the commercial set. Our benchmark features long-horizon tasks that may require hours to days for a professional software engineer to complete, often involving patches across multiple files and substantial code modifications. All tasks are human-verified and augmented with sufficient context to ensure resolvability. To better understand these limitations, we cluster the failure modes observed in the collected agent trajectories for a clearer characterization of the error patterns exhibited by current models. Overall, SWE-BENCH PRO provides a contamination-resistant testbed that more faithfully captures the complexity and diversity of real-world software development, advancing the pursuit of truly autonomous software engineering agents at a professional level."
+    ]
+  },
+  "html_sha256": "21f69a25e615c4223357fe653663aeb94f962732cbbb1277e827bd3014f9df53",
+  "evidence_html": "evidence/2e233c1a5dfa4972f803.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2411.08063",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.08063",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "Matpilot: An LLM-enabled AI materials scientist under the framework of human-machine collaboration",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.08063",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:19.375594+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.08063",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41964,
+  "title": "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration",
+  "authors": [
+    "Ni, Ziqi",
+    "Li, Yahao",
+    "Hu, Kaijia",
+    "Han, Kunyuan",
+    "Xu, Ming",
+    "Chen, Xingyu",
+    "Liu, Fengqi",
+    "Ye, Yicong",
+    "Bai, Shuxin"
+  ],
+  "first_author": "Ni, Ziqi",
+  "year": 2024,
+  "source_date": "2024/11/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.08063",
+  "abstract": "The rapid evolution of artificial intelligence, particularly large language models, presents unprecedented opportunities for materials science research. We proposed and developed an AI materials scientist named MatPilot, which has shown encouraging abilities in the discovery of new materials. The core strength of MatPilot is its natural language interactive human-machine collaboration, which augments the research capabilities of human scientist teams through a multi-agent system. MatPilot integrates unique cognitive abilities, extensive accumulated experience, and ongoing curiosity of human-beings with the AI agents' capabilities of advanced abstraction, complex knowledge storage and high-dimensional information processing. It could generate scientific hypotheses and experimental schemes, and employ predictive models and optimization algorithms to drive an automated experimental platform for experiments. It turns out that our system demonstrates capabilities for efficient validation, continuous learning, and iterative optimization.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.08063: MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.08063v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The rapid evolution of artificial intelligence, particularly large language models, presents unprecedented opportunities for materials science research. We proposed and developed an AI materials scientist named MatPilot, which has shown encouraging abilities in the discovery of new materials. The core strength of MatPilot is its natural language interactive human-machine collaboration, which augments the research capabilities of human scientist teams through a multi-agent system. MatPilot integrates unique cognitive abilities, extensive accumulated experience, and ongoing curiosity of human-beings with the AI agents' capabilities of advanced abstraction, complex knowledge storage and high-dimensional information processing. It could generate scientific hypotheses and experimental schemes, and employ predictive models and optimization algorithms to drive an automated experimental platform for experiments. It turns out that our system demonstrates capabilities for efficient validation, continuous learning, and iterative optimization."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MatPilot: an LLM-enabled AI Materials Scientist under the..."
+    ],
+    "twitter:description": [
+      "The rapid evolution of artificial intelligence, particularly large language models, presents unprecedented opportunities for materials science research. We proposed and developed an AI materials..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration"
+    ],
+    "citation_author": [
+      "Ni, Ziqi",
+      "Li, Yahao",
+      "Hu, Kaijia",
+      "Han, Kunyuan",
+      "Xu, Ming",
+      "Chen, Xingyu",
+      "Liu, Fengqi",
+      "Ye, Yicong",
+      "Bai, Shuxin"
+    ],
+    "citation_date": [
+      "2024/11/10"
+    ],
+    "citation_online_date": [
+      "2024/11/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.08063"
+    ],
+    "citation_arxiv_id": [
+      "2411.08063"
+    ],
+    "citation_abstract": [
+      "The rapid evolution of artificial intelligence, particularly large language models, presents unprecedented opportunities for materials science research. We proposed and developed an AI materials scientist named MatPilot, which has shown encouraging abilities in the discovery of new materials. The core strength of MatPilot is its natural language interactive human-machine collaboration, which augments the research capabilities of human scientist teams through a multi-agent system. MatPilot integrates unique cognitive abilities, extensive accumulated experience, and ongoing curiosity of human-beings with the AI agents' capabilities of advanced abstraction, complex knowledge storage and high-dimensional information processing. It could generate scientific hypotheses and experimental schemes, and employ predictive models and optimization algorithms to drive an automated experimental platform for experiments. It turns out that our system demonstrates capabilities for efficient validation, continuous learning, and iterative optimization."
+    ]
+  },
+  "html_sha256": "fe736113bf7d54c1259fd8e61e6f69db32035361f476226508041e6ec370b0e6",
+  "evidence_html": "evidence/35d06eec863ddf898da5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

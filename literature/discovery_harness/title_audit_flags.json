@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.08264",
+    "hint": "Bonatti et al. Windows Agent Arena. arXiv:2409.08264.",
+    "title": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale",
+    "similarity": 0.404,
+    "candidate_file": "candidates_existing.jsonl",
+    "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1117dbd3497996a87ef3.json"
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.12045",
+    "hint": "Yao et al. τ-bench. arXiv:2406.12045.",
+    "title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "similarity": 0.225,
+    "candidate_file": "candidates_existing.jsonl",
+    "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9e1bf2cb709d465ff34c.json"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.03859",
+    "hint": "Yang et al. SWE-bench Multimodal. arXiv:2410.03859.",
+    "title": "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?",
+    "similarity": 0.412,
+    "candidate_file": "candidates_existing.jsonl",
+    "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f272499ae440e5046ffc.json"
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.14654",
+    "hint": "Medagentbench: Dataset for benchmarking llms as agents in medical applications",
+    "title": "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents",
+    "similarity": 0.547,
+    "candidate_file": "candidates_environment.jsonl",
+    "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8bf4e5d35aad3e8c62f7.json"
+  }
+]

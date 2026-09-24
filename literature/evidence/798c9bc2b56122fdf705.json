@@ -1,0 +1,96 @@
+{
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+  "discoveries": [
+    {
+      "url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+      "discovery_url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+      "topic": "基础：执行环境、配置与可复现性",
+      "title_hint": "Firecracker: Lightweight Virtualization for Serverless Applications",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:42.058818+00:00",
+  "http_status": 200,
+  "opened_url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 36698,
+  "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+  "authors": [
+    "Alexandru Agache",
+    "Marc Brooker",
+    "Andreea Florescu",
+    "Alexandra Iordache",
+    "Anthony Liguori",
+    "Rolf Neugebauer",
+    "Phil Piwonka",
+    "Diana-Maria Popa"
+  ],
+  "first_author": "Alexandru Agache",
+  "year": 2020,
+  "source_date": "2020",
+  "venue_from_source": "17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "citation_title": [
+      "Firecracker: Lightweight Virtualization for Serverless Applications"
+    ],
+    "citation_author": [
+      "Alexandru Agache",
+      "Marc Brooker",
+      "Alexandra Iordache",
+      "Anthony Liguori",
+      "Rolf Neugebauer",
+      "Phil Piwonka",
+      "Diana-Maria Popa"
+    ],
+    "citation_author_institution": [
+      "Amazon Web Services",
+      "Amazon Web Services",
+      "Amazon Web Services",
+      "Amazon Web Services",
+      "Amazon Web Services",
+      "Amazon Web Services",
+      "Amazon Web Services"
+    ],
+    "citation_author_email": [
+      "aagch@amazon.com",
+      "mbrooker@amazon.com",
+      "aghecen@amazon.com",
+      "aliguori@amazon.com",
+      "neugebar@amazon.com",
+      "piwonka@amazon.com",
+      "dpopa@amazon.com"
+    ],
+    "citation_publication_date": [
+      "2020"
+    ],
+    "citation_conference_title": [
+      "17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20)"
+    ],
+    "citation_firstpage": [
+      "419"
+    ],
+    "citation_lastpage": [
+      "434"
+    ],
+    "citation_isbn": [
+      "978-1-939133-13-7"
+    ],
+    "citation_pdf_url": [
+      "https://www.usenix.org/system/files/nsdi20-paper-agache.pdf"
+    ]
+  },
+  "html_sha256": "345b35d7cc74b6140b3f2795b43ff548d3018256802c4099007debbd8b954efc",
+  "evidence_html": "evidence/798c9bc2b56122fdf705.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "metadata_correction_note": "Visible author byline includes Andreea Florescu, omitted by this source page citation_author/BibTeX metadata; use visible byline confirmed in the original PDF header."
+}

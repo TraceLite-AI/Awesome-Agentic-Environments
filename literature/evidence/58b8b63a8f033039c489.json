@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=oKn9c6ytLx",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=oKn9c6ytLx",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Webarena: A realistic web environment for building autonomous agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=oKn9c6ytLx",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:22.587902+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DoKn9c6ytLx",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "7dcd254ebde7e5532b11787786309dfa5cf047fc4fb7950daa5f3ba8e3fa1bf5",
+  "evidence_html": "evidence/58b8b63a8f033039c489.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

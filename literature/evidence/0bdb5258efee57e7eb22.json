@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2501.04575",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.04575",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.04575",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:12.847411+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.04575",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42086,
+  "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+  "authors": [
+    "Liu, Yuhang",
+    "Li, Pengxiang",
+    "Wei, Zishu",
+    "Xie, Congkai",
+    "Hu, Xueyu",
+    "Xu, Xinchen",
+    "Zhang, Shengyu",
+    "Han, Xiaotian",
+    "Yang, Hongxia",
+    "Wu, Fei"
+  ],
+  "first_author": "Liu, Yuhang",
+  "year": 2025,
+  "source_date": "2025/01/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.04575",
+  "abstract": "Graphical User Interface (GUI) Agents, powered by multimodal large language models (MLLMs), have shown great potential for task automation on computing devices such as computers and mobile phones. However, existing agents face challenges in multi-step reasoning and reliance on textual annotations, limiting their effectiveness. We introduce \\textit{InfiGUIAgent}, an MLLM-based GUI Agent trained with a two-stage supervised fine-tuning pipeline. Stage 1 enhances fundamental skills such as GUI understanding and grounding, while Stage 2 integrates hierarchical reasoning and expectation-reflection reasoning skills using synthesized data to enable native reasoning abilities of the agents. \\textit{InfiGUIAgent} achieves competitive performance on several GUI benchmarks, highlighting the impact of native reasoning skills in enhancing GUI interaction for automation tasks. Resources are available at \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.04575: InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.04575v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Graphical User Interface (GUI) Agents, powered by multimodal large language models (MLLMs), have shown great potential for task automation on computing devices such as computers and mobile phones. However, existing agents face challenges in multi-step reasoning and reliance on textual annotations, limiting their effectiveness. We introduce \\textit{InfiGUIAgent}, an MLLM-based GUI Agent trained with a two-stage supervised fine-tuning pipeline. Stage 1 enhances fundamental skills such as GUI understanding and grounding, while Stage 2 integrates hierarchical reasoning and expectation-reflection reasoning skills using synthesized data to enable native reasoning abilities of the agents. \\textit{InfiGUIAgent} achieves competitive performance on several GUI benchmarks, highlighting the impact of native reasoning skills in enhancing GUI interaction for automation tasks. Resources are available at \\url{https://github.com/Reallm-Labs/InfiGUIAgent}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native..."
+    ],
+    "twitter:description": [
+      "Graphical User Interface (GUI) Agents, powered by multimodal large language models (MLLMs), have shown great potential for task automation on computing devices such as computers and mobile phones...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection"
+    ],
+    "citation_author": [
+      "Liu, Yuhang",
+      "Li, Pengxiang",
+      "Wei, Zishu",
+      "Xie, Congkai",
+      "Hu, Xueyu",
+      "Xu, Xinchen",
+      "Zhang, Shengyu",
+      "Han, Xiaotian",
+      "Yang, Hongxia",
+      "Wu, Fei"
+    ],
+    "citation_date": [
+      "2025/01/08"
+    ],
+    "citation_online_date": [
+      "2025/01/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.04575"
+    ],
+    "citation_arxiv_id": [
+      "2501.04575"
+    ],
+    "citation_abstract": [
+      "Graphical User Interface (GUI) Agents, powered by multimodal large language models (MLLMs), have shown great potential for task automation on computing devices such as computers and mobile phones. However, existing agents face challenges in multi-step reasoning and reliance on textual annotations, limiting their effectiveness. We introduce \\textit{InfiGUIAgent}, an MLLM-based GUI Agent trained with a two-stage supervised fine-tuning pipeline. Stage 1 enhances fundamental skills such as GUI understanding and grounding, while Stage 2 integrates hierarchical reasoning and expectation-reflection reasoning skills using synthesized data to enable native reasoning abilities of the agents. \\textit{InfiGUIAgent} achieves competitive performance on several GUI benchmarks, highlighting the impact of native reasoning skills in enhancing GUI interaction for automation tasks. Resources are available at \\url{https://github.com/Reallm-Labs/InfiGUIAgent}."
+    ]
+  },
+  "html_sha256": "f3ee9c75bd5bf841c7e61b45234018ba6ac9e984305a2d16d5cebc222ededff1",
+  "evidence_html": "evidence/0bdb5258efee57e7eb22.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

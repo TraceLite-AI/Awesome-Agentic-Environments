@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2602.02084",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.02084",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Closing the Loop: Universal Repository Representation with RPG-Encoder",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.02084",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:29.938583+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.02084",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43690,
+  "title": "Closing the Loop: Universal Repository Representation with RPG-Encoder",
+  "authors": [
+    "Luo, Jane",
+    "Yin, Chengyu",
+    "Zhang, Xin",
+    "Li, Qingtao",
+    "Liu, Steven",
+    "Huang, Yiming",
+    "Wu, Jie",
+    "Liu, Hao",
+    "Huang, Yangyu",
+    "Kang, Yu",
+    "Yang, Fangkai",
+    "Xin, Ying",
+    "Li, Scarlett"
+  ],
+  "first_author": "Luo, Jane",
+  "year": 2026,
+  "source_date": "2026/02/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.02084",
+  "abstract": "Current repository agents encounter a reasoning disconnect due to fragmented representations, as existing methods rely on isolated API documentation or dependency graphs that lack semantic depth. We consider repository comprehension and generation to be inverse processes within a unified cycle: generation expands intent into implementation, while comprehension compresses implementation back into intent. To address this, we propose RPG-Encoder, a framework that generalizes the Repository Planning Graph (RPG) from a static generative blueprint into a unified, high-fidelity representation. RPG-Encoder closes the reasoning loop through three mechanisms: (1) Encoding raw code into the RPG that combines lifted semantic features with code dependencies; (2) Evolving the topology incrementally to decouple maintenance costs from repository scale, reducing overhead by 95.7%; and (3) Operating as a unified interface for structure-aware navigation. In evaluations, RPG-Encoder establishes state-of-the-art localization performance on SWE-bench Verified with 93.7% Acc@5 and exceeds the best baseline by over 10% in localization accuracy on SWE-bench Live Lite. These results highlight our superior fine-grained precision in complex codebases. Furthermore, it achieves 98.5% reconstruction coverage on RepoCraft, confirming RPG's high-fidelity capacity to mirror the original codebase and closing the loop between intent and implementation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.02084: Closing the Loop: Universal Repository Representation with RPG-Encoder"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Closing the Loop: Universal Repository Representation with RPG-Encoder"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.02084v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Current repository agents encounter a reasoning disconnect due to fragmented representations, as existing methods rely on isolated API documentation or dependency graphs that lack semantic depth. We consider repository comprehension and generation to be inverse processes within a unified cycle: generation expands intent into implementation, while comprehension compresses implementation back into intent. To address this, we propose RPG-Encoder, a framework that generalizes the Repository Planning Graph (RPG) from a static generative blueprint into a unified, high-fidelity representation. RPG-Encoder closes the reasoning loop through three mechanisms: (1) Encoding raw code into the RPG that combines lifted semantic features with code dependencies; (2) Evolving the topology incrementally to decouple maintenance costs from repository scale, reducing overhead by 95.7%; and (3) Operating as a unified interface for structure-aware navigation. In evaluations, RPG-Encoder establishes state-of-the-art localization performance on SWE-bench Verified with 93.7% Acc@5 and exceeds the best baseline by over 10% in localization accuracy on SWE-bench Live Lite. These results highlight our superior fine-grained precision in complex codebases. Furthermore, it achieves 98.5% reconstruction coverage on RepoCraft, confirming RPG's high-fidelity capacity to mirror the original codebase and closing the loop between intent and implementation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Closing the Loop: Universal Repository Representation with RPG-Encoder"
+    ],
+    "twitter:description": [
+      "Current repository agents encounter a reasoning disconnect due to fragmented representations, as existing methods rely on isolated API documentation or dependency graphs that lack semantic depth...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Closing the Loop: Universal Repository Representation with RPG-Encoder"
+    ],
+    "citation_author": [
+      "Luo, Jane",
+      "Yin, Chengyu",
+      "Zhang, Xin",
+      "Li, Qingtao",
+      "Liu, Steven",
+      "Huang, Yiming",
+      "Wu, Jie",
+      "Liu, Hao",
+      "Huang, Yangyu",
+      "Kang, Yu",
+      "Yang, Fangkai",
+      "Xin, Ying",
+      "Li, Scarlett"
+    ],
+    "citation_date": [
+      "2026/02/02"
+    ],
+    "citation_online_date": [
+      "2026/02/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.02084"
+    ],
+    "citation_arxiv_id": [
+      "2602.02084"
+    ],
+    "citation_abstract": [
+      "Current repository agents encounter a reasoning disconnect due to fragmented representations, as existing methods rely on isolated API documentation or dependency graphs that lack semantic depth. We consider repository comprehension and generation to be inverse processes within a unified cycle: generation expands intent into implementation, while comprehension compresses implementation back into intent. To address this, we propose RPG-Encoder, a framework that generalizes the Repository Planning Graph (RPG) from a static generative blueprint into a unified, high-fidelity representation. RPG-Encoder closes the reasoning loop through three mechanisms: (1) Encoding raw code into the RPG that combines lifted semantic features with code dependencies; (2) Evolving the topology incrementally to decouple maintenance costs from repository scale, reducing overhead by 95.7%; and (3) Operating as a unified interface for structure-aware navigation. In evaluations, RPG-Encoder establishes state-of-the-art localization performance on SWE-bench Verified with 93.7% Acc@5 and exceeds the best baseline by over 10% in localization accuracy on SWE-bench Live Lite. These results highlight our superior fine-grained precision in complex codebases. Furthermore, it achieves 98.5% reconstruction coverage on RepoCraft, confirming RPG's high-fidelity capacity to mirror the original codebase and closing the loop between intent and implementation."
+    ]
+  },
+  "html_sha256": "5b3261f8cd27b67629cfe8f7208b3aab86fb41f44292c9286377f8e7790e71a1",
+  "evidence_html": "evidence/9359d97485c20a3c0c86.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

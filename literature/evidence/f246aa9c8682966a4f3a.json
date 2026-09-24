@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2406.09455",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.09455",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Pandora: Towards general world model with natural language actions and video states",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.09455",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:40.788711+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.09455",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43544,
+  "title": "Pandora: Towards General World Model with Natural Language Actions and Video States",
+  "authors": [
+    "Xiang, Jiannan",
+    "Liu, Guangyi",
+    "Gu, Yi",
+    "Gao, Qiyue",
+    "Ning, Yuting",
+    "Zha, Yuheng",
+    "Feng, Zeyu",
+    "Tao, Tianhua",
+    "Hao, Shibo",
+    "Shi, Yemin",
+    "Liu, Zhengzhong",
+    "Xing, Eric P.",
+    "Hu, Zhiting"
+  ],
+  "first_author": "Xiang, Jiannan",
+  "year": 2024,
+  "source_date": "2024/06/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.09455",
+  "abstract": "World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation models do not fully meet the capabilities of general world models: large language models (LLMs) are constrained by their reliance on language modality and their limited understanding of the physical world, while video models lack interactive action control over the world simulations. This paper makes a step towards building a general world model by introducing Pandora, a hybrid autoregressive-diffusion model that simulates world states by generating videos and allows real-time control with free-text actions. Pandora achieves domain generality, video consistency, and controllability through large-scale pretraining and instruction tuning. Crucially, Pandora bypasses the cost of training-from-scratch by integrating a pretrained LLM (7B) and a pretrained video model, requiring only additional lightweight finetuning. We illustrate extensive outputs by Pandora across diverse domains (indoor/outdoor, natural/urban, human/robot, 2D/3D, etc.). The results indicate great potential of building stronger general world models with larger-scale training.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.09455: Pandora: Towards General World Model with Natural Language Actions and Video States"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Pandora: Towards General World Model with Natural Language Actions and Video States"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.09455v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation models do not fully meet the capabilities of general world models: large language models (LLMs) are constrained by their reliance on language modality and their limited understanding of the physical world, while video models lack interactive action control over the world simulations. This paper makes a step towards building a general world model by introducing Pandora, a hybrid autoregressive-diffusion model that simulates world states by generating videos and allows real-time control with free-text actions. Pandora achieves domain generality, video consistency, and controllability through large-scale pretraining and instruction tuning. Crucially, Pandora bypasses the cost of training-from-scratch by integrating a pretrained LLM (7B) and a pretrained video model, requiring only additional lightweight finetuning. We illustrate extensive outputs by Pandora across diverse domains (indoor/outdoor, natural/urban, human/robot, 2D/3D, etc.). The results indicate great potential of building stronger general world models with larger-scale training."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Pandora: Towards General World Model with Natural Language Actions..."
+    ],
+    "twitter:description": [
+      "World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Pandora: Towards General World Model with Natural Language Actions and Video States"
+    ],
+    "citation_author": [
+      "Xiang, Jiannan",
+      "Liu, Guangyi",
+      "Gu, Yi",
+      "Gao, Qiyue",
+      "Ning, Yuting",
+      "Zha, Yuheng",
+      "Feng, Zeyu",
+      "Tao, Tianhua",
+      "Hao, Shibo",
+      "Shi, Yemin",
+      "Liu, Zhengzhong",
+      "Xing, Eric P.",
+      "Hu, Zhiting"
+    ],
+    "citation_date": [
+      "2024/06/12"
+    ],
+    "citation_online_date": [
+      "2024/06/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.09455"
+    ],
+    "citation_arxiv_id": [
+      "2406.09455"
+    ],
+    "citation_abstract": [
+      "World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation models do not fully meet the capabilities of general world models: large language models (LLMs) are constrained by their reliance on language modality and their limited understanding of the physical world, while video models lack interactive action control over the world simulations. This paper makes a step towards building a general world model by introducing Pandora, a hybrid autoregressive-diffusion model that simulates world states by generating videos and allows real-time control with free-text actions. Pandora achieves domain generality, video consistency, and controllability through large-scale pretraining and instruction tuning. Crucially, Pandora bypasses the cost of training-from-scratch by integrating a pretrained LLM (7B) and a pretrained video model, requiring only additional lightweight finetuning. We illustrate extensive outputs by Pandora across diverse domains (indoor/outdoor, natural/urban, human/robot, 2D/3D, etc.). The results indicate great potential of building stronger general world models with larger-scale training."
+    ]
+  },
+  "html_sha256": "2cc61bdb1f096d77e93291ed912f743e4057988203497ca42a577d426da48dc8",
+  "evidence_html": "evidence/f246aa9c8682966a4f3a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

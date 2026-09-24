@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2301.08025",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2301.08025",
+      "topic": "无监督环境设计",
+      "discovery_url": "https://arxiv.org/abs/2301.08025",
+      "title_hint": "",
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2301.08025",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:28.081366+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2301.08025",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42179,
+  "title": "Generalization through Diversity: Improving Unsupervised Environment Design",
+  "authors": [
+    "Li, Wenjun",
+    "Varakantham, Pradeep",
+    "Li, Dexun"
+  ],
+  "first_author": "Li, Wenjun",
+  "year": 2023,
+  "source_date": "2023/01/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "2023; Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI-23); Page 5411-5419,",
+  "doi": "",
+  "arxiv_id": "2301.08025",
+  "abstract": "Agent decision making using Reinforcement Learning (RL) heavily relies on either a model or simulator of the environment (e.g., moving in an 8x8 maze with three rooms, playing Chess on an 8x8 board). Due to this dependence, small changes in the environment (e.g., positions of obstacles in the maze, size of the board) can severely affect the effectiveness of the policy learned by the agent. To that end, existing work has proposed training RL agents on an adaptive curriculum of environments (generated automatically) to improve performance on out-of-distribution (OOD) test scenarios. Specifically, existing research has employed the potential for the agent to learn in an environment (captured using Generalized Advantage Estimation, GAE) as the key factor to select the next environment(s) to train the agent. However, such a mechanism can select similar environments (with a high potential to learn) thereby making agent training redundant on all but one of those environments. To that end, we provide a principled approach to adaptively identify diverse environments based on a novel distance measure relevant to environment design. We empirically demonstrate the versatility and effectiveness of our method in comparison to multiple leading approaches for unsupervised environment design on three distinct benchmark problems used in literature.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2301.08025: Generalization through Diversity: Improving Unsupervised Environment Design"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Generalization through Diversity: Improving Unsupervised Environment Design"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2301.08025v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agent decision making using Reinforcement Learning (RL) heavily relies on either a model or simulator of the environment (e.g., moving in an 8x8 maze with three rooms, playing Chess on an 8x8 board). Due to this dependence, small changes in the environment (e.g., positions of obstacles in the maze, size of the board) can severely affect the effectiveness of the policy learned by the agent. To that end, existing work has proposed training RL agents on an adaptive curriculum of environments (generated automatically) to improve performance on out-of-distribution (OOD) test scenarios. Specifically, existing research has employed the potential for the agent to learn in an environment (captured using Generalized Advantage Estimation, GAE) as the key factor to select the next environment(s) to train the agent. However, such a mechanism can select similar environments (with a high potential to learn) thereby making agent training redundant on all but one of those environments. To that end, we provide a principled approach to adaptively identify diverse environments based on a novel distance measure relevant to environment design. We empirically demonstrate the versatility and effectiveness of our method in comparison to multiple leading approaches for unsupervised environment design on three distinct benchmark problems used in literature."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Generalization through Diversity: Improving Unsupervised Environment Design"
+    ],
+    "twitter:description": [
+      "Agent decision making using Reinforcement Learning (RL) heavily relies on either a model or simulator of the environment (e.g., moving in an 8x8 maze with three rooms, playing Chess on an 8x8..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Generalization through Diversity: Improving Unsupervised Environment Design"
+    ],
+    "citation_author": [
+      "Li, Wenjun",
+      "Varakantham, Pradeep",
+      "Li, Dexun"
+    ],
+    "citation_date": [
+      "2023/01/19"
+    ],
+    "citation_online_date": [
+      "2023/09/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2301.08025"
+    ],
+    "citation_arxiv_id": [
+      "2301.08025"
+    ],
+    "citation_abstract": [
+      "Agent decision making using Reinforcement Learning (RL) heavily relies on either a model or simulator of the environment (e.g., moving in an 8x8 maze with three rooms, playing Chess on an 8x8 board). Due to this dependence, small changes in the environment (e.g., positions of obstacles in the maze, size of the board) can severely affect the effectiveness of the policy learned by the agent. To that end, existing work has proposed training RL agents on an adaptive curriculum of environments (generated automatically) to improve performance on out-of-distribution (OOD) test scenarios. Specifically, existing research has employed the potential for the agent to learn in an environment (captured using Generalized Advantage Estimation, GAE) as the key factor to select the next environment(s) to train the agent. However, such a mechanism can select similar environments (with a high potential to learn) thereby making agent training redundant on all but one of those environments. To that end, we provide a principled approach to adaptively identify diverse environments based on a novel distance measure relevant to environment design. We empirically demonstrate the versatility and effectiveness of our method in comparison to multiple leading approaches for unsupervised environment design on three distinct benchmark problems used in literature."
+    ]
+  },
+  "html_sha256": "4deea830e5bde30c4f47c257df4f56a8ae13c3c9a660eb344dec1d3e7994a2a9",
+  "evidence_html": "evidence/e652f8d820e0984f743a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2502.04780",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.04780",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.04780",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:07.150111+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.04780",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41000,
+  "title": "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning",
+  "authors": [
+    "Zhao, Wanjia",
+    "Yuksekgonul, Mert",
+    "Wu, Shirley",
+    "Zou, James"
+  ],
+  "first_author": "Zhao, Wanjia",
+  "year": 2025,
+  "source_date": "2025/02/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2502.04780",
+  "abstract": "Multi-agent AI systems powered by large language models (LLMs) are increasingly applied to solve complex tasks. However, these systems often rely on fragile, manually designed prompts and heuristics, making optimization difficult. A key challenge in optimizing multi-agent systems is acquiring suitable training data for specialized agents. We introduce SiriuS, a self-improving, reasoning-driven optimization framework for multi-agent systems. Central to our approach is the construction of an experience library: a repository of high-quality reasoning trajectories. The library is built by retaining reasoning steps that lead to successful outcomes, providing a robust training set for optimizing multi-agent system. Additionally, we introduce a library augmentation procedure that refines unsuccessful trajectories, further enriching the library. SiriuS boosts performance by 2.86\\% to 21.88\\% on reasoning and biomedical QA and enhances agent negotiation in competitive settings. Our results show that SiriuS enhances multi-agent performance while generating reusable data for self-correction and self-play enhancement in the future.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.04780: SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.04780v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Multi-agent AI systems powered by large language models (LLMs) are increasingly applied to solve complex tasks. However, these systems often rely on fragile, manually designed prompts and heuristics, making optimization difficult. A key challenge in optimizing multi-agent systems is acquiring suitable training data for specialized agents. We introduce SiriuS, a self-improving, reasoning-driven optimization framework for multi-agent systems. Central to our approach is the construction of an experience library: a repository of high-quality reasoning trajectories. The library is built by retaining reasoning steps that lead to successful outcomes, providing a robust training set for optimizing multi-agent system. Additionally, we introduce a library augmentation procedure that refines unsuccessful trajectories, further enriching the library. SiriuS boosts performance by 2.86\\% to 21.88\\% on reasoning and biomedical QA and enhances agent negotiation in competitive settings. Our results show that SiriuS enhances multi-agent performance while generating reusable data for self-correction and self-play enhancement in the future."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning"
+    ],
+    "twitter:description": [
+      "Multi-agent AI systems powered by large language models (LLMs) are increasingly applied to solve complex tasks. However, these systems often rely on fragile, manually designed prompts and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning"
+    ],
+    "citation_author": [
+      "Zhao, Wanjia",
+      "Yuksekgonul, Mert",
+      "Wu, Shirley",
+      "Zou, James"
+    ],
+    "citation_date": [
+      "2025/02/07"
+    ],
+    "citation_online_date": [
+      "2025/02/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.04780"
+    ],
+    "citation_arxiv_id": [
+      "2502.04780"
+    ],
+    "citation_abstract": [
+      "Multi-agent AI systems powered by large language models (LLMs) are increasingly applied to solve complex tasks. However, these systems often rely on fragile, manually designed prompts and heuristics, making optimization difficult. A key challenge in optimizing multi-agent systems is acquiring suitable training data for specialized agents. We introduce SiriuS, a self-improving, reasoning-driven optimization framework for multi-agent systems. Central to our approach is the construction of an experience library: a repository of high-quality reasoning trajectories. The library is built by retaining reasoning steps that lead to successful outcomes, providing a robust training set for optimizing multi-agent system. Additionally, we introduce a library augmentation procedure that refines unsuccessful trajectories, further enriching the library. SiriuS boosts performance by 2.86\\% to 21.88\\% on reasoning and biomedical QA and enhances agent negotiation in competitive settings. Our results show that SiriuS enhances multi-agent performance while generating reusable data for self-correction and self-play enhancement in the future."
+    ]
+  },
+  "html_sha256": "9ee50a0cc4466271f8c16226e4c3b4f20c18f5361dce8133669b4b8e40c14e76",
+  "evidence_html": "evidence/f6403491e0747d333ae0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

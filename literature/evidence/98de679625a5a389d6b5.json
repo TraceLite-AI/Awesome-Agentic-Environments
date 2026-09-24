@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2507.04227",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.04227",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "Mobile GUI Agents under Real-world Threats: Are We There Yet?",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.04227",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:45.203029+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.04227",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45569,
+  "title": "Mobile GUI Agents under Real-world Threats: Are We There Yet?",
+  "authors": [
+    "Liu, Guohong",
+    "Ye, Jialei",
+    "Liu, Jiacheng",
+    "Li, Yuanchun",
+    "Liu, Wei",
+    "Gao, Pengzhi",
+    "Luan, Jian",
+    "Liu, Yunxin"
+  ],
+  "first_author": "Liu, Guohong",
+  "year": 2025,
+  "source_date": "2025/07/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1145/3745756.3809249",
+  "arxiv_id": "2507.04227",
+  "abstract": "Recent years have witnessed a rapid development of mobile GUI agents powered by large language models (LLMs), which can autonomously execute diverse device-control tasks based on natural language instructions. The increasing accuracy of these agents on standard benchmarks has raised expectations for large-scale real-world deployment, and there are already several commercial agents released and used by early adopters. However, are we really ready for GUI agents integrated into our daily devices as system building blocks? We argue that an important pre-deployment validation is missing to examine whether the agents can maintain their performance under real-world threats. Specifically, unlike existing common benchmarks that are based on simple static app contents (they have to do so to ensure environment consistency between different tests), real-world apps are filled with contents from untrustworthy third parties, such as advertisement emails, user-generated posts and medias, etc. ... To this end, we introduce a scalable app content instrumentation framework to enable flexible and targeted content modifications within existing applications. Leveraging this framework, we create a test suite comprising both a dynamic task execution environment and a static dataset of challenging GUI states. The dynamic environment encompasses 122 reproducible tasks, and the static dataset consists of over 3,000 scenarios constructed from commercial apps. We perform experiments on both open-source and commercial GUI agents. Our findings reveal that all examined agents can be significantly degraded due to third-party contents, with an average misleading rate of 42.0% and 36.1% in dynamic and static environments respectively. The framework and benchmark has been released at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.04227: Mobile GUI Agents under Real-world Threats: Are We There Yet?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Mobile GUI Agents under Real-world Threats: Are We There Yet?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.04227v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent years have witnessed a rapid development of mobile GUI agents powered by large language models (LLMs), which can autonomously execute diverse device-control tasks based on natural language instructions. The increasing accuracy of these agents on standard benchmarks has raised expectations for large-scale real-world deployment, and there are already several commercial agents released and used by early adopters. However, are we really ready for GUI agents integrated into our daily devices as system building blocks? We argue that an important pre-deployment validation is missing to examine whether the agents can maintain their performance under real-world threats. Specifically, unlike existing common benchmarks that are based on simple static app contents (they have to do so to ensure environment consistency between different tests), real-world apps are filled with contents from untrustworthy third parties, such as advertisement emails, user-generated posts and medias, etc. ... To this end, we introduce a scalable app content instrumentation framework to enable flexible and targeted content modifications within existing applications. Leveraging this framework, we create a test suite comprising both a dynamic task execution environment and a static dataset of challenging GUI states. The dynamic environment encompasses 122 reproducible tasks, and the static dataset consists of over 3,000 scenarios constructed from commercial apps. We perform experiments on both open-source and commercial GUI agents. Our findings reveal that all examined agents can be significantly degraded due to third-party contents, with an average misleading rate of 42.0% and 36.1% in dynamic and static environments respectively. The framework and benchmark has been released at https://agenthazard.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Mobile GUI Agents under Real-world Threats: Are We There Yet?"
+    ],
+    "twitter:description": [
+      "Recent years have witnessed a rapid development of mobile GUI agents powered by large language models (LLMs), which can autonomously execute diverse device-control tasks based on natural language..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Mobile GUI Agents under Real-world Threats: Are We There Yet?"
+    ],
+    "citation_author": [
+      "Liu, Guohong",
+      "Ye, Jialei",
+      "Liu, Jiacheng",
+      "Li, Yuanchun",
+      "Liu, Wei",
+      "Gao, Pengzhi",
+      "Luan, Jian",
+      "Liu, Yunxin"
+    ],
+    "citation_doi": [
+      "10.1145/3745756.3809249"
+    ],
+    "citation_date": [
+      "2025/07/06"
+    ],
+    "citation_online_date": [
+      "2026/04/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.04227"
+    ],
+    "citation_arxiv_id": [
+      "2507.04227"
+    ],
+    "citation_abstract": [
+      "Recent years have witnessed a rapid development of mobile GUI agents powered by large language models (LLMs), which can autonomously execute diverse device-control tasks based on natural language instructions. The increasing accuracy of these agents on standard benchmarks has raised expectations for large-scale real-world deployment, and there are already several commercial agents released and used by early adopters. However, are we really ready for GUI agents integrated into our daily devices as system building blocks? We argue that an important pre-deployment validation is missing to examine whether the agents can maintain their performance under real-world threats. Specifically, unlike existing common benchmarks that are based on simple static app contents (they have to do so to ensure environment consistency between different tests), real-world apps are filled with contents from untrustworthy third parties, such as advertisement emails, user-generated posts and medias, etc. ... To this end, we introduce a scalable app content instrumentation framework to enable flexible and targeted content modifications within existing applications. Leveraging this framework, we create a test suite comprising both a dynamic task execution environment and a static dataset of challenging GUI states. The dynamic environment encompasses 122 reproducible tasks, and the static dataset consists of over 3,000 scenarios constructed from commercial apps. We perform experiments on both open-source and commercial GUI agents. Our findings reveal that all examined agents can be significantly degraded due to third-party contents, with an average misleading rate of 42.0% and 36.1% in dynamic and static environments respectively. The framework and benchmark has been released at https://agenthazard.github.io."
+    ]
+  },
+  "html_sha256": "000b3a82666f309414cb3248a2d7be5dc60edde90fbca60bdcbcaa65d8b64204",
+  "evidence_html": "evidence/98de679625a5a389d6b5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Diffusion for world modeling: Visual details matter in atari",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:38.950052+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10026,
+  "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+  "authors": [
+    "Alonso, Eloi",
+    "Jelley, Adam",
+    "Micheli, Vincent",
+    "Kanervisto, Anssi",
+    "Storkey, Amos",
+    "Pearce, Tim",
+    "Fleuret, François"
+  ],
+  "first_author": "Alonso, Eloi",
+  "year": 2024,
+  "source_date": "2024-12-16",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/079017-1873",
+  "arxiv_id": "",
+  "abstract": "World models constitute a promising approach for training reinforcement learning agents in a safe and sample-efficient manner. Recent world models predominantly operate on sequences of discrete latent variables to model environment dynamics. However, this compression into a compact discrete representation may ignore visual details that are important for reinforcement learning. Concurrently, diffusion models have become a dominant approach for image generation, challenging well-established methods modeling discrete latents. Motivated by this paradigm shift, we introduce DIAMOND (DIffusion As a Model Of eNvironment Dreams), a reinforcement learning agent trained in a diffusion world model. We analyze the key design choices that are required to make diffusion suitable for world modeling, and demonstrate how improved visual details can lead to improved agent performance. DIAMOND achieves a mean human normalized score of 1.46 on the competitive Atari 100k benchmark; a new best for agents trained entirely within a world model. We further demonstrate that DIAMOND's diffusion world model can stand alone as an interactive neural game engine by training on static Counter-Strike: Global Offensive gameplay. To foster future research on diffusion for world modeling, we release our code, agents, videos and playable world models at https://diamond-wm.github.io.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "Diffusion for World Modeling: Visual Details Matter in Atari"
+    ],
+    "citation_author": [
+      "Alonso, Eloi",
+      "Jelley, Adam",
+      "Micheli, Vincent",
+      "Kanervisto, Anssi",
+      "Storkey, Amos",
+      "Pearce, Tim",
+      "Fleuret, François"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-1873"
+    ],
+    "citation_firstpage": [
+      "58757"
+    ],
+    "citation_lastpage": [
+      "58791"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/6bdde0373d53d4a501249547084bed43-Paper-Conference.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "html_sha256": "80d3f69067c51423e36f3e424c0300747e098bf85f6e9dd7a6fa8729e1a24254",
+  "evidence_html": "evidence/38778ca2a95982755324.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

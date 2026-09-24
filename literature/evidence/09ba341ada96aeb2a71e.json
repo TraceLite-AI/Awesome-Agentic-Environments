@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2406.17949",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.17949",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "The overcooked generalisation challenge: Evaluating cooperation with novel partners in unknown environments using unsupervised environment design",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.17949",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:02.492281+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.17949",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44353,
+  "title": "The Overcooked Generalisation Challenge: Evaluating Cooperation with Novel Partners in Unknown Environments Using Unsupervised Environment Design",
+  "authors": [
+    "Ruhdorfer, Constantin",
+    "Bortoletto, Matteo",
+    "Penzkofer, Anna",
+    "Bulling, Andreas"
+  ],
+  "first_author": "Ruhdorfer, Constantin",
+  "year": 2024,
+  "source_date": "2024/06/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.17949",
+  "abstract": "We introduce the Overcooked Generalisation Challenge (OGC) - a new benchmark for evaluating reinforcement learning (RL) agents on their ability to cooperate with unknown partners in unfamiliar environments. Existing work typically evaluated cooperative RL only in their training environment or with their training partners, thus seriously limiting our ability to understand agents' generalisation capacity - an essential requirement for future collaboration with humans. The OGC extends Overcooked-AI to support dual curriculum design (DCD). It is fully GPU-accelerated, open-source, and integrated into the minimax DCD benchmark suite. Compared to prior DCD benchmarks, where designers manipulate only minimal elements of the environment, OGC introduces a significantly richer design space: full kitchen layouts with multiple objects that require the designer to account for interaction dynamics between agents. We evaluate state-of-the-art DCD algorithms alongside scalable neural architectures and find that current methods fail to produce agents that generalise effectively to novel layouts and unfamiliar partners. Our results indicate that both agents and curriculum designers struggle with the joint challenge of partner and environment generalisation. These findings establish OGC as a demanding testbed for cooperative generalisation and highlight key directions for future research. We open-source our code.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.17949: The Overcooked Generalisation Challenge: Evaluating Cooperation with Novel Partners in Unknown Environments Using Unsupervised Environment Design"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "The Overcooked Generalisation Challenge: Evaluating Cooperation with Novel Partners in Unknown Environments Using Unsupervised Environment Design"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.17949v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce the Overcooked Generalisation Challenge (OGC) - a new benchmark for evaluating reinforcement learning (RL) agents on their ability to cooperate with unknown partners in unfamiliar environments. Existing work typically evaluated cooperative RL only in their training environment or with their training partners, thus seriously limiting our ability to understand agents' generalisation capacity - an essential requirement for future collaboration with humans. The OGC extends Overcooked-AI to support dual curriculum design (DCD). It is fully GPU-accelerated, open-source, and integrated into the minimax DCD benchmark suite. Compared to prior DCD benchmarks, where designers manipulate only minimal elements of the environment, OGC introduces a significantly richer design space: full kitchen layouts with multiple objects that require the designer to account for interaction dynamics between agents. We evaluate state-of-the-art DCD algorithms alongside scalable neural architectures and find that current methods fail to produce agents that generalise effectively to novel layouts and unfamiliar partners. Our results indicate that both agents and curriculum designers struggle with the joint challenge of partner and environment generalisation. These findings establish OGC as a demanding testbed for cooperative generalisation and highlight key directions for future research. We open-source our code."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "The Overcooked Generalisation Challenge: Evaluating Cooperation..."
+    ],
+    "twitter:description": [
+      "We introduce the Overcooked Generalisation Challenge (OGC) - a new benchmark for evaluating reinforcement learning (RL) agents on their ability to cooperate with unknown partners in unfamiliar..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "The Overcooked Generalisation Challenge: Evaluating Cooperation with Novel Partners in Unknown Environments Using Unsupervised Environment Design"
+    ],
+    "citation_author": [
+      "Ruhdorfer, Constantin",
+      "Bortoletto, Matteo",
+      "Penzkofer, Anna",
+      "Bulling, Andreas"
+    ],
+    "citation_date": [
+      "2024/06/25"
+    ],
+    "citation_online_date": [
+      "2025/09/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.17949"
+    ],
+    "citation_arxiv_id": [
+      "2406.17949"
+    ],
+    "citation_abstract": [
+      "We introduce the Overcooked Generalisation Challenge (OGC) - a new benchmark for evaluating reinforcement learning (RL) agents on their ability to cooperate with unknown partners in unfamiliar environments. Existing work typically evaluated cooperative RL only in their training environment or with their training partners, thus seriously limiting our ability to understand agents' generalisation capacity - an essential requirement for future collaboration with humans. The OGC extends Overcooked-AI to support dual curriculum design (DCD). It is fully GPU-accelerated, open-source, and integrated into the minimax DCD benchmark suite. Compared to prior DCD benchmarks, where designers manipulate only minimal elements of the environment, OGC introduces a significantly richer design space: full kitchen layouts with multiple objects that require the designer to account for interaction dynamics between agents. We evaluate state-of-the-art DCD algorithms alongside scalable neural architectures and find that current methods fail to produce agents that generalise effectively to novel layouts and unfamiliar partners. Our results indicate that both agents and curriculum designers struggle with the joint challenge of partner and environment generalisation. These findings establish OGC as a demanding testbed for cooperative generalisation and highlight key directions for future research. We open-source our code."
+    ]
+  },
+  "html_sha256": "05b1301c9297f043fc5fb72ccf1ed4bb80bd03afc8e53e71368cfc5f3b015d2e",
+  "evidence_html": "evidence/09ba341ada96aeb2a71e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

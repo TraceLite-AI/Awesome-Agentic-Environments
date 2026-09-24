@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2202.04500",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2202.04500",
+      "discovery_url": "https://arxiv.org/abs/2202.04500",
+      "topic": "Contextual RL/environment variation",
+      "title_hint": "Contextualize Me -- The Case for Context in Reinforcement Learning",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.04500",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-80",
+      "topic": "Harness 综述与相关",
+      "title_hint": "Benjamins et al. Contextualize Me: The Case for Context in Reinforcement Learning. arXiv:2202.04500.",
+      "existing_reference_number": 80,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2202.04500",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:11.870722+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2202.04500",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43288,
+  "title": "Contextualize Me -- The Case for Context in Reinforcement Learning",
+  "authors": [
+    "Benjamins, Carolin",
+    "Eimer, Theresa",
+    "Schubert, Frederik",
+    "Mohan, Aditya",
+    "Döhler, Sebastian",
+    "Biedenkapp, André",
+    "Rosenhahn, Bodo",
+    "Hutter, Frank",
+    "Lindauer, Marius"
+  ],
+  "first_author": "Benjamins, Carolin",
+  "year": 2022,
+  "source_date": "2022/02/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2202.04500",
+  "abstract": "While Reinforcement Learning ( RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight environmental changes. Contextual Reinforcement Learning (cRL) provides a framework to model such changes in a principled manner, thereby enabling flexible, precise and interpretable task specification and generation. Our goal is to show how the framework of cRL contributes to improving zero-shot generalization in RL through meaningful benchmarks and structured reasoning about generalization tasks. We confirm the insight that optimal behavior in cRL requires context information, as in other related areas of partial observability. To empirically validate this in the cRL framework, we provide various context-extended versions of common RL environments. They are part of the first benchmark library, CARL, designed for generalization based on cRL extensions of popular benchmarks, which we propose as a testbed to further study general agents. We show that in the contextual setting, even simple RL environments become challenging - and that naive solutions are not enough to generalize across complex context spaces.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2202.04500: Contextualize Me -- The Case for Context in Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Contextualize Me -- The Case for Context in Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2202.04500v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "While Reinforcement Learning ( RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight environmental changes. Contextual Reinforcement Learning (cRL) provides a framework to model such changes in a principled manner, thereby enabling flexible, precise and interpretable task specification and generation. Our goal is to show how the framework of cRL contributes to improving zero-shot generalization in RL through meaningful benchmarks and structured reasoning about generalization tasks. We confirm the insight that optimal behavior in cRL requires context information, as in other related areas of partial observability. To empirically validate this in the cRL framework, we provide various context-extended versions of common RL environments. They are part of the first benchmark library, CARL, designed for generalization based on cRL extensions of popular benchmarks, which we propose as a testbed to further study general agents. We show that in the contextual setting, even simple RL environments become challenging - and that naive solutions are not enough to generalize across complex context spaces."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Contextualize Me -- The Case for Context in Reinforcement Learning"
+    ],
+    "twitter:description": [
+      "While Reinforcement Learning ( RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight environmental changes. Contextual..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Contextualize Me -- The Case for Context in Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Benjamins, Carolin",
+      "Eimer, Theresa",
+      "Schubert, Frederik",
+      "Mohan, Aditya",
+      "Döhler, Sebastian",
+      "Biedenkapp, André",
+      "Rosenhahn, Bodo",
+      "Hutter, Frank",
+      "Lindauer, Marius"
+    ],
+    "citation_date": [
+      "2022/02/09"
+    ],
+    "citation_online_date": [
+      "2023/06/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2202.04500"
+    ],
+    "citation_arxiv_id": [
+      "2202.04500"
+    ],
+    "citation_abstract": [
+      "While Reinforcement Learning ( RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight environmental changes. Contextual Reinforcement Learning (cRL) provides a framework to model such changes in a principled manner, thereby enabling flexible, precise and interpretable task specification and generation. Our goal is to show how the framework of cRL contributes to improving zero-shot generalization in RL through meaningful benchmarks and structured reasoning about generalization tasks. We confirm the insight that optimal behavior in cRL requires context information, as in other related areas of partial observability. To empirically validate this in the cRL framework, we provide various context-extended versions of common RL environments. They are part of the first benchmark library, CARL, designed for generalization based on cRL extensions of popular benchmarks, which we propose as a testbed to further study general agents. We show that in the contextual setting, even simple RL environments become challenging - and that naive solutions are not enough to generalize across complex context spaces."
+    ]
+  },
+  "html_sha256": "2e46e778184faffc7027694512624207950c7b0745048e2293462b86a880ab93",
+  "evidence_html": "evidence/f1711b4c9c7aecbb552f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

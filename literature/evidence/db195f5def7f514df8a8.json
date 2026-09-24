@@ -1,0 +1,154 @@
+{
+  "url": "https://arxiv.org/abs/2602.02361",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.02361",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Swe-universe: Scale real-world verifiable environments to millions",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.02361",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:36.812594+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.02361",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43323,
+  "title": "SWE-Universe: Scale Real-World Verifiable Environments to Millions",
+  "authors": [
+    "Chen, Mouxiang",
+    "Zhang, Lei",
+    "Feng, Yunlong",
+    "Wang, Xuwu",
+    "Zhao, Wenting",
+    "Cao, Ruisheng",
+    "Yang, Jiaxi",
+    "Chen, Jiawei",
+    "Li, Mingze",
+    "Ma, Zeyao",
+    "Ge, Hao",
+    "Zhang, Zongmeng",
+    "Cui, Zeyu",
+    "Liu, Dayiheng",
+    "Zhou, Jingren",
+    "Sun, Jianling",
+    "Lin, Junyang",
+    "Hui, Binyuan",
+    "Liu, Zhongxin"
+  ],
+  "first_author": "Chen, Mouxiang",
+  "year": 2026,
+  "source_date": "2026/02/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.02361",
+  "abstract": "We propose SWE-Universe, a scalable and efficient framework for automatically constructing real-world software engineering (SWE) verifiable environments from GitHub pull requests (PRs). To overcome the prevalent challenges of automatic building, such as low production yield, weak verifiers, and prohibitive cost, our framework utilizes a building agent powered by an efficient custom-trained model. This agent employs iterative self-verification and in-loop hacking detection to ensure the reliable generation of high-fidelity, verifiable tasks. Using this method, we scale the number of real-world multilingual SWE environments to a million scale (807,693). We demonstrate the profound value of our environments through large-scale agentic mid-training and reinforcement learning. Finally, we applied this technique to Qwen3-Max-Thinking and achieved a score of 75.3% on SWE-Bench Verified. Our work provides both a critical resource and a robust methodology to advance the next generation of coding agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.02361: SWE-Universe: Scale Real-World Verifiable Environments to Millions"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SWE-Universe: Scale Real-World Verifiable Environments to Millions"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.02361v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We propose SWE-Universe, a scalable and efficient framework for automatically constructing real-world software engineering (SWE) verifiable environments from GitHub pull requests (PRs). To overcome the prevalent challenges of automatic building, such as low production yield, weak verifiers, and prohibitive cost, our framework utilizes a building agent powered by an efficient custom-trained model. This agent employs iterative self-verification and in-loop hacking detection to ensure the reliable generation of high-fidelity, verifiable tasks. Using this method, we scale the number of real-world multilingual SWE environments to a million scale (807,693). We demonstrate the profound value of our environments through large-scale agentic mid-training and reinforcement learning. Finally, we applied this technique to Qwen3-Max-Thinking and achieved a score of 75.3% on SWE-Bench Verified. Our work provides both a critical resource and a robust methodology to advance the next generation of coding agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SWE-Universe: Scale Real-World Verifiable Environments to Millions"
+    ],
+    "twitter:description": [
+      "We propose SWE-Universe, a scalable and efficient framework for automatically constructing real-world software engineering (SWE) verifiable environments from GitHub pull requests (PRs). To..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SWE-Universe: Scale Real-World Verifiable Environments to Millions"
+    ],
+    "citation_author": [
+      "Chen, Mouxiang",
+      "Zhang, Lei",
+      "Feng, Yunlong",
+      "Wang, Xuwu",
+      "Zhao, Wenting",
+      "Cao, Ruisheng",
+      "Yang, Jiaxi",
+      "Chen, Jiawei",
+      "Li, Mingze",
+      "Ma, Zeyao",
+      "Ge, Hao",
+      "Zhang, Zongmeng",
+      "Cui, Zeyu",
+      "Liu, Dayiheng",
+      "Zhou, Jingren",
+      "Sun, Jianling",
+      "Lin, Junyang",
+      "Hui, Binyuan",
+      "Liu, Zhongxin"
+    ],
+    "citation_date": [
+      "2026/02/02"
+    ],
+    "citation_online_date": [
+      "2026/09/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.02361"
+    ],
+    "citation_arxiv_id": [
+      "2602.02361"
+    ],
+    "citation_abstract": [
+      "We propose SWE-Universe, a scalable and efficient framework for automatically constructing real-world software engineering (SWE) verifiable environments from GitHub pull requests (PRs). To overcome the prevalent challenges of automatic building, such as low production yield, weak verifiers, and prohibitive cost, our framework utilizes a building agent powered by an efficient custom-trained model. This agent employs iterative self-verification and in-loop hacking detection to ensure the reliable generation of high-fidelity, verifiable tasks. Using this method, we scale the number of real-world multilingual SWE environments to a million scale (807,693). We demonstrate the profound value of our environments through large-scale agentic mid-training and reinforcement learning. Finally, we applied this technique to Qwen3-Max-Thinking and achieved a score of 75.3% on SWE-Bench Verified. Our work provides both a critical resource and a robust methodology to advance the next generation of coding agents."
+    ]
+  },
+  "html_sha256": "dcf4beed68c00873bbe3ff7b04a3f6c8ae325a4793bc9db8a7fd87e9e0cd8e5a",
+  "evidence_html": "evidence/db195f5def7f514df8a8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

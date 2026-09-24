@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2406.12045",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.12045",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "τ \\tau -bench: A benchmark for tool-agent-user interaction in real-world domains",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.12045",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-10",
+      "topic": "Agent benchmark",
+      "title_hint": "Yao et al. τ-bench. arXiv:2406.12045.",
+      "existing_reference_number": 10,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.12045",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:24.140588+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.12045",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40700,
+  "title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "authors": [
+    "Yao, Shunyu",
+    "Shinn, Noah",
+    "Razavi, Pedram",
+    "Narasimhan, Karthik"
+  ],
+  "first_author": "Yao, Shunyu",
+  "year": 2024,
+  "source_date": "2024/06/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.12045",
+  "abstract": "Existing benchmarks do not test language agents on their interaction with human users or ability to follow domain-specific rules, both of which are vital for deploying them in real world applications. We propose $\\tau$-bench, a benchmark emulating dynamic conversations between a user (simulated by language models) and a language agent provided with domain-specific API tools and policy guidelines. We employ an efficient and faithful evaluation process that compares the database state at the end of a conversation with the annotated goal state. We also propose a new metric (pass^k) to evaluate the reliability of agent behavior over multiple trials. Our experiments show that even state-of-the-art function calling agents (like gpt-4o) succeed on <50% of the tasks, and are quite inconsistent (pass^8 <25% in retail). Our findings point to the need for methods that can improve the ability of agents to act consistently and follow rules reliably.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.12045: $τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.12045v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Existing benchmarks do not test language agents on their interaction with human users or ability to follow domain-specific rules, both of which are vital for deploying them in real world applications. We propose $τ$-bench, a benchmark emulating dynamic conversations between a user (simulated by language models) and a language agent provided with domain-specific API tools and policy guidelines. We employ an efficient and faithful evaluation process that compares the database state at the end of a conversation with the annotated goal state. We also propose a new metric (pass^k) to evaluate the reliability of agent behavior over multiple trials. Our experiments show that even state-of-the-art function calling agents (like gpt-4o) succeed on <50% of the tasks, and are quite inconsistent (pass^8 <25% in retail). Our findings point to the need for methods that can improve the ability of agents to act consistently and follow rules reliably."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in..."
+    ],
+    "twitter:description": [
+      "Existing benchmarks do not test language agents on their interaction with human users or ability to follow domain-specific rules, both of which are vital for deploying them in real world..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+    ],
+    "citation_author": [
+      "Yao, Shunyu",
+      "Shinn, Noah",
+      "Razavi, Pedram",
+      "Narasimhan, Karthik"
+    ],
+    "citation_date": [
+      "2024/06/17"
+    ],
+    "citation_online_date": [
+      "2024/06/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.12045"
+    ],
+    "citation_arxiv_id": [
+      "2406.12045"
+    ],
+    "citation_abstract": [
+      "Existing benchmarks do not test language agents on their interaction with human users or ability to follow domain-specific rules, both of which are vital for deploying them in real world applications. We propose $\\tau$-bench, a benchmark emulating dynamic conversations between a user (simulated by language models) and a language agent provided with domain-specific API tools and policy guidelines. We employ an efficient and faithful evaluation process that compares the database state at the end of a conversation with the annotated goal state. We also propose a new metric (pass^k) to evaluate the reliability of agent behavior over multiple trials. Our experiments show that even state-of-the-art function calling agents (like gpt-4o) succeed on <50% of the tasks, and are quite inconsistent (pass^8 <25% in retail). Our findings point to the need for methods that can improve the ability of agents to act consistently and follow rules reliably."
+    ]
+  },
+  "html_sha256": "d82d45164e1bc9743a8d56201542a17d023b151d510f04aa024b6af25bd07ad3",
+  "evidence_html": "evidence/9e1bf2cb709d465ff34c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

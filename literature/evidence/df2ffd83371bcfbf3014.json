@@ -1,0 +1,143 @@
+{
+  "url": "https://arxiv.org/abs/2601.22859",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2601.22859",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Menvagent: Scalable polyglot environment construction for verifiable software engineering",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2601.22859",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:33.505873+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2601.22859",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43805,
+  "title": "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering",
+  "authors": [
+    "Guo, Chuanzhe",
+    "Wu, Jingjing",
+    "He, Sijun",
+    "Chen, Yang",
+    "Kuang, Zhaoqi",
+    "Fan, Shilong",
+    "Chen, Bingjin",
+    "Bao, Siqi",
+    "Liu, Jing",
+    "Wu, Hua",
+    "Zhu, Qingfu",
+    "Che, Wanxiang",
+    "Wang, Haifeng"
+  ],
+  "first_author": "Guo, Chuanzhe",
+  "year": 2026,
+  "source_date": "2026/01/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2601.22859",
+  "abstract": "The evolution of Large Language Model (LLM) agents for software engineering (SWE) is constrained by the scarcity of verifiable datasets, a bottleneck stemming from the complexity of constructing executable environments across diverse languages. To address this, we introduce MEnvAgent, a Multi-language framework for automated Environment construction that facilitates scalable generation of verifiable task instances. MEnvAgent employs a multi-agent Planning-Execution-Verification architecture to autonomously resolve construction failures and integrates a novel Environment Reuse Mechanism that reduces computational overhead by incrementally patching historical environments. Evaluations on MEnvBench, a new benchmark comprising 1,000 tasks across 10 languages, demonstrate that MEnvAgent outperforms baselines, improving Fail-to-Pass (F2P) rates by 8.6% while reducing time costs by 43%. Additionally, we demonstrate the utility of MEnvAgent by constructing MEnvData-SWE, the largest open-source polyglot dataset of realistic verifiable Docker environments to date, alongside solution trajectories that enable consistent performance gains on SWE tasks across a wide range of models. Our code, benchmark, and dataset are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2601.22859: MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2601.22859v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The evolution of Large Language Model (LLM) agents for software engineering (SWE) is constrained by the scarcity of verifiable datasets, a bottleneck stemming from the complexity of constructing executable environments across diverse languages. To address this, we introduce MEnvAgent, a Multi-language framework for automated Environment construction that facilitates scalable generation of verifiable task instances. MEnvAgent employs a multi-agent Planning-Execution-Verification architecture to autonomously resolve construction failures and integrates a novel Environment Reuse Mechanism that reduces computational overhead by incrementally patching historical environments. Evaluations on MEnvBench, a new benchmark comprising 1,000 tasks across 10 languages, demonstrate that MEnvAgent outperforms baselines, improving Fail-to-Pass (F2P) rates by 8.6% while reducing time costs by 43%. Additionally, we demonstrate the utility of MEnvAgent by constructing MEnvData-SWE, the largest open-source polyglot dataset of realistic verifiable Docker environments to date, alongside solution trajectories that enable consistent performance gains on SWE tasks across a wide range of models. Our code, benchmark, and dataset are available at https://github.com/ernie-research/MEnvAgent."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MEnvAgent: Scalable Polyglot Environment Construction for..."
+    ],
+    "twitter:description": [
+      "The evolution of Large Language Model (LLM) agents for software engineering (SWE) is constrained by the scarcity of verifiable datasets, a bottleneck stemming from the complexity of constructing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering"
+    ],
+    "citation_author": [
+      "Guo, Chuanzhe",
+      "Wu, Jingjing",
+      "He, Sijun",
+      "Chen, Yang",
+      "Kuang, Zhaoqi",
+      "Fan, Shilong",
+      "Chen, Bingjin",
+      "Bao, Siqi",
+      "Liu, Jing",
+      "Wu, Hua",
+      "Zhu, Qingfu",
+      "Che, Wanxiang",
+      "Wang, Haifeng"
+    ],
+    "citation_date": [
+      "2026/01/30"
+    ],
+    "citation_online_date": [
+      "2026/06/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2601.22859"
+    ],
+    "citation_arxiv_id": [
+      "2601.22859"
+    ],
+    "citation_abstract": [
+      "The evolution of Large Language Model (LLM) agents for software engineering (SWE) is constrained by the scarcity of verifiable datasets, a bottleneck stemming from the complexity of constructing executable environments across diverse languages. To address this, we introduce MEnvAgent, a Multi-language framework for automated Environment construction that facilitates scalable generation of verifiable task instances. MEnvAgent employs a multi-agent Planning-Execution-Verification architecture to autonomously resolve construction failures and integrates a novel Environment Reuse Mechanism that reduces computational overhead by incrementally patching historical environments. Evaluations on MEnvBench, a new benchmark comprising 1,000 tasks across 10 languages, demonstrate that MEnvAgent outperforms baselines, improving Fail-to-Pass (F2P) rates by 8.6% while reducing time costs by 43%. Additionally, we demonstrate the utility of MEnvAgent by constructing MEnvData-SWE, the largest open-source polyglot dataset of realistic verifiable Docker environments to date, alongside solution trajectories that enable consistent performance gains on SWE tasks across a wide range of models. Our code, benchmark, and dataset are available at https://github.com/ernie-research/MEnvAgent."
+    ]
+  },
+  "html_sha256": "1834b163ee7c1d942cb435011dd02524e4d4e09c3c885442b348d351baa3c31c",
+  "evidence_html": "evidence/df2ffd83371bcfbf3014.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

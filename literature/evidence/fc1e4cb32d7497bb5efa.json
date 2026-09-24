@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2501.08325",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.08325",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Gamefactory: Creating new games with generative interactive videos",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.08325",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:14.658111+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.08325",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42998,
+  "title": "GameFactory: Creating New Games with Generative Interactive Videos",
+  "authors": [
+    "Yu, Jiwen",
+    "Qin, Yiran",
+    "Wang, Xintao",
+    "Wan, Pengfei",
+    "Zhang, Di",
+    "Liu, Xihui"
+  ],
+  "first_author": "Yu, Jiwen",
+  "year": 2025,
+  "source_date": "2025/01/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.08325",
+  "abstract": "Generative videos have the potential to revolutionize game development by autonomously creating new content. In this paper, we present GameFactory, a framework for action-controlled scene-generalizable game video generation. We first address the fundamental challenge of action controllability by introducing GF-Minecraft, an action-annotated game video dataset without human bias, and developing an action control module that enables precise control over both keyboard and mouse inputs. We further extend to support autoregressive generation for unlimited-length interactive videos. More importantly, GameFactory tackles the critical challenge of scene-generalizable action control, which most existing methods fail to address. To enable the creation of entirely new and diverse games beyond fixed styles and scenes, we leverage the open-domain generative priors from pre-trained video diffusion models. To bridge the domain gap between open-domain priors and small-scale game datasets, we propose a multi-phase training strategy with a domain adapter that decouples game style learning from action control. This decoupling ensures that action control learning is no longer bound to specific game styles, thereby achieving scene-generalizable action control. Experimental results demonstrate that GameFactory effectively generates open-domain action-controllable game videos, representing a significant step forward in AI-driven game generation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.08325: GameFactory: Creating New Games with Generative Interactive Videos"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GameFactory: Creating New Games with Generative Interactive Videos"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.08325v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Generative videos have the potential to revolutionize game development by autonomously creating new content. In this paper, we present GameFactory, a framework for action-controlled scene-generalizable game video generation. We first address the fundamental challenge of action controllability by introducing GF-Minecraft, an action-annotated game video dataset without human bias, and developing an action control module that enables precise control over both keyboard and mouse inputs. We further extend to support autoregressive generation for unlimited-length interactive videos. More importantly, GameFactory tackles the critical challenge of scene-generalizable action control, which most existing methods fail to address. To enable the creation of entirely new and diverse games beyond fixed styles and scenes, we leverage the open-domain generative priors from pre-trained video diffusion models. To bridge the domain gap between open-domain priors and small-scale game datasets, we propose a multi-phase training strategy with a domain adapter that decouples game style learning from action control. This decoupling ensures that action control learning is no longer bound to specific game styles, thereby achieving scene-generalizable action control. Experimental results demonstrate that GameFactory effectively generates open-domain action-controllable game videos, representing a significant step forward in AI-driven game generation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GameFactory: Creating New Games with Generative Interactive Videos"
+    ],
+    "twitter:description": [
+      "Generative videos have the potential to revolutionize game development by autonomously creating new content. In this paper, we present GameFactory, a framework for action-controlled..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GameFactory: Creating New Games with Generative Interactive Videos"
+    ],
+    "citation_author": [
+      "Yu, Jiwen",
+      "Qin, Yiran",
+      "Wang, Xintao",
+      "Wan, Pengfei",
+      "Zhang, Di",
+      "Liu, Xihui"
+    ],
+    "citation_date": [
+      "2025/01/14"
+    ],
+    "citation_online_date": [
+      "2025/10/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.08325"
+    ],
+    "citation_arxiv_id": [
+      "2501.08325"
+    ],
+    "citation_abstract": [
+      "Generative videos have the potential to revolutionize game development by autonomously creating new content. In this paper, we present GameFactory, a framework for action-controlled scene-generalizable game video generation. We first address the fundamental challenge of action controllability by introducing GF-Minecraft, an action-annotated game video dataset without human bias, and developing an action control module that enables precise control over both keyboard and mouse inputs. We further extend to support autoregressive generation for unlimited-length interactive videos. More importantly, GameFactory tackles the critical challenge of scene-generalizable action control, which most existing methods fail to address. To enable the creation of entirely new and diverse games beyond fixed styles and scenes, we leverage the open-domain generative priors from pre-trained video diffusion models. To bridge the domain gap between open-domain priors and small-scale game datasets, we propose a multi-phase training strategy with a domain adapter that decouples game style learning from action control. This decoupling ensures that action control learning is no longer bound to specific game styles, thereby achieving scene-generalizable action control. Experimental results demonstrate that GameFactory effectively generates open-domain action-controllable game videos, representing a significant step forward in AI-driven game generation."
+    ]
+  },
+  "html_sha256": "c5d7cfb79d6982b81d4026d10314fb1c6686e10c6a3e45723f660739c1a23821",
+  "evidence_html": "evidence/fc1e4cb32d7497bb5efa.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

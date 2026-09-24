@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2401.07339",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.07339",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.07339",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:09.811899+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.07339",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43319,
+  "title": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+  "authors": [
+    "Zhang, Kechi",
+    "Li, Jia",
+    "Li, Ge",
+    "Shi, Xianjie",
+    "Jin, Zhi"
+  ],
+  "first_author": "Zhang, Kechi",
+  "year": 2024,
+  "source_date": "2024/01/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.07339",
+  "abstract": "Large Language Models (LLMs) have shown promise in automated code generation but typically excel only in simpler tasks such as generating standalone code units. Real-world software development, however, often involves complex code repositories (named repo) with complex dependencies and extensive documentation. To fill this gap, our research pivots towards evaluating LLMs in a more realistic setting -- real-world repo-level code generation. We introduce CodeAgentBench, a manually curated benchmark for repo-level code generation. This benchmark comprises five high-quality Python projects, encompassing a total of 101 samples. We assess nine leading LLMs on repo-level tasks and observe a decline in their performance. To tackle this, we present CodeAgent, a novel LLM-based agent framework that employs external tools for effective repo-level code generation. CodeAgent integrates five programming tools, enabling interaction with software artifacts for information retrieval, code symbol navigation, and code testing. We implement four agent strategies to optimize these tools' usage. Our experiments on CodeAgentBench show that CodeAgent enhances LLM performance significantly, with improvements ranging from 18.1\\% to 250\\%. Further tests on the HumanEval benchmark confirm CodeAgent's adaptability and efficacy across various code generation tasks. Notably, CodeAgent outperforms commercial products like Github Copilot, showcasing superior accuracy and efficiency. These results demonstrate CodeAgent's robust capabilities in code generation, highlighting its potential for real-world repo-level coding challenges.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.07339: CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.07339v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) have shown promise in automated code generation but typically excel only in simpler tasks such as generating standalone code units. Real-world software development, however, often involves complex code repositories (named repo) with complex dependencies and extensive documentation. To fill this gap, our research pivots towards evaluating LLMs in a more realistic setting -- real-world repo-level code generation. We introduce CodeAgentBench, a manually curated benchmark for repo-level code generation. This benchmark comprises five high-quality Python projects, encompassing a total of 101 samples. We assess nine leading LLMs on repo-level tasks and observe a decline in their performance. To tackle this, we present CodeAgent, a novel LLM-based agent framework that employs external tools for effective repo-level code generation. CodeAgent integrates five programming tools, enabling interaction with software artifacts for information retrieval, code symbol navigation, and code testing. We implement four agent strategies to optimize these tools' usage. Our experiments on CodeAgentBench show that CodeAgent enhances LLM performance significantly, with improvements ranging from 18.1\\% to 250\\%. Further tests on the HumanEval benchmark confirm CodeAgent's adaptability and efficacy across various code generation tasks. Notably, CodeAgent outperforms commercial products like Github Copilot, showcasing superior accuracy and efficiency. These results demonstrate CodeAgent's robust capabilities in code generation, highlighting its potential for real-world repo-level coding challenges."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) have shown promise in automated code generation but typically excel only in simpler tasks such as generating standalone code units. Real-world software development,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges"
+    ],
+    "citation_author": [
+      "Zhang, Kechi",
+      "Li, Jia",
+      "Li, Ge",
+      "Shi, Xianjie",
+      "Jin, Zhi"
+    ],
+    "citation_date": [
+      "2024/01/14"
+    ],
+    "citation_online_date": [
+      "2024/08/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.07339"
+    ],
+    "citation_arxiv_id": [
+      "2401.07339"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) have shown promise in automated code generation but typically excel only in simpler tasks such as generating standalone code units. Real-world software development, however, often involves complex code repositories (named repo) with complex dependencies and extensive documentation. To fill this gap, our research pivots towards evaluating LLMs in a more realistic setting -- real-world repo-level code generation. We introduce CodeAgentBench, a manually curated benchmark for repo-level code generation. This benchmark comprises five high-quality Python projects, encompassing a total of 101 samples. We assess nine leading LLMs on repo-level tasks and observe a decline in their performance. To tackle this, we present CodeAgent, a novel LLM-based agent framework that employs external tools for effective repo-level code generation. CodeAgent integrates five programming tools, enabling interaction with software artifacts for information retrieval, code symbol navigation, and code testing. We implement four agent strategies to optimize these tools' usage. Our experiments on CodeAgentBench show that CodeAgent enhances LLM performance significantly, with improvements ranging from 18.1\\% to 250\\%. Further tests on the HumanEval benchmark confirm CodeAgent's adaptability and efficacy across various code generation tasks. Notably, CodeAgent outperforms commercial products like Github Copilot, showcasing superior accuracy and efficiency. These results demonstrate CodeAgent's robust capabilities in code generation, highlighting its potential for real-world repo-level coding challenges."
+    ]
+  },
+  "html_sha256": "a0b4f168bf8dd7038aa97fecf21161c8a87b6b3bfa442bbfa97bfbc179fbc00f",
+  "evidence_html": "evidence/519e47bc91959eea7962.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

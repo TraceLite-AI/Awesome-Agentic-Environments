@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2511.16004",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2511.16004",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2511.16004",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:32.612261+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2511.16004",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42627,
+  "title": "InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution",
+  "authors": [
+    "Li, KeFan",
+    "Wang, Mengfei",
+    "Zhang, Hengzhi",
+    "Li, Zhichao",
+    "Yuan, Yuan",
+    "Li, Mu",
+    "Gao, Xiang",
+    "Sun, Hailong",
+    "Hu, Chunming",
+    "Lv, Weifeng"
+  ],
+  "first_author": "Li, KeFan",
+  "year": 2025,
+  "source_date": "2025/11/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2511.16004",
+  "abstract": "Large language models have advanced software engineering automation, yet resolving real-world software issues remains difficult because it requires repository-level reasoning, accurate diagnostics, and strong verification signals. Existing agent-based and pipeline-based methods often rely on insufficient tests, which can lead to patches that satisfy verification but fail to fix the underlying defect. We present InfCode, an adversarial multi-agent framework for automated repository-level issue resolution. InfCode iteratively refines both tests and patches through adversarial interaction between a Test Patch Generator and a Code Patch Generator, while a Selector agent identifies the most reliable fix. The framework runs inside a containerized environment that supports realistic repository inspection, modification, and validation. Experiments on SWE-bench Lite and SWE-bench Verified using models such as DeepSeek-V3 and Claude 4.5 Sonnet show that InfCode consistently outperforms strong baselines. It achieves 79.4% performance on SWE-bench Verified, establishing a new state-of-the-art. We have released InfCode as an open-source project at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2511.16004: InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2511.16004v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models have advanced software engineering automation, yet resolving real-world software issues remains difficult because it requires repository-level reasoning, accurate diagnostics, and strong verification signals. Existing agent-based and pipeline-based methods often rely on insufficient tests, which can lead to patches that satisfy verification but fail to fix the underlying defect. We present InfCode, an adversarial multi-agent framework for automated repository-level issue resolution. InfCode iteratively refines both tests and patches through adversarial interaction between a Test Patch Generator and a Code Patch Generator, while a Selector agent identifies the most reliable fix. The framework runs inside a containerized environment that supports realistic repository inspection, modification, and validation. Experiments on SWE-bench Lite and SWE-bench Verified using models such as DeepSeek-V3 and Claude 4.5 Sonnet show that InfCode consistently outperforms strong baselines. It achieves 79.4% performance on SWE-bench Verified, establishing a new state-of-the-art. We have released InfCode as an open-source project at https://github.com/Tokfinity/InfCode."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "InfCode: Adversarial Iterative Refinement of Tests and Patches for..."
+    ],
+    "twitter:description": [
+      "Large language models have advanced software engineering automation, yet resolving real-world software issues remains difficult because it requires repository-level reasoning, accurate..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution"
+    ],
+    "citation_author": [
+      "Li, KeFan",
+      "Wang, Mengfei",
+      "Zhang, Hengzhi",
+      "Li, Zhichao",
+      "Yuan, Yuan",
+      "Li, Mu",
+      "Gao, Xiang",
+      "Sun, Hailong",
+      "Hu, Chunming",
+      "Lv, Weifeng"
+    ],
+    "citation_date": [
+      "2025/11/20"
+    ],
+    "citation_online_date": [
+      "2025/11/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2511.16004"
+    ],
+    "citation_arxiv_id": [
+      "2511.16004"
+    ],
+    "citation_abstract": [
+      "Large language models have advanced software engineering automation, yet resolving real-world software issues remains difficult because it requires repository-level reasoning, accurate diagnostics, and strong verification signals. Existing agent-based and pipeline-based methods often rely on insufficient tests, which can lead to patches that satisfy verification but fail to fix the underlying defect. We present InfCode, an adversarial multi-agent framework for automated repository-level issue resolution. InfCode iteratively refines both tests and patches through adversarial interaction between a Test Patch Generator and a Code Patch Generator, while a Selector agent identifies the most reliable fix. The framework runs inside a containerized environment that supports realistic repository inspection, modification, and validation. Experiments on SWE-bench Lite and SWE-bench Verified using models such as DeepSeek-V3 and Claude 4.5 Sonnet show that InfCode consistently outperforms strong baselines. It achieves 79.4% performance on SWE-bench Verified, establishing a new state-of-the-art. We have released InfCode as an open-source project at https://github.com/Tokfinity/InfCode."
+    ]
+  },
+  "html_sha256": "0a940d2dcf1d7ffe0b7c616e8baa47b725eb5ba583252ce26dbd16fd40dce384",
+  "evidence_html": "evidence/a658384cae89eb0df9ec.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

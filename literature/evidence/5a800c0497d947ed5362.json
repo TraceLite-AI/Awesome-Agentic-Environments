@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2403.12014",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.12014",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Envgen: Generating and adapting environments via llms for training embodied agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.12014",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:29.112245+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.12014",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44361,
+  "title": "EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents",
+  "authors": [
+    "Zala, Abhay",
+    "Cho, Jaemin",
+    "Lin, Han",
+    "Yoon, Jaehong",
+    "Bansal, Mohit"
+  ],
+  "first_author": "Zala, Abhay",
+  "year": 2024,
+  "source_date": "2024/03/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.12014",
+  "abstract": "Recent SOTA approaches for embodied learning via interaction directly employ large language models (LLMs) as agents to determine the next steps in an environment. Due to their world knowledge and reasoning capabilities, LLM agents achieve stronger performance than previous smaller agents based on reinforcement learning (RL); however, frequently calling LLMs is slow and expensive. Instead of directly employing LLMs as agents, can we use LLMs' reasoning capabilities to adaptively create training environments to help smaller RL agents learn useful skills that they are weak at? We propose EnvGen, a novel framework to address this question. We first prompt an LLM to generate training environments by giving it the task description and simulator objectives that the agents should learn and then asking it to generate a set of environment configurations (e.g., different terrains, items initially given to agents, etc.). Next, we train a small RL agent in a mixture of the original and LLM-generated environments. Then, we enable the LLM to continuously adapt the generated environments to progressively improve the skills that the agent is weak at, by providing feedback to the LLM in the form of the agent's performance. We demonstrate the usefulness of EnvGen with comprehensive experiments in Crafter and Heist environments. We find that a small RL agent trained with EnvGen can outperform SOTA methods, including a GPT-4 agent, and learns long-horizon tasks significantly faster. We also show that using an LLM to adapt environments dynamically outperforms curriculum learning approaches and how the environments are adapted to help improve RL agents' weaker skills over time. Additionally, EnvGen is substantially more efficient as it only uses a small number of LLM calls (e.g., 4 in total), whereas LLM agents require thousands of calls. Lastly, we present detailed ablation studies for EnvGen design choices.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.12014: EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.12014v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent SOTA approaches for embodied learning via interaction directly employ large language models (LLMs) as agents to determine the next steps in an environment. Due to their world knowledge and reasoning capabilities, LLM agents achieve stronger performance than previous smaller agents based on reinforcement learning (RL); however, frequently calling LLMs is slow and expensive. Instead of directly employing LLMs as agents, can we use LLMs' reasoning capabilities to adaptively create training environments to help smaller RL agents learn useful skills that they are weak at? We propose EnvGen, a novel framework to address this question. We first prompt an LLM to generate training environments by giving it the task description and simulator objectives that the agents should learn and then asking it to generate a set of environment configurations (e.g., different terrains, items initially given to agents, etc.). Next, we train a small RL agent in a mixture of the original and LLM-generated environments. Then, we enable the LLM to continuously adapt the generated environments to progressively improve the skills that the agent is weak at, by providing feedback to the LLM in the form of the agent's performance. We demonstrate the usefulness of EnvGen with comprehensive experiments in Crafter and Heist environments. We find that a small RL agent trained with EnvGen can outperform SOTA methods, including a GPT-4 agent, and learns long-horizon tasks significantly faster. We also show that using an LLM to adapt environments dynamically outperforms curriculum learning approaches and how the environments are adapted to help improve RL agents' weaker skills over time. Additionally, EnvGen is substantially more efficient as it only uses a small number of LLM calls (e.g., 4 in total), whereas LLM agents require thousands of calls. Lastly, we present detailed ablation studies for EnvGen design choices."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "EnvGen: Generating and Adapting Environments via LLMs for Training..."
+    ],
+    "twitter:description": [
+      "Recent SOTA approaches for embodied learning via interaction directly employ large language models (LLMs) as agents to determine the next steps in an environment. Due to their world knowledge and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents"
+    ],
+    "citation_author": [
+      "Zala, Abhay",
+      "Cho, Jaemin",
+      "Lin, Han",
+      "Yoon, Jaehong",
+      "Bansal, Mohit"
+    ],
+    "citation_date": [
+      "2024/03/18"
+    ],
+    "citation_online_date": [
+      "2024/07/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.12014"
+    ],
+    "citation_arxiv_id": [
+      "2403.12014"
+    ],
+    "citation_abstract": [
+      "Recent SOTA approaches for embodied learning via interaction directly employ large language models (LLMs) as agents to determine the next steps in an environment. Due to their world knowledge and reasoning capabilities, LLM agents achieve stronger performance than previous smaller agents based on reinforcement learning (RL); however, frequently calling LLMs is slow and expensive. Instead of directly employing LLMs as agents, can we use LLMs' reasoning capabilities to adaptively create training environments to help smaller RL agents learn useful skills that they are weak at? We propose EnvGen, a novel framework to address this question. We first prompt an LLM to generate training environments by giving it the task description and simulator objectives that the agents should learn and then asking it to generate a set of environment configurations (e.g., different terrains, items initially given to agents, etc.). Next, we train a small RL agent in a mixture of the original and LLM-generated environments. Then, we enable the LLM to continuously adapt the generated environments to progressively improve the skills that the agent is weak at, by providing feedback to the LLM in the form of the agent's performance. We demonstrate the usefulness of EnvGen with comprehensive experiments in Crafter and Heist environments. We find that a small RL agent trained with EnvGen can outperform SOTA methods, including a GPT-4 agent, and learns long-horizon tasks significantly faster. We also show that using an LLM to adapt environments dynamically outperforms curriculum learning approaches and how the environments are adapted to help improve RL agents' weaker skills over time. Additionally, EnvGen is substantially more efficient as it only uses a small number of LLM calls (e.g., 4 in total), whereas LLM agents require thousands of calls. Lastly, we present detailed ablation studies for EnvGen design choices."
+    ]
+  },
+  "html_sha256": "9f95a1d809793f300134c44cc37f888240023a619b929f406751e81d2437dcbe",
+  "evidence_html": "evidence/5a800c0497d947ed5362.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

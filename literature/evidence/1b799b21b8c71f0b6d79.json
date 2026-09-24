@@ -1,0 +1,153 @@
+{
+  "url": "https://arxiv.org/abs/2606.12191",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.12191",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment survey",
+      "title_hint": "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.12191",
+      "topic": "环境工程综述",
+      "discovery_url": "https://arxiv.org/abs/2606.12191",
+      "title_hint": "",
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.12191",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:46.484372+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.12191",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45125,
+  "title": "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application",
+  "authors": [
+    "Li, Jiachun",
+    "Jin, Zhuoran",
+    "Men, Tianyi",
+    "Hao, Yupu",
+    "Zhu, Kejian",
+    "Wang, Lingshuai",
+    "Huang, Dongqi",
+    "Wang, Longxiang",
+    "Hua, Shengjia",
+    "Wang, Lu",
+    "Gao, Jinshan",
+    "Yuan, Hongbang",
+    "Xu, Ruilin",
+    "Liu, Kang",
+    "Zhao, Jun"
+  ],
+  "first_author": "Li, Jiachun",
+  "year": 2026,
+  "source_date": "2026/06/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.12191",
+  "abstract": "Environments serve as interactive systems for large language model (LLM) based agents across diverse scenarios and play a crucial role in driving the continual evolution of model capabilities. Despite this importance, existing work lacks a systematic categorization and deep analysis. This paper systematically studies current researches on agentic environments from the perspective of the environment engineering lifecycle, covering their modeling, synthesis, evaluation and application. Specifically, the paper first introduces representative environments from the perspectives of eight attributes and eight domains, providing detailed analyses of their development paths and highlighting their core capabilities. Second, for automated environment synthesis, two paradigms are introduced, such as symbolic synthesis and neural synthesis. This paper also shows different environment evaluation methods in each paradigm. Thirdly, the corresponding environment applications from the perspective of agent-environment co-evolution are discussed. In specific, the paper characterizes the primary pathways for agent evolution in dynamic environments from four complementary perspectives: memory-centric experience evolution, orchestration-centric workflow evolution, trajectory-centric offline evolution, and exploration-centric online evolution. And three paradigms of environment evolution are identified, namely neural-driven, difficulty-driven, and scaling-driven approaches. At last, several promising future directions are discussed, including Environment-as-a-Service, Multi-agent Environments, and Neural-Symbolic Environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.12191: Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.12191v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Environments serve as interactive systems for large language model (LLM) based agents across diverse scenarios and play a crucial role in driving the continual evolution of model capabilities. Despite this importance, existing work lacks a systematic categorization and deep analysis. This paper systematically studies current researches on agentic environments from the perspective of the environment engineering lifecycle, covering their modeling, synthesis, evaluation and application. Specifically, the paper first introduces representative environments from the perspectives of eight attributes and eight domains, providing detailed analyses of their development paths and highlighting their core capabilities. Second, for automated environment synthesis, two paradigms are introduced, such as symbolic synthesis and neural synthesis. This paper also shows different environment evaluation methods in each paradigm. Thirdly, the corresponding environment applications from the perspective of agent-environment co-evolution are discussed. In specific, the paper characterizes the primary pathways for agent evolution in dynamic environments from four complementary perspectives: memory-centric experience evolution, orchestration-centric workflow evolution, trajectory-centric offline evolution, and exploration-centric online evolution. And three paradigms of environment evolution are identified, namely neural-driven, difficulty-driven, and scaling-driven approaches. At last, several promising future directions are discussed, including Environment-as-a-Service, Multi-agent Environments, and Neural-Symbolic Environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agentic Environment Engineering for Large Language Models: A..."
+    ],
+    "twitter:description": [
+      "Environments serve as interactive systems for large language model (LLM) based agents across diverse scenarios and play a crucial role in driving the continual evolution of model capabilities...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application"
+    ],
+    "citation_author": [
+      "Li, Jiachun",
+      "Jin, Zhuoran",
+      "Men, Tianyi",
+      "Hao, Yupu",
+      "Zhu, Kejian",
+      "Wang, Lingshuai",
+      "Huang, Dongqi",
+      "Wang, Longxiang",
+      "Hua, Shengjia",
+      "Wang, Lu",
+      "Gao, Jinshan",
+      "Yuan, Hongbang",
+      "Xu, Ruilin",
+      "Liu, Kang",
+      "Zhao, Jun"
+    ],
+    "citation_date": [
+      "2026/06/10"
+    ],
+    "citation_online_date": [
+      "2026/06/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.12191"
+    ],
+    "citation_arxiv_id": [
+      "2606.12191"
+    ],
+    "citation_abstract": [
+      "Environments serve as interactive systems for large language model (LLM) based agents across diverse scenarios and play a crucial role in driving the continual evolution of model capabilities. Despite this importance, existing work lacks a systematic categorization and deep analysis. This paper systematically studies current researches on agentic environments from the perspective of the environment engineering lifecycle, covering their modeling, synthesis, evaluation and application. Specifically, the paper first introduces representative environments from the perspectives of eight attributes and eight domains, providing detailed analyses of their development paths and highlighting their core capabilities. Second, for automated environment synthesis, two paradigms are introduced, such as symbolic synthesis and neural synthesis. This paper also shows different environment evaluation methods in each paradigm. Thirdly, the corresponding environment applications from the perspective of agent-environment co-evolution are discussed. In specific, the paper characterizes the primary pathways for agent evolution in dynamic environments from four complementary perspectives: memory-centric experience evolution, orchestration-centric workflow evolution, trajectory-centric offline evolution, and exploration-centric online evolution. And three paradigms of environment evolution are identified, namely neural-driven, difficulty-driven, and scaling-driven approaches. At last, several promising future directions are discussed, including Environment-as-a-Service, Multi-agent Environments, and Neural-Symbolic Environments."
+    ]
+  },
+  "html_sha256": "e2158b5a4b3cb4fadd25126682ba37c4968ee216c5d3235a728923336d164d47",
+  "evidence_html": "evidence/1b799b21b8c71f0b6d79.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,172 @@
+{
+  "url": "https://arxiv.org/abs/2403.03186",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.03186",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Cradle: Empowering Foundation Agents Towards General Computer Control",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.03186",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:00.535868+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.03186",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 47349,
+  "title": "Cradle: Empowering Foundation Agents Towards General Computer Control",
+  "authors": [
+    "Tan, Weihao",
+    "Zhang, Wentao",
+    "Xu, Xinrun",
+    "Xia, Haochong",
+    "Ding, Ziluo",
+    "Li, Boyu",
+    "Zhou, Bohan",
+    "Yue, Junpeng",
+    "Jiang, Jiechuan",
+    "Li, Yewen",
+    "An, Ruyi",
+    "Qin, Molei",
+    "Zong, Chuqiao",
+    "Zheng, Longtao",
+    "Wu, Yujie",
+    "Chai, Xiaoqiang",
+    "Bi, Yifei",
+    "Xie, Tianbao",
+    "Gu, Pengjie",
+    "Li, Xiyun",
+    "Zhang, Ceyao",
+    "Tian, Long",
+    "Wang, Chaojie",
+    "Wang, Xinrun",
+    "Karlsson, Börje F.",
+    "An, Bo",
+    "Yan, Shuicheng",
+    "Lu, Zongqing"
+  ],
+  "first_author": "Tan, Weihao",
+  "year": 2024,
+  "source_date": "2024/03/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.03186",
+  "abstract": "Despite the success in specific scenarios, existing foundation agents still struggle to generalize across various virtual scenarios, mainly due to the dramatically different encapsulations of environments with manually designed observation and action spaces. To handle this issue, we propose the General Computer Control (GCC) setting to restrict foundation agents to interact with software through the most unified and standardized interface, i.e., using screenshots as input and keyboard and mouse actions as output. We introduce Cradle, a modular and flexible LMM-powered framework, as a preliminary attempt towards GCC. Enhanced by six key modules, Cradle can understand input screenshots and output executable code for low-level keyboard and mouse control after high-level planning, so that Cradle can interact with any software and complete long-horizon complex tasks without relying on any built-in APIs. Experimental results show that Cradle exhibits remarkable generalizability and impressive performance across four previously unexplored commercial video games, five software applications, and a comprehensive benchmark, OSWorld. Cradle is the first to enable foundation agents to follow the main storyline and complete 40-minute-long real missions in the complex AAA game Red Dead Redemption 2 (RDR2). Cradle can also create a city of a thousand people in Cities: Skylines, farm and harvest parsnips in Stardew Valley, and trade and bargain with a maximal weekly total profit of 87% in Dealer's Life 2. Cradle can not only operate daily software, like Chrome, Outlook, and Feishu, but also edit images and videos using Meitu and CapCut. Cradle greatly extends the reach of foundation agents by enabling the easy conversion of any software, especially complex games, into benchmarks to evaluate agents' various abilities and facilitate further data collection, thus paving the way for generalist agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.03186: Cradle: Empowering Foundation Agents Towards General Computer Control"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Cradle: Empowering Foundation Agents Towards General Computer Control"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.03186v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Despite the success in specific scenarios, existing foundation agents still struggle to generalize across various virtual scenarios, mainly due to the dramatically different encapsulations of environments with manually designed observation and action spaces. To handle this issue, we propose the General Computer Control (GCC) setting to restrict foundation agents to interact with software through the most unified and standardized interface, i.e., using screenshots as input and keyboard and mouse actions as output. We introduce Cradle, a modular and flexible LMM-powered framework, as a preliminary attempt towards GCC. Enhanced by six key modules, Cradle can understand input screenshots and output executable code for low-level keyboard and mouse control after high-level planning, so that Cradle can interact with any software and complete long-horizon complex tasks without relying on any built-in APIs. Experimental results show that Cradle exhibits remarkable generalizability and impressive performance across four previously unexplored commercial video games, five software applications, and a comprehensive benchmark, OSWorld. Cradle is the first to enable foundation agents to follow the main storyline and complete 40-minute-long real missions in the complex AAA game Red Dead Redemption 2 (RDR2). Cradle can also create a city of a thousand people in Cities: Skylines, farm and harvest parsnips in Stardew Valley, and trade and bargain with a maximal weekly total profit of 87% in Dealer's Life 2. Cradle can not only operate daily software, like Chrome, Outlook, and Feishu, but also edit images and videos using Meitu and CapCut. Cradle greatly extends the reach of foundation agents by enabling the easy conversion of any software, especially complex games, into benchmarks to evaluate agents' various abilities and facilitate further data collection, thus paving the way for generalist agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Cradle: Empowering Foundation Agents Towards General Computer Control"
+    ],
+    "twitter:description": [
+      "Despite the success in specific scenarios, existing foundation agents still struggle to generalize across various virtual scenarios, mainly due to the dramatically different encapsulations of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Cradle: Empowering Foundation Agents Towards General Computer Control"
+    ],
+    "citation_author": [
+      "Tan, Weihao",
+      "Zhang, Wentao",
+      "Xu, Xinrun",
+      "Xia, Haochong",
+      "Ding, Ziluo",
+      "Li, Boyu",
+      "Zhou, Bohan",
+      "Yue, Junpeng",
+      "Jiang, Jiechuan",
+      "Li, Yewen",
+      "An, Ruyi",
+      "Qin, Molei",
+      "Zong, Chuqiao",
+      "Zheng, Longtao",
+      "Wu, Yujie",
+      "Chai, Xiaoqiang",
+      "Bi, Yifei",
+      "Xie, Tianbao",
+      "Gu, Pengjie",
+      "Li, Xiyun",
+      "Zhang, Ceyao",
+      "Tian, Long",
+      "Wang, Chaojie",
+      "Wang, Xinrun",
+      "Karlsson, Börje F.",
+      "An, Bo",
+      "Yan, Shuicheng",
+      "Lu, Zongqing"
+    ],
+    "citation_date": [
+      "2024/03/05"
+    ],
+    "citation_online_date": [
+      "2024/07/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.03186"
+    ],
+    "citation_arxiv_id": [
+      "2403.03186"
+    ],
+    "citation_abstract": [
+      "Despite the success in specific scenarios, existing foundation agents still struggle to generalize across various virtual scenarios, mainly due to the dramatically different encapsulations of environments with manually designed observation and action spaces. To handle this issue, we propose the General Computer Control (GCC) setting to restrict foundation agents to interact with software through the most unified and standardized interface, i.e., using screenshots as input and keyboard and mouse actions as output. We introduce Cradle, a modular and flexible LMM-powered framework, as a preliminary attempt towards GCC. Enhanced by six key modules, Cradle can understand input screenshots and output executable code for low-level keyboard and mouse control after high-level planning, so that Cradle can interact with any software and complete long-horizon complex tasks without relying on any built-in APIs. Experimental results show that Cradle exhibits remarkable generalizability and impressive performance across four previously unexplored commercial video games, five software applications, and a comprehensive benchmark, OSWorld. Cradle is the first to enable foundation agents to follow the main storyline and complete 40-minute-long real missions in the complex AAA game Red Dead Redemption 2 (RDR2). Cradle can also create a city of a thousand people in Cities: Skylines, farm and harvest parsnips in Stardew Valley, and trade and bargain with a maximal weekly total profit of 87% in Dealer's Life 2. Cradle can not only operate daily software, like Chrome, Outlook, and Feishu, but also edit images and videos using Meitu and CapCut. Cradle greatly extends the reach of foundation agents by enabling the easy conversion of any software, especially complex games, into benchmarks to evaluate agents' various abilities and facilitate further data collection, thus paving the way for generalist agents."
+    ]
+  },
+  "html_sha256": "b03118e60e1e0daf2e982bc7b782c8a0b713246f54c3ff58722553235480d63c",
+  "evidence_html": "evidence/e432c248b35e33995002.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

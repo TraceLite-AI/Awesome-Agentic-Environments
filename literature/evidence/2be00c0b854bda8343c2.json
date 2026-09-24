@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2604.00344",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.00344",
+      "discovery_url": "https://github.com/ggjy/Awesome-Agent-Engineering",
+      "topic": "agent_training_and_rl",
+      "title_hint": "Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.00344",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:45.948804+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.00344",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44031,
+  "title": "Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning",
+  "authors": [
+    "Jiang, Eric Hanchen",
+    "Li, Levina",
+    "Sun, Rui",
+    "Liang, Xiao",
+    "Li, Yubei",
+    "Wu, Yuchen",
+    "Luo, Haozheng",
+    "Li, Hengli",
+    "Zhang, Zhi",
+    "Kang, Zhaolu",
+    "Chang, Kai-Wei",
+    "Wu, Ying Nian"
+  ],
+  "first_author": "Jiang, Eric Hanchen",
+  "year": 2026,
+  "source_date": "2026/04/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.00344",
+  "abstract": "Large Language Models (LLMs) have shown remarkable performance in completing various tasks. However, solving complex problems often requires the coordination of multiple agents, raising a fundamental question: how to effectively select and interconnect these agents. In this paper, we propose \\textbf{Agent Q-Mix}, a reinforcement learning framework that reformulates topology selection as a cooperative Multi-Agent Reinforcement Learning (MARL) problem. Our method learns decentralized communication decisions using QMIX value factorization, where each agent selects from a set of communication actions that jointly induce a round-wise communication graph. At its core, Agent Q-Mix combines a topology-aware GNN encoder, GRU memory, and per-agent Q-heads under a Centralized Training with Decentralized Execution (CTDE) paradigm. The framework optimizes a reward function that balances task accuracy with token cost. Across seven core benchmarks in coding, reasoning, and mathematics, Agent Q-Mix achieves the highest average accuracy compared to existing methods while demonstrating superior token efficiency and robustness against agent failure. Notably, on the challenging Humanity's Last Exam (HLE) using Gemini-3.1-Flash-Lite as a backbone, Agent Q-Mix achieves 20.8\\% accuracy, outperforming Microsoft Agent Framework (19.2\\%) and LangGraph (19.2\\%), followed by AutoGen and Lobster by OpenClaw. These results underscore the effectiveness of learned, decentralized topology optimization in pushing the boundaries of multi-agent reasoning.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.00344: Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.00344v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) have shown remarkable performance in completing various tasks. However, solving complex problems often requires the coordination of multiple agents, raising a fundamental question: how to effectively select and interconnect these agents. In this paper, we propose \\textbf{Agent Q-Mix}, a reinforcement learning framework that reformulates topology selection as a cooperative Multi-Agent Reinforcement Learning (MARL) problem. Our method learns decentralized communication decisions using QMIX value factorization, where each agent selects from a set of communication actions that jointly induce a round-wise communication graph. At its core, Agent Q-Mix combines a topology-aware GNN encoder, GRU memory, and per-agent Q-heads under a Centralized Training with Decentralized Execution (CTDE) paradigm. The framework optimizes a reward function that balances task accuracy with token cost. Across seven core benchmarks in coding, reasoning, and mathematics, Agent Q-Mix achieves the highest average accuracy compared to existing methods while demonstrating superior token efficiency and robustness against agent failure. Notably, on the challenging Humanity's Last Exam (HLE) using Gemini-3.1-Flash-Lite as a backbone, Agent Q-Mix achieves 20.8\\% accuracy, outperforming Microsoft Agent Framework (19.2\\%) and LangGraph (19.2\\%), followed by AutoGen and Lobster by OpenClaw. These results underscore the effectiveness of learned, decentralized topology optimization in pushing the boundaries of multi-agent reasoning."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) have shown remarkable performance in completing various tasks. However, solving complex problems often requires the coordination of multiple agents, raising a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Jiang, Eric Hanchen",
+      "Li, Levina",
+      "Sun, Rui",
+      "Liang, Xiao",
+      "Li, Yubei",
+      "Wu, Yuchen",
+      "Luo, Haozheng",
+      "Li, Hengli",
+      "Zhang, Zhi",
+      "Kang, Zhaolu",
+      "Chang, Kai-Wei",
+      "Wu, Ying Nian"
+    ],
+    "citation_date": [
+      "2026/04/01"
+    ],
+    "citation_online_date": [
+      "2026/04/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.00344"
+    ],
+    "citation_arxiv_id": [
+      "2604.00344"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) have shown remarkable performance in completing various tasks. However, solving complex problems often requires the coordination of multiple agents, raising a fundamental question: how to effectively select and interconnect these agents. In this paper, we propose \\textbf{Agent Q-Mix}, a reinforcement learning framework that reformulates topology selection as a cooperative Multi-Agent Reinforcement Learning (MARL) problem. Our method learns decentralized communication decisions using QMIX value factorization, where each agent selects from a set of communication actions that jointly induce a round-wise communication graph. At its core, Agent Q-Mix combines a topology-aware GNN encoder, GRU memory, and per-agent Q-heads under a Centralized Training with Decentralized Execution (CTDE) paradigm. The framework optimizes a reward function that balances task accuracy with token cost. Across seven core benchmarks in coding, reasoning, and mathematics, Agent Q-Mix achieves the highest average accuracy compared to existing methods while demonstrating superior token efficiency and robustness against agent failure. Notably, on the challenging Humanity's Last Exam (HLE) using Gemini-3.1-Flash-Lite as a backbone, Agent Q-Mix achieves 20.8\\% accuracy, outperforming Microsoft Agent Framework (19.2\\%) and LangGraph (19.2\\%), followed by AutoGen and Lobster by OpenClaw. These results underscore the effectiveness of learned, decentralized topology optimization in pushing the boundaries of multi-agent reasoning."
+    ]
+  },
+  "html_sha256": "85ddc977998c1fef25fac1457ec2e7d2a1ebc55dae6a184f0bc632e683a6aa92",
+  "evidence_html": "evidence/2be00c0b854bda8343c2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,123 @@
+{
+  "url": "https://arxiv.org/abs/2104.06020",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2104.06020",
+      "discovery_url": "https://arxiv.org/abs/2104.06020",
+      "topic": "基础：执行环境、配置与可复现性",
+      "title_hint": "Reproducible Builds: Increasing the Integrity of Software Supply Chains",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2104.06020",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:41.978765+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2104.06020",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42098,
+  "title": "Reproducible Builds: Increasing the Integrity of Software Supply Chains",
+  "authors": [
+    "Lamb, Chris",
+    "Zacchiroli, Stefano"
+  ],
+  "first_author": "Lamb, Chris",
+  "year": 2021,
+  "source_date": "2021/04/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1109/MS.2021.3073045",
+  "arxiv_id": "2104.06020",
+  "abstract": "Although it is possible to increase confidence in Free and Open Source Software (FOSS) by reviewing its source code, trusting code is not the same as trusting its executable counterparts. These are typically built and distributed by third-party vendors, with severe security consequences if their supply chains are compromised. In this paper, we present reproducible builds, an approach that can determine whether generated binaries correspond with their original source code. We first define the problem, and then provide insight into the challenges of making real-world software build in a \"reproducible\" manner-this is, when every build generates bit-for-bit identical results. Through the experience of the Reproducible Builds project making the Debian Linux distribution reproducible, we also describe the affinity between reproducibility and quality assurance (QA).",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2104.06020: Reproducible Builds: Increasing the Integrity of Software Supply Chains"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Reproducible Builds: Increasing the Integrity of Software Supply Chains"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2104.06020v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Although it is possible to increase confidence in Free and Open Source Software (FOSS) by reviewing its source code, trusting code is not the same as trusting its executable counterparts. These are typically built and distributed by third-party vendors, with severe security consequences if their supply chains are compromised. In this paper, we present reproducible builds, an approach that can determine whether generated binaries correspond with their original source code. We first define the problem, and then provide insight into the challenges of making real-world software build in a \"reproducible\" manner-this is, when every build generates bit-for-bit identical results. Through the experience of the Reproducible Builds project making the Debian Linux distribution reproducible, we also describe the affinity between reproducibility and quality assurance (QA)."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Reproducible Builds: Increasing the Integrity of Software Supply Chains"
+    ],
+    "twitter:description": [
+      "Although it is possible to increase confidence in Free and Open Source Software (FOSS) by reviewing its source code, trusting code is not the same as trusting its executable counterparts. These..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Reproducible Builds: Increasing the Integrity of Software Supply Chains"
+    ],
+    "citation_author": [
+      "Lamb, Chris",
+      "Zacchiroli, Stefano"
+    ],
+    "citation_doi": [
+      "10.1109/MS.2021.3073045"
+    ],
+    "citation_date": [
+      "2021/04/13"
+    ],
+    "citation_online_date": [
+      "2021/04/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2104.06020"
+    ],
+    "citation_arxiv_id": [
+      "2104.06020"
+    ],
+    "citation_abstract": [
+      "Although it is possible to increase confidence in Free and Open Source Software (FOSS) by reviewing its source code, trusting code is not the same as trusting its executable counterparts. These are typically built and distributed by third-party vendors, with severe security consequences if their supply chains are compromised. In this paper, we present reproducible builds, an approach that can determine whether generated binaries correspond with their original source code. We first define the problem, and then provide insight into the challenges of making real-world software build in a \"reproducible\" manner-this is, when every build generates bit-for-bit identical results. Through the experience of the Reproducible Builds project making the Debian Linux distribution reproducible, we also describe the affinity between reproducibility and quality assurance (QA)."
+    ]
+  },
+  "html_sha256": "f2191c82a86a5d7c56501d612f420aca6483dc6432a71394948c7a32252fe782",
+  "evidence_html": "evidence/fc6e447876f69c9d5bf3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

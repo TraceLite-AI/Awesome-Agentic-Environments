@@ -1,0 +1,149 @@
+{
+  "url": "https://arxiv.org/abs/2409.08264",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2409.08264",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Windows agent arena: Evaluating multi-modal os agents at scale",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.08264",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-13",
+      "topic": "Agent benchmark",
+      "title_hint": "Bonatti et al. Windows Agent Arena. arXiv:2409.08264.",
+      "existing_reference_number": 13,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2409.08264",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:30.267687+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2409.08264",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44603,
+  "title": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale",
+  "authors": [
+    "Bonatti, Rogerio",
+    "Zhao, Dan",
+    "Bonacci, Francesco",
+    "Dupont, Dillon",
+    "Abdali, Sara",
+    "Li, Yinheng",
+    "Lu, Yadong",
+    "Wagle, Justin",
+    "Koishida, Kazuhito",
+    "Bucker, Arthur",
+    "Jang, Lawrence",
+    "Hui, Zack"
+  ],
+  "first_author": "Bonatti, Rogerio",
+  "year": 2024,
+  "source_date": "2024/09/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2409.08264",
+  "abstract": "Large language models (LLMs) show remarkable potential to act as computer agents, enhancing human productivity and software accessibility in multi-modal tasks that require planning and reasoning. However, measuring agent performance in realistic environments remains a challenge since: (i) most benchmarks are limited to specific modalities or domains (e.g. text-only, web navigation, Q&A, coding) and (ii) full benchmark evaluations are slow (on order of magnitude of days) given the multi-step sequential nature of tasks. To address these challenges, we introduce the Windows Agent Arena: a reproducible, general environment focusing exclusively on the Windows operating system (OS) where agents can operate freely within a real Windows OS and use the same wide range of applications, tools, and web browsers available to human users when solving tasks. We adapt the OSWorld framework (Xie et al., 2024) to create 150+ diverse Windows tasks across representative domains that require agent abilities in planning, screen understanding, and tool usage. Our benchmark is scalable and can be seamlessly parallelized in Azure for a full benchmark evaluation in as little as 20 minutes. To demonstrate Windows Agent Arena's capabilities, we also introduce a new multi-modal agent, Navi. Our agent achieves a success rate of 19.5% in the Windows domain, compared to 74.5% performance of an unassisted human. Navi also demonstrates strong performance on another popular web-based benchmark, Mind2Web. We offer extensive quantitative and qualitative analysis of Navi's performance, and provide insights into the opportunities for future research in agent development and data generation using Windows Agent Arena. Webpage: this https URL Code: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2409.08264: Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2409.08264v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) show remarkable potential to act as computer agents, enhancing human productivity and software accessibility in multi-modal tasks that require planning and reasoning. However, measuring agent performance in realistic environments remains a challenge since: (i) most benchmarks are limited to specific modalities or domains (e.g. text-only, web navigation, Q&A, coding) and (ii) full benchmark evaluations are slow (on order of magnitude of days) given the multi-step sequential nature of tasks. To address these challenges, we introduce the Windows Agent Arena: a reproducible, general environment focusing exclusively on the Windows operating system (OS) where agents can operate freely within a real Windows OS and use the same wide range of applications, tools, and web browsers available to human users when solving tasks. We adapt the OSWorld framework (Xie et al., 2024) to create 150+ diverse Windows tasks across representative domains that require agent abilities in planning, screen understanding, and tool usage. Our benchmark is scalable and can be seamlessly parallelized in Azure for a full benchmark evaluation in as little as 20 minutes. To demonstrate Windows Agent Arena's capabilities, we also introduce a new multi-modal agent, Navi. Our agent achieves a success rate of 19.5% in the Windows domain, compared to 74.5% performance of an unassisted human. Navi also demonstrates strong performance on another popular web-based benchmark, Mind2Web. We offer extensive quantitative and qualitative analysis of Navi's performance, and provide insights into the opportunities for future research in agent development and data generation using Windows Agent Arena.\n  Webpage: https://microsoft.github.io/WindowsAgentArena\n  Code: https://github.com/microsoft/WindowsAgentArena"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) show remarkable potential to act as computer agents, enhancing human productivity and software accessibility in multi-modal tasks that require planning and reasoning...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+    ],
+    "citation_author": [
+      "Bonatti, Rogerio",
+      "Zhao, Dan",
+      "Bonacci, Francesco",
+      "Dupont, Dillon",
+      "Abdali, Sara",
+      "Li, Yinheng",
+      "Lu, Yadong",
+      "Wagle, Justin",
+      "Koishida, Kazuhito",
+      "Bucker, Arthur",
+      "Jang, Lawrence",
+      "Hui, Zack"
+    ],
+    "citation_date": [
+      "2024/09/12"
+    ],
+    "citation_online_date": [
+      "2024/09/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2409.08264"
+    ],
+    "citation_arxiv_id": [
+      "2409.08264"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) show remarkable potential to act as computer agents, enhancing human productivity and software accessibility in multi-modal tasks that require planning and reasoning. However, measuring agent performance in realistic environments remains a challenge since: (i) most benchmarks are limited to specific modalities or domains (e.g. text-only, web navigation, Q&A, coding) and (ii) full benchmark evaluations are slow (on order of magnitude of days) given the multi-step sequential nature of tasks. To address these challenges, we introduce the Windows Agent Arena: a reproducible, general environment focusing exclusively on the Windows operating system (OS) where agents can operate freely within a real Windows OS and use the same wide range of applications, tools, and web browsers available to human users when solving tasks. We adapt the OSWorld framework (Xie et al., 2024) to create 150+ diverse Windows tasks across representative domains that require agent abilities in planning, screen understanding, and tool usage. Our benchmark is scalable and can be seamlessly parallelized in Azure for a full benchmark evaluation in as little as 20 minutes. To demonstrate Windows Agent Arena's capabilities, we also introduce a new multi-modal agent, Navi. Our agent achieves a success rate of 19.5% in the Windows domain, compared to 74.5% performance of an unassisted human. Navi also demonstrates strong performance on another popular web-based benchmark, Mind2Web. We offer extensive quantitative and qualitative analysis of Navi's performance, and provide insights into the opportunities for future research in agent development and data generation using Windows Agent Arena. Webpage: https://microsoft.github.io/WindowsAgentArena Code: https://github.com/microsoft/WindowsAgentArena"
+    ]
+  },
+  "html_sha256": "4c4095f749764a05cef78abdb200e05fd7217953827893a1ecd05629b9ebf7ad",
+  "evidence_html": "evidence/1117dbd3497996a87ef3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,118 @@
+{
+  "url": "https://arxiv.org/abs/2603.11853",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.11853",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.11853",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:27.285807+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.11853",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41754,
+  "title": "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",
+  "authors": [
+    "Li, Frank"
+  ],
+  "first_author": "Li, Frank",
+  "year": 2026,
+  "source_date": "2026/03/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2603.11853",
+  "abstract": "Tool-augmented LLM agents introduce security risks that extend beyond user-input filtering, including indirect prompt injection through fetched content, unsafe tool execution, credential leakage, and tampering with local control files. We present OpenClaw PRISM, a zero-fork runtime security layer for OpenClaw-based agent gateways. PRISM combines an in-process plugin with optional sidecar services and distributes enforcement across ten lifecycle hooks spanning message ingress, prompt construction, tool execution, tool-result persistence, outbound messaging, sub-agent spawning, and gateway startup. Rather than introducing a novel detection model, PRISM integrates a hybrid heuristic-plus-LLM scanning pipeline, conversation- and session-scoped risk accumulation with TTL-based decay, policy-enforced controls over tools, paths, private networks, domain tiers, and outbound secret patterns, and a tamper-evident audit and operations plane with integrity verification and hot-reloadable policy management. We outline an evaluation methodology and benchmark pipeline for measuring security effectiveness, false positives, layer contribution, runtime overhead, and operational recoverability in an agent-runtime setting, and we report current preliminary benchmark results on curated same-slice experiments and operational microbenchmarks. The system targets deployable runtime defense for real agent gateways rather than benchmark-only detection.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.11853: OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.11853v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Tool-augmented LLM agents introduce security risks that extend beyond user-input filtering, including indirect prompt injection through fetched content, unsafe tool execution, credential leakage, and tampering with local control files. We present OpenClaw PRISM, a zero-fork runtime security layer for OpenClaw-based agent gateways. PRISM combines an in-process plugin with optional sidecar services and distributes enforcement across ten lifecycle hooks spanning message ingress, prompt construction, tool execution, tool-result persistence, outbound messaging, sub-agent spawning, and gateway startup. Rather than introducing a novel detection model, PRISM integrates a hybrid heuristic-plus-LLM scanning pipeline, conversation- and session-scoped risk accumulation with TTL-based decay, policy-enforced controls over tools, paths, private networks, domain tiers, and outbound secret patterns, and a tamper-evident audit and operations plane with integrity verification and hot-reloadable policy management. We outline an evaluation methodology and benchmark pipeline for measuring security effectiveness, false positives, layer contribution, runtime overhead, and operational recoverability in an agent-runtime setting, and we report current preliminary benchmark results on curated same-slice experiments and operational microbenchmarks. The system targets deployable runtime defense for real agent gateways rather than benchmark-only detection."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security..."
+    ],
+    "twitter:description": [
+      "Tool-augmented LLM agents introduce security risks that extend beyond user-input filtering, including indirect prompt injection through fetched content, unsafe tool execution, credential leakage,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents"
+    ],
+    "citation_author": [
+      "Li, Frank"
+    ],
+    "citation_date": [
+      "2026/03/12"
+    ],
+    "citation_online_date": [
+      "2026/03/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.11853"
+    ],
+    "citation_arxiv_id": [
+      "2603.11853"
+    ],
+    "citation_abstract": [
+      "Tool-augmented LLM agents introduce security risks that extend beyond user-input filtering, including indirect prompt injection through fetched content, unsafe tool execution, credential leakage, and tampering with local control files. We present OpenClaw PRISM, a zero-fork runtime security layer for OpenClaw-based agent gateways. PRISM combines an in-process plugin with optional sidecar services and distributes enforcement across ten lifecycle hooks spanning message ingress, prompt construction, tool execution, tool-result persistence, outbound messaging, sub-agent spawning, and gateway startup. Rather than introducing a novel detection model, PRISM integrates a hybrid heuristic-plus-LLM scanning pipeline, conversation- and session-scoped risk accumulation with TTL-based decay, policy-enforced controls over tools, paths, private networks, domain tiers, and outbound secret patterns, and a tamper-evident audit and operations plane with integrity verification and hot-reloadable policy management. We outline an evaluation methodology and benchmark pipeline for measuring security effectiveness, false positives, layer contribution, runtime overhead, and operational recoverability in an agent-runtime setting, and we report current preliminary benchmark results on curated same-slice experiments and operational microbenchmarks. The system targets deployable runtime defense for real agent gateways rather than benchmark-only detection."
+    ]
+  },
+  "html_sha256": "86accccfff89885bcbb06cf1e663952dceb3f4df103aa3742f100ca68bc17645",
+  "evidence_html": "evidence/9a66355c78c0f92f53aa.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

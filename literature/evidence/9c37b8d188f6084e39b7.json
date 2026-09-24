@@ -1,0 +1,142 @@
+{
+  "url": "https://proceedings.mlr.press/v267/starace25a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v267/starace25a.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Paperbench: Evaluating ai’s ability to replicate AI research",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v267/starace25a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:10.073507+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v267/starace25a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 17686,
+  "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+  "authors": [
+    "Giulio Starace",
+    "Oliver Jaffe",
+    "Dane Sherburn",
+    "James Aung",
+    "Jun Shern Chan",
+    "Leon Maksin",
+    "Rachel Dias",
+    "Evan Mays",
+    "Benjamin Kinsella",
+    "Wyatt Thompson",
+    "Johannes Heidecke",
+    "Amelia Glaese",
+    "Tejal Patwardhan"
+  ],
+  "first_author": "Giulio Starace",
+  "year": 2025,
+  "source_date": "2025/10/06",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research. Agents must replicate 20 ICML 2024 Spotlight and Oral papers from scratch, including understanding paper contributions, developing a codebase, and successfully executing experiments. For objective evaluation, we develop rubrics that hierarchically decompose each replication task into smaller sub-tasks with clear grading criteria. In total, PaperBench contains 8,316 individually gradable tasks. Rubrics are co-developed with the author(s) of each ICML paper for accuracy and realism. To enable scalable evaluation, we also develop an LLM-based judge to automatically grade replication attempts against rubrics, and assess our judge’s performance by creating a separate benchmark for judges. We evaluate several frontier models on PaperBench, finding that the best-performing tested agent, Claude 3.5 Sonnet (New) with open-source scaffolding, achieves an average replication score of 21.0%. Finally, we recruit top ML PhDs to attempt a subset of PaperBench, finding that models do not yet outperform the human baseline. We open-source our code (https://github.com/openai/preparedness) to facilitate future research in understanding the AI engineering capabilities of AI agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "PaperBench: Evaluating AI’s Ability to Replicate AI ResearchGiulio Starace, Oliver Jaffe, Dane Sherburn, James Aung, Jun Shern Chan, ..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "PaperBench: Evaluating AI’s Ability to Replicate AI Research"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v267/starace25a.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/starace25a/starace25a.pdf"
+    ],
+    "citation_firstpage": [
+      "56843"
+    ],
+    "citation_lastpage": [
+      "56873"
+    ],
+    "citation_author": [
+      "Giulio Starace",
+      "Oliver Jaffe",
+      "Dane Sherburn",
+      "James Aung",
+      "Jun Shern Chan",
+      "Leon Maksin",
+      "Rachel Dias",
+      "Evan Mays",
+      "Benjamin Kinsella",
+      "Wyatt Thompson",
+      "Johannes Heidecke",
+      "Amelia Glaese",
+      "Tejal Patwardhan"
+    ],
+    "citation_publication_date": [
+      "2025/10/06"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "PaperBench: Evaluating AI’s Ability to Replicate AI Research"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research. Agents must replicate 20 ICML 2024 Spotli..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "PaperBench: Evaluating AI’s Ability to Replicate AI Research"
+    ],
+    "og:description": [
+      "We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research. Agents must replicate 20 ICML 2024 Spotlight and Oral papers from scratch, includ..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2025-10-06T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v267/starace25a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "34f3b630523d6c77e926fdc0f44db5e28cb0d74644ed65a6c2e50ccc8ed40f2e",
+  "evidence_html": "evidence/9c37b8d188f6084e39b7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

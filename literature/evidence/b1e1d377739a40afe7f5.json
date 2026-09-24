@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2510.10073",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.10073",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Adversarial environment variation/GUI and web security",
+      "title_hint": "SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.10073",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:52.376238+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.10073",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44953,
+  "title": "SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents",
+  "authors": [
+    "Ying, Zonghao",
+    "Shao, Yangguang",
+    "Gan, Jianle",
+    "Xu, Gan",
+    "Zhang, Wenxin",
+    "Zou, Quanchen",
+    "Shi, Junzheng",
+    "Yin, Zhenfei",
+    "Zhang, Mingchuan",
+    "Liu, Aishan",
+    "Liu, Xianglong"
+  ],
+  "first_author": "Ying, Zonghao",
+  "year": 2025,
+  "source_date": "2025/10/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.10073",
+  "abstract": "Large vision-language model (LVLM)-based web agents are emerging as powerful tools for automating complex online tasks. However, when deployed in real-world environments, they face serious security risks, motivating the design of security evaluation benchmarks. Existing benchmarks provide only partial coverage, typically restricted to narrow scenarios such as user-level prompt manipulation, and thus fail to capture the broad range of agent vulnerabilities. To address this gap, we present \\tool{}, the first holistic benchmark for evaluating the security of LVLM-based web agents. \\tool{} first introduces a unified evaluation suite comprising six simulated but realistic web environments (\\eg, e-commerce platforms, community forums) and includes 2,970 high-quality trajectories spanning diverse tasks and attack settings. The suite defines a structured taxonomy of six attack vectors spanning both user-level and environment-level manipulations. In addition, we introduce a multi-layered evaluation protocol that analyzes agent failures across three critical dimensions: internal reasoning, behavioral trajectory, and task outcome, facilitating a fine-grained risk analysis that goes far beyond simple success metrics. Using this benchmark, we conduct large-scale experiments on 9 representative LVLMs, which fall into three categories: general-purpose, agent-specialized, and GUI-grounded. Our results show that all tested agents are consistently vulnerable to subtle adversarial manipulations and reveal critical trade-offs between model specialization and security. By providing (1) a comprehensive benchmark suite with diverse environments and a multi-layered evaluation pipeline, and (2) empirical insights into the security challenges of modern LVLM-based web agents, \\tool{} establishes a foundation for advancing trustworthy web agent deployment.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.10073: SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.10073v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large vision-language model (LVLM)-based web agents are emerging as powerful tools for automating complex online tasks. However, when deployed in real-world environments, they face serious security risks, motivating the design of security evaluation benchmarks. Existing benchmarks provide only partial coverage, typically restricted to narrow scenarios such as user-level prompt manipulation, and thus fail to capture the broad range of agent vulnerabilities. To address this gap, we present \\tool{}, the first holistic benchmark for evaluating the security of LVLM-based web agents. \\tool{} first introduces a unified evaluation suite comprising six simulated but realistic web environments (\\eg, e-commerce platforms, community forums) and includes 2,970 high-quality trajectories spanning diverse tasks and attack settings. The suite defines a structured taxonomy of six attack vectors spanning both user-level and environment-level manipulations. In addition, we introduce a multi-layered evaluation protocol that analyzes agent failures across three critical dimensions: internal reasoning, behavioral trajectory, and task outcome, facilitating a fine-grained risk analysis that goes far beyond simple success metrics. Using this benchmark, we conduct large-scale experiments on 9 representative LVLMs, which fall into three categories: general-purpose, agent-specialized, and GUI-grounded. Our results show that all tested agents are consistently vulnerable to subtle adversarial manipulations and reveal critical trade-offs between model specialization and security. By providing (1) a comprehensive benchmark suite with diverse environments and a multi-layered evaluation pipeline, and (2) empirical insights into the security challenges of modern LVLM-based web agents, \\tool{} establishes a foundation for advancing trustworthy web agent deployment."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SecureWebArena: A Holistic Security Evaluation Benchmark for..."
+    ],
+    "twitter:description": [
+      "Large vision-language model (LVLM)-based web agents are emerging as powerful tools for automating complex online tasks. However, when deployed in real-world environments, they face serious..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents"
+    ],
+    "citation_author": [
+      "Ying, Zonghao",
+      "Shao, Yangguang",
+      "Gan, Jianle",
+      "Xu, Gan",
+      "Zhang, Wenxin",
+      "Zou, Quanchen",
+      "Shi, Junzheng",
+      "Yin, Zhenfei",
+      "Zhang, Mingchuan",
+      "Liu, Aishan",
+      "Liu, Xianglong"
+    ],
+    "citation_date": [
+      "2025/10/11"
+    ],
+    "citation_online_date": [
+      "2026/04/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.10073"
+    ],
+    "citation_arxiv_id": [
+      "2510.10073"
+    ],
+    "citation_abstract": [
+      "Large vision-language model (LVLM)-based web agents are emerging as powerful tools for automating complex online tasks. However, when deployed in real-world environments, they face serious security risks, motivating the design of security evaluation benchmarks. Existing benchmarks provide only partial coverage, typically restricted to narrow scenarios such as user-level prompt manipulation, and thus fail to capture the broad range of agent vulnerabilities. To address this gap, we present \\tool{}, the first holistic benchmark for evaluating the security of LVLM-based web agents. \\tool{} first introduces a unified evaluation suite comprising six simulated but realistic web environments (\\eg, e-commerce platforms, community forums) and includes 2,970 high-quality trajectories spanning diverse tasks and attack settings. The suite defines a structured taxonomy of six attack vectors spanning both user-level and environment-level manipulations. In addition, we introduce a multi-layered evaluation protocol that analyzes agent failures across three critical dimensions: internal reasoning, behavioral trajectory, and task outcome, facilitating a fine-grained risk analysis that goes far beyond simple success metrics. Using this benchmark, we conduct large-scale experiments on 9 representative LVLMs, which fall into three categories: general-purpose, agent-specialized, and GUI-grounded. Our results show that all tested agents are consistently vulnerable to subtle adversarial manipulations and reveal critical trade-offs between model specialization and security. By providing (1) a comprehensive benchmark suite with diverse environments and a multi-layered evaluation pipeline, and (2) empirical insights into the security challenges of modern LVLM-based web agents, \\tool{} establishes a foundation for advancing trustworthy web agent deployment."
+    ]
+  },
+  "html_sha256": "1b56b9ecdeca0f15a7469efa53a1357cf1c2d007545779cd9c2b4522b05aa921",
+  "evidence_html": "evidence/b1e1d377739a40afe7f5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

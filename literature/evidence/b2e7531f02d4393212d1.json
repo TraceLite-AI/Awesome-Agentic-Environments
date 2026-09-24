@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2602.00592",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.00592",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Docksmith: Scaling reliable coding environments via an agentic docker builder",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.00592",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:34.129673+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.00592",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42526,
+  "title": "DockSmith: Scaling Reliable Coding Environments via an Agentic Docker Builder",
+  "authors": [
+    "Zhang, Jiaran",
+    "Ma, Luck",
+    "Wan, Fanqi",
+    "Qi, Di",
+    "Zhao, Xu",
+    "Hou, Jieyi",
+    "Xie, Zhe",
+    "Ren, Mengqiang",
+    "Wu, Xin",
+    "Huang, Zhewei",
+    "Chen, Liangyu",
+    "Han, Qi",
+    "Zhang, Xiangyu"
+  ],
+  "first_author": "Zhang, Jiaran",
+  "year": 2026,
+  "source_date": "2026/01/31",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.00592",
+  "abstract": "Reliable Docker-based environment construction is a dominant bottleneck for scaling execution-grounded training and evaluation of software engineering agents. We introduce DockSmith, a specialized agentic Docker builder designed to address this challenge. DockSmith treats environment construction not only as a preprocessing step, but as a core agentic capability that exercises long-horizon tool use, dependency reasoning, and failure recovery, yielding supervision that transfers beyond Docker building itself. DockSmith is trained on large-scale, execution-grounded Docker-building trajectories produced by a SWE-Factory-style pipeline augmented with a loop-detection controller and a cross-task success memory. Training a 30B-A3B model on these trajectories achieves open-source state-of-the-art performance on Multi-Docker-Eval, with 39.72% Fail-to-Pass and 58.28% Commit Rate. Moreover, DockSmith improves out-of-distribution performance on SWE-bench Verified, SWE-bench Multilingual, and Terminal-Bench 2.0, demonstrating broader agentic benefits of environment construction.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.00592: DockSmith: Scaling Reliable Coding Environments via an Agentic Docker Builder"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DockSmith: Scaling Reliable Coding Environments via an Agentic Docker Builder"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.00592v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Reliable Docker-based environment construction is a dominant bottleneck for scaling execution-grounded training and evaluation of software engineering agents. We introduce DockSmith, a specialized agentic Docker builder designed to address this challenge. DockSmith treats environment construction not only as a preprocessing step, but as a core agentic capability that exercises long-horizon tool use, dependency reasoning, and failure recovery, yielding supervision that transfers beyond Docker building itself. DockSmith is trained on large-scale, execution-grounded Docker-building trajectories produced by a SWE-Factory-style pipeline augmented with a loop-detection controller and a cross-task success memory. Training a 30B-A3B model on these trajectories achieves open-source state-of-the-art performance on Multi-Docker-Eval, with 39.72% Fail-to-Pass and 58.28% Commit Rate. Moreover, DockSmith improves out-of-distribution performance on SWE-bench Verified, SWE-bench Multilingual, and Terminal-Bench 2.0, demonstrating broader agentic benefits of environment construction."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DockSmith: Scaling Reliable Coding Environments via an Agentic..."
+    ],
+    "twitter:description": [
+      "Reliable Docker-based environment construction is a dominant bottleneck for scaling execution-grounded training and evaluation of software engineering agents. We introduce DockSmith, a specialized..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DockSmith: Scaling Reliable Coding Environments via an Agentic Docker Builder"
+    ],
+    "citation_author": [
+      "Zhang, Jiaran",
+      "Ma, Luck",
+      "Wan, Fanqi",
+      "Qi, Di",
+      "Zhao, Xu",
+      "Hou, Jieyi",
+      "Xie, Zhe",
+      "Ren, Mengqiang",
+      "Wu, Xin",
+      "Huang, Zhewei",
+      "Chen, Liangyu",
+      "Han, Qi",
+      "Zhang, Xiangyu"
+    ],
+    "citation_date": [
+      "2026/01/31"
+    ],
+    "citation_online_date": [
+      "2026/04/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.00592"
+    ],
+    "citation_arxiv_id": [
+      "2602.00592"
+    ],
+    "citation_abstract": [
+      "Reliable Docker-based environment construction is a dominant bottleneck for scaling execution-grounded training and evaluation of software engineering agents. We introduce DockSmith, a specialized agentic Docker builder designed to address this challenge. DockSmith treats environment construction not only as a preprocessing step, but as a core agentic capability that exercises long-horizon tool use, dependency reasoning, and failure recovery, yielding supervision that transfers beyond Docker building itself. DockSmith is trained on large-scale, execution-grounded Docker-building trajectories produced by a SWE-Factory-style pipeline augmented with a loop-detection controller and a cross-task success memory. Training a 30B-A3B model on these trajectories achieves open-source state-of-the-art performance on Multi-Docker-Eval, with 39.72% Fail-to-Pass and 58.28% Commit Rate. Moreover, DockSmith improves out-of-distribution performance on SWE-bench Verified, SWE-bench Multilingual, and Terminal-Bench 2.0, demonstrating broader agentic benefits of environment construction."
+    ]
+  },
+  "html_sha256": "ffe8bd78dc20cc088bc3474ff054161b9186671ab3a31754fdd96cadd7dcd241",
+  "evidence_html": "evidence/b2e7531f02d4393212d1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

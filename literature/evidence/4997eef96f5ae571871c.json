@@ -1,0 +1,160 @@
+{
+  "url": "https://arxiv.org/abs/2107.12808",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2107.12808",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2021 · XLand — Open-Ended Learning Leads to Generally Capable Agents",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2107.12808",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-31",
+      "topic": "RL 基础设施与产业",
+      "title_hint": "Open Ended Learning Team. Open-Ended Learning Leads to Generally Capable Agents. arXiv:2107.12808.",
+      "existing_reference_number": 31,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2107.12808",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:57.702445+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2107.12808",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 47991,
+  "title": "Open-Ended Learning Leads to Generally Capable Agents",
+  "authors": [
+    "Open Ended Learning Team",
+    "Stooke, Adam",
+    "Mahajan, Anuj",
+    "Barros, Catarina",
+    "Deck, Charlie",
+    "Bauer, Jakob",
+    "Sygnowski, Jakub",
+    "Trebacz, Maja",
+    "Jaderberg, Max",
+    "Mathieu, Michael",
+    "McAleese, Nat",
+    "Bradley-Schmieg, Nathalie",
+    "Wong, Nathaniel",
+    "Porcel, Nicolas",
+    "Raileanu, Roberta",
+    "Hughes-Fitt, Steph",
+    "Dalibard, Valentin",
+    "Czarnecki, Wojciech Marian"
+  ],
+  "first_author": "Open Ended Learning Team",
+  "year": 2021,
+  "source_date": "2021/07/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2107.12808",
+  "abstract": "In this work we create agents that can perform well beyond a single, individual task, that exhibit much wider generalisation of behaviour to a massive, rich space of challenges. We define a universe of tasks within an environment domain and demonstrate the ability to train agents that are generally capable across this vast space and beyond. The environment is natively multi-agent, spanning the continuum of competitive, cooperative, and independent games, which are situated within procedurally generated physical 3D worlds. The resulting space is exceptionally diverse in terms of the challenges posed to agents, and as such, even measuring the learning progress of an agent is an open research problem. We propose an iterative notion of improvement between successive generations of agents, rather than seeking to maximise a singular objective, allowing us to quantify progress despite tasks being incomparable in terms of achievable rewards. We show that through constructing an open-ended learning process, which dynamically changes the training task distributions and training objectives such that the agent never stops learning, we achieve consistent learning of new behaviours. The resulting agent is able to score reward in every one of our humanly solvable evaluation levels, with behaviour generalising to many held-out points in the universe of tasks. Examples of this zero-shot generalisation include good performance on Hide and Seek, Capture the Flag, and Tag. Through analysis and hand-authored probe tasks we characterise the behaviour of our agent, and find interesting emergent heuristic behaviours such as trial-and-error experimentation, simple tool use, option switching, and cooperation. Finally, we demonstrate that the general capabilities of this agent could unlock larger scale transfer of behaviour through cheap finetuning.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2107.12808: Open-Ended Learning Leads to Generally Capable Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Open-Ended Learning Leads to Generally Capable Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2107.12808v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "In this work we create agents that can perform well beyond a single, individual task, that exhibit much wider generalisation of behaviour to a massive, rich space of challenges. We define a universe of tasks within an environment domain and demonstrate the ability to train agents that are generally capable across this vast space and beyond. The environment is natively multi-agent, spanning the continuum of competitive, cooperative, and independent games, which are situated within procedurally generated physical 3D worlds. The resulting space is exceptionally diverse in terms of the challenges posed to agents, and as such, even measuring the learning progress of an agent is an open research problem. We propose an iterative notion of improvement between successive generations of agents, rather than seeking to maximise a singular objective, allowing us to quantify progress despite tasks being incomparable in terms of achievable rewards. We show that through constructing an open-ended learning process, which dynamically changes the training task distributions and training objectives such that the agent never stops learning, we achieve consistent learning of new behaviours. The resulting agent is able to score reward in every one of our humanly solvable evaluation levels, with behaviour generalising to many held-out points in the universe of tasks. Examples of this zero-shot generalisation include good performance on Hide and Seek, Capture the Flag, and Tag. Through analysis and hand-authored probe tasks we characterise the behaviour of our agent, and find interesting emergent heuristic behaviours such as trial-and-error experimentation, simple tool use, option switching, and cooperation. Finally, we demonstrate that the general capabilities of this agent could unlock larger scale transfer of behaviour through cheap finetuning."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Open-Ended Learning Leads to Generally Capable Agents"
+    ],
+    "twitter:description": [
+      "In this work we create agents that can perform well beyond a single, individual task, that exhibit much wider generalisation of behaviour to a massive, rich space of challenges. We define a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Open-Ended Learning Leads to Generally Capable Agents"
+    ],
+    "citation_author": [
+      "Open Ended Learning Team",
+      "Stooke, Adam",
+      "Mahajan, Anuj",
+      "Barros, Catarina",
+      "Deck, Charlie",
+      "Bauer, Jakob",
+      "Sygnowski, Jakub",
+      "Trebacz, Maja",
+      "Jaderberg, Max",
+      "Mathieu, Michael",
+      "McAleese, Nat",
+      "Bradley-Schmieg, Nathalie",
+      "Wong, Nathaniel",
+      "Porcel, Nicolas",
+      "Raileanu, Roberta",
+      "Hughes-Fitt, Steph",
+      "Dalibard, Valentin",
+      "Czarnecki, Wojciech Marian"
+    ],
+    "citation_date": [
+      "2021/07/27"
+    ],
+    "citation_online_date": [
+      "2021/07/31"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2107.12808"
+    ],
+    "citation_arxiv_id": [
+      "2107.12808"
+    ],
+    "citation_abstract": [
+      "In this work we create agents that can perform well beyond a single, individual task, that exhibit much wider generalisation of behaviour to a massive, rich space of challenges. We define a universe of tasks within an environment domain and demonstrate the ability to train agents that are generally capable across this vast space and beyond. The environment is natively multi-agent, spanning the continuum of competitive, cooperative, and independent games, which are situated within procedurally generated physical 3D worlds. The resulting space is exceptionally diverse in terms of the challenges posed to agents, and as such, even measuring the learning progress of an agent is an open research problem. We propose an iterative notion of improvement between successive generations of agents, rather than seeking to maximise a singular objective, allowing us to quantify progress despite tasks being incomparable in terms of achievable rewards. We show that through constructing an open-ended learning process, which dynamically changes the training task distributions and training objectives such that the agent never stops learning, we achieve consistent learning of new behaviours. The resulting agent is able to score reward in every one of our humanly solvable evaluation levels, with behaviour generalising to many held-out points in the universe of tasks. Examples of this zero-shot generalisation include good performance on Hide and Seek, Capture the Flag, and Tag. Through analysis and hand-authored probe tasks we characterise the behaviour of our agent, and find interesting emergent heuristic behaviours such as trial-and-error experimentation, simple tool use, option switching, and cooperation. Finally, we demonstrate that the general capabilities of this agent could unlock larger scale transfer of behaviour through cheap finetuning."
+    ]
+  },
+  "html_sha256": "6633063abb1c31a2a403de422aac6f0837caa5dde577d0c607ad9ce3499f9e64",
+  "evidence_html": "evidence/4997eef96f5ae571871c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

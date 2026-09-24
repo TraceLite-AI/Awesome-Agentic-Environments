@@ -1,0 +1,147 @@
+{
+  "url": "https://arxiv.org/abs/2507.23370",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.23370",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.23370",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:41.005336+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.23370",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44748,
+  "title": "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling",
+  "authors": [
+    "Trae Research Team",
+    "Gao, Pengfei",
+    "Tian, Zhao",
+    "Meng, Xiangxin",
+    "Wang, Xinchen",
+    "Hu, Ruida",
+    "Xiao, Yuanan",
+    "Liu, Yizhou",
+    "Zhang, Zhao",
+    "Chen, Junjie",
+    "Gao, Cuiyun",
+    "Lin, Yun",
+    "Xiong, Yingfei",
+    "Peng, Chao",
+    "Liu, Xia"
+  ],
+  "first_author": "Trae Research Team",
+  "year": 2025,
+  "source_date": "2025/07/31",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.23370",
+  "abstract": "Software issue resolution is a critical challenge in software engineering and has garnered increasing attention in recent years. With the rapid advancement of large language models (LLMs), substantial progress has been made in addressing real-world software engineering tasks. Recent studies have introduced ensemble reasoning techniques to enhance the performance of LLM-based issue resolution. However, existing prompting-based methods still face limitations in effectively exploring large ensemble spaces and lack the capacity for repository-level understanding, both of which constrain their overall effectiveness. In this paper, we propose Trae Agent, the first agent-based ensemble reasoning approach for repository-level issue resolution. Trae Agent formulates our goal as an optimal solution search problem and addresses two key challenges, i.e., large ensemble spaces and repository-level understanding, through modular agents for generation, pruning, and selection. We conduct extensive experiments using three leading LLMs on the widely-adopted SWE-bench benchmark, comparing Trae Agent against four state-of-the-art ensemble reasoning techniques. Experimental results demonstrate that Trae Agent consistently achieves superior performance, with an average improvement of 10.22% over all baselines in terms of Pass@1. Trae Agent has achieved first place on the SWE-bench Verified leaderboard, with a notable Pass@1 score of 75.20%. We are pleased to release Trae Agent as an open-source project to support the research community, with all resources available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.23370: Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.23370v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Software issue resolution is a critical challenge in software engineering and has garnered increasing attention in recent years. With the rapid advancement of large language models (LLMs), substantial progress has been made in addressing real-world software engineering tasks. Recent studies have introduced ensemble reasoning techniques to enhance the performance of LLM-based issue resolution. However, existing prompting-based methods still face limitations in effectively exploring large ensemble spaces and lack the capacity for repository-level understanding, both of which constrain their overall effectiveness. In this paper, we propose Trae Agent, the first agent-based ensemble reasoning approach for repository-level issue resolution. Trae Agent formulates our goal as an optimal solution search problem and addresses two key challenges, i.e., large ensemble spaces and repository-level understanding, through modular agents for generation, pruning, and selection. We conduct extensive experiments using three leading LLMs on the widely-adopted SWE-bench benchmark, comparing Trae Agent against four state-of-the-art ensemble reasoning techniques. Experimental results demonstrate that Trae Agent consistently achieves superior performance, with an average improvement of 10.22% over all baselines in terms of Pass@1. Trae Agent has achieved first place on the SWE-bench Verified leaderboard, with a notable Pass@1 score of 75.20%. We are pleased to release Trae Agent as an open-source project to support the research community, with all resources available at https://github.com/bytedance/trae-agent."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Trae Agent: An LLM-based Agent for Software Engineering with..."
+    ],
+    "twitter:description": [
+      "Software issue resolution is a critical challenge in software engineering and has garnered increasing attention in recent years. With the rapid advancement of large language models (LLMs),..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling"
+    ],
+    "citation_author": [
+      "Trae Research Team",
+      "Gao, Pengfei",
+      "Tian, Zhao",
+      "Meng, Xiangxin",
+      "Wang, Xinchen",
+      "Hu, Ruida",
+      "Xiao, Yuanan",
+      "Liu, Yizhou",
+      "Zhang, Zhao",
+      "Chen, Junjie",
+      "Gao, Cuiyun",
+      "Lin, Yun",
+      "Xiong, Yingfei",
+      "Peng, Chao",
+      "Liu, Xia"
+    ],
+    "citation_date": [
+      "2025/07/31"
+    ],
+    "citation_online_date": [
+      "2025/07/31"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.23370"
+    ],
+    "citation_arxiv_id": [
+      "2507.23370"
+    ],
+    "citation_abstract": [
+      "Software issue resolution is a critical challenge in software engineering and has garnered increasing attention in recent years. With the rapid advancement of large language models (LLMs), substantial progress has been made in addressing real-world software engineering tasks. Recent studies have introduced ensemble reasoning techniques to enhance the performance of LLM-based issue resolution. However, existing prompting-based methods still face limitations in effectively exploring large ensemble spaces and lack the capacity for repository-level understanding, both of which constrain their overall effectiveness. In this paper, we propose Trae Agent, the first agent-based ensemble reasoning approach for repository-level issue resolution. Trae Agent formulates our goal as an optimal solution search problem and addresses two key challenges, i.e., large ensemble spaces and repository-level understanding, through modular agents for generation, pruning, and selection. We conduct extensive experiments using three leading LLMs on the widely-adopted SWE-bench benchmark, comparing Trae Agent against four state-of-the-art ensemble reasoning techniques. Experimental results demonstrate that Trae Agent consistently achieves superior performance, with an average improvement of 10.22% over all baselines in terms of Pass@1. Trae Agent has achieved first place on the SWE-bench Verified leaderboard, with a notable Pass@1 score of 75.20%. We are pleased to release Trae Agent as an open-source project to support the research community, with all resources available at https://github.com/bytedance/trae-agent."
+    ]
+  },
+  "html_sha256": "94f911ff829b3b8193e902cfe2e47dc08f0936c273ae9acf2c11b4d362881de6",
+  "evidence_html": "evidence/7c9e5cd8c09768773b6e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

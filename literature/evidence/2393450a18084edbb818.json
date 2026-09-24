@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2502.14321",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2502.14321",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2502.14321",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:26.438100+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2502.14321",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45108,
+  "title": "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems",
+  "authors": [
+    "Yan, Bingyu",
+    "Zhou, Zhibo",
+    "Zhang, Litian",
+    "Zhang, Lian",
+    "Zhou, Ziyi",
+    "Miao, Dezhuang",
+    "Li, Zhoujun",
+    "Li, Chaozhuo",
+    "Zhang, Xiaoming"
+  ],
+  "first_author": "Yan, Bingyu",
+  "year": 2025,
+  "source_date": "2025/02/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1007/s11704-026-50857-y",
+  "arxiv_id": "2502.14321",
+  "abstract": "Large language model-based multi-agent systems have recently gained significant attention due to their potential for complex, collaborative, and intelligent problem-solving capabilities. Existing surveys typically categorize LLM-based multi-agent systems (LLM-MAS) according to their application domains or architectures, overlooking the central role of communication in coordinating agent behaviors and interactions. To address this gap, this paper presents a comprehensive survey of LLM-MAS from a communication-centric perspective. Specifically, we propose a structured framework that integrates system-level communication (architecture, goals, and protocols) with system internal communication (strategies, paradigms, objects, and content), enabling a detailed exploration of how agents interact, negotiate, and achieve collective intelligence. Through an extensive analysis of recent literature, we identify key components in multiple dimensions and summarize their strengths and limitations. In addition, we highlight current challenges, including communication efficiency, security vulnerabilities, inadequate benchmarking, and scalability issues, and outline promising future research directions. This review aims to help researchers and practitioners gain a clear understanding of the communication mechanisms in LLM-MAS, thereby facilitating the design and deployment of robust, scalable, and secure multi-agent systems.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2502.14321: Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2502.14321v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model-based multi-agent systems have recently gained significant attention due to their potential for complex, collaborative, and intelligent problem-solving capabilities. Existing surveys typically categorize LLM-based multi-agent systems (LLM-MAS) according to their application domains or architectures, overlooking the central role of communication in coordinating agent behaviors and interactions. To address this gap, this paper presents a comprehensive survey of LLM-MAS from a communication-centric perspective. Specifically, we propose a structured framework that integrates system-level communication (architecture, goals, and protocols) with system internal communication (strategies, paradigms, objects, and content), enabling a detailed exploration of how agents interact, negotiate, and achieve collective intelligence. Through an extensive analysis of recent literature, we identify key components in multiple dimensions and summarize their strengths and limitations. In addition, we highlight current challenges, including communication efficiency, security vulnerabilities, inadequate benchmarking, and scalability issues, and outline promising future research directions. This review aims to help researchers and practitioners gain a clear understanding of the communication mechanisms in LLM-MAS, thereby facilitating the design and deployment of robust, scalable, and secure multi-agent systems."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based..."
+    ],
+    "twitter:description": [
+      "Large language model-based multi-agent systems have recently gained significant attention due to their potential for complex, collaborative, and intelligent problem-solving capabilities. Existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems"
+    ],
+    "citation_author": [
+      "Yan, Bingyu",
+      "Zhou, Zhibo",
+      "Zhang, Litian",
+      "Zhang, Lian",
+      "Zhou, Ziyi",
+      "Miao, Dezhuang",
+      "Li, Zhoujun",
+      "Li, Chaozhuo",
+      "Zhang, Xiaoming"
+    ],
+    "citation_doi": [
+      "10.1007/s11704-026-50857-y"
+    ],
+    "citation_date": [
+      "2025/02/20"
+    ],
+    "citation_online_date": [
+      "2026/05/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2502.14321"
+    ],
+    "citation_arxiv_id": [
+      "2502.14321"
+    ],
+    "citation_abstract": [
+      "Large language model-based multi-agent systems have recently gained significant attention due to their potential for complex, collaborative, and intelligent problem-solving capabilities. Existing surveys typically categorize LLM-based multi-agent systems (LLM-MAS) according to their application domains or architectures, overlooking the central role of communication in coordinating agent behaviors and interactions. To address this gap, this paper presents a comprehensive survey of LLM-MAS from a communication-centric perspective. Specifically, we propose a structured framework that integrates system-level communication (architecture, goals, and protocols) with system internal communication (strategies, paradigms, objects, and content), enabling a detailed exploration of how agents interact, negotiate, and achieve collective intelligence. Through an extensive analysis of recent literature, we identify key components in multiple dimensions and summarize their strengths and limitations. In addition, we highlight current challenges, including communication efficiency, security vulnerabilities, inadequate benchmarking, and scalability issues, and outline promising future research directions. This review aims to help researchers and practitioners gain a clear understanding of the communication mechanisms in LLM-MAS, thereby facilitating the design and deployment of robust, scalable, and secure multi-agent systems."
+    ]
+  },
+  "html_sha256": "5fd7e03c18e33a15d27033c71bdf96ab96a4dba9698fc6f2ea9ae31e3bf87b9d",
+  "evidence_html": "evidence/2393450a18084edbb818.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

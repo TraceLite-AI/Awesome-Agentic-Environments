@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2508.08501",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.08501",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Gvgai-llm: Evaluating large language model agents with infinite games",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.08501",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:02.264788+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.08501",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42652,
+  "title": "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games",
+  "authors": [
+    "Li, Yuchen",
+    "Lin, Cong",
+    "Nasir, Muhammad Umair",
+    "Bontrager, Philip",
+    "Liu, Jialin",
+    "Togelius, Julian"
+  ],
+  "first_author": "Li, Yuchen",
+  "year": 2025,
+  "source_date": "2025/08/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.08501",
+  "abstract": "We introduce GVGAI-LLM, a video game benchmark for evaluating the reasoning and problem-solving capabilities of large language models (LLMs). Built on the General Video Game AI framework, it features a diverse collection of arcade-style games designed to test a model's ability to handle tasks that differ from most existing LLM benchmarks. The benchmark leverages a video game description language that enables the rapid creation of new games (including rules and levels), helping to prevent overfitting over time. Each game scene is represented by a compact set of ASCII characters, allowing for efficient processing by language models. GVGAI-LLM defines interpretable metrics, including meaningful step ratio, step efficiency, and overall score, to assess model behavior. Through zero-shot evaluations across 118 games with diverse challenges and skill depth, we reveal persistent limitations of LLMs in spatial reasoning and basic planning. Current models consistently exhibit spatial and logical errors, motivating structured prompting and spatial grounding techniques. Although these interventions lead to partial improvements, the benchmark remains very far from being solved. GVGAI-LLM serves as a reproducible testbed for advancing research on language model capabilities, with a particular emphasis on agentic behavior and spatial reasoning. Furthermore, its ability to generate infinite benchmarks, both manually and procedurally, provides a scalable framework for longitudinal evaluation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.08501: GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.08501v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce GVGAI-LLM, a video game benchmark for evaluating the reasoning and problem-solving capabilities of large language models (LLMs). Built on the General Video Game AI framework, it features a diverse collection of arcade-style games designed to test a model's ability to handle tasks that differ from most existing LLM benchmarks. The benchmark leverages a video game description language that enables the rapid creation of new games (including rules and levels), helping to prevent overfitting over time. Each game scene is represented by a compact set of ASCII characters, allowing for efficient processing by language models. GVGAI-LLM defines interpretable metrics, including meaningful step ratio, step efficiency, and overall score, to assess model behavior. Through zero-shot evaluations across 118 games with diverse challenges and skill depth, we reveal persistent limitations of LLMs in spatial reasoning and basic planning. Current models consistently exhibit spatial and logical errors, motivating structured prompting and spatial grounding techniques. Although these interventions lead to partial improvements, the benchmark remains very far from being solved. GVGAI-LLM serves as a reproducible testbed for advancing research on language model capabilities, with a particular emphasis on agentic behavior and spatial reasoning. Furthermore, its ability to generate infinite benchmarks, both manually and procedurally, provides a scalable framework for longitudinal evaluation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games"
+    ],
+    "twitter:description": [
+      "We introduce GVGAI-LLM, a video game benchmark for evaluating the reasoning and problem-solving capabilities of large language models (LLMs). Built on the General Video Game AI framework, it..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games"
+    ],
+    "citation_author": [
+      "Li, Yuchen",
+      "Lin, Cong",
+      "Nasir, Muhammad Umair",
+      "Bontrager, Philip",
+      "Liu, Jialin",
+      "Togelius, Julian"
+    ],
+    "citation_date": [
+      "2025/08/11"
+    ],
+    "citation_online_date": [
+      "2026/05/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.08501"
+    ],
+    "citation_arxiv_id": [
+      "2508.08501"
+    ],
+    "citation_abstract": [
+      "We introduce GVGAI-LLM, a video game benchmark for evaluating the reasoning and problem-solving capabilities of large language models (LLMs). Built on the General Video Game AI framework, it features a diverse collection of arcade-style games designed to test a model's ability to handle tasks that differ from most existing LLM benchmarks. The benchmark leverages a video game description language that enables the rapid creation of new games (including rules and levels), helping to prevent overfitting over time. Each game scene is represented by a compact set of ASCII characters, allowing for efficient processing by language models. GVGAI-LLM defines interpretable metrics, including meaningful step ratio, step efficiency, and overall score, to assess model behavior. Through zero-shot evaluations across 118 games with diverse challenges and skill depth, we reveal persistent limitations of LLMs in spatial reasoning and basic planning. Current models consistently exhibit spatial and logical errors, motivating structured prompting and spatial grounding techniques. Although these interventions lead to partial improvements, the benchmark remains very far from being solved. GVGAI-LLM serves as a reproducible testbed for advancing research on language model capabilities, with a particular emphasis on agentic behavior and spatial reasoning. Furthermore, its ability to generate infinite benchmarks, both manually and procedurally, provides a scalable framework for longitudinal evaluation."
+    ]
+  },
+  "html_sha256": "c2ce39266213635f8db1c35f797da2c566cab3b528c348129106e1f0815831f9",
+  "evidence_html": "evidence/6d507ce71629f422d49a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

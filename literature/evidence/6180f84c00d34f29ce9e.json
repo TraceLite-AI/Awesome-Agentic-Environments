@@ -1,0 +1,121 @@
+{
+  "url": "https://arxiv.org/abs/2510.16059",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.16059",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "SIADAFIX: issue description response for adaptive program repair",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.16059",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:36.470495+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.16059",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41257,
+  "title": "SIADAFIX: issue description response for adaptive program repair",
+  "authors": [
+    "Cao, Xin",
+    "Yu, Nan"
+  ],
+  "first_author": "Cao, Xin",
+  "year": 2025,
+  "source_date": "2025/10/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.16059",
+  "abstract": "We propose utilizing fast and slow thinking to enhance the capabilities of large language model-based agents on complex tasks such as program repair. In particular, we design an adaptive program repair method based on issue description response, called SIADAFIX. The proposed method utilizes slow thinking bug fix agent to complete complex program repair tasks, and employs fast thinking workflow decision components to optimize and classify issue descriptions, using issue description response results to guide the orchestration of bug fix agent workflows. SIADAFIX adaptively selects three repair modes, i.e., easy, middle and hard mode, based on problem complexity. It employs fast generalization for simple problems and test-time scaling techniques for complex problems. Experimental results on the SWE-bench Lite show that the proposed method achieves 60.67% pass@1 performance using the Claude-4 Sonnet model, reaching state-of-the-art levels among all open-source methods. SIADAFIX effectively balances repair efficiency and accuracy, providing new insights for automated program repair. Our code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.16059: SIADAFIX: issue description response for adaptive program repair"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SIADAFIX: issue description response for adaptive program repair"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.16059v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We propose utilizing fast and slow thinking to enhance the capabilities of large language model-based agents on complex tasks such as program repair. In particular, we design an adaptive program repair method based on issue description response, called SIADAFIX. The proposed method utilizes slow thinking bug fix agent to complete complex program repair tasks, and employs fast thinking workflow decision components to optimize and classify issue descriptions, using issue description response results to guide the orchestration of bug fix agent workflows. SIADAFIX adaptively selects three repair modes, i.e., easy, middle and hard mode, based on problem complexity. It employs fast generalization for simple problems and test-time scaling techniques for complex problems. Experimental results on the SWE-bench Lite show that the proposed method achieves 60.67% pass@1 performance using the Claude-4 Sonnet model, reaching state-of-the-art levels among all open-source methods. SIADAFIX effectively balances repair efficiency and accuracy, providing new insights for automated program repair. Our code is available at https://github.com/liauto-siada/siada-cli."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SIADAFIX: issue description response for adaptive program repair"
+    ],
+    "twitter:description": [
+      "We propose utilizing fast and slow thinking to enhance the capabilities of large language model-based agents on complex tasks such as program repair. In particular, we design an adaptive program..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SIADAFIX: issue description response for adaptive program repair"
+    ],
+    "citation_author": [
+      "Cao, Xin",
+      "Yu, Nan"
+    ],
+    "citation_date": [
+      "2025/10/17"
+    ],
+    "citation_online_date": [
+      "2025/10/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.16059"
+    ],
+    "citation_arxiv_id": [
+      "2510.16059"
+    ],
+    "citation_abstract": [
+      "We propose utilizing fast and slow thinking to enhance the capabilities of large language model-based agents on complex tasks such as program repair. In particular, we design an adaptive program repair method based on issue description response, called SIADAFIX. The proposed method utilizes slow thinking bug fix agent to complete complex program repair tasks, and employs fast thinking workflow decision components to optimize and classify issue descriptions, using issue description response results to guide the orchestration of bug fix agent workflows. SIADAFIX adaptively selects three repair modes, i.e., easy, middle and hard mode, based on problem complexity. It employs fast generalization for simple problems and test-time scaling techniques for complex problems. Experimental results on the SWE-bench Lite show that the proposed method achieves 60.67% pass@1 performance using the Claude-4 Sonnet model, reaching state-of-the-art levels among all open-source methods. SIADAFIX effectively balances repair efficiency and accuracy, providing new insights for automated program repair. Our code is available at https://github.com/liauto-siada/siada-cli."
+    ]
+  },
+  "html_sha256": "081731b6ea12561959ec67e26de0c52e245a094ca978669c658e319b824852e7",
+  "evidence_html": "evidence/6180f84c00d34f29ce9e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

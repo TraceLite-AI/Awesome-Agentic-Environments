@@ -1,0 +1,74 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2024/hash/44af065477781e7f8a8589b14a62c489-Abstract-Conference.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/44af065477781e7f8a8589b14a62c489-Abstract-Conference.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Leveraging environment interaction for automated PDDL translation and planning with large language models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2024/hash/44af065477781e7f8a8589b14a62c489-Abstract-Conference.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:30.227972+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2024/hash/44af065477781e7f8a8589b14a62c489-Abstract-Conference.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10087,
+  "title": "Leveraging Environment Interaction for Automated PDDL Translation and Planning with Large Language Models",
+  "authors": [
+    "Mahdavi, Sadegh",
+    "Aoki, Raquel",
+    "Tang, Keyi",
+    "Cao, Yanshuai"
+  ],
+  "first_author": "Mahdavi, Sadegh",
+  "year": 2024,
+  "source_date": "2024-12-16",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/079017-1230",
+  "arxiv_id": "",
+  "abstract": "Large Language Models (LLMs) have shown remarkable performance in various natural language tasks, but they often struggle with planning problems that require structured reasoning. To address this limitation, the conversion of planning problems into the Planning Domain Definition Language (PDDL) has been proposed as a potential solution, enabling the use of automated planners. However, generating accurate PDDL files typically demands human inputs or correction, which can be time-consuming and costly. In this paper, we propose a novel approach that leverages LLMs and environment feedback to automatically generate PDDL domain and problem description files without the need for human intervention. Our method introduces an iterative refinement process that generates multiple problem PDDL candidates and progressively refines the domain PDDL based on feedback obtained from interacting with the environment. To guide the refinement process, we develop an Exploration Walk (EW) metric, which provides rich feedback signals for LLMs to update the PDDL file. We evaluate our approach on $10$ PDDL environments. We achieve an average task solve rate of 66\\% compared to a 29\\% solve rate by GPT-4's intrinsic planning with chain-of-thought prompting. Our work enables the automated modeling of planning environments using LLMs and environment feedback, eliminating the need for human intervention in the PDDL translation process and paving the way for more reliable LLM agents in challenging problems. Our code is available at https://github.com/BorealisAI/llm-pddl-planning",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "Leveraging Environment Interaction for Automated PDDL Translation and Planning with Large Language Models"
+    ],
+    "citation_author": [
+      "Mahdavi, Sadegh",
+      "Aoki, Raquel",
+      "Tang, Keyi",
+      "Cao, Yanshuai"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-1230"
+    ],
+    "citation_firstpage": [
+      "38960"
+    ],
+    "citation_lastpage": [
+      "39008"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/44af065477781e7f8a8589b14a62c489-Paper-Conference.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "html_sha256": "bf277616989119c1cb16ff3994e8b58ad1bb3b59f95fce6c5ef7f8124536bd60",
+  "evidence_html": "evidence/9fb9971b2a0054dcec93.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

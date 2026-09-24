@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2602.17594",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.17594",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Ai gamestore: Scalable, open-ended evaluation of machine general intelligence with human games",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.17594",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:59.845717+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.17594",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44758,
+  "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+  "authors": [
+    "Ying, Lance",
+    "Truong, Ryan",
+    "Sharma, Prafull",
+    "Zhao, Kaiya Ivy",
+    "Cloos, Nathan",
+    "Allen, Kelsey R.",
+    "Griffiths, Thomas L.",
+    "Collins, Katherine M.",
+    "Hernández-Orallo, José",
+    "Isola, Phillip",
+    "Gershman, Samuel J.",
+    "Tenenbaum, Joshua B."
+  ],
+  "first_author": "Ying, Lance",
+  "year": 2026,
+  "source_date": "2026/02/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.17594",
+  "abstract": "Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human activity. Most are also static, quickly saturating as developers explicitly or implicitly optimize for them. We propose that a more promising way to evaluate human-like general intelligence in AI systems is through a particularly strong form of general game playing: studying how and how well they play and learn to play \\textbf{all conceivable human games}, in comparison to human players with the same level of experience, time, or other resources. We define a \"human game\" to be a game designed by humans for humans, and argue for the evaluative suitability of this space of all such games people can imagine and enjoy -- the \"Multiverse of Human Games\". Taking a first step towards this vision, we introduce the AI GameStore, a scalable and open-ended platform that uses LLMs with humans-in-the-loop to synthesize new representative human games, by automatically sourcing and adapting standardized and containerized variants of game environments from popular human digital gaming platforms. As a proof of concept, we generated 100 such games based on the top charts of Apple App Store and Steam, and evaluated seven frontier vision-language models (VLMs) on short episodes of play. The best models achieved less than 10\\% of the human average score on the majority of the games, and especially struggled with games that challenge world-model learning, memory and planning. We conclude with a set of next steps for building out the AI GameStore as a practical way to measure and drive progress toward human-like general intelligence in machines.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.17594: AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.17594v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human activity. Most are also static, quickly saturating as developers explicitly or implicitly optimize for them. We propose that a more promising way to evaluate human-like general intelligence in AI systems is through a particularly strong form of general game playing: studying how and how well they play and learn to play \\textbf{all conceivable human games}, in comparison to human players with the same level of experience, time, or other resources. We define a \"human game\" to be a game designed by humans for humans, and argue for the evaluative suitability of this space of all such games people can imagine and enjoy -- the \"Multiverse of Human Games\". Taking a first step towards this vision, we introduce the AI GameStore, a scalable and open-ended platform that uses LLMs with humans-in-the-loop to synthesize new representative human games, by automatically sourcing and adapting standardized and containerized variants of game environments from popular human digital gaming platforms. As a proof of concept, we generated 100 such games based on the top charts of Apple App Store and Steam, and evaluated seven frontier vision-language models (VLMs) on short episodes of play. The best models achieved less than 10\\% of the human average score on the majority of the games, and especially struggled with games that challenge world-model learning, memory and planning. We conclude with a set of next steps for building out the AI GameStore as a practical way to measure and drive progress toward human-like general intelligence in machines."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General..."
+    ],
+    "twitter:description": [
+      "Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games"
+    ],
+    "citation_author": [
+      "Ying, Lance",
+      "Truong, Ryan",
+      "Sharma, Prafull",
+      "Zhao, Kaiya Ivy",
+      "Cloos, Nathan",
+      "Allen, Kelsey R.",
+      "Griffiths, Thomas L.",
+      "Collins, Katherine M.",
+      "Hernández-Orallo, José",
+      "Isola, Phillip",
+      "Gershman, Samuel J.",
+      "Tenenbaum, Joshua B."
+    ],
+    "citation_date": [
+      "2026/02/19"
+    ],
+    "citation_online_date": [
+      "2026/02/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.17594"
+    ],
+    "citation_arxiv_id": [
+      "2602.17594"
+    ],
+    "citation_abstract": [
+      "Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human activity. Most are also static, quickly saturating as developers explicitly or implicitly optimize for them. We propose that a more promising way to evaluate human-like general intelligence in AI systems is through a particularly strong form of general game playing: studying how and how well they play and learn to play \\textbf{all conceivable human games}, in comparison to human players with the same level of experience, time, or other resources. We define a \"human game\" to be a game designed by humans for humans, and argue for the evaluative suitability of this space of all such games people can imagine and enjoy -- the \"Multiverse of Human Games\". Taking a first step towards this vision, we introduce the AI GameStore, a scalable and open-ended platform that uses LLMs with humans-in-the-loop to synthesize new representative human games, by automatically sourcing and adapting standardized and containerized variants of game environments from popular human digital gaming platforms. As a proof of concept, we generated 100 such games based on the top charts of Apple App Store and Steam, and evaluated seven frontier vision-language models (VLMs) on short episodes of play. The best models achieved less than 10\\% of the human average score on the majority of the games, and especially struggled with games that challenge world-model learning, memory and planning. We conclude with a set of next steps for building out the AI GameStore as a practical way to measure and drive progress toward human-like general intelligence in machines."
+    ]
+  },
+  "html_sha256": "80bb5fe37a7e717194b35ce198c9ea1d0f0400ad91e04bc288c193b77ccf8b8d",
+  "evidence_html": "evidence/b0ffc905466a7a49a0e7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

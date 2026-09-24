@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/2307.06135",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.06135",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "RoCo",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.06135",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:54.499062+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.06135",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42623,
+  "title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
+  "authors": [
+    "Rana, Krishan",
+    "Haviland, Jesse",
+    "Garg, Sourav",
+    "Abou-Chakra, Jad",
+    "Reid, Ian",
+    "Suenderhauf, Niko"
+  ],
+  "first_author": "Rana, Krishan",
+  "year": 2023,
+  "source_date": "2023/07/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.06135",
+  "abstract": "Large language models (LLMs) have demonstrated impressive results in developing generalist planning agents for diverse tasks. However, grounding these plans in expansive, multi-floor, and multi-room environments presents a significant challenge for robotics. We introduce SayPlan, a scalable approach to LLM-based, large-scale task planning for robotics using 3D scene graph (3DSG) representations. To ensure the scalability of our approach, we: (1) exploit the hierarchical nature of 3DSGs to allow LLMs to conduct a 'semantic search' for task-relevant subgraphs from a smaller, collapsed representation of the full graph; (2) reduce the planning horizon for the LLM by integrating a classical path planner and (3) introduce an 'iterative replanning' pipeline that refines the initial plan using feedback from a scene graph simulator, correcting infeasible actions and avoiding planning failures. We evaluate our approach on two large-scale environments spanning up to 3 floors and 36 rooms with 140 assets and objects and show that our approach is capable of grounding large-scale, long-horizon task plans from abstract, and natural language instruction for a mobile manipulator robot to execute. We provide real robot video demonstrations on our project page this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.06135: SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.06135v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have demonstrated impressive results in developing generalist planning agents for diverse tasks. However, grounding these plans in expansive, multi-floor, and multi-room environments presents a significant challenge for robotics. We introduce SayPlan, a scalable approach to LLM-based, large-scale task planning for robotics using 3D scene graph (3DSG) representations. To ensure the scalability of our approach, we: (1) exploit the hierarchical nature of 3DSGs to allow LLMs to conduct a 'semantic search' for task-relevant subgraphs from a smaller, collapsed representation of the full graph; (2) reduce the planning horizon for the LLM by integrating a classical path planner and (3) introduce an 'iterative replanning' pipeline that refines the initial plan using feedback from a scene graph simulator, correcting infeasible actions and avoiding planning failures. We evaluate our approach on two large-scale environments spanning up to 3 floors and 36 rooms with 140 assets and objects and show that our approach is capable of grounding large-scale, long-horizon task plans from abstract, and natural language instruction for a mobile manipulator robot to execute. We provide real robot video demonstrations on our project page https://sayplan.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SayPlan: Grounding Large Language Models using 3D Scene Graphs for..."
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have demonstrated impressive results in developing generalist planning agents for diverse tasks. However, grounding these plans in expansive, multi-floor, and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning"
+    ],
+    "citation_author": [
+      "Rana, Krishan",
+      "Haviland, Jesse",
+      "Garg, Sourav",
+      "Abou-Chakra, Jad",
+      "Reid, Ian",
+      "Suenderhauf, Niko"
+    ],
+    "citation_date": [
+      "2023/07/12"
+    ],
+    "citation_online_date": [
+      "2023/09/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.06135"
+    ],
+    "citation_arxiv_id": [
+      "2307.06135"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have demonstrated impressive results in developing generalist planning agents for diverse tasks. However, grounding these plans in expansive, multi-floor, and multi-room environments presents a significant challenge for robotics. We introduce SayPlan, a scalable approach to LLM-based, large-scale task planning for robotics using 3D scene graph (3DSG) representations. To ensure the scalability of our approach, we: (1) exploit the hierarchical nature of 3DSGs to allow LLMs to conduct a 'semantic search' for task-relevant subgraphs from a smaller, collapsed representation of the full graph; (2) reduce the planning horizon for the LLM by integrating a classical path planner and (3) introduce an 'iterative replanning' pipeline that refines the initial plan using feedback from a scene graph simulator, correcting infeasible actions and avoiding planning failures. We evaluate our approach on two large-scale environments spanning up to 3 floors and 36 rooms with 140 assets and objects and show that our approach is capable of grounding large-scale, long-horizon task plans from abstract, and natural language instruction for a mobile manipulator robot to execute. We provide real robot video demonstrations on our project page https://sayplan.github.io."
+    ]
+  },
+  "html_sha256": "ecfa4dd7aef21c5660b98198346ec33b2f707ec6afec430b79155f8786d05036",
+  "evidence_html": "evidence/e764930e25c096cbf1a8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2406.04520",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.04520",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "NATURAL PLAN: benchmarking llms on natural language planning",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.04520",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:20.922425+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.04520",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42153,
+  "title": "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning",
+  "authors": [
+    "Zheng, Huaixiu Steven",
+    "Mishra, Swaroop",
+    "Zhang, Hugh",
+    "Chen, Xinyun",
+    "Chen, Minmin",
+    "Nova, Azade",
+    "Hou, Le",
+    "Cheng, Heng-Tze",
+    "Le, Quoc V.",
+    "Chi, Ed H.",
+    "Zhou, Denny"
+  ],
+  "first_author": "Zheng, Huaixiu Steven",
+  "year": 2024,
+  "source_date": "2024/06/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.04520",
+  "abstract": "We introduce NATURAL PLAN, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling. We focus our evaluation on the planning capabilities of LLMs with full information on the task, by providing outputs from tools such as Google Flights, Google Maps, and Google Calendar as contexts to the models. This eliminates the need for a tool-use environment for evaluating LLMs on Planning. We observe that NATURAL PLAN is a challenging benchmark for state of the art models. For example, in Trip Planning, GPT-4 and Gemini 1.5 Pro could only achieve 31.1% and 34.8% solve rate respectively. We find that model performance drops drastically as the complexity of the problem increases: all models perform below 5% when there are 10 cities, highlighting a significant gap in planning in natural language for SoTA LLMs. We also conduct extensive ablation studies on NATURAL PLAN to further shed light on the (in)effectiveness of approaches such as self-correction, few-shot generalization, and in-context planning with long-contexts on improving LLM planning.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.04520: NATURAL PLAN: Benchmarking LLMs on Natural Language Planning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.04520v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce NATURAL PLAN, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling. We focus our evaluation on the planning capabilities of LLMs with full information on the task, by providing outputs from tools such as Google Flights, Google Maps, and Google Calendar as contexts to the models. This eliminates the need for a tool-use environment for evaluating LLMs on Planning. We observe that NATURAL PLAN is a challenging benchmark for state of the art models. For example, in Trip Planning, GPT-4 and Gemini 1.5 Pro could only achieve 31.1% and 34.8% solve rate respectively. We find that model performance drops drastically as the complexity of the problem increases: all models perform below 5% when there are 10 cities, highlighting a significant gap in planning in natural language for SoTA LLMs. We also conduct extensive ablation studies on NATURAL PLAN to further shed light on the (in)effectiveness of approaches such as self-correction, few-shot generalization, and in-context planning with long-contexts on improving LLM planning."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning"
+    ],
+    "twitter:description": [
+      "We introduce NATURAL PLAN, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling. We focus our evaluation on the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "NATURAL PLAN: Benchmarking LLMs on Natural Language Planning"
+    ],
+    "citation_author": [
+      "Zheng, Huaixiu Steven",
+      "Mishra, Swaroop",
+      "Zhang, Hugh",
+      "Chen, Xinyun",
+      "Chen, Minmin",
+      "Nova, Azade",
+      "Hou, Le",
+      "Cheng, Heng-Tze",
+      "Le, Quoc V.",
+      "Chi, Ed H.",
+      "Zhou, Denny"
+    ],
+    "citation_date": [
+      "2024/06/06"
+    ],
+    "citation_online_date": [
+      "2024/06/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.04520"
+    ],
+    "citation_arxiv_id": [
+      "2406.04520"
+    ],
+    "citation_abstract": [
+      "We introduce NATURAL PLAN, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling. We focus our evaluation on the planning capabilities of LLMs with full information on the task, by providing outputs from tools such as Google Flights, Google Maps, and Google Calendar as contexts to the models. This eliminates the need for a tool-use environment for evaluating LLMs on Planning. We observe that NATURAL PLAN is a challenging benchmark for state of the art models. For example, in Trip Planning, GPT-4 and Gemini 1.5 Pro could only achieve 31.1% and 34.8% solve rate respectively. We find that model performance drops drastically as the complexity of the problem increases: all models perform below 5% when there are 10 cities, highlighting a significant gap in planning in natural language for SoTA LLMs. We also conduct extensive ablation studies on NATURAL PLAN to further shed light on the (in)effectiveness of approaches such as self-correction, few-shot generalization, and in-context planning with long-contexts on improving LLM planning."
+    ]
+  },
+  "html_sha256": "ba8113915609fd66edcc165d5f5fbf7154c0eff4636103e2d209a0ddfecda6bf",
+  "evidence_html": "evidence/5fc788ed52a6d5dd1c85.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

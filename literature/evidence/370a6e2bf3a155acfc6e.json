@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2511.20920",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2511.20920",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2511.20920",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:31.802025+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2511.20920",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42315,
+  "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+  "authors": [
+    "Errico, Herman",
+    "Ngiam, Jiquan",
+    "Sojan, Shanita"
+  ],
+  "first_author": "Errico, Herman",
+  "year": 2025,
+  "source_date": "2025/11/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2511.20920",
+  "abstract": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2511.20920: Securing the Model Context Protocol (MCP): Risks, Controls, and Governance"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2511.20920v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance"
+    ],
+    "twitter:description": [
+      "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance"
+    ],
+    "citation_author": [
+      "Errico, Herman",
+      "Ngiam, Jiquan",
+      "Sojan, Shanita"
+    ],
+    "citation_date": [
+      "2025/11/25"
+    ],
+    "citation_online_date": [
+      "2025/11/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2511.20920"
+    ],
+    "citation_arxiv_id": [
+      "2511.20920"
+    ],
+    "citation_abstract": [
+      "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations."
+    ]
+  },
+  "html_sha256": "4eb896be9aba6ca9ed057414d8f70a32838df4d74e1539793fb0d8b14746b367",
+  "evidence_html": "evidence/370a6e2bf3a155acfc6e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

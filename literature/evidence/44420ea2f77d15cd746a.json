@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2503.23278",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.23278",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.23278",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:16.660549+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.23278",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43184,
+  "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+  "authors": [
+    "Hou, Xinyi",
+    "Zhao, Yanjie",
+    "Wang, Shenao",
+    "Wang, Haoyu"
+  ],
+  "first_author": "Hou, Xinyi",
+  "year": 2025,
+  "source_date": "2025/03/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.23278",
+  "abstract": "The Model Context Protocol (MCP) is an emerging open standard that defines a unified, bi-directional communication and dynamic discovery protocol between AI models and external tools or resources, aiming to enhance interoperability and reduce fragmentation across diverse systems. This paper presents a systematic study of MCP from both architectural and security perspectives. We first define the full lifecycle of an MCP server, comprising four phases (creation, deployment, operation, and maintenance), further decomposed into 16 key activities that capture its functional evolution. Building on this lifecycle analysis, we construct a comprehensive threat taxonomy that categorizes security and privacy risks across four major attacker types: malicious developers, external attackers, malicious users, and security flaws, encompassing 16 distinct threat scenarios. To validate these risks, we develop and analyze real-world case studies that demonstrate concrete attack surfaces and vulnerability manifestations within MCP implementations. Based on these findings, the paper proposes a set of fine-grained, actionable security safeguards tailored to each lifecycle phase and threat category, offering practical guidance for secure MCP adoption. We also analyze the current MCP landscape, covering industry adoption, integration patterns, and supporting tools, to identify its technological strengths as well as existing limitations that constrain broader deployment. Finally, we outline future research and development directions aimed at strengthening MCP's standardization, trust boundaries, and sustainable growth within the evolving ecosystem of tool-augmented AI systems.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.23278: Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.23278v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The Model Context Protocol (MCP) is an emerging open standard that defines a unified, bi-directional communication and dynamic discovery protocol between AI models and external tools or resources, aiming to enhance interoperability and reduce fragmentation across diverse systems. This paper presents a systematic study of MCP from both architectural and security perspectives. We first define the full lifecycle of an MCP server, comprising four phases (creation, deployment, operation, and maintenance), further decomposed into 16 key activities that capture its functional evolution. Building on this lifecycle analysis, we construct a comprehensive threat taxonomy that categorizes security and privacy risks across four major attacker types: malicious developers, external attackers, malicious users, and security flaws, encompassing 16 distinct threat scenarios. To validate these risks, we develop and analyze real-world case studies that demonstrate concrete attack surfaces and vulnerability manifestations within MCP implementations. Based on these findings, the paper proposes a set of fine-grained, actionable security safeguards tailored to each lifecycle phase and threat category, offering practical guidance for secure MCP adoption. We also analyze the current MCP landscape, covering industry adoption, integration patterns, and supporting tools, to identify its technological strengths as well as existing limitations that constrain broader deployment. Finally, we outline future research and development directions aimed at strengthening MCP's standardization, trust boundaries, and sustainable growth within the evolving ecosystem of tool-augmented AI systems."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Model Context Protocol (MCP): Landscape, Security Threats, and..."
+    ],
+    "twitter:description": [
+      "The Model Context Protocol (MCP) is an emerging open standard that defines a unified, bi-directional communication and dynamic discovery protocol between AI models and external tools or resources,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"
+    ],
+    "citation_author": [
+      "Hou, Xinyi",
+      "Zhao, Yanjie",
+      "Wang, Shenao",
+      "Wang, Haoyu"
+    ],
+    "citation_date": [
+      "2025/03/30"
+    ],
+    "citation_online_date": [
+      "2025/10/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.23278"
+    ],
+    "citation_arxiv_id": [
+      "2503.23278"
+    ],
+    "citation_abstract": [
+      "The Model Context Protocol (MCP) is an emerging open standard that defines a unified, bi-directional communication and dynamic discovery protocol between AI models and external tools or resources, aiming to enhance interoperability and reduce fragmentation across diverse systems. This paper presents a systematic study of MCP from both architectural and security perspectives. We first define the full lifecycle of an MCP server, comprising four phases (creation, deployment, operation, and maintenance), further decomposed into 16 key activities that capture its functional evolution. Building on this lifecycle analysis, we construct a comprehensive threat taxonomy that categorizes security and privacy risks across four major attacker types: malicious developers, external attackers, malicious users, and security flaws, encompassing 16 distinct threat scenarios. To validate these risks, we develop and analyze real-world case studies that demonstrate concrete attack surfaces and vulnerability manifestations within MCP implementations. Based on these findings, the paper proposes a set of fine-grained, actionable security safeguards tailored to each lifecycle phase and threat category, offering practical guidance for secure MCP adoption. We also analyze the current MCP landscape, covering industry adoption, integration patterns, and supporting tools, to identify its technological strengths as well as existing limitations that constrain broader deployment. Finally, we outline future research and development directions aimed at strengthening MCP's standardization, trust boundaries, and sustainable growth within the evolving ecosystem of tool-augmented AI systems."
+    ]
+  },
+  "html_sha256": "df9cad0f3f85d8448e8047090fefee5f3364c1be1cdb6dceb5638639e94f4ef4",
+  "evidence_html": "evidence/44420ea2f77d15cd746a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

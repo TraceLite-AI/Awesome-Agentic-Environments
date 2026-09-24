@@ -1,0 +1,109 @@
+{
+  "url": "https://aclanthology.org/2025.acl-long.508/",
+  "discoveries": [
+    {
+      "url": "https://aclanthology.org/2025.acl-long.508/",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Webwalker: Benchmarking llms in web traversal",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://aclanthology.org/2025.acl-long.508/",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:38.418504+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.acl-long.508/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44731,
+  "title": "WebWalker: Benchmarking LLMs in Web Traversal",
+  "authors": [
+    "Jialong Wu",
+    "Wenbiao Yin",
+    "Yong Jiang",
+    "Zhenglin Wang",
+    "Zekun Xi",
+    "Runnan Fang",
+    "Linhai Zhang",
+    "Yulan He",
+    "Deyu Zhou",
+    "Pengjun Xie",
+    "Fei Huang"
+  ],
+  "first_author": "Jialong Wu",
+  "year": 2025,
+  "source_date": "2025/7",
+  "venue_from_source": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2025.acl-long.508",
+  "arxiv_id": "",
+  "abstract": "Retrieval-augmented generation (RAG) demonstrates remarkable performance across tasks in open-domain question-answering. However, traditional search engines may retrieve shallow content, limiting the ability of LLMs to handle complex, multi-layered information. To address this, we introduce WebWalkerQA, a benchmark designed to assess the ability of LLMs to perform web traversal. It evaluates the capacity of LLMs to traverse a website’s subpages to extract high-quality data systematically. We propose WebWalker, which is a multi-agent framework that mimics human-like web navigation through an explore-critic paradigm. Extensive experimental results show that WebWalkerQA is challenging and demonstrates the effectiveness of RAG combined with WebWalker, through this horizontal and vertical integration in real-world scenarios.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "WebWalker: Benchmarking LLMs in Web Traversal"
+    ],
+    "citation_author": [
+      "Jialong Wu",
+      "Wenbiao Yin",
+      "Yong Jiang",
+      "Zhenglin Wang",
+      "Zekun Xi",
+      "Runnan Fang",
+      "Linhai Zhang",
+      "Yulan He",
+      "Deyu Zhou",
+      "Pengjun Xie",
+      "Fei Huang"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "citation_publication_date": [
+      "2025/7"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.acl-long.508.pdf"
+    ],
+    "citation_firstpage": [
+      "10290"
+    ],
+    "citation_lastpage": [
+      "10305"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.acl-long.508"
+    ],
+    "og:title": [
+      "WebWalker: Benchmarking LLMs in Web Traversal"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.acl-long.508.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.acl-long.508/"
+    ],
+    "og:description": [
+      "Jialong Wu, Wenbiao Yin, Yong Jiang, Zhenglin Wang, Zekun Xi, Runnan Fang, Linhai Zhang, Yulan He, Deyu Zhou, Pengjun Xie, Fei Huang. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025."
+    ]
+  },
+  "html_sha256": "765d89cc7ddb7d4e8f25eb8961926f92795881ac06982d938537ff9154f30ef2",
+  "evidence_html": "evidence/3a64a42669347d6ac7e1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

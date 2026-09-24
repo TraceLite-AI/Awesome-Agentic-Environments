@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2606.06560",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.06560",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-17",
+      "topic": "Agent benchmark",
+      "title_hint": "Muryn et al. MacArena: Benchmarking Computer Use Agents on an Online macOS Environment. AIWILD@ICML 2026. arXiv:2606.06560.",
+      "existing_reference_number": 17,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.06560",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:07.428317+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.06560",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42975,
+  "title": "MacArena: Benchmarking Computer Use Agents on an Online macOS Environment",
+  "authors": [
+    "Muryn, Victor",
+    "Shamrai, Maksym",
+    "Mazepa, Sofiia",
+    "Khodysko, Yehor"
+  ],
+  "first_author": "Muryn, Victor",
+  "year": 2026,
+  "source_date": "2026/06/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.06560",
+  "abstract": "Computer-use agents (CUAs) operate graphical user interfaces (GUIs) through vision and control primitives, and their capabilities have advanced rapidly, driven in part by standardized online evaluation benchmarks such as OSWorld, which serve both as evaluation tools and as training environments for reinforcement learning. However, macOS remains underserved in this landscape: the only existing benchmark, macOSWorld, covers a narrow slice of first-party applications with simpler tasks, and runs on x86 virtual machines incompatible with Apple Silicon. We introduce MacArena, a benchmark of 421 manually verified tasks spanning 50 applications that combines a curated port of OSWorld tasks, content sourced from macOSWorld, and 49 new macOS-native tasks, all running on Apple's native Virtualization framework on Apple Silicon. We argue that macOS presents distinct GUI challenges beyond what Linux-based benchmarks capture, and our evaluation supports this claim: strong model performance on existing benchmarks can reflect familiarity with task distributions rather than genuine cross-platform GUI competence. Notably, model rankings invert between ported and macOS-native tasks, with a leading model trailing by over 26% on the MacArena subset, suggesting that macOS poses a genuinely harder environment for current GUI agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.06560: MacArena: Benchmarking Computer Use Agents on an Online macOS Environment"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MacArena: Benchmarking Computer Use Agents on an Online macOS Environment"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.06560v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Computer-use agents (CUAs) operate graphical user interfaces (GUIs) through vision and control primitives, and their capabilities have advanced rapidly, driven in part by standardized online evaluation benchmarks such as OSWorld, which serve both as evaluation tools and as training environments for reinforcement learning. However, macOS remains underserved in this landscape: the only existing benchmark, macOSWorld, covers a narrow slice of first-party applications with simpler tasks, and runs on x86 virtual machines incompatible with Apple Silicon. We introduce MacArena, a benchmark of 421 manually verified tasks spanning 50 applications that combines a curated port of OSWorld tasks, content sourced from macOSWorld, and 49 new macOS-native tasks, all running on Apple's native Virtualization framework on Apple Silicon. We argue that macOS presents distinct GUI challenges beyond what Linux-based benchmarks capture, and our evaluation supports this claim: strong model performance on existing benchmarks can reflect familiarity with task distributions rather than genuine cross-platform GUI competence. Notably, model rankings invert between ported and macOS-native tasks, with a leading model trailing by over 26% on the MacArena subset, suggesting that macOS poses a genuinely harder environment for current GUI agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MacArena: Benchmarking Computer Use Agents on an Online macOS Environment"
+    ],
+    "twitter:description": [
+      "Computer-use agents (CUAs) operate graphical user interfaces (GUIs) through vision and control primitives, and their capabilities have advanced rapidly, driven in part by standardized online..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MacArena: Benchmarking Computer Use Agents on an Online macOS Environment"
+    ],
+    "citation_author": [
+      "Muryn, Victor",
+      "Shamrai, Maksym",
+      "Mazepa, Sofiia",
+      "Khodysko, Yehor"
+    ],
+    "citation_date": [
+      "2026/06/04"
+    ],
+    "citation_online_date": [
+      "2026/06/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.06560"
+    ],
+    "citation_arxiv_id": [
+      "2606.06560"
+    ],
+    "citation_abstract": [
+      "Computer-use agents (CUAs) operate graphical user interfaces (GUIs) through vision and control primitives, and their capabilities have advanced rapidly, driven in part by standardized online evaluation benchmarks such as OSWorld, which serve both as evaluation tools and as training environments for reinforcement learning. However, macOS remains underserved in this landscape: the only existing benchmark, macOSWorld, covers a narrow slice of first-party applications with simpler tasks, and runs on x86 virtual machines incompatible with Apple Silicon. We introduce MacArena, a benchmark of 421 manually verified tasks spanning 50 applications that combines a curated port of OSWorld tasks, content sourced from macOSWorld, and 49 new macOS-native tasks, all running on Apple's native Virtualization framework on Apple Silicon. We argue that macOS presents distinct GUI challenges beyond what Linux-based benchmarks capture, and our evaluation supports this claim: strong model performance on existing benchmarks can reflect familiarity with task distributions rather than genuine cross-platform GUI competence. Notably, model rankings invert between ported and macOS-native tasks, with a leading model trailing by over 26% on the MacArena subset, suggesting that macOS poses a genuinely harder environment for current GUI agents."
+    ]
+  },
+  "html_sha256": "1f7f47c7343b05ac8b672062ab392d8a57b3ee19c80d48fe227aaf5c009ab9bd",
+  "evidence_html": "evidence/4005f6e78840f34cc730.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://arxiv.org/abs/2606.14066",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.14066",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.14066",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:27.442574+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.14066",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43803,
+  "title": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+  "authors": [
+    "Zhang, Shaoqiu",
+    "Wang, Maoquan",
+    "Shi, Yuling",
+    "Wang, Yuhang",
+    "Gu, Xiaodong",
+    "Yao, Yongqiang",
+    "Gong, Tori",
+    "Chen, Sheng",
+    "Fu, Rao",
+    "Agarwal, Anisha",
+    "Grag, Spandan",
+    "Ryan, Gabriel",
+    "Merkel, Colin",
+    "Huang, Yufan",
+    "Fu, Shengyu"
+  ],
+  "first_author": "Zhang, Shaoqiu",
+  "year": 2026,
+  "source_date": "2026/06/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.14066",
+  "abstract": "Large Language Model (LLM) coding agents have achieved strong results on software engineering tasks, yet repository exploration remains a major bottleneck: locating relevant code consumes substantial token budget and pollutes the agent's context with irrelevant snippets. In most agents, the same model explores the repository and solves the task, leaving exploratory reads and searches in the solver's history. We present FastContext, a dedicated exploration subagent that separates repository exploration from solving. Invoked on demand, FastContext issues parallel tool calls and returns concise file paths and line ranges as focused context. FastContext is powered by specialized exploration models spanning 4B--30B parameters. We bootstrap them from strong reference-model trajectories and refine them with task-grounded rewards for broad first-turn search, multi-turn evidence gathering, and precise citation generation. Across SWE-bench Multilingual, SWE-bench Pro, and SWE-QA, integrating FastContext into Mini-SWE-Agent improves end-to-end resolution rates up to 5.5% while reducing coding-agent token consumption up to 60%, with marginal overhead. These results show that repository exploration can be separated from solving and handled effectively by specialized models. Code and data: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.14066: FastContext: Training Efficient Repository Explorer for Coding Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "FastContext: Training Efficient Repository Explorer for Coding Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.14066v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Model (LLM) coding agents have achieved strong results on software engineering tasks, yet repository exploration remains a major bottleneck: locating relevant code consumes substantial token budget and pollutes the agent's context with irrelevant snippets. In most agents, the same model explores the repository and solves the task, leaving exploratory reads and searches in the solver's history. We present FastContext, a dedicated exploration subagent that separates repository exploration from solving. Invoked on demand, FastContext issues parallel tool calls and returns concise file paths and line ranges as focused context. FastContext is powered by specialized exploration models spanning 4B--30B parameters. We bootstrap them from strong reference-model trajectories and refine them with task-grounded rewards for broad first-turn search, multi-turn evidence gathering, and precise citation generation. Across SWE-bench Multilingual, SWE-bench Pro, and SWE-QA, integrating FastContext into Mini-SWE-Agent improves end-to-end resolution rates up to 5.5% while reducing coding-agent token consumption up to 60%, with marginal overhead. These results show that repository exploration can be separated from solving and handled effectively by specialized models. Code and data: https://github.com/microsoft/fastcontext"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "FastContext: Training Efficient Repository Explorer for Coding Agents"
+    ],
+    "twitter:description": [
+      "Large Language Model (LLM) coding agents have achieved strong results on software engineering tasks, yet repository exploration remains a major bottleneck: locating relevant code consumes..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "FastContext: Training Efficient Repository Explorer for Coding Agents"
+    ],
+    "citation_author": [
+      "Zhang, Shaoqiu",
+      "Wang, Maoquan",
+      "Shi, Yuling",
+      "Wang, Yuhang",
+      "Gu, Xiaodong",
+      "Yao, Yongqiang",
+      "Gong, Tori",
+      "Chen, Sheng",
+      "Fu, Rao",
+      "Agarwal, Anisha",
+      "Grag, Spandan",
+      "Ryan, Gabriel",
+      "Merkel, Colin",
+      "Huang, Yufan",
+      "Fu, Shengyu"
+    ],
+    "citation_date": [
+      "2026/06/12"
+    ],
+    "citation_online_date": [
+      "2026/06/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.14066"
+    ],
+    "citation_arxiv_id": [
+      "2606.14066"
+    ],
+    "citation_abstract": [
+      "Large Language Model (LLM) coding agents have achieved strong results on software engineering tasks, yet repository exploration remains a major bottleneck: locating relevant code consumes substantial token budget and pollutes the agent's context with irrelevant snippets. In most agents, the same model explores the repository and solves the task, leaving exploratory reads and searches in the solver's history. We present FastContext, a dedicated exploration subagent that separates repository exploration from solving. Invoked on demand, FastContext issues parallel tool calls and returns concise file paths and line ranges as focused context. FastContext is powered by specialized exploration models spanning 4B--30B parameters. We bootstrap them from strong reference-model trajectories and refine them with task-grounded rewards for broad first-turn search, multi-turn evidence gathering, and precise citation generation. Across SWE-bench Multilingual, SWE-bench Pro, and SWE-QA, integrating FastContext into Mini-SWE-Agent improves end-to-end resolution rates up to 5.5% while reducing coding-agent token consumption up to 60%, with marginal overhead. These results show that repository exploration can be separated from solving and handled effectively by specialized models. Code and data: https://github.com/microsoft/fastcontext"
+    ]
+  },
+  "html_sha256": "a72f2d7e145317bffe5e28bc4a3aada5362fcf24c2c84437524878e779f1b9d6",
+  "evidence_html": "evidence/cad2c0cea715a071d52b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

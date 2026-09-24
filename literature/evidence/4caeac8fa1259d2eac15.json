@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2503.15937",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.15937",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.15937",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:10.894317+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.15937",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42811,
+  "title": "Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment",
+  "authors": [
+    "Dai, Gaole",
+    "Jiang, Shiqi",
+    "Cao, Ting",
+    "Li, Yuanchun",
+    "Yang, Yuqing",
+    "Tan, Rui",
+    "Li, Mo",
+    "Qiu, Lili"
+  ],
+  "first_author": "Dai, Gaole",
+  "year": 2025,
+  "source_date": "2025/03/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.15937",
+  "abstract": "We propose V-Droid, a mobile GUI task automation agent. Unlike previous mobile agents that utilize Large Language Models (LLMs) as generators to directly generate actions at each step, V-Droid employs LLMs as verifiers to evaluate candidate actions before making final decisions. To realize this novel paradigm, we introduce a comprehensive framework for constructing verifier-driven mobile agents: the discretized action space construction coupled with the prefilling-only workflow to accelerate the verification process, the pair-wise progress preference training to significantly enhance the verifier's decision-making capabilities, and the scalable human-agent joint annotation scheme to efficiently collect the necessary data at scale. V-Droid obtains a substantial task success rate across several public mobile task automation benchmarks: 59.5% on AndroidWorld, 38.3% on AndroidLab, and 49% on MobileAgentBench, surpassing existing agents by 5.2%, 2.1%, and 9%, respectively. Furthermore, V-Droid achieves a remarkably low latency of 4.3s per step, which is 6.1x faster compared with existing mobile agents. The source code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.15937: Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.15937v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We propose V-Droid, a mobile GUI task automation agent. Unlike previous mobile agents that utilize Large Language Models (LLMs) as generators to directly generate actions at each step, V-Droid employs LLMs as verifiers to evaluate candidate actions before making final decisions. To realize this novel paradigm, we introduce a comprehensive framework for constructing verifier-driven mobile agents: the discretized action space construction coupled with the prefilling-only workflow to accelerate the verification process, the pair-wise progress preference training to significantly enhance the verifier's decision-making capabilities, and the scalable human-agent joint annotation scheme to efficiently collect the necessary data at scale. V-Droid obtains a substantial task success rate across several public mobile task automation benchmarks: 59.5% on AndroidWorld, 38.3% on AndroidLab, and 49% on MobileAgentBench, surpassing existing agents by 5.2%, 2.1%, and 9%, respectively. Furthermore, V-Droid achieves a remarkably low latency of 4.3s per step, which is 6.1x faster compared with existing mobile agents. The source code is available at https://github.com/V-Droid-Agent/V-Droid."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Advancing Mobile GUI Agents: A Verifier-Driven Approach to..."
+    ],
+    "twitter:description": [
+      "We propose V-Droid, a mobile GUI task automation agent. Unlike previous mobile agents that utilize Large Language Models (LLMs) as generators to directly generate actions at each step, V-Droid..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment"
+    ],
+    "citation_author": [
+      "Dai, Gaole",
+      "Jiang, Shiqi",
+      "Cao, Ting",
+      "Li, Yuanchun",
+      "Yang, Yuqing",
+      "Tan, Rui",
+      "Li, Mo",
+      "Qiu, Lili"
+    ],
+    "citation_date": [
+      "2025/03/20"
+    ],
+    "citation_online_date": [
+      "2026/02/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.15937"
+    ],
+    "citation_arxiv_id": [
+      "2503.15937"
+    ],
+    "citation_abstract": [
+      "We propose V-Droid, a mobile GUI task automation agent. Unlike previous mobile agents that utilize Large Language Models (LLMs) as generators to directly generate actions at each step, V-Droid employs LLMs as verifiers to evaluate candidate actions before making final decisions. To realize this novel paradigm, we introduce a comprehensive framework for constructing verifier-driven mobile agents: the discretized action space construction coupled with the prefilling-only workflow to accelerate the verification process, the pair-wise progress preference training to significantly enhance the verifier's decision-making capabilities, and the scalable human-agent joint annotation scheme to efficiently collect the necessary data at scale. V-Droid obtains a substantial task success rate across several public mobile task automation benchmarks: 59.5% on AndroidWorld, 38.3% on AndroidLab, and 49% on MobileAgentBench, surpassing existing agents by 5.2%, 2.1%, and 9%, respectively. Furthermore, V-Droid achieves a remarkably low latency of 4.3s per step, which is 6.1x faster compared with existing mobile agents. The source code is available at https://github.com/V-Droid-Agent/V-Droid."
+    ]
+  },
+  "html_sha256": "ce7fe8383748dbb3068f0396446067f1f1d857dd0bcfa458ee97a229b030bbb8",
+  "evidence_html": "evidence/4caeac8fa1259d2eac15.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

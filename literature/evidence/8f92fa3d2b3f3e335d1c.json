@@ -1,0 +1,118 @@
+{
+  "url": "https://arxiv.org/abs/2604.18860",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.18860",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing and Defending Against TOCTOU Attacks on Computer-Use Agents",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.18860",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:47.773250+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.18860",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41800,
+  "title": "Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing and Defending Against TOCTOU Attacks on Computer-Use Agents",
+  "authors": [
+    "Xu, Wenpeng"
+  ],
+  "first_author": "Xu, Wenpeng",
+  "year": 2026,
+  "source_date": "2026/04/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.18860",
+  "abstract": "GUI agents that control desktop computers via screenshot-and-click loops introduce a new class of vulnerability: the observation-to-action gap (mean 6.51 s on real OSWorld workloads) creates a Time-Of-Check, Time-Of-Use (TOCTOU) window during which an unprivileged attacker can manipulate the UI state. We formalize this as a Visual Atomicity Violation and characterize three concrete attack primitives: (A) Notification Overlay Hijack, (B) Window Focus Manipulation, and (C) Web DOM Injection. Primitive B, the closest desktop analog to Android Action Rebinding, achieves 100% action-redirection success rate with zero visual evidence at the observation time. We propose Pre-execution UI State Verification (PUSV), a lightweight three-layer defense that re-verifies the UI state immediately before each action dispatch: masked pixel SSIM at the click target (L1), global screenshot diff (L2a), and X Window snapshot diff (L2b). PUSV achieves 100% Action Interception Rate across 180 adversarial trials (135 Primitive A + 45 Primitive B) with zero false positives and < 0.1 s overhead. Against Primitive C (zero-visual-footprint DOM injection), PUSV reveals a structural blind spot (~0% AIR), motivating future OS+DOM defense-in-depth architectures. No single PUSV layer alone achieves full coverage; different primitives require different detection signals, validating the layered design.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.18860: Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing and Defending Against TOCTOU Attacks on Computer-Use Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing and Defending Against TOCTOU Attacks on Computer-Use Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.18860v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "GUI agents that control desktop computers via screenshot-and-click loops introduce a new class of vulnerability: the observation-to-action gap (mean 6.51 s on real OSWorld workloads) creates a Time-Of-Check, Time-Of-Use (TOCTOU) window during which an unprivileged attacker can manipulate the UI state. We formalize this as a Visual Atomicity Violation and characterize three concrete attack primitives: (A) Notification Overlay Hijack, (B) Window Focus Manipulation, and (C) Web DOM Injection. Primitive B, the closest desktop analog to Android Action Rebinding, achieves 100% action-redirection success rate with zero visual evidence at the observation time. We propose Pre-execution UI State Verification (PUSV), a lightweight three-layer defense that re-verifies the UI state immediately before each action dispatch: masked pixel SSIM at the click target (L1), global screenshot diff (L2a), and X Window snapshot diff (L2b). PUSV achieves 100% Action Interception Rate across 180 adversarial trials (135 Primitive A + 45 Primitive B) with zero false positives and < 0.1 s overhead. Against Primitive C (zero-visual-footprint DOM injection), PUSV reveals a structural blind spot (~0% AIR), motivating future OS+DOM defense-in-depth architectures. No single PUSV layer alone achieves full coverage; different primitives require different detection signals, validating the layered design."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing..."
+    ],
+    "twitter:description": [
+      "GUI agents that control desktop computers via screenshot-and-click loops introduce a new class of vulnerability: the observation-to-action gap (mean 6.51 s on real OSWorld workloads) creates a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing and Defending Against TOCTOU Attacks on Computer-Use Agents"
+    ],
+    "citation_author": [
+      "Xu, Wenpeng"
+    ],
+    "citation_date": [
+      "2026/04/20"
+    ],
+    "citation_online_date": [
+      "2026/04/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.18860"
+    ],
+    "citation_arxiv_id": [
+      "2604.18860"
+    ],
+    "citation_abstract": [
+      "GUI agents that control desktop computers via screenshot-and-click loops introduce a new class of vulnerability: the observation-to-action gap (mean 6.51 s on real OSWorld workloads) creates a Time-Of-Check, Time-Of-Use (TOCTOU) window during which an unprivileged attacker can manipulate the UI state. We formalize this as a Visual Atomicity Violation and characterize three concrete attack primitives: (A) Notification Overlay Hijack, (B) Window Focus Manipulation, and (C) Web DOM Injection. Primitive B, the closest desktop analog to Android Action Rebinding, achieves 100% action-redirection success rate with zero visual evidence at the observation time. We propose Pre-execution UI State Verification (PUSV), a lightweight three-layer defense that re-verifies the UI state immediately before each action dispatch: masked pixel SSIM at the click target (L1), global screenshot diff (L2a), and X Window snapshot diff (L2b). PUSV achieves 100% Action Interception Rate across 180 adversarial trials (135 Primitive A + 45 Primitive B) with zero false positives and < 0.1 s overhead. Against Primitive C (zero-visual-footprint DOM injection), PUSV reveals a structural blind spot (~0% AIR), motivating future OS+DOM defense-in-depth architectures. No single PUSV layer alone achieves full coverage; different primitives require different detection signals, validating the layered design."
+    ]
+  },
+  "html_sha256": "153b08152b61e354845559ce2b762d3c829411ffe531d50ac286200d034d587c",
+  "evidence_html": "evidence/8f92fa3d2b3f3e335d1c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

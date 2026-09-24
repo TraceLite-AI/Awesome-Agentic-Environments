@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2308.04030",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.04030",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Gentopia: A Collaborative Platform for Tool-Augmented LLMs",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.04030",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:12.416139+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.04030",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41798,
+  "title": "Gentopia: A Collaborative Platform for Tool-Augmented LLMs",
+  "authors": [
+    "Xu, Binfeng",
+    "Liu, Xukun",
+    "Shen, Hua",
+    "Han, Zeyu",
+    "Li, Yuhan",
+    "Yue, Murong",
+    "Peng, Zhiyuan",
+    "Liu, Yuchen",
+    "Yao, Ziyu",
+    "Xu, Dongkuan"
+  ],
+  "first_author": "Xu, Binfeng",
+  "year": 2023,
+  "source_date": "2023/08/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.04030",
+  "abstract": "Augmented Language Models (ALMs) empower large language models with the ability to use tools, transforming them into intelligent agents for real-world interactions. However, most existing frameworks for ALMs, to varying degrees, are deficient in the following critical features: flexible customization, collaborative democratization, and holistic evaluation. We present gentopia, an ALM framework enabling flexible customization of agents through simple configurations, seamlessly integrating various language models, task formats, prompting modules, and plugins into a unified paradigm. Furthermore, we establish gentpool, a public platform enabling the registration and sharing of user-customized agents. Agents registered in gentpool are composable such that they can be assembled together for agent collaboration, advancing the democratization of artificial intelligence. To ensure high-quality agents, gentbench, an integral component of gentpool, is designed to thoroughly evaluate user-customized agents across diverse aspects such as safety, robustness, efficiency, etc. We release gentopia on Github and will continuously move forward.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.04030: Gentopia: A Collaborative Platform for Tool-Augmented LLMs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Gentopia: A Collaborative Platform for Tool-Augmented LLMs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.04030v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Augmented Language Models (ALMs) empower large language models with the ability to use tools, transforming them into intelligent agents for real-world interactions. However, most existing frameworks for ALMs, to varying degrees, are deficient in the following critical features: flexible customization, collaborative democratization, and holistic evaluation. We present gentopia, an ALM framework enabling flexible customization of agents through simple configurations, seamlessly integrating various language models, task formats, prompting modules, and plugins into a unified paradigm. Furthermore, we establish gentpool, a public platform enabling the registration and sharing of user-customized agents. Agents registered in gentpool are composable such that they can be assembled together for agent collaboration, advancing the democratization of artificial intelligence. To ensure high-quality agents, gentbench, an integral component of gentpool, is designed to thoroughly evaluate user-customized agents across diverse aspects such as safety, robustness, efficiency, etc. We release gentopia on Github and will continuously move forward."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Gentopia: A Collaborative Platform for Tool-Augmented LLMs"
+    ],
+    "twitter:description": [
+      "Augmented Language Models (ALMs) empower large language models with the ability to use tools, transforming them into intelligent agents for real-world interactions. However, most existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Gentopia: A Collaborative Platform for Tool-Augmented LLMs"
+    ],
+    "citation_author": [
+      "Xu, Binfeng",
+      "Liu, Xukun",
+      "Shen, Hua",
+      "Han, Zeyu",
+      "Li, Yuhan",
+      "Yue, Murong",
+      "Peng, Zhiyuan",
+      "Liu, Yuchen",
+      "Yao, Ziyu",
+      "Xu, Dongkuan"
+    ],
+    "citation_date": [
+      "2023/08/08"
+    ],
+    "citation_online_date": [
+      "2023/08/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.04030"
+    ],
+    "citation_arxiv_id": [
+      "2308.04030"
+    ],
+    "citation_abstract": [
+      "Augmented Language Models (ALMs) empower large language models with the ability to use tools, transforming them into intelligent agents for real-world interactions. However, most existing frameworks for ALMs, to varying degrees, are deficient in the following critical features: flexible customization, collaborative democratization, and holistic evaluation. We present gentopia, an ALM framework enabling flexible customization of agents through simple configurations, seamlessly integrating various language models, task formats, prompting modules, and plugins into a unified paradigm. Furthermore, we establish gentpool, a public platform enabling the registration and sharing of user-customized agents. Agents registered in gentpool are composable such that they can be assembled together for agent collaboration, advancing the democratization of artificial intelligence. To ensure high-quality agents, gentbench, an integral component of gentpool, is designed to thoroughly evaluate user-customized agents across diverse aspects such as safety, robustness, efficiency, etc. We release gentopia on Github and will continuously move forward."
+    ]
+  },
+  "html_sha256": "163abd94e9cebba3ff23a10ba61f10d2fe01a89ddddf4fb187c2ad43bf8b8729",
+  "evidence_html": "evidence/ce33c9707edc8296125f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=vhFu1Acb0xb",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=vhFu1Acb0xb",
+      "discovery_url": "https://github.com/journee-live/awesome-world-models",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "IRIS : Transformers are Sample-Efficient World Models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=vhFu1Acb0xb",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:32.333490+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DvhFu1Acb0xb",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4789,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "54d1816dd74300148a3a2d21263fd97e0d21aa2025fa8199a8416a72350c7ee8",
+  "evidence_html": "evidence/355f71216b13cc8a4a3e.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

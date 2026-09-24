@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2504.12516",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2504.12516",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Browsecomp: A simple yet challenging benchmark for browsing agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2504.12516",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:18.478078+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2504.12516",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41059,
+  "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+  "authors": [
+    "Wei, Jason",
+    "Sun, Zhiqing",
+    "Papay, Spencer",
+    "McKinney, Scott",
+    "Han, Jeffrey",
+    "Fulford, Isa",
+    "Chung, Hyung Won",
+    "Passos, Alex Tachard",
+    "Fedus, William",
+    "Glaese, Amelia"
+  ],
+  "first_author": "Wei, Jason",
+  "year": 2025,
+  "source_date": "2025/04/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2504.12516",
+  "abstract": "We present BrowseComp, a simple yet challenging benchmark for measuring the ability for agents to browse the web. BrowseComp comprises 1,266 questions that require persistently navigating the internet in search of hard-to-find, entangled information. Despite the difficulty of the questions, BrowseComp is simple and easy-to-use, as predicted answers are short and easily verifiable against reference answers. BrowseComp for browsing agents can be seen as analogous to how programming competitions are an incomplete but useful benchmark for coding agents. While BrowseComp sidesteps challenges of a true user query distribution, like generating long answers or resolving ambiguity, it measures the important core capability of exercising persistence and creativity in finding information. BrowseComp can be found at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2504.12516: BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2504.12516v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present BrowseComp, a simple yet challenging benchmark for measuring the ability for agents to browse the web. BrowseComp comprises 1,266 questions that require persistently navigating the internet in search of hard-to-find, entangled information. Despite the difficulty of the questions, BrowseComp is simple and easy-to-use, as predicted answers are short and easily verifiable against reference answers. BrowseComp for browsing agents can be seen as analogous to how programming competitions are an incomplete but useful benchmark for coding agents. While BrowseComp sidesteps challenges of a true user query distribution, like generating long answers or resolving ambiguity, it measures the important core capability of exercising persistence and creativity in finding information. BrowseComp can be found at https://github.com/openai/simple-evals."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents"
+    ],
+    "twitter:description": [
+      "We present BrowseComp, a simple yet challenging benchmark for measuring the ability for agents to browse the web. BrowseComp comprises 1,266 questions that require persistently navigating the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents"
+    ],
+    "citation_author": [
+      "Wei, Jason",
+      "Sun, Zhiqing",
+      "Papay, Spencer",
+      "McKinney, Scott",
+      "Han, Jeffrey",
+      "Fulford, Isa",
+      "Chung, Hyung Won",
+      "Passos, Alex Tachard",
+      "Fedus, William",
+      "Glaese, Amelia"
+    ],
+    "citation_date": [
+      "2025/04/16"
+    ],
+    "citation_online_date": [
+      "2025/04/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2504.12516"
+    ],
+    "citation_arxiv_id": [
+      "2504.12516"
+    ],
+    "citation_abstract": [
+      "We present BrowseComp, a simple yet challenging benchmark for measuring the ability for agents to browse the web. BrowseComp comprises 1,266 questions that require persistently navigating the internet in search of hard-to-find, entangled information. Despite the difficulty of the questions, BrowseComp is simple and easy-to-use, as predicted answers are short and easily verifiable against reference answers. BrowseComp for browsing agents can be seen as analogous to how programming competitions are an incomplete but useful benchmark for coding agents. While BrowseComp sidesteps challenges of a true user query distribution, like generating long answers or resolving ambiguity, it measures the important core capability of exercising persistence and creativity in finding information. BrowseComp can be found at https://github.com/openai/simple-evals."
+    ]
+  },
+  "html_sha256": "77fdfa611d1740a355f39133304008c009cf43b968c34dfb4992b161177cb91a",
+  "evidence_html": "evidence/075bea511496edda1b9c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

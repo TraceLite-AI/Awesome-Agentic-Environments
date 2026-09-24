@@ -1,0 +1,120 @@
+{
+  "url": "https://proceedings.mlr.press/v202/korkmaz23a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v202/korkmaz23a.html",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions. ICML 2023. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v202/korkmaz23a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:41.660865+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v202/korkmaz23a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 15715,
+  "title": "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions",
+  "authors": [
+    "Ezgi Korkmaz",
+    "Jonah Brown-Cohen"
+  ],
+  "first_author": "Ezgi Korkmaz",
+  "year": 2023,
+  "source_date": "2023/07/03",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Learning in MDPs with highly complex state representations is currently possible due to multiple advancements in reinforcement learning algorithm design. However, this incline in complexity, and furthermore the increase in the dimensions of the observation came at the cost of volatility that can be taken advantage of via adversarial attacks (i.e. moving along worst-case directions in the observation space). To solve this policy instability problem we propose a novel method to detect the presence of these non-robust directions via local quadratic approximation of the deep neural policy loss. Our method provides a theoretical basis for the fundamental cut-off between safe observations and adversarial observations. Furthermore, our technique is computationally efficient, and does not depend on the methods used to produce the worst-case directions. We conduct extensive experiments in the Arcade Learning Environment with several different adversarial attack techniques. Most significantly, we demonstrate the effectiveness of our approach even in the setting where non-robust directions are explicitly optimized to circumvent our proposed method.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust DecisionsEzgi Korkmaz, Jonah Brown-CohenLearning in MDPs with highly comp..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v202/korkmaz23a.html"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.mlr.press/v202/korkmaz23a/korkmaz23a.pdf"
+    ],
+    "citation_firstpage": [
+      "17534"
+    ],
+    "citation_lastpage": [
+      "17543"
+    ],
+    "citation_author": [
+      "Ezgi Korkmaz",
+      "Jonah Brown-Cohen"
+    ],
+    "citation_publication_date": [
+      "2023/07/03"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Learning in MDPs with highly complex state representations is currently possible due to multiple advancements in reinforcement learning algorithm design. How..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v202/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions"
+    ],
+    "og:description": [
+      "Learning in MDPs with highly complex state representations is currently possible due to multiple advancements in reinforcement learning algorithm design. However, this incline in complexity, and fu..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2023-07-03T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v202/korkmaz23a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v202/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "c14e1541b96ce9192f4e17e82cfc5e6cfe157a758f038806045e16f15cd11f7f",
+  "evidence_html": "evidence/9ee1d242bd4c81706473.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

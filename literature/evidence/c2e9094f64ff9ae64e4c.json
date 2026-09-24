@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2410.14209",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.14209",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.14209",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:03.164234+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.14209",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43545,
+  "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+  "authors": [
+    "Liu, Zihan",
+    "Zeng, Ruinan",
+    "Wang, Dongxia",
+    "Peng, Gengyun",
+    "Wang, Jingyi",
+    "Liu, Qiang",
+    "Liu, Peiyu",
+    "Wang, Wenhai"
+  ],
+  "first_author": "Liu, Zihan",
+  "year": 2024,
+  "source_date": "2024/10/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.14209",
+  "abstract": "In industrial control systems, the generation and verification of Programmable Logic Controller (PLC) code are critical for ensuring operational efficiency and safety. While Large Language Models (LLMs) have made strides in automated code generation, they often fall short in providing correctness guarantees and specialized support for PLC programming. To address these challenges, this paper introduces Agents4PLC, a novel framework that not only automates PLC code generation but also includes code-level verification through an LLM-based multi-agent system. We first establish a comprehensive benchmark for verifiable PLC code generation area, transitioning from natural language requirements to human-written-verified formal specifications and reference PLC code. We further enhance our `agents' specifically for industrial control systems by incorporating Retrieval-Augmented Generation (RAG), advanced prompt engineering techniques, and Chain-of-Thought strategies. Evaluation against the benchmark demonstrates that Agents4PLC significantly outperforms previous methods, achieving superior results across a series of increasingly rigorous metrics. This research not only addresses the critical challenges in PLC programming but also highlights the potential of our framework to generate verifiable code applicable to real-world industrial applications.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.14209: Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.14209v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "In industrial control systems, the generation and verification of Programmable Logic Controller (PLC) code are critical for ensuring operational efficiency and safety. While Large Language Models (LLMs) have made strides in automated code generation, they often fall short in providing correctness guarantees and specialized support for PLC programming. To address these challenges, this paper introduces Agents4PLC, a novel framework that not only automates PLC code generation but also includes code-level verification through an LLM-based multi-agent system. We first establish a comprehensive benchmark for verifiable PLC code generation area, transitioning from natural language requirements to human-written-verified formal specifications and reference PLC code. We further enhance our `agents' specifically for industrial control systems by incorporating Retrieval-Augmented Generation (RAG), advanced prompt engineering techniques, and Chain-of-Thought strategies. Evaluation against the benchmark demonstrates that Agents4PLC significantly outperforms previous methods, achieving superior results across a series of increasingly rigorous metrics. This research not only addresses the critical challenges in PLC programming but also highlights the potential of our framework to generate verifiable code applicable to real-world industrial applications."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agents4PLC: Automating Closed-loop PLC Code Generation and..."
+    ],
+    "twitter:description": [
+      "In industrial control systems, the generation and verification of Programmable Logic Controller (PLC) code are critical for ensuring operational efficiency and safety. While Large Language Models..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents"
+    ],
+    "citation_author": [
+      "Liu, Zihan",
+      "Zeng, Ruinan",
+      "Wang, Dongxia",
+      "Peng, Gengyun",
+      "Wang, Jingyi",
+      "Liu, Qiang",
+      "Liu, Peiyu",
+      "Wang, Wenhai"
+    ],
+    "citation_date": [
+      "2024/10/18"
+    ],
+    "citation_online_date": [
+      "2024/12/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.14209"
+    ],
+    "citation_arxiv_id": [
+      "2410.14209"
+    ],
+    "citation_abstract": [
+      "In industrial control systems, the generation and verification of Programmable Logic Controller (PLC) code are critical for ensuring operational efficiency and safety. While Large Language Models (LLMs) have made strides in automated code generation, they often fall short in providing correctness guarantees and specialized support for PLC programming. To address these challenges, this paper introduces Agents4PLC, a novel framework that not only automates PLC code generation but also includes code-level verification through an LLM-based multi-agent system. We first establish a comprehensive benchmark for verifiable PLC code generation area, transitioning from natural language requirements to human-written-verified formal specifications and reference PLC code. We further enhance our `agents' specifically for industrial control systems by incorporating Retrieval-Augmented Generation (RAG), advanced prompt engineering techniques, and Chain-of-Thought strategies. Evaluation against the benchmark demonstrates that Agents4PLC significantly outperforms previous methods, achieving superior results across a series of increasingly rigorous metrics. This research not only addresses the critical challenges in PLC programming but also highlights the potential of our framework to generate verifiable code applicable to real-world industrial applications."
+    ]
+  },
+  "html_sha256": "76228552fa4c536a03ee64e101ce862f9386bd26a85badb05cf3871d57820d9f",
+  "evidence_html": "evidence/c2e9094f64ff9ae64e4c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

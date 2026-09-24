@@ -1,0 +1,214 @@
+{
+  "url": "https://arxiv.org/abs/2512.12730",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.12730",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Nl2repo-bench: Towards long-horizon repository generation evaluation of coding agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.12730",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:13.523631+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.12730",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 49697,
+  "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
+  "authors": [
+    "Ding, Jingzhe",
+    "Long, Shengda",
+    "Pu, Changxin",
+    "Zhou, Huan",
+    "Gao, Hongwan",
+    "Gao, Xiang",
+    "He, Chao",
+    "Hou, Yue",
+    "Hu, Fei",
+    "Li, Zhaojian",
+    "Shi, Weiran",
+    "Wang, Zaiyuan",
+    "Zan, Daoguang",
+    "Zhang, Chenchen",
+    "Zhang, Xiaoxu",
+    "Chen, Qizhi",
+    "Cheng, Xianfu",
+    "Deng, Bo",
+    "Gu, Qingshui",
+    "Hua, Kai",
+    "Lin, Juntao",
+    "Liu, Pai",
+    "Li, Mingchen",
+    "Pan, Xuanguang",
+    "Peng, Zifan",
+    "Qin, Yujia",
+    "Shan, Yong",
+    "Tan, Zhewen",
+    "Xie, Weihao",
+    "Wang, Zihan",
+    "Yuan, Yishuo",
+    "Zhang, Jiayu",
+    "Zhao, Enduo",
+    "Zhao, Yunfei",
+    "Zhu, He",
+    "Zhu, Liya",
+    "Zou, Chenyang",
+    "Ding, Ming",
+    "Jiao, Jianpeng",
+    "Liu, Jiaheng",
+    "Liu, Minghao",
+    "Liu, Qian",
+    "Tao, Chongyang",
+    "Yang, Jian",
+    "Yang, Tong",
+    "Zhang, Zhaoxiang",
+    "Chen, Xinjie",
+    "Huang, Wenhao",
+    "Zhang, Ge"
+  ],
+  "first_author": "Ding, Jingzhe",
+  "year": 2025,
+  "source_date": "2025/12/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.12730",
+  "abstract": "Recent advances in coding agents suggest rapid progress toward autonomous software development, yet existing benchmarks fail to rigorously evaluate the long-horizon capabilities required to build complete software systems. Most prior evaluations focus on localized code generation, scaffolded completion, or short-term repair tasks, leaving open the question of whether agents can sustain coherent reasoning, planning, and execution over the extended horizons demanded by real-world repository construction. To address this gap, we present NL2Repo Bench, a benchmark explicitly designed to evaluate the long-horizon repository generation ability of coding agents. Given only a single natural-language requirements document and an empty workspace, agents must autonomously design the architecture, manage dependencies, implement multi-module logic, and produce a fully installable Python library. Our experiments across state-of-the-art open- and closed-source models reveal that long-horizon repository generation remains largely unsolved: even the strongest agents achieve below 40% average test pass rates and rarely complete an entire repository correctly. Detailed analysis uncovers fundamental long-horizon failure modes, including premature termination, loss of global coherence, fragile cross-file dependencies, and inadequate planning over hundreds of interaction steps. NL2Repo Bench establishes a rigorous, verifiable testbed for measuring sustained agentic competence and highlights long-horizon reasoning as a central bottleneck for the next generation of autonomous coding agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.12730: NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.12730v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in coding agents suggest rapid progress toward autonomous software development, yet existing benchmarks fail to rigorously evaluate the long-horizon capabilities required to build complete software systems. Most prior evaluations focus on localized code generation, scaffolded completion, or short-term repair tasks, leaving open the question of whether agents can sustain coherent reasoning, planning, and execution over the extended horizons demanded by real-world repository construction. To address this gap, we present NL2Repo Bench, a benchmark explicitly designed to evaluate the long-horizon repository generation ability of coding agents. Given only a single natural-language requirements document and an empty workspace, agents must autonomously design the architecture, manage dependencies, implement multi-module logic, and produce a fully installable Python library. Our experiments across state-of-the-art open- and closed-source models reveal that long-horizon repository generation remains largely unsolved: even the strongest agents achieve below 40% average test pass rates and rarely complete an entire repository correctly. Detailed analysis uncovers fundamental long-horizon failure modes, including premature termination, loss of global coherence, fragile cross-file dependencies, and inadequate planning over hundreds of interaction steps. NL2Repo Bench establishes a rigorous, verifiable testbed for measuring sustained agentic competence and highlights long-horizon reasoning as a central bottleneck for the next generation of autonomous coding agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "NL2Repo-Bench: Towards Long-Horizon Repository Generation..."
+    ],
+    "twitter:description": [
+      "Recent advances in coding agents suggest rapid progress toward autonomous software development, yet existing benchmarks fail to rigorously evaluate the long-horizon capabilities required to build..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents"
+    ],
+    "citation_author": [
+      "Ding, Jingzhe",
+      "Long, Shengda",
+      "Pu, Changxin",
+      "Zhou, Huan",
+      "Gao, Hongwan",
+      "Gao, Xiang",
+      "He, Chao",
+      "Hou, Yue",
+      "Hu, Fei",
+      "Li, Zhaojian",
+      "Shi, Weiran",
+      "Wang, Zaiyuan",
+      "Zan, Daoguang",
+      "Zhang, Chenchen",
+      "Zhang, Xiaoxu",
+      "Chen, Qizhi",
+      "Cheng, Xianfu",
+      "Deng, Bo",
+      "Gu, Qingshui",
+      "Hua, Kai",
+      "Lin, Juntao",
+      "Liu, Pai",
+      "Li, Mingchen",
+      "Pan, Xuanguang",
+      "Peng, Zifan",
+      "Qin, Yujia",
+      "Shan, Yong",
+      "Tan, Zhewen",
+      "Xie, Weihao",
+      "Wang, Zihan",
+      "Yuan, Yishuo",
+      "Zhang, Jiayu",
+      "Zhao, Enduo",
+      "Zhao, Yunfei",
+      "Zhu, He",
+      "Zhu, Liya",
+      "Zou, Chenyang",
+      "Ding, Ming",
+      "Jiao, Jianpeng",
+      "Liu, Jiaheng",
+      "Liu, Minghao",
+      "Liu, Qian",
+      "Tao, Chongyang",
+      "Yang, Jian",
+      "Yang, Tong",
+      "Zhang, Zhaoxiang",
+      "Chen, Xinjie",
+      "Huang, Wenhao",
+      "Zhang, Ge"
+    ],
+    "citation_date": [
+      "2025/12/14"
+    ],
+    "citation_online_date": [
+      "2026/01/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.12730"
+    ],
+    "citation_arxiv_id": [
+      "2512.12730"
+    ],
+    "citation_abstract": [
+      "Recent advances in coding agents suggest rapid progress toward autonomous software development, yet existing benchmarks fail to rigorously evaluate the long-horizon capabilities required to build complete software systems. Most prior evaluations focus on localized code generation, scaffolded completion, or short-term repair tasks, leaving open the question of whether agents can sustain coherent reasoning, planning, and execution over the extended horizons demanded by real-world repository construction. To address this gap, we present NL2Repo Bench, a benchmark explicitly designed to evaluate the long-horizon repository generation ability of coding agents. Given only a single natural-language requirements document and an empty workspace, agents must autonomously design the architecture, manage dependencies, implement multi-module logic, and produce a fully installable Python library. Our experiments across state-of-the-art open- and closed-source models reveal that long-horizon repository generation remains largely unsolved: even the strongest agents achieve below 40% average test pass rates and rarely complete an entire repository correctly. Detailed analysis uncovers fundamental long-horizon failure modes, including premature termination, loss of global coherence, fragile cross-file dependencies, and inadequate planning over hundreds of interaction steps. NL2Repo Bench establishes a rigorous, verifiable testbed for measuring sustained agentic competence and highlights long-horizon reasoning as a central bottleneck for the next generation of autonomous coding agents."
+    ]
+  },
+  "html_sha256": "f3c6cad613001fb5b78c8741b3fce94e046f25d64bdd98ba19679f2b39906b50",
+  "evidence_html": "evidence/b267f55cc0633a41d058.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

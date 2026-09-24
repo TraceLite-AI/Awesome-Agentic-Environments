@@ -1,0 +1,52 @@
+{
+  "scope": "Snapshot title-hint-versus-source-title audit of environment candidates only; evidence files remain unchanged.",
+  "files_seen": 198,
+  "statuses": {
+    "verified_metadata": 178,
+    "unverified": 20
+  },
+  "flags": [
+    {
+      "url": "https://arxiv.org/abs/2501.14654",
+      "title_hint": [
+        "Medagentbench: Dataset for benchmarking llms as agents in medical applications"
+      ],
+      "source_title": "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents",
+      "similarity": 0.547,
+      "verification_status": "verified_metadata",
+      "evidence_file": "8bf4e5d35aad3e8c62f7.json"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16206",
+      "title_hint": [
+        "Llm-in-sandbox elicits general agentic intelligence"
+      ],
+      "source_title": "Computer Environments Elicit General Agentic Intelligence in LLMs",
+      "similarity": 0.699,
+      "verification_status": "verified_metadata",
+      "evidence_file": "870fcd263ef7e48d8583.json"
+    }
+  ],
+  "manual_recommendations": [
+    {
+      "url": "https://arxiv.org/abs/2501.14654",
+      "action": "KEEP; use verified source title",
+      "reason": "MedAgentBench title changed; abstract explicitly identifies medical records/FHIR interactive benchmark. Not a mismatched paper."
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16206",
+      "action": "KEEP; use verified source title",
+      "reason": "Updated title Computer Environments Elicit General Agentic Intelligence in LLMs. Abstract explicitly introduces LLM-in-Sandbox. Not a mismatched paper."
+    }
+  ],
+  "known_aliases": [
+    {
+      "urls": [
+        "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html",
+        "https://arxiv.org/abs/2405.12399"
+      ],
+      "action": "DEDUP; same DIAMOND paper; arXiv kept in final candidate file."
+    }
+  ],
+  "discovery_exclusions": "Skipped generic LLM model reports; static QA/code-only datasets; generic text-to-video; standalone code/product/blog links. Kept interactive scientific/enterprise/search benchmarks as adjacent agent environment coverage."
+}

@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2312.13771",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2312.13771",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "AppAgent: Multimodal Agents as Smartphone Users",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2312.13771",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:05.082103+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2312.13771",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42312,
+  "title": "AppAgent: Multimodal Agents as Smartphone Users",
+  "authors": [
+    "Zhang, Chi",
+    "Yang, Zhao",
+    "Liu, Jiaxuan",
+    "Li, Yanda",
+    "Han, Yucheng",
+    "Chen, Xin",
+    "Huang, Zebiao",
+    "Fu, Bin",
+    "Yu, Gang"
+  ],
+  "first_author": "Zhang, Chi",
+  "year": 2023,
+  "source_date": "2023/12/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2312.13771",
+  "abstract": "Recent advancements in large language models (LLMs) have led to the creation of intelligent agents capable of performing complex tasks. This paper introduces a novel LLM-based multimodal agent framework designed to operate smartphone applications. Our framework enables the agent to operate smartphone applications through a simplified action space, mimicking human-like interactions such as tapping and swiping. This novel approach bypasses the need for system back-end access, thereby broadening its applicability across diverse apps. Central to our agent's functionality is its innovative learning method. The agent learns to navigate and use new apps either through autonomous exploration or by observing human demonstrations. This process generates a knowledge base that the agent refers to for executing complex tasks across different applications. To demonstrate the practicality of our agent, we conducted extensive testing over 50 tasks in 10 different applications, including social media, email, maps, shopping, and sophisticated image editing tools. The results affirm our agent's proficiency in handling a diverse array of high-level tasks.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2312.13771: AppAgent: Multimodal Agents as Smartphone Users"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AppAgent: Multimodal Agents as Smartphone Users"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2312.13771v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advancements in large language models (LLMs) have led to the creation of intelligent agents capable of performing complex tasks. This paper introduces a novel LLM-based multimodal agent framework designed to operate smartphone applications. Our framework enables the agent to operate smartphone applications through a simplified action space, mimicking human-like interactions such as tapping and swiping. This novel approach bypasses the need for system back-end access, thereby broadening its applicability across diverse apps. Central to our agent's functionality is its innovative learning method. The agent learns to navigate and use new apps either through autonomous exploration or by observing human demonstrations. This process generates a knowledge base that the agent refers to for executing complex tasks across different applications. To demonstrate the practicality of our agent, we conducted extensive testing over 50 tasks in 10 different applications, including social media, email, maps, shopping, and sophisticated image editing tools. The results affirm our agent's proficiency in handling a diverse array of high-level tasks."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AppAgent: Multimodal Agents as Smartphone Users"
+    ],
+    "twitter:description": [
+      "Recent advancements in large language models (LLMs) have led to the creation of intelligent agents capable of performing complex tasks. This paper introduces a novel LLM-based multimodal agent..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AppAgent: Multimodal Agents as Smartphone Users"
+    ],
+    "citation_author": [
+      "Zhang, Chi",
+      "Yang, Zhao",
+      "Liu, Jiaxuan",
+      "Li, Yanda",
+      "Han, Yucheng",
+      "Chen, Xin",
+      "Huang, Zebiao",
+      "Fu, Bin",
+      "Yu, Gang"
+    ],
+    "citation_date": [
+      "2023/12/21"
+    ],
+    "citation_online_date": [
+      "2026/07/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2312.13771"
+    ],
+    "citation_arxiv_id": [
+      "2312.13771"
+    ],
+    "citation_abstract": [
+      "Recent advancements in large language models (LLMs) have led to the creation of intelligent agents capable of performing complex tasks. This paper introduces a novel LLM-based multimodal agent framework designed to operate smartphone applications. Our framework enables the agent to operate smartphone applications through a simplified action space, mimicking human-like interactions such as tapping and swiping. This novel approach bypasses the need for system back-end access, thereby broadening its applicability across diverse apps. Central to our agent's functionality is its innovative learning method. The agent learns to navigate and use new apps either through autonomous exploration or by observing human demonstrations. This process generates a knowledge base that the agent refers to for executing complex tasks across different applications. To demonstrate the practicality of our agent, we conducted extensive testing over 50 tasks in 10 different applications, including social media, email, maps, shopping, and sophisticated image editing tools. The results affirm our agent's proficiency in handling a diverse array of high-level tasks."
+    ]
+  },
+  "html_sha256": "8e1c50a09d69c51b8dc0cff946c333da3d355e78248e3bdf5870846cfd3a05cd",
+  "evidence_html": "evidence/c0faa48fdba2e37ddcc2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2310.06500",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.06500",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents. Yuan Li et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.06500",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:03.555610+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.06500",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43125,
+  "title": "MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming",
+  "authors": [
+    "Li, Yuan",
+    "Sun, Lichao",
+    "Zhang, Yixuan"
+  ],
+  "first_author": "Li, Yuan",
+  "year": 2023,
+  "source_date": "2023/10/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1145/3711032",
+  "arxiv_id": "2310.06500",
+  "abstract": "Significant advancements have occurred in the application of Large Language Models (LLMs) for social simulations. Despite this, their abilities to perform teaming in task-oriented social events are underexplored. Such capabilities are crucial if LLMs are to effectively mimic human-like social behaviors and form efficient teams to solve tasks. To bridge this gap, we introduce MetaAgents, a social simulation framework populated with LLM-based agents. MetaAgents facilitates agent engagement in conversations and a series of decision making within social contexts, serving as an appropriate platform for investigating interactions and interpersonal decision-making of agents. In particular, we construct a job fair environment as a case study to scrutinize the team assembly and skill-matching behaviors of LLM-based agents. We take advantage of both quantitative metrics evaluation and qualitative text analysis to assess their teaming abilities at the job fair. Our evaluation demonstrates that LLM-based agents perform competently in making rational decisions to develop efficient teams. However, we also identify limitations that hinder their effectiveness in more complex team assembly tasks. Our work provides valuable insights into the role and evolution of LLMs in task-oriented social simulations.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.06500: MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.06500v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Significant advancements have occurred in the application of Large Language Models (LLMs) for social simulations. Despite this, their abilities to perform teaming in task-oriented social events are underexplored. Such capabilities are crucial if LLMs are to effectively mimic human-like social behaviors and form efficient teams to solve tasks. To bridge this gap, we introduce MetaAgents, a social simulation framework populated with LLM-based agents. MetaAgents facilitates agent engagement in conversations and a series of decision making within social contexts, serving as an appropriate platform for investigating interactions and interpersonal decision-making of agents. In particular, we construct a job fair environment as a case study to scrutinize the team assembly and skill-matching behaviors of LLM-based agents. We take advantage of both quantitative metrics evaluation and qualitative text analysis to assess their teaming abilities at the job fair. Our evaluation demonstrates that LLM-based agents perform competently in making rational decisions to develop efficient teams. However, we also identify limitations that hinder their effectiveness in more complex team assembly tasks. Our work provides valuable insights into the role and evolution of LLMs in task-oriented social simulations."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MetaAgents: Large Language Model Based Agents for Decision-Making..."
+    ],
+    "twitter:description": [
+      "Significant advancements have occurred in the application of Large Language Models (LLMs) for social simulations. Despite this, their abilities to perform teaming in task-oriented social events..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming"
+    ],
+    "citation_author": [
+      "Li, Yuan",
+      "Sun, Lichao",
+      "Zhang, Yixuan"
+    ],
+    "citation_doi": [
+      "10.1145/3711032"
+    ],
+    "citation_date": [
+      "2023/10/10"
+    ],
+    "citation_online_date": [
+      "2025/08/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.06500"
+    ],
+    "citation_arxiv_id": [
+      "2310.06500"
+    ],
+    "citation_abstract": [
+      "Significant advancements have occurred in the application of Large Language Models (LLMs) for social simulations. Despite this, their abilities to perform teaming in task-oriented social events are underexplored. Such capabilities are crucial if LLMs are to effectively mimic human-like social behaviors and form efficient teams to solve tasks. To bridge this gap, we introduce MetaAgents, a social simulation framework populated with LLM-based agents. MetaAgents facilitates agent engagement in conversations and a series of decision making within social contexts, serving as an appropriate platform for investigating interactions and interpersonal decision-making of agents. In particular, we construct a job fair environment as a case study to scrutinize the team assembly and skill-matching behaviors of LLM-based agents. We take advantage of both quantitative metrics evaluation and qualitative text analysis to assess their teaming abilities at the job fair. Our evaluation demonstrates that LLM-based agents perform competently in making rational decisions to develop efficient teams. However, we also identify limitations that hinder their effectiveness in more complex team assembly tasks. Our work provides valuable insights into the role and evolution of LLMs in task-oriented social simulations."
+    ]
+  },
+  "html_sha256": "09655cc90c48a57259c30be6c3b0b005e3013d102027f254d3bd3d68c0283741",
+  "evidence_html": "evidence/0a7d68aad624da30e32a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

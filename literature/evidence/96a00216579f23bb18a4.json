@@ -1,0 +1,134 @@
+{
+  "url": "https://proceedings.mlr.press/v235/drouin24a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v235/drouin24a.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Workarena: How capable are web agents at solving common knowledge work tasks?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v235/drouin24a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:16.396183+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v235/drouin24a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 15869,
+  "title": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?",
+  "authors": [
+    "Alexandre Drouin",
+    "Maxime Gasse",
+    "Massimo Caccia",
+    "Issam H. Laradji",
+    "Manuel Del Verme",
+    "Tom Marty",
+    "David Vazquez",
+    "Nicolas Chapados",
+    "Alexandre Lacoste"
+  ],
+  "first_author": "Alexandre Drouin",
+  "year": 2024,
+  "source_date": "2024/07/08",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "We study the use of large language model-based agents for interacting with software via web browsers. Unlike prior work, we focus on measuring the agents’ ability to perform tasks that span the typical daily work of knowledge workers utilizing enterprise software systems. To this end, we propose WorkArena, a remote-hosted benchmark of 33 tasks based on the widely-used ServiceNow platform. We also introduce BrowserGym, an environment for the design and evaluation of such agents, offering a rich set of actions as well as multimodal observations. Our empirical evaluation reveals that while current agents show promise on WorkArena, there remains a considerable gap towards achieving full task automation. Notably, our analysis uncovers a significant performance disparity between open and closed-source LLMs, highlighting a critical area for future exploration and development in the field.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam H. Laradji,..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v235/drouin24a.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/drouin24a/drouin24a.pdf"
+    ],
+    "citation_firstpage": [
+      "11642"
+    ],
+    "citation_lastpage": [
+      "11662"
+    ],
+    "citation_author": [
+      "Alexandre Drouin",
+      "Maxime Gasse",
+      "Massimo Caccia",
+      "Issam H. Laradji",
+      "Manuel Del Verme",
+      "Tom Marty",
+      "David Vazquez",
+      "Nicolas Chapados",
+      "Alexandre Lacoste"
+    ],
+    "citation_publication_date": [
+      "2024/07/08"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "We study the use of large language model-based agents for interacting with software via web browsers. Unlike prior work, we focus on measuring the agents’ ab..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v235/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+    ],
+    "og:description": [
+      "We study the use of large language model-based agents for interacting with software via web browsers. Unlike prior work, we focus on measuring the agents’ ability to perform tasks that span the typ..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2024-07-08T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v235/drouin24a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v235/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "a5171fb9c5e2d0b8fc9bf442a7f9416303e7ffadb35f6373e4c88116c57b8acf",
+  "evidence_html": "evidence/96a00216579f23bb18a4.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,12 @@
+{
+  "main_records": 500,
+  "csv_rows": 500,
+  "bibtex_unique_keys": 500,
+  "markdown_records": 500,
+  "source_evidence_hashes_checked": 500,
+  "source_http_200": 500,
+  "title_metadata_matches": 500,
+  "main_document_unchanged": true,
+  "errors": [],
+  "bibtex_check": "unique keys and balanced braces; not LaTeX compilation"
+}

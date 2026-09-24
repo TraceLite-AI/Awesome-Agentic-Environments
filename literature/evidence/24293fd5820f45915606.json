@@ -1,0 +1,158 @@
+{
+  "url": "https://arxiv.org/abs/2509.25140",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.25140",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.25140",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.25140",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:06.262198+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.25140",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45267,
+  "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+  "authors": [
+    "Ouyang, Siru",
+    "Yan, Jun",
+    "Hsu, I-Hung",
+    "Chen, Yanfei",
+    "Jiang, Ke",
+    "Wang, Zifeng",
+    "Han, Rujun",
+    "Le, Long T.",
+    "Daruki, Samira",
+    "Tang, Xiangru",
+    "Tirumalashetty, Vishy",
+    "Lee, George",
+    "Rofouei, Mahsan",
+    "Lin, Hangfei",
+    "Han, Jiawei",
+    "Lee, Chen-Yu",
+    "Pfister, Tomas"
+  ],
+  "first_author": "Ouyang, Siru",
+  "year": 2025,
+  "source_date": "2025/09/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.25140",
+  "abstract": "With the growing adoption of large language model agents in persistent real-world roles, they naturally encounter continuous streams of tasks. A key limitation, however, is their failure to learn from the accumulated interaction history, forcing them to discard valuable insights and repeat past errors. We propose ReasoningBank, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences. At test time, an agent retrieves relevant memories from ReasoningBank to inform its interaction and then integrates new learnings back, enabling it to become more capable over time. Building on this powerful experience learner, we further introduce memory-aware test-time scaling (MaTTS), which accelerates and diversifies this learning process by scaling up the agent's interaction experience. By allocating more compute to each task, the agent generates abundant, diverse experiences that provide rich contrastive signals for synthesizing higher-quality memory. The better memory in turn guides more effective scaling, establishing a powerful synergy between memory and test-time scaling. Across web browsing and software engineering benchmarks, ReasoningBank consistently outperforms existing memory mechanisms that store raw trajectories or only successful task routines, improving both effectiveness and efficiency; MaTTS further amplifies these gains. These findings establish memory-driven experience scaling as a new scaling dimension, enabling agents to self-evolve with emergent behaviors naturally arise. Our code can be found at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.25140: ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.25140v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "With the growing adoption of large language model agents in persistent real-world roles, they naturally encounter continuous streams of tasks. A key limitation, however, is their failure to learn from the accumulated interaction history, forcing them to discard valuable insights and repeat past errors. We propose ReasoningBank, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences. At test time, an agent retrieves relevant memories from ReasoningBank to inform its interaction and then integrates new learnings back, enabling it to become more capable over time. Building on this powerful experience learner, we further introduce memory-aware test-time scaling (MaTTS), which accelerates and diversifies this learning process by scaling up the agent's interaction experience. By allocating more compute to each task, the agent generates abundant, diverse experiences that provide rich contrastive signals for synthesizing higher-quality memory. The better memory in turn guides more effective scaling, establishing a powerful synergy between memory and test-time scaling. Across web browsing and software engineering benchmarks, ReasoningBank consistently outperforms existing memory mechanisms that store raw trajectories or only successful task routines, improving both effectiveness and efficiency; MaTTS further amplifies these gains. These findings establish memory-driven experience scaling as a new scaling dimension, enabling agents to self-evolve with emergent behaviors naturally arise. Our code can be found at https://github.com/google-research/reasoning-bank."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory"
+    ],
+    "twitter:description": [
+      "With the growing adoption of large language model agents in persistent real-world roles, they naturally encounter continuous streams of tasks. A key limitation, however, is their failure to learn..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory"
+    ],
+    "citation_author": [
+      "Ouyang, Siru",
+      "Yan, Jun",
+      "Hsu, I-Hung",
+      "Chen, Yanfei",
+      "Jiang, Ke",
+      "Wang, Zifeng",
+      "Han, Rujun",
+      "Le, Long T.",
+      "Daruki, Samira",
+      "Tang, Xiangru",
+      "Tirumalashetty, Vishy",
+      "Lee, George",
+      "Rofouei, Mahsan",
+      "Lin, Hangfei",
+      "Han, Jiawei",
+      "Lee, Chen-Yu",
+      "Pfister, Tomas"
+    ],
+    "citation_date": [
+      "2025/09/29"
+    ],
+    "citation_online_date": [
+      "2026/03/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.25140"
+    ],
+    "citation_arxiv_id": [
+      "2509.25140"
+    ],
+    "citation_abstract": [
+      "With the growing adoption of large language model agents in persistent real-world roles, they naturally encounter continuous streams of tasks. A key limitation, however, is their failure to learn from the accumulated interaction history, forcing them to discard valuable insights and repeat past errors. We propose ReasoningBank, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences. At test time, an agent retrieves relevant memories from ReasoningBank to inform its interaction and then integrates new learnings back, enabling it to become more capable over time. Building on this powerful experience learner, we further introduce memory-aware test-time scaling (MaTTS), which accelerates and diversifies this learning process by scaling up the agent's interaction experience. By allocating more compute to each task, the agent generates abundant, diverse experiences that provide rich contrastive signals for synthesizing higher-quality memory. The better memory in turn guides more effective scaling, establishing a powerful synergy between memory and test-time scaling. Across web browsing and software engineering benchmarks, ReasoningBank consistently outperforms existing memory mechanisms that store raw trajectories or only successful task routines, improving both effectiveness and efficiency; MaTTS further amplifies these gains. These findings establish memory-driven experience scaling as a new scaling dimension, enabling agents to self-evolve with emergent behaviors naturally arise. Our code can be found at https://github.com/google-research/reasoning-bank."
+    ]
+  },
+  "html_sha256": "c4d5a99b9d005e94111ee0933c271341648c572cb10df48c9e5044f7bfb9c74e",
+  "evidence_html": "evidence/24293fd5820f45915606.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

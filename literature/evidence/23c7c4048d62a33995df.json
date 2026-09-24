@@ -1,0 +1,275 @@
+{
+  "url": "https://arxiv.org/abs/2501.03575",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2501.03575",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Cosmos world foundation model platform for physical AI",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2501.03575",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:42.127938+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2501.03575",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 53032,
+  "title": "Cosmos World Foundation Model Platform for Physical AI",
+  "authors": [
+    "NVIDIA",
+    ":",
+    "Agarwal, Niket",
+    "Ali, Arslan",
+    "Bala, Maciej",
+    "Balaji, Yogesh",
+    "Barker, Erik",
+    "Cai, Tiffany",
+    "Chattopadhyay, Prithvijit",
+    "Chen, Yongxin",
+    "Cui, Yin",
+    "Ding, Yifan",
+    "Dworakowski, Daniel",
+    "Fan, Jiaojiao",
+    "Fenzi, Michele",
+    "Ferroni, Francesco",
+    "Fidler, Sanja",
+    "Fox, Dieter",
+    "Ge, Songwei",
+    "Ge, Yunhao",
+    "Gu, Jinwei",
+    "Gururani, Siddharth",
+    "He, Ethan",
+    "Huang, Jiahui",
+    "Huffman, Jacob",
+    "Jannaty, Pooya",
+    "Jin, Jingyi",
+    "Kim, Seung Wook",
+    "Klár, Gergely",
+    "Lam, Grace",
+    "Lan, Shiyi",
+    "Leal-Taixe, Laura",
+    "Li, Anqi",
+    "Li, Zhaoshuo",
+    "Lin, Chen-Hsuan",
+    "Lin, Tsung-Yi",
+    "Ling, Huan",
+    "Liu, Ming-Yu",
+    "Liu, Xian",
+    "Luo, Alice",
+    "Ma, Qianli",
+    "Mao, Hanzi",
+    "Mo, Kaichun",
+    "Mousavian, Arsalan",
+    "Nah, Seungjun",
+    "Niverty, Sriharsha",
+    "Page, David",
+    "Paschalidou, Despoina",
+    "Patel, Zeeshan",
+    "Pavao, Lindsey",
+    "Ramezanali, Morteza",
+    "Reda, Fitsum",
+    "Ren, Xiaowei",
+    "Sabavat, Vasanth Rao Naik",
+    "Schmerling, Ed",
+    "Shi, Stella",
+    "Stefaniak, Bartosz",
+    "Tang, Shitao",
+    "Tchapmi, Lyne",
+    "Tredak, Przemek",
+    "Tseng, Wei-Cheng",
+    "Varghese, Jibin",
+    "Wang, Hao",
+    "Wang, Haoxiang",
+    "Wang, Heng",
+    "Wang, Ting-Chun",
+    "Wei, Fangyin",
+    "Wei, Xinyue",
+    "Wu, Jay Zhangjie",
+    "Xu, Jiashu",
+    "Yang, Wei",
+    "Yen-Chen, Lin",
+    "Zeng, Xiaohui",
+    "Zeng, Yu",
+    "Zhang, Jing",
+    "Zhang, Qinsheng",
+    "Zhang, Yuxuan",
+    "Zhao, Qingqing",
+    "Zolkowski, Artur"
+  ],
+  "first_author": "NVIDIA",
+  "year": 2025,
+  "source_date": "2025/01/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2501.03575",
+  "abstract": "Physical AI needs to be trained digitally first. It needs a digital twin of itself, the policy model, and a digital twin of the world, the world model. In this paper, we present the Cosmos World Foundation Model Platform to help developers build customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained world foundation models, examples of post-training of pre-trained world foundation models, and video tokenizers. To help Physical AI builders solve the most critical problems of our society, we make Cosmos open-source and our models open-weight with permissive licenses available via this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2501.03575: Cosmos World Foundation Model Platform for Physical AI"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Cosmos World Foundation Model Platform for Physical AI"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2501.03575v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Physical AI needs to be trained digitally first. It needs a digital twin of itself, the policy model, and a digital twin of the world, the world model. In this paper, we present the Cosmos World Foundation Model Platform to help developers build customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained world foundation models, examples of post-training of pre-trained world foundation models, and video tokenizers. To help Physical AI builders solve the most critical problems of our society, we make Cosmos open-source and our models open-weight with permissive licenses available via https://github.com/nvidia-cosmos/cosmos-predict1."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Cosmos World Foundation Model Platform for Physical AI"
+    ],
+    "twitter:description": [
+      "Physical AI needs to be trained digitally first. It needs a digital twin of itself, the policy model, and a digital twin of the world, the world model. In this paper, we present the Cosmos World..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Cosmos World Foundation Model Platform for Physical AI"
+    ],
+    "citation_author": [
+      "NVIDIA",
+      ":",
+      "Agarwal, Niket",
+      "Ali, Arslan",
+      "Bala, Maciej",
+      "Balaji, Yogesh",
+      "Barker, Erik",
+      "Cai, Tiffany",
+      "Chattopadhyay, Prithvijit",
+      "Chen, Yongxin",
+      "Cui, Yin",
+      "Ding, Yifan",
+      "Dworakowski, Daniel",
+      "Fan, Jiaojiao",
+      "Fenzi, Michele",
+      "Ferroni, Francesco",
+      "Fidler, Sanja",
+      "Fox, Dieter",
+      "Ge, Songwei",
+      "Ge, Yunhao",
+      "Gu, Jinwei",
+      "Gururani, Siddharth",
+      "He, Ethan",
+      "Huang, Jiahui",
+      "Huffman, Jacob",
+      "Jannaty, Pooya",
+      "Jin, Jingyi",
+      "Kim, Seung Wook",
+      "Klár, Gergely",
+      "Lam, Grace",
+      "Lan, Shiyi",
+      "Leal-Taixe, Laura",
+      "Li, Anqi",
+      "Li, Zhaoshuo",
+      "Lin, Chen-Hsuan",
+      "Lin, Tsung-Yi",
+      "Ling, Huan",
+      "Liu, Ming-Yu",
+      "Liu, Xian",
+      "Luo, Alice",
+      "Ma, Qianli",
+      "Mao, Hanzi",
+      "Mo, Kaichun",
+      "Mousavian, Arsalan",
+      "Nah, Seungjun",
+      "Niverty, Sriharsha",
+      "Page, David",
+      "Paschalidou, Despoina",
+      "Patel, Zeeshan",
+      "Pavao, Lindsey",
+      "Ramezanali, Morteza",
+      "Reda, Fitsum",
+      "Ren, Xiaowei",
+      "Sabavat, Vasanth Rao Naik",
+      "Schmerling, Ed",
+      "Shi, Stella",
+      "Stefaniak, Bartosz",
+      "Tang, Shitao",
+      "Tchapmi, Lyne",
+      "Tredak, Przemek",
+      "Tseng, Wei-Cheng",
+      "Varghese, Jibin",
+      "Wang, Hao",
+      "Wang, Haoxiang",
+      "Wang, Heng",
+      "Wang, Ting-Chun",
+      "Wei, Fangyin",
+      "Wei, Xinyue",
+      "Wu, Jay Zhangjie",
+      "Xu, Jiashu",
+      "Yang, Wei",
+      "Yen-Chen, Lin",
+      "Zeng, Xiaohui",
+      "Zeng, Yu",
+      "Zhang, Jing",
+      "Zhang, Qinsheng",
+      "Zhang, Yuxuan",
+      "Zhao, Qingqing",
+      "Zolkowski, Artur"
+    ],
+    "citation_date": [
+      "2025/01/07"
+    ],
+    "citation_online_date": [
+      "2025/07/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2501.03575"
+    ],
+    "citation_arxiv_id": [
+      "2501.03575"
+    ],
+    "citation_abstract": [
+      "Physical AI needs to be trained digitally first. It needs a digital twin of itself, the policy model, and a digital twin of the world, the world model. In this paper, we present the Cosmos World Foundation Model Platform to help developers build customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained world foundation models, examples of post-training of pre-trained world foundation models, and video tokenizers. To help Physical AI builders solve the most critical problems of our society, we make Cosmos open-source and our models open-weight with permissive licenses available via https://github.com/nvidia-cosmos/cosmos-predict1."
+    ]
+  },
+  "html_sha256": "4582e9eab120c1f3123292402189288f788ca54c40517d73dd6d0c3811888333",
+  "evidence_html": "evidence/23c7c4048d62a33995df.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

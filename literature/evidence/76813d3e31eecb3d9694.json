@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2603.00540",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.00540",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Logigen: Logic-driven generation of verifiable agentic tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.00540",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:33.662034+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.00540",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43911,
+  "title": "LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks",
+  "authors": [
+    "Zeng, Yucheng",
+    "Lu, Weipeng",
+    "Liu, Linyun",
+    "Li, Shupeng",
+    "Qu, Zitian",
+    "Zhu, Chenghao",
+    "Li, Shaofei",
+    "Tan, Zhengdong",
+    "Liu, Mengyue",
+    "Zhao, Haotian",
+    "Zhou, Zhe",
+    "Wu, Jianmin"
+  ],
+  "first_author": "Zeng, Yucheng",
+  "year": 2026,
+  "source_date": "2026/02/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2603.00540",
+  "abstract": "The evolution of Large Language Models (LLMs) from static instruction-followers to autonomous agents necessitates operating within complex, stateful environments to achieve precise state-transition objectives. However, this paradigm is bottlenecked by data scarcity, as existing tool-centric reverse-synthesis pipelines fail to capture the rigorous logic of real-world applications. We introduce \\textbf{LOGIGEN}, a logic-driven framework that synthesizes verifiable training data based on three core pillars: \\textbf{Hard-Compiled Policy Grounding}, \\textbf{Logic-Driven Forward Synthesis}, and \\textbf{Deterministic State Verification}. Specifically, a Triple-Agent Orchestration is employed: the \\textbf{Architect} compiles natural-language policy into database constraints to enforce hard rules; the \\textbf{Set Designer} initializes boundary-adjacent states to trigger critical policy conflicts; and the \\textbf{Explorer} searches this environment to discover causal solution paths. This framework yields a dataset of 20,000 complex tasks across 8 domains, where validity is strictly guaranteed by checking exact state equivalence. Furthermore, we propose a verification-based training protocol where Supervised Fine-Tuning (SFT) on verifiable trajectories establishes compliance with hard-compiled policy, while Reinforcement Learning (RL) guided by dense state-rewards refines long-horizon goal achievement. On $\\tau^2$-Bench, LOGIGEN-32B(RL) achieves a \\textbf{79.5\\% success rate}, substantially outperforming the base model (40.7\\%). These results demonstrate that logic-driven synthesis combined with verification-based training effectively constructs the causally valid trajectories needed for next-generation agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.00540: LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.00540v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The evolution of Large Language Models (LLMs) from static instruction-followers to autonomous agents necessitates operating within complex, stateful environments to achieve precise state-transition objectives. However, this paradigm is bottlenecked by data scarcity, as existing tool-centric reverse-synthesis pipelines fail to capture the rigorous logic of real-world applications. We introduce \\textbf{LOGIGEN}, a logic-driven framework that synthesizes verifiable training data based on three core pillars: \\textbf{Hard-Compiled Policy Grounding}, \\textbf{Logic-Driven Forward Synthesis}, and \\textbf{Deterministic State Verification}. Specifically, a Triple-Agent Orchestration is employed: the \\textbf{Architect} compiles natural-language policy into database constraints to enforce hard rules; the \\textbf{Set Designer} initializes boundary-adjacent states to trigger critical policy conflicts; and the \\textbf{Explorer} searches this environment to discover causal solution paths. This framework yields a dataset of 20,000 complex tasks across 8 domains, where validity is strictly guaranteed by checking exact state equivalence. Furthermore, we propose a verification-based training protocol where Supervised Fine-Tuning (SFT) on verifiable trajectories establishes compliance with hard-compiled policy, while Reinforcement Learning (RL) guided by dense state-rewards refines long-horizon goal achievement. On $τ^2$-Bench, LOGIGEN-32B(RL) achieves a \\textbf{79.5\\% success rate}, substantially outperforming the base model (40.7\\%). These results demonstrate that logic-driven synthesis combined with verification-based training effectively constructs the causally valid trajectories needed for next-generation agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks"
+    ],
+    "twitter:description": [
+      "The evolution of Large Language Models (LLMs) from static instruction-followers to autonomous agents necessitates operating within complex, stateful environments to achieve precise..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks"
+    ],
+    "citation_author": [
+      "Zeng, Yucheng",
+      "Lu, Weipeng",
+      "Liu, Linyun",
+      "Li, Shupeng",
+      "Qu, Zitian",
+      "Zhu, Chenghao",
+      "Li, Shaofei",
+      "Tan, Zhengdong",
+      "Liu, Mengyue",
+      "Zhao, Haotian",
+      "Zhou, Zhe",
+      "Wu, Jianmin"
+    ],
+    "citation_date": [
+      "2026/02/28"
+    ],
+    "citation_online_date": [
+      "2026/02/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.00540"
+    ],
+    "citation_arxiv_id": [
+      "2603.00540"
+    ],
+    "citation_abstract": [
+      "The evolution of Large Language Models (LLMs) from static instruction-followers to autonomous agents necessitates operating within complex, stateful environments to achieve precise state-transition objectives. However, this paradigm is bottlenecked by data scarcity, as existing tool-centric reverse-synthesis pipelines fail to capture the rigorous logic of real-world applications. We introduce \\textbf{LOGIGEN}, a logic-driven framework that synthesizes verifiable training data based on three core pillars: \\textbf{Hard-Compiled Policy Grounding}, \\textbf{Logic-Driven Forward Synthesis}, and \\textbf{Deterministic State Verification}. Specifically, a Triple-Agent Orchestration is employed: the \\textbf{Architect} compiles natural-language policy into database constraints to enforce hard rules; the \\textbf{Set Designer} initializes boundary-adjacent states to trigger critical policy conflicts; and the \\textbf{Explorer} searches this environment to discover causal solution paths. This framework yields a dataset of 20,000 complex tasks across 8 domains, where validity is strictly guaranteed by checking exact state equivalence. Furthermore, we propose a verification-based training protocol where Supervised Fine-Tuning (SFT) on verifiable trajectories establishes compliance with hard-compiled policy, while Reinforcement Learning (RL) guided by dense state-rewards refines long-horizon goal achievement. On $\\tau^2$-Bench, LOGIGEN-32B(RL) achieves a \\textbf{79.5\\% success rate}, substantially outperforming the base model (40.7\\%). These results demonstrate that logic-driven synthesis combined with verification-based training effectively constructs the causally valid trajectories needed for next-generation agents."
+    ]
+  },
+  "html_sha256": "b75473a0f2ba540c5122c9d6dedaf6e8c9c937c93596747c51cbe19f9e09544c",
+  "evidence_html": "evidence/76813d3e31eecb3d9694.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2404.04735",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.04735",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "multi_agent_coordination",
+      "title_hint": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.04735",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:15.578293+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.04735",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42581,
+  "title": "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems",
+  "authors": [
+    "Lei, Bin",
+    "Zhang, Yi",
+    "Zuo, Shan",
+    "Payani, Ali",
+    "Ding, Caiwen"
+  ],
+  "first_author": "Lei, Bin",
+  "year": 2024,
+  "source_date": "2024/04/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.04735",
+  "abstract": "Recent advancements in large language models, such as GPT-4, have demonstrated remarkable capabilities in processing standard queries. Despite these advancements, their performance substantially declines in \\textbf{advanced mathematical problems requiring complex, multi-step logical reasoning}. To enhance their inferential capabilities, current research has delved into \\textit{prompting engineering}, exemplified by methodologies such as the Tree of Thought and Graph of Thought. Nonetheless, these existing approaches encounter two significant limitations. Firstly, their effectiveness in tackling complex mathematical problems is somewhat constrained. Secondly, the necessity to design distinct prompts for individual problems hampers their generalizability. In response to these limitations, this paper introduces the \\textit{Multi-Agent System for conditional Mining} (\\textbf{MACM}) prompting method. It not only resolves intricate mathematical problems but also demonstrates strong generalization capabilities across various mathematical contexts. With the assistance of MACM, the accuracy of GPT-4 Turbo on the most challenging level five mathematical problems in the MATH dataset increase from $\\mathbf{54.68\\%} \\text{ to } \\mathbf{76.73\\%}$. The code is available in \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.04735: MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.04735v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advancements in large language models, such as GPT-4, have demonstrated remarkable capabilities in processing standard queries. Despite these advancements, their performance substantially declines in \\textbf{advanced mathematical problems requiring complex, multi-step logical reasoning}. To enhance their inferential capabilities, current research has delved into \\textit{prompting engineering}, exemplified by methodologies such as the Tree of Thought and Graph of Thought. Nonetheless, these existing approaches encounter two significant limitations. Firstly, their effectiveness in tackling complex mathematical problems is somewhat constrained. Secondly, the necessity to design distinct prompts for individual problems hampers their generalizability. In response to these limitations, this paper introduces the \\textit{Multi-Agent System for conditional Mining} (\\textbf{MACM}) prompting method. It not only resolves intricate mathematical problems but also demonstrates strong generalization capabilities across various mathematical contexts. With the assistance of MACM, the accuracy of GPT-4 Turbo on the most challenging level five mathematical problems in the MATH dataset increase from $\\mathbf{54.68\\%} \\text{ to } \\mathbf{76.73\\%}$. The code is available in \\url{https://github.com/bin123apple/MACM}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MACM: Utilizing a Multi-Agent System for Condition Mining in..."
+    ],
+    "twitter:description": [
+      "Recent advancements in large language models, such as GPT-4, have demonstrated remarkable capabilities in processing standard queries. Despite these advancements, their performance substantially..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems"
+    ],
+    "citation_author": [
+      "Lei, Bin",
+      "Zhang, Yi",
+      "Zuo, Shan",
+      "Payani, Ali",
+      "Ding, Caiwen"
+    ],
+    "citation_date": [
+      "2024/04/06"
+    ],
+    "citation_online_date": [
+      "2024/07/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.04735"
+    ],
+    "citation_arxiv_id": [
+      "2404.04735"
+    ],
+    "citation_abstract": [
+      "Recent advancements in large language models, such as GPT-4, have demonstrated remarkable capabilities in processing standard queries. Despite these advancements, their performance substantially declines in \\textbf{advanced mathematical problems requiring complex, multi-step logical reasoning}. To enhance their inferential capabilities, current research has delved into \\textit{prompting engineering}, exemplified by methodologies such as the Tree of Thought and Graph of Thought. Nonetheless, these existing approaches encounter two significant limitations. Firstly, their effectiveness in tackling complex mathematical problems is somewhat constrained. Secondly, the necessity to design distinct prompts for individual problems hampers their generalizability. In response to these limitations, this paper introduces the \\textit{Multi-Agent System for conditional Mining} (\\textbf{MACM}) prompting method. It not only resolves intricate mathematical problems but also demonstrates strong generalization capabilities across various mathematical contexts. With the assistance of MACM, the accuracy of GPT-4 Turbo on the most challenging level five mathematical problems in the MATH dataset increase from $\\mathbf{54.68\\%} \\text{ to } \\mathbf{76.73\\%}$. The code is available in \\url{https://github.com/bin123apple/MACM}."
+    ]
+  },
+  "html_sha256": "5e768daeb75d46fa3ac5a2d82f78ab679d0c539a21c8bd38cc0267385e867ebd",
+  "evidence_html": "evidence/bd6375b5899515399f86.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

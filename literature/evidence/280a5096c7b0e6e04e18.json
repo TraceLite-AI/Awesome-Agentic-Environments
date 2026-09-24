@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2306.13831",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2306.13831",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Minigrid & miniworld: Modular & customizable reinforcement learning environments for goal-oriented tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2306.13831",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:54.036193+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2306.13831",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42624,
+  "title": "Minigrid & Miniworld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks",
+  "authors": [
+    "Chevalier-Boisvert, Maxime",
+    "Dai, Bolun",
+    "Towers, Mark",
+    "de Lazcano, Rodrigo",
+    "Willems, Lucas",
+    "Lahlou, Salem",
+    "Pal, Suman",
+    "Castro, Pablo Samuel",
+    "Terry, Jordan"
+  ],
+  "first_author": "Chevalier-Boisvert, Maxime",
+  "year": 2023,
+  "source_date": "2023/06/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2306.13831",
+  "abstract": "We present the Minigrid and Miniworld libraries which provide a suite of goal-oriented 2D and 3D environments. The libraries were explicitly created with a minimalistic design paradigm to allow users to rapidly develop new environments for a wide range of research-specific needs. As a result, both have received widescale adoption by the RL community, facilitating research in a wide range of areas. In this paper, we outline the design philosophy, environment details, and their world generation API. We also showcase the additional capabilities brought by the unified API between Minigrid and Miniworld through case studies on transfer learning (for both RL agents and humans) between the different observation spaces. The source code of Minigrid and Miniworld can be found at this https URL {Minigrid, Miniworld} along with their documentation at https://{minigrid, miniworld}. this http URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2306.13831: Minigrid & Miniworld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Minigrid & Miniworld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2306.13831v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present the Minigrid and Miniworld libraries which provide a suite of goal-oriented 2D and 3D environments. The libraries were explicitly created with a minimalistic design paradigm to allow users to rapidly develop new environments for a wide range of research-specific needs. As a result, both have received widescale adoption by the RL community, facilitating research in a wide range of areas. In this paper, we outline the design philosophy, environment details, and their world generation API. We also showcase the additional capabilities brought by the unified API between Minigrid and Miniworld through case studies on transfer learning (for both RL agents and humans) between the different observation spaces. The source code of Minigrid and Miniworld can be found at https://github.com/Farama-Foundation/{Minigrid, Miniworld} along with their documentation at https://{minigrid, miniworld}.farama.org/."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Minigrid & Miniworld: Modular & Customizable Reinforcement..."
+    ],
+    "twitter:description": [
+      "We present the Minigrid and Miniworld libraries which provide a suite of goal-oriented 2D and 3D environments. The libraries were explicitly created with a minimalistic design paradigm to allow..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Minigrid & Miniworld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks"
+    ],
+    "citation_author": [
+      "Chevalier-Boisvert, Maxime",
+      "Dai, Bolun",
+      "Towers, Mark",
+      "de Lazcano, Rodrigo",
+      "Willems, Lucas",
+      "Lahlou, Salem",
+      "Pal, Suman",
+      "Castro, Pablo Samuel",
+      "Terry, Jordan"
+    ],
+    "citation_date": [
+      "2023/06/24"
+    ],
+    "citation_online_date": [
+      "2023/06/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2306.13831"
+    ],
+    "citation_arxiv_id": [
+      "2306.13831"
+    ],
+    "citation_abstract": [
+      "We present the Minigrid and Miniworld libraries which provide a suite of goal-oriented 2D and 3D environments. The libraries were explicitly created with a minimalistic design paradigm to allow users to rapidly develop new environments for a wide range of research-specific needs. As a result, both have received widescale adoption by the RL community, facilitating research in a wide range of areas. In this paper, we outline the design philosophy, environment details, and their world generation API. We also showcase the additional capabilities brought by the unified API between Minigrid and Miniworld through case studies on transfer learning (for both RL agents and humans) between the different observation spaces. The source code of Minigrid and Miniworld can be found at https://github.com/Farama-Foundation/{Minigrid, Miniworld} along with their documentation at https://{minigrid, miniworld}.farama.org/."
+    ]
+  },
+  "html_sha256": "3b2339ff8513a3d5db385fc36e06699fcf273567f83ec467425b51e8bab10709",
+  "evidence_html": "evidence/280a5096c7b0e6e04e18.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

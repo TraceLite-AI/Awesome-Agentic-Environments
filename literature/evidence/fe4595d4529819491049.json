@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2406.10375",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.10375",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "Mokav: Execution-driven Differential Testing with LLMs",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.10375",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:15.644092+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.10375",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43735,
+  "title": "Mokav: Execution-driven Differential Testing with LLMs",
+  "authors": [
+    "Etemadi, Khashayar",
+    "Mohammadi, Bardia",
+    "Su, Zhendong",
+    "Monperrus, Martin"
+  ],
+  "first_author": "Etemadi, Khashayar",
+  "year": 2024,
+  "source_date": "2024/06/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "Journal of Systems and Software, 2025",
+  "doi": "10.1016/j.jss.2025.112571",
+  "arxiv_id": "2406.10375",
+  "abstract": "It is essential to detect functional differences between programs in various software engineering tasks, such as automated program repair, mutation testing, and code refactoring. The problem of detecting functional differences between two programs can be reduced to searching for a difference exposing test (DET): a test input that results in different outputs on the subject programs. In this paper, we propose Mokav, a novel execution-driven tool that leverages LLMs to generate DETs. Mokav takes two versions of a program (P and Q) and an example test input. When successful, Mokav generates a valid DET, a test input that leads to provably different outputs on P and Q. Mokav iteratively prompts an LLM with a specialized prompt to generate new test inputs. At each iteration, Mokav provides execution-based feedback from previously generated tests until the LLM produces a DET. We evaluate Mokav on 1535 pairs of Python programs collected from the Codeforces competition platform and 32 pairs of programs from the QuixBugs dataset. Our experiments show that Mokav outperforms the state-of-the-art, Pynguin and Differential Prompting, by a large margin. Mokav can generate DETs for 81.7% (1,255/1535) of the program pairs in our benchmark (versus 4.9% for Pynguin and 37.3% for Differential Prompting). We demonstrate that the iterative and execution-driven feedback components of the system contribute to its high effectiveness.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.10375: Mokav: Execution-driven Differential Testing with LLMs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Mokav: Execution-driven Differential Testing with LLMs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.10375v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "It is essential to detect functional differences between programs in various software engineering tasks, such as automated program repair, mutation testing, and code refactoring. The problem of detecting functional differences between two programs can be reduced to searching for a difference exposing test (DET): a test input that results in different outputs on the subject programs. In this paper, we propose Mokav, a novel execution-driven tool that leverages LLMs to generate DETs. Mokav takes two versions of a program (P and Q) and an example test input. When successful, Mokav generates a valid DET, a test input that leads to provably different outputs on P and Q. Mokav iteratively prompts an LLM with a specialized prompt to generate new test inputs. At each iteration, Mokav provides execution-based feedback from previously generated tests until the LLM produces a DET. We evaluate Mokav on 1535 pairs of Python programs collected from the Codeforces competition platform and 32 pairs of programs from the QuixBugs dataset. Our experiments show that Mokav outperforms the state-of-the-art, Pynguin and Differential Prompting, by a large margin. Mokav can generate DETs for 81.7% (1,255/1535) of the program pairs in our benchmark (versus 4.9% for Pynguin and 37.3% for Differential Prompting). We demonstrate that the iterative and execution-driven feedback components of the system contribute to its high effectiveness."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Mokav: Execution-driven Differential Testing with LLMs"
+    ],
+    "twitter:description": [
+      "It is essential to detect functional differences between programs in various software engineering tasks, such as automated program repair, mutation testing, and code refactoring. The problem of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Mokav: Execution-driven Differential Testing with LLMs"
+    ],
+    "citation_author": [
+      "Etemadi, Khashayar",
+      "Mohammadi, Bardia",
+      "Su, Zhendong",
+      "Monperrus, Martin"
+    ],
+    "citation_doi": [
+      "10.1016/j.jss.2025.112571"
+    ],
+    "citation_date": [
+      "2024/06/14"
+    ],
+    "citation_online_date": [
+      "2025/07/31"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.10375"
+    ],
+    "citation_arxiv_id": [
+      "2406.10375"
+    ],
+    "citation_abstract": [
+      "It is essential to detect functional differences between programs in various software engineering tasks, such as automated program repair, mutation testing, and code refactoring. The problem of detecting functional differences between two programs can be reduced to searching for a difference exposing test (DET): a test input that results in different outputs on the subject programs. In this paper, we propose Mokav, a novel execution-driven tool that leverages LLMs to generate DETs. Mokav takes two versions of a program (P and Q) and an example test input. When successful, Mokav generates a valid DET, a test input that leads to provably different outputs on P and Q. Mokav iteratively prompts an LLM with a specialized prompt to generate new test inputs. At each iteration, Mokav provides execution-based feedback from previously generated tests until the LLM produces a DET. We evaluate Mokav on 1535 pairs of Python programs collected from the Codeforces competition platform and 32 pairs of programs from the QuixBugs dataset. Our experiments show that Mokav outperforms the state-of-the-art, Pynguin and Differential Prompting, by a large margin. Mokav can generate DETs for 81.7% (1,255/1535) of the program pairs in our benchmark (versus 4.9% for Pynguin and 37.3% for Differential Prompting). We demonstrate that the iterative and execution-driven feedback components of the system contribute to its high effectiveness."
+    ]
+  },
+  "html_sha256": "ce9767d24e1bd45a6f8b9e3dda9ee125b34bfc8bb3812dc6ce51b5c305f911b5",
+  "evidence_html": "evidence/fe4595d4529819491049.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

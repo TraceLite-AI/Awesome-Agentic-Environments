@@ -1,0 +1,105 @@
+{
+  "url": "https://dx.doi.org/10.18653/v1/2025.emnlp-main.249",
+  "discoveries": [
+    {
+      "url": "https://dx.doi.org/10.18653/v1/2025.emnlp-main.249",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Collab-overcooked: Benchmarking and evaluating large language models as collaborative agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://dx.doi.org/10.18653/v1/2025.emnlp-main.249",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:03.277725+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.emnlp-main.249/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 47343,
+  "title": "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents",
+  "authors": [
+    "Haochen Sun",
+    "Shuwen Zhang",
+    "Lujie Niu",
+    "Lei Ren",
+    "Hao Xu",
+    "Hao Fu",
+    "Fangkun Zhao",
+    "Caixia Yuan",
+    "Xiaojie Wang"
+  ],
+  "first_author": "Haochen Sun",
+  "year": 2025,
+  "source_date": "2025/11",
+  "venue_from_source": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2025.emnlp-main.249",
+  "arxiv_id": "",
+  "abstract": "Large Language Models (LLMs) based agent systems have made great strides in real-world applications beyond traditional NLP tasks. This paper proposes a new LLM-based Multi-Agent System (LLM-MAS) benchmark, Collab-Overcooked, built on the popular Overcooked-AI game with more applicable and challenging tasks in interactive environments. Collab-Overcooked extends existing benchmarks in two novel ways. First, it provides a multi-agent framework supporting diverse tasks and objectives and encourages collaboration through natural language communication. Second, it introduces a spectrum of process-oriented evaluation metrics to assess the fine-grained collaboration capabilities of different LLM agents, a dimension often overlooked in prior work. We conduct extensive experiments with 13 popular LLMs and show that, while the LLMs exhibit a strong ability in goal interpretation, there are significant shortcomings in active collaboration and continuous adaptation, which are critical for efficiently fulfilling complex tasks. Notably, we highlight the strengths and weaknesses of LLM-MAS and provide insights for improving and evaluating LLM-MAS on a unified and open-source benchmark. The environments, 30 open-ended tasks, and the evaluation package are publicly available at https://github.com/YusaeMeow/Collab-Overcooked .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents"
+    ],
+    "citation_author": [
+      "Haochen Sun",
+      "Shuwen Zhang",
+      "Lujie Niu",
+      "Lei Ren",
+      "Hao Xu",
+      "Hao Fu",
+      "Fangkun Zhao",
+      "Caixia Yuan",
+      "Xiaojie Wang"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "citation_publication_date": [
+      "2025/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.emnlp-main.249.pdf"
+    ],
+    "citation_firstpage": [
+      "4922"
+    ],
+    "citation_lastpage": [
+      "4951"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.emnlp-main.249"
+    ],
+    "og:title": [
+      "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.emnlp-main.249.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.emnlp-main.249/"
+    ],
+    "og:description": [
+      "Haochen Sun, Shuwen Zhang, Lujie Niu, Lei Ren, Hao Xu, Hao Fu, Fangkun Zhao, Caixia Yuan, Xiaojie Wang. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. 2025."
+    ]
+  },
+  "html_sha256": "f0389a9af5c1d302397593666051afc1f79ac062a410eb5200f54c03e94ad4c3",
+  "evidence_html": "evidence/84f087b6556b92fa00f3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

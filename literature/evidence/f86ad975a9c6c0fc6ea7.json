@@ -1,0 +1,105 @@
+{
+  "url": "https://doi.org/10.18653/v1/2023.emnlp-main.187",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.187",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Api-bank: A comprehensive benchmark for tool-augmented llms",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2023.emnlp-main.187",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:24.766418+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2023.emnlp-main.187/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46178,
+  "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+  "authors": [
+    "Minghao Li",
+    "Yingxiu Zhao",
+    "Bowen Yu",
+    "Feifan Song",
+    "Hangyu Li",
+    "Haiyang Yu",
+    "Zhoujun Li",
+    "Fei Huang",
+    "Yongbin Li"
+  ],
+  "first_author": "Minghao Li",
+  "year": 2023,
+  "source_date": "2023/12",
+  "venue_from_source": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2023.emnlp-main.187",
+  "arxiv_id": "",
+  "abstract": "Recent research has demonstrated that Large Language Models (LLMs) can enhance their capabilities by utilizing external tools. However, three pivotal questions remain unanswered: (1) How effective are current LLMs in utilizing tools? (2) How can we enhance LLMs’ ability to utilize tools? (3) What obstacles need to be overcome to leverage tools? To address these questions, we introduce API-Bank, a groundbreaking benchmark, specifically designed for tool-augmented LLMs. For the first question, we develop a runnable evaluation system consisting of 73 API tools. We annotate 314 tool-use dialogues with 753 API calls to assess the existing LLMs’ capabilities in planning, retrieving, and calling APIs. For the second question, we construct a comprehensive training set containing 1,888 tool-use dialogues from 2,138 APIs spanning 1,000 distinct domains. Using this dataset, we train Lynx, a tool-augmented LLM initialized from Alpaca. Experimental results demonstrate that GPT-3.5 exhibits improved tool utilization compared to GPT-3, while GPT-4 excels in planning. However, there is still significant potential for further improvement. Moreover, Lynx surpasses Alpaca’s tool utilization performance by more than 26 pts and approaches the effectiveness of GPT-3.5. Through error analysis, we highlight the key challenges for future research in this field to answer the third question.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs"
+    ],
+    "citation_author": [
+      "Minghao Li",
+      "Yingxiu Zhao",
+      "Bowen Yu",
+      "Feifan Song",
+      "Hangyu Li",
+      "Haiyang Yu",
+      "Zhoujun Li",
+      "Fei Huang",
+      "Yongbin Li"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "citation_publication_date": [
+      "2023/12"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2023.emnlp-main.187.pdf"
+    ],
+    "citation_firstpage": [
+      "3102"
+    ],
+    "citation_lastpage": [
+      "3116"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2023.emnlp-main.187"
+    ],
+    "og:title": [
+      "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2023.emnlp-main.187.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2023.emnlp-main.187/"
+    ],
+    "og:description": [
+      "Minghao Li, Yingxiu Zhao, Bowen Yu, Feifan Song, Hangyu Li, Haiyang Yu, Zhoujun Li, Fei Huang, Yongbin Li. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023."
+    ]
+  },
+  "html_sha256": "8782f0986e3e9f00e2fc6bdb577f58c05dd3c30c499a9240059b82a742f6af95",
+  "evidence_html": "evidence/f86ad975a9c6c0fc6ea7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

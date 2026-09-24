@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/1906.03018",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1906.03018",
+      "discovery_url": "https://arxiv.org/abs/1906.03018",
+      "topic": "基础：执行环境、配置与可复现性",
+      "title_hint": "Learning Software Configuration Spaces: A Systematic Literature Review",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1906.03018",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:41.672437+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1906.03018",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44760,
+  "title": "Learning Software Configuration Spaces: A Systematic Literature Review",
+  "authors": [
+    "Pereira, Juliana Alves",
+    "Martin, Hugo",
+    "Acher, Mathieu",
+    "Jézéquel, Jean-Marc",
+    "Botterweck, Goetz",
+    "Ventresque, Anthony"
+  ],
+  "first_author": "Pereira, Juliana Alves",
+  "year": 2019,
+  "source_date": "2019/06/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1906.03018",
+  "abstract": "Most modern software systems (operating systems like Linux or Android, Web browsers like Firefox or Chrome, video encoders like ffmpeg, x264 or VLC, mobile and cloud applications, etc.) are highly-configurable. Hundreds of configuration options, features, or plugins can be combined, each potentially with distinct functionality and effects on execution time, security, energy consumption, etc. Due to the combinatorial explosion and the cost of executing software, it is quickly impossible to exhaustively explore the whole configuration space. Hence, numerous works have investigated the idea of learning it from a small sample of configurations' measurements. The pattern \"sampling, measuring, learning\" has emerged in the literature, with several practical interests for both software developers and end-users of configurable systems. In this survey, we report on the different application objectives (e.g., performance prediction, configuration optimization, constraint mining), use-cases, targeted software systems and application domains. We review the various strategies employed to gather a representative and cost-effective sample. We describe automated software techniques used to measure functional and non-functional properties of configurations. We classify machine learning algorithms and how they relate to the pursued application. Finally, we also describe how researchers evaluate the quality of the learning process. The findings from this systematic review show that the potential application objective is important; there are a vast number of case studies reported in the literature from the basis of several domains and software systems. Yet, the huge variant space of configurable systems is still challenging and calls to further investigate the synergies between artificial intelligence and software engineering.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1906.03018: Learning Software Configuration Spaces: A Systematic Literature Review"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Learning Software Configuration Spaces: A Systematic Literature Review"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1906.03018v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Most modern software systems (operating systems like Linux or Android, Web browsers like Firefox or Chrome, video encoders like ffmpeg, x264 or VLC, mobile and cloud applications, etc.) are highly-configurable. Hundreds of configuration options, features, or plugins can be combined, each potentially with distinct functionality and effects on execution time, security, energy consumption, etc. Due to the combinatorial explosion and the cost of executing software, it is quickly impossible to exhaustively explore the whole configuration space. Hence, numerous works have investigated the idea of learning it from a small sample of configurations' measurements. The pattern \"sampling, measuring, learning\" has emerged in the literature, with several practical interests for both software developers and end-users of configurable systems. In this survey, we report on the different application objectives (e.g., performance prediction, configuration optimization, constraint mining), use-cases, targeted software systems and application domains. We review the various strategies employed to gather a representative and cost-effective sample. We describe automated software techniques used to measure functional and non-functional properties of configurations. We classify machine learning algorithms and how they relate to the pursued application. Finally, we also describe how researchers evaluate the quality of the learning process. The findings from this systematic review show that the potential application objective is important; there are a vast number of case studies reported in the literature from the basis of several domains and software systems. Yet, the huge variant space of configurable systems is still challenging and calls to further investigate the synergies between artificial intelligence and software engineering."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Learning Software Configuration Spaces: A Systematic Literature Review"
+    ],
+    "twitter:description": [
+      "Most modern software systems (operating systems like Linux or Android, Web browsers like Firefox or Chrome, video encoders like ffmpeg, x264 or VLC, mobile and cloud applications, etc.) are..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Learning Software Configuration Spaces: A Systematic Literature Review"
+    ],
+    "citation_author": [
+      "Pereira, Juliana Alves",
+      "Martin, Hugo",
+      "Acher, Mathieu",
+      "Jézéquel, Jean-Marc",
+      "Botterweck, Goetz",
+      "Ventresque, Anthony"
+    ],
+    "citation_date": [
+      "2019/06/07"
+    ],
+    "citation_online_date": [
+      "2019/06/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1906.03018"
+    ],
+    "citation_arxiv_id": [
+      "1906.03018"
+    ],
+    "citation_abstract": [
+      "Most modern software systems (operating systems like Linux or Android, Web browsers like Firefox or Chrome, video encoders like ffmpeg, x264 or VLC, mobile and cloud applications, etc.) are highly-configurable. Hundreds of configuration options, features, or plugins can be combined, each potentially with distinct functionality and effects on execution time, security, energy consumption, etc. Due to the combinatorial explosion and the cost of executing software, it is quickly impossible to exhaustively explore the whole configuration space. Hence, numerous works have investigated the idea of learning it from a small sample of configurations' measurements. The pattern \"sampling, measuring, learning\" has emerged in the literature, with several practical interests for both software developers and end-users of configurable systems. In this survey, we report on the different application objectives (e.g., performance prediction, configuration optimization, constraint mining), use-cases, targeted software systems and application domains. We review the various strategies employed to gather a representative and cost-effective sample. We describe automated software techniques used to measure functional and non-functional properties of configurations. We classify machine learning algorithms and how they relate to the pursued application. Finally, we also describe how researchers evaluate the quality of the learning process. The findings from this systematic review show that the potential application objective is important; there are a vast number of case studies reported in the literature from the basis of several domains and software systems. Yet, the huge variant space of configurable systems is still challenging and calls to further investigate the synergies between artificial intelligence and software engineering."
+    ]
+  },
+  "html_sha256": "2f44a222a6b8c0ec9339c10291508aca50f8f851dbae5909197b31f9366c29df",
+  "evidence_html": "evidence/caff9a93d2931c193cd4.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

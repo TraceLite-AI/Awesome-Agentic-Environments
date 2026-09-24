@@ -1,0 +1,158 @@
+{
+  "url": "https://arxiv.org/abs/2512.08868",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.08868",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Ecombench: Towards holistic evaluation of foundation agents in e-commerce",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.08868",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:23.062977+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.08868",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44685,
+  "title": "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce",
+  "authors": [
+    "Min, Rui",
+    "Qiao, Zile",
+    "Xu, Ze",
+    "Zhai, Jiawen",
+    "Gao, Wenyu",
+    "Chen, Xuanzhong",
+    "Sun, Haozhen",
+    "Zhang, Zhen",
+    "Wang, Xinyu",
+    "Zhou, Hong",
+    "Yin, Wenbiao",
+    "Zhang, Bo",
+    "Zhou, Xuan",
+    "Yan, Ming",
+    "Jiang, Yong",
+    "Liu, Haicheng",
+    "Ding, Liang",
+    "Zou, Ling",
+    "Fung, Yi R.",
+    "Li, Yalong",
+    "Xie, Pengjun"
+  ],
+  "first_author": "Min, Rui",
+  "year": 2025,
+  "source_date": "2025/12/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.08868",
+  "abstract": "Foundation agents have rapidly advanced in their ability to reason and interact with real environments, making the evaluation of their core capabilities increasingly important. While many benchmarks have been developed to assess agent performance, most concentrate on academic settings or artificially designed scenarios while overlooking the challenges that arise in real applications. To address this issue, we focus on a highly practical real-world setting, the e-commerce domain, which involves a large volume of diverse user interactions, dynamic market conditions, and tasks directly tied to real decision-making processes. To this end, we introduce EcomBench, a holistic E-commerce Benchmark designed to evaluate agent performance in realistic e-commerce environments. EcomBench is built from genuine user demands embedded in leading global e-commerce ecosystems and is carefully curated and annotated through human experts to ensure clarity, accuracy, and domain relevance. It covers multiple task categories within e-commerce scenarios and defines three difficulty levels that evaluate agents on key capabilities such as deep information retrieval, multi-step reasoning, and cross-source knowledge integration. By grounding evaluation in real e-commerce contexts, EcomBench provides a rigorous and dynamic testbed for measuring the practical capabilities of agents in modern e-commerce.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.08868: EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.08868v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Foundation agents have rapidly advanced in their ability to reason and interact with real environments, making the evaluation of their core capabilities increasingly important. While many benchmarks have been developed to assess agent performance, most concentrate on academic settings or artificially designed scenarios while overlooking the challenges that arise in real applications. To address this issue, we focus on a highly practical real-world setting, the e-commerce domain, which involves a large volume of diverse user interactions, dynamic market conditions, and tasks directly tied to real decision-making processes. To this end, we introduce EcomBench, a holistic E-commerce Benchmark designed to evaluate agent performance in realistic e-commerce environments. EcomBench is built from genuine user demands embedded in leading global e-commerce ecosystems and is carefully curated and annotated through human experts to ensure clarity, accuracy, and domain relevance. It covers multiple task categories within e-commerce scenarios and defines three difficulty levels that evaluate agents on key capabilities such as deep information retrieval, multi-step reasoning, and cross-source knowledge integration. By grounding evaluation in real e-commerce contexts, EcomBench provides a rigorous and dynamic testbed for measuring the practical capabilities of agents in modern e-commerce."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce"
+    ],
+    "twitter:description": [
+      "Foundation agents have rapidly advanced in their ability to reason and interact with real environments, making the evaluation of their core capabilities increasingly important. While many..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce"
+    ],
+    "citation_author": [
+      "Min, Rui",
+      "Qiao, Zile",
+      "Xu, Ze",
+      "Zhai, Jiawen",
+      "Gao, Wenyu",
+      "Chen, Xuanzhong",
+      "Sun, Haozhen",
+      "Zhang, Zhen",
+      "Wang, Xinyu",
+      "Zhou, Hong",
+      "Yin, Wenbiao",
+      "Zhang, Bo",
+      "Zhou, Xuan",
+      "Yan, Ming",
+      "Jiang, Yong",
+      "Liu, Haicheng",
+      "Ding, Liang",
+      "Zou, Ling",
+      "Fung, Yi R.",
+      "Li, Yalong",
+      "Xie, Pengjun"
+    ],
+    "citation_date": [
+      "2025/12/09"
+    ],
+    "citation_online_date": [
+      "2025/12/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.08868"
+    ],
+    "citation_arxiv_id": [
+      "2512.08868"
+    ],
+    "citation_abstract": [
+      "Foundation agents have rapidly advanced in their ability to reason and interact with real environments, making the evaluation of their core capabilities increasingly important. While many benchmarks have been developed to assess agent performance, most concentrate on academic settings or artificially designed scenarios while overlooking the challenges that arise in real applications. To address this issue, we focus on a highly practical real-world setting, the e-commerce domain, which involves a large volume of diverse user interactions, dynamic market conditions, and tasks directly tied to real decision-making processes. To this end, we introduce EcomBench, a holistic E-commerce Benchmark designed to evaluate agent performance in realistic e-commerce environments. EcomBench is built from genuine user demands embedded in leading global e-commerce ecosystems and is carefully curated and annotated through human experts to ensure clarity, accuracy, and domain relevance. It covers multiple task categories within e-commerce scenarios and defines three difficulty levels that evaluate agents on key capabilities such as deep information retrieval, multi-step reasoning, and cross-source knowledge integration. By grounding evaluation in real e-commerce contexts, EcomBench provides a rigorous and dynamic testbed for measuring the practical capabilities of agents in modern e-commerce."
+    ]
+  },
+  "html_sha256": "016b865fbf5b068994365127af0e3053dca553f8d14d828292f3dfb74bebe387",
+  "evidence_html": "evidence/484a3d00c2e935116ddb.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

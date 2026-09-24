@@ -1,0 +1,82 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2024/hash/13836f251823945316ae067350a5c366-Abstract-Datasets_and_Benchmarks_Track.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/13836f251823945316ae067350a5c366-Abstract-Datasets_and_Benchmarks_Track.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Discoveryworld: A virtual environment for developing and evaluating automated scientific discovery agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2024/hash/13836f251823945316ae067350a5c366-Abstract-Datasets_and_Benchmarks_Track.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:21.112043+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2024/hash/13836f251823945316ae067350a5c366-Abstract-Datasets_and_Benchmarks_Track.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10616,
+  "title": "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+  "authors": [
+    "Jansen, Peter",
+    "Côté, Marc-Alexandre",
+    "Khot, Tushar",
+    "Bransom, Erin",
+    "Dalvi Mishra, Bhavana",
+    "Majumder, Bodhisattwa Prasad",
+    "Tafjord, Oyvind",
+    "Clark, Peter"
+  ],
+  "first_author": "Jansen, Peter",
+  "year": 2024,
+  "source_date": "2024-12-16",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/079017-0324",
+  "arxiv_id": "",
+  "abstract": "Automated scientific discovery promises to accelerate progress across scientific domains, but evaluating an agent's capacity for end-to-end scientific reasoning is challenging as running real-world experiments is often prohibitively expensive or infeasible. In this work we introduce DiscoveryWorld, a virtual environment that enables benchmarking an agent's ability to perform complete cycles of novel scientific discovery in an inexpensive, simulated, multi-modal, long-horizon, and fictional setting.DiscoveryWorld consists of 24 scientific tasks across three levels of difficulty, each with parametric variations that provide new discoveries for agents to make across runs. Tasks require an agent to form hypotheses, design and run experiments, analyze results, and act on conclusions. Task difficulties are normed to range from straightforward to challenging for human scientists with advanced degrees. DiscoveryWorld further provides three automatic metrics for evaluating performance, including: (1) binary task completion, (2) fine-grained report cards detailing procedural scoring of task-relevant actions, and (3) the accuracy of discovered explanatory knowledge.While simulated environments such as DiscoveryWorld are low-fidelity compared to the real world, we find that strong baseline agents struggle on most DiscoveryWorld tasks, highlighting the utility of using simulated environments as proxy tasks for near-term development of scientific discovery competency in agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents"
+    ],
+    "citation_author": [
+      "Jansen, Peter",
+      "Côté, Marc-Alexandre",
+      "Khot, Tushar",
+      "Bransom, Erin",
+      "Dalvi Mishra, Bhavana",
+      "Majumder, Bodhisattwa Prasad",
+      "Tafjord, Oyvind",
+      "Clark, Peter"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-0324"
+    ],
+    "citation_firstpage": [
+      "10088"
+    ],
+    "citation_lastpage": [
+      "10116"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/13836f251823945316ae067350a5c366-Paper-Datasets_and_Benchmarks_Track.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "html_sha256": "2d3bd8907707a9adde84ab7b2de90fcd34c91bfa0f5b177b6b5a8b28b576d78e",
+  "evidence_html": "evidence/778d0179adf885bcc5d3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

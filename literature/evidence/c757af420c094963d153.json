@@ -1,0 +1,123 @@
+{
+  "url": "https://arxiv.org/abs/2507.14799",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.14799",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Adversarial environment variation/GUI and web security",
+      "title_hint": "Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.14799",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:52.955110+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.14799",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41139,
+  "title": "Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree",
+  "authors": [
+    "Johnson, Sam",
+    "Pham, Viet",
+    "Le, Thai"
+  ],
+  "first_author": "Johnson, Sam",
+  "year": 2025,
+  "source_date": "2025/07/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.14799",
+  "abstract": "This work demonstrates that LLM-based web navigation agents offer powerful automation capabilities but are vulnerable to Indirect Prompt Injection (IPI) attacks. We show that adversaries can embed universal adversarial triggers in webpage HTML to hijack agent behavior that utilizes the accessibility tree to parse HTML, causing unintended or malicious actions. Using the Greedy Coordinate Gradient (GCG) algorithm and a Browser Gym agent powered by Llama-3.1, our system demonstrates high success rates across real websites in both targeted and general attacks, including login credential exfiltration and forced ad clicks. Our empirical results highlight critical security risks and the need for stronger defenses as LLM-driven autonomous web agents become more widely adopted. The system software ( this https URL ) is released under the MIT License, with an accompanying publicly available demo website ( this http URL ).",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.14799: Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.14799v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "This work demonstrates that LLM-based web navigation agents offer powerful automation capabilities but are vulnerable to Indirect Prompt Injection (IPI) attacks. We show that adversaries can embed universal adversarial triggers in webpage HTML to hijack agent behavior that utilizes the accessibility tree to parse HTML, causing unintended or malicious actions. Using the Greedy Coordinate Gradient (GCG) algorithm and a Browser Gym agent powered by Llama-3.1, our system demonstrates high success rates across real websites in both targeted and general attacks, including login credential exfiltration and forced ad clicks. Our empirical results highlight critical security risks and the need for stronger defenses as LLM-driven autonomous web agents become more widely adopted. The system software (https://github.com/sej2020/manipulating-web-agents) is released under the MIT License, with an accompanying publicly available demo website (http://lethaiq.github.io/attack-web-llm-agent)."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Manipulating LLM Web Agents with Indirect Prompt Injection Attack..."
+    ],
+    "twitter:description": [
+      "This work demonstrates that LLM-based web navigation agents offer powerful automation capabilities but are vulnerable to Indirect Prompt Injection (IPI) attacks. We show that adversaries can embed..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree"
+    ],
+    "citation_author": [
+      "Johnson, Sam",
+      "Pham, Viet",
+      "Le, Thai"
+    ],
+    "citation_date": [
+      "2025/07/20"
+    ],
+    "citation_online_date": [
+      "2025/07/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.14799"
+    ],
+    "citation_arxiv_id": [
+      "2507.14799"
+    ],
+    "citation_abstract": [
+      "This work demonstrates that LLM-based web navigation agents offer powerful automation capabilities but are vulnerable to Indirect Prompt Injection (IPI) attacks. We show that adversaries can embed universal adversarial triggers in webpage HTML to hijack agent behavior that utilizes the accessibility tree to parse HTML, causing unintended or malicious actions. Using the Greedy Coordinate Gradient (GCG) algorithm and a Browser Gym agent powered by Llama-3.1, our system demonstrates high success rates across real websites in both targeted and general attacks, including login credential exfiltration and forced ad clicks. Our empirical results highlight critical security risks and the need for stronger defenses as LLM-driven autonomous web agents become more widely adopted. The system software (https://github.com/sej2020/manipulating-web-agents) is released under the MIT License, with an accompanying publicly available demo website (http://lethaiq.github.io/attack-web-llm-agent)."
+    ]
+  },
+  "html_sha256": "d10fd579648cae2caa5469ceae95bbcb3b1f35b483252235d8b1528600114ce2",
+  "evidence_html": "evidence/c757af420c094963d153.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

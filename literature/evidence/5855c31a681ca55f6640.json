@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2503.09648",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.09648",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "A Survey on Trustworthy LLM Agents: Threats and Countermeasures",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.09648",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:38.766740+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.09648",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42923,
+  "title": "A Survey on Trustworthy LLM Agents: Threats and Countermeasures",
+  "authors": [
+    "Yu, Miao",
+    "Meng, Fanci",
+    "Zhou, Xinyun",
+    "Wang, Shilong",
+    "Mao, Junyuan",
+    "Pang, Linsey",
+    "Chen, Tianlong",
+    "Wang, Kun",
+    "Li, Xinfeng",
+    "Zhang, Yongfeng",
+    "An, Bo",
+    "Wen, Qingsong"
+  ],
+  "first_author": "Yu, Miao",
+  "year": 2025,
+  "source_date": "2025/03/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.09648",
+  "abstract": "With the rapid evolution of Large Language Models (LLMs), LLM-based agents and Multi-agent Systems (MAS) have significantly expanded the capabilities of LLM ecosystems. This evolution stems from empowering LLMs with additional modules such as memory, tools, environment, and even other agents. However, this advancement has also introduced more complex issues of trustworthiness, which previous research focused solely on LLMs could not cover. In this survey, we propose the TrustAgent framework, a comprehensive study on the trustworthiness of agents, characterized by modular taxonomy, multi-dimensional connotations, and technical implementation. By thoroughly investigating and summarizing newly emerged attacks, defenses, and evaluation methods for agents and MAS, we extend the concept of Trustworthy LLM to the emerging paradigm of Trustworthy Agent. In TrustAgent, we begin by deconstructing and introducing various components of the Agent and MAS. Then, we categorize their trustworthiness into intrinsic (brain, memory, and tool) and extrinsic (user, agent, and environment) aspects. Subsequently, we delineate the multifaceted meanings of trustworthiness and elaborate on the implementation techniques of existing research related to these internal and external modules. Finally, we present our insights and outlook on this domain, aiming to provide guidance for future endeavors.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.09648: A Survey on Trustworthy LLM Agents: Threats and Countermeasures"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Survey on Trustworthy LLM Agents: Threats and Countermeasures"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.09648v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "With the rapid evolution of Large Language Models (LLMs), LLM-based agents and Multi-agent Systems (MAS) have significantly expanded the capabilities of LLM ecosystems. This evolution stems from empowering LLMs with additional modules such as memory, tools, environment, and even other agents. However, this advancement has also introduced more complex issues of trustworthiness, which previous research focused solely on LLMs could not cover. In this survey, we propose the TrustAgent framework, a comprehensive study on the trustworthiness of agents, characterized by modular taxonomy, multi-dimensional connotations, and technical implementation. By thoroughly investigating and summarizing newly emerged attacks, defenses, and evaluation methods for agents and MAS, we extend the concept of Trustworthy LLM to the emerging paradigm of Trustworthy Agent. In TrustAgent, we begin by deconstructing and introducing various components of the Agent and MAS. Then, we categorize their trustworthiness into intrinsic (brain, memory, and tool) and extrinsic (user, agent, and environment) aspects. Subsequently, we delineate the multifaceted meanings of trustworthiness and elaborate on the implementation techniques of existing research related to these internal and external modules. Finally, we present our insights and outlook on this domain, aiming to provide guidance for future endeavors."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Survey on Trustworthy LLM Agents: Threats and Countermeasures"
+    ],
+    "twitter:description": [
+      "With the rapid evolution of Large Language Models (LLMs), LLM-based agents and Multi-agent Systems (MAS) have significantly expanded the capabilities of LLM ecosystems. This evolution stems from..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Survey on Trustworthy LLM Agents: Threats and Countermeasures"
+    ],
+    "citation_author": [
+      "Yu, Miao",
+      "Meng, Fanci",
+      "Zhou, Xinyun",
+      "Wang, Shilong",
+      "Mao, Junyuan",
+      "Pang, Linsey",
+      "Chen, Tianlong",
+      "Wang, Kun",
+      "Li, Xinfeng",
+      "Zhang, Yongfeng",
+      "An, Bo",
+      "Wen, Qingsong"
+    ],
+    "citation_date": [
+      "2025/03/12"
+    ],
+    "citation_online_date": [
+      "2025/03/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.09648"
+    ],
+    "citation_arxiv_id": [
+      "2503.09648"
+    ],
+    "citation_abstract": [
+      "With the rapid evolution of Large Language Models (LLMs), LLM-based agents and Multi-agent Systems (MAS) have significantly expanded the capabilities of LLM ecosystems. This evolution stems from empowering LLMs with additional modules such as memory, tools, environment, and even other agents. However, this advancement has also introduced more complex issues of trustworthiness, which previous research focused solely on LLMs could not cover. In this survey, we propose the TrustAgent framework, a comprehensive study on the trustworthiness of agents, characterized by modular taxonomy, multi-dimensional connotations, and technical implementation. By thoroughly investigating and summarizing newly emerged attacks, defenses, and evaluation methods for agents and MAS, we extend the concept of Trustworthy LLM to the emerging paradigm of Trustworthy Agent. In TrustAgent, we begin by deconstructing and introducing various components of the Agent and MAS. Then, we categorize their trustworthiness into intrinsic (brain, memory, and tool) and extrinsic (user, agent, and environment) aspects. Subsequently, we delineate the multifaceted meanings of trustworthiness and elaborate on the implementation techniques of existing research related to these internal and external modules. Finally, we present our insights and outlook on this domain, aiming to provide guidance for future endeavors."
+    ]
+  },
+  "html_sha256": "cc909b0b92fa3dfa8a669326676c34e4f38f9742a007cf3a553ee14d96203669",
+  "evidence_html": "evidence/5855c31a681ca55f6640.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

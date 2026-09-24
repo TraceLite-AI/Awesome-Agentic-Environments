@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2401.08500",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.08500",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.08500",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.08500",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:03.238527+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.08500",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42404,
+  "title": "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+  "authors": [
+    "Ridnik, Tal",
+    "Kredo, Dedy",
+    "Friedman, Itamar"
+  ],
+  "first_author": "Ridnik, Tal",
+  "year": 2024,
+  "source_date": "2024/01/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.08500",
+  "abstract": "Code generation problems differ from common natural language problems - they require matching the exact syntax of the target language, identifying happy paths and edge cases, paying attention to numerous small details in the problem spec, and addressing other code-specific issues and requirements. Hence, many of the optimizations and tricks that have been successful in natural language generation may not be effective for code tasks. In this work, we propose a new approach to code generation by LLMs, which we call AlphaCodium - a test-based, multi-stage, code-oriented iterative flow, that improves the performances of LLMs on code problems. We tested AlphaCodium on a challenging code generation dataset called CodeContests, which includes competitive programming problems from platforms such as Codeforces. The proposed flow consistently and significantly improves results. On the validation set, for example, GPT-4 accuracy (pass@5) increased from 19% with a single well-designed direct prompt to 44% with the AlphaCodium flow. Many of the principles and best practices acquired in this work, we believe, are broadly applicable to general code generation tasks. Full implementation is available at: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.08500: Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.08500v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Code generation problems differ from common natural language problems - they require matching the exact syntax of the target language, identifying happy paths and edge cases, paying attention to numerous small details in the problem spec, and addressing other code-specific issues and requirements. Hence, many of the optimizations and tricks that have been successful in natural language generation may not be effective for code tasks. In this work, we propose a new approach to code generation by LLMs, which we call AlphaCodium - a test-based, multi-stage, code-oriented iterative flow, that improves the performances of LLMs on code problems. We tested AlphaCodium on a challenging code generation dataset called CodeContests, which includes competitive programming problems from platforms such as Codeforces. The proposed flow consistently and significantly improves results. On the validation set, for example, GPT-4 accuracy (pass@5) increased from 19% with a single well-designed direct prompt to 44% with the AlphaCodium flow. Many of the principles and best practices acquired in this work, we believe, are broadly applicable to general code generation tasks. Full implementation is available at: https://github.com/Codium-ai/AlphaCodium"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Code Generation with AlphaCodium: From Prompt Engineering to Flow..."
+    ],
+    "twitter:description": [
+      "Code generation problems differ from common natural language problems - they require matching the exact syntax of the target language, identifying happy paths and edge cases, paying attention to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering"
+    ],
+    "citation_author": [
+      "Ridnik, Tal",
+      "Kredo, Dedy",
+      "Friedman, Itamar"
+    ],
+    "citation_date": [
+      "2024/01/16"
+    ],
+    "citation_online_date": [
+      "2024/01/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.08500"
+    ],
+    "citation_arxiv_id": [
+      "2401.08500"
+    ],
+    "citation_abstract": [
+      "Code generation problems differ from common natural language problems - they require matching the exact syntax of the target language, identifying happy paths and edge cases, paying attention to numerous small details in the problem spec, and addressing other code-specific issues and requirements. Hence, many of the optimizations and tricks that have been successful in natural language generation may not be effective for code tasks. In this work, we propose a new approach to code generation by LLMs, which we call AlphaCodium - a test-based, multi-stage, code-oriented iterative flow, that improves the performances of LLMs on code problems. We tested AlphaCodium on a challenging code generation dataset called CodeContests, which includes competitive programming problems from platforms such as Codeforces. The proposed flow consistently and significantly improves results. On the validation set, for example, GPT-4 accuracy (pass@5) increased from 19% with a single well-designed direct prompt to 44% with the AlphaCodium flow. Many of the principles and best practices acquired in this work, we believe, are broadly applicable to general code generation tasks. Full implementation is available at: https://github.com/Codium-ai/AlphaCodium"
+    ]
+  },
+  "html_sha256": "dd4c14e4303805dffc30eaa04fd071a1682ea04a980ce831bb059755274be1dd",
+  "evidence_html": "evidence/f3008c1248fff44a59a2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

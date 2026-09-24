@@ -1,0 +1,139 @@
+{
+  "url": "https://arxiv.org/abs/2404.03648",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.03648",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "AutoWebGLM: A Large Language Model-based Web Navigating Agent",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.03648",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:48.311686+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.03648",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42922,
+  "title": "AutoWebGLM: A Large Language Model-based Web Navigating Agent",
+  "authors": [
+    "Lai, Hanyu",
+    "Liu, Xiao",
+    "Iong, Iat Long",
+    "Yao, Shuntian",
+    "Chen, Yuxuan",
+    "Shen, Pengbo",
+    "Yu, Hao",
+    "Zhang, Hanchen",
+    "Zhang, Xiaohan",
+    "Dong, Yuxiao",
+    "Tang, Jie"
+  ],
+  "first_author": "Lai, Hanyu",
+  "year": 2024,
+  "source_date": "2024/04/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.03648",
+  "abstract": "Large language models (LLMs) have fueled many intelligent web agents, but most existing ones perform far from satisfying in real-world web navigation tasks due to three factors: (1) the complexity of HTML text data (2) versatility of actions on webpages, and (3) task difficulty due to the open-domain nature of the web. In light of these challenges, we develop the open AutoWebGLM based on ChatGLM3-6B. AutoWebGLM can serve as a powerful automated web navigation agent that outperform GPT-4. Inspired by human browsing patterns, we first design an HTML simplification algorithm to represent webpages with vital information preserved succinctly. We then employ a hybrid human-AI method to build web browsing data for curriculum training. Finally, we bootstrap the model by reinforcement learning and rejection sampling to further facilitate webpage comprehension, browser operations, and efficient task decomposition by itself. For comprehensive evaluation, we establish a bilingual benchmark -- AutoWebBench -- for real-world web navigation tasks. We evaluate AutoWebGLM across diverse web navigation benchmarks, demonstrating its potential to tackle challenging tasks in real environments. Related code, model, and data are released at \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.03648: AutoWebGLM: A Large Language Model-based Web Navigating Agent"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AutoWebGLM: A Large Language Model-based Web Navigating Agent"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.03648v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have fueled many intelligent web agents, but most existing ones perform far from satisfying in real-world web navigation tasks due to three factors: (1) the complexity of HTML text data (2) versatility of actions on webpages, and (3) task difficulty due to the open-domain nature of the web. In light of these challenges, we develop the open AutoWebGLM based on ChatGLM3-6B. AutoWebGLM can serve as a powerful automated web navigation agent that outperform GPT-4. Inspired by human browsing patterns, we first design an HTML simplification algorithm to represent webpages with vital information preserved succinctly. We then employ a hybrid human-AI method to build web browsing data for curriculum training. Finally, we bootstrap the model by reinforcement learning and rejection sampling to further facilitate webpage comprehension, browser operations, and efficient task decomposition by itself. For comprehensive evaluation, we establish a bilingual benchmark -- AutoWebBench -- for real-world web navigation tasks. We evaluate AutoWebGLM across diverse web navigation benchmarks, demonstrating its potential to tackle challenging tasks in real environments. Related code, model, and data are released at \\url{https://github.com/THUDM/AutoWebGLM}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AutoWebGLM: A Large Language Model-based Web Navigating Agent"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have fueled many intelligent web agents, but most existing ones perform far from satisfying in real-world web navigation tasks due to three factors: (1) the complexity..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AutoWebGLM: A Large Language Model-based Web Navigating Agent"
+    ],
+    "citation_author": [
+      "Lai, Hanyu",
+      "Liu, Xiao",
+      "Iong, Iat Long",
+      "Yao, Shuntian",
+      "Chen, Yuxuan",
+      "Shen, Pengbo",
+      "Yu, Hao",
+      "Zhang, Hanchen",
+      "Zhang, Xiaohan",
+      "Dong, Yuxiao",
+      "Tang, Jie"
+    ],
+    "citation_date": [
+      "2024/04/04"
+    ],
+    "citation_online_date": [
+      "2024/10/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.03648"
+    ],
+    "citation_arxiv_id": [
+      "2404.03648"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have fueled many intelligent web agents, but most existing ones perform far from satisfying in real-world web navigation tasks due to three factors: (1) the complexity of HTML text data (2) versatility of actions on webpages, and (3) task difficulty due to the open-domain nature of the web. In light of these challenges, we develop the open AutoWebGLM based on ChatGLM3-6B. AutoWebGLM can serve as a powerful automated web navigation agent that outperform GPT-4. Inspired by human browsing patterns, we first design an HTML simplification algorithm to represent webpages with vital information preserved succinctly. We then employ a hybrid human-AI method to build web browsing data for curriculum training. Finally, we bootstrap the model by reinforcement learning and rejection sampling to further facilitate webpage comprehension, browser operations, and efficient task decomposition by itself. For comprehensive evaluation, we establish a bilingual benchmark -- AutoWebBench -- for real-world web navigation tasks. We evaluate AutoWebGLM across diverse web navigation benchmarks, demonstrating its potential to tackle challenging tasks in real environments. Related code, model, and data are released at \\url{https://github.com/THUDM/AutoWebGLM}."
+    ]
+  },
+  "html_sha256": "dfc20e3eeb25f91f5cde7f955d5c2c24e9051aa64bec050e1d1d5b621f28edd8",
+  "evidence_html": "evidence/1e77ab667abe2114f9f7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

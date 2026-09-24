@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2401.10019",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.10019",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.10019",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:30.947065+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.10019",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43602,
+  "title": "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents",
+  "authors": [
+    "Yuan, Tongxin",
+    "He, Zhiwei",
+    "Dong, Lingzhong",
+    "Wang, Yiming",
+    "Zhao, Ruijie",
+    "Xia, Tian",
+    "Xu, Lizhen",
+    "Zhou, Binglin",
+    "Li, Fangqi",
+    "Zhang, Zhuosheng",
+    "Wang, Rui",
+    "Liu, Gongshen"
+  ],
+  "first_author": "Yuan, Tongxin",
+  "year": 2024,
+  "source_date": "2024/01/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.10019",
+  "abstract": "Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. Despite this, these LLM agents introduce unexpected safety risks when operating in interactive environments. Instead of centering on the harmlessness of LLM-generated content in most prior studies, this work addresses the imperative need for benchmarking the behavioral safety of LLM agents within diverse environments. We introduce R-Judge, a benchmark crafted to evaluate the proficiency of LLMs in judging and identifying safety risks given agent interaction records. R-Judge comprises 569 records of multi-turn agent interaction, encompassing 27 key risk scenarios among 5 application categories and 10 risk types. It is of high-quality curation with annotated safety labels and risk descriptions. Evaluation of 11 LLMs on R-Judge shows considerable room for enhancing the risk awareness of LLMs: The best-performing model, GPT-4o, achieves 74.42% while no other models significantly exceed the random. Moreover, we reveal that risk awareness in open agent scenarios is a multi-dimensional capability involving knowledge and reasoning, thus challenging for LLMs. With further experiments, we find that fine-tuning on safety judgment significantly improve model performance while straightforward prompting mechanisms fail. R-Judge is publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.10019: R-Judge: Benchmarking Safety Risk Awareness for LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.10019v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. Despite this, these LLM agents introduce unexpected safety risks when operating in interactive environments. Instead of centering on the harmlessness of LLM-generated content in most prior studies, this work addresses the imperative need for benchmarking the behavioral safety of LLM agents within diverse environments. We introduce R-Judge, a benchmark crafted to evaluate the proficiency of LLMs in judging and identifying safety risks given agent interaction records. R-Judge comprises 569 records of multi-turn agent interaction, encompassing 27 key risk scenarios among 5 application categories and 10 risk types. It is of high-quality curation with annotated safety labels and risk descriptions. Evaluation of 11 LLMs on R-Judge shows considerable room for enhancing the risk awareness of LLMs: The best-performing model, GPT-4o, achieves 74.42% while no other models significantly exceed the random. Moreover, we reveal that risk awareness in open agent scenarios is a multi-dimensional capability involving knowledge and reasoning, thus challenging for LLMs. With further experiments, we find that fine-tuning on safety judgment significantly improve model performance while straightforward prompting mechanisms fail. R-Judge is publicly available at https://github.com/Lordog/R-Judge."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. Despite this, these LLM agents introduce unexpected safety risks when..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents"
+    ],
+    "citation_author": [
+      "Yuan, Tongxin",
+      "He, Zhiwei",
+      "Dong, Lingzhong",
+      "Wang, Yiming",
+      "Zhao, Ruijie",
+      "Xia, Tian",
+      "Xu, Lizhen",
+      "Zhou, Binglin",
+      "Li, Fangqi",
+      "Zhang, Zhuosheng",
+      "Wang, Rui",
+      "Liu, Gongshen"
+    ],
+    "citation_date": [
+      "2024/01/18"
+    ],
+    "citation_online_date": [
+      "2024/10/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.10019"
+    ],
+    "citation_arxiv_id": [
+      "2401.10019"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. Despite this, these LLM agents introduce unexpected safety risks when operating in interactive environments. Instead of centering on the harmlessness of LLM-generated content in most prior studies, this work addresses the imperative need for benchmarking the behavioral safety of LLM agents within diverse environments. We introduce R-Judge, a benchmark crafted to evaluate the proficiency of LLMs in judging and identifying safety risks given agent interaction records. R-Judge comprises 569 records of multi-turn agent interaction, encompassing 27 key risk scenarios among 5 application categories and 10 risk types. It is of high-quality curation with annotated safety labels and risk descriptions. Evaluation of 11 LLMs on R-Judge shows considerable room for enhancing the risk awareness of LLMs: The best-performing model, GPT-4o, achieves 74.42% while no other models significantly exceed the random. Moreover, we reveal that risk awareness in open agent scenarios is a multi-dimensional capability involving knowledge and reasoning, thus challenging for LLMs. With further experiments, we find that fine-tuning on safety judgment significantly improve model performance while straightforward prompting mechanisms fail. R-Judge is publicly available at https://github.com/Lordog/R-Judge."
+    ]
+  },
+  "html_sha256": "3fd0acc44c5a116baa2cc38b1d5708612968682b489733ea4c37b8b932902b35",
+  "evidence_html": "evidence/be8ddbc132d6e5ab7c1f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

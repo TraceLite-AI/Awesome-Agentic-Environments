@@ -1,0 +1,173 @@
+{
+  "url": "https://arxiv.org/abs/2505.12705",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.12705",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Dreamgen: Unlocking generalization in robot learning through video world models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.12705",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:00.309066+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.12705",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46079,
+  "title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+  "authors": [
+    "Jang, Joel",
+    "Ye, Seonghyeon",
+    "Lin, Zongyu",
+    "Xiang, Jiannan",
+    "Bjorck, Johan",
+    "Fang, Yu",
+    "Hu, Fengyuan",
+    "Huang, Spencer",
+    "Kundalia, Kaushil",
+    "Lin, Yen-Chen",
+    "Magne, Loic",
+    "Mandlekar, Ajay",
+    "Narayan, Avnish",
+    "Tan, You Liang",
+    "Wang, Guanzhi",
+    "Wang, Jing",
+    "Wang, Qi",
+    "Xu, Yinzhen",
+    "Zeng, Xiaohui",
+    "Zheng, Kaiyuan",
+    "Zheng, Ruijie",
+    "Liu, Ming-Yu",
+    "Zettlemoyer, Luke",
+    "Fox, Dieter",
+    "Kautz, Jan",
+    "Reed, Scott",
+    "Zhu, Yuke",
+    "Fan, Linxi"
+  ],
+  "first_author": "Jang, Joel",
+  "year": 2025,
+  "source_date": "2025/05/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.12705",
+  "abstract": "We introduce DreamGen, a simple yet highly effective 4-stage pipeline for training robot policies that generalize across behaviors and environments through neural trajectories - synthetic robot data generated from video world models. DreamGen leverages state-of-the-art image-to-video generative models, adapting them to the target robot embodiment to produce photorealistic synthetic videos of familiar or novel tasks in diverse environments. Since these models generate only videos, we recover pseudo-action sequences using either a latent action model or an inverse-dynamics model (IDM). Despite its simplicity, DreamGen unlocks strong behavior and environment generalization: a humanoid robot can perform 22 new behaviors in both seen and unseen environments, while requiring teleoperation data from only a single pick-and-place task in one environment. To evaluate the pipeline systematically, we introduce DreamGen Bench, a video generation benchmark that shows a strong correlation between benchmark performance and downstream policy success. Our work establishes a promising new axis for scaling robot learning well beyond manual data collection. Code available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.12705: DreamGen: Unlocking Generalization in Robot Learning through Video World Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DreamGen: Unlocking Generalization in Robot Learning through Video World Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.12705v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce DreamGen, a simple yet highly effective 4-stage pipeline for training robot policies that generalize across behaviors and environments through neural trajectories - synthetic robot data generated from video world models. DreamGen leverages state-of-the-art image-to-video generative models, adapting them to the target robot embodiment to produce photorealistic synthetic videos of familiar or novel tasks in diverse environments. Since these models generate only videos, we recover pseudo-action sequences using either a latent action model or an inverse-dynamics model (IDM). Despite its simplicity, DreamGen unlocks strong behavior and environment generalization: a humanoid robot can perform 22 new behaviors in both seen and unseen environments, while requiring teleoperation data from only a single pick-and-place task in one environment. To evaluate the pipeline systematically, we introduce DreamGen Bench, a video generation benchmark that shows a strong correlation between benchmark performance and downstream policy success. Our work establishes a promising new axis for scaling robot learning well beyond manual data collection. Code available at https://github.com/NVIDIA/GR00T-Dreams."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DreamGen: Unlocking Generalization in Robot Learning through Video..."
+    ],
+    "twitter:description": [
+      "We introduce DreamGen, a simple yet highly effective 4-stage pipeline for training robot policies that generalize across behaviors and environments through neural trajectories - synthetic robot..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DreamGen: Unlocking Generalization in Robot Learning through Video World Models"
+    ],
+    "citation_author": [
+      "Jang, Joel",
+      "Ye, Seonghyeon",
+      "Lin, Zongyu",
+      "Xiang, Jiannan",
+      "Bjorck, Johan",
+      "Fang, Yu",
+      "Hu, Fengyuan",
+      "Huang, Spencer",
+      "Kundalia, Kaushil",
+      "Lin, Yen-Chen",
+      "Magne, Loic",
+      "Mandlekar, Ajay",
+      "Narayan, Avnish",
+      "Tan, You Liang",
+      "Wang, Guanzhi",
+      "Wang, Jing",
+      "Wang, Qi",
+      "Xu, Yinzhen",
+      "Zeng, Xiaohui",
+      "Zheng, Kaiyuan",
+      "Zheng, Ruijie",
+      "Liu, Ming-Yu",
+      "Zettlemoyer, Luke",
+      "Fox, Dieter",
+      "Kautz, Jan",
+      "Reed, Scott",
+      "Zhu, Yuke",
+      "Fan, Linxi"
+    ],
+    "citation_date": [
+      "2025/05/19"
+    ],
+    "citation_online_date": [
+      "2025/06/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.12705"
+    ],
+    "citation_arxiv_id": [
+      "2505.12705"
+    ],
+    "citation_abstract": [
+      "We introduce DreamGen, a simple yet highly effective 4-stage pipeline for training robot policies that generalize across behaviors and environments through neural trajectories - synthetic robot data generated from video world models. DreamGen leverages state-of-the-art image-to-video generative models, adapting them to the target robot embodiment to produce photorealistic synthetic videos of familiar or novel tasks in diverse environments. Since these models generate only videos, we recover pseudo-action sequences using either a latent action model or an inverse-dynamics model (IDM). Despite its simplicity, DreamGen unlocks strong behavior and environment generalization: a humanoid robot can perform 22 new behaviors in both seen and unseen environments, while requiring teleoperation data from only a single pick-and-place task in one environment. To evaluate the pipeline systematically, we introduce DreamGen Bench, a video generation benchmark that shows a strong correlation between benchmark performance and downstream policy success. Our work establishes a promising new axis for scaling robot learning well beyond manual data collection. Code available at https://github.com/NVIDIA/GR00T-Dreams."
+    ]
+  },
+  "html_sha256": "706b9c89d328f4b19283340962eb9389224dee32712c03644ca444a3d5624ce0",
+  "evidence_html": "evidence/3de660eacc86a28a3e57.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

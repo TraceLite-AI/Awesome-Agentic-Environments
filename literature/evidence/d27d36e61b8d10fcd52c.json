@@ -1,0 +1,148 @@
+{
+  "url": "https://arxiv.org/abs/2606.23449",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.23449",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.23449",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:28.544207+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.23449",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44387,
+  "title": "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
+  "authors": [
+    "Zhao, Shanhui",
+    "Liu, Jiacheng",
+    "Liu, Guohong",
+    "Yan, Jichao",
+    "Ye, Jialei",
+    "Yang, Yuhao",
+    "Wen, Hao",
+    "Tian, Shizuo",
+    "Yuan, Yizhen",
+    "Chen, Yuxuan",
+    "Liu, Yunxin",
+    "Ren, Ju",
+    "Zhang, Ya-Qin",
+    "Huang, Chao",
+    "Guo, Yao",
+    "Li, Yuanchun"
+  ],
+  "first_author": "Zhao, Shanhui",
+  "year": 2026,
+  "source_date": "2026/06/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.23449",
+  "abstract": "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer little native support for AI agents. This mismatch limits the wider adoption of agents and leads to execution overhead and safety risks when running agents on conventional systems. While the concept of agent-native operating systems is emerging, the research community lacks an open testbed to explore the architectural primitives desired for agent-mediated interaction. We present AOHP (Android Open Harness Project), an OS-level agent harness built on the Android Open Source Project (AOSP). The core design principle of AOHP is to treat agents as first-class OS actors, enabling adaptive user interfaces and agent-friendly runtime environments. AOHP preserves the mature Android software and hardware ecosystem while introducing three agent-oriented system mechanisms: personalized service composition, efficient agent interfaces, and secure information flow. Based on preliminary experiments on challenging tasks covering key capabilities of OS agents, AOHP shows clear advantages in task completion (+21.12% completion rate), execution cost (-51.55% token cost), and security-policy compliance.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.23449: AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.23449v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer little native support for AI agents. This mismatch limits the wider adoption of agents and leads to execution overhead and safety risks when running agents on conventional systems. While the concept of agent-native operating systems is emerging, the research community lacks an open testbed to explore the architectural primitives desired for agent-mediated interaction. We present AOHP (Android Open Harness Project), an OS-level agent harness built on the Android Open Source Project (AOSP). The core design principle of AOHP is to treat agents as first-class OS actors, enabling adaptive user interfaces and agent-friendly runtime environments. AOHP preserves the mature Android software and hardware ecosystem while introducing three agent-oriented system mechanisms: personalized service composition, efficient agent interfaces, and secure information flow. Based on preliminary experiments on challenging tasks covering key capabilities of OS agents, AOHP shows clear advantages in task completion (+21.12% completion rate), execution cost (-51.55% token cost), and security-policy compliance."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AOHP: An Open-Source OS-Level Agent Harness for Personalized,..."
+    ],
+    "twitter:description": [
+      "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction"
+    ],
+    "citation_author": [
+      "Zhao, Shanhui",
+      "Liu, Jiacheng",
+      "Liu, Guohong",
+      "Yan, Jichao",
+      "Ye, Jialei",
+      "Yang, Yuhao",
+      "Wen, Hao",
+      "Tian, Shizuo",
+      "Yuan, Yizhen",
+      "Chen, Yuxuan",
+      "Liu, Yunxin",
+      "Ren, Ju",
+      "Zhang, Ya-Qin",
+      "Huang, Chao",
+      "Guo, Yao",
+      "Li, Yuanchun"
+    ],
+    "citation_date": [
+      "2026/06/22"
+    ],
+    "citation_online_date": [
+      "2026/06/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.23449"
+    ],
+    "citation_arxiv_id": [
+      "2606.23449"
+    ],
+    "citation_abstract": [
+      "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer little native support for AI agents. This mismatch limits the wider adoption of agents and leads to execution overhead and safety risks when running agents on conventional systems. While the concept of agent-native operating systems is emerging, the research community lacks an open testbed to explore the architectural primitives desired for agent-mediated interaction. We present AOHP (Android Open Harness Project), an OS-level agent harness built on the Android Open Source Project (AOSP). The core design principle of AOHP is to treat agents as first-class OS actors, enabling adaptive user interfaces and agent-friendly runtime environments. AOHP preserves the mature Android software and hardware ecosystem while introducing three agent-oriented system mechanisms: personalized service composition, efficient agent interfaces, and secure information flow. Based on preliminary experiments on challenging tasks covering key capabilities of OS agents, AOHP shows clear advantages in task completion (+21.12% completion rate), execution cost (-51.55% token cost), and security-policy compliance."
+    ]
+  },
+  "html_sha256": "cf6499edc042a186a0ac73fabe36d650405af257911b1f5fb9ea948741f43e2c",
+  "evidence_html": "evidence/d27d36e61b8d10fcd52c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

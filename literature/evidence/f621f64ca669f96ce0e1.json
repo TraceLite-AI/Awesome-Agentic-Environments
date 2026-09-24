@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2509.20136",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.20136",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "V-gamegym: Visual game generation for code large language models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.20136",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:02.909510+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.20136",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42581,
+  "title": "V-GameGym: Visual Game Generation for Code Large Language Models",
+  "authors": [
+    "Zhang, Wei",
+    "Yang, Jack",
+    "Tao, Renshuai",
+    "Chai, Lingzheng",
+    "Guo, Shawn",
+    "Wu, Jiajun",
+    "Chen, Xiaoming",
+    "Cui, Ganqu",
+    "Ding, Ning",
+    "Xu, Xander",
+    "Wei, Hu",
+    "Zhou, Bowen"
+  ],
+  "first_author": "Zhang, Wei",
+  "year": 2025,
+  "source_date": "2025/09/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.20136",
+  "abstract": "Code large language models have demonstrated remarkable capabilities in programming tasks, yet current benchmarks primarily focus on single modality rather than visual game development. Most existing code-related benchmarks evaluate syntax correctness and execution accuracy, overlooking critical game-specific metrics such as playability, visual aesthetics, and user engagement that are essential for real-world deployment. To address the gap between current LLM capabilities in algorithmic problem-solving and competitive programming versus the comprehensive requirements of practical game development, we present V-GameGym, a comprehensive benchmark comprising 2,219 high-quality samples across 100 thematic clusters derived from real-world repositories, adopting a novel clustering-based curation methodology to ensure both diversity and structural completeness. Further, we introduce a multimodal evaluation framework with an automated LLM-driven pipeline for visual code synthesis using complete UI sandbox environments. Our extensive analysis reveals that V-GameGym effectively bridges the gap between code generation accuracy and practical game development workflows, providing quantifiable quality metrics for visual programming and interactive element generation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.20136: V-GameGym: Visual Game Generation for Code Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "V-GameGym: Visual Game Generation for Code Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.20136v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Code large language models have demonstrated remarkable capabilities in programming tasks, yet current benchmarks primarily focus on single modality rather than visual game development. Most existing code-related benchmarks evaluate syntax correctness and execution accuracy, overlooking critical game-specific metrics such as playability, visual aesthetics, and user engagement that are essential for real-world deployment. To address the gap between current LLM capabilities in algorithmic problem-solving and competitive programming versus the comprehensive requirements of practical game development, we present V-GameGym, a comprehensive benchmark comprising 2,219 high-quality samples across 100 thematic clusters derived from real-world repositories, adopting a novel clustering-based curation methodology to ensure both diversity and structural completeness. Further, we introduce a multimodal evaluation framework with an automated LLM-driven pipeline for visual code synthesis using complete UI sandbox environments. Our extensive analysis reveals that V-GameGym effectively bridges the gap between code generation accuracy and practical game development workflows, providing quantifiable quality metrics for visual programming and interactive element generation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "V-GameGym: Visual Game Generation for Code Large Language Models"
+    ],
+    "twitter:description": [
+      "Code large language models have demonstrated remarkable capabilities in programming tasks, yet current benchmarks primarily focus on single modality rather than visual game development. Most..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "V-GameGym: Visual Game Generation for Code Large Language Models"
+    ],
+    "citation_author": [
+      "Zhang, Wei",
+      "Yang, Jack",
+      "Tao, Renshuai",
+      "Chai, Lingzheng",
+      "Guo, Shawn",
+      "Wu, Jiajun",
+      "Chen, Xiaoming",
+      "Cui, Ganqu",
+      "Ding, Ning",
+      "Xu, Xander",
+      "Wei, Hu",
+      "Zhou, Bowen"
+    ],
+    "citation_date": [
+      "2025/09/24"
+    ],
+    "citation_online_date": [
+      "2025/09/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.20136"
+    ],
+    "citation_arxiv_id": [
+      "2509.20136"
+    ],
+    "citation_abstract": [
+      "Code large language models have demonstrated remarkable capabilities in programming tasks, yet current benchmarks primarily focus on single modality rather than visual game development. Most existing code-related benchmarks evaluate syntax correctness and execution accuracy, overlooking critical game-specific metrics such as playability, visual aesthetics, and user engagement that are essential for real-world deployment. To address the gap between current LLM capabilities in algorithmic problem-solving and competitive programming versus the comprehensive requirements of practical game development, we present V-GameGym, a comprehensive benchmark comprising 2,219 high-quality samples across 100 thematic clusters derived from real-world repositories, adopting a novel clustering-based curation methodology to ensure both diversity and structural completeness. Further, we introduce a multimodal evaluation framework with an automated LLM-driven pipeline for visual code synthesis using complete UI sandbox environments. Our extensive analysis reveals that V-GameGym effectively bridges the gap between code generation accuracy and practical game development workflows, providing quantifiable quality metrics for visual programming and interactive element generation."
+    ]
+  },
+  "html_sha256": "5858439516b4534ea662f221fe05af6f70a3cf141c9064dd7c3f4464772f89a8",
+  "evidence_html": "evidence/f621f64ca669f96ce0e1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

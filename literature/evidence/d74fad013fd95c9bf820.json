@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2406.12952",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.12952",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Swt-bench: Testing and validating real-world bug-fixes with code agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.12952",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:14.812831+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.12952",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42549,
+  "title": "SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents",
+  "authors": [
+    "Mündler, Niels",
+    "Müller, Mark Niklas",
+    "He, Jingxuan",
+    "Vechev, Martin"
+  ],
+  "first_author": "Mündler, Niels",
+  "year": 2024,
+  "source_date": "2024/06/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.12952",
+  "abstract": "Rigorous software testing is crucial for developing and maintaining high-quality code, making automated test generation a promising avenue for both improving software quality and boosting the effectiveness of code generation methods. However, while code generation with Large Language Models (LLMs) is an extraordinarily active research area, test generation remains relatively unexplored. We address this gap and investigate the capability of LLM-based Code Agents to formalize user issues into test cases. To this end, we propose a novel benchmark based on popular GitHub repositories, containing real-world issues, ground-truth bug-fixes, and golden tests. We find that LLMs generally perform surprisingly well at generating relevant test cases, with Code Agents designed for code repair exceeding the performance of systems designed specifically for test generation. Further, as test generation is a similar but more structured task than code generation, it allows for a more fine-grained analysis using issue reproduction rate and coverage changes, providing a dual metric for analyzing systems designed for code repair. Finally, we find that generated tests are an effective filter for proposed code fixes, doubling the precision of SWE-Agent. We release all data and code at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.12952: SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.12952v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Rigorous software testing is crucial for developing and maintaining high-quality code, making automated test generation a promising avenue for both improving software quality and boosting the effectiveness of code generation methods. However, while code generation with Large Language Models (LLMs) is an extraordinarily active research area, test generation remains relatively unexplored. We address this gap and investigate the capability of LLM-based Code Agents to formalize user issues into test cases. To this end, we propose a novel benchmark based on popular GitHub repositories, containing real-world issues, ground-truth bug-fixes, and golden tests. We find that LLMs generally perform surprisingly well at generating relevant test cases, with Code Agents designed for code repair exceeding the performance of systems designed specifically for test generation. Further, as test generation is a similar but more structured task than code generation, it allows for a more fine-grained analysis using issue reproduction rate and coverage changes, providing a dual metric for analyzing systems designed for code repair. Finally, we find that generated tests are an effective filter for proposed code fixes, doubling the precision of SWE-Agent. We release all data and code at https://github.com/logic-star-ai/SWT-Bench"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents"
+    ],
+    "twitter:description": [
+      "Rigorous software testing is crucial for developing and maintaining high-quality code, making automated test generation a promising avenue for both improving software quality and boosting the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents"
+    ],
+    "citation_author": [
+      "Mündler, Niels",
+      "Müller, Mark Niklas",
+      "He, Jingxuan",
+      "Vechev, Martin"
+    ],
+    "citation_date": [
+      "2024/06/18"
+    ],
+    "citation_online_date": [
+      "2025/02/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.12952"
+    ],
+    "citation_arxiv_id": [
+      "2406.12952"
+    ],
+    "citation_abstract": [
+      "Rigorous software testing is crucial for developing and maintaining high-quality code, making automated test generation a promising avenue for both improving software quality and boosting the effectiveness of code generation methods. However, while code generation with Large Language Models (LLMs) is an extraordinarily active research area, test generation remains relatively unexplored. We address this gap and investigate the capability of LLM-based Code Agents to formalize user issues into test cases. To this end, we propose a novel benchmark based on popular GitHub repositories, containing real-world issues, ground-truth bug-fixes, and golden tests. We find that LLMs generally perform surprisingly well at generating relevant test cases, with Code Agents designed for code repair exceeding the performance of systems designed specifically for test generation. Further, as test generation is a similar but more structured task than code generation, it allows for a more fine-grained analysis using issue reproduction rate and coverage changes, providing a dual metric for analyzing systems designed for code repair. Finally, we find that generated tests are an effective filter for proposed code fixes, doubling the precision of SWE-Agent. We release all data and code at https://github.com/logic-star-ai/SWT-Bench"
+    ]
+  },
+  "html_sha256": "bb45c2f3c7c2c7126488ac34357dae80a0a8bdc5e75304ee2f70a9bf8a00ad81",
+  "evidence_html": "evidence/d74fad013fd95c9bf820.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

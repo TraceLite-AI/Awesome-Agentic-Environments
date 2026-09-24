@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2402.16823",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.16823",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "GPTSwarm: Language Agents as Optimizable Graphs",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.16823",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Language Agents as Optimizable Graphs",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.16823",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:27.751631+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.16823",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41850,
+  "title": "Language Agents as Optimizable Graphs",
+  "authors": [
+    "Zhuge, Mingchen",
+    "Wang, Wenyi",
+    "Kirsch, Louis",
+    "Faccio, Francesco",
+    "Khizbullin, Dmitrii",
+    "Schmidhuber, Jürgen"
+  ],
+  "first_author": "Zhuge, Mingchen",
+  "year": 2024,
+  "source_date": "2024/02/26",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.16823",
+  "abstract": "Various human-designed prompt engineering techniques have been proposed to improve problem solvers based on Large Language Models (LLMs), yielding many disparate code bases. We unify these approaches by describing LLM-based agents as computational graphs. The nodes implement functions to process multimodal data or query LLMs, and the edges describe the information flow between operations. Graphs can be recursively combined into larger composite graphs representing hierarchies of inter-agent collaboration (where edges connect operations of different agents). Our novel automatic graph optimizers (1) refine node-level LLM prompts (node optimization) and (2) improve agent orchestration by changing graph connectivity (edge optimization). Experiments demonstrate that our framework can be used to efficiently develop, integrate, and automatically improve various LLM agents. The code can be found at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.16823: Language Agents as Optimizable Graphs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Language Agents as Optimizable Graphs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.16823v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Various human-designed prompt engineering techniques have been proposed to improve problem solvers based on Large Language Models (LLMs), yielding many disparate code bases. We unify these approaches by describing LLM-based agents as computational graphs. The nodes implement functions to process multimodal data or query LLMs, and the edges describe the information flow between operations. Graphs can be recursively combined into larger composite graphs representing hierarchies of inter-agent collaboration (where edges connect operations of different agents). Our novel automatic graph optimizers (1) refine node-level LLM prompts (node optimization) and (2) improve agent orchestration by changing graph connectivity (edge optimization). Experiments demonstrate that our framework can be used to efficiently develop, integrate, and automatically improve various LLM agents. The code can be found at https://github.com/metauto-ai/gptswarm."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Language Agents as Optimizable Graphs"
+    ],
+    "twitter:description": [
+      "Various human-designed prompt engineering techniques have been proposed to improve problem solvers based on Large Language Models (LLMs), yielding many disparate code bases. We unify these..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Language Agents as Optimizable Graphs"
+    ],
+    "citation_author": [
+      "Zhuge, Mingchen",
+      "Wang, Wenyi",
+      "Kirsch, Louis",
+      "Faccio, Francesco",
+      "Khizbullin, Dmitrii",
+      "Schmidhuber, Jürgen"
+    ],
+    "citation_date": [
+      "2024/02/26"
+    ],
+    "citation_online_date": [
+      "2024/08/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.16823"
+    ],
+    "citation_arxiv_id": [
+      "2402.16823"
+    ],
+    "citation_abstract": [
+      "Various human-designed prompt engineering techniques have been proposed to improve problem solvers based on Large Language Models (LLMs), yielding many disparate code bases. We unify these approaches by describing LLM-based agents as computational graphs. The nodes implement functions to process multimodal data or query LLMs, and the edges describe the information flow between operations. Graphs can be recursively combined into larger composite graphs representing hierarchies of inter-agent collaboration (where edges connect operations of different agents). Our novel automatic graph optimizers (1) refine node-level LLM prompts (node optimization) and (2) improve agent orchestration by changing graph connectivity (edge optimization). Experiments demonstrate that our framework can be used to efficiently develop, integrate, and automatically improve various LLM agents. The code can be found at https://github.com/metauto-ai/gptswarm."
+    ]
+  },
+  "html_sha256": "40e7a39bba43a040f6deeb8efddce678bc25983c0c66aaccfcf001cbd3fe4458",
+  "evidence_html": "evidence/43eefb5b22ee0e8f8798.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

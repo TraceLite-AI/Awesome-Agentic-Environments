@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2604.00722",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.00722",
+      "discovery_url": "https://github.com/ggjy/Awesome-Agent-Engineering",
+      "topic": "agent_training_and_rl",
+      "title_hint": "LangMARL: Natural Language Multi-Agent Reinforcement Learning",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.00722",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:46.577224+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.00722",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41222,
+  "title": "LangMARL: Natural Language Multi-Agent Reinforcement Learning",
+  "authors": [
+    "Yao, Huaiyuan",
+    "Da, Longchao",
+    "Liu, Xiaoou",
+    "Fleming, Charles",
+    "Chen, Tianlong",
+    "Wei, Hua"
+  ],
+  "first_author": "Yao, Huaiyuan",
+  "year": 2026,
+  "source_date": "2026/04/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.00722",
+  "abstract": "Large language model (LLM) agents struggle to autonomously evolve coordination strategies in dynamic environments, largely because coarse global outcomes obscure the causal signals needed for local policy refinement. We identify this bottleneck as a multi-agent credit assignment problem, which has long been studied in classical multi-agent reinforcement learning (MARL) but remains underaddressed in LLM-based systems. Building on this observation, we propose LangMARL, a framework that brings credit assignment and policy gradient evolution from cooperative MARL into the language space. LangMARL introduces agent-level language credit assignment, pioneers gradient evolution in language space for policy improvement, and summarizes task-relevant causal relations from replayed trajectories to provide dense feedback and improve convergence under sparse rewards. Extensive experiments across diverse cooperative multi-agent tasks demonstrate improved sample efficiency, interpretability, and strong generalization.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.00722: LangMARL: Natural Language Multi-Agent Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LangMARL: Natural Language Multi-Agent Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.00722v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM) agents struggle to autonomously evolve coordination strategies in dynamic environments, largely because coarse global outcomes obscure the causal signals needed for local policy refinement. We identify this bottleneck as a multi-agent credit assignment problem, which has long been studied in classical multi-agent reinforcement learning (MARL) but remains underaddressed in LLM-based systems. Building on this observation, we propose LangMARL, a framework that brings credit assignment and policy gradient evolution from cooperative MARL into the language space. LangMARL introduces agent-level language credit assignment, pioneers gradient evolution in language space for policy improvement, and summarizes task-relevant causal relations from replayed trajectories to provide dense feedback and improve convergence under sparse rewards. Extensive experiments across diverse cooperative multi-agent tasks demonstrate improved sample efficiency, interpretability, and strong generalization."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LangMARL: Natural Language Multi-Agent Reinforcement Learning"
+    ],
+    "twitter:description": [
+      "Large language model (LLM) agents struggle to autonomously evolve coordination strategies in dynamic environments, largely because coarse global outcomes obscure the causal signals needed for..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LangMARL: Natural Language Multi-Agent Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Yao, Huaiyuan",
+      "Da, Longchao",
+      "Liu, Xiaoou",
+      "Fleming, Charles",
+      "Chen, Tianlong",
+      "Wei, Hua"
+    ],
+    "citation_date": [
+      "2026/04/01"
+    ],
+    "citation_online_date": [
+      "2026/04/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.00722"
+    ],
+    "citation_arxiv_id": [
+      "2604.00722"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM) agents struggle to autonomously evolve coordination strategies in dynamic environments, largely because coarse global outcomes obscure the causal signals needed for local policy refinement. We identify this bottleneck as a multi-agent credit assignment problem, which has long been studied in classical multi-agent reinforcement learning (MARL) but remains underaddressed in LLM-based systems. Building on this observation, we propose LangMARL, a framework that brings credit assignment and policy gradient evolution from cooperative MARL into the language space. LangMARL introduces agent-level language credit assignment, pioneers gradient evolution in language space for policy improvement, and summarizes task-relevant causal relations from replayed trajectories to provide dense feedback and improve convergence under sparse rewards. Extensive experiments across diverse cooperative multi-agent tasks demonstrate improved sample efficiency, interpretability, and strong generalization."
+    ]
+  },
+  "html_sha256": "4c9d6cd702263f55ea8c4ef6fec2e5609a340638812e83e9eca8990a6c6eff96",
+  "evidence_html": "evidence/d2d85df92b9839019383.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

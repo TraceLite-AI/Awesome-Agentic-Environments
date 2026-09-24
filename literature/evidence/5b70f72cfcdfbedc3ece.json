@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2311.03220",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2311.03220",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "ALYMPICS: Language Agents Meet Game Theory. Shaoguang Mao et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2311.03220",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:12.676264+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2311.03220",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43116,
+  "title": "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents",
+  "authors": [
+    "Mao, Shaoguang",
+    "Cai, Yuzhe",
+    "Xia, Yan",
+    "Wu, Wenshan",
+    "Wang, Xun",
+    "Wang, Fengyi",
+    "Ge, Tao",
+    "Wei, Furu"
+  ],
+  "first_author": "Mao, Shaoguang",
+  "year": 2023,
+  "source_date": "2023/11/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2311.03220",
+  "abstract": "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents. In our pilot case study, the \"Water Allocation Challenge,\" we explore Alympics through a challenging strategic game focused on the multi-round auction on scarce survival resources. This study demonstrates the framework's ability to qualitatively and quantitatively analyze game determinants, strategies, and outcomes. Additionally, we conduct a comprehensive human assessment and an in-depth evaluation of LLM agents in strategic decision-making scenarios. Our findings not only expand the understanding of LLM agents' proficiency in emulating human strategic behavior but also highlight their potential in advancing game theory knowledge, thereby enriching our understanding of both game theory and empowering further research into strategic decision-making domains with LLM agents. Codes, prompts, and all related resources are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2311.03220: ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2311.03220v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents. In our pilot case study, the \"Water Allocation Challenge,\" we explore Alympics through a challenging strategic game focused on the multi-round auction on scarce survival resources. This study demonstrates the framework's ability to qualitatively and quantitatively analyze game determinants, strategies, and outcomes. Additionally, we conduct a comprehensive human assessment and an in-depth evaluation of LLM agents in strategic decision-making scenarios. Our findings not only expand the understanding of LLM agents' proficiency in emulating human strategic behavior but also highlight their potential in advancing game theory knowledge, thereby enriching our understanding of both game theory and empowering further research into strategic decision-making domains with LLM agents. Codes, prompts, and all related resources are available at https://github.com/microsoft/Alympics."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic..."
+    ],
+    "twitter:description": [
+      "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents"
+    ],
+    "citation_author": [
+      "Mao, Shaoguang",
+      "Cai, Yuzhe",
+      "Xia, Yan",
+      "Wu, Wenshan",
+      "Wang, Xun",
+      "Wang, Fengyi",
+      "Ge, Tao",
+      "Wei, Furu"
+    ],
+    "citation_date": [
+      "2023/11/06"
+    ],
+    "citation_online_date": [
+      "2024/01/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2311.03220"
+    ],
+    "citation_arxiv_id": [
+      "2311.03220"
+    ],
+    "citation_abstract": [
+      "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents. In our pilot case study, the \"Water Allocation Challenge,\" we explore Alympics through a challenging strategic game focused on the multi-round auction on scarce survival resources. This study demonstrates the framework's ability to qualitatively and quantitatively analyze game determinants, strategies, and outcomes. Additionally, we conduct a comprehensive human assessment and an in-depth evaluation of LLM agents in strategic decision-making scenarios. Our findings not only expand the understanding of LLM agents' proficiency in emulating human strategic behavior but also highlight their potential in advancing game theory knowledge, thereby enriching our understanding of both game theory and empowering further research into strategic decision-making domains with LLM agents. Codes, prompts, and all related resources are available at https://github.com/microsoft/Alympics."
+    ]
+  },
+  "html_sha256": "d86c01f47e15117f99e115c52dc3416887812c84eeef13b4c85119912432641f",
+  "evidence_html": "evidence/5b70f72cfcdfbedc3ece.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

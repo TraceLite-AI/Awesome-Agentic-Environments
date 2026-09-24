@@ -1,0 +1,150 @@
+{
+  "url": "https://arxiv.org/abs/2207.05608",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2207.05608",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "Inner monologue",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2207.05608",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:45.351893+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2207.05608",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44517,
+  "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
+  "authors": [
+    "Huang, Wenlong",
+    "Xia, Fei",
+    "Xiao, Ted",
+    "Chan, Harris",
+    "Liang, Jacky",
+    "Florence, Pete",
+    "Zeng, Andy",
+    "Tompson, Jonathan",
+    "Mordatch, Igor",
+    "Chebotar, Yevgen",
+    "Sermanet, Pierre",
+    "Brown, Noah",
+    "Jackson, Tomas",
+    "Luu, Linda",
+    "Levine, Sergey",
+    "Hausman, Karol",
+    "Ichter, Brian"
+  ],
+  "first_author": "Huang, Wenlong",
+  "year": 2022,
+  "source_date": "2022/07/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2207.05608",
+  "abstract": "Recent works have shown how the reasoning capabilities of Large Language Models (LLMs) can be applied to domains beyond natural language processing, such as planning and interaction for robots. These embodied problems require an agent to understand many semantic aspects of the world: the repertoire of skills available, how these skills influence the world, and how changes to the world map back to the language. LLMs planning in embodied environments need to consider not just what skills to do, but also how and when to do them - answers that change over time in response to the agent's own choices. In this work, we investigate to what extent LLMs used in such embodied contexts can reason over sources of feedback provided through natural language, without any additional training. We propose that by leveraging environment feedback, LLMs are able to form an inner monologue that allows them to more richly process and plan in robotic control scenarios. We investigate a variety of sources of feedback, such as success detection, scene description, and human interaction. We find that closed-loop language feedback significantly improves high-level instruction completion on three domains, including simulated and real table top rearrangement tasks and long-horizon mobile manipulation tasks in a kitchen environment in the real world.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2207.05608: Inner Monologue: Embodied Reasoning through Planning with Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Inner Monologue: Embodied Reasoning through Planning with Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2207.05608v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent works have shown how the reasoning capabilities of Large Language Models (LLMs) can be applied to domains beyond natural language processing, such as planning and interaction for robots. These embodied problems require an agent to understand many semantic aspects of the world: the repertoire of skills available, how these skills influence the world, and how changes to the world map back to the language. LLMs planning in embodied environments need to consider not just what skills to do, but also how and when to do them - answers that change over time in response to the agent's own choices. In this work, we investigate to what extent LLMs used in such embodied contexts can reason over sources of feedback provided through natural language, without any additional training. We propose that by leveraging environment feedback, LLMs are able to form an inner monologue that allows them to more richly process and plan in robotic control scenarios. We investigate a variety of sources of feedback, such as success detection, scene description, and human interaction. We find that closed-loop language feedback significantly improves high-level instruction completion on three domains, including simulated and real table top rearrangement tasks and long-horizon mobile manipulation tasks in a kitchen environment in the real world."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Inner Monologue: Embodied Reasoning through Planning with Language Models"
+    ],
+    "twitter:description": [
+      "Recent works have shown how the reasoning capabilities of Large Language Models (LLMs) can be applied to domains beyond natural language processing, such as planning and interaction for robots...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Inner Monologue: Embodied Reasoning through Planning with Language Models"
+    ],
+    "citation_author": [
+      "Huang, Wenlong",
+      "Xia, Fei",
+      "Xiao, Ted",
+      "Chan, Harris",
+      "Liang, Jacky",
+      "Florence, Pete",
+      "Zeng, Andy",
+      "Tompson, Jonathan",
+      "Mordatch, Igor",
+      "Chebotar, Yevgen",
+      "Sermanet, Pierre",
+      "Brown, Noah",
+      "Jackson, Tomas",
+      "Luu, Linda",
+      "Levine, Sergey",
+      "Hausman, Karol",
+      "Ichter, Brian"
+    ],
+    "citation_date": [
+      "2022/07/12"
+    ],
+    "citation_online_date": [
+      "2022/07/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2207.05608"
+    ],
+    "citation_arxiv_id": [
+      "2207.05608"
+    ],
+    "citation_abstract": [
+      "Recent works have shown how the reasoning capabilities of Large Language Models (LLMs) can be applied to domains beyond natural language processing, such as planning and interaction for robots. These embodied problems require an agent to understand many semantic aspects of the world: the repertoire of skills available, how these skills influence the world, and how changes to the world map back to the language. LLMs planning in embodied environments need to consider not just what skills to do, but also how and when to do them - answers that change over time in response to the agent's own choices. In this work, we investigate to what extent LLMs used in such embodied contexts can reason over sources of feedback provided through natural language, without any additional training. We propose that by leveraging environment feedback, LLMs are able to form an inner monologue that allows them to more richly process and plan in robotic control scenarios. We investigate a variety of sources of feedback, such as success detection, scene description, and human interaction. We find that closed-loop language feedback significantly improves high-level instruction completion on three domains, including simulated and real table top rearrangement tasks and long-horizon mobile manipulation tasks in a kitchen environment in the real world."
+    ]
+  },
+  "html_sha256": "de315a3b8e266840f85300c43569ebfc5c528ed85f30d02d9225b481b310aec5",
+  "evidence_html": "evidence/6e48551f8ddd757f598d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

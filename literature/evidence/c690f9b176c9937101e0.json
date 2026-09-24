@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2405.16205",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2405.16205",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2405.16205",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:23.257212+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2405.16205",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41965,
+  "title": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+  "authors": [
+    "Wang, Zhizheng",
+    "Jin, Qiao",
+    "Wei, Chih-Hsuan",
+    "Tian, Shubo",
+    "Lai, Po-Ting",
+    "Zhu, Qingqing",
+    "Day, Chi-Ping",
+    "Ross, Christina",
+    "Lu, Zhiyong"
+  ],
+  "first_author": "Wang, Zhizheng",
+  "year": 2024,
+  "source_date": "2024/05/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2405.16205",
+  "abstract": "Gene set knowledge discovery is essential for advancing human functional genomics. Recent studies have shown promising performance by harnessing the power of Large Language Models (LLMs) on this task. Nonetheless, their results are subject to several limitations common in LLMs such as hallucinations. In response, we present GeneAgent, a first-of-its-kind language agent featuring self-verification capability. It autonomously interacts with various biological databases and leverages relevant domain knowledge to improve accuracy and reduce hallucination occurrences. Benchmarking on 1,106 gene sets from different sources, GeneAgent consistently outperforms standard GPT-4 by a significant margin. Moreover, a detailed manual review confirms the effectiveness of the self-verification module in minimizing hallucinations and generating more reliable analytical narratives. To demonstrate its practical utility, we apply GeneAgent to seven novel gene sets derived from mouse B2905 melanoma cell lines, with expert evaluations showing that GeneAgent offers novel insights into gene functions and subsequently expedites knowledge discovery.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2405.16205: GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2405.16205v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Gene set knowledge discovery is essential for advancing human functional genomics. Recent studies have shown promising performance by harnessing the power of Large Language Models (LLMs) on this task. Nonetheless, their results are subject to several limitations common in LLMs such as hallucinations. In response, we present GeneAgent, a first-of-its-kind language agent featuring self-verification capability. It autonomously interacts with various biological databases and leverages relevant domain knowledge to improve accuracy and reduce hallucination occurrences. Benchmarking on 1,106 gene sets from different sources, GeneAgent consistently outperforms standard GPT-4 by a significant margin. Moreover, a detailed manual review confirms the effectiveness of the self-verification module in minimizing hallucinations and generating more reliable analytical narratives. To demonstrate its practical utility, we apply GeneAgent to seven novel gene sets derived from mouse B2905 melanoma cell lines, with expert evaluations showing that GeneAgent offers novel insights into gene functions and subsequently expedites knowledge discovery."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GeneAgent: Self-verification Language Agent for Gene Set Knowledge..."
+    ],
+    "twitter:description": [
+      "Gene set knowledge discovery is essential for advancing human functional genomics. Recent studies have shown promising performance by harnessing the power of Large Language Models (LLMs) on this..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases"
+    ],
+    "citation_author": [
+      "Wang, Zhizheng",
+      "Jin, Qiao",
+      "Wei, Chih-Hsuan",
+      "Tian, Shubo",
+      "Lai, Po-Ting",
+      "Zhu, Qingqing",
+      "Day, Chi-Ping",
+      "Ross, Christina",
+      "Lu, Zhiyong"
+    ],
+    "citation_date": [
+      "2024/05/25"
+    ],
+    "citation_online_date": [
+      "2024/05/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2405.16205"
+    ],
+    "citation_arxiv_id": [
+      "2405.16205"
+    ],
+    "citation_abstract": [
+      "Gene set knowledge discovery is essential for advancing human functional genomics. Recent studies have shown promising performance by harnessing the power of Large Language Models (LLMs) on this task. Nonetheless, their results are subject to several limitations common in LLMs such as hallucinations. In response, we present GeneAgent, a first-of-its-kind language agent featuring self-verification capability. It autonomously interacts with various biological databases and leverages relevant domain knowledge to improve accuracy and reduce hallucination occurrences. Benchmarking on 1,106 gene sets from different sources, GeneAgent consistently outperforms standard GPT-4 by a significant margin. Moreover, a detailed manual review confirms the effectiveness of the self-verification module in minimizing hallucinations and generating more reliable analytical narratives. To demonstrate its practical utility, we apply GeneAgent to seven novel gene sets derived from mouse B2905 melanoma cell lines, with expert evaluations showing that GeneAgent offers novel insights into gene functions and subsequently expedites knowledge discovery."
+    ]
+  },
+  "html_sha256": "1259036e3b99c71207272b4f0777ecbd1c1bac889d0bd7b6785f6162c943482c",
+  "evidence_html": "evidence/c690f9b176c9937101e0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

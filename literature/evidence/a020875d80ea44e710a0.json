@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2406.07155",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.07155",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Scaling Large Language Model-based Multi-Agent Collaboration",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.07155",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:28.337245+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.07155",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43398,
+  "title": "Scaling Large Language Model-based Multi-Agent Collaboration",
+  "authors": [
+    "Qian, Chen",
+    "Xie, Zihao",
+    "Wang, YiFei",
+    "Liu, Wei",
+    "Zhu, Kunlun",
+    "Xia, Hanchen",
+    "Dang, Yufan",
+    "Du, Zhuoyun",
+    "Chen, Weize",
+    "Yang, Cheng",
+    "Liu, Zhiyuan",
+    "Sun, Maosong"
+  ],
+  "first_author": "Qian, Chen",
+  "year": 2024,
+  "source_date": "2024/06/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.07155",
+  "abstract": "Recent breakthroughs in large language model-driven autonomous agents have revealed that multi-agent collaboration often surpasses each individual through collective reasoning. Inspired by the neural scaling law--increasing neurons enhances performance, this study explores whether the continuous addition of collaborative agents can yield similar benefits. Technically, we utilize directed acyclic graphs to organize agents into a multi-agent collaboration network (MacNet), upon which their interactive reasoning is topologically orchestrated for autonomous task solving. Extensive evaluations reveal that it effectively supports collaboration among over a thousand agents, with irregular topologies outperforming regular ones. We also identify a collaborative scaling law--the overall performance follows a logistic growth pattern as agents scale, with collaborative emergence occurring earlier than traditional neural emergence. We speculate this may be because scaling agents catalyzes their multidimensional considerations during interactive reflection and refinement, thereby producing more comprehensive artifacts. The code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.07155: Scaling Large Language Model-based Multi-Agent Collaboration"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Scaling Large Language Model-based Multi-Agent Collaboration"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.07155v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent breakthroughs in large language model-driven autonomous agents have revealed that multi-agent collaboration often surpasses each individual through collective reasoning. Inspired by the neural scaling law--increasing neurons enhances performance, this study explores whether the continuous addition of collaborative agents can yield similar benefits. Technically, we utilize directed acyclic graphs to organize agents into a multi-agent collaboration network (MacNet), upon which their interactive reasoning is topologically orchestrated for autonomous task solving. Extensive evaluations reveal that it effectively supports collaboration among over a thousand agents, with irregular topologies outperforming regular ones. We also identify a collaborative scaling law--the overall performance follows a logistic growth pattern as agents scale, with collaborative emergence occurring earlier than traditional neural emergence. We speculate this may be because scaling agents catalyzes their multidimensional considerations during interactive reflection and refinement, thereby producing more comprehensive artifacts. The code is available at https://github.com/OpenBMB/ChatDev/tree/macnet."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Scaling Large Language Model-based Multi-Agent Collaboration"
+    ],
+    "twitter:description": [
+      "Recent breakthroughs in large language model-driven autonomous agents have revealed that multi-agent collaboration often surpasses each individual through collective reasoning. Inspired by the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Scaling Large Language Model-based Multi-Agent Collaboration"
+    ],
+    "citation_author": [
+      "Qian, Chen",
+      "Xie, Zihao",
+      "Wang, YiFei",
+      "Liu, Wei",
+      "Zhu, Kunlun",
+      "Xia, Hanchen",
+      "Dang, Yufan",
+      "Du, Zhuoyun",
+      "Chen, Weize",
+      "Yang, Cheng",
+      "Liu, Zhiyuan",
+      "Sun, Maosong"
+    ],
+    "citation_date": [
+      "2024/06/11"
+    ],
+    "citation_online_date": [
+      "2025/03/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.07155"
+    ],
+    "citation_arxiv_id": [
+      "2406.07155"
+    ],
+    "citation_abstract": [
+      "Recent breakthroughs in large language model-driven autonomous agents have revealed that multi-agent collaboration often surpasses each individual through collective reasoning. Inspired by the neural scaling law--increasing neurons enhances performance, this study explores whether the continuous addition of collaborative agents can yield similar benefits. Technically, we utilize directed acyclic graphs to organize agents into a multi-agent collaboration network (MacNet), upon which their interactive reasoning is topologically orchestrated for autonomous task solving. Extensive evaluations reveal that it effectively supports collaboration among over a thousand agents, with irregular topologies outperforming regular ones. We also identify a collaborative scaling law--the overall performance follows a logistic growth pattern as agents scale, with collaborative emergence occurring earlier than traditional neural emergence. We speculate this may be because scaling agents catalyzes their multidimensional considerations during interactive reflection and refinement, thereby producing more comprehensive artifacts. The code is available at https://github.com/OpenBMB/ChatDev/tree/macnet."
+    ]
+  },
+  "html_sha256": "9952deb09d5d88e47363febeb8da123026d0bced918c9ce8957e921473b66012",
+  "evidence_html": "evidence/a020875d80ea44e710a0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2310.10701",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.10701",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Theory of Mind for Multi-Agent Collaboration via Large Language Models. Huao Li et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.10701",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:13.954523+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.10701",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43299,
+  "title": "Theory of Mind for Multi-Agent Collaboration via Large Language Models",
+  "authors": [
+    "Li, Huao",
+    "Chong, Yu Quan",
+    "Stepputtis, Simon",
+    "Campbell, Joseph",
+    "Hughes, Dana",
+    "Lewis, Michael",
+    "Sycara, Katia"
+  ],
+  "first_author": "Li, Huao",
+  "year": 2023,
+  "source_date": "2023/10/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Page 180-192, ACL",
+  "doi": "10.18653/v1/2023.emnlp-main.13",
+  "arxiv_id": "2310.10701",
+  "abstract": "While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind capabilities among LLM-based agents. Our results reveal limitations in LLM-based agents' planning optimization due to systematic failures in managing long-horizon contexts and hallucination about the task state. We explore the use of explicit belief state representations to mitigate these issues, finding that it enhances task performance and the accuracy of ToM inferences for LLM-based agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.10701: Theory of Mind for Multi-Agent Collaboration via Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Theory of Mind for Multi-Agent Collaboration via Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.10701v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind capabilities among LLM-based agents. Our results reveal limitations in LLM-based agents' planning optimization due to systematic failures in managing long-horizon contexts and hallucination about the task state. We explore the use of explicit belief state representations to mitigate these issues, finding that it enhances task performance and the accuracy of ToM inferences for LLM-based agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Theory of Mind for Multi-Agent Collaboration via Large Language Models"
+    ],
+    "twitter:description": [
+      "While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Theory of Mind for Multi-Agent Collaboration via Large Language Models"
+    ],
+    "citation_author": [
+      "Li, Huao",
+      "Chong, Yu Quan",
+      "Stepputtis, Simon",
+      "Campbell, Joseph",
+      "Hughes, Dana",
+      "Lewis, Michael",
+      "Sycara, Katia"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2023.emnlp-main.13"
+    ],
+    "citation_date": [
+      "2023/10/16"
+    ],
+    "citation_online_date": [
+      "2024/06/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.10701"
+    ],
+    "citation_arxiv_id": [
+      "2310.10701"
+    ],
+    "citation_abstract": [
+      "While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind capabilities among LLM-based agents. Our results reveal limitations in LLM-based agents' planning optimization due to systematic failures in managing long-horizon contexts and hallucination about the task state. We explore the use of explicit belief state representations to mitigate these issues, finding that it enhances task performance and the accuracy of ToM inferences for LLM-based agents."
+    ]
+  },
+  "html_sha256": "616ed7793c7cf05a8a888a5921c8ae80cf08ae16d2ebe4f4bef4246f129bb690",
+  "evidence_html": "evidence/aaa67c4ce023140035e1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

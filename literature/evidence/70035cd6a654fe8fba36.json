@@ -1,0 +1,102 @@
+{
+  "url": "https://doi.org/10.18653/v1/2025.emnlp-main.454",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.454",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Webevolver: Enhancing web agent self-improvement with co-evolving world model",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2025.emnlp-main.454",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:01.004341+00:00",
+  "error": "ProxyError: HTTPSConnectionPool(host='aclanthology.org', port=443): Max retries exceeded with url: /2025.emnlp-main.454/ (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.emnlp-main.454/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44666,
+  "title": "WebEvolver: Enhancing Web Agent Self-Improvement with Co-evolving World Model",
+  "authors": [
+    "Tianqing Fang",
+    "Hongming Zhang",
+    "Zhisong Zhang",
+    "Kaixin Ma",
+    "Wenhao Yu",
+    "Haitao Mi",
+    "Dong Yu (于东)"
+  ],
+  "first_author": "Tianqing Fang",
+  "year": 2025,
+  "source_date": "2025/11",
+  "venue_from_source": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2025.emnlp-main.454",
+  "arxiv_id": "",
+  "abstract": "Agent self-improvement, where agents autonomously train their underlying Large Language Model (LLM) on self-sampled trajectories, shows promising results but often stagnates in web environments due to limited exploration and under-utilization of pretrained web knowledge. To improve the performance of self-improvement, we propose a novel framework that introduces a co-evolving World Model LLM. This world model predicts the next observation based on the current observation and action within the web environment. The World Model serves dual roles: (1) as a virtual web server generating self-instructed training data to continuously refine the agent’s policy, and (2) as an imagination engine during inference, enabling look-ahead simulation to guide action selection for the agent LLM. Experiments in real-world web environments (Mind2Web-Live, WebVoyager, and GAIA-web) show a 10% performance gain over existing self-evolving agents, demonstrating the efficacy and generalizability of our approach, without using any distillation from more powerful close-sourced models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "WebEvolver: Enhancing Web Agent Self-Improvement with Co-evolving World Model"
+    ],
+    "citation_author": [
+      "Tianqing Fang",
+      "Hongming Zhang",
+      "Zhisong Zhang",
+      "Kaixin Ma",
+      "Wenhao Yu",
+      "Haitao Mi",
+      "Dong Yu (于东)"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "citation_publication_date": [
+      "2025/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.emnlp-main.454.pdf"
+    ],
+    "citation_firstpage": [
+      "8959"
+    ],
+    "citation_lastpage": [
+      "8975"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.emnlp-main.454"
+    ],
+    "og:title": [
+      "WebEvolver: Enhancing Web Agent Self-Improvement with Co-evolving World Model"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.emnlp-main.454.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.emnlp-main.454/"
+    ],
+    "og:description": [
+      "Tianqing Fang, Hongming Zhang, Zhisong Zhang, Kaixin Ma, Wenhao Yu, Haitao Mi, Dong Yu. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. 2025."
+    ]
+  },
+  "html_sha256": "fec29c238a0839f6bc0f4e48e41172c6121756f5a52dfb01a45c5ef2ce9ecb20",
+  "evidence_html": "evidence/70035cd6a654fe8fba36.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://doi.org/10.1109/ICCV.2019.00943",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.1109/ICCV.2019.00943",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Habitat: A platform for embodied AI research",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://doi.org/10.1109/ICCV.2019.00943",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:23.306737+00:00",
+  "http_status": 202,
+  "opened_url": "https://ieeexplore.ieee.org/document/9010745/",
+  "content_type": "text/html; charset=UTF-8",
+  "response_bytes": 0,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {},
+  "html_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evidence_html": "evidence/92f20500fb89a452ee69.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

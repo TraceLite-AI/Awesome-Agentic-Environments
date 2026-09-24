@@ -1,0 +1,150 @@
+{
+  "url": "https://arxiv.org/abs/2506.10055",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.10055",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Taskcraft: Automated generation of agentic tasks",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.10055",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:30.412774+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.10055",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42506,
+  "title": "TaskCraft: Automated Generation of Agentic Tasks",
+  "authors": [
+    "Shi, Dingfeng",
+    "Cao, Jingyi",
+    "Chen, Qianben",
+    "Sun, Weichen",
+    "Li, Weizhen",
+    "Lu, Hongxuan",
+    "Dong, Fangchen",
+    "Qin, Tianrui",
+    "Zhu, King",
+    "Liu, Minghao",
+    "Yang, Jian",
+    "Zhang, Ge",
+    "Liu, Jiaheng",
+    "Zhang, Changwang",
+    "Wang, Jun",
+    "Jiang, Yuchen Eleanor",
+    "Zhou, Wangchunshu"
+  ],
+  "first_author": "Shi, Dingfeng",
+  "year": 2025,
+  "source_date": "2025/06/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.10055",
+  "abstract": "Agentic tasks, which require multi-step problem solving with autonomy, tool use, and adaptive reasoning, are becoming increasingly central to the advancement of NLP and AI. However, existing instruction data lacks tool interaction, and current agentic benchmarks rely on costly human annotation, limiting their scalability. We introduce \\textsc{TaskCraft}, an automated workflow for generating difficulty-scalable, multi-tool, and verifiable agentic tasks with execution trajectories. TaskCraft expands atomic tasks using depth-based and width-based extensions to create structurally and hierarchically complex challenges. Empirical results show that these tasks improve prompt optimization in the generation workflow and enhance supervised fine-tuning of agentic foundation models. We present a large-scale synthetic dataset of approximately 36,000 tasks with varying difficulty to support future research on agent tuning and evaluation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.10055: TaskCraft: Automated Generation of Agentic Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "TaskCraft: Automated Generation of Agentic Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.10055v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agentic tasks, which require multi-step problem solving with autonomy, tool use, and adaptive reasoning, are becoming increasingly central to the advancement of NLP and AI. However, existing instruction data lacks tool interaction, and current agentic benchmarks rely on costly human annotation, limiting their scalability. We introduce \\textsc{TaskCraft}, an automated workflow for generating difficulty-scalable, multi-tool, and verifiable agentic tasks with execution trajectories. TaskCraft expands atomic tasks using depth-based and width-based extensions to create structurally and hierarchically complex challenges. Empirical results show that these tasks improve prompt optimization in the generation workflow and enhance supervised fine-tuning of agentic foundation models. We present a large-scale synthetic dataset of approximately 36,000 tasks with varying difficulty to support future research on agent tuning and evaluation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "TaskCraft: Automated Generation of Agentic Tasks"
+    ],
+    "twitter:description": [
+      "Agentic tasks, which require multi-step problem solving with autonomy, tool use, and adaptive reasoning, are becoming increasingly central to the advancement of NLP and AI. However, existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "TaskCraft: Automated Generation of Agentic Tasks"
+    ],
+    "citation_author": [
+      "Shi, Dingfeng",
+      "Cao, Jingyi",
+      "Chen, Qianben",
+      "Sun, Weichen",
+      "Li, Weizhen",
+      "Lu, Hongxuan",
+      "Dong, Fangchen",
+      "Qin, Tianrui",
+      "Zhu, King",
+      "Liu, Minghao",
+      "Yang, Jian",
+      "Zhang, Ge",
+      "Liu, Jiaheng",
+      "Zhang, Changwang",
+      "Wang, Jun",
+      "Jiang, Yuchen Eleanor",
+      "Zhou, Wangchunshu"
+    ],
+    "citation_date": [
+      "2025/06/11"
+    ],
+    "citation_online_date": [
+      "2025/06/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.10055"
+    ],
+    "citation_arxiv_id": [
+      "2506.10055"
+    ],
+    "citation_abstract": [
+      "Agentic tasks, which require multi-step problem solving with autonomy, tool use, and adaptive reasoning, are becoming increasingly central to the advancement of NLP and AI. However, existing instruction data lacks tool interaction, and current agentic benchmarks rely on costly human annotation, limiting their scalability. We introduce \\textsc{TaskCraft}, an automated workflow for generating difficulty-scalable, multi-tool, and verifiable agentic tasks with execution trajectories. TaskCraft expands atomic tasks using depth-based and width-based extensions to create structurally and hierarchically complex challenges. Empirical results show that these tasks improve prompt optimization in the generation workflow and enhance supervised fine-tuning of agentic foundation models. We present a large-scale synthetic dataset of approximately 36,000 tasks with varying difficulty to support future research on agent tuning and evaluation."
+    ]
+  },
+  "html_sha256": "a127b7fbe06ea06c680927cdfbe4a2618696d30d442c00be68295d3736dc26f1",
+  "evidence_html": "evidence/653a6326b8b520267f77.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2407.00993",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.00993",
+      "discovery_url": "https://arxiv.org/abs/2407.00993",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.00993",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:39.349662+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.00993",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43137,
+  "title": "Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents",
+  "authors": [
+    "Deng, Shihan",
+    "Xu, Weikai",
+    "Sun, Hongda",
+    "Liu, Wei",
+    "Tan, Tao",
+    "Liu, Jianfeng",
+    "Li, Ang",
+    "Luan, Jian",
+    "Wang, Bin",
+    "Yan, Rui",
+    "Shang, Shuo"
+  ],
+  "first_author": "Deng, Shihan",
+  "year": 2024,
+  "source_date": "2024/07/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.00993",
+  "abstract": "With the remarkable advancements of large language models (LLMs), LLM-based agents have become a research hotspot in human-computer interaction. However, there is a scarcity of benchmarks available for LLM-based mobile agents. Benchmarking these agents generally faces three main challenges: (1) The inefficiency of UI-only operations imposes limitations to task evaluation. (2) Specific instructions within a singular application lack adequacy for assessing the multi-dimensional reasoning and decision-making capacities of LLM mobile agents. (3) Current evaluation metrics are insufficient to accurately assess the process of sequential actions. To this end, we propose Mobile-Bench, a novel benchmark for evaluating the capabilities of LLM-based mobile agents. First, we expand conventional UI operations by incorporating 103 collected APIs to accelerate the efficiency of task completion. Subsequently, we collect evaluation data by combining real user queries with augmentation from LLMs. To better evaluate different levels of planning capabilities for mobile agents, our data is categorized into three distinct groups: SAST, SAMT, and MAMT, reflecting varying levels of task complexity. Mobile-Bench comprises 832 data entries, with more than 200 tasks specifically designed to evaluate multi-APP collaboration scenarios. Furthermore, we introduce a more accurate evaluation metric, named CheckPoint, to assess whether LLM-based mobile agents reach essential points during their planning and reasoning steps.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.00993: Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.00993v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "With the remarkable advancements of large language models (LLMs), LLM-based agents have become a research hotspot in human-computer interaction. However, there is a scarcity of benchmarks available for LLM-based mobile agents. Benchmarking these agents generally faces three main challenges: (1) The inefficiency of UI-only operations imposes limitations to task evaluation. (2) Specific instructions within a singular application lack adequacy for assessing the multi-dimensional reasoning and decision-making capacities of LLM mobile agents. (3) Current evaluation metrics are insufficient to accurately assess the process of sequential actions. To this end, we propose Mobile-Bench, a novel benchmark for evaluating the capabilities of LLM-based mobile agents. First, we expand conventional UI operations by incorporating 103 collected APIs to accelerate the efficiency of task completion. Subsequently, we collect evaluation data by combining real user queries with augmentation from LLMs. To better evaluate different levels of planning capabilities for mobile agents, our data is categorized into three distinct groups: SAST, SAMT, and MAMT, reflecting varying levels of task complexity. Mobile-Bench comprises 832 data entries, with more than 200 tasks specifically designed to evaluate multi-APP collaboration scenarios. Furthermore, we introduce a more accurate evaluation metric, named CheckPoint, to assess whether LLM-based mobile agents reach essential points during their planning and reasoning steps."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents"
+    ],
+    "twitter:description": [
+      "With the remarkable advancements of large language models (LLMs), LLM-based agents have become a research hotspot in human-computer interaction. However, there is a scarcity of benchmarks..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents"
+    ],
+    "citation_author": [
+      "Deng, Shihan",
+      "Xu, Weikai",
+      "Sun, Hongda",
+      "Liu, Wei",
+      "Tan, Tao",
+      "Liu, Jianfeng",
+      "Li, Ang",
+      "Luan, Jian",
+      "Wang, Bin",
+      "Yan, Rui",
+      "Shang, Shuo"
+    ],
+    "citation_date": [
+      "2024/07/01"
+    ],
+    "citation_online_date": [
+      "2024/07/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.00993"
+    ],
+    "citation_arxiv_id": [
+      "2407.00993"
+    ],
+    "citation_abstract": [
+      "With the remarkable advancements of large language models (LLMs), LLM-based agents have become a research hotspot in human-computer interaction. However, there is a scarcity of benchmarks available for LLM-based mobile agents. Benchmarking these agents generally faces three main challenges: (1) The inefficiency of UI-only operations imposes limitations to task evaluation. (2) Specific instructions within a singular application lack adequacy for assessing the multi-dimensional reasoning and decision-making capacities of LLM mobile agents. (3) Current evaluation metrics are insufficient to accurately assess the process of sequential actions. To this end, we propose Mobile-Bench, a novel benchmark for evaluating the capabilities of LLM-based mobile agents. First, we expand conventional UI operations by incorporating 103 collected APIs to accelerate the efficiency of task completion. Subsequently, we collect evaluation data by combining real user queries with augmentation from LLMs. To better evaluate different levels of planning capabilities for mobile agents, our data is categorized into three distinct groups: SAST, SAMT, and MAMT, reflecting varying levels of task complexity. Mobile-Bench comprises 832 data entries, with more than 200 tasks specifically designed to evaluate multi-APP collaboration scenarios. Furthermore, we introduce a more accurate evaluation metric, named CheckPoint, to assess whether LLM-based mobile agents reach essential points during their planning and reasoning steps."
+    ]
+  },
+  "html_sha256": "875a7591c0cc1514da093e18934fee671757357dc51737aa08297dbd75a1bea5",
+  "evidence_html": "evidence/5007fe1624a07a745cf5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

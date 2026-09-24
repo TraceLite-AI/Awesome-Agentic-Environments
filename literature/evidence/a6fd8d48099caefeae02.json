@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2510.14969",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.14969",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "Llms as scalable, general-purpose simulators for evolving digital agent training",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.14969",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:47.957756+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.14969",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43331,
+  "title": "LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training",
+  "authors": [
+    "Wang, Yiming",
+    "Yin, Da",
+    "Cui, Yuedong",
+    "Zheng, Ruichen",
+    "Li, Zhiqian",
+    "Lin, Zongyu",
+    "Wu, Di",
+    "Wu, Xueqing",
+    "Ye, Chenchen",
+    "Zhou, Yu",
+    "Chang, Kai-Wei"
+  ],
+  "first_author": "Wang, Yiming",
+  "year": 2025,
+  "source_date": "2025/10/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.14969",
+  "abstract": "Digital agents require diverse, large-scale UI trajectories to generalize across real-world tasks, yet collecting such data is prohibitively expensive in both human annotation, infra and engineering perspectives. To this end, we introduce $\\textbf{UI-Simulator}$, a scalable paradigm that generates structured UI states and transitions to synthesize training trajectories at scale. Our paradigm integrates a digital world simulator for diverse UI states, a guided rollout process for coherent exploration, and a trajectory wrapper that produces high-quality and diverse trajectories for agent training. We further propose $\\textbf{UI-Simulator-Grow}$, a targeted scaling strategy that enables more rapid and data-efficient scaling by prioritizing high-impact tasks and synthesizes informative trajectory variants. Experiments on WebArena and AndroidWorld show that UI-Simulator rivals or surpasses open-source agents trained on real UIs with significantly better robustness, despite using weaker teacher models. Moreover, UI-Simulator-Grow matches the performance of Llama-3-70B-Instruct using only Llama-3-8B-Instruct as the base model, highlighting the potential of targeted synthesis scaling paradigm to continuously and efficiently enhance the digital agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.14969: LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.14969v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Digital agents require diverse, large-scale UI trajectories to generalize across real-world tasks, yet collecting such data is prohibitively expensive in both human annotation, infra and engineering perspectives. To this end, we introduce $\\textbf{UI-Simulator}$, a scalable paradigm that generates structured UI states and transitions to synthesize training trajectories at scale. Our paradigm integrates a digital world simulator for diverse UI states, a guided rollout process for coherent exploration, and a trajectory wrapper that produces high-quality and diverse trajectories for agent training. We further propose $\\textbf{UI-Simulator-Grow}$, a targeted scaling strategy that enables more rapid and data-efficient scaling by prioritizing high-impact tasks and synthesizes informative trajectory variants. Experiments on WebArena and AndroidWorld show that UI-Simulator rivals or surpasses open-source agents trained on real UIs with significantly better robustness, despite using weaker teacher models. Moreover, UI-Simulator-Grow matches the performance of Llama-3-70B-Instruct using only Llama-3-8B-Instruct as the base model, highlighting the potential of targeted synthesis scaling paradigm to continuously and efficiently enhance the digital agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LLMs as Scalable, General-Purpose Simulators For Evolving Digital..."
+    ],
+    "twitter:description": [
+      "Digital agents require diverse, large-scale UI trajectories to generalize across real-world tasks, yet collecting such data is prohibitively expensive in both human annotation, infra and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training"
+    ],
+    "citation_author": [
+      "Wang, Yiming",
+      "Yin, Da",
+      "Cui, Yuedong",
+      "Zheng, Ruichen",
+      "Li, Zhiqian",
+      "Lin, Zongyu",
+      "Wu, Di",
+      "Wu, Xueqing",
+      "Ye, Chenchen",
+      "Zhou, Yu",
+      "Chang, Kai-Wei"
+    ],
+    "citation_date": [
+      "2025/10/16"
+    ],
+    "citation_online_date": [
+      "2025/10/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.14969"
+    ],
+    "citation_arxiv_id": [
+      "2510.14969"
+    ],
+    "citation_abstract": [
+      "Digital agents require diverse, large-scale UI trajectories to generalize across real-world tasks, yet collecting such data is prohibitively expensive in both human annotation, infra and engineering perspectives. To this end, we introduce $\\textbf{UI-Simulator}$, a scalable paradigm that generates structured UI states and transitions to synthesize training trajectories at scale. Our paradigm integrates a digital world simulator for diverse UI states, a guided rollout process for coherent exploration, and a trajectory wrapper that produces high-quality and diverse trajectories for agent training. We further propose $\\textbf{UI-Simulator-Grow}$, a targeted scaling strategy that enables more rapid and data-efficient scaling by prioritizing high-impact tasks and synthesizes informative trajectory variants. Experiments on WebArena and AndroidWorld show that UI-Simulator rivals or surpasses open-source agents trained on real UIs with significantly better robustness, despite using weaker teacher models. Moreover, UI-Simulator-Grow matches the performance of Llama-3-70B-Instruct using only Llama-3-8B-Instruct as the base model, highlighting the potential of targeted synthesis scaling paradigm to continuously and efficiently enhance the digital agents."
+    ]
+  },
+  "html_sha256": "2fa92c5066f9dc4e3722bd36788bfc8ef812ca8f0234345f355206424c8177bf",
+  "evidence_html": "evidence/a6fd8d48099caefeae02.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

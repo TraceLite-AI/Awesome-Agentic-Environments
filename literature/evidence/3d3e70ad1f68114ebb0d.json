@@ -1,0 +1,171 @@
+{
+  "url": "https://arxiv.org/abs/2407.16741",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.16741",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.16741",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "An Open Platform for AI Software Developers as Generalist Agents (OpenHands / fka OpenDevin)",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.16741",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:56.743314+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.16741",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45536,
+  "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+  "authors": [
+    "Wang, Xingyao",
+    "Li, Boxuan",
+    "Song, Yufan",
+    "Xu, Frank F.",
+    "Tang, Xiangru",
+    "Zhuge, Mingchen",
+    "Pan, Jiayi",
+    "Song, Yueqi",
+    "Li, Bowen",
+    "Singh, Jaskirat",
+    "Tran, Hoang H.",
+    "Li, Fuqiang",
+    "Ma, Ren",
+    "Zheng, Mingzhang",
+    "Qian, Bill",
+    "Shao, Yanjun",
+    "Muennighoff, Niklas",
+    "Zhang, Yizhe",
+    "Hui, Binyuan",
+    "Lin, Junyang",
+    "Brennan, Robert",
+    "Peng, Hao",
+    "Ji, Heng",
+    "Neubig, Graham"
+  ],
+  "first_author": "Wang, Xingyao",
+  "year": 2024,
+  "source_date": "2024/07/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.16741",
+  "abstract": "Software is one of the most powerful tools that we humans have at our disposal; it allows a skilled programmer to interact with the world in complex and profound ways. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. In this paper, we introduce OpenHands (f.k.a. OpenDevin), a platform for the development of powerful and flexible AI agents that interact with the world in similar ways to those of a human developer: by writing code, interacting with a command line, and browsing the web. We describe how the platform allows for the implementation of new agents, safe interaction with sandboxed environments for code execution, coordination between multiple agents, and incorporation of evaluation benchmarks. Based on our currently incorporated benchmarks, we perform an evaluation of agents over 15 challenging tasks, including software engineering (e.g., SWE-BENCH) and web browsing (e.g., WEBARENA), among others. Released under the permissive MIT license, OpenHands is a community project spanning academia and industry with more than 2.1K contributions from over 188 contributors.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.16741: OpenHands: An Open Platform for AI Software Developers as Generalist Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenHands: An Open Platform for AI Software Developers as Generalist Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.16741v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Software is one of the most powerful tools that we humans have at our disposal; it allows a skilled programmer to interact with the world in complex and profound ways. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. In this paper, we introduce OpenHands (f.k.a. OpenDevin), a platform for the development of powerful and flexible AI agents that interact with the world in similar ways to those of a human developer: by writing code, interacting with a command line, and browsing the web. We describe how the platform allows for the implementation of new agents, safe interaction with sandboxed environments for code execution, coordination between multiple agents, and incorporation of evaluation benchmarks. Based on our currently incorporated benchmarks, we perform an evaluation of agents over 15 challenging tasks, including software engineering (e.g., SWE-BENCH) and web browsing (e.g., WEBARENA), among others. Released under the permissive MIT license, OpenHands is a community project spanning academia and industry with more than 2.1K contributions from over 188 contributors."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenHands: An Open Platform for AI Software Developers as Generalist Agents"
+    ],
+    "twitter:description": [
+      "Software is one of the most powerful tools that we humans have at our disposal; it allows a skilled programmer to interact with the world in complex and profound ways. At the same time, thanks to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenHands: An Open Platform for AI Software Developers as Generalist Agents"
+    ],
+    "citation_author": [
+      "Wang, Xingyao",
+      "Li, Boxuan",
+      "Song, Yufan",
+      "Xu, Frank F.",
+      "Tang, Xiangru",
+      "Zhuge, Mingchen",
+      "Pan, Jiayi",
+      "Song, Yueqi",
+      "Li, Bowen",
+      "Singh, Jaskirat",
+      "Tran, Hoang H.",
+      "Li, Fuqiang",
+      "Ma, Ren",
+      "Zheng, Mingzhang",
+      "Qian, Bill",
+      "Shao, Yanjun",
+      "Muennighoff, Niklas",
+      "Zhang, Yizhe",
+      "Hui, Binyuan",
+      "Lin, Junyang",
+      "Brennan, Robert",
+      "Peng, Hao",
+      "Ji, Heng",
+      "Neubig, Graham"
+    ],
+    "citation_date": [
+      "2024/07/23"
+    ],
+    "citation_online_date": [
+      "2025/04/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.16741"
+    ],
+    "citation_arxiv_id": [
+      "2407.16741"
+    ],
+    "citation_abstract": [
+      "Software is one of the most powerful tools that we humans have at our disposal; it allows a skilled programmer to interact with the world in complex and profound ways. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. In this paper, we introduce OpenHands (f.k.a. OpenDevin), a platform for the development of powerful and flexible AI agents that interact with the world in similar ways to those of a human developer: by writing code, interacting with a command line, and browsing the web. We describe how the platform allows for the implementation of new agents, safe interaction with sandboxed environments for code execution, coordination between multiple agents, and incorporation of evaluation benchmarks. Based on our currently incorporated benchmarks, we perform an evaluation of agents over 15 challenging tasks, including software engineering (e.g., SWE-BENCH) and web browsing (e.g., WEBARENA), among others. Released under the permissive MIT license, OpenHands is a community project spanning academia and industry with more than 2.1K contributions from over 188 contributors."
+    ]
+  },
+  "html_sha256": "2b9f10c47d1964713d513d8652d75cc988bbd3d7415f89abd8446bfab6e4e3c5",
+  "evidence_html": "evidence/3d3e70ad1f68114ebb0d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

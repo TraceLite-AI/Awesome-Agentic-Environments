@@ -1,0 +1,21 @@
+{
+  "url": "https://proceedings.mlr.press/v48.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v48.html",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Generalization and exploration via randomized value functions, ICML 2016. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://proceedings.mlr.press/v48.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:01.476359+00:00",
+  "http_status": 404,
+  "opened_url": "https://proceedings.mlr.press/v48.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 9379,
+  "error": "HTTPError: 404 Client Error: Not Found for url: https://proceedings.mlr.press/v48.html"
+}

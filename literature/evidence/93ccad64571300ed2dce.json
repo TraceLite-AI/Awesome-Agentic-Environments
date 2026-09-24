@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2307.01848",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.01848",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "TaPA",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.01848",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:53.179450+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.01848",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42204,
+  "title": "Embodied Task Planning with Large Language Models",
+  "authors": [
+    "Wu, Zhenyu",
+    "Wang, Ziwei",
+    "Xu, Xiuwei",
+    "Lu, Jiwen",
+    "Yan, Haibin"
+  ],
+  "first_author": "Wu, Zhenyu",
+  "year": 2023,
+  "source_date": "2023/07/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.01848",
+  "abstract": "Equipping embodied agents with commonsense is important for robots to successfully complete complex human instructions in general environments. Recent large language models (LLM) can embed rich semantic knowledge for agents in plan generation of complex tasks, while they lack the information about the realistic world and usually yield infeasible action sequences. In this paper, we propose a TAsk Planing Agent (TaPA) in embodied tasks for grounded planning with physical scene constraint, where the agent generates executable plans according to the existed objects in the scene by aligning LLMs with the visual perception models. Specifically, we first construct a multimodal dataset containing triplets of indoor scenes, instructions and action plans, where we provide the designed prompts and the list of existing objects in the scene for GPT-3.5 to generate a large number of instructions and corresponding planned actions. The generated data is leveraged for grounded plan tuning of pre-trained LLMs. During inference, we discover the objects in the scene by extending open-vocabulary object detectors to multi-view RGB images collected in different achievable locations. Experimental results show that the generated plan from our TaPA framework can achieve higher success rate than LLaVA and GPT-3.5 by a sizable margin, which indicates the practicality of embodied task planning in general and complex environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.01848: Embodied Task Planning with Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Embodied Task Planning with Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.01848v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Equipping embodied agents with commonsense is important for robots to successfully complete complex human instructions in general environments. Recent large language models (LLM) can embed rich semantic knowledge for agents in plan generation of complex tasks, while they lack the information about the realistic world and usually yield infeasible action sequences. In this paper, we propose a TAsk Planing Agent (TaPA) in embodied tasks for grounded planning with physical scene constraint, where the agent generates executable plans according to the existed objects in the scene by aligning LLMs with the visual perception models. Specifically, we first construct a multimodal dataset containing triplets of indoor scenes, instructions and action plans, where we provide the designed prompts and the list of existing objects in the scene for GPT-3.5 to generate a large number of instructions and corresponding planned actions. The generated data is leveraged for grounded plan tuning of pre-trained LLMs. During inference, we discover the objects in the scene by extending open-vocabulary object detectors to multi-view RGB images collected in different achievable locations. Experimental results show that the generated plan from our TaPA framework can achieve higher success rate than LLaVA and GPT-3.5 by a sizable margin, which indicates the practicality of embodied task planning in general and complex environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Embodied Task Planning with Large Language Models"
+    ],
+    "twitter:description": [
+      "Equipping embodied agents with commonsense is important for robots to successfully complete complex human instructions in general environments. Recent large language models (LLM) can embed rich..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Embodied Task Planning with Large Language Models"
+    ],
+    "citation_author": [
+      "Wu, Zhenyu",
+      "Wang, Ziwei",
+      "Xu, Xiuwei",
+      "Lu, Jiwen",
+      "Yan, Haibin"
+    ],
+    "citation_date": [
+      "2023/07/04"
+    ],
+    "citation_online_date": [
+      "2023/07/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.01848"
+    ],
+    "citation_arxiv_id": [
+      "2307.01848"
+    ],
+    "citation_abstract": [
+      "Equipping embodied agents with commonsense is important for robots to successfully complete complex human instructions in general environments. Recent large language models (LLM) can embed rich semantic knowledge for agents in plan generation of complex tasks, while they lack the information about the realistic world and usually yield infeasible action sequences. In this paper, we propose a TAsk Planing Agent (TaPA) in embodied tasks for grounded planning with physical scene constraint, where the agent generates executable plans according to the existed objects in the scene by aligning LLMs with the visual perception models. Specifically, we first construct a multimodal dataset containing triplets of indoor scenes, instructions and action plans, where we provide the designed prompts and the list of existing objects in the scene for GPT-3.5 to generate a large number of instructions and corresponding planned actions. The generated data is leveraged for grounded plan tuning of pre-trained LLMs. During inference, we discover the objects in the scene by extending open-vocabulary object detectors to multi-view RGB images collected in different achievable locations. Experimental results show that the generated plan from our TaPA framework can achieve higher success rate than LLaVA and GPT-3.5 by a sizable margin, which indicates the practicality of embodied task planning in general and complex environments."
+    ]
+  },
+  "html_sha256": "8b2b592f5c81d50b47e208882becabdb25018b73395b8c16969791180d881b20",
+  "evidence_html": "evidence/93ccad64571300ed2dce.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

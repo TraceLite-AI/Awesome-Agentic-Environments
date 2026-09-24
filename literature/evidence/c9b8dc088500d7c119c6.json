@@ -1,0 +1,144 @@
+{
+  "url": "https://arxiv.org/abs/2602.09892",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.09892",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Immersion in the github universe: Scaling coding agents to mastery",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.09892",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:27.289847+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.09892",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43308,
+  "title": "Immersion in the GitHub Universe: Scaling Coding Agents to Mastery",
+  "authors": [
+    "Zhao, Jiale",
+    "Chen, Guoxin",
+    "Meng, Fanzhe",
+    "Li, Minghao",
+    "Chen, Jie",
+    "Xu, Hui",
+    "Sun, Yongshuai",
+    "Zhao, Wayne Xin",
+    "Song, Ruihua",
+    "Zhang, Yuan",
+    "Wang, Peng",
+    "Chen, Cheng",
+    "Wen, Jirong",
+    "Jia, Kai"
+  ],
+  "first_author": "Zhao, Jiale",
+  "year": 2026,
+  "source_date": "2026/02/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.09892",
+  "abstract": "Achieving mastery in real world software engineering tasks is fundamentally bottlenecked by the scarcity of large scale, high quality training data. Scaling such data has been limited by the complexity of environment setup, unit test generation, and problem statement curation. In this paper, we propose ScaleSWE, an automated, sandboxed multi agent workflow designed to construct high quality SWE data at scale. The system coordinates three specialized agents for environment setup, test creation, and problem description synthesis to process 6 million pull requests across 5200 repositories, producing Scale SWE Data: 100k verified SWE instances, the largest such dataset to date. It substantially surpasses existing real world datasets in repository diversity and reflects realistic task complexity. We further demonstrate the dataset utility for training by distilling 71498 high quality trajectories and finetuning Qwen30BA3BInstruct to produce ScaleSWE Agent. Our agent achieves a 64 resolve rate on SWE Bench Verified a nearly three fold improvement over the base model. ScaleSWE provides a scalable, reproducible approach for data construction to advance LLM based software engineering. Scale SWE will be publicly available.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.09892: Immersion in the GitHub Universe: Scaling Coding Agents to Mastery"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Immersion in the GitHub Universe: Scaling Coding Agents to Mastery"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.09892v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Achieving mastery in real world software engineering tasks is fundamentally bottlenecked by the scarcity of large scale, high quality training data. Scaling such data has been limited by the complexity of environment setup, unit test generation, and problem statement curation. In this paper, we propose ScaleSWE, an automated, sandboxed multi agent workflow designed to construct high quality SWE data at scale. The system coordinates three specialized agents for environment setup, test creation, and problem description synthesis to process 6 million pull requests across 5200 repositories, producing Scale SWE Data: 100k verified SWE instances, the largest such dataset to date. It substantially surpasses existing real world datasets in repository diversity and reflects realistic task complexity. We further demonstrate the dataset utility for training by distilling 71498 high quality trajectories and finetuning Qwen30BA3BInstruct to produce ScaleSWE Agent. Our agent achieves a 64 resolve rate on SWE Bench Verified a nearly three fold improvement over the base model. ScaleSWE provides a scalable, reproducible approach for data construction to advance LLM based software engineering. Scale SWE will be publicly available."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Immersion in the GitHub Universe: Scaling Coding Agents to Mastery"
+    ],
+    "twitter:description": [
+      "Achieving mastery in real world software engineering tasks is fundamentally bottlenecked by the scarcity of large scale, high quality training data. Scaling such data has been limited by the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Immersion in the GitHub Universe: Scaling Coding Agents to Mastery"
+    ],
+    "citation_author": [
+      "Zhao, Jiale",
+      "Chen, Guoxin",
+      "Meng, Fanzhe",
+      "Li, Minghao",
+      "Chen, Jie",
+      "Xu, Hui",
+      "Sun, Yongshuai",
+      "Zhao, Wayne Xin",
+      "Song, Ruihua",
+      "Zhang, Yuan",
+      "Wang, Peng",
+      "Chen, Cheng",
+      "Wen, Jirong",
+      "Jia, Kai"
+    ],
+    "citation_date": [
+      "2026/02/10"
+    ],
+    "citation_online_date": [
+      "2026/03/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.09892"
+    ],
+    "citation_arxiv_id": [
+      "2602.09892"
+    ],
+    "citation_abstract": [
+      "Achieving mastery in real world software engineering tasks is fundamentally bottlenecked by the scarcity of large scale, high quality training data. Scaling such data has been limited by the complexity of environment setup, unit test generation, and problem statement curation. In this paper, we propose ScaleSWE, an automated, sandboxed multi agent workflow designed to construct high quality SWE data at scale. The system coordinates three specialized agents for environment setup, test creation, and problem description synthesis to process 6 million pull requests across 5200 repositories, producing Scale SWE Data: 100k verified SWE instances, the largest such dataset to date. It substantially surpasses existing real world datasets in repository diversity and reflects realistic task complexity. We further demonstrate the dataset utility for training by distilling 71498 high quality trajectories and finetuning Qwen30BA3BInstruct to produce ScaleSWE Agent. Our agent achieves a 64 resolve rate on SWE Bench Verified a nearly three fold improvement over the base model. ScaleSWE provides a scalable, reproducible approach for data construction to advance LLM based software engineering. Scale SWE will be publicly available."
+    ]
+  },
+  "html_sha256": "1ea1f1bb411c48d18e5199bcb72cabb927ecbf2fc263c5e0c24de17afa63cdf4",
+  "evidence_html": "evidence/c9b8dc088500d7c119c6.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

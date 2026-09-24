@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2406.13163",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.13163",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "LLMatDesign: Autonomous materials discovery with large language models",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.13163",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:35.613652+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.13163",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42602,
+  "title": "LLMatDesign: Autonomous Materials Discovery with Large Language Models",
+  "authors": [
+    "Jia, Shuyi",
+    "Zhang, Chao",
+    "Fung, Victor"
+  ],
+  "first_author": "Jia, Shuyi",
+  "year": 2024,
+  "source_date": "2024/06/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.13163",
+  "abstract": "Discovering new materials can have significant scientific and technological implications but remains a challenging problem today due to the enormity of the chemical space. Recent advances in machine learning have enabled data-driven methods to rapidly screen or generate promising materials, but these methods still depend heavily on very large quantities of training data and often lack the flexibility and chemical understanding often desired in materials discovery. We introduce LLMatDesign, a novel language-based framework for interpretable materials design powered by large language models (LLMs). LLMatDesign utilizes LLM agents to translate human instructions, apply modifications to materials, and evaluate outcomes using provided tools. By incorporating self-reflection on its previous decisions, LLMatDesign adapts rapidly to new tasks and conditions in a zero-shot manner. A systematic evaluation of LLMatDesign on several materials design tasks, in silico, validates LLMatDesign's effectiveness in developing new materials with user-defined target properties in the small data regime. Our framework demonstrates the remarkable potential of autonomous LLM-guided materials discovery in the computational setting and towards self-driving laboratories in the future.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.13163: LLMatDesign: Autonomous Materials Discovery with Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "LLMatDesign: Autonomous Materials Discovery with Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.13163v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Discovering new materials can have significant scientific and technological implications but remains a challenging problem today due to the enormity of the chemical space. Recent advances in machine learning have enabled data-driven methods to rapidly screen or generate promising materials, but these methods still depend heavily on very large quantities of training data and often lack the flexibility and chemical understanding often desired in materials discovery. We introduce LLMatDesign, a novel language-based framework for interpretable materials design powered by large language models (LLMs). LLMatDesign utilizes LLM agents to translate human instructions, apply modifications to materials, and evaluate outcomes using provided tools. By incorporating self-reflection on its previous decisions, LLMatDesign adapts rapidly to new tasks and conditions in a zero-shot manner. A systematic evaluation of LLMatDesign on several materials design tasks, in silico, validates LLMatDesign's effectiveness in developing new materials with user-defined target properties in the small data regime. Our framework demonstrates the remarkable potential of autonomous LLM-guided materials discovery in the computational setting and towards self-driving laboratories in the future."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "LLMatDesign: Autonomous Materials Discovery with Large Language Models"
+    ],
+    "twitter:description": [
+      "Discovering new materials can have significant scientific and technological implications but remains a challenging problem today due to the enormity of the chemical space. Recent advances in..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "LLMatDesign: Autonomous Materials Discovery with Large Language Models"
+    ],
+    "citation_author": [
+      "Jia, Shuyi",
+      "Zhang, Chao",
+      "Fung, Victor"
+    ],
+    "citation_date": [
+      "2024/06/19"
+    ],
+    "citation_online_date": [
+      "2024/06/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.13163"
+    ],
+    "citation_arxiv_id": [
+      "2406.13163"
+    ],
+    "citation_abstract": [
+      "Discovering new materials can have significant scientific and technological implications but remains a challenging problem today due to the enormity of the chemical space. Recent advances in machine learning have enabled data-driven methods to rapidly screen or generate promising materials, but these methods still depend heavily on very large quantities of training data and often lack the flexibility and chemical understanding often desired in materials discovery. We introduce LLMatDesign, a novel language-based framework for interpretable materials design powered by large language models (LLMs). LLMatDesign utilizes LLM agents to translate human instructions, apply modifications to materials, and evaluate outcomes using provided tools. By incorporating self-reflection on its previous decisions, LLMatDesign adapts rapidly to new tasks and conditions in a zero-shot manner. A systematic evaluation of LLMatDesign on several materials design tasks, in silico, validates LLMatDesign's effectiveness in developing new materials with user-defined target properties in the small data regime. Our framework demonstrates the remarkable potential of autonomous LLM-guided materials discovery in the computational setting and towards self-driving laboratories in the future."
+    ]
+  },
+  "html_sha256": "357b834400f4861797b48789fb95184e7ac091a80ba639447eed73e8b4737e45",
+  "evidence_html": "evidence/8c0c2a91068d2d5dd170.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

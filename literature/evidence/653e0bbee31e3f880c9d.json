@@ -1,0 +1,198 @@
+{
+  "url": "https://arxiv.org/abs/2304.08354",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2304.08354",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "Tool Learning with Foundation Models",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2304.08354",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:44.996431+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2304.08354",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 48888,
+  "title": "Tool Learning with Foundation Models",
+  "authors": [
+    "Qin, Yujia",
+    "Hu, Shengding",
+    "Lin, Yankai",
+    "Chen, Weize",
+    "Ding, Ning",
+    "Cui, Ganqu",
+    "Zeng, Zheni",
+    "Huang, Yufei",
+    "Xiao, Chaojun",
+    "Han, Chi",
+    "Fung, Yi Ren",
+    "Su, Yusheng",
+    "Wang, Huadong",
+    "Qian, Cheng",
+    "Tian, Runchu",
+    "Zhu, Kunlun",
+    "Liang, Shihao",
+    "Shen, Xingyu",
+    "Xu, Bokai",
+    "Zhang, Zhen",
+    "Ye, Yining",
+    "Li, Bowen",
+    "Tang, Ziwei",
+    "Yi, Jing",
+    "Zhu, Yuzhang",
+    "Dai, Zhenning",
+    "Yan, Lan",
+    "Cong, Xin",
+    "Lu, Yaxi",
+    "Zhao, Weilin",
+    "Huang, Yuxiang",
+    "Yan, Junxi",
+    "Han, Xu",
+    "Sun, Xian",
+    "Li, Dahai",
+    "Phang, Jason",
+    "Yang, Cheng",
+    "Wu, Tongshuang",
+    "Ji, Heng",
+    "Liu, Zhiyuan",
+    "Sun, Maosong"
+  ],
+  "first_author": "Qin, Yujia",
+  "year": 2023,
+  "source_date": "2023/04/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2304.08354",
+  "abstract": "Humans possess an extraordinary ability to create and utilize tools, allowing them to overcome physical limitations and explore new frontiers. With the advent of foundation models, AI systems have the potential to be equally adept in tool use as humans. This paradigm, i.e., tool learning with foundation models, combines the strengths of specialized tools and foundation models to achieve enhanced accuracy, efficiency, and automation in problem-solving. Despite its immense potential, there is still a lack of a comprehensive understanding of key challenges, opportunities, and future endeavors in this field. To this end, we present a systematic investigation of tool learning in this paper. We first introduce the background of tool learning, including its cognitive origins, the paradigm shift of foundation models, and the complementary roles of tools and models. Then we recapitulate existing tool learning research into tool-augmented and tool-oriented learning. We formulate a general tool learning framework: starting from understanding the user instruction, models should learn to decompose a complex task into several subtasks, dynamically adjust their plan through reasoning, and effectively conquer each sub-task by selecting appropriate tools. We also discuss how to train models for improved tool-use capabilities and facilitate the generalization in tool learning. Considering the lack of a systematic tool learning evaluation in prior works, we experiment with 18 representative tools and show the potential of current foundation models in skillfully utilizing tools. Finally, we discuss several open problems that require further investigation for tool learning. In general, we hope this paper could inspire future research in integrating tools with foundation models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2304.08354: Tool Learning with Foundation Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Tool Learning with Foundation Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2304.08354v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Humans possess an extraordinary ability to create and utilize tools, allowing them to overcome physical limitations and explore new frontiers. With the advent of foundation models, AI systems have the potential to be equally adept in tool use as humans. This paradigm, i.e., tool learning with foundation models, combines the strengths of specialized tools and foundation models to achieve enhanced accuracy, efficiency, and automation in problem-solving. Despite its immense potential, there is still a lack of a comprehensive understanding of key challenges, opportunities, and future endeavors in this field. To this end, we present a systematic investigation of tool learning in this paper. We first introduce the background of tool learning, including its cognitive origins, the paradigm shift of foundation models, and the complementary roles of tools and models. Then we recapitulate existing tool learning research into tool-augmented and tool-oriented learning. We formulate a general tool learning framework: starting from understanding the user instruction, models should learn to decompose a complex task into several subtasks, dynamically adjust their plan through reasoning, and effectively conquer each sub-task by selecting appropriate tools. We also discuss how to train models for improved tool-use capabilities and facilitate the generalization in tool learning. Considering the lack of a systematic tool learning evaluation in prior works, we experiment with 18 representative tools and show the potential of current foundation models in skillfully utilizing tools. Finally, we discuss several open problems that require further investigation for tool learning. In general, we hope this paper could inspire future research in integrating tools with foundation models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Tool Learning with Foundation Models"
+    ],
+    "twitter:description": [
+      "Humans possess an extraordinary ability to create and utilize tools, allowing them to overcome physical limitations and explore new frontiers. With the advent of foundation models, AI systems have..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Tool Learning with Foundation Models"
+    ],
+    "citation_author": [
+      "Qin, Yujia",
+      "Hu, Shengding",
+      "Lin, Yankai",
+      "Chen, Weize",
+      "Ding, Ning",
+      "Cui, Ganqu",
+      "Zeng, Zheni",
+      "Huang, Yufei",
+      "Xiao, Chaojun",
+      "Han, Chi",
+      "Fung, Yi Ren",
+      "Su, Yusheng",
+      "Wang, Huadong",
+      "Qian, Cheng",
+      "Tian, Runchu",
+      "Zhu, Kunlun",
+      "Liang, Shihao",
+      "Shen, Xingyu",
+      "Xu, Bokai",
+      "Zhang, Zhen",
+      "Ye, Yining",
+      "Li, Bowen",
+      "Tang, Ziwei",
+      "Yi, Jing",
+      "Zhu, Yuzhang",
+      "Dai, Zhenning",
+      "Yan, Lan",
+      "Cong, Xin",
+      "Lu, Yaxi",
+      "Zhao, Weilin",
+      "Huang, Yuxiang",
+      "Yan, Junxi",
+      "Han, Xu",
+      "Sun, Xian",
+      "Li, Dahai",
+      "Phang, Jason",
+      "Yang, Cheng",
+      "Wu, Tongshuang",
+      "Ji, Heng",
+      "Liu, Zhiyuan",
+      "Sun, Maosong"
+    ],
+    "citation_date": [
+      "2023/04/17"
+    ],
+    "citation_online_date": [
+      "2024/08/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2304.08354"
+    ],
+    "citation_arxiv_id": [
+      "2304.08354"
+    ],
+    "citation_abstract": [
+      "Humans possess an extraordinary ability to create and utilize tools, allowing them to overcome physical limitations and explore new frontiers. With the advent of foundation models, AI systems have the potential to be equally adept in tool use as humans. This paradigm, i.e., tool learning with foundation models, combines the strengths of specialized tools and foundation models to achieve enhanced accuracy, efficiency, and automation in problem-solving. Despite its immense potential, there is still a lack of a comprehensive understanding of key challenges, opportunities, and future endeavors in this field. To this end, we present a systematic investigation of tool learning in this paper. We first introduce the background of tool learning, including its cognitive origins, the paradigm shift of foundation models, and the complementary roles of tools and models. Then we recapitulate existing tool learning research into tool-augmented and tool-oriented learning. We formulate a general tool learning framework: starting from understanding the user instruction, models should learn to decompose a complex task into several subtasks, dynamically adjust their plan through reasoning, and effectively conquer each sub-task by selecting appropriate tools. We also discuss how to train models for improved tool-use capabilities and facilitate the generalization in tool learning. Considering the lack of a systematic tool learning evaluation in prior works, we experiment with 18 representative tools and show the potential of current foundation models in skillfully utilizing tools. Finally, we discuss several open problems that require further investigation for tool learning. In general, we hope this paper could inspire future research in integrating tools with foundation models."
+    ]
+  },
+  "html_sha256": "faa4d20c2d63f2c85b4ad98de3afd2cc5373e6adbcc341e471bf346d29ef0c69",
+  "evidence_html": "evidence/653e0bbee31e3f880c9d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

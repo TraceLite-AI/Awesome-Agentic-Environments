@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2510.04206",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.04206",
+      "discovery_url": "https://arxiv.org/abs/2510.04206",
+      "topic": "agent_training_and_rl",
+      "title_hint": "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.04206",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:32.638953+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.04206",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43622,
+  "title": "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework",
+  "authors": [
+    "Zhang, Hanchen",
+    "Liu, Xiao",
+    "Lv, Bowen",
+    "Sun, Xueqiao",
+    "Jing, Bohao",
+    "Iong, Iat Long",
+    "Hou, Zhenyu",
+    "Qi, Zehan",
+    "Lai, Hanyu",
+    "Xu, Yifan",
+    "Lu, Rui",
+    "Wang, Hongning",
+    "Tang, Jie",
+    "Dong, Yuxiao"
+  ],
+  "first_author": "Zhang, Hanchen",
+  "year": 2025,
+  "source_date": "2025/10/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.04206",
+  "abstract": "Recent advances in large language models (LLMs) have sparked growing interest in building generalist agents that can learn through online interactions. However, applying reinforcement learning (RL) to train LLM agents in multi-turn, multi-task settings remains challenging due to lack of scalable infrastructure and stable training algorithms. In this work, we present the AgentRL framework for scalable multi-turn, multi-task agentic RL training. On the infrastructure side, AgentRL features a fully-asynchronous generation-training pipeline for efficient multi-turn RL. To support heterogeneous environment development in multi-task RL, we design a unified function-call based API interface, containerized environment development, and a centralized controller. On the algorithm side, we propose cross-policy sampling to encourage model exploration in multi-turn settings and task advantage normalization to stabilize multi-task training. Experiments show that AgentRL, trained on open LLMs across five agentic tasks, significantly outperforms GPT-5, Clause-Sonnet-4, DeepSeek-R1, and other open-source LLM agents. Multi-task training with AgentRL matches the best results among all task-specific models. AgentRL is open-sourced at this https URL . The algorithm and framework are adopted in building \\textsc{\\href{ this https URL }{AutoGLM}}.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.04206: AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.04206v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in large language models (LLMs) have sparked growing interest in building generalist agents that can learn through online interactions. However, applying reinforcement learning (RL) to train LLM agents in multi-turn, multi-task settings remains challenging due to lack of scalable infrastructure and stable training algorithms. In this work, we present the AgentRL framework for scalable multi-turn, multi-task agentic RL training. On the infrastructure side, AgentRL features a fully-asynchronous generation-training pipeline for efficient multi-turn RL. To support heterogeneous environment development in multi-task RL, we design a unified function-call based API interface, containerized environment development, and a centralized controller. On the algorithm side, we propose cross-policy sampling to encourage model exploration in multi-turn settings and task advantage normalization to stabilize multi-task training. Experiments show that AgentRL, trained on open LLMs across five agentic tasks, significantly outperforms GPT-5, Clause-Sonnet-4, DeepSeek-R1, and other open-source LLM agents. Multi-task training with AgentRL matches the best results among all task-specific models. AgentRL is open-sourced at https://github.com/THUDM/AgentRL. The algorithm and framework are adopted in building \\textsc{\\href{https://autoglm.zhipuai.cn}{AutoGLM}}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn,..."
+    ],
+    "twitter:description": [
+      "Recent advances in large language models (LLMs) have sparked growing interest in building generalist agents that can learn through online interactions. However, applying reinforcement learning..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework"
+    ],
+    "citation_author": [
+      "Zhang, Hanchen",
+      "Liu, Xiao",
+      "Lv, Bowen",
+      "Sun, Xueqiao",
+      "Jing, Bohao",
+      "Iong, Iat Long",
+      "Hou, Zhenyu",
+      "Qi, Zehan",
+      "Lai, Hanyu",
+      "Xu, Yifan",
+      "Lu, Rui",
+      "Wang, Hongning",
+      "Tang, Jie",
+      "Dong, Yuxiao"
+    ],
+    "citation_date": [
+      "2025/10/05"
+    ],
+    "citation_online_date": [
+      "2025/10/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.04206"
+    ],
+    "citation_arxiv_id": [
+      "2510.04206"
+    ],
+    "citation_abstract": [
+      "Recent advances in large language models (LLMs) have sparked growing interest in building generalist agents that can learn through online interactions. However, applying reinforcement learning (RL) to train LLM agents in multi-turn, multi-task settings remains challenging due to lack of scalable infrastructure and stable training algorithms. In this work, we present the AgentRL framework for scalable multi-turn, multi-task agentic RL training. On the infrastructure side, AgentRL features a fully-asynchronous generation-training pipeline for efficient multi-turn RL. To support heterogeneous environment development in multi-task RL, we design a unified function-call based API interface, containerized environment development, and a centralized controller. On the algorithm side, we propose cross-policy sampling to encourage model exploration in multi-turn settings and task advantage normalization to stabilize multi-task training. Experiments show that AgentRL, trained on open LLMs across five agentic tasks, significantly outperforms GPT-5, Clause-Sonnet-4, DeepSeek-R1, and other open-source LLM agents. Multi-task training with AgentRL matches the best results among all task-specific models. AgentRL is open-sourced at https://github.com/THUDM/AgentRL. The algorithm and framework are adopted in building \\textsc{\\href{https://autoglm.zhipuai.cn}{AutoGLM}}."
+    ]
+  },
+  "html_sha256": "a3a8a4c06afdb44960ac1f816a1705cff271d1f265c12db33771bb44196b7205",
+  "evidence_html": "evidence/ace6329f5aab13e33aa6.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

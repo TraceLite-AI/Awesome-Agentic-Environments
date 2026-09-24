@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/1606.01540",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1606.01540",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Openai gym",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/1606.01540",
+      "discovery_url": "https://arxiv.org/abs/1606.01540",
+      "topic": "基础：执行环境、配置与可复现性",
+      "title_hint": "OpenAI Gym",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1606.01540",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:28.655978+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1606.01540",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40667,
+  "title": "OpenAI Gym",
+  "authors": [
+    "Brockman, Greg",
+    "Cheung, Vicki",
+    "Pettersson, Ludwig",
+    "Schneider, Jonas",
+    "Schulman, John",
+    "Tang, Jie",
+    "Zaremba, Wojciech"
+  ],
+  "first_author": "Brockman, Greg",
+  "year": 2016,
+  "source_date": "2016/06/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1606.01540",
+  "abstract": "OpenAI Gym is a toolkit for reinforcement learning research. It includes a growing collection of benchmark problems that expose a common interface, and a website where people can share their results and compare the performance of algorithms. This whitepaper discusses the components of OpenAI Gym and the design decisions that went into the software.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1606.01540: OpenAI Gym"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenAI Gym"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1606.01540v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "OpenAI Gym is a toolkit for reinforcement learning research. It includes a growing collection of benchmark problems that expose a common interface, and a website where people can share their results and compare the performance of algorithms. This whitepaper discusses the components of OpenAI Gym and the design decisions that went into the software."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenAI Gym"
+    ],
+    "twitter:description": [
+      "OpenAI Gym is a toolkit for reinforcement learning research. It includes a growing collection of benchmark problems that expose a common interface, and a website where people can share their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenAI Gym"
+    ],
+    "citation_author": [
+      "Brockman, Greg",
+      "Cheung, Vicki",
+      "Pettersson, Ludwig",
+      "Schneider, Jonas",
+      "Schulman, John",
+      "Tang, Jie",
+      "Zaremba, Wojciech"
+    ],
+    "citation_date": [
+      "2016/06/05"
+    ],
+    "citation_online_date": [
+      "2016/06/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1606.01540"
+    ],
+    "citation_arxiv_id": [
+      "1606.01540"
+    ],
+    "citation_abstract": [
+      "OpenAI Gym is a toolkit for reinforcement learning research. It includes a growing collection of benchmark problems that expose a common interface, and a website where people can share their results and compare the performance of algorithms. This whitepaper discusses the components of OpenAI Gym and the design decisions that went into the software."
+    ]
+  },
+  "html_sha256": "3d120a9f2ee232d38925b943a54dcf4f709f8d7b257cd4704b253ab4166b5995",
+  "evidence_html": "evidence/d122f1ef56a9dc33c309.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

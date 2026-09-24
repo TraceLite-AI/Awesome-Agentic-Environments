@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/2407.13032",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.13032",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Agent-e: From autonomous web navigation to foundational design principles in agentic systems",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.13032",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:57.905665+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.13032",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42547,
+  "title": "Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems",
+  "authors": [
+    "Abuelsaad, Tamer",
+    "Akkil, Deepak",
+    "Dey, Prasenjit",
+    "Jagmohan, Ashish",
+    "Vempaty, Aditya",
+    "Kokku, Ravi"
+  ],
+  "first_author": "Abuelsaad, Tamer",
+  "year": 2024,
+  "source_date": "2024/07/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.13032",
+  "abstract": "AI Agents are changing the way work gets done, both in consumer and enterprise domains. However, the design patterns and architectures to build highly capable agents or multi-agent systems are still developing, and the understanding of the implication of various design choices and algorithms is still evolving. In this paper, we present our work on building a novel web agent, Agent-E \\footnote{Our code is available at \\url{ this https URL }}. Agent-E introduces numerous architectural improvements over prior state-of-the-art web agents such as hierarchical architecture, flexible DOM distillation and denoising method, and the concept of \\textit{change observation} to guide the agent towards more accurate performance. We first present the results of an evaluation of Agent-E on WebVoyager benchmark dataset and show that Agent-E beats other SOTA text and multi-modal web agents on this benchmark in most categories by 10-30\\%. We then synthesize our learnings from the development of Agent-E into general design principles for developing agentic systems. These include the use of domain-specific primitive skills, the importance of distillation and de-noising of environmental observations, the advantages of a hierarchical architecture, and the role of agentic self-improvement to enhance agent efficiency and efficacy as the agent gathers experience.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.13032: Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.13032v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "AI Agents are changing the way work gets done, both in consumer and enterprise domains. However, the design patterns and architectures to build highly capable agents or multi-agent systems are still developing, and the understanding of the implication of various design choices and algorithms is still evolving. In this paper, we present our work on building a novel web agent, Agent-E \\footnote{Our code is available at \\url{https://github.com/EmergenceAI/Agent-E}}. Agent-E introduces numerous architectural improvements over prior state-of-the-art web agents such as hierarchical architecture, flexible DOM distillation and denoising method, and the concept of \\textit{change observation} to guide the agent towards more accurate performance. We first present the results of an evaluation of Agent-E on WebVoyager benchmark dataset and show that Agent-E beats other SOTA text and multi-modal web agents on this benchmark in most categories by 10-30\\%. We then synthesize our learnings from the development of Agent-E into general design principles for developing agentic systems. These include the use of domain-specific primitive skills, the importance of distillation and de-noising of environmental observations, the advantages of a hierarchical architecture, and the role of agentic self-improvement to enhance agent efficiency and efficacy as the agent gathers experience."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agent-E: From Autonomous Web Navigation to Foundational Design..."
+    ],
+    "twitter:description": [
+      "AI Agents are changing the way work gets done, both in consumer and enterprise domains. However, the design patterns and architectures to build highly capable agents or multi-agent systems are..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems"
+    ],
+    "citation_author": [
+      "Abuelsaad, Tamer",
+      "Akkil, Deepak",
+      "Dey, Prasenjit",
+      "Jagmohan, Ashish",
+      "Vempaty, Aditya",
+      "Kokku, Ravi"
+    ],
+    "citation_date": [
+      "2024/07/17"
+    ],
+    "citation_online_date": [
+      "2024/07/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.13032"
+    ],
+    "citation_arxiv_id": [
+      "2407.13032"
+    ],
+    "citation_abstract": [
+      "AI Agents are changing the way work gets done, both in consumer and enterprise domains. However, the design patterns and architectures to build highly capable agents or multi-agent systems are still developing, and the understanding of the implication of various design choices and algorithms is still evolving. In this paper, we present our work on building a novel web agent, Agent-E \\footnote{Our code is available at \\url{https://github.com/EmergenceAI/Agent-E}}. Agent-E introduces numerous architectural improvements over prior state-of-the-art web agents such as hierarchical architecture, flexible DOM distillation and denoising method, and the concept of \\textit{change observation} to guide the agent towards more accurate performance. We first present the results of an evaluation of Agent-E on WebVoyager benchmark dataset and show that Agent-E beats other SOTA text and multi-modal web agents on this benchmark in most categories by 10-30\\%. We then synthesize our learnings from the development of Agent-E into general design principles for developing agentic systems. These include the use of domain-specific primitive skills, the importance of distillation and de-noising of environmental observations, the advantages of a hierarchical architecture, and the role of agentic self-improvement to enhance agent efficiency and efficacy as the agent gathers experience."
+    ]
+  },
+  "html_sha256": "4ad271fcc728472e3988c50293fcfd6f142385fd386be2a365e4e025e337c048",
+  "evidence_html": "evidence/5b35b12879179ed2a17d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

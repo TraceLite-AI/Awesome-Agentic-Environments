@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2404.16045",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.16045",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.16045",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:03.164087+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.16045",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42798,
+  "title": "Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation",
+  "authors": [
+    "Ataei, Mohammadmehdi",
+    "Cheong, Hyunmin",
+    "Grandi, Daniele",
+    "Wang, Ye",
+    "Morris, Nigel",
+    "Tessier, Alexander"
+  ],
+  "first_author": "Ataei, Mohammadmehdi",
+  "year": 2024,
+  "source_date": "2024/04/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.16045",
+  "abstract": "Requirements elicitation, a critical, yet time-consuming and challenging step in product development, often fails to capture the full spectrum of user needs. This may lead to products that fall short of expectations. This paper introduces a novel framework that leverages Large Language Models (LLMs) to automate and enhance the requirements elicitation process. LLMs are used to generate a vast array of simulated users (LLM agents), enabling the exploration of a much broader range of user needs and unforeseen use cases. These agents engage in product experience scenarios, through explaining their actions, observations, and challenges. Subsequent agent interviews and analysis uncover valuable user needs, including latent ones. We validate our framework with three experiments. First, we explore different methodologies for diverse agent generation, discussing their advantages and shortcomings. We measure the diversity of identified user needs and demonstrate that context-aware agent generation leads to greater diversity. Second, we show how our framework effectively mimics empathic lead user interviews, identifying a greater number of latent needs than conventional human interviews. Third, we showcase that LLMs can be used to analyze interviews, capture needs, and classify them as latent or not. Our work highlights the potential of using LLM agents to accelerate early-stage product development, reduce costs, and increase innovation.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.16045: Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.16045v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Requirements elicitation, a critical, yet time-consuming and challenging step in product development, often fails to capture the full spectrum of user needs. This may lead to products that fall short of expectations. This paper introduces a novel framework that leverages Large Language Models (LLMs) to automate and enhance the requirements elicitation process. LLMs are used to generate a vast array of simulated users (LLM agents), enabling the exploration of a much broader range of user needs and unforeseen use cases. These agents engage in product experience scenarios, through explaining their actions, observations, and challenges. Subsequent agent interviews and analysis uncover valuable user needs, including latent ones. We validate our framework with three experiments. First, we explore different methodologies for diverse agent generation, discussing their advantages and shortcomings. We measure the diversity of identified user needs and demonstrate that context-aware agent generation leads to greater diversity. Second, we show how our framework effectively mimics empathic lead user interviews, identifying a greater number of latent needs than conventional human interviews. Third, we showcase that LLMs can be used to analyze interviews, capture needs, and classify them as latent or not. Our work highlights the potential of using LLM agents to accelerate early-stage product development, reduce costs, and increase innovation."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Elicitron: An LLM Agent-Based Simulation Framework for Design..."
+    ],
+    "twitter:description": [
+      "Requirements elicitation, a critical, yet time-consuming and challenging step in product development, often fails to capture the full spectrum of user needs. This may lead to products that fall..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation"
+    ],
+    "citation_author": [
+      "Ataei, Mohammadmehdi",
+      "Cheong, Hyunmin",
+      "Grandi, Daniele",
+      "Wang, Ye",
+      "Morris, Nigel",
+      "Tessier, Alexander"
+    ],
+    "citation_date": [
+      "2024/04/04"
+    ],
+    "citation_online_date": [
+      "2024/04/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.16045"
+    ],
+    "citation_arxiv_id": [
+      "2404.16045"
+    ],
+    "citation_abstract": [
+      "Requirements elicitation, a critical, yet time-consuming and challenging step in product development, often fails to capture the full spectrum of user needs. This may lead to products that fall short of expectations. This paper introduces a novel framework that leverages Large Language Models (LLMs) to automate and enhance the requirements elicitation process. LLMs are used to generate a vast array of simulated users (LLM agents), enabling the exploration of a much broader range of user needs and unforeseen use cases. These agents engage in product experience scenarios, through explaining their actions, observations, and challenges. Subsequent agent interviews and analysis uncover valuable user needs, including latent ones. We validate our framework with three experiments. First, we explore different methodologies for diverse agent generation, discussing their advantages and shortcomings. We measure the diversity of identified user needs and demonstrate that context-aware agent generation leads to greater diversity. Second, we show how our framework effectively mimics empathic lead user interviews, identifying a greater number of latent needs than conventional human interviews. Third, we showcase that LLMs can be used to analyze interviews, capture needs, and classify them as latent or not. Our work highlights the potential of using LLM agents to accelerate early-stage product development, reduce costs, and increase innovation."
+    ]
+  },
+  "html_sha256": "0c4f7dcd93014a70f7117a13af71a597b1ec4df1e742dbd8fd5d27c6aceeb020",
+  "evidence_html": "evidence/9f23f1846a7a2c4e2939.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2407.09811",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2407.09811",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2407.09811",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:23.958026+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2407.09811",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43969,
+  "title": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+  "authors": [
+    "Xiao, Yihang",
+    "Liu, Jinyi",
+    "Zheng, Yan",
+    "Xie, Xiaohan",
+    "Hao, Jianye",
+    "Li, Mingzhi",
+    "Wang, Ruitao",
+    "Ni, Fei",
+    "Li, Yuxiao",
+    "Luo, Jintian",
+    "Jiao, Shaoqing",
+    "Peng, Jiajie"
+  ],
+  "first_author": "Xiao, Yihang",
+  "year": 2024,
+  "source_date": "2024/07/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2407.09811",
+  "abstract": "Single-cell RNA sequencing (scRNA-seq) data analysis is crucial for biological research, as it enables the precise characterization of cellular heterogeneity. However, manual manipulation of various tools to achieve desired outcomes can be labor-intensive for researchers. To address this, we introduce CellAgent ( this http URL ), an LLM-driven multi-agent framework, specifically designed for the automatic processing and execution of scRNA-seq data analysis tasks, providing high-quality results with no human intervention. Firstly, to adapt general LLMs to the biological field, CellAgent constructs LLM-driven biological expert roles - planner, executor, and evaluator - each with specific responsibilities. Then, CellAgent introduces a hierarchical decision-making mechanism to coordinate these biological experts, effectively driving the planning and step-by-step execution of complex data analysis tasks. Furthermore, we propose a self-iterative optimization mechanism, enabling CellAgent to autonomously evaluate and optimize solutions, thereby guaranteeing output quality. We evaluate CellAgent on a comprehensive benchmark dataset encompassing dozens of tissues and hundreds of distinct cell types. Evaluation results consistently show that CellAgent effectively identifies the most suitable tools and hyperparameters for single-cell analysis tasks, achieving optimal performance. This automated framework dramatically reduces the workload for science data analyses, bringing us into the \"Agent for Science\" era.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2407.09811: CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2407.09811v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Single-cell RNA sequencing (scRNA-seq) data analysis is crucial for biological research, as it enables the precise characterization of cellular heterogeneity. However, manual manipulation of various tools to achieve desired outcomes can be labor-intensive for researchers. To address this, we introduce CellAgent (http://cell.agent4science.cn/), an LLM-driven multi-agent framework, specifically designed for the automatic processing and execution of scRNA-seq data analysis tasks, providing high-quality results with no human intervention. Firstly, to adapt general LLMs to the biological field, CellAgent constructs LLM-driven biological expert roles - planner, executor, and evaluator - each with specific responsibilities. Then, CellAgent introduces a hierarchical decision-making mechanism to coordinate these biological experts, effectively driving the planning and step-by-step execution of complex data analysis tasks. Furthermore, we propose a self-iterative optimization mechanism, enabling CellAgent to autonomously evaluate and optimize solutions, thereby guaranteeing output quality. We evaluate CellAgent on a comprehensive benchmark dataset encompassing dozens of tissues and hundreds of distinct cell types. Evaluation results consistently show that CellAgent effectively identifies the most suitable tools and hyperparameters for single-cell analysis tasks, achieving optimal performance. This automated framework dramatically reduces the workload for science data analyses, bringing us into the \"Agent for Science\" era."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CellAgent: An LLM-driven Multi-Agent Framework for Automated..."
+    ],
+    "twitter:description": [
+      "Single-cell RNA sequencing (scRNA-seq) data analysis is crucial for biological research, as it enables the precise characterization of cellular heterogeneity. However, manual manipulation of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis"
+    ],
+    "citation_author": [
+      "Xiao, Yihang",
+      "Liu, Jinyi",
+      "Zheng, Yan",
+      "Xie, Xiaohan",
+      "Hao, Jianye",
+      "Li, Mingzhi",
+      "Wang, Ruitao",
+      "Ni, Fei",
+      "Li, Yuxiao",
+      "Luo, Jintian",
+      "Jiao, Shaoqing",
+      "Peng, Jiajie"
+    ],
+    "citation_date": [
+      "2024/07/13"
+    ],
+    "citation_online_date": [
+      "2024/07/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2407.09811"
+    ],
+    "citation_arxiv_id": [
+      "2407.09811"
+    ],
+    "citation_abstract": [
+      "Single-cell RNA sequencing (scRNA-seq) data analysis is crucial for biological research, as it enables the precise characterization of cellular heterogeneity. However, manual manipulation of various tools to achieve desired outcomes can be labor-intensive for researchers. To address this, we introduce CellAgent (http://cell.agent4science.cn/), an LLM-driven multi-agent framework, specifically designed for the automatic processing and execution of scRNA-seq data analysis tasks, providing high-quality results with no human intervention. Firstly, to adapt general LLMs to the biological field, CellAgent constructs LLM-driven biological expert roles - planner, executor, and evaluator - each with specific responsibilities. Then, CellAgent introduces a hierarchical decision-making mechanism to coordinate these biological experts, effectively driving the planning and step-by-step execution of complex data analysis tasks. Furthermore, we propose a self-iterative optimization mechanism, enabling CellAgent to autonomously evaluate and optimize solutions, thereby guaranteeing output quality. We evaluate CellAgent on a comprehensive benchmark dataset encompassing dozens of tissues and hundreds of distinct cell types. Evaluation results consistently show that CellAgent effectively identifies the most suitable tools and hyperparameters for single-cell analysis tasks, achieving optimal performance. This automated framework dramatically reduces the workload for science data analyses, bringing us into the \"Agent for Science\" era."
+    ]
+  },
+  "html_sha256": "9147a34fd896f4d6fca2a785426080baf0ebc2bf834316fe02fa31fed92513d5",
+  "evidence_html": "evidence/c57f1529e0d194b347a2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

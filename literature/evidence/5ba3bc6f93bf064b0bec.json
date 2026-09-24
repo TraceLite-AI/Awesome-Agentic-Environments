@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2404.18021",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.18021",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.18021",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:25.852875+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.18021",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44870,
+  "title": "CRISPR-GPT for Agentic Automation of Gene-editing Experiments",
+  "authors": [
+    "Qu, Yuanhao",
+    "Huang, Kaixuan",
+    "Yin, Ming",
+    "Zhan, Kanghong",
+    "Liu, Dyllan",
+    "Yin, Di",
+    "Cousins, Henry C.",
+    "Johnson, William A.",
+    "Wang, Xiaotong",
+    "Shah, Mihir",
+    "Altman, Russ B.",
+    "Zhou, Denny",
+    "Wang, Mengdi",
+    "Cong, Le"
+  ],
+  "first_author": "Qu, Yuanhao",
+  "year": 2024,
+  "source_date": "2024/04/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.18021",
+  "abstract": "The introduction of genome engineering technology has transformed biomedical research, making it possible to make precise changes to genetic information. However, creating an efficient gene-editing system requires a deep understanding of CRISPR technology, and the complex experimental systems under investigation. While Large Language Models (LLMs) have shown promise in various tasks, they often lack specific knowledge and struggle to accurately solve biological design problems. In this work, we introduce CRISPR-GPT, an LLM agent augmented with domain knowledge and external tools to automate and enhance the design process of CRISPR-based gene-editing experiments. CRISPR-GPT leverages the reasoning ability of LLMs to facilitate the process of selecting CRISPR systems, designing guide RNAs, recommending cellular delivery methods, drafting protocols, and designing validation experiments to confirm editing outcomes. We showcase the potential of CRISPR-GPT for assisting non-expert researchers with gene-editing experiments from scratch and validate the agent's effectiveness in a real-world use case. Furthermore, we explore the ethical and regulatory considerations associated with automated gene-editing design, highlighting the need for responsible and transparent use of these tools. Our work aims to bridge the gap between beginner biological researchers and CRISPR genome engineering techniques, and demonstrate the potential of LLM agents in facilitating complex biological discovery tasks. The published version of this draft is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.18021: CRISPR-GPT for Agentic Automation of Gene-editing Experiments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CRISPR-GPT for Agentic Automation of Gene-editing Experiments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.18021v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The introduction of genome engineering technology has transformed biomedical research, making it possible to make precise changes to genetic information. However, creating an efficient gene-editing system requires a deep understanding of CRISPR technology, and the complex experimental systems under investigation. While Large Language Models (LLMs) have shown promise in various tasks, they often lack specific knowledge and struggle to accurately solve biological design problems. In this work, we introduce CRISPR-GPT, an LLM agent augmented with domain knowledge and external tools to automate and enhance the design process of CRISPR-based gene-editing experiments. CRISPR-GPT leverages the reasoning ability of LLMs to facilitate the process of selecting CRISPR systems, designing guide RNAs, recommending cellular delivery methods, drafting protocols, and designing validation experiments to confirm editing outcomes. We showcase the potential of CRISPR-GPT for assisting non-expert researchers with gene-editing experiments from scratch and validate the agent's effectiveness in a real-world use case. Furthermore, we explore the ethical and regulatory considerations associated with automated gene-editing design, highlighting the need for responsible and transparent use of these tools. Our work aims to bridge the gap between beginner biological researchers and CRISPR genome engineering techniques, and demonstrate the potential of LLM agents in facilitating complex biological discovery tasks. The published version of this draft is available at https://www.nature.com/articles/s41551-025-01463-z."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CRISPR-GPT for Agentic Automation of Gene-editing Experiments"
+    ],
+    "twitter:description": [
+      "The introduction of genome engineering technology has transformed biomedical research, making it possible to make precise changes to genetic information. However, creating an efficient..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CRISPR-GPT for Agentic Automation of Gene-editing Experiments"
+    ],
+    "citation_author": [
+      "Qu, Yuanhao",
+      "Huang, Kaixuan",
+      "Yin, Ming",
+      "Zhan, Kanghong",
+      "Liu, Dyllan",
+      "Yin, Di",
+      "Cousins, Henry C.",
+      "Johnson, William A.",
+      "Wang, Xiaotong",
+      "Shah, Mihir",
+      "Altman, Russ B.",
+      "Zhou, Denny",
+      "Wang, Mengdi",
+      "Cong, Le"
+    ],
+    "citation_date": [
+      "2024/04/27"
+    ],
+    "citation_online_date": [
+      "2025/08/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.18021"
+    ],
+    "citation_arxiv_id": [
+      "2404.18021"
+    ],
+    "citation_abstract": [
+      "The introduction of genome engineering technology has transformed biomedical research, making it possible to make precise changes to genetic information. However, creating an efficient gene-editing system requires a deep understanding of CRISPR technology, and the complex experimental systems under investigation. While Large Language Models (LLMs) have shown promise in various tasks, they often lack specific knowledge and struggle to accurately solve biological design problems. In this work, we introduce CRISPR-GPT, an LLM agent augmented with domain knowledge and external tools to automate and enhance the design process of CRISPR-based gene-editing experiments. CRISPR-GPT leverages the reasoning ability of LLMs to facilitate the process of selecting CRISPR systems, designing guide RNAs, recommending cellular delivery methods, drafting protocols, and designing validation experiments to confirm editing outcomes. We showcase the potential of CRISPR-GPT for assisting non-expert researchers with gene-editing experiments from scratch and validate the agent's effectiveness in a real-world use case. Furthermore, we explore the ethical and regulatory considerations associated with automated gene-editing design, highlighting the need for responsible and transparent use of these tools. Our work aims to bridge the gap between beginner biological researchers and CRISPR genome engineering techniques, and demonstrate the potential of LLM agents in facilitating complex biological discovery tasks. The published version of this draft is available at https://www.nature.com/articles/s41551-025-01463-z."
+    ]
+  },
+  "html_sha256": "2caf876e0c5eda1cda66a511d6d0a89ca5484a9a8c45fdb88fd97ffce418c8e7",
+  "evidence_html": "evidence/5ba3bc6f93bf064b0bec.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

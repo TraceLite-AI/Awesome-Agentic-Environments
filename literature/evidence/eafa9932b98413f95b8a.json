@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2307.15833",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.15833",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "Dialogue shaping",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.15833",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:52.512122+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.15833",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 39096,
+  "title": "Dialogue Shaping: Empowering Agents through NPC Interaction",
+  "authors": [
+    "Zhou, Wei",
+    "Peng, Xiangyu",
+    "Riedl, Mark"
+  ],
+  "first_author": "Zhou, Wei",
+  "year": 2023,
+  "source_date": "2023/07/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.15833",
+  "abstract": "One major challenge in reinforcement learning (RL) is the large amount of steps for the RL agent needs to converge in the training process and learn the optimal policy, especially in text-based game environments where the action space is extensive. However, non-player characters (NPCs) sometimes hold some key information about the game, which can potentially help to train RL agents faster. Thus, this paper explores how to interact and converse with NPC agents to get the key information using large language models (LLMs), as well as incorporate this information to speed up RL agent's training using knowledge graphs (KGs) and Story Shaping.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.15833: Dialogue Shaping: Empowering Agents through NPC Interaction"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Dialogue Shaping: Empowering Agents through NPC Interaction"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.15833v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "One major challenge in reinforcement learning (RL) is the large amount of steps for the RL agent needs to converge in the training process and learn the optimal policy, especially in text-based game environments where the action space is extensive. However, non-player characters (NPCs) sometimes hold some key information about the game, which can potentially help to train RL agents faster. Thus, this paper explores how to interact and converse with NPC agents to get the key information using large language models (LLMs), as well as incorporate this information to speed up RL agent's training using knowledge graphs (KGs) and Story Shaping."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Dialogue Shaping: Empowering Agents through NPC Interaction"
+    ],
+    "twitter:description": [
+      "One major challenge in reinforcement learning (RL) is the large amount of steps for the RL agent needs to converge in the training process and learn the optimal policy, especially in text-based..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Dialogue Shaping: Empowering Agents through NPC Interaction"
+    ],
+    "citation_author": [
+      "Zhou, Wei",
+      "Peng, Xiangyu",
+      "Riedl, Mark"
+    ],
+    "citation_date": [
+      "2023/07/28"
+    ],
+    "citation_online_date": [
+      "2023/07/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.15833"
+    ],
+    "citation_arxiv_id": [
+      "2307.15833"
+    ],
+    "citation_abstract": [
+      "One major challenge in reinforcement learning (RL) is the large amount of steps for the RL agent needs to converge in the training process and learn the optimal policy, especially in text-based game environments where the action space is extensive. However, non-player characters (NPCs) sometimes hold some key information about the game, which can potentially help to train RL agents faster. Thus, this paper explores how to interact and converse with NPC agents to get the key information using large language models (LLMs), as well as incorporate this information to speed up RL agent's training using knowledge graphs (KGs) and Story Shaping."
+    ]
+  },
+  "html_sha256": "5fe5bb39495450b2160176b1cbad6d853e5fb3ee0f77e9b0b8655019cd7dfb2f",
+  "evidence_html": "evidence/eafa9932b98413f95b8a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

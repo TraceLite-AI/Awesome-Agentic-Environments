@@ -1,0 +1,131 @@
+{
+  "url": "https://arxiv.org/abs/2306.03604",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2306.03604",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "LLM4RL",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2306.03604",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:51.212172+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2306.03604",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44337,
+  "title": "Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach",
+  "authors": [
+    "Hu, Bin",
+    "Zhao, Chenyang",
+    "Zhang, Pu",
+    "Zhou, Zihao",
+    "Yang, Yuanhang",
+    "Xu, Zenglin",
+    "Liu, Bin"
+  ],
+  "first_author": "Hu, Bin",
+  "year": 2023,
+  "source_date": "2023/06/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2306.03604",
+  "abstract": "Large language models (LLMs) encode a vast amount of world knowledge acquired from massive text datasets. Recent studies have demonstrated that LLMs can assist an embodied agent in solving complex sequential decision making tasks by providing high-level instructions. However, interactions with LLMs can be time-consuming. In many practical scenarios, it requires a significant amount of storage space that can only be deployed on remote cloud servers. Additionally, using commercial LLMs can be costly since they may charge based on usage frequency. In this paper, we explore how to enable intelligent cost-effective interactions between a down stream task oriented agent and an LLM. We find that this problem can be naturally formulated by a Markov decision process (MDP), and propose When2Ask, a reinforcement learning based approach that learns when it is necessary to query LLMs for high-level instructions to accomplish a target task. On one side, When2Ask discourages unnecessary redundant interactions, while on the other side, it enables the agent to identify and follow useful instructions from the LLM. This enables the agent to halt an ongoing plan and transition to a more suitable one based on new environmental observations. Experiments on MiniGrid and Habitat environments that entail planning sub-goals demonstrate that When2Ask learns to solve target tasks with only a few necessary interactions with the LLM, significantly reducing interaction costs in testing environments compared with baseline methods. Our code is available at: this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2306.03604: Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2306.03604v8"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) encode a vast amount of world knowledge acquired from massive text datasets. Recent studies have demonstrated that LLMs can assist an embodied agent in solving complex sequential decision making tasks by providing high-level instructions. However, interactions with LLMs can be time-consuming. In many practical scenarios, it requires a significant amount of storage space that can only be deployed on remote cloud servers. Additionally, using commercial LLMs can be costly since they may charge based on usage frequency. In this paper, we explore how to enable intelligent cost-effective interactions between a down stream task oriented agent and an LLM. We find that this problem can be naturally formulated by a Markov decision process (MDP), and propose When2Ask, a reinforcement learning based approach that learns when it is necessary to query LLMs for high-level instructions to accomplish a target task. On one side, When2Ask discourages unnecessary redundant interactions, while on the other side, it enables the agent to identify and follow useful instructions from the LLM. This enables the agent to halt an ongoing plan and transition to a more suitable one based on new environmental observations. Experiments on MiniGrid and Habitat environments that entail planning sub-goals demonstrate that When2Ask learns to solve target tasks with only a few necessary interactions with the LLM, significantly reducing interaction costs in testing environments compared with baseline methods. Our code is available at: https://github.com/ZJLAB-AMMI/LLM4RL."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Enabling Intelligent Interactions between an Agent and an LLM: A..."
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) encode a vast amount of world knowledge acquired from massive text datasets. Recent studies have demonstrated that LLMs can assist an embodied agent in solving complex..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach"
+    ],
+    "citation_author": [
+      "Hu, Bin",
+      "Zhao, Chenyang",
+      "Zhang, Pu",
+      "Zhou, Zihao",
+      "Yang, Yuanhang",
+      "Xu, Zenglin",
+      "Liu, Bin"
+    ],
+    "citation_date": [
+      "2023/06/06"
+    ],
+    "citation_online_date": [
+      "2024/06/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2306.03604"
+    ],
+    "citation_arxiv_id": [
+      "2306.03604"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) encode a vast amount of world knowledge acquired from massive text datasets. Recent studies have demonstrated that LLMs can assist an embodied agent in solving complex sequential decision making tasks by providing high-level instructions. However, interactions with LLMs can be time-consuming. In many practical scenarios, it requires a significant amount of storage space that can only be deployed on remote cloud servers. Additionally, using commercial LLMs can be costly since they may charge based on usage frequency. In this paper, we explore how to enable intelligent cost-effective interactions between a down stream task oriented agent and an LLM. We find that this problem can be naturally formulated by a Markov decision process (MDP), and propose When2Ask, a reinforcement learning based approach that learns when it is necessary to query LLMs for high-level instructions to accomplish a target task. On one side, When2Ask discourages unnecessary redundant interactions, while on the other side, it enables the agent to identify and follow useful instructions from the LLM. This enables the agent to halt an ongoing plan and transition to a more suitable one based on new environmental observations. Experiments on MiniGrid and Habitat environments that entail planning sub-goals demonstrate that When2Ask learns to solve target tasks with only a few necessary interactions with the LLM, significantly reducing interaction costs in testing environments compared with baseline methods. Our code is available at: https://github.com/ZJLAB-AMMI/LLM4RL."
+    ]
+  },
+  "html_sha256": "add9dccd506e184b0c1f39b795ba1395552287818d45d648e8b2cd3eaab0eb8d",
+  "evidence_html": "evidence/3e8e5d257860827c5723.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

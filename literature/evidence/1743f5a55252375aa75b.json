@@ -1,0 +1,272 @@
+{
+  "url": "https://arxiv.org/abs/2602.12670",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.12670",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "memory_and_context",
+      "title_hint": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.12670",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:40.929486+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.12670",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 52788,
+  "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+  "authors": [
+    "Li, Xiangyi",
+    "Liu, Yimin",
+    "Chen, Wenbo",
+    "You, Bingran",
+    "Di, Zonglin",
+    "He, Yifeng",
+    "Zheng, Shenghan",
+    "Choe, Kyoung Whan",
+    "Sun, Jiankai",
+    "Wang, Shuyi",
+    "Tao, Chujun",
+    "Li, Binxu",
+    "Zhao, Xuandong",
+    "Geng, Hejia",
+    "Wu, Xiaojun",
+    "Zhou, Junwei",
+    "Chen, Xiaokun",
+    "Xing, Hanwen",
+    "Li, Yubo",
+    "Zeng, Qunhong",
+    "Wang, Di",
+    "Wang, Yuanli",
+    "Chaim, Roey Ben",
+    "Jiang, Penghao",
+    "Shen, Haotian",
+    "Kong, Luyang",
+    "Liu, Xinyi",
+    "Wang, Runhui",
+    "Liu, Xuanqing",
+    "Li, Jiachen",
+    "Lan, Xin",
+    "Lin, Yueqian",
+    "Ye, Wengao",
+    "He, Junwei",
+    "Li, Songlin",
+    "Zhang, Yue",
+    "Gao, Yipeng",
+    "Li, Yijiang",
+    "Ma, Ze",
+    "Jing, Liqiang",
+    "Wang, Tianyu",
+    "Li, Kaixin",
+    "Xue, Yiqi",
+    "Lyu, Haoran",
+    "He, Yizhuo",
+    "Tian, Yuchen",
+    "Wu, Shutong",
+    "Wang, Bowei",
+    "Gao, Yixuan",
+    "Chen, Bo",
+    "Liu, Litong",
+    "Cheng, Sikai",
+    "Bao, Jiajun",
+    "Tong, Shuaicheng",
+    "Xu, Shuwen",
+    "Zhuo, Terry Yue",
+    "Ye, Tinghan",
+    "Qi, Qi",
+    "Li, Miao",
+    "Liao, Longtai",
+    "Tan, Zelin",
+    "Shi, Chang",
+    "Tang, Xilin",
+    "Tankasala, Srinath",
+    "Yuan, Boqin",
+    "Qian, Yaoyao",
+    "Tu, Jianhong",
+    "Wang, Chenguang",
+    "Sun, Yizhou",
+    "Wang, Wei",
+    "Taylor, Aaron",
+    "Yang, Ziyue",
+    "Guan, Changkun",
+    "Dong, Zhikang",
+    "Zhang, Xinyu",
+    "Dillmann, Steven",
+    "Lee, Han-chung",
+    "Song, Dawn"
+  ],
+  "first_author": "Li, Xiangyi",
+  "year": 2026,
+  "source_date": "2026/02/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.12670",
+  "abstract": "Agent Skills are structured packages of procedural knowledge that augment large language model (LLM) agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark whose current inventory contains 87 tasks across 8 domains paired with curated Skills and deterministic verifiers. Our latest aggregate evaluation runs the 87-task benchmark under matched no-Skills and curated-Skills conditions for 18 model-harness configurations. Curated Skills raise the average pass rate from 33.9% to 50.5% (+16.6 percentage points; 25.5% normalized gain), with configuration-level gains ranging from +4.1 to +25.7 pp. Focused Skills with at most three modules outperform larger or exhaustive bundles, and smaller models with Skills can match larger models without them. SkillsBench establishes paired evaluation as the foundation for rigorous measurement of Skill efficacy on agentic, expertise-heavy work.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.12670: SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.12670v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agent Skills are structured packages of procedural knowledge that augment large language model (LLM) agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark whose current inventory contains 87 tasks across 8 domains paired with curated Skills and deterministic verifiers. Our latest aggregate evaluation runs the 87-task benchmark under matched no-Skills and curated-Skills conditions for 18 model-harness configurations. Curated Skills raise the average pass rate from 33.9% to 50.5% (+16.6 percentage points; 25.5% normalized gain), with configuration-level gains ranging from +4.1 to +25.7 pp. Focused Skills with at most three modules outperform larger or exhaustive bundles, and smaller models with Skills can match larger models without them. SkillsBench establishes paired evaluation as the foundation for rigorous measurement of Skill efficacy on agentic, expertise-heavy work."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
+    ],
+    "twitter:description": [
+      "Agent Skills are structured packages of procedural knowledge that augment large language model (LLM) agents at inference time. Despite rapid adoption, there is no standard way to measure whether..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
+    ],
+    "citation_author": [
+      "Li, Xiangyi",
+      "Liu, Yimin",
+      "Chen, Wenbo",
+      "You, Bingran",
+      "Di, Zonglin",
+      "He, Yifeng",
+      "Zheng, Shenghan",
+      "Choe, Kyoung Whan",
+      "Sun, Jiankai",
+      "Wang, Shuyi",
+      "Tao, Chujun",
+      "Li, Binxu",
+      "Zhao, Xuandong",
+      "Geng, Hejia",
+      "Wu, Xiaojun",
+      "Zhou, Junwei",
+      "Chen, Xiaokun",
+      "Xing, Hanwen",
+      "Li, Yubo",
+      "Zeng, Qunhong",
+      "Wang, Di",
+      "Wang, Yuanli",
+      "Chaim, Roey Ben",
+      "Jiang, Penghao",
+      "Shen, Haotian",
+      "Kong, Luyang",
+      "Liu, Xinyi",
+      "Wang, Runhui",
+      "Liu, Xuanqing",
+      "Li, Jiachen",
+      "Lan, Xin",
+      "Lin, Yueqian",
+      "Ye, Wengao",
+      "He, Junwei",
+      "Li, Songlin",
+      "Zhang, Yue",
+      "Gao, Yipeng",
+      "Li, Yijiang",
+      "Ma, Ze",
+      "Jing, Liqiang",
+      "Wang, Tianyu",
+      "Li, Kaixin",
+      "Xue, Yiqi",
+      "Lyu, Haoran",
+      "He, Yizhuo",
+      "Tian, Yuchen",
+      "Wu, Shutong",
+      "Wang, Bowei",
+      "Gao, Yixuan",
+      "Chen, Bo",
+      "Liu, Litong",
+      "Cheng, Sikai",
+      "Bao, Jiajun",
+      "Tong, Shuaicheng",
+      "Xu, Shuwen",
+      "Zhuo, Terry Yue",
+      "Ye, Tinghan",
+      "Qi, Qi",
+      "Li, Miao",
+      "Liao, Longtai",
+      "Tan, Zelin",
+      "Shi, Chang",
+      "Tang, Xilin",
+      "Tankasala, Srinath",
+      "Yuan, Boqin",
+      "Qian, Yaoyao",
+      "Tu, Jianhong",
+      "Wang, Chenguang",
+      "Sun, Yizhou",
+      "Wang, Wei",
+      "Taylor, Aaron",
+      "Yang, Ziyue",
+      "Guan, Changkun",
+      "Dong, Zhikang",
+      "Zhang, Xinyu",
+      "Dillmann, Steven",
+      "Lee, Han-chung",
+      "Song, Dawn"
+    ],
+    "citation_date": [
+      "2026/02/13"
+    ],
+    "citation_online_date": [
+      "2026/06/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.12670"
+    ],
+    "citation_arxiv_id": [
+      "2602.12670"
+    ],
+    "citation_abstract": [
+      "Agent Skills are structured packages of procedural knowledge that augment large language model (LLM) agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark whose current inventory contains 87 tasks across 8 domains paired with curated Skills and deterministic verifiers. Our latest aggregate evaluation runs the 87-task benchmark under matched no-Skills and curated-Skills conditions for 18 model-harness configurations. Curated Skills raise the average pass rate from 33.9% to 50.5% (+16.6 percentage points; 25.5% normalized gain), with configuration-level gains ranging from +4.1 to +25.7 pp. Focused Skills with at most three modules outperform larger or exhaustive bundles, and smaller models with Skills can match larger models without them. SkillsBench establishes paired evaluation as the foundation for rigorous measurement of Skill efficacy on agentic, expertise-heavy work."
+    ]
+  },
+  "html_sha256": "72d970a824f9489cf28f87afbf6f62e22aea6f0e0cc18e4c1361cc89bdf445fd",
+  "evidence_html": "evidence/1743f5a55252375aa75b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

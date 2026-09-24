@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2412.03568",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.03568",
+      "discovery_url": "https://github.com/journee-live/awesome-world-models",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "The Matrix : Infinite-Horizon World Generation with Real-Time Moving Control",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.03568",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:50.532133+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.03568",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42185,
+  "title": "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control",
+  "authors": [
+    "Feng, Ruili",
+    "Zhang, Han",
+    "Yang, Zhantao",
+    "Xiao, Jie",
+    "Shu, Zhilei",
+    "Liu, Zhiheng",
+    "Zheng, Andy",
+    "Huang, Yukun",
+    "Liu, Yu",
+    "Zhang, Hongyang"
+  ],
+  "first_author": "Feng, Ruili",
+  "year": 2024,
+  "source_date": "2024/12/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2412.03568",
+  "abstract": "We present The Matrix, the first foundational realistic world simulator capable of generating continuous 720p high-fidelity real-scene video streams with real-time, responsive control in both first- and third-person perspectives, enabling immersive exploration of richly dynamic environments. Trained on limited supervised data from AAA games like Forza Horizon 5 and Cyberpunk 2077, complemented by large-scale unsupervised footage from real-world settings like Tokyo streets, The Matrix allows users to traverse diverse terrains -- deserts, grasslands, water bodies, and urban landscapes -- in continuous, uncut hour-long sequences. Operating at 16 FPS, the system supports real-time interactivity and demonstrates zero-shot generalization, translating virtual game environments to real-world contexts where collecting continuous movement data is often infeasible. For example, The Matrix can simulate a BMW X3 driving through an office setting--an environment present in neither gaming data nor real-world sources. This approach showcases the potential of AAA game data to advance robust world models, bridging the gap between simulations and real-world applications in scenarios with limited data.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.03568: The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.03568v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present The Matrix, the first foundational realistic world simulator capable of generating continuous 720p high-fidelity real-scene video streams with real-time, responsive control in both first- and third-person perspectives, enabling immersive exploration of richly dynamic environments. Trained on limited supervised data from AAA games like Forza Horizon 5 and Cyberpunk 2077, complemented by large-scale unsupervised footage from real-world settings like Tokyo streets, The Matrix allows users to traverse diverse terrains -- deserts, grasslands, water bodies, and urban landscapes -- in continuous, uncut hour-long sequences. Operating at 16 FPS, the system supports real-time interactivity and demonstrates zero-shot generalization, translating virtual game environments to real-world contexts where collecting continuous movement data is often infeasible. For example, The Matrix can simulate a BMW X3 driving through an office setting--an environment present in neither gaming data nor real-world sources. This approach showcases the potential of AAA game data to advance robust world models, bridging the gap between simulations and real-world applications in scenarios with limited data."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control"
+    ],
+    "twitter:description": [
+      "We present The Matrix, the first foundational realistic world simulator capable of generating continuous 720p high-fidelity real-scene video streams with real-time, responsive control in both..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control"
+    ],
+    "citation_author": [
+      "Feng, Ruili",
+      "Zhang, Han",
+      "Yang, Zhantao",
+      "Xiao, Jie",
+      "Shu, Zhilei",
+      "Liu, Zhiheng",
+      "Zheng, Andy",
+      "Huang, Yukun",
+      "Liu, Yu",
+      "Zhang, Hongyang"
+    ],
+    "citation_date": [
+      "2024/12/04"
+    ],
+    "citation_online_date": [
+      "2024/12/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.03568"
+    ],
+    "citation_arxiv_id": [
+      "2412.03568"
+    ],
+    "citation_abstract": [
+      "We present The Matrix, the first foundational realistic world simulator capable of generating continuous 720p high-fidelity real-scene video streams with real-time, responsive control in both first- and third-person perspectives, enabling immersive exploration of richly dynamic environments. Trained on limited supervised data from AAA games like Forza Horizon 5 and Cyberpunk 2077, complemented by large-scale unsupervised footage from real-world settings like Tokyo streets, The Matrix allows users to traverse diverse terrains -- deserts, grasslands, water bodies, and urban landscapes -- in continuous, uncut hour-long sequences. Operating at 16 FPS, the system supports real-time interactivity and demonstrates zero-shot generalization, translating virtual game environments to real-world contexts where collecting continuous movement data is often infeasible. For example, The Matrix can simulate a BMW X3 driving through an office setting--an environment present in neither gaming data nor real-world sources. This approach showcases the potential of AAA game data to advance robust world models, bridging the gap between simulations and real-world applications in scenarios with limited data."
+    ]
+  },
+  "html_sha256": "972df9eb6f30f1e30b1901e3e08cc34fad2fc67318b30f9bb6818bf29c6cc7e6",
+  "evidence_html": "evidence/66ad987b433e57e38253.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

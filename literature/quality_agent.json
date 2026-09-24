@@ -1,0 +1,2484 @@
+{
+  "audit_date_utc": "2026-09-24T06:06:15.020158+00:00",
+  "audit_scope": "240 candidates from candidates_agent.jsonl, using root-fetched original source landing-page titles and abstracts. Bibliographic/abstract-level relevance audit only; not full-text verification, not evidence that any paper controls environment factors.",
+  "method": "All 240 title/abstract availability and title hints screened; agent-role and framework sentences inspected across the library; full abstracts inspected for changed labels, short aliases, and scope-boundary papers. Cross-source normalized-title matching and fuzzy-title duplicate screen found no pair at >=0.85 similarity among current evidence involving these candidates.",
+  "counts": {
+    "candidates": 240,
+    "verified_metadata": 240,
+    "with_abstract": 240,
+    "hard_exclude": 0,
+    "confirmed_discovery_label_link_swaps": 2,
+    "lower_priority_background": 3,
+    "title_or_alias_normalizations": 20
+  },
+  "exclude_urls": [],
+  "hard_exclusions": [],
+  "confirmed_discovery_errors": [
+    {
+      "url": "https://arxiv.org/abs/2307.06135",
+      "verified_title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
+      "discovery_title_hint": "RoCo",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e764930e25c096cbf1a8.json",
+      "issue": "confirmed_discovery_label_link_swap",
+      "action": "retain_with_verified_title",
+      "reason": "发现目录hint为RoCo；原始arXiv标题及摘要均为SayPlan，摘要明确提出3D scene graph-based robotics planning。与2307.04738的hint构成互换。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.04738",
+      "verified_title": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
+      "discovery_title_hint": "Sayplan",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1f619d14046b0c20c06e.json",
+      "issue": "confirmed_discovery_label_link_swap",
+      "action": "retain_with_verified_title",
+      "reason": "发现目录hint为Sayplan；原始arXiv标题及摘要均为RoCo，摘要明确提出LLM multi-robot collaboration，并引入RoCoBench。与2307.06135的hint构成互换。"
+    }
+  ],
+  "use_verified_title_instead_of_discovery_hint": [
+    {
+      "url": "https://arxiv.org/abs/2402.16906",
+      "verified_title": "Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step",
+      "discovery_title_hint": "LDB: A Large Language Model Debugger via Verifying Runtime Execution Step by Step",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4c611f2850a70466102e.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.16823",
+      "verified_title": "Language Agents as Optimizable Graphs",
+      "discovery_title_hint": "GPTSwarm: Language Agents as Optimizable Graphs",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/43eefb5b22ee0e8f8798.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02170",
+      "verified_title": "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration",
+      "discovery_title_hint": "Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/85ccbfad9eb97c059fca.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.02172",
+      "verified_title": "CodeAgent: Autonomous Communicative Agents for Code Review",
+      "discovery_title_hint": "CodeAgent: Collaborative Agents for Software Engineering",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/56d052103f23f5d479c2.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.16218",
+      "verified_title": "CoverUp: Effective High Coverage Test Generation for Python",
+      "discovery_title_hint": "COVERUP: Coverage-Guided LLM-Based Test Generation",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7a6b9d16a91a6c804ade.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.05102",
+      "verified_title": "You Can REST Now: Automated REST API Documentation and Testing via LLM-Assisted Request Mutations",
+      "discovery_title_hint": "You Can REST Now: Automated Specification Inference and Black-Box Testing of RESTful APIs with Large Language Models",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0eaf8199f0f759979e39.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.10887",
+      "verified_title": "Grounded Language Agent for Product Search via Intelligent Web Interactions",
+      "discovery_title_hint": "Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7d75b927e34db23ec795.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.17140",
+      "verified_title": "AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents",
+      "discovery_title_hint": "Turn Every Application into an Agent: Towards Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ae6d778d24e1d79a1a21.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.02250",
+      "verified_title": "Scaling Agents for Computer Use",
+      "discovery_title_hint": "The Unreasonable Effectiveness of Scaling Agents for Computer Use",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/65e8135d890fc65e6849.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.16938",
+      "verified_title": "InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification",
+      "discovery_title_hint": "NovelSeek: When Agent Becomes the Scientist--Building Closed-Loop System from Hypothesis to Verification",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1ce1846d9fc1be30fee2.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.18864",
+      "verified_title": "Accelerating scientific discovery with Co-Scientist",
+      "discovery_title_hint": "Towards an AI co-scientist",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7166f089a529484eabf5.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.18021",
+      "verified_title": "CRISPR-GPT for Agentic Automation of Gene-editing Experiments",
+      "discovery_title_hint": "CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ba3bc6f93bf064b0bec.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.12993",
+      "verified_title": "ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining",
+      "discovery_title_hint": "An autonomous large language model agent for chemical literature data mining",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/709b5fd0b7f021f63025.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.07551",
+      "verified_title": "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+      "discovery_title_hint": "ChemAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b3eedf6c8e2013ed9cc0.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.04997",
+      "verified_title": "Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows",
+      "discovery_title_hint": "Foam-Agent: Towards Automated Intelligent CFD Workflows",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ac33cb171512ccdbf57.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.06412",
+      "verified_title": "StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations",
+      "discovery_title_hint": "StarWhisper: Agent-based observation assistant system to approach AI astrophysicist",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0f6058f4643b63ef96a9.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.06500",
+      "verified_title": "MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming",
+      "discovery_title_hint": "MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents. Yuan Li et al",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0a7d68aad624da30e32a.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.01444",
+      "verified_title": "Adapting LLM Agents with Universal Feedback in Communication",
+      "discovery_title_hint": "Adapting LLM Agents Through Communication. Kuan Wang et al",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/92f6150553d6aee7dba0.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.03604",
+      "verified_title": "Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach",
+      "discovery_title_hint": "LLM4RL",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/3e8e5d257860827c5723.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.07929",
+      "verified_title": "Large Language Models Are Semi-Parametric Reinforcement Learning Agents",
+      "discovery_title_hint": "REMEMBER",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/30e161510cb12c2e7588.json",
+      "action": "use_verified_title_count_arxiv_id_once",
+      "reason": "发现目录标题/缩写与当前原始页标题不同，但摘要仍与agent/harness主题相关；此处不把书目差异当作已核实的历史改题。"
+    }
+  ],
+  "lower_priority_background": [
+    {
+      "url": "https://arxiv.org/abs/2303.17651",
+      "verified_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "discovery_title_hint": "SELF-REFINE: Iterative Refinement with Self-Feedback",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ef9bdcc0ba68615d547.json",
+      "action": "background_or_lower_priority_for_500_cap",
+      "reason": "Self-Refine摘要讲单个LLM自行生成、反馈、迭代精炼，未声称外部执行环境、工具调用或环境因素干预。可作为harness/refinement背景，不列作环境因素直接证据。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.02419",
+      "verified_title": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems",
+      "discovery_title_hint": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems. Lingjiao Chen et al",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5dc66913a033e0d173c6.json",
+      "action": "background_or_lower_priority_for_500_cap",
+      "reason": "摘要研究Vote/Filter-Vote的多次LM调用与响应聚合，不是交互agent实验。广义compound-system/harness背景相关，但不宜标为多代理环境研究。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.02726",
+      "verified_title": "Large Language Models for Automated Open-domain Scientific Hypotheses Discovery",
+      "discovery_title_hint": "Large language models for automated open-domain scientific hypotheses discovery",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4fca3c52f9af746c82aa.json",
+      "action": "background_or_lower_priority_for_500_cap",
+      "reason": "摘要是从原始web语料进行科学假说生成及多模块反馈系统，未给出外部工具/执行环境交互。保留为scientific workflow背景合理，若按500篇限定核心agent/environment可优先让位。"
+    }
+  ],
+  "reclassification_suggestions": [
+    {
+      "url": "https://arxiv.org/abs/2410.07706",
+      "verified_title": "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories",
+      "discovery_title_hint": "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a6fec7991aaaeb32e29c.json",
+      "suggested_topic": "agent_training_and_trajectories",
+      "reason": "AgentBank摘要覆盖16任务和五种agent技能，并非仅coding。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.05434",
+      "verified_title": "Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback",
+      "discovery_title_hint": "Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/998f234b00abf4ce462c.json",
+      "suggested_topic": "agent_training_with_feedback",
+      "reason": "LEAP摘要覆盖ALFWorld、WebShop、Intercode Bash，并非仅coding。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.07929",
+      "verified_title": "Large Language Models Are Semi-Parametric Reinforcement Learning Agents",
+      "discovery_title_hint": "REMEMBER",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/30e161510cb12c2e7588.json",
+      "suggested_topic": "agent_memory_and_rl",
+      "reason": "原始摘要的方法名为REMEMBERER；是长期经验记忆与RLEM agent framework，不宜仅归具身。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.15833",
+      "verified_title": "Dialogue Shaping: Empowering Agents through NPC Interaction",
+      "discovery_title_hint": "Dialogue shaping",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/eafa9932b98413f95b8a.json",
+      "suggested_topic": "text_game_agents",
+      "reason": "摘要明确为text-based game中NPC对话与RL训练，不是物理或3D具身操作。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.07228",
+      "verified_title": "ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving",
+      "discovery_title_hint": "ChemToolAgent: The impact of tools on language agents for chemistry problem solving",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ead8871977e9ba7e5ad0.json",
+      "suggested_topic": "scientific_agent_tool_evaluation",
+      "reason": "ChemToolAgent摘要重点是检验化学工具对多种任务的收益，属于agent工具评估，仍相关。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.19898",
+      "verified_title": "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills",
+      "discovery_title_hint": "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/84a9f6d63aef50d97b92.json",
+      "suggested_topic": "agent_training_data_synthesis",
+      "reason": "BugPilot摘要主要是由SWE agents生成复杂bug和训练数据；相关但不是新的通用solver agent。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.04748",
+      "verified_title": "Fuzz4All: Universal Fuzzing with Large Language Models",
+      "discovery_title_hint": "Fuzz4All: Universal Fuzzing with Large Language Models",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6fe1e34621d06c920996.json",
+      "suggested_topic": "llm_execution_feedback_and_testing",
+      "reason": "Fuzz4All主要为迭代LLM驱动的fuzzing loop；可按execution harness / testing背景纳入，不宜直接称自主agent。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.00563",
+      "verified_title": "KernelGPT: Enhanced Kernel Fuzzing via Large Language Models",
+      "discovery_title_hint": "KernelGPT: Enhanced Kernel Fuzzing via Large Language Models",
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9b9f98a1ea7bebf61fa8.json",
+      "suggested_topic": "llm_execution_feedback_and_testing",
+      "reason": "KernelGPT主要为syscall规格生成及基于validation feedback的调试修复；可按execution harness / testing纳入。"
+    }
+  ],
+  "do_not_merge_by_short_method_name_or_family": [
+    {
+      "urls": [
+        "https://arxiv.org/abs/2401.07339",
+        "https://arxiv.org/abs/2402.02172"
+      ],
+      "reason": "均叫CodeAgent但原始标题、任务和摘要不同：前者repo-level code generation，后者code review。不要按方法短名合并。"
+    },
+    {
+      "urls": [
+        "https://arxiv.org/abs/2506.07551",
+        "https://arxiv.org/abs/2501.06590",
+        "https://arxiv.org/abs/2411.07228"
+      ],
+      "reason": "目录存在ChemAgent近名；原始页分别为CheMatAgent、ChemAgent、ChemToolAgent，摘要分别是工具学习、动态记忆、工具评估。不是改题重复。"
+    },
+    {
+      "urls": [
+        "https://arxiv.org/abs/2501.06327",
+        "https://arxiv.org/abs/2504.19338"
+      ],
+      "reason": "OpenFOAMGPT与2.0拥有不同arXiv ID；摘要分别为RAG simulator agent与多代理端到端workflow，不能仅因同系列合并。"
+    },
+    {
+      "urls": [
+        "https://arxiv.org/abs/2506.21805",
+        "https://arxiv.org/abs/2608.16897"
+      ],
+      "reason": "CitySim与CityReal为同系列，后者摘要新增textual adapters及与人群统计对齐；仅凭相似摘要不能认定重复。当前各算独立候选，全文阶段再判工作继承。"
+    }
+  ],
+  "general_recommendation": "在environment / harness / agent的宽口径书目库内，未发现必须剔除的明显离题或指向无关论文的URL。若只能选500篇，3篇纯/主要背景候选可优先让位。所有条目都不能仅因被收录就宣称研究了哪些环境因素改变正确解。",
+  "per_candidate_checks": [
+    {
+      "url": "https://arxiv.org/abs/2405.03256",
+      "title": "MARE: Multi-Agents Collaboration Framework for Requirements Engineering",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/71f2a7d990464f59fc9d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.16045",
+      "title": "Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9f23f1846a7a2c4e2939.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.14209",
+      "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c2e9094f64ff9ae64e4c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.07706",
+      "title": "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a6fec7991aaaeb32e29c.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.02089",
+      "title": "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6fba0a1554b9319a26ed.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.05434",
+      "title": "Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/998f234b00abf4ce462c.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.01242",
+      "title": "RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c90957f95bd2fc31d0cc.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.10737",
+      "title": "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d4f968c716d0690ebb0a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.03910",
+      "title": "CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1f2f4679d8f443e26945.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.16741",
+      "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/3d3e70ad1f68114ebb0d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.11403",
+      "title": "MapCoder: Multi-Agent Code Generation for Competitive Problem Solving",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/779028c54ae6ef06e752.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.02183",
+      "title": "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d4013576ff8ee6057803.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.08299",
+      "title": "AutoDev: Automated AI-Driven Development",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/616dbdde22b990975bb0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.01030",
+      "title": "Executable Code Actions Elicit Better LLM Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1b716912396dc989a260.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.16906",
+      "title": "Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4c611f2850a70466102e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.16823",
+      "title": "Language Agents as Optimizable Graphs",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/43eefb5b22ee0e8f8798.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.07339",
+      "title": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/519e47bc91959eea7962.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.08500",
+      "title": "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f3008c1248fff44a59a2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.13010",
+      "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a7a51d5ba473af9d3323.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02170",
+      "title": "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/85ccbfad9eb97c059fca.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.06830",
+      "title": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2b52484ddea7ced686e9.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.04406",
+      "title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/907e72292eae9f698110.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.12499",
+      "title": "CodePlan: Repository-level Coding using LLMs and Planning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/adf633d8a5d7d39fda7d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.08155",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ec7ede4a4fcf606e52b9.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.04030",
+      "title": "Gentopia: A Collaborative Platform for Tool-Augmented LLMs",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ce33c9707edc8296125f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.01285",
+      "title": "Flows: Building Blocks of Reasoning and Collaborating AI",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/923da9fa1de51ca948e0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.05128",
+      "title": "Teaching Large Language Models to Self-Debug",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1043fe46babe6002ed6a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17760",
+      "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7be8bd14c63d736d2269.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.11366",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1df60a1d4afe4bf031c0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17651",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ef9bdcc0ba68615d547.json",
+      "recommendation": "background_lower_priority",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.09014",
+      "title": "ART: Automatic multi-step reasoning and tool-use for large language models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4bfe83a7aaa2ae06d5f8.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.02172",
+      "title": "CodeAgent: Autonomous Communicative Agents for Code Review",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/56d052103f23f5d479c2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.10375",
+      "title": "Mokav: Execution-driven Differential Testing with LLMs",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/fe4595d4529819491049.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.16218",
+      "title": "CoverUp: Effective High Coverage Test Generation for Python",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7a6b9d16a91a6c804ade.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.08144",
+      "title": "LLM Agents can Autonomously Exploit One-day Vulnerabilities",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6c39d224a4a74a567de6.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.05102",
+      "title": "You Can REST Now: Automated REST API Documentation and Testing via LLM-Assisted Request Mutations",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0eaf8199f0f759979e39.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.00563",
+      "title": "KernelGPT: Enhanced Kernel Fuzzing via Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9b9f98a1ea7bebf61fa8.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.06782",
+      "title": "PentestGPT: An LLM-empowered Automatic Penetration Testing Tool",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6885f39ebfb369d0e995.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.04748",
+      "title": "Fuzz4All: Universal Fuzzing with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6fe1e34621d06c920996.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.16362",
+      "title": "AgentFL: Scaling LLM-based Fault Localization to Project-Level Context",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/13c65af51f09b5d70835.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.16340",
+      "title": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7be5bf57d8784bbb00ad.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.17134",
+      "title": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f0088be4ea628604d6bf.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.11912",
+      "title": "AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/483cec829b6a84782e13.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.17288",
+      "title": "AutoAgents: A Framework for Automatic Agent Generation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/af61a114dc0f6c7e072f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.10848",
+      "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4e34af50a1c5db89805b.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.00352",
+      "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a269c568b98611fd74e3.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.07924",
+      "title": "ChatDev: Communicative Agents for Software Development",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/37fe1a89badb24eba1e7.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.00622",
+      "title": "Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/695b82ff12ce2354fcd5.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.14684",
+      "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0a3f5bcc769ee650985e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.00899",
+      "title": "MarsCode Agent: AI-native Automated Bug Fixing",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0d718486c92a42ff0477.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.02232",
+      "title": "SpecRover: Code Intent Extraction via LLMs",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a53a125594f991984f50.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.01489",
+      "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/320d81ab86d682b5ef6c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.11638",
+      "title": "MASAI: Modular Architecture for Software-engineering AI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d2b0bf5cfbf20bf23aec.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.15793",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/54b1ddaabf07edcee470.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.17927",
+      "title": "MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a800c05f2c54371dfca2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.14066",
+      "title": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/cad2c0cea715a071d52b.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.25430",
+      "title": "CODESKILL: Learning Self-Evolving Skills for Coding Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/55534ac65d7b8670e742.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24212",
+      "title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/76a77e17cba41bdc13be.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.16529",
+      "title": "Scaling Test-Time Compute for Agentic Coding",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/109b55e74f4c359b0ec2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.02084",
+      "title": "Closing the Loop: Universal Repository Representation with RPG-Encoder",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9359d97485c20a3c0c86.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.01426",
+      "title": "SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7dbe935f703d3afd9747.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.18552",
+      "title": "Toward Training Superintelligent Software Agents through Self-Play SWE-RL",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2ea2194ddb644be11b22.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.10398",
+      "title": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/bee25135f9178038f872.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.16004",
+      "title": "InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a658384cae89eb0df9ec.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.13646",
+      "title": "Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/76f20b41f7aa14c477c1.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.03690",
+      "title": "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/23b7d51d69ffff0821a6.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.01047",
+      "title": "HAFixAgent: History-Aware Program Repair Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/840914614472367c08c2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.23761",
+      "title": "TDFlow: Agentic Workflows for Test Driven Development",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b1d6b83cda39402451cd.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.19898",
+      "title": "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/84a9f6d63aef50d97b92.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.16059",
+      "title": "SIADAFIX: issue description response for adaptive program repair",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6180f84c00d34f29ce9e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.03217",
+      "title": "Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/07450359475d3e894654.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01003",
+      "title": "Improving Code Localization with Repository Memory",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f68fb11c73f4cf81970b.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.25140",
+      "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/24293fd5820f45915606.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.23045",
+      "title": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1f3ba3bf2b65a9cb4ef1.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.03012",
+      "title": "Tool-integrated Reinforcement Learning for Repo Deep Search",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f56d041afbbc8940ae72.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.03501",
+      "title": "Training Long-Context, Multi-Turn Software Engineering Agents with Reinforcement Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c0c2d7b0539a173e2af9.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.02085",
+      "title": "SE-Agent: Self-Evolution Trajectory Optimization in Multi-Step Reasoning with LLM-Based Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6c0ba31b9b3190747d87.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.23370",
+      "title": "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7c9e5cd8c09768773b6e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.02387",
+      "title": "CWM: An Open-Weights LLM for Research on Code Generation with World Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/aca82306a4e952d0c0d7.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26186",
+      "title": "SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/13d7b10bb79c841f2236.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.04454",
+      "title": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ff7bc10aae2fcaa028b0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.17465",
+      "title": "ShowUI: One Vision-Language-Action Model for GUI Visual Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e278f4a3db2fc7c570f4.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.23218",
+      "title": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1e6b7bb6f8e5bb2ba5e1.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.00820",
+      "title": "AutoGLM: Autonomous Foundation Agents for GUIs",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9a00b3a121080fdb9489.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.05243",
+      "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a362ff79677bf7d78991.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.04346",
+      "title": "MobileFlow: A Multimodal LLM For Mobile GUI Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/585721c91d5abfeb1e6f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.02713",
+      "title": "Android in the Zoo: Chain-of-Action-Thought for GUI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d9a8c0698c56156188cd.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.00516",
+      "title": "Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/bb7bb2b7e9554a598bd2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.10887",
+      "title": "Grounded Language Agent for Product Search via Intelligent Web Interactions",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7d75b927e34db23ec795.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.03648",
+      "title": "AutoWebGLM: A Large Language Model-based Web Navigating Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1e77ab667abe2114f9f7.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.20309",
+      "title": "Large Language Models Can Self-Improve At Web Agent Tasks",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/61be8d6f4bc233fc7404.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.10935",
+      "title": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/28810d17edd006d743e9.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.08914",
+      "title": "CogAgent: A Visual Language Model for GUI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ba207976f68fdc95f93.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.12856",
+      "title": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/abd662cb969d2b5fb5bd.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.01268",
+      "title": "Ponder & Press: Advancing Visual GUI Agent towards General Computer Control",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f28eb48d108ee4e9802c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.06559",
+      "title": "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/aa437a60391e844373ea.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.19609",
+      "title": "OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ee4774af9328cf68cb60.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.18963",
+      "title": "OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6585d22e9248f0bd42ef.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.18603",
+      "title": "AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c6f397bfeab96087bca4.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.13825",
+      "title": "AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/eeae174119fc959c48ce.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.08164",
+      "title": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ab6a14cb642377795db7.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.17140",
+      "title": "AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ae6d778d24e1d79a1a21.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.07429",
+      "title": "Agent Workflow Memory",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/de7d86492ba558830d1d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.15978",
+      "title": "WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/00cdfd142beaabb9bc12.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.00203",
+      "title": "OmniParser for Pure Vision Based GUI Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9ffa843409554b05d5f3.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.13032",
+      "title": "Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5b35b12879179ed2a17d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.03913",
+      "title": "MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ff98a28f80004665f175.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.01476",
+      "title": "Tree Search for Language Model Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/847891e9bcaa24f4dba8.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.01014",
+      "title": "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ca4cc2cee98c0df666fc.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.16971",
+      "title": "AIOS: LLM Agent Operating System",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8fb8de91d2c52b1e647e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.03186",
+      "title": "Cradle: Empowering Foundation Agents Towards General Computer Control",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e432c248b35e33995002.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.07456",
+      "title": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/fb418138a2dc431b082c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.07945",
+      "title": "ScreenAgent: A Vision Language Model-driven Computer Control Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c2d15ab64f344f260b86.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.07939",
+      "title": "UFO: A UI-Focused Agent for Windows OS Interaction",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/768b770dbaf61df7b34b.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.16158",
+      "title": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/325ffb9bbaa8fb1d1997.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.13919",
+      "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0d747cb0fabf1ef045af.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.01614",
+      "title": "GPT-4V(ision) is a Generalist Web Agent, if Grounded",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0217df00de30dd99e888.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.13771",
+      "title": "AppAgent: Multimodal Agents as Smartphone Users",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c0faa48fdba2e37ddcc2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.15272",
+      "title": "AutoDroid: LLM-powered Task Automation in Android",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0dd34d2d7793b1047e95.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.07863",
+      "title": "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1b37124c4e89e8bdb90c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12326",
+      "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f800a6ceccdd1752c6e1.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.02544",
+      "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9ee6e2192cd8cbfc6abe.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.09123",
+      "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/a1649a73ae4d7e88b738.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.09082",
+      "title": "UI-Venus-1.5 Technical Report",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ca0344e8dd593e354de4.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.16855",
+      "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c93e83f3e5559abbe980.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.15876",
+      "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9d0d578a5b2aba17ba70.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.21620",
+      "title": "UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5860b9b1138fc8f6a336.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.15937",
+      "title": "Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4caeac8fa1259d2eac15.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.14239",
+      "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/084def83a08ed28f78fd.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.17589",
+      "title": "PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1ca40c2e305fb5614994.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.04575",
+      "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0bdb5258efee57e7eb22.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.15144",
+      "title": "Mobile-Agent-v3: Fundamental Agents for GUI Automation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b63310cfed7accf6f1c7.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.22648",
+      "title": "WebDancer: Towards Autonomous Information Seeking Agency",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/319a659f5acdc53e5493.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.00906",
+      "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c4af656167de0a7a1e1e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.02250",
+      "title": "Scaling Agents for Computer Use",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/65e8135d890fc65e6849.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.16938",
+      "title": "InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1ce1846d9fc1be30fee2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.02726",
+      "title": "Large Language Models for Automated Open-domain Scientific Hypotheses Discovery",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4fca3c52f9af746c82aa.json",
+      "recommendation": "background_lower_priority",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.18102",
+      "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/912487422b162c9627d6.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.18864",
+      "title": "Accelerating scientific discovery with Co-Scientist",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/7166f089a529484eabf5.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.06292",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/395ebe20f9b0a821950a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.08063",
+      "title": "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/35d06eec863ddf898da5.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.17452",
+      "title": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/af64eddeb65c5b2cac46.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.02004",
+      "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/beb10fa0555c963ad957.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.07738",
+      "title": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/eb455a56bdd7b56299fc.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.04227",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6fff3dd2bdbd95139ef3.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.13131",
+      "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0551ab86adc726a490fb.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.15047",
+      "title": "PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/54d4ab842f5880ff48bf.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.16205",
+      "title": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c690f9b176c9937101e0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.09811",
+      "title": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c57f1529e0d194b347a2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.12391",
+      "title": "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ddccc6c38364c0469020.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.21035",
+      "title": "GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2e5abc9fa4a3d5e2e60a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.18021",
+      "title": "CRISPR-GPT for Agentic Automation of Gene-editing Experiments",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ba3bc6f93bf064b0bec.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.06314",
+      "title": "BioAgents: Democratizing Bioinformatics Analysis with Multi-Agent Systems",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2206f0d1b9af3181b823.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.17631",
+      "title": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ecb7bbebfb8792d63845.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.10970",
+      "title": "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e605f6d64e9b7f94e111.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.13400",
+      "title": "Robin: A multi-agent system for automating scientific discovery",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/179b1ce737cf1a43c0e2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.15692",
+      "title": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/de38bdb3babeb0926173.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.13959",
+      "title": "LIDDIA: Language-based Intelligent Drug Discovery Agent",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8f1852bb36daad4e4229.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.12993",
+      "title": "ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/709b5fd0b7f021f63025.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.07551",
+      "title": "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b3eedf6c8e2013ed9cc0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.07228",
+      "title": "ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ead8871977e9ba7e5ad0.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.06590",
+      "title": "ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/05736ad3e8d86227e565.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.10776",
+      "title": "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b5998eed3b905cf7ccfd.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.06363",
+      "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/bc4a7d61e281b649bd86.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.10385",
+      "title": "Autonomous Microscopy Experiments through Large Language Model Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/38b6bbd91a26263cedba.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.04997",
+      "title": "Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5ac33cb171512ccdbf57.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.13163",
+      "title": "LLMatDesign: Autonomous Materials Discovery with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8c0c2a91068d2d5dd170.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.00135",
+      "title": "HoneyComb: A Flexible LLM-Based Agent System for Materials Science",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2bfcd5a6a6d7654371c8.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.03963",
+      "title": "dZiner: Rational Inverse Design of Materials with AI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d23b9bfdb7ca127f25fa.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.10022",
+      "title": "AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b5640b4dba68fce60847.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.01392",
+      "title": "LLMSat: A Large Language Model-Based Goal-Oriented Agent for Autonomous Space Exploration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/57090364d113106bc78d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.17255",
+      "title": "Agentic Artificial Intelligence for Multistage Physics Experiments at a Large-Scale User Facility Particle Accelerator",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/efc04b68789868be9a58.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.06412",
+      "title": "StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0f6058f4643b63ef96a9.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.03424",
+      "title": "The AI Cosmologist I: An Agentic System for Automated Data Analysis",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e084553cf628f01e8fbc.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.06327",
+      "title": "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/214cf794fc3cd3f2227a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19338",
+      "title": "OpenFOAMGPT 2.0: end-to-end, trustworthy automation for computational fluid dynamics",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/bdba03c965b3783fb91c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.07978",
+      "title": "Agents for self-driving laboratories applied to quantum computing",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/54de2a89cd3c40f12079.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.04268",
+      "title": "ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/cfdaf380a1f5cd0e19ad.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.05376",
+      "title": "ChemCrow: Augmenting large-language models with chemistry tools",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ed8621f3ca35e857a4ba.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.05332",
+      "title": "Emergent autonomous scientific research capabilities of large language models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2e4f03f37d5d51fbde07.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.01691",
+      "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/38ad622810c54c27967f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2207.05608",
+      "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6e48551f8ddd757f598d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.07207",
+      "title": "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/69e013c3893c834def84.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.12050",
+      "title": "Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ca163ec886a40a665a45.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.00763",
+      "title": "Collaborating with language models for embodied reasoning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/3d7f0a3529ddc8695566.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.01560",
+      "title": "Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2843bebd596e957ec89d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.10626",
+      "title": "Language Models Meet World Models: Embodied Experiences Enhance Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4d06383c68516f7deaf6.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.05658",
+      "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/b04eb203e6b0a4d4534e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.02412",
+      "title": "Plan, Eliminate, and Track -- Language Models are Good Teachers for Embodied Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/c05fe3bc1be506679376.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.16291",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8136d37a5eaa2d2f7c22.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.17144",
+      "title": "Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8bb84360b7a34f43f73c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.03604",
+      "title": "Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/3e8e5d257860827c5723.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.07929",
+      "title": "Large Language Models Are Semi-Parametric Reinforcement Learning Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/30e161510cb12c2e7588.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.15833",
+      "title": "Dialogue Shaping: Empowering Agents through NPC Interaction",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/eafa9932b98413f95b8a.json",
+      "recommendation": "retain_relabel_topic",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.01848",
+      "title": "Embodied Task Planning with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/93ccad64571300ed2dce.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.09668",
+      "title": "Towards A Unified Agent with Foundation Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f8d2a13591fd7335806a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.06135",
+      "title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e764930e25c096cbf1a8.json",
+      "recommendation": "retain_correct_discovery_label",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.04738",
+      "title": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1f619d14046b0c20c06e.json",
+      "recommendation": "retain_correct_discovery_label",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.11339",
+      "title": "ProAgent: Building Proactive Cooperative Agents with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/3687116a118e2520973c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.09971",
+      "title": "MindAgent: Emergent Gaming Interaction",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/9d797528c5c2a948cac7.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.12871",
+      "title": "An Embodied Generalist Agent in 3D World",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f2c0f145c51fa60c2208.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.05997",
+      "title": "JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ad4e346a905c8029ca9e.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.20151",
+      "title": "Multi-Agent Consensus Seeking via Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1f6769a0c6a1efd04bb2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.07937",
+      "title": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/daedbf0096c0f407f474.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.15943",
+      "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/f1128451874adf52ea03.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.02485",
+      "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/073b6a7af3de74085c80.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.02419",
+      "title": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5dc66913a033e0d173c6.json",
+      "recommendation": "background_lower_priority",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.18272",
+      "title": "Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/bdccb1b122d02031bce2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.15538",
+      "title": "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5234dab0afe239a2394d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.03664",
+      "title": "Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/47ee3df258cb789f16a6.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02003",
+      "title": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e7485fd6a73b8f256a75.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.10634",
+      "title": "OpenAgents: An Open Platform for Language Agents in the Wild",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/79f5ae0792e3f5f6f888.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.06500",
+      "title": "MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0a7d68aad624da30e32a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.07870",
+      "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e852e9ce617c4bc0fa0f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01658",
+      "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/538e882ad9473d68e78f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.08529",
+      "title": "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/6dcc722cea43fec948ca.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.13884",
+      "title": "Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d820de664c7c3bd86fdc.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.01444",
+      "title": "Adapting LLM Agents with Universal Feedback in Communication",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/92f6150553d6aee7dba0.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.06187",
+      "title": "Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/21a3eae5a62c90089741.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.05300",
+      "title": "Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1957317d79fc8fb231b8.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.19118",
+      "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8e94725877ffa4f566d2.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.08166",
+      "title": "MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/0830ddd508f4782807b8.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.07201",
+      "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/2864889299657e470772.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14325",
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/992190a4815d67ed6308.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.01454",
+      "title": "D-Bot: Database Diagnosis System using Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/4c4d8c4c821bd7edbf1a.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16897",
+      "title": "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/09944e80c678bd096215.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.21805",
+      "title": "CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/d52e20c4ceda4c3d8e9c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02172",
+      "title": "Lyfe Agents: Generative agents for low-cost real-time social interactions",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/aac07c20468069f5f04d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.14984",
+      "title": "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/bd8f43c6ce9ab88cfc4d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.02552",
+      "title": "User Behavior Simulation with Large Language Model based Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/1bac8623b7faf9c97f0f.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.03442",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/efc9ff30e0690f221d43.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.03220",
+      "title": "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5b70f72cfcdfbedc3ece.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.18940",
+      "title": "Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/085e8ddba894b446fc6d.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.10701",
+      "title": "Theory of Mind for Multi-Agent Collaboration via Large Language Models",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/aaa67c4ce023140035e1.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.08067",
+      "title": "GameGPT: Multi-agent Collaborative Framework for Game Development",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/12ee33bd18138ced26b5.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.01320",
+      "title": "Avalon's Game of Thoughts: Battle Against Deception through Recursive Contemplation",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/e06a390dbe83e798d058.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.13657",
+      "title": "Why Do Multi-Agent LLM Systems Fail?",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/203f8bedb4cfe6c0809c.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.05707",
+      "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/8d598ea5c41125008703.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.20733",
+      "title": "Thought Communication in Multiagent Collaboration",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/5f91d35838c9df34ba40.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.13007",
+      "title": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+      "verification_status": "verified_metadata",
+      "has_abstract": true,
+      "evidence_file": "/Users/conglin/Downloads/环境综述/文献库500/evidence/ef43d07452d0224b0e61.json",
+      "recommendation": "retain",
+      "scope_basis": "title and abstract describe an agent method/application, interaction, tool or execution-feedback pipeline, or agent-system scaffolding; no full-text causal-factor claim is inferred"
+    }
+  ]
+}

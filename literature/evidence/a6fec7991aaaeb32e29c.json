@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2410.07706",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.07706",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.07706",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:03.164552+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.07706",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41593,
+  "title": "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories",
+  "authors": [
+    "Song, Yifan",
+    "Xiong, Weimin",
+    "Zhao, Xiutian",
+    "Zhu, Dawei",
+    "Wu, Wenhao",
+    "Wang, Ke",
+    "Li, Cheng",
+    "Peng, Wei",
+    "Li, Sujian"
+  ],
+  "first_author": "Song, Yifan",
+  "year": 2024,
+  "source_date": "2024/10/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.07706",
+  "abstract": "Fine-tuning on agent-environment interaction trajectory data holds significant promise for surfacing generalized agent capabilities in open-source large language models (LLMs). In this work, we introduce AgentBank, by far the largest trajectory tuning data collection featuring more than 50k diverse high-quality interaction trajectories which comprises 16 tasks covering five distinct agent skill dimensions. Leveraging a novel annotation pipeline, we are able to scale the annotated trajectories and generate a trajectory dataset with minimized difficulty bias. Furthermore, we fine-tune LLMs on AgentBank to get a series of agent models, Samoyed. Our comparative experiments demonstrate the effectiveness of scaling the interaction trajectory data to acquire generalized agent capabilities. Additional studies also reveal some key observations regarding trajectory tuning and agent skill generalization.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.07706: AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.07706v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Fine-tuning on agent-environment interaction trajectory data holds significant promise for surfacing generalized agent capabilities in open-source large language models (LLMs). In this work, we introduce AgentBank, by far the largest trajectory tuning data collection featuring more than 50k diverse high-quality interaction trajectories which comprises 16 tasks covering five distinct agent skill dimensions. Leveraging a novel annotation pipeline, we are able to scale the annotated trajectories and generate a trajectory dataset with minimized difficulty bias. Furthermore, we fine-tune LLMs on AgentBank to get a series of agent models, Samoyed. Our comparative experiments demonstrate the effectiveness of scaling the interaction trajectory data to acquire generalized agent capabilities. Additional studies also reveal some key observations regarding trajectory tuning and agent skill generalization."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on..."
+    ],
+    "twitter:description": [
+      "Fine-tuning on agent-environment interaction trajectory data holds significant promise for surfacing generalized agent capabilities in open-source large language models (LLMs). In this work, we..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories"
+    ],
+    "citation_author": [
+      "Song, Yifan",
+      "Xiong, Weimin",
+      "Zhao, Xiutian",
+      "Zhu, Dawei",
+      "Wu, Wenhao",
+      "Wang, Ke",
+      "Li, Cheng",
+      "Peng, Wei",
+      "Li, Sujian"
+    ],
+    "citation_date": [
+      "2024/10/10"
+    ],
+    "citation_online_date": [
+      "2024/10/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.07706"
+    ],
+    "citation_arxiv_id": [
+      "2410.07706"
+    ],
+    "citation_abstract": [
+      "Fine-tuning on agent-environment interaction trajectory data holds significant promise for surfacing generalized agent capabilities in open-source large language models (LLMs). In this work, we introduce AgentBank, by far the largest trajectory tuning data collection featuring more than 50k diverse high-quality interaction trajectories which comprises 16 tasks covering five distinct agent skill dimensions. Leveraging a novel annotation pipeline, we are able to scale the annotated trajectories and generate a trajectory dataset with minimized difficulty bias. Furthermore, we fine-tune LLMs on AgentBank to get a series of agent models, Samoyed. Our comparative experiments demonstrate the effectiveness of scaling the interaction trajectory data to acquire generalized agent capabilities. Additional studies also reveal some key observations regarding trajectory tuning and agent skill generalization."
+    ]
+  },
+  "html_sha256": "6abd7569e48818e75c827380dfb6e1266dbe67ae198a9be5776223fa43f17b65",
+  "evidence_html": "evidence/a6fec7991aaaeb32e29c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

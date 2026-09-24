@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2508.03341",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.03341",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "What Deserves Memory: Adaptive Memory Distillation for LLM Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.03341",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:07.595603+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.03341",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41283,
+  "title": "What Deserves Memory: Adaptive Memory Distillation for LLM Agents",
+  "authors": [
+    "Ma, Wenquan",
+    "Nan, Jiayan",
+    "Wu, Wenlong",
+    "Chen, Yize"
+  ],
+  "first_author": "Ma, Wenquan",
+  "year": 2025,
+  "source_date": "2025/08/05",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.03341",
+  "abstract": "Memory systems for LLM agents struggle to determine what information deserves retention. Existing approaches rely on predefined heuristics such as importance scores, emotional tags, or factual templates, encoding designer intuition rather than learning from the data itself. Inspired by cognitive ideas, we propose NEMORI, an adaptive memory distillation framework that casts the assessment of experience's future utility as a matter of predictability. Specifically, NEMORI comprises two cascading modules: Episodic Memory Integration transforms raw interactions into coherent narratives, and Semantic Knowledge Distillation extracts insights via prediction error. Centering on distillation, the framework remains agnostic to downstream management. Extensive experiments confirm that NEMORI achieves strong performance, efficiency, and storage reduction. Our work suggests that observing the intrinsic properties of interaction sequences offers a viable, data-driven alternative to heuristic-based memory design. Code: this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.03341: What Deserves Memory: Adaptive Memory Distillation for LLM Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "What Deserves Memory: Adaptive Memory Distillation for LLM Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.03341v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Memory systems for LLM agents struggle to determine what information deserves retention. Existing approaches rely on predefined heuristics such as importance scores, emotional tags, or factual templates, encoding designer intuition rather than learning from the data itself. Inspired by cognitive ideas, we propose NEMORI, an adaptive memory distillation framework that casts the assessment of experience's future utility as a matter of predictability. Specifically, NEMORI comprises two cascading modules: Episodic Memory Integration transforms raw interactions into coherent narratives, and Semantic Knowledge Distillation extracts insights via prediction error. Centering on distillation, the framework remains agnostic to downstream management. Extensive experiments confirm that NEMORI achieves strong performance, efficiency, and storage reduction. Our work suggests that observing the intrinsic properties of interaction sequences offers a viable, data-driven alternative to heuristic-based memory design. Code: https://github.com/nemori-ai/nemori."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "What Deserves Memory: Adaptive Memory Distillation for LLM Agents"
+    ],
+    "twitter:description": [
+      "Memory systems for LLM agents struggle to determine what information deserves retention. Existing approaches rely on predefined heuristics such as importance scores, emotional tags, or factual..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "What Deserves Memory: Adaptive Memory Distillation for LLM Agents"
+    ],
+    "citation_author": [
+      "Ma, Wenquan",
+      "Nan, Jiayan",
+      "Wu, Wenlong",
+      "Chen, Yize"
+    ],
+    "citation_date": [
+      "2025/08/05"
+    ],
+    "citation_online_date": [
+      "2026/04/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.03341"
+    ],
+    "citation_arxiv_id": [
+      "2508.03341"
+    ],
+    "citation_abstract": [
+      "Memory systems for LLM agents struggle to determine what information deserves retention. Existing approaches rely on predefined heuristics such as importance scores, emotional tags, or factual templates, encoding designer intuition rather than learning from the data itself. Inspired by cognitive ideas, we propose NEMORI, an adaptive memory distillation framework that casts the assessment of experience's future utility as a matter of predictability. Specifically, NEMORI comprises two cascading modules: Episodic Memory Integration transforms raw interactions into coherent narratives, and Semantic Knowledge Distillation extracts insights via prediction error. Centering on distillation, the framework remains agnostic to downstream management. Extensive experiments confirm that NEMORI achieves strong performance, efficiency, and storage reduction. Our work suggests that observing the intrinsic properties of interaction sequences offers a viable, data-driven alternative to heuristic-based memory design. Code: https://github.com/nemori-ai/nemori."
+    ]
+  },
+  "html_sha256": "94fe8722cb343c2e30a75acc54276e89ec3b6b0844107e4a3a6c83825a29bb3d",
+  "evidence_html": "evidence/2b23882688709b7f8664.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

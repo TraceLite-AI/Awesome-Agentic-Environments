@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2503.16416",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.16416",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "Survey on Evaluation of LLM-based Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.16416",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:38.482866+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.16416",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41520,
+  "title": "Survey on Evaluation of LLM-based Agents",
+  "authors": [
+    "Yehudai, Asaf",
+    "Eden, Lilach",
+    "Li, Alan",
+    "Uziel, Guy",
+    "Zhao, Yilun",
+    "Bar-Haim, Roy",
+    "Cohan, Arman",
+    "Shmueli-Scheuer, Michal"
+  ],
+  "first_author": "Yehudai, Asaf",
+  "year": 2025,
+  "source_date": "2025/03/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.16416",
+  "abstract": "LLM-based agents represent a paradigm shift in AI, enabling autonomous systems to plan, reason, and use tools while interacting with dynamic environments. This paper provides the first comprehensive survey of evaluation methods for these increasingly capable agents. We analyze the field of agent evaluation across five perspectives: (1) Core LLM capabilities needed for agentic workflows, like planning, and tool use; (2) Application-specific benchmarks such as web and SWE agents; (3) Evaluation of generalist agents; (4) Analysis of agent benchmarks' core dimensions; and (5) Evaluation frameworks and tools for agent developers. Our analysis reveals current trends, including a shift toward more realistic, challenging evaluations with continuously updated benchmarks. We also identify critical gaps that future research must address, particularly in assessing cost-efficiency, safety, and robustness, and in developing fine-grained, scalable evaluation methods.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.16416: Survey on Evaluation of LLM-based Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Survey on Evaluation of LLM-based Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.16416v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "LLM-based agents represent a paradigm shift in AI, enabling autonomous systems to plan, reason, and use tools while interacting with dynamic environments. This paper provides the first comprehensive survey of evaluation methods for these increasingly capable agents. We analyze the field of agent evaluation across five perspectives: (1) Core LLM capabilities needed for agentic workflows, like planning, and tool use; (2) Application-specific benchmarks such as web and SWE agents; (3) Evaluation of generalist agents; (4) Analysis of agent benchmarks' core dimensions; and (5) Evaluation frameworks and tools for agent developers. Our analysis reveals current trends, including a shift toward more realistic, challenging evaluations with continuously updated benchmarks. We also identify critical gaps that future research must address, particularly in assessing cost-efficiency, safety, and robustness, and in developing fine-grained, scalable evaluation methods."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Survey on Evaluation of LLM-based Agents"
+    ],
+    "twitter:description": [
+      "LLM-based agents represent a paradigm shift in AI, enabling autonomous systems to plan, reason, and use tools while interacting with dynamic environments. This paper provides the first..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Survey on Evaluation of LLM-based Agents"
+    ],
+    "citation_author": [
+      "Yehudai, Asaf",
+      "Eden, Lilach",
+      "Li, Alan",
+      "Uziel, Guy",
+      "Zhao, Yilun",
+      "Bar-Haim, Roy",
+      "Cohan, Arman",
+      "Shmueli-Scheuer, Michal"
+    ],
+    "citation_date": [
+      "2025/03/20"
+    ],
+    "citation_online_date": [
+      "2026/04/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.16416"
+    ],
+    "citation_arxiv_id": [
+      "2503.16416"
+    ],
+    "citation_abstract": [
+      "LLM-based agents represent a paradigm shift in AI, enabling autonomous systems to plan, reason, and use tools while interacting with dynamic environments. This paper provides the first comprehensive survey of evaluation methods for these increasingly capable agents. We analyze the field of agent evaluation across five perspectives: (1) Core LLM capabilities needed for agentic workflows, like planning, and tool use; (2) Application-specific benchmarks such as web and SWE agents; (3) Evaluation of generalist agents; (4) Analysis of agent benchmarks' core dimensions; and (5) Evaluation frameworks and tools for agent developers. Our analysis reveals current trends, including a shift toward more realistic, challenging evaluations with continuously updated benchmarks. We also identify critical gaps that future research must address, particularly in assessing cost-efficiency, safety, and robustness, and in developing fine-grained, scalable evaluation methods."
+    ]
+  },
+  "html_sha256": "95c57041f44e7760950aac2d1955fb31f23c04012d06bdc5414fa0a5d775dcbb",
+  "evidence_html": "evidence/c98da6eef5bb6d4c80a7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

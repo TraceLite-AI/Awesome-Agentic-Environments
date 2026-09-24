@@ -1,0 +1,172 @@
+{
+  "url": "https://arxiv.org/abs/2412.06412",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.06412",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "StarWhisper: Agent-based observation assistant system to approach AI astrophysicist",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.06412",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:39.485434+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.06412",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 47506,
+  "title": "StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations",
+  "authors": [
+    "Wang, Cunshi",
+    "Zhang, Yu",
+    "Li, Yuyang",
+    "Hu, Xinjie",
+    "Mao, Yiming",
+    "Chen, Xunhao",
+    "Du, Pengliang",
+    "Wang, Rui",
+    "Wu, Ying",
+    "Yang, Hang",
+    "Li, Yansong",
+    "Wang, Beichuan",
+    "Mu, Haiyang",
+    "Wang, Zheng",
+    "Tian, Jianfeng",
+    "Ge, Liang",
+    "Mao, Yongna",
+    "Li, Shengming",
+    "Lu, Xiaomeng",
+    "Zou, Jinhang",
+    "Huang, Yang",
+    "Sun, Ningchen",
+    "Zheng, Jie",
+    "He, Min",
+    "Bai, Yu",
+    "Jin, Junjie",
+    "Wu, Hong",
+    "Liu, Jifeng"
+  ],
+  "first_author": "Wang, Cunshi",
+  "year": 2024,
+  "source_date": "2024/12/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2412.06412",
+  "abstract": "The exponential growth of large-scale telescope arrays has boosted time-domain astronomy development but introduced operational bottlenecks, including labor-intensive observation planning, data processing, and real-time decision-making. Here we present the StarWhisper Telescope system, an AI agent framework automating end-to-end astronomical observations for surveys like the Nearby Galaxy Supernovae Survey. By integrating large language models with specialized function calls and modular workflows, StarWhisper Telescope autonomously generates site-specific observation lists, executes real-time image analysis via pipelines, and dynamically triggers follow-up proposals upon transient detection. The system reduces human intervention through automated observation planning, telescope controlling and data processing, while enabling seamless collaboration between amateur and professional astronomers. Deployed across Nearby Galaxy Supernovae Survey's network of 10 amateur telescopes, the StarWhisper Telescope has detected transients with promising response times relative to existing surveys. Furthermore, StarWhisper Telescope's scalable agent architecture provides a blueprint for future facilities like the Global Open Transient Telescope Array, where AI-driven autonomy will be critical for managing 60 telescopes.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.06412: StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.06412v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The exponential growth of large-scale telescope arrays has boosted time-domain astronomy development but introduced operational bottlenecks, including labor-intensive observation planning, data processing, and real-time decision-making. Here we present the StarWhisper Telescope system, an AI agent framework automating end-to-end astronomical observations for surveys like the Nearby Galaxy Supernovae Survey. By integrating large language models with specialized function calls and modular workflows, StarWhisper Telescope autonomously generates site-specific observation lists, executes real-time image analysis via pipelines, and dynamically triggers follow-up proposals upon transient detection. The system reduces human intervention through automated observation planning, telescope controlling and data processing, while enabling seamless collaboration between amateur and professional astronomers. Deployed across Nearby Galaxy Supernovae Survey's network of 10 amateur telescopes, the StarWhisper Telescope has detected transients with promising response times relative to existing surveys. Furthermore, StarWhisper Telescope's scalable agent architecture provides a blueprint for future facilities like the Global Open Transient Telescope Array, where AI-driven autonomy will be critical for managing 60 telescopes."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "StarWhisper Telescope: An AI framework for automating end-to-end..."
+    ],
+    "twitter:description": [
+      "The exponential growth of large-scale telescope arrays has boosted time-domain astronomy development but introduced operational bottlenecks, including labor-intensive observation planning, data..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations"
+    ],
+    "citation_author": [
+      "Wang, Cunshi",
+      "Zhang, Yu",
+      "Li, Yuyang",
+      "Hu, Xinjie",
+      "Mao, Yiming",
+      "Chen, Xunhao",
+      "Du, Pengliang",
+      "Wang, Rui",
+      "Wu, Ying",
+      "Yang, Hang",
+      "Li, Yansong",
+      "Wang, Beichuan",
+      "Mu, Haiyang",
+      "Wang, Zheng",
+      "Tian, Jianfeng",
+      "Ge, Liang",
+      "Mao, Yongna",
+      "Li, Shengming",
+      "Lu, Xiaomeng",
+      "Zou, Jinhang",
+      "Huang, Yang",
+      "Sun, Ningchen",
+      "Zheng, Jie",
+      "He, Min",
+      "Bai, Yu",
+      "Jin, Junjie",
+      "Wu, Hong",
+      "Liu, Jifeng"
+    ],
+    "citation_date": [
+      "2024/12/09"
+    ],
+    "citation_online_date": [
+      "2025/10/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.06412"
+    ],
+    "citation_arxiv_id": [
+      "2412.06412"
+    ],
+    "citation_abstract": [
+      "The exponential growth of large-scale telescope arrays has boosted time-domain astronomy development but introduced operational bottlenecks, including labor-intensive observation planning, data processing, and real-time decision-making. Here we present the StarWhisper Telescope system, an AI agent framework automating end-to-end astronomical observations for surveys like the Nearby Galaxy Supernovae Survey. By integrating large language models with specialized function calls and modular workflows, StarWhisper Telescope autonomously generates site-specific observation lists, executes real-time image analysis via pipelines, and dynamically triggers follow-up proposals upon transient detection. The system reduces human intervention through automated observation planning, telescope controlling and data processing, while enabling seamless collaboration between amateur and professional astronomers. Deployed across Nearby Galaxy Supernovae Survey's network of 10 amateur telescopes, the StarWhisper Telescope has detected transients with promising response times relative to existing surveys. Furthermore, StarWhisper Telescope's scalable agent architecture provides a blueprint for future facilities like the Global Open Transient Telescope Array, where AI-driven autonomy will be critical for managing 60 telescopes."
+    ]
+  },
+  "html_sha256": "b2e73d678bb80c9c404902b2efa228361775fea07fb748dfcf065334a70e53a3",
+  "evidence_html": "evidence/0f6058f4643b63ef96a9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

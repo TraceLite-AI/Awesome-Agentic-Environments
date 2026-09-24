@@ -1,0 +1,171 @@
+{
+  "url": "https://arxiv.org/abs/2602.09082",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.09082",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "UI-Venus-1.5 Technical Report",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.09082",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:08.285948+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.09082",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46176,
+  "title": "UI-Venus-1.5 Technical Report",
+  "authors": [
+    "Venus Team",
+    "Gao, Changlong",
+    "Gu, Zhangxuan",
+    "Liu, Yulin",
+    "Qiu, Xinyu",
+    "Shen, Shuheng",
+    "Wen, Yue",
+    "Xia, Tianyu",
+    "Xu, Zhenyu",
+    "Zeng, Zhengwen",
+    "Zhou, Beitong",
+    "Zhou, Xingran",
+    "Chen, Weizhi",
+    "Dai, Sunhao",
+    "Dou, Jingya",
+    "Gong, Yichen",
+    "Guo, Yuan",
+    "Guo, Zhenlin",
+    "Li, Feng",
+    "Li, Qian",
+    "Lin, Jinzhen",
+    "Zhou, Yuqi",
+    "Zhu, Linchao",
+    "Chen, Liang",
+    "Guo, Zhenyu",
+    "Meng, Changhua",
+    "Wang, Weiqiang"
+  ],
+  "first_author": "Venus Team",
+  "year": 2026,
+  "source_date": "2026/02/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.09082",
+  "abstract": "GUI agents have emerged as a powerful paradigm for automating interactions in digital environments, yet achieving both broad generality and consistently strong task performance remains challenging. In this report, we present UI-Venus-1.5, a unified, end-to-end GUI Agent designed for robust real-world applications. The proposed model family comprises two dense variants (2B and 8B) and one mixture-of-experts variant (30B-A3B) to meet various downstream application scenarios. Compared to our previous version, UI-Venus-1.5 introduces three key technical advances: (1) a comprehensive Mid-Training stage leveraging 10 billion tokens across 30+ datasets to establish foundational GUI semantics; (2) Online Reinforcement Learning with full-trajectory rollouts, aligning training objectives with long-horizon, dynamic navigation in large-scale environments; and (3) a single unified GUI Agent constructed via Model Merging, which synthesizes domain-specific models (grounding, web, and mobile) into one cohesive checkpoint. Extensive evaluations demonstrate that UI-Venus-1.5 establishes new state-of-the-art performance on benchmarks such as ScreenSpot-Pro (69.6%), VenusBench-GD (75.0%), and AndroidWorld (77.6%), significantly outperforming previous strong baselines. In addition, UI-Venus-1.5 demonstrates robust navigation capabilities across a variety of Chinese mobile apps, effectively executing user instructions in real-world scenarios. Code: this https URL Model: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.09082: UI-Venus-1.5 Technical Report"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "UI-Venus-1.5 Technical Report"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.09082v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "GUI agents have emerged as a powerful paradigm for automating interactions in digital environments, yet achieving both broad generality and consistently strong task performance remains challenging. In this report, we present UI-Venus-1.5, a unified, end-to-end GUI Agent designed for robust real-world applications. The proposed model family comprises two dense variants (2B and 8B) and one mixture-of-experts variant (30B-A3B) to meet various downstream application scenarios. Compared to our previous version, UI-Venus-1.5 introduces three key technical advances: (1) a comprehensive Mid-Training stage leveraging 10 billion tokens across 30+ datasets to establish foundational GUI semantics; (2) Online Reinforcement Learning with full-trajectory rollouts, aligning training objectives with long-horizon, dynamic navigation in large-scale environments; and (3) a single unified GUI Agent constructed via Model Merging, which synthesizes domain-specific models (grounding, web, and mobile) into one cohesive checkpoint. Extensive evaluations demonstrate that UI-Venus-1.5 establishes new state-of-the-art performance on benchmarks such as ScreenSpot-Pro (69.6%), VenusBench-GD (75.0%), and AndroidWorld (77.6%), significantly outperforming previous strong baselines. In addition, UI-Venus-1.5 demonstrates robust navigation capabilities across a variety of Chinese mobile apps, effectively executing user instructions in real-world scenarios. Code: https://github.com/inclusionAI/UI-Venus; Model: https://huggingface.co/collections/inclusionAI/ui-venus"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "UI-Venus-1.5 Technical Report"
+    ],
+    "twitter:description": [
+      "GUI agents have emerged as a powerful paradigm for automating interactions in digital environments, yet achieving both broad generality and consistently strong task performance remains..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "UI-Venus-1.5 Technical Report"
+    ],
+    "citation_author": [
+      "Venus Team",
+      "Gao, Changlong",
+      "Gu, Zhangxuan",
+      "Liu, Yulin",
+      "Qiu, Xinyu",
+      "Shen, Shuheng",
+      "Wen, Yue",
+      "Xia, Tianyu",
+      "Xu, Zhenyu",
+      "Zeng, Zhengwen",
+      "Zhou, Beitong",
+      "Zhou, Xingran",
+      "Chen, Weizhi",
+      "Dai, Sunhao",
+      "Dou, Jingya",
+      "Gong, Yichen",
+      "Guo, Yuan",
+      "Guo, Zhenlin",
+      "Li, Feng",
+      "Li, Qian",
+      "Lin, Jinzhen",
+      "Zhou, Yuqi",
+      "Zhu, Linchao",
+      "Chen, Liang",
+      "Guo, Zhenyu",
+      "Meng, Changhua",
+      "Wang, Weiqiang"
+    ],
+    "citation_date": [
+      "2026/02/09"
+    ],
+    "citation_online_date": [
+      "2026/02/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.09082"
+    ],
+    "citation_arxiv_id": [
+      "2602.09082"
+    ],
+    "citation_abstract": [
+      "GUI agents have emerged as a powerful paradigm for automating interactions in digital environments, yet achieving both broad generality and consistently strong task performance remains challenging. In this report, we present UI-Venus-1.5, a unified, end-to-end GUI Agent designed for robust real-world applications. The proposed model family comprises two dense variants (2B and 8B) and one mixture-of-experts variant (30B-A3B) to meet various downstream application scenarios. Compared to our previous version, UI-Venus-1.5 introduces three key technical advances: (1) a comprehensive Mid-Training stage leveraging 10 billion tokens across 30+ datasets to establish foundational GUI semantics; (2) Online Reinforcement Learning with full-trajectory rollouts, aligning training objectives with long-horizon, dynamic navigation in large-scale environments; and (3) a single unified GUI Agent constructed via Model Merging, which synthesizes domain-specific models (grounding, web, and mobile) into one cohesive checkpoint. Extensive evaluations demonstrate that UI-Venus-1.5 establishes new state-of-the-art performance on benchmarks such as ScreenSpot-Pro (69.6%), VenusBench-GD (75.0%), and AndroidWorld (77.6%), significantly outperforming previous strong baselines. In addition, UI-Venus-1.5 demonstrates robust navigation capabilities across a variety of Chinese mobile apps, effectively executing user instructions in real-world scenarios. Code: https://github.com/inclusionAI/UI-Venus; Model: https://huggingface.co/collections/inclusionAI/ui-venus"
+    ]
+  },
+  "html_sha256": "8c06465e8f1e1497f3486211cdd10561521897870fe7c0ddf295ae849a04f1b4",
+  "evidence_html": "evidence/ca0344e8dd593e354de4.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

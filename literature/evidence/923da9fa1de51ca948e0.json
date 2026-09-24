@@ -1,0 +1,139 @@
+{
+  "url": "https://arxiv.org/abs/2308.01285",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.01285",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Flows: Building Blocks of Reasoning and Collaborating AI",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.01285",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:13.040290+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.01285",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43703,
+  "title": "Flows: Building Blocks of Reasoning and Collaborating AI",
+  "authors": [
+    "Josifoski, Martin",
+    "Klein, Lars",
+    "Peyrard, Maxime",
+    "Baldwin, Nicolas",
+    "Li, Yifei",
+    "Geng, Saibo",
+    "Schnitzler, Julian Paul",
+    "Yao, Yuxing",
+    "Wei, Jiheng",
+    "Paul, Debjit",
+    "West, Robert"
+  ],
+  "first_author": "Josifoski, Martin",
+  "year": 2023,
+  "source_date": "2023/08/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.01285",
+  "abstract": "Recent advances in artificial intelligence (AI) have produced highly capable and controllable systems. This creates unprecedented opportunities for structured reasoning as well as collaboration among multiple AI systems and humans. To fully realize this potential, it is essential to develop a principled way of designing and studying such structured interactions. For this purpose, we introduce the conceptual framework Flows. Flows are self-contained building blocks of computation, with an isolated state, communicating through a standardized message-based interface. This modular design simplifies the process of creating Flows by allowing them to be recursively composed into arbitrarily nested interactions and is inherently concurrency-friendly. Crucially, any interaction can be implemented using this framework, including prior work on AI-AI and human-AI interactions, prompt engineering schemes, and tool augmentation. We demonstrate the potential of Flows on competitive coding, a challenging task on which even GPT-4 struggles. Our results suggest that structured reasoning and collaboration substantially improve generalization, with AI-only Flows adding +21 and human-AI Flows adding +54 absolute points in terms of solve rate. To support rapid and rigorous research, we introduce the aiFlows library embodying Flows. The aiFlows library is available at this https URL . Data and Flows for reproducing our experiments are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.01285: Flows: Building Blocks of Reasoning and Collaborating AI"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Flows: Building Blocks of Reasoning and Collaborating AI"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.01285v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in artificial intelligence (AI) have produced highly capable and controllable systems. This creates unprecedented opportunities for structured reasoning as well as collaboration among multiple AI systems and humans. To fully realize this potential, it is essential to develop a principled way of designing and studying such structured interactions. For this purpose, we introduce the conceptual framework Flows. Flows are self-contained building blocks of computation, with an isolated state, communicating through a standardized message-based interface. This modular design simplifies the process of creating Flows by allowing them to be recursively composed into arbitrarily nested interactions and is inherently concurrency-friendly. Crucially, any interaction can be implemented using this framework, including prior work on AI-AI and human-AI interactions, prompt engineering schemes, and tool augmentation. We demonstrate the potential of Flows on competitive coding, a challenging task on which even GPT-4 struggles. Our results suggest that structured reasoning and collaboration substantially improve generalization, with AI-only Flows adding +21 and human-AI Flows adding +54 absolute points in terms of solve rate. To support rapid and rigorous research, we introduce the aiFlows library embodying Flows. The aiFlows library is available at https://github.com/epfl-dlab/aiflows. Data and Flows for reproducing our experiments are available at https://github.com/epfl-dlab/cc_flows."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Flows: Building Blocks of Reasoning and Collaborating AI"
+    ],
+    "twitter:description": [
+      "Recent advances in artificial intelligence (AI) have produced highly capable and controllable systems. This creates unprecedented opportunities for structured reasoning as well as collaboration..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Flows: Building Blocks of Reasoning and Collaborating AI"
+    ],
+    "citation_author": [
+      "Josifoski, Martin",
+      "Klein, Lars",
+      "Peyrard, Maxime",
+      "Baldwin, Nicolas",
+      "Li, Yifei",
+      "Geng, Saibo",
+      "Schnitzler, Julian Paul",
+      "Yao, Yuxing",
+      "Wei, Jiheng",
+      "Paul, Debjit",
+      "West, Robert"
+    ],
+    "citation_date": [
+      "2023/08/02"
+    ],
+    "citation_online_date": [
+      "2024/02/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.01285"
+    ],
+    "citation_arxiv_id": [
+      "2308.01285"
+    ],
+    "citation_abstract": [
+      "Recent advances in artificial intelligence (AI) have produced highly capable and controllable systems. This creates unprecedented opportunities for structured reasoning as well as collaboration among multiple AI systems and humans. To fully realize this potential, it is essential to develop a principled way of designing and studying such structured interactions. For this purpose, we introduce the conceptual framework Flows. Flows are self-contained building blocks of computation, with an isolated state, communicating through a standardized message-based interface. This modular design simplifies the process of creating Flows by allowing them to be recursively composed into arbitrarily nested interactions and is inherently concurrency-friendly. Crucially, any interaction can be implemented using this framework, including prior work on AI-AI and human-AI interactions, prompt engineering schemes, and tool augmentation. We demonstrate the potential of Flows on competitive coding, a challenging task on which even GPT-4 struggles. Our results suggest that structured reasoning and collaboration substantially improve generalization, with AI-only Flows adding +21 and human-AI Flows adding +54 absolute points in terms of solve rate. To support rapid and rigorous research, we introduce the aiFlows library embodying Flows. The aiFlows library is available at https://github.com/epfl-dlab/aiflows. Data and Flows for reproducing our experiments are available at https://github.com/epfl-dlab/cc_flows."
+    ]
+  },
+  "html_sha256": "0c6ad03836f098a741e40319025f74b80df6835d2adffac4b915a6beb7867f33",
+  "evidence_html": "evidence/923da9fa1de51ca948e0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2307.03659",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.03659",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-69",
+      "topic": "机器人与世界模型",
+      "title_hint": "Xie, Lee, Xiao, Finn. Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation. arXiv:2307.03659.",
+      "existing_reference_number": 69,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.03659",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:18.339582+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.03659",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41141,
+  "title": "Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation",
+  "authors": [
+    "Xie, Annie",
+    "Lee, Lisa",
+    "Xiao, Ted",
+    "Finn, Chelsea"
+  ],
+  "first_author": "Xie, Annie",
+  "year": 2023,
+  "source_date": "2023/07/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.03659",
+  "abstract": "What makes generalization hard for imitation learning in visual robotic manipulation? This question is difficult to approach at face value, but the environment from the perspective of a robot can often be decomposed into enumerable factors of variation, such as the lighting conditions or the placement of the camera. Empirically, generalization to some of these factors have presented a greater obstacle than others, but existing work sheds little light on precisely how much each factor contributes to the generalization gap. Towards an answer to this question, we study imitation learning policies in simulation and on a real robot language-conditioned manipulation task to quantify the difficulty of generalization to different (sets of) factors. We also design a new simulated benchmark of 19 tasks with 11 factors of variation to facilitate more controlled evaluations of generalization. From our study, we determine an ordering of factors based on generalization difficulty, that is consistent across simulation and our real robot setup.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.03659: Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.03659v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "What makes generalization hard for imitation learning in visual robotic manipulation? This question is difficult to approach at face value, but the environment from the perspective of a robot can often be decomposed into enumerable factors of variation, such as the lighting conditions or the placement of the camera. Empirically, generalization to some of these factors have presented a greater obstacle than others, but existing work sheds little light on precisely how much each factor contributes to the generalization gap. Towards an answer to this question, we study imitation learning policies in simulation and on a real robot language-conditioned manipulation task to quantify the difficulty of generalization to different (sets of) factors. We also design a new simulated benchmark of 19 tasks with 11 factors of variation to facilitate more controlled evaluations of generalization. From our study, we determine an ordering of factors based on generalization difficulty, that is consistent across simulation and our real robot setup."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Decomposing the Generalization Gap in Imitation Learning for..."
+    ],
+    "twitter:description": [
+      "What makes generalization hard for imitation learning in visual robotic manipulation? This question is difficult to approach at face value, but the environment from the perspective of a robot can..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation"
+    ],
+    "citation_author": [
+      "Xie, Annie",
+      "Lee, Lisa",
+      "Xiao, Ted",
+      "Finn, Chelsea"
+    ],
+    "citation_date": [
+      "2023/07/07"
+    ],
+    "citation_online_date": [
+      "2023/07/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.03659"
+    ],
+    "citation_arxiv_id": [
+      "2307.03659"
+    ],
+    "citation_abstract": [
+      "What makes generalization hard for imitation learning in visual robotic manipulation? This question is difficult to approach at face value, but the environment from the perspective of a robot can often be decomposed into enumerable factors of variation, such as the lighting conditions or the placement of the camera. Empirically, generalization to some of these factors have presented a greater obstacle than others, but existing work sheds little light on precisely how much each factor contributes to the generalization gap. Towards an answer to this question, we study imitation learning policies in simulation and on a real robot language-conditioned manipulation task to quantify the difficulty of generalization to different (sets of) factors. We also design a new simulated benchmark of 19 tasks with 11 factors of variation to facilitate more controlled evaluations of generalization. From our study, we determine an ordering of factors based on generalization difficulty, that is consistent across simulation and our real robot setup."
+    ]
+  },
+  "html_sha256": "e9959d512db09d9e4eb25d999cf0bb9a372939591133030b72d1fb706a0ea818",
+  "evidence_html": "evidence/9dfd3a200f2377d9cf18.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

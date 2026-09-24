@@ -1,0 +1,174 @@
+{
+  "url": "https://arxiv.org/abs/2505.14552",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.14552",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Korgym: A dynamic game platform for llm reasoning evaluation",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.14552",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:13.292722+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.14552",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45264,
+  "title": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+  "authors": [
+    "Shi, Jiajun",
+    "Yang, Jian",
+    "Liu, Jiaheng",
+    "Bu, Xingyuan",
+    "Chen, Jiangjie",
+    "Zhou, Junting",
+    "Ma, Kaijing",
+    "Wen, Zhoufutu",
+    "Wang, Bingli",
+    "He, Yancheng",
+    "Song, Liang",
+    "Zhu, Hualei",
+    "Li, Shilong",
+    "Wang, Xingjian",
+    "Zhang, Wei",
+    "Yuan, Ruibin",
+    "Yao, Yifan",
+    "Yang, Wenjun",
+    "Wang, Yunli",
+    "Fang, Siyuan",
+    "Yuan, Siyu",
+    "He, Qianyu",
+    "Tang, Xiangru",
+    "Tan, Yingshui",
+    "Zhou, Wangchunshu",
+    "Zhang, Zhaoxiang",
+    "Li, Zhoujun",
+    "Huang, Wenhao",
+    "Zhang, Ge"
+  ],
+  "first_author": "Shi, Jiajun",
+  "year": 2025,
+  "source_date": "2025/05/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.14552",
+  "abstract": "Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities. Existing benchmarks are often domain-specific and thus cannot fully capture an LLM's general reasoning potential. To address this limitation, we introduce the Knowledge Orthogonal Reasoning Gymnasium (KORGym), a dynamic evaluation platform inspired by KOR-Bench and Gymnasium. KORGym offers over fifty games in either textual or visual formats and supports interactive, multi-turn assessments with reinforcement learning scenarios. Using KORGym, we conduct extensive experiments on 19 LLMs and 8 VLMs, revealing consistent reasoning patterns within model families and demonstrating the superior performance of closed-source models. Further analysis examines the effects of modality, reasoning strategies, reinforcement learning techniques, and response length on model performance. We expect KORGym to become a valuable resource for advancing LLM reasoning research and developing evaluation methodologies suited to complex, interactive environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.14552: KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.14552v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities. Existing benchmarks are often domain-specific and thus cannot fully capture an LLM's general reasoning potential. To address this limitation, we introduce the Knowledge Orthogonal Reasoning Gymnasium (KORGym), a dynamic evaluation platform inspired by KOR-Bench and Gymnasium. KORGym offers over fifty games in either textual or visual formats and supports interactive, multi-turn assessments with reinforcement learning scenarios. Using KORGym, we conduct extensive experiments on 19 LLMs and 8 VLMs, revealing consistent reasoning patterns within model families and demonstrating the superior performance of closed-source models. Further analysis examines the effects of modality, reasoning strategies, reinforcement learning techniques, and response length on model performance. We expect KORGym to become a valuable resource for advancing LLM reasoning research and developing evaluation methodologies suited to complex, interactive environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation"
+    ],
+    "twitter:description": [
+      "Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities. Existing benchmarks are often..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation"
+    ],
+    "citation_author": [
+      "Shi, Jiajun",
+      "Yang, Jian",
+      "Liu, Jiaheng",
+      "Bu, Xingyuan",
+      "Chen, Jiangjie",
+      "Zhou, Junting",
+      "Ma, Kaijing",
+      "Wen, Zhoufutu",
+      "Wang, Bingli",
+      "He, Yancheng",
+      "Song, Liang",
+      "Zhu, Hualei",
+      "Li, Shilong",
+      "Wang, Xingjian",
+      "Zhang, Wei",
+      "Yuan, Ruibin",
+      "Yao, Yifan",
+      "Yang, Wenjun",
+      "Wang, Yunli",
+      "Fang, Siyuan",
+      "Yuan, Siyu",
+      "He, Qianyu",
+      "Tang, Xiangru",
+      "Tan, Yingshui",
+      "Zhou, Wangchunshu",
+      "Zhang, Zhaoxiang",
+      "Li, Zhoujun",
+      "Huang, Wenhao",
+      "Zhang, Ge"
+    ],
+    "citation_date": [
+      "2025/05/20"
+    ],
+    "citation_online_date": [
+      "2025/05/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.14552"
+    ],
+    "citation_arxiv_id": [
+      "2505.14552"
+    ],
+    "citation_abstract": [
+      "Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities. Existing benchmarks are often domain-specific and thus cannot fully capture an LLM's general reasoning potential. To address this limitation, we introduce the Knowledge Orthogonal Reasoning Gymnasium (KORGym), a dynamic evaluation platform inspired by KOR-Bench and Gymnasium. KORGym offers over fifty games in either textual or visual formats and supports interactive, multi-turn assessments with reinforcement learning scenarios. Using KORGym, we conduct extensive experiments on 19 LLMs and 8 VLMs, revealing consistent reasoning patterns within model families and demonstrating the superior performance of closed-source models. Further analysis examines the effects of modality, reasoning strategies, reinforcement learning techniques, and response length on model performance. We expect KORGym to become a valuable resource for advancing LLM reasoning research and developing evaluation methodologies suited to complex, interactive environments."
+    ]
+  },
+  "html_sha256": "54f56f49d7acedf4e4aa683b5a86794ec18067da7a87a7353520821b3884bb19",
+  "evidence_html": "evidence/9cf791269e59c39a896f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

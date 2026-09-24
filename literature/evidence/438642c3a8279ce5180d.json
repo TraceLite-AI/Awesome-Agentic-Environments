@@ -1,0 +1,72 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2024/hash/820c61a0cd419163ccbd2c33b268816e-Abstract-Conference.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/820c61a0cd419163ccbd2c33b268816e-Abstract-Conference.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Worldcoder, a model-based LLM agent: Building world models by writing code and interacting with the environment",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2024/hash/820c61a0cd419163ccbd2c33b268816e-Abstract-Conference.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:25.215948+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2024/hash/820c61a0cd419163ccbd2c33b268816e-Abstract-Conference.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 9044,
+  "title": "WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment",
+  "authors": [
+    "Tang, Hao",
+    "Key, Darren",
+    "Ellis, Kevin"
+  ],
+  "first_author": "Tang, Hao",
+  "year": 2024,
+  "source_date": "2024-12-16",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/079017-2243",
+  "arxiv_id": "",
+  "abstract": "We give a model-based agent that builds a Python program representing its knowledge of the world based on its interactions with the environment. The world model tries to explain its interactions, while also being optimistic about what reward it can achieve. We define this optimism as a logical constraint between a program and a planner. We study our agent on gridworlds, and on task planning, finding our approach is more sample-efficient compared to deep RL, more compute-efficient compared to ReAct-style agents, and that it can transfer its knowledge across environments by editing its code.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment"
+    ],
+    "citation_author": [
+      "Tang, Hao",
+      "Key, Darren",
+      "Ellis, Kevin"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-2243"
+    ],
+    "citation_firstpage": [
+      "70148"
+    ],
+    "citation_lastpage": [
+      "70212"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/820c61a0cd419163ccbd2c33b268816e-Paper-Conference.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "html_sha256": "97763f1fd2e9e5d8f691b405968038c0277b00927fcd91af2d81044f0787ea7b",
+  "evidence_html": "evidence/438642c3a8279ce5180d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

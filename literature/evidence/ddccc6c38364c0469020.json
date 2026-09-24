@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2402.12391",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.12391",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "Toward a Team of AI-Made Scientists for Scientific Discovery from Gene Expression Data",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.12391",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:24.685299+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.12391",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43378,
+  "title": "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data",
+  "authors": [
+    "Liu, Haoyang",
+    "Li, Yijiang",
+    "Jian, Jinglin",
+    "Cheng, Yuxuan",
+    "Lu, Jianrong",
+    "Guo, Shuyi",
+    "Zhu, Jinglei",
+    "Zhang, Mianchen",
+    "Zhang, Miantong",
+    "Wang, Haohan"
+  ],
+  "first_author": "Liu, Haoyang",
+  "year": 2024,
+  "source_date": "2024/02/15",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.12391",
+  "abstract": "Machine learning has emerged as a powerful tool for scientific discovery, enabling researchers to extract meaningful insights from complex datasets. For instance, it has facilitated the identification of disease-predictive genes from gene expression data, significantly advancing healthcare. However, the traditional process for analyzing such datasets demands substantial human effort and expertise for the data selection, processing, and analysis. To address this challenge, we introduce a novel framework, a Team of AI-made Scientists (TAIS), designed to streamline the scientific discovery pipeline. TAIS comprises simulated roles, including a project manager, data engineer, and domain expert, each represented by a Large Language Model (LLM). These roles collaborate to replicate the tasks typically performed by data scientists, with a specific focus on identifying disease-predictive genes. Furthermore, we have curated a benchmark dataset to assess TAIS's effectiveness in gene identification, demonstrating our system's potential to significantly enhance the efficiency and scope of scientific exploration. Our findings represent a solid step towards automating scientific discovery through large language models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.12391: Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.12391v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Machine learning has emerged as a powerful tool for scientific discovery, enabling researchers to extract meaningful insights from complex datasets. For instance, it has facilitated the identification of disease-predictive genes from gene expression data, significantly advancing healthcare. However, the traditional process for analyzing such datasets demands substantial human effort and expertise for the data selection, processing, and analysis. To address this challenge, we introduce a novel framework, a Team of AI-made Scientists (TAIS), designed to streamline the scientific discovery pipeline. TAIS comprises simulated roles, including a project manager, data engineer, and domain expert, each represented by a Large Language Model (LLM). These roles collaborate to replicate the tasks typically performed by data scientists, with a specific focus on identifying disease-predictive genes. Furthermore, we have curated a benchmark dataset to assess TAIS's effectiveness in gene identification, demonstrating our system's potential to significantly enhance the efficiency and scope of scientific exploration. Our findings represent a solid step towards automating scientific discovery through large language models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Toward a Team of AI-made Scientists for Scientific Discovery from..."
+    ],
+    "twitter:description": [
+      "Machine learning has emerged as a powerful tool for scientific discovery, enabling researchers to extract meaningful insights from complex datasets. For instance, it has facilitated the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data"
+    ],
+    "citation_author": [
+      "Liu, Haoyang",
+      "Li, Yijiang",
+      "Jian, Jinglin",
+      "Cheng, Yuxuan",
+      "Lu, Jianrong",
+      "Guo, Shuyi",
+      "Zhu, Jinglei",
+      "Zhang, Mianchen",
+      "Zhang, Miantong",
+      "Wang, Haohan"
+    ],
+    "citation_date": [
+      "2024/02/15"
+    ],
+    "citation_online_date": [
+      "2025/09/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.12391"
+    ],
+    "citation_arxiv_id": [
+      "2402.12391"
+    ],
+    "citation_abstract": [
+      "Machine learning has emerged as a powerful tool for scientific discovery, enabling researchers to extract meaningful insights from complex datasets. For instance, it has facilitated the identification of disease-predictive genes from gene expression data, significantly advancing healthcare. However, the traditional process for analyzing such datasets demands substantial human effort and expertise for the data selection, processing, and analysis. To address this challenge, we introduce a novel framework, a Team of AI-made Scientists (TAIS), designed to streamline the scientific discovery pipeline. TAIS comprises simulated roles, including a project manager, data engineer, and domain expert, each represented by a Large Language Model (LLM). These roles collaborate to replicate the tasks typically performed by data scientists, with a specific focus on identifying disease-predictive genes. Furthermore, we have curated a benchmark dataset to assess TAIS's effectiveness in gene identification, demonstrating our system's potential to significantly enhance the efficiency and scope of scientific exploration. Our findings represent a solid step towards automating scientific discovery through large language models."
+    ]
+  },
+  "html_sha256": "0ae90ce99e099608f0254b4f3efbd25b68265a7533554ecf1ee8b9ab83fe24f0",
+  "evidence_html": "evidence/ddccc6c38364c0469020.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

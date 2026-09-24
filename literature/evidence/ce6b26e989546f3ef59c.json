@@ -1,0 +1,146 @@
+{
+  "url": "https://arxiv.org/abs/2511.20857",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2511.20857",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "memory_and_context",
+      "title_hint": "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2511.20857",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:50.008260+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2511.20857",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44517,
+  "title": "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
+  "authors": [
+    "Wei, Tianxin",
+    "Sachdeva, Noveen",
+    "Coleman, Benjamin",
+    "He, Zhankui",
+    "Bei, Yuanchen",
+    "Ning, Xuying",
+    "Ai, Mengting",
+    "Li, Yunzhe",
+    "He, Jingrui",
+    "Chi, Ed H.",
+    "Wang, Chi",
+    "Chen, Shuo",
+    "Pereira, Fernando",
+    "Kang, Wang-Cheng",
+    "Cheng, Derek Zhiyuan"
+  ],
+  "first_author": "Wei, Tianxin",
+  "year": 2025,
+  "source_date": "2025/11/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2511.20857",
+  "abstract": "Statefulness is essential for large language model (LLM) agents to perform long-term planning and problem-solving. This makes memory a critical component, yet its management and evolution remain largely underexplored. Existing evaluations mostly focus on static conversational settings, where memory is passively retrieved from dialogue to answer queries, overlooking the dynamic ability to accumulate and reuse experience across evolving task streams. In real-world environments such as interactive problem assistants or embodied agents, LLMs are required to handle continuous task streams, yet often fail to learn from accumulated interactions, losing valuable contextual insights, a limitation that calls for test-time evolution, where LLMs retrieve, integrate, and update memory continuously during deployment. To bridge this gap, we introduce Evo-Memory, a comprehensive streaming benchmark and framework for evaluating self-evolving memory in LLM agents. Evo-Memory structures datasets into sequential task streams, requiring LLMs to search, adapt, and evolve memory after each interaction. We unify and implement over ten representative memory modules and evaluate them across 10 diverse multi-turn goal-oriented and single-turn reasoning and QA datasets. To better benchmark experience reuse, we provide a baseline method, ExpRAG, for retrieving and utilizing prior experience, and further propose ReMem, an action-think-memory refine pipeline that tightly integrates reasoning, task actions, and memory updates to achieve continual improvement.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2511.20857: Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2511.20857v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Statefulness is essential for large language model (LLM) agents to perform long-term planning and problem-solving. This makes memory a critical component, yet its management and evolution remain largely underexplored. Existing evaluations mostly focus on static conversational settings, where memory is passively retrieved from dialogue to answer queries, overlooking the dynamic ability to accumulate and reuse experience across evolving task streams. In real-world environments such as interactive problem assistants or embodied agents, LLMs are required to handle continuous task streams, yet often fail to learn from accumulated interactions, losing valuable contextual insights, a limitation that calls for test-time evolution, where LLMs retrieve, integrate, and update memory continuously during deployment. To bridge this gap, we introduce Evo-Memory, a comprehensive streaming benchmark and framework for evaluating self-evolving memory in LLM agents. Evo-Memory structures datasets into sequential task streams, requiring LLMs to search, adapt, and evolve memory after each interaction. We unify and implement over ten representative memory modules and evaluate them across 10 diverse multi-turn goal-oriented and single-turn reasoning and QA datasets. To better benchmark experience reuse, we provide a baseline method, ExpRAG, for retrieving and utilizing prior experience, and further propose ReMem, an action-think-memory refine pipeline that tightly integrates reasoning, task actions, and memory updates to achieve continual improvement."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Evo-Memory: Benchmarking LLM Agent Test-time Learning with..."
+    ],
+    "twitter:description": [
+      "Statefulness is essential for large language model (LLM) agents to perform long-term planning and problem-solving. This makes memory a critical component, yet its management and evolution remain..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory"
+    ],
+    "citation_author": [
+      "Wei, Tianxin",
+      "Sachdeva, Noveen",
+      "Coleman, Benjamin",
+      "He, Zhankui",
+      "Bei, Yuanchen",
+      "Ning, Xuying",
+      "Ai, Mengting",
+      "Li, Yunzhe",
+      "He, Jingrui",
+      "Chi, Ed H.",
+      "Wang, Chi",
+      "Chen, Shuo",
+      "Pereira, Fernando",
+      "Kang, Wang-Cheng",
+      "Cheng, Derek Zhiyuan"
+    ],
+    "citation_date": [
+      "2025/11/25"
+    ],
+    "citation_online_date": [
+      "2026/05/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2511.20857"
+    ],
+    "citation_arxiv_id": [
+      "2511.20857"
+    ],
+    "citation_abstract": [
+      "Statefulness is essential for large language model (LLM) agents to perform long-term planning and problem-solving. This makes memory a critical component, yet its management and evolution remain largely underexplored. Existing evaluations mostly focus on static conversational settings, where memory is passively retrieved from dialogue to answer queries, overlooking the dynamic ability to accumulate and reuse experience across evolving task streams. In real-world environments such as interactive problem assistants or embodied agents, LLMs are required to handle continuous task streams, yet often fail to learn from accumulated interactions, losing valuable contextual insights, a limitation that calls for test-time evolution, where LLMs retrieve, integrate, and update memory continuously during deployment. To bridge this gap, we introduce Evo-Memory, a comprehensive streaming benchmark and framework for evaluating self-evolving memory in LLM agents. Evo-Memory structures datasets into sequential task streams, requiring LLMs to search, adapt, and evolve memory after each interaction. We unify and implement over ten representative memory modules and evaluate them across 10 diverse multi-turn goal-oriented and single-turn reasoning and QA datasets. To better benchmark experience reuse, we provide a baseline method, ExpRAG, for retrieving and utilizing prior experience, and further propose ReMem, an action-think-memory refine pipeline that tightly integrates reasoning, task actions, and memory updates to achieve continual improvement."
+    ]
+  },
+  "html_sha256": "4c232d29226b31fa8da0b4f2edbe67eb4633e86a5c8d3d5b2d64be145da87cbc",
+  "evidence_html": "evidence/ce6b26e989546f3ef59c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

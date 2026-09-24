@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2305.14325",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2305.14325",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Improving Factuality and Reasoning in Language Models through Multiagent Debate. Yilun Du et al",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14325",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2305.14325",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:14.913349+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2305.14325",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42712,
+  "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+  "authors": [
+    "Du, Yilun",
+    "Li, Shuang",
+    "Torralba, Antonio",
+    "Tenenbaum, Joshua B.",
+    "Mordatch, Igor"
+  ],
+  "first_author": "Du, Yilun",
+  "year": 2023,
+  "source_date": "2023/05/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2305.14325",
+  "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in language generation, understanding, and few-shot learning in recent years. An extensive body of work has explored how their performance may be further improved through the tools of prompting, ranging from verification, self-consistency, or intermediate scratchpads. In this paper, we present a complementary approach to improve language responses where multiple language model instances propose and debate their individual responses and reasoning processes over multiple rounds to arrive at a common final answer. Our findings indicate that this approach significantly enhances mathematical and strategic reasoning across a number of tasks. We also demonstrate that our approach improves the factual validity of generated content, reducing fallacious answers and hallucinations that contemporary models are prone to. Our approach may be directly applied to existing black-box models and uses identical procedure and prompts for all tasks we investigate. Overall, our findings suggest that such \"society of minds\" approach has the potential to significantly advance the capabilities of LLMs and pave the way for further breakthroughs in language generation and understanding.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2305.14325: Improving Factuality and Reasoning in Language Models through Multiagent Debate"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Improving Factuality and Reasoning in Language Models through Multiagent Debate"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2305.14325v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have demonstrated remarkable capabilities in language generation, understanding, and few-shot learning in recent years. An extensive body of work has explored how their performance may be further improved through the tools of prompting, ranging from verification, self-consistency, or intermediate scratchpads. In this paper, we present a complementary approach to improve language responses where multiple language model instances propose and debate their individual responses and reasoning processes over multiple rounds to arrive at a common final answer. Our findings indicate that this approach significantly enhances mathematical and strategic reasoning across a number of tasks. We also demonstrate that our approach improves the factual validity of generated content, reducing fallacious answers and hallucinations that contemporary models are prone to. Our approach may be directly applied to existing black-box models and uses identical procedure and prompts for all tasks we investigate. Overall, our findings suggest that such \"society of minds\" approach has the potential to significantly advance the capabilities of LLMs and pave the way for further breakthroughs in language generation and understanding."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Improving Factuality and Reasoning in Language Models through..."
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have demonstrated remarkable capabilities in language generation, understanding, and few-shot learning in recent years. An extensive body of work has explored how..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Improving Factuality and Reasoning in Language Models through Multiagent Debate"
+    ],
+    "citation_author": [
+      "Du, Yilun",
+      "Li, Shuang",
+      "Torralba, Antonio",
+      "Tenenbaum, Joshua B.",
+      "Mordatch, Igor"
+    ],
+    "citation_date": [
+      "2023/05/23"
+    ],
+    "citation_online_date": [
+      "2023/05/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2305.14325"
+    ],
+    "citation_arxiv_id": [
+      "2305.14325"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have demonstrated remarkable capabilities in language generation, understanding, and few-shot learning in recent years. An extensive body of work has explored how their performance may be further improved through the tools of prompting, ranging from verification, self-consistency, or intermediate scratchpads. In this paper, we present a complementary approach to improve language responses where multiple language model instances propose and debate their individual responses and reasoning processes over multiple rounds to arrive at a common final answer. Our findings indicate that this approach significantly enhances mathematical and strategic reasoning across a number of tasks. We also demonstrate that our approach improves the factual validity of generated content, reducing fallacious answers and hallucinations that contemporary models are prone to. Our approach may be directly applied to existing black-box models and uses identical procedure and prompts for all tasks we investigate. Overall, our findings suggest that such \"society of minds\" approach has the potential to significantly advance the capabilities of LLMs and pave the way for further breakthroughs in language generation and understanding."
+    ]
+  },
+  "html_sha256": "2de4cd1c5b23251fa4abc1b4329422f6839eb23abe77abbf0fbd861a73156bfd",
+  "evidence_html": "evidence/992190a4815d67ed6308.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

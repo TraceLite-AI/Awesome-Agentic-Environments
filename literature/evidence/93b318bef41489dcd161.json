@@ -1,0 +1,99 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.acl-long.308",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.308",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Benchmarking data science agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.acl-long.308",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:17.429376+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.acl-long.308/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41542,
+  "title": "Benchmarking Data Science Agents",
+  "authors": [
+    "Yuge Zhang",
+    "Qiyang Jiang",
+    "XingyuHan XingyuHan",
+    "Nan Chen",
+    "Yuqing Yang",
+    "Kan Ren"
+  ],
+  "first_author": "Yuge Zhang",
+  "year": 2024,
+  "source_date": "2024/8",
+  "venue_from_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.acl-long.308",
+  "arxiv_id": "",
+  "abstract": "In the era of data-driven decision-making, the complexity of data analysis necessitates advanced expertise and tools of data science, presenting significant challenges even for specialists. Large Language Models (LLMs) have emerged as promising aids as data science agents, assisting humans in data analysis and processing. Yet their practical efficacy remains constrained by the varied demands of real-world applications and complicated analytical process. In this paper, we introduce DSEval – a novel evaluation paradigm, as well as a series of innovative benchmarks tailored for assessing the performance of these agents throughout the entire data science lifecycle. Incorporating a novel bootstrapped annotation method, we streamline dataset preparation, improve the evaluation coverage, and expand benchmarking comprehensiveness. Our findings uncover prevalent obstacles and provide critical insights to inform future advancements in the field.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "Benchmarking Data Science Agents"
+    ],
+    "citation_author": [
+      "Yuge Zhang",
+      "Qiyang Jiang",
+      "XingyuHan XingyuHan",
+      "Nan Chen",
+      "Yuqing Yang",
+      "Kan Ren"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.acl-long.308.pdf"
+    ],
+    "citation_firstpage": [
+      "5677"
+    ],
+    "citation_lastpage": [
+      "5700"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.acl-long.308"
+    ],
+    "og:title": [
+      "Benchmarking Data Science Agents"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.acl-long.308.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.acl-long.308/"
+    ],
+    "og:description": [
+      "Yuge Zhang, Qiyang Jiang, XingyuHan XingyuHan, Nan Chen, Yuqing Yang, Kan Ren. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024."
+    ]
+  },
+  "html_sha256": "5af0089ae1e447819f0edce7bcc3e2bcc681a0a6d721016b91a8829c1bd7a3fb",
+  "evidence_html": "evidence/93b318bef41489dcd161.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,150 @@
+{
+  "url": "https://arxiv.org/abs/2410.03859",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.03859",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Swe-bench multimodal: Do ai systems generalize to visual software domains?",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.03859",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-3",
+      "topic": "Agent benchmark",
+      "title_hint": "Yang et al. SWE-bench Multimodal. arXiv:2410.03859.",
+      "existing_reference_number": 3,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.03859",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:14.192950+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.03859",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43821,
+  "title": "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?",
+  "authors": [
+    "Yang, John",
+    "Jimenez, Carlos E.",
+    "Zhang, Alex L.",
+    "Lieret, Kilian",
+    "Yang, Joyce",
+    "Wu, Xindi",
+    "Press, Ori",
+    "Muennighoff, Niklas",
+    "Synnaeve, Gabriel",
+    "Narasimhan, Karthik R.",
+    "Yang, Diyi",
+    "Wang, Sida I.",
+    "Press, Ofir"
+  ],
+  "first_author": "Yang, John",
+  "year": 2024,
+  "source_date": "2024/10/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.03859",
+  "abstract": "Autonomous systems for software engineering are now capable of fixing bugs and developing features. These systems are commonly evaluated on SWE-bench (Jimenez et al., 2024a), which assesses their ability to solve software issues from GitHub repositories. However, SWE-bench uses only Python repositories, with problem statements presented predominantly as text and lacking visual elements such as images. This limited coverage motivates our inquiry into how existing systems might perform on unrepresented software engineering domains (e.g., front-end, game development, DevOps), which use different programming languages and paradigms. Therefore, we propose SWE-bench Multimodal (SWE-bench M), to evaluate systems on their ability to fix bugs in visual, user-facing JavaScript software. SWE-bench M features 617 task instances collected from 17 JavaScript libraries used for web interface design, diagramming, data visualization, syntax highlighting, and interactive mapping. Each SWE-bench M task instance contains at least one image in its problem statement or unit tests. Our analysis finds that top-performing SWE-bench systems struggle with SWE-bench M, revealing limitations in visual problem-solving and cross-language generalization. Lastly, we show that SWE-agent's flexible language-agnostic features enable it to substantially outperform alternatives on SWE-bench M, resolving 12% of task instances compared to 6% for the next best system.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.03859: SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.03859v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous systems for software engineering are now capable of fixing bugs and developing features. These systems are commonly evaluated on SWE-bench (Jimenez et al., 2024a), which assesses their ability to solve software issues from GitHub repositories. However, SWE-bench uses only Python repositories, with problem statements presented predominantly as text and lacking visual elements such as images. This limited coverage motivates our inquiry into how existing systems might perform on unrepresented software engineering domains (e.g., front-end, game development, DevOps), which use different programming languages and paradigms. Therefore, we propose SWE-bench Multimodal (SWE-bench M), to evaluate systems on their ability to fix bugs in visual, user-facing JavaScript software. SWE-bench M features 617 task instances collected from 17 JavaScript libraries used for web interface design, diagramming, data visualization, syntax highlighting, and interactive mapping. Each SWE-bench M task instance contains at least one image in its problem statement or unit tests. Our analysis finds that top-performing SWE-bench systems struggle with SWE-bench M, revealing limitations in visual problem-solving and cross-language generalization. Lastly, we show that SWE-agent's flexible language-agnostic features enable it to substantially outperform alternatives on SWE-bench M, resolving 12% of task instances compared to 6% for the next best system."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?"
+    ],
+    "twitter:description": [
+      "Autonomous systems for software engineering are now capable of fixing bugs and developing features. These systems are commonly evaluated on SWE-bench (Jimenez et al., 2024a), which assesses their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?"
+    ],
+    "citation_author": [
+      "Yang, John",
+      "Jimenez, Carlos E.",
+      "Zhang, Alex L.",
+      "Lieret, Kilian",
+      "Yang, Joyce",
+      "Wu, Xindi",
+      "Press, Ori",
+      "Muennighoff, Niklas",
+      "Synnaeve, Gabriel",
+      "Narasimhan, Karthik R.",
+      "Yang, Diyi",
+      "Wang, Sida I.",
+      "Press, Ofir"
+    ],
+    "citation_date": [
+      "2024/10/04"
+    ],
+    "citation_online_date": [
+      "2024/10/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.03859"
+    ],
+    "citation_arxiv_id": [
+      "2410.03859"
+    ],
+    "citation_abstract": [
+      "Autonomous systems for software engineering are now capable of fixing bugs and developing features. These systems are commonly evaluated on SWE-bench (Jimenez et al., 2024a), which assesses their ability to solve software issues from GitHub repositories. However, SWE-bench uses only Python repositories, with problem statements presented predominantly as text and lacking visual elements such as images. This limited coverage motivates our inquiry into how existing systems might perform on unrepresented software engineering domains (e.g., front-end, game development, DevOps), which use different programming languages and paradigms. Therefore, we propose SWE-bench Multimodal (SWE-bench M), to evaluate systems on their ability to fix bugs in visual, user-facing JavaScript software. SWE-bench M features 617 task instances collected from 17 JavaScript libraries used for web interface design, diagramming, data visualization, syntax highlighting, and interactive mapping. Each SWE-bench M task instance contains at least one image in its problem statement or unit tests. Our analysis finds that top-performing SWE-bench systems struggle with SWE-bench M, revealing limitations in visual problem-solving and cross-language generalization. Lastly, we show that SWE-agent's flexible language-agnostic features enable it to substantially outperform alternatives on SWE-bench M, resolving 12% of task instances compared to 6% for the next best system."
+    ]
+  },
+  "html_sha256": "ee8e5b0f9dc3e6dfe05009c9d761994bf8d80614ba68065683087cbf4742dc82",
+  "evidence_html": "evidence/f272499ae440e5046ffc.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

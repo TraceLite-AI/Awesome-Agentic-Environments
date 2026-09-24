@@ -1,0 +1,101 @@
+{
+  "url": "https://doi.org/10.18653/v1/2024.acl-short.1",
+  "discoveries": [
+    {
+      "url": "https://doi.org/10.18653/v1/2024.acl-short.1",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Can language models serve as text-based world simulators?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://doi.org/10.18653/v1/2024.acl-short.1",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:29.568349+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2024.acl-short.1/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42805,
+  "title": "Can Language Models Serve as Text-Based World Simulators?",
+  "authors": [
+    "Ruoyao Wang",
+    "Graham Todd",
+    "Ziang Xiao",
+    "Xingdi Yuan",
+    "Marc-Alexandre Côté",
+    "Peter Clark",
+    "Peter Jansen"
+  ],
+  "first_author": "Ruoyao Wang",
+  "year": 2024,
+  "source_date": "2024/8",
+  "venue_from_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2024.acl-short.1",
+  "arxiv_id": "",
+  "abstract": "Virtual environments play a key role in benchmarking advances in complex planning and decision-making tasks but are expensive and complicated to build by hand. Can current language models themselves serve as world simulators, correctly predicting how actions change different world states, thus bypassing the need for extensive manual coding? Our goal is to answer this question in the context of text-based simulators. Our approach is to build and use a new benchmark, called ByteSized32-State-Prediction, containing a dataset of text game state transitions and accompanying game tasks. We use this to directly quantify, for the first time, how well LLMs can serve as text-based world simulators. We test GPT-4 on this dataset and find that, despite its impressive performance, it is still an unreliable world simulator without further innovations. This work thus contributes both new insights into current LLM’s capabilities and weaknesses, as well as a novel benchmark to track future progress as new models appear.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "Can Language Models Serve as Text-Based World Simulators?"
+    ],
+    "citation_author": [
+      "Ruoyao Wang",
+      "Graham Todd",
+      "Ziang Xiao",
+      "Xingdi Yuan",
+      "Marc-Alexandre Côté",
+      "Peter Clark",
+      "Peter Jansen"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.acl-short.1.pdf"
+    ],
+    "citation_firstpage": [
+      "1"
+    ],
+    "citation_lastpage": [
+      "17"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.acl-short.1"
+    ],
+    "og:title": [
+      "Can Language Models Serve as Text-Based World Simulators?"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.acl-short.1.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.acl-short.1/"
+    ],
+    "og:description": [
+      "Ruoyao Wang, Graham Todd, Ziang Xiao, Xingdi Yuan, Marc-Alexandre Côté, Peter Clark, Peter Jansen. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 2024."
+    ]
+  },
+  "html_sha256": "1360189bea8fbcbc4bfc728e551e666041ed783074409cafd3d64135879926c1",
+  "evidence_html": "evidence/0877bff7beecaeb8daab.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

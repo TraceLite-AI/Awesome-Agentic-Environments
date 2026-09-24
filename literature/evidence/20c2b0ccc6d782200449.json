@@ -1,0 +1,121 @@
+{
+  "url": "https://arxiv.org/abs/2005.10619",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2005.10619",
+      "topic": "非平稳环境/强化学习",
+      "discovery_url": "https://arxiv.org/abs/2005.10619",
+      "title_hint": "",
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2005.10619",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:28.721819+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2005.10619",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44499,
+  "title": "A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments",
+  "authors": [
+    "Padakandla, Sindhu"
+  ],
+  "first_author": "Padakandla, Sindhu",
+  "year": 2020,
+  "source_date": "2020/05/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "Volume 54, Issue 6",
+  "doi": "10.1145/3459991",
+  "arxiv_id": "2005.10619",
+  "abstract": "Reinforcement learning (RL) algorithms find applications in inventory control, recommender systems, vehicular traffic management, cloud computing and robotics. The real-world complications of many tasks arising in these domains makes them difficult to solve with the basic assumptions underlying classical RL algorithms. RL agents in these applications often need to react and adapt to changing operating conditions. A significant part of research on single-agent RL techniques focuses on developing algorithms when the underlying assumption of stationary environment model is relaxed. This paper provides a survey of RL methods developed for handling dynamically varying environment models. The goal of methods not limited by the stationarity assumption is to help autonomous agents adapt to varying operating conditions. This is possible either by minimizing the rewards lost during learning by RL agent or by finding a suitable policy for the RL agent which leads to efficient operation of the underlying system. A representative collection of these algorithms is discussed in detail in this work along with their categorization and their relative merits and demerits. Additionally we also review works which are tailored to application domains. Finally, we discuss future enhancements for this field.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2005.10619: A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2005.10619v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Reinforcement learning (RL) algorithms find applications in inventory control, recommender systems, vehicular traffic management, cloud computing and robotics. The real-world complications of many tasks arising in these domains makes them difficult to solve with the basic assumptions underlying classical RL algorithms. RL agents in these applications often need to react and adapt to changing operating conditions. A significant part of research on single-agent RL techniques focuses on developing algorithms when the underlying assumption of stationary environment model is relaxed. This paper provides a survey of RL methods developed for handling dynamically varying environment models. The goal of methods not limited by the stationarity assumption is to help autonomous agents adapt to varying operating conditions. This is possible either by minimizing the rewards lost during learning by RL agent or by finding a suitable policy for the RL agent which leads to efficient operation of the underlying system. A representative collection of these algorithms is discussed in detail in this work along with their categorization and their relative merits and demerits. Additionally we also review works which are tailored to application domains. Finally, we discuss future enhancements for this field."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Survey of Reinforcement Learning Algorithms for Dynamically..."
+    ],
+    "twitter:description": [
+      "Reinforcement learning (RL) algorithms find applications in inventory control, recommender systems, vehicular traffic management, cloud computing and robotics. The real-world complications of many..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments"
+    ],
+    "citation_author": [
+      "Padakandla, Sindhu"
+    ],
+    "citation_doi": [
+      "10.1145/3459991"
+    ],
+    "citation_date": [
+      "2020/05/19"
+    ],
+    "citation_online_date": [
+      "2020/05/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2005.10619"
+    ],
+    "citation_arxiv_id": [
+      "2005.10619"
+    ],
+    "citation_abstract": [
+      "Reinforcement learning (RL) algorithms find applications in inventory control, recommender systems, vehicular traffic management, cloud computing and robotics. The real-world complications of many tasks arising in these domains makes them difficult to solve with the basic assumptions underlying classical RL algorithms. RL agents in these applications often need to react and adapt to changing operating conditions. A significant part of research on single-agent RL techniques focuses on developing algorithms when the underlying assumption of stationary environment model is relaxed. This paper provides a survey of RL methods developed for handling dynamically varying environment models. The goal of methods not limited by the stationarity assumption is to help autonomous agents adapt to varying operating conditions. This is possible either by minimizing the rewards lost during learning by RL agent or by finding a suitable policy for the RL agent which leads to efficient operation of the underlying system. A representative collection of these algorithms is discussed in detail in this work along with their categorization and their relative merits and demerits. Additionally we also review works which are tailored to application domains. Finally, we discuss future enhancements for this field."
+    ]
+  },
+  "html_sha256": "66b6a6206fb1015a2de3248d1a000f5848c2eb2791e87fe40436f302e5f15e27",
+  "evidence_html": "evidence/20c2b0ccc6d782200449.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

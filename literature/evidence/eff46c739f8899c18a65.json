@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2307.13854",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.13854",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-7",
+      "topic": "Agent benchmark",
+      "title_hint": "Zhou et al. WebArena: A Realistic Web Environment for Building Autonomous Agents. arXiv:2307.13854.",
+      "existing_reference_number": 7,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.13854",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:02.153141+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.13854",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44637,
+  "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+  "authors": [
+    "Zhou, Shuyan",
+    "Xu, Frank F.",
+    "Zhu, Hao",
+    "Zhou, Xuhui",
+    "Lo, Robert",
+    "Sridhar, Abishek",
+    "Cheng, Xianyi",
+    "Ou, Tianyue",
+    "Bisk, Yonatan",
+    "Fried, Daniel",
+    "Alon, Uri",
+    "Neubig, Graham"
+  ],
+  "first_author": "Zhou, Shuyan",
+  "year": 2023,
+  "source_date": "2023/07/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.13854",
+  "abstract": "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in simplified synthetic environments, leading to a disconnect with real-world scenarios. In this paper, we build an environment for language-guided agents that is highly realistic and reproducible. Specifically, we focus on agents that perform tasks on the web, and create an environment with fully functional websites from four common domains: e-commerce, social forum discussions, collaborative software development, and content management. Our environment is enriched with tools (e.g., a map) and external knowledge bases (e.g., user manuals) to encourage human-like task-solving. Building upon our environment, we release a set of benchmark tasks focusing on evaluating the functional correctness of task completions. The tasks in our benchmark are diverse, long-horizon, and designed to emulate tasks that humans routinely perform on the internet. We experiment with several baseline agents, integrating recent techniques such as reasoning before acting. The results demonstrate that solving complex tasks is challenging: our best GPT-4-based agent only achieves an end-to-end task success rate of 14.41%, significantly lower than the human performance of 78.24%. These results highlight the need for further development of robust agents, that current state-of-the-art large language models are far from perfect performance in these real-life tasks, and that WebArena can be used to measure such progress.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.13854: WebArena: A Realistic Web Environment for Building Autonomous Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.13854v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in simplified synthetic environments, leading to a disconnect with real-world scenarios. In this paper, we build an environment for language-guided agents that is highly realistic and reproducible. Specifically, we focus on agents that perform tasks on the web, and create an environment with fully functional websites from four common domains: e-commerce, social forum discussions, collaborative software development, and content management. Our environment is enriched with tools (e.g., a map) and external knowledge bases (e.g., user manuals) to encourage human-like task-solving. Building upon our environment, we release a set of benchmark tasks focusing on evaluating the functional correctness of task completions. The tasks in our benchmark are diverse, long-horizon, and designed to emulate tasks that humans routinely perform on the internet. We experiment with several baseline agents, integrating recent techniques such as reasoning before acting. The results demonstrate that solving complex tasks is challenging: our best GPT-4-based agent only achieves an end-to-end task success rate of 14.41%, significantly lower than the human performance of 78.24%. These results highlight the need for further development of robust agents, that current state-of-the-art large language models are far from perfect performance in these real-life tasks, and that WebArena can be used to measure such progress."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+    ],
+    "twitter:description": [
+      "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+    ],
+    "citation_author": [
+      "Zhou, Shuyan",
+      "Xu, Frank F.",
+      "Zhu, Hao",
+      "Zhou, Xuhui",
+      "Lo, Robert",
+      "Sridhar, Abishek",
+      "Cheng, Xianyi",
+      "Ou, Tianyue",
+      "Bisk, Yonatan",
+      "Fried, Daniel",
+      "Alon, Uri",
+      "Neubig, Graham"
+    ],
+    "citation_date": [
+      "2023/07/25"
+    ],
+    "citation_online_date": [
+      "2024/04/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.13854"
+    ],
+    "citation_arxiv_id": [
+      "2307.13854"
+    ],
+    "citation_abstract": [
+      "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in simplified synthetic environments, leading to a disconnect with real-world scenarios. In this paper, we build an environment for language-guided agents that is highly realistic and reproducible. Specifically, we focus on agents that perform tasks on the web, and create an environment with fully functional websites from four common domains: e-commerce, social forum discussions, collaborative software development, and content management. Our environment is enriched with tools (e.g., a map) and external knowledge bases (e.g., user manuals) to encourage human-like task-solving. Building upon our environment, we release a set of benchmark tasks focusing on evaluating the functional correctness of task completions. The tasks in our benchmark are diverse, long-horizon, and designed to emulate tasks that humans routinely perform on the internet. We experiment with several baseline agents, integrating recent techniques such as reasoning before acting. The results demonstrate that solving complex tasks is challenging: our best GPT-4-based agent only achieves an end-to-end task success rate of 14.41%, significantly lower than the human performance of 78.24%. These results highlight the need for further development of robust agents, that current state-of-the-art large language models are far from perfect performance in these real-life tasks, and that WebArena can be used to measure such progress."
+    ]
+  },
+  "html_sha256": "0b4da71dfd2bee8c145a946e171e2774d3fbb8de5fc07dbe83dae0a3ba7691ea",
+  "evidence_html": "evidence/eff46c739f8899c18a65.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

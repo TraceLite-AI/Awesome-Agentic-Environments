@@ -1,0 +1,143 @@
+{
+  "url": "https://arxiv.org/abs/2403.11901",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2403.11901",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "Larimar: Large Language Models with Episodic Memory Control",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2403.11901",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:03.001137+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2403.11901",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44063,
+  "title": "Larimar: Large Language Models with Episodic Memory Control",
+  "authors": [
+    "Das, Payel",
+    "Chaudhury, Subhajit",
+    "Nelson, Elliot",
+    "Melnyk, Igor",
+    "Swaminathan, Sarath",
+    "Dai, Sihui",
+    "Lozano, Aurélie",
+    "Kollias, Georgios",
+    "Chenthamarakshan, Vijil",
+    "Jiří",
+    "Navrátil",
+    "Dan, Soham",
+    "Chen, Pin-Yu"
+  ],
+  "first_author": "Das, Payel",
+  "year": 2024,
+  "source_date": "2024/03/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2403.11901",
+  "abstract": "Efficient and accurate updating of knowledge stored in Large Language Models (LLMs) is one of the most pressing research challenges today. This paper presents Larimar - a novel, brain-inspired architecture for enhancing LLMs with a distributed episodic memory. Larimar's memory allows for dynamic, one-shot updates of knowledge without the need for computationally expensive re-training or fine-tuning. Experimental results on multiple fact editing benchmarks demonstrate that Larimar attains accuracy comparable to most competitive baselines, even in the challenging sequential editing setup, but also excels in speed - yielding speed-ups of 8-10x depending on the base LLM - as well as flexibility due to the proposed architecture being simple, LLM-agnostic, and hence general. We further provide mechanisms for selective fact forgetting, information leakage prevention, and input context length generalization with Larimar and show their effectiveness. Our code is available at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2403.11901: Larimar: Large Language Models with Episodic Memory Control"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Larimar: Large Language Models with Episodic Memory Control"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2403.11901v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Efficient and accurate updating of knowledge stored in Large Language Models (LLMs) is one of the most pressing research challenges today. This paper presents Larimar - a novel, brain-inspired architecture for enhancing LLMs with a distributed episodic memory. Larimar's memory allows for dynamic, one-shot updates of knowledge without the need for computationally expensive re-training or fine-tuning. Experimental results on multiple fact editing benchmarks demonstrate that Larimar attains accuracy comparable to most competitive baselines, even in the challenging sequential editing setup, but also excels in speed - yielding speed-ups of 8-10x depending on the base LLM - as well as flexibility due to the proposed architecture being simple, LLM-agnostic, and hence general. We further provide mechanisms for selective fact forgetting, information leakage prevention, and input context length generalization with Larimar and show their effectiveness. Our code is available at https://github.com/IBM/larimar"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Larimar: Large Language Models with Episodic Memory Control"
+    ],
+    "twitter:description": [
+      "Efficient and accurate updating of knowledge stored in Large Language Models (LLMs) is one of the most pressing research challenges today. This paper presents Larimar - a novel, brain-inspired..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Larimar: Large Language Models with Episodic Memory Control"
+    ],
+    "citation_author": [
+      "Das, Payel",
+      "Chaudhury, Subhajit",
+      "Nelson, Elliot",
+      "Melnyk, Igor",
+      "Swaminathan, Sarath",
+      "Dai, Sihui",
+      "Lozano, Aurélie",
+      "Kollias, Georgios",
+      "Chenthamarakshan, Vijil",
+      "Jiří",
+      "Navrátil",
+      "Dan, Soham",
+      "Chen, Pin-Yu"
+    ],
+    "citation_date": [
+      "2024/03/18"
+    ],
+    "citation_online_date": [
+      "2024/08/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2403.11901"
+    ],
+    "citation_arxiv_id": [
+      "2403.11901"
+    ],
+    "citation_abstract": [
+      "Efficient and accurate updating of knowledge stored in Large Language Models (LLMs) is one of the most pressing research challenges today. This paper presents Larimar - a novel, brain-inspired architecture for enhancing LLMs with a distributed episodic memory. Larimar's memory allows for dynamic, one-shot updates of knowledge without the need for computationally expensive re-training or fine-tuning. Experimental results on multiple fact editing benchmarks demonstrate that Larimar attains accuracy comparable to most competitive baselines, even in the challenging sequential editing setup, but also excels in speed - yielding speed-ups of 8-10x depending on the base LLM - as well as flexibility due to the proposed architecture being simple, LLM-agnostic, and hence general. We further provide mechanisms for selective fact forgetting, information leakage prevention, and input context length generalization with Larimar and show their effectiveness. Our code is available at https://github.com/IBM/larimar"
+    ]
+  },
+  "html_sha256": "702f255f3d75be3865c0b3ab6d5718950c7e8ff0d65297cbb846bbcd2e9d4437",
+  "evidence_html": "evidence/f7245061cdf1ce3f1cde.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2311.12983",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2311.12983",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-11",
+      "topic": "Agent benchmark",
+      "title_hint": "Mialon et al. GAIA: a benchmark for General AI Assistants. arXiv:2311.12983.",
+      "existing_reference_number": 11,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2311.12983",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:04.034326+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2311.12983",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41238,
+  "title": "GAIA: a benchmark for General AI Assistants",
+  "authors": [
+    "Mialon, Grégoire",
+    "Fourrier, Clémentine",
+    "Swift, Craig",
+    "Wolf, Thomas",
+    "LeCun, Yann",
+    "Scialom, Thomas"
+  ],
+  "first_author": "Mialon, Grégoire",
+  "year": 2023,
+  "source_date": "2023/11/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2311.12983",
+  "abstract": "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency. GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92\\% vs. 15\\% for GPT-4 equipped with plugins. This notable performance disparity contrasts with the recent trend of LLMs outperforming humans on tasks requiring professional skills in e.g. law or chemistry. GAIA's philosophy departs from the current trend in AI benchmarks suggesting to target tasks that are ever more difficult for humans. We posit that the advent of Artificial General Intelligence (AGI) hinges on a system's capability to exhibit similar robustness as the average human does on such questions. Using GAIA's methodology, we devise 466 questions and their answer. We release our questions while retaining answers to 300 of them to power a leader-board available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2311.12983: GAIA: a benchmark for General AI Assistants"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GAIA: a benchmark for General AI Assistants"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2311.12983v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency. GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92\\% vs. 15\\% for GPT-4 equipped with plugins. This notable performance disparity contrasts with the recent trend of LLMs outperforming humans on tasks requiring professional skills in e.g. law or chemistry. GAIA's philosophy departs from the current trend in AI benchmarks suggesting to target tasks that are ever more difficult for humans. We posit that the advent of Artificial General Intelligence (AGI) hinges on a system's capability to exhibit similar robustness as the average human does on such questions. Using GAIA's methodology, we devise 466 questions and their answer. We release our questions while retaining answers to 300 of them to power a leader-board available at https://huggingface.co/gaia-benchmark."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GAIA: a benchmark for General AI Assistants"
+    ],
+    "twitter:description": [
+      "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GAIA: a benchmark for General AI Assistants"
+    ],
+    "citation_author": [
+      "Mialon, Grégoire",
+      "Fourrier, Clémentine",
+      "Swift, Craig",
+      "Wolf, Thomas",
+      "LeCun, Yann",
+      "Scialom, Thomas"
+    ],
+    "citation_date": [
+      "2023/11/21"
+    ],
+    "citation_online_date": [
+      "2023/11/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2311.12983"
+    ],
+    "citation_arxiv_id": [
+      "2311.12983"
+    ],
+    "citation_abstract": [
+      "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency. GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92\\% vs. 15\\% for GPT-4 equipped with plugins. This notable performance disparity contrasts with the recent trend of LLMs outperforming humans on tasks requiring professional skills in e.g. law or chemistry. GAIA's philosophy departs from the current trend in AI benchmarks suggesting to target tasks that are ever more difficult for humans. We posit that the advent of Artificial General Intelligence (AGI) hinges on a system's capability to exhibit similar robustness as the average human does on such questions. Using GAIA's methodology, we devise 466 questions and their answer. We release our questions while retaining answers to 300 of them to power a leader-board available at https://huggingface.co/gaia-benchmark."
+    ]
+  },
+  "html_sha256": "fcebc315ea72ccad1c615e354c5218f6d34ef6ad1d5bfa0fafc15b04fa435e9e",
+  "evidence_html": "evidence/1c294c3f51d7bc1f6508.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

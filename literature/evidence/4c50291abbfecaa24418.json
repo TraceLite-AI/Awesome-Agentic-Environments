@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/1801.00690",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1801.00690",
+      "discovery_url": "https://arxiv.org/abs/1801.00690",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "DeepMind Control Suite",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1801.00690",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:37.817944+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1801.00690",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41562,
+  "title": "DeepMind Control Suite",
+  "authors": [
+    "Tassa, Yuval",
+    "Doron, Yotam",
+    "Muldal, Alistair",
+    "Erez, Tom",
+    "Li, Yazhe",
+    "Casas, Diego de Las",
+    "Budden, David",
+    "Abdolmaleki, Abbas",
+    "Merel, Josh",
+    "Lefrancq, Andrew",
+    "Lillicrap, Timothy",
+    "Riedmiller, Martin"
+  ],
+  "first_author": "Tassa, Yuval",
+  "year": 2018,
+  "source_date": "2018/01/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1801.00690",
+  "abstract": "The DeepMind Control Suite is a set of continuous control tasks with a standardised structure and interpretable rewards, intended to serve as performance benchmarks for reinforcement learning agents. The tasks are written in Python and powered by the MuJoCo physics engine, making them easy to use and modify. We include benchmarks for several learning algorithms. The Control Suite is publicly available at this https URL . A video summary of all tasks is available at this http URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1801.00690: DeepMind Control Suite"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DeepMind Control Suite"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1801.00690v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The DeepMind Control Suite is a set of continuous control tasks with a standardised structure and interpretable rewards, intended to serve as performance benchmarks for reinforcement learning agents. The tasks are written in Python and powered by the MuJoCo physics engine, making them easy to use and modify. We include benchmarks for several learning algorithms. The Control Suite is publicly available at https://www.github.com/deepmind/dm_control . A video summary of all tasks is available at http://youtu.be/rAai4QzcYbs ."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DeepMind Control Suite"
+    ],
+    "twitter:description": [
+      "The DeepMind Control Suite is a set of continuous control tasks with a standardised structure and interpretable rewards, intended to serve as performance benchmarks for reinforcement learning..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DeepMind Control Suite"
+    ],
+    "citation_author": [
+      "Tassa, Yuval",
+      "Doron, Yotam",
+      "Muldal, Alistair",
+      "Erez, Tom",
+      "Li, Yazhe",
+      "Casas, Diego de Las",
+      "Budden, David",
+      "Abdolmaleki, Abbas",
+      "Merel, Josh",
+      "Lefrancq, Andrew",
+      "Lillicrap, Timothy",
+      "Riedmiller, Martin"
+    ],
+    "citation_date": [
+      "2018/01/02"
+    ],
+    "citation_online_date": [
+      "2018/01/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1801.00690"
+    ],
+    "citation_arxiv_id": [
+      "1801.00690"
+    ],
+    "citation_abstract": [
+      "The DeepMind Control Suite is a set of continuous control tasks with a standardised structure and interpretable rewards, intended to serve as performance benchmarks for reinforcement learning agents. The tasks are written in Python and powered by the MuJoCo physics engine, making them easy to use and modify. We include benchmarks for several learning algorithms. The Control Suite is publicly available at https://www.github.com/deepmind/dm_control . A video summary of all tasks is available at http://youtu.be/rAai4QzcYbs ."
+    ]
+  },
+  "html_sha256": "858cf662d87791dc41fe558c5556e1235c58f404180ed31d3f798df067b506ee",
+  "evidence_html": "evidence/4c50291abbfecaa24418.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

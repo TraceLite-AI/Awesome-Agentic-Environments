@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2508.14040",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.14040",
+      "discovery_url": "https://github.com/ggjy/Awesome-Agent-Engineering",
+      "topic": "agent_training_and_rl",
+      "title_hint": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.14040",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:43.336147+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.14040",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43178,
+  "title": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+  "authors": [
+    "Lai, Hanyu",
+    "Liu, Xiao",
+    "Zhao, Yanxiao",
+    "Xu, Han",
+    "Zhang, Hanchen",
+    "Jing, Bohao",
+    "Ren, Yanyu",
+    "Yao, Shuntian",
+    "Dong, Yuxiao",
+    "Tang, Jie"
+  ],
+  "first_author": "Lai, Hanyu",
+  "year": 2025,
+  "source_date": "2025/08/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.14040",
+  "abstract": "We introduce ComputerRL, a framework for autonomous desktop intelligence that enables agents to operate complex digital workspaces skillfully. ComputerRL features the API-GUI paradigm, which unifies programmatic API calls and direct GUI interaction to address the inherent mismatch between machine agents and human-centric desktop environments. Scaling end-to-end RL training is crucial for improvement and generalization across diverse desktop tasks; however, it remains challenging due to environmental inefficiency and instability during extended training. To support scalable and robust training, we develop a distributed RL infrastructure capable of orchestrating thousands of parallel virtual desktop environments to accelerate large-scale online RL. Furthermore, we propose Entropulse, a training strategy that alternates reinforcement learning with supervised fine-tuning, effectively mitigating entropy collapse during extended training runs. We employ ComputerRL on open models GLM-4-9B-0414 and GLM-4.1V-9B-Thinking, and evaluate them on the OSWorld benchmark. The AutoGLM-OS-9B achieves a new state-of-the-art accuracy of 48.9%, demonstrating significant improvements for general agents in desktop automation. Our code and the new OfficeWorld benchmark are available at this https URL . The algorithm and framework are adopted in building AutoGLM (Liu et al., 2024b).",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.14040: ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.14040v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce ComputerRL, a framework for autonomous desktop intelligence that enables agents to operate complex digital workspaces skillfully. ComputerRL features the API-GUI paradigm, which unifies programmatic API calls and direct GUI interaction to address the inherent mismatch between machine agents and human-centric desktop environments. Scaling end-to-end RL training is crucial for improvement and generalization across diverse desktop tasks; however, it remains challenging due to environmental inefficiency and instability during extended training. To support scalable and robust training, we develop a distributed RL infrastructure capable of orchestrating thousands of parallel virtual desktop environments to accelerate large-scale online RL. Furthermore, we propose Entropulse, a training strategy that alternates reinforcement learning with supervised fine-tuning, effectively mitigating entropy collapse during extended training runs. We employ ComputerRL on open models GLM-4-9B-0414 and GLM-4.1V-9B-Thinking, and evaluate them on the OSWorld benchmark. The AutoGLM-OS-9B achieves a new state-of-the-art accuracy of 48.9%, demonstrating significant improvements for general agents in desktop automation. Our code and the new OfficeWorld benchmark are available at https://github.com/thudm/ComputerRL. The algorithm and framework are adopted in building AutoGLM (Liu et al., 2024b)."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ComputerRL: Scaling End-to-End Online Reinforcement Learning for..."
+    ],
+    "twitter:description": [
+      "We introduce ComputerRL, a framework for autonomous desktop intelligence that enables agents to operate complex digital workspaces skillfully. ComputerRL features the API-GUI paradigm, which..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents"
+    ],
+    "citation_author": [
+      "Lai, Hanyu",
+      "Liu, Xiao",
+      "Zhao, Yanxiao",
+      "Xu, Han",
+      "Zhang, Hanchen",
+      "Jing, Bohao",
+      "Ren, Yanyu",
+      "Yao, Shuntian",
+      "Dong, Yuxiao",
+      "Tang, Jie"
+    ],
+    "citation_date": [
+      "2025/08/19"
+    ],
+    "citation_online_date": [
+      "2025/10/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.14040"
+    ],
+    "citation_arxiv_id": [
+      "2508.14040"
+    ],
+    "citation_abstract": [
+      "We introduce ComputerRL, a framework for autonomous desktop intelligence that enables agents to operate complex digital workspaces skillfully. ComputerRL features the API-GUI paradigm, which unifies programmatic API calls and direct GUI interaction to address the inherent mismatch between machine agents and human-centric desktop environments. Scaling end-to-end RL training is crucial for improvement and generalization across diverse desktop tasks; however, it remains challenging due to environmental inefficiency and instability during extended training. To support scalable and robust training, we develop a distributed RL infrastructure capable of orchestrating thousands of parallel virtual desktop environments to accelerate large-scale online RL. Furthermore, we propose Entropulse, a training strategy that alternates reinforcement learning with supervised fine-tuning, effectively mitigating entropy collapse during extended training runs. We employ ComputerRL on open models GLM-4-9B-0414 and GLM-4.1V-9B-Thinking, and evaluate them on the OSWorld benchmark. The AutoGLM-OS-9B achieves a new state-of-the-art accuracy of 48.9%, demonstrating significant improvements for general agents in desktop automation. Our code and the new OfficeWorld benchmark are available at https://github.com/thudm/ComputerRL. The algorithm and framework are adopted in building AutoGLM (Liu et al., 2024b)."
+    ]
+  },
+  "html_sha256": "8c0894c75d4fcfc4eff77b15ba8c7366eaec73a9c85e4e646a643a55b7ab9379",
+  "evidence_html": "evidence/6a40bd055b7329ce1a8d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

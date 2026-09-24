@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2405.00516",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2405.00516",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2405.00516",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:46.845825+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2405.00516",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45156,
+  "title": "Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning",
+  "authors": [
+    "Thil, Lucas-Andreï",
+    "Popa, Mirela",
+    "Spanakis, Gerasimos"
+  ],
+  "first_author": "Thil, Lucas-Andreï",
+  "year": 2024,
+  "source_date": "2024/05/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "9798400702433",
+  "doi": "10.1145/3605098.3635903",
+  "arxiv_id": "2405.00516",
+  "abstract": "Recent advancements in language models have demonstrated remarkable improvements in various natural language processing (NLP) tasks such as web navigation. Supervised learning (SL) approaches have achieved impressive performance while utilizing significantly less training data compared to previous methods. However, these SL-based models fall short when compared to reinforcement learning (RL) approaches, which have shown superior results. In this paper, we propose a novel approach that combines SL and RL techniques over the MiniWoB benchmark to leverage the strengths of both methods. We also address a critical limitation in previous models' understanding of HTML content, revealing a tendency to memorize target elements rather than comprehend the underlying structure. To rectify this, we propose methods to enhance true understanding and present a new baseline of results. Our experiments demonstrate that our approach outperforms previous SL methods on certain tasks using less data and narrows the performance gap with RL models, achieving 43.58\\% average accuracy in SL and 36.69\\% when combined with a multimodal RL approach. This study sets a new direction for future web navigation and offers insights into the limitations and potential of language modeling for computer tasks.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2405.00516: Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2405.00516v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advancements in language models have demonstrated remarkable improvements in various natural language processing (NLP) tasks such as web navigation. Supervised learning (SL) approaches have achieved impressive performance while utilizing significantly less training data compared to previous methods. However, these SL-based models fall short when compared to reinforcement learning (RL) approaches, which have shown superior results. In this paper, we propose a novel approach that combines SL and RL techniques over the MiniWoB benchmark to leverage the strengths of both methods. We also address a critical limitation in previous models' understanding of HTML content, revealing a tendency to memorize target elements rather than comprehend the underlying structure. To rectify this, we propose methods to enhance true understanding and present a new baseline of results. Our experiments demonstrate that our approach outperforms previous SL methods on certain tasks using less data and narrows the performance gap with RL models, achieving 43.58\\% average accuracy in SL and 36.69\\% when combined with a multimodal RL approach. This study sets a new direction for future web navigation and offers insights into the limitations and potential of language modeling for computer tasks."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Navigating WebAI: Training Agents to Complete Web Tasks with Large..."
+    ],
+    "twitter:description": [
+      "Recent advancements in language models have demonstrated remarkable improvements in various natural language processing (NLP) tasks such as web navigation. Supervised learning (SL) approaches have..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Thil, Lucas-Andreï",
+      "Popa, Mirela",
+      "Spanakis, Gerasimos"
+    ],
+    "citation_doi": [
+      "10.1145/3605098.3635903"
+    ],
+    "citation_date": [
+      "2024/05/01"
+    ],
+    "citation_online_date": [
+      "2024/05/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2405.00516"
+    ],
+    "citation_arxiv_id": [
+      "2405.00516"
+    ],
+    "citation_abstract": [
+      "Recent advancements in language models have demonstrated remarkable improvements in various natural language processing (NLP) tasks such as web navigation. Supervised learning (SL) approaches have achieved impressive performance while utilizing significantly less training data compared to previous methods. However, these SL-based models fall short when compared to reinforcement learning (RL) approaches, which have shown superior results. In this paper, we propose a novel approach that combines SL and RL techniques over the MiniWoB benchmark to leverage the strengths of both methods. We also address a critical limitation in previous models' understanding of HTML content, revealing a tendency to memorize target elements rather than comprehend the underlying structure. To rectify this, we propose methods to enhance true understanding and present a new baseline of results. Our experiments demonstrate that our approach outperforms previous SL methods on certain tasks using less data and narrows the performance gap with RL models, achieving 43.58\\% average accuracy in SL and 36.69\\% when combined with a multimodal RL approach. This study sets a new direction for future web navigation and offers insights into the limitations and potential of language modeling for computer tasks."
+    ]
+  },
+  "html_sha256": "382960af475f2b682892f33be42886b4ff8f04dc973254da6770a00dce9d0db7",
+  "evidence_html": "evidence/bb7bb2b7e9554a598bd2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2602.20708",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.20708",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.20708",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:56.395617+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.20708",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42585,
+  "title": "ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction",
+  "authors": [
+    "Wang, Che",
+    "Zhang, Fuyao",
+    "Zhang, Jiaming",
+    "Zhang, Ziqi",
+    "Wang, Yinghui",
+    "Huang, Longtao",
+    "Gao, Jianbo",
+    "Chen, Zhong",
+    "Lim, Wei Yang Bryan"
+  ],
+  "first_author": "Wang, Che",
+  "year": 2026,
+  "source_date": "2026/02/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.20708",
+  "abstract": "Large Language Model (LLM) agents are susceptible to Indirect Prompt Injection (IPI) attacks, where malicious instructions in retrieved content hijack the agent's execution. Existing defenses typically rely on strict filtering or refusal mechanisms, which suffer from a critical limitation: over-refusal, prematurely terminating valid agentic workflows. We propose ICON, a probing-to-mitigation framework that neutralizes attacks while preserving task continuity. Our key insight is that IPI attacks leave distinct over-focusing signatures in the latent space. We introduce a Latent Space Trace Prober to detect attacks based on high intensity scores. Subsequently, a Mitigating Rectifier performs surgical attention steering that selectively manipulate adversarial query key dependencies while amplifying task relevant elements to restore the LLM's functional trajectory. Extensive evaluations on multiple backbones show that ICON achieves a competitive 0.4% ASR, matching commercial grade detectors, while yielding a over 50% task utility gain. Furthermore, ICON demonstrates robust Out of Distribution(OOD) generalization and extends effectively to multi-modal agents, establishing a superior balance between security and efficiency.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.20708: ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.20708v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Model (LLM) agents are susceptible to Indirect Prompt Injection (IPI) attacks, where malicious instructions in retrieved content hijack the agent's execution. Existing defenses typically rely on strict filtering or refusal mechanisms, which suffer from a critical limitation: over-refusal, prematurely terminating valid agentic workflows. We propose ICON, a probing-to-mitigation framework that neutralizes attacks while preserving task continuity. Our key insight is that IPI attacks leave distinct over-focusing signatures in the latent space. We introduce a Latent Space Trace Prober to detect attacks based on high intensity scores. Subsequently, a Mitigating Rectifier performs surgical attention steering that selectively manipulate adversarial query key dependencies while amplifying task relevant elements to restore the LLM's functional trajectory. Extensive evaluations on multiple backbones show that ICON achieves a competitive 0.4% ASR, matching commercial grade detectors, while yielding a over 50% task utility gain. Furthermore, ICON demonstrates robust Out of Distribution(OOD) generalization and extends effectively to multi-modal agents, establishing a superior balance between security and efficiency."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ICON: Indirect Prompt Injection Defense for Agents based on..."
+    ],
+    "twitter:description": [
+      "Large Language Model (LLM) agents are susceptible to Indirect Prompt Injection (IPI) attacks, where malicious instructions in retrieved content hijack the agent's execution. Existing defenses..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction"
+    ],
+    "citation_author": [
+      "Wang, Che",
+      "Zhang, Fuyao",
+      "Zhang, Jiaming",
+      "Zhang, Ziqi",
+      "Wang, Yinghui",
+      "Huang, Longtao",
+      "Gao, Jianbo",
+      "Chen, Zhong",
+      "Lim, Wei Yang Bryan"
+    ],
+    "citation_date": [
+      "2026/02/24"
+    ],
+    "citation_online_date": [
+      "2026/02/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.20708"
+    ],
+    "citation_arxiv_id": [
+      "2602.20708"
+    ],
+    "citation_abstract": [
+      "Large Language Model (LLM) agents are susceptible to Indirect Prompt Injection (IPI) attacks, where malicious instructions in retrieved content hijack the agent's execution. Existing defenses typically rely on strict filtering or refusal mechanisms, which suffer from a critical limitation: over-refusal, prematurely terminating valid agentic workflows. We propose ICON, a probing-to-mitigation framework that neutralizes attacks while preserving task continuity. Our key insight is that IPI attacks leave distinct over-focusing signatures in the latent space. We introduce a Latent Space Trace Prober to detect attacks based on high intensity scores. Subsequently, a Mitigating Rectifier performs surgical attention steering that selectively manipulate adversarial query key dependencies while amplifying task relevant elements to restore the LLM's functional trajectory. Extensive evaluations on multiple backbones show that ICON achieves a competitive 0.4% ASR, matching commercial grade detectors, while yielding a over 50% task utility gain. Furthermore, ICON demonstrates robust Out of Distribution(OOD) generalization and extends effectively to multi-modal agents, establishing a superior balance between security and efficiency."
+    ]
+  },
+  "html_sha256": "43c4b7aa2ad2dff3e1e7b9f640591adf52f551b386afee2704f6ee48d14d0483",
+  "evidence_html": "evidence/29884f3078d8d3f7c6fb.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

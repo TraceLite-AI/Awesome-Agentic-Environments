@@ -1,0 +1,74 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Webshop: Towards scalable real-world web interaction with grounded language agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:14.898465+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10154,
+  "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+  "authors": [
+    "Yao, Shunyu",
+    "Chen, Howard",
+    "Yang, John",
+    "Narasimhan, Karthik"
+  ],
+  "first_author": "Yao, Shunyu",
+  "year": 2022,
+  "source_date": "2022-12-06",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/068431-1508",
+  "arxiv_id": "",
+  "abstract": "Most existing benchmarks for grounding language in interactive environments either lack realistic linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. We develop WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12,087 crowd-sourced text instructions. In this environment, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase a product given an instruction. WebShop provides several challenges including understanding compositional instructions, query (re-)formulation, dealing with noisy text in webpages, and performing strategic exploration. We collect over 1,600 human trajectories to first validate the benchmark, then train and evaluate a diverse range of agents using reinforcement learning, imitation learning, and pre-trained image and language models. Our best model achieves a task success rate of 29%, which significantly outperforms rule heuristics but is far lower than expert human performance (59%). We also analyze agent and human trajectories and ablate various model components to provide insights for developing future agents with stronger language understanding and decision making abilities. Finally, we show our agent trained on WebShop exhibits non-trivial sim-to-real transfer when evaluated on amazon.com and ebay.com, indicating the potential value of our benchmark for developing practical web agents that can operate in the wild.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
+    ],
+    "citation_author": [
+      "Yao, Shunyu",
+      "Chen, Howard",
+      "Yang, John",
+      "Narasimhan, Karthik"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "35"
+    ],
+    "citation_doi": [
+      "10.52202/068431-1508"
+    ],
+    "citation_firstpage": [
+      "20744"
+    ],
+    "citation_lastpage": [
+      "20757"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf"
+    ],
+    "citation_publication_date": [
+      "2022-12-06"
+    ]
+  },
+  "html_sha256": "0c595a0a861b4905be448fbfc7a367ef416548f3af20a0dbe3375af24cb96a2b",
+  "evidence_html": "evidence/61fa7adb751bbf7aabf9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

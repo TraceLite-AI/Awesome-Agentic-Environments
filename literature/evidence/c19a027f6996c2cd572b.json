@@ -1,0 +1,131 @@
+{
+  "url": "https://arxiv.org/abs/2404.16660",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.16660",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "Benchmarking Mobile Device Control Agents across Diverse Configurations",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.16660",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:42.573292+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.16660",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42549,
+  "title": "Benchmarking Mobile Device Control Agents across Diverse Configurations",
+  "authors": [
+    "Lee, Juyong",
+    "Min, Taywon",
+    "An, Minyong",
+    "Hahm, Dongyoon",
+    "Lee, Haeone",
+    "Kim, Changyeon",
+    "Lee, Kimin"
+  ],
+  "first_author": "Lee, Juyong",
+  "year": 2024,
+  "source_date": "2024/04/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.16660",
+  "abstract": "Mobile device control agents can largely enhance user interactions and productivity by automating daily tasks. However, despite growing interest in developing practical agents, the absence of a commonly adopted benchmark in this area makes it challenging to quantify scientific progress. In this work, we introduce B-MoCA: a novel benchmark with interactive environments for evaluating and developing mobile device control agents. To create a realistic benchmark, we develop B-MoCA based on the Android operating system and define 131 common daily tasks. Importantly, we incorporate a randomization feature that changes the configurations of mobile devices, including user interface layouts and language settings, to assess generalization performance. We benchmark diverse agents, including agents employing large language models (LLMs) or multi-modal LLMs as well as agents trained with imitation learning using human expert demonstrations. While these agents demonstrate proficiency in executing straightforward tasks, their poor performance on complex tasks highlights significant opportunities for future research to improve effectiveness. Our source code is publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.16660: Benchmarking Mobile Device Control Agents across Diverse Configurations"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Benchmarking Mobile Device Control Agents across Diverse Configurations"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.16660v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Mobile device control agents can largely enhance user interactions and productivity by automating daily tasks. However, despite growing interest in developing practical agents, the absence of a commonly adopted benchmark in this area makes it challenging to quantify scientific progress. In this work, we introduce B-MoCA: a novel benchmark with interactive environments for evaluating and developing mobile device control agents. To create a realistic benchmark, we develop B-MoCA based on the Android operating system and define 131 common daily tasks. Importantly, we incorporate a randomization feature that changes the configurations of mobile devices, including user interface layouts and language settings, to assess generalization performance. We benchmark diverse agents, including agents employing large language models (LLMs) or multi-modal LLMs as well as agents trained with imitation learning using human expert demonstrations. While these agents demonstrate proficiency in executing straightforward tasks, their poor performance on complex tasks highlights significant opportunities for future research to improve effectiveness. Our source code is publicly available at https://b-moca.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Benchmarking Mobile Device Control Agents across Diverse Configurations"
+    ],
+    "twitter:description": [
+      "Mobile device control agents can largely enhance user interactions and productivity by automating daily tasks. However, despite growing interest in developing practical agents, the absence of a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Benchmarking Mobile Device Control Agents across Diverse Configurations"
+    ],
+    "citation_author": [
+      "Lee, Juyong",
+      "Min, Taywon",
+      "An, Minyong",
+      "Hahm, Dongyoon",
+      "Lee, Haeone",
+      "Kim, Changyeon",
+      "Lee, Kimin"
+    ],
+    "citation_date": [
+      "2024/04/25"
+    ],
+    "citation_online_date": [
+      "2025/07/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.16660"
+    ],
+    "citation_arxiv_id": [
+      "2404.16660"
+    ],
+    "citation_abstract": [
+      "Mobile device control agents can largely enhance user interactions and productivity by automating daily tasks. However, despite growing interest in developing practical agents, the absence of a commonly adopted benchmark in this area makes it challenging to quantify scientific progress. In this work, we introduce B-MoCA: a novel benchmark with interactive environments for evaluating and developing mobile device control agents. To create a realistic benchmark, we develop B-MoCA based on the Android operating system and define 131 common daily tasks. Importantly, we incorporate a randomization feature that changes the configurations of mobile devices, including user interface layouts and language settings, to assess generalization performance. We benchmark diverse agents, including agents employing large language models (LLMs) or multi-modal LLMs as well as agents trained with imitation learning using human expert demonstrations. While these agents demonstrate proficiency in executing straightforward tasks, their poor performance on complex tasks highlights significant opportunities for future research to improve effectiveness. Our source code is publicly available at https://b-moca.github.io."
+    ]
+  },
+  "html_sha256": "bdd675ff222eaa670c9414b835e7eb22daceb09379dfbcbd666edb0eebaef3ba",
+  "evidence_html": "evidence/c19a027f6996c2cd572b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

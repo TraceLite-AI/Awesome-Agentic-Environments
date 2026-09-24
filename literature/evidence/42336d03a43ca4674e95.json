@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2503.16408",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.16408",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Robofactory: Exploring embodied agent collaboration with compositional constraints",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.16408",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:48.887817+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.16408",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42280,
+  "title": "RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints",
+  "authors": [
+    "Qin, Yiran",
+    "Kang, Li",
+    "Song, Xiufeng",
+    "Yin, Zhenfei",
+    "Liu, Xiaohong",
+    "Liu, Xihui",
+    "Zhang, Ruimao",
+    "Bai, Lei"
+  ],
+  "first_author": "Qin, Yiran",
+  "year": 2025,
+  "source_date": "2025/03/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.16408",
+  "abstract": "Designing effective embodied multi-agent systems is critical for solving complex real-world tasks across domains. Due to the complexity of multi-agent embodied systems, existing methods fail to automatically generate safe and efficient training data for such systems. To this end, we propose the concept of compositional constraints for embodied multi-agent systems, addressing the challenges arising from collaboration among embodied agents. We design various interfaces tailored to different types of constraints, enabling seamless interaction with the physical world. Leveraging compositional constraints and specifically designed interfaces, we develop an automated data collection framework for embodied multi-agent systems and introduce the first benchmark for embodied multi-agent manipulation, RoboFactory. Based on RoboFactory benchmark, we adapt and evaluate the method of imitation learning and analyzed its performance in different difficulty agent tasks. Furthermore, we explore the architectures and training strategies for multi-agent imitation learning, aiming to build safe and efficient embodied multi-agent systems.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.16408: RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.16408v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Designing effective embodied multi-agent systems is critical for solving complex real-world tasks across domains. Due to the complexity of multi-agent embodied systems, existing methods fail to automatically generate safe and efficient training data for such systems. To this end, we propose the concept of compositional constraints for embodied multi-agent systems, addressing the challenges arising from collaboration among embodied agents. We design various interfaces tailored to different types of constraints, enabling seamless interaction with the physical world. Leveraging compositional constraints and specifically designed interfaces, we develop an automated data collection framework for embodied multi-agent systems and introduce the first benchmark for embodied multi-agent manipulation, RoboFactory. Based on RoboFactory benchmark, we adapt and evaluate the method of imitation learning and analyzed its performance in different difficulty agent tasks. Furthermore, we explore the architectures and training strategies for multi-agent imitation learning, aiming to build safe and efficient embodied multi-agent systems."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RoboFactory: Exploring Embodied Agent Collaboration with..."
+    ],
+    "twitter:description": [
+      "Designing effective embodied multi-agent systems is critical for solving complex real-world tasks across domains. Due to the complexity of multi-agent embodied systems, existing methods fail to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints"
+    ],
+    "citation_author": [
+      "Qin, Yiran",
+      "Kang, Li",
+      "Song, Xiufeng",
+      "Yin, Zhenfei",
+      "Liu, Xiaohong",
+      "Liu, Xihui",
+      "Zhang, Ruimao",
+      "Bai, Lei"
+    ],
+    "citation_date": [
+      "2025/03/20"
+    ],
+    "citation_online_date": [
+      "2025/03/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.16408"
+    ],
+    "citation_arxiv_id": [
+      "2503.16408"
+    ],
+    "citation_abstract": [
+      "Designing effective embodied multi-agent systems is critical for solving complex real-world tasks across domains. Due to the complexity of multi-agent embodied systems, existing methods fail to automatically generate safe and efficient training data for such systems. To this end, we propose the concept of compositional constraints for embodied multi-agent systems, addressing the challenges arising from collaboration among embodied agents. We design various interfaces tailored to different types of constraints, enabling seamless interaction with the physical world. Leveraging compositional constraints and specifically designed interfaces, we develop an automated data collection framework for embodied multi-agent systems and introduce the first benchmark for embodied multi-agent manipulation, RoboFactory. Based on RoboFactory benchmark, we adapt and evaluate the method of imitation learning and analyzed its performance in different difficulty agent tasks. Furthermore, we explore the architectures and training strategies for multi-agent imitation learning, aiming to build safe and efficient embodied multi-agent systems."
+    ]
+  },
+  "html_sha256": "1afaba4e1edb3d351632e6bd4b32c7ac29ccaf6e791854e3c7792677e409122a",
+  "evidence_html": "evidence/42336d03a43ca4674e95.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

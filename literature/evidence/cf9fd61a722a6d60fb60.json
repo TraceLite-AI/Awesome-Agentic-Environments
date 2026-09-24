@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2412.21139",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.21139",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.21139",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:20.748525+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.21139",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41149,
+  "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+  "authors": [
+    "Pan, Jiayi",
+    "Wang, Xingyao",
+    "Neubig, Graham",
+    "Jaitly, Navdeep",
+    "Ji, Heng",
+    "Suhr, Alane",
+    "Zhang, Yizhe"
+  ],
+  "first_author": "Pan, Jiayi",
+  "year": 2024,
+  "source_date": "2024/12/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2412.21139",
+  "abstract": "We present SWE-Gym, the first environment for training real-world software engineering (SWE) agents. SWE-Gym contains 2,438 real-world Python task instances, each comprising a codebase with an executable runtime environment, unit tests, and a task specified in natural language. We use SWE-Gym to train language model based SWE agents, achieving up to 19% absolute gains in resolve rate on the popular SWE-Bench Verified and Lite test sets. We also experiment with inference-time scaling through verifiers trained on agent trajectories sampled from SWE-Gym. When combined with our fine-tuned SWE agents, we achieve 32.0% and 26.0% on SWE-Bench Verified and Lite, respectively, reflecting a new state-of-the-art for open-weight SWE agents. To facilitate further research, we publicly release SWE-Gym, models, and agent trajectories.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.21139: Training Software Engineering Agents and Verifiers with SWE-Gym"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Training Software Engineering Agents and Verifiers with SWE-Gym"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.21139v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We present SWE-Gym, the first environment for training real-world software engineering (SWE) agents. SWE-Gym contains 2,438 real-world Python task instances, each comprising a codebase with an executable runtime environment, unit tests, and a task specified in natural language. We use SWE-Gym to train language model based SWE agents, achieving up to 19% absolute gains in resolve rate on the popular SWE-Bench Verified and Lite test sets. We also experiment with inference-time scaling through verifiers trained on agent trajectories sampled from SWE-Gym. When combined with our fine-tuned SWE agents, we achieve 32.0% and 26.0% on SWE-Bench Verified and Lite, respectively, reflecting a new state-of-the-art for open-weight SWE agents. To facilitate further research, we publicly release SWE-Gym, models, and agent trajectories."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Training Software Engineering Agents and Verifiers with SWE-Gym"
+    ],
+    "twitter:description": [
+      "We present SWE-Gym, the first environment for training real-world software engineering (SWE) agents. SWE-Gym contains 2,438 real-world Python task instances, each comprising a codebase with an..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Training Software Engineering Agents and Verifiers with SWE-Gym"
+    ],
+    "citation_author": [
+      "Pan, Jiayi",
+      "Wang, Xingyao",
+      "Neubig, Graham",
+      "Jaitly, Navdeep",
+      "Ji, Heng",
+      "Suhr, Alane",
+      "Zhang, Yizhe"
+    ],
+    "citation_date": [
+      "2024/12/30"
+    ],
+    "citation_online_date": [
+      "2025/06/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.21139"
+    ],
+    "citation_arxiv_id": [
+      "2412.21139"
+    ],
+    "citation_abstract": [
+      "We present SWE-Gym, the first environment for training real-world software engineering (SWE) agents. SWE-Gym contains 2,438 real-world Python task instances, each comprising a codebase with an executable runtime environment, unit tests, and a task specified in natural language. We use SWE-Gym to train language model based SWE agents, achieving up to 19% absolute gains in resolve rate on the popular SWE-Bench Verified and Lite test sets. We also experiment with inference-time scaling through verifiers trained on agent trajectories sampled from SWE-Gym. When combined with our fine-tuned SWE agents, we achieve 32.0% and 26.0% on SWE-Bench Verified and Lite, respectively, reflecting a new state-of-the-art for open-weight SWE agents. To facilitate further research, we publicly release SWE-Gym, models, and agent trajectories."
+    ]
+  },
+  "html_sha256": "0a433fc415e680786456b341c3815b834ca7c286a71631110b9c3170c697e6b3",
+  "evidence_html": "evidence/cf9fd61a722a6d60fb60.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

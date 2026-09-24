@@ -1,0 +1,148 @@
+{
+  "url": "https://arxiv.org/abs/2405.14573",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2405.14573",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-14",
+      "topic": "Agent benchmark",
+      "title_hint": "Rawles et al. AndroidWorld. arXiv:2405.14573.",
+      "existing_reference_number": 14,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2405.14573",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:05.420494+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2405.14573",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44789,
+  "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+  "authors": [
+    "Rawles, Christopher",
+    "Clinckemaillie, Sarah",
+    "Chang, Yifan",
+    "Waltz, Jonathan",
+    "Lau, Gabrielle",
+    "Fair, Marybeth",
+    "Li, Alice",
+    "Bishop, William",
+    "Li, Wei",
+    "Campbell-Ajala, Folawiyo",
+    "Toyama, Daniel",
+    "Berry, Robert",
+    "Tyamagundlu, Divya",
+    "Lillicrap, Timothy",
+    "Riva, Oriana"
+  ],
+  "first_author": "Rawles, Christopher",
+  "year": 2024,
+  "source_date": "2024/05/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2405.14573",
+  "abstract": "Autonomous agents that execute human tasks by controlling computers can enhance human productivity and application accessibility. However, progress in this field will be driven by realistic and reproducible benchmarks. We present AndroidWorld, a fully functional Android environment that provides reward signals for 116 programmatic tasks across 20 real-world Android apps. Unlike existing interactive environments, which provide a static test set, AndroidWorld dynamically constructs tasks that are parameterized and expressed in natural language in unlimited ways, thus enabling testing on a much larger and more realistic suite of tasks. To ensure reproducibility, each task includes dedicated initialization, success-checking, and tear-down logic, which modifies and inspects the device's system state. We experiment with baseline agents to test AndroidWorld and provide initial results on the benchmark. Our best agent can complete 30.6% of AndroidWorld's tasks, leaving ample room for future work. Furthermore, we adapt a popular desktop web agent to work on Android, which we find to be less effective on mobile, suggesting future research is needed to achieve universal, cross-platform agents. Finally, we also conduct a robustness analysis, showing that task variations can significantly affect agent performance, demonstrating that without such testing, agent performance metrics may not fully reflect practical challenges. AndroidWorld and the experiments in this paper are available at this http URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2405.14573: AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2405.14573v5"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous agents that execute human tasks by controlling computers can enhance human productivity and application accessibility. However, progress in this field will be driven by realistic and reproducible benchmarks. We present AndroidWorld, a fully functional Android environment that provides reward signals for 116 programmatic tasks across 20 real-world Android apps. Unlike existing interactive environments, which provide a static test set, AndroidWorld dynamically constructs tasks that are parameterized and expressed in natural language in unlimited ways, thus enabling testing on a much larger and more realistic suite of tasks. To ensure reproducibility, each task includes dedicated initialization, success-checking, and tear-down logic, which modifies and inspects the device's system state. We experiment with baseline agents to test AndroidWorld and provide initial results on the benchmark. Our best agent can complete 30.6% of AndroidWorld's tasks, leaving ample room for future work. Furthermore, we adapt a popular desktop web agent to work on Android, which we find to be less effective on mobile, suggesting future research is needed to achieve universal, cross-platform agents. Finally, we also conduct a robustness analysis, showing that task variations can significantly affect agent performance, demonstrating that without such testing, agent performance metrics may not fully reflect practical challenges. AndroidWorld and the experiments in this paper are available at github.com/google-research/android_world."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+    ],
+    "twitter:description": [
+      "Autonomous agents that execute human tasks by controlling computers can enhance human productivity and application accessibility. However, progress in this field will be driven by realistic and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+    ],
+    "citation_author": [
+      "Rawles, Christopher",
+      "Clinckemaillie, Sarah",
+      "Chang, Yifan",
+      "Waltz, Jonathan",
+      "Lau, Gabrielle",
+      "Fair, Marybeth",
+      "Li, Alice",
+      "Bishop, William",
+      "Li, Wei",
+      "Campbell-Ajala, Folawiyo",
+      "Toyama, Daniel",
+      "Berry, Robert",
+      "Tyamagundlu, Divya",
+      "Lillicrap, Timothy",
+      "Riva, Oriana"
+    ],
+    "citation_date": [
+      "2024/05/23"
+    ],
+    "citation_online_date": [
+      "2025/04/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2405.14573"
+    ],
+    "citation_arxiv_id": [
+      "2405.14573"
+    ],
+    "citation_abstract": [
+      "Autonomous agents that execute human tasks by controlling computers can enhance human productivity and application accessibility. However, progress in this field will be driven by realistic and reproducible benchmarks. We present AndroidWorld, a fully functional Android environment that provides reward signals for 116 programmatic tasks across 20 real-world Android apps. Unlike existing interactive environments, which provide a static test set, AndroidWorld dynamically constructs tasks that are parameterized and expressed in natural language in unlimited ways, thus enabling testing on a much larger and more realistic suite of tasks. To ensure reproducibility, each task includes dedicated initialization, success-checking, and tear-down logic, which modifies and inspects the device's system state. We experiment with baseline agents to test AndroidWorld and provide initial results on the benchmark. Our best agent can complete 30.6% of AndroidWorld's tasks, leaving ample room for future work. Furthermore, we adapt a popular desktop web agent to work on Android, which we find to be less effective on mobile, suggesting future research is needed to achieve universal, cross-platform agents. Finally, we also conduct a robustness analysis, showing that task variations can significantly affect agent performance, demonstrating that without such testing, agent performance metrics may not fully reflect practical challenges. AndroidWorld and the experiments in this paper are available at github.com/google-research/android_world."
+    ]
+  },
+  "html_sha256": "7898470b4d877e55ad999050c9491aa4bdcf775b967cf40b641c4970f87d502f",
+  "evidence_html": "evidence/6d9d7574bcb649369cef.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

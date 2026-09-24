@@ -1,0 +1,149 @@
+{
+  "url": "https://arxiv.org/abs/2101.04882",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2101.04882",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2021 · Asymmetric Self-Play — Asymmetric self-play for automatic goal discovery in robotic manipulation",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2101.04882",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:56.232246+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2101.04882",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45094,
+  "title": "Asymmetric self-play for automatic goal discovery in robotic manipulation",
+  "authors": [
+    "OpenAI, OpenAI",
+    "Plappert, Matthias",
+    "Sampedro, Raul",
+    "Xu, Tao",
+    "Akkaya, Ilge",
+    "Kosaraju, Vineet",
+    "Welinder, Peter",
+    "D'Sa, Ruben",
+    "Petron, Arthur",
+    "Pinto, Henrique P. d. O.",
+    "Paino, Alex",
+    "Noh, Hyeonwoo",
+    "Weng, Lilian",
+    "Yuan, Qiming",
+    "Chu, Casey",
+    "Zaremba, Wojciech"
+  ],
+  "first_author": "OpenAI, OpenAI",
+  "year": 2021,
+  "source_date": "2021/01/13",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2101.04882",
+  "abstract": "We train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. We rely on asymmetric self-play for goal discovery, where two agents, Alice and Bob, play a game. Alice is asked to propose challenging goals and Bob aims to solve them. We show that this method can discover highly diverse and complex goals without any human priors. Bob can be trained with only sparse rewards, because the interaction between Alice and Bob results in a natural curriculum and Bob can learn from Alice's trajectory when relabeled as a goal-conditioned demonstration. Finally, our method scales, resulting in a single policy that can generalize to many unseen tasks such as setting a table, stacking blocks, and solving simple puzzles. Videos of a learned policy is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2101.04882: Asymmetric self-play for automatic goal discovery in robotic manipulation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Asymmetric self-play for automatic goal discovery in robotic manipulation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2101.04882v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. We rely on asymmetric self-play for goal discovery, where two agents, Alice and Bob, play a game. Alice is asked to propose challenging goals and Bob aims to solve them. We show that this method can discover highly diverse and complex goals without any human priors. Bob can be trained with only sparse rewards, because the interaction between Alice and Bob results in a natural curriculum and Bob can learn from Alice's trajectory when relabeled as a goal-conditioned demonstration. Finally, our method scales, resulting in a single policy that can generalize to many unseen tasks such as setting a table, stacking blocks, and solving simple puzzles. Videos of a learned policy is available at https://robotics-self-play.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Asymmetric self-play for automatic goal discovery in robotic manipulation"
+    ],
+    "twitter:description": [
+      "We train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. We rely on asymmetric self-play for goal..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Asymmetric self-play for automatic goal discovery in robotic manipulation"
+    ],
+    "citation_author": [
+      "OpenAI, OpenAI",
+      "Plappert, Matthias",
+      "Sampedro, Raul",
+      "Xu, Tao",
+      "Akkaya, Ilge",
+      "Kosaraju, Vineet",
+      "Welinder, Peter",
+      "D'Sa, Ruben",
+      "Petron, Arthur",
+      "Pinto, Henrique P. d. O.",
+      "Paino, Alex",
+      "Noh, Hyeonwoo",
+      "Weng, Lilian",
+      "Yuan, Qiming",
+      "Chu, Casey",
+      "Zaremba, Wojciech"
+    ],
+    "citation_date": [
+      "2021/01/13"
+    ],
+    "citation_online_date": [
+      "2021/01/13"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2101.04882"
+    ],
+    "citation_arxiv_id": [
+      "2101.04882"
+    ],
+    "citation_abstract": [
+      "We train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. We rely on asymmetric self-play for goal discovery, where two agents, Alice and Bob, play a game. Alice is asked to propose challenging goals and Bob aims to solve them. We show that this method can discover highly diverse and complex goals without any human priors. Bob can be trained with only sparse rewards, because the interaction between Alice and Bob results in a natural curriculum and Bob can learn from Alice's trajectory when relabeled as a goal-conditioned demonstration. Finally, our method scales, resulting in a single policy that can generalize to many unseen tasks such as setting a table, stacking blocks, and solving simple puzzles. Videos of a learned policy is available at https://robotics-self-play.github.io."
+    ]
+  },
+  "html_sha256": "44112a7f0846c5e4819b342e6df7d742e326e2576e09566803fd51aa2dfdce73",
+  "evidence_html": "evidence/b4c6cee67124885e4f25.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

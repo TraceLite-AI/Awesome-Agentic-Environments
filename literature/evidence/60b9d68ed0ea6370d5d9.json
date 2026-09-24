@@ -1,0 +1,195 @@
+{
+  "url": "https://arxiv.org/abs/2507.03724",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.03724",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "MemOS: A Memory OS for AI System",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.03724",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:08.211658+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.03724",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 49372,
+  "title": "MemOS: A Memory OS for AI System",
+  "authors": [
+    "Li, Zhiyu",
+    "Xi, Chenyang",
+    "Li, Chunyu",
+    "Chen, Ding",
+    "Chen, Boyu",
+    "Song, Shichao",
+    "Niu, Simin",
+    "Wang, Hanyu",
+    "Yang, Jiawei",
+    "Tang, Chen",
+    "Yu, Qingchen",
+    "Zhao, Jihao",
+    "Wang, Yezhaohui",
+    "Liu, Peng",
+    "Lin, Zehao",
+    "Wang, Pengyuan",
+    "Huo, Jiahao",
+    "Chen, Tianyi",
+    "Chen, Kai",
+    "Li, Kehang",
+    "Tao, Zhen",
+    "Lai, Huayi",
+    "Wu, Hao",
+    "Tang, Bo",
+    "Wang, Zhengren",
+    "Fan, Zhaoxin",
+    "Zhang, Ningyu",
+    "Zhang, Linfeng",
+    "Yan, Junchi",
+    "Yang, Mingchuan",
+    "Xu, Tong",
+    "Xu, Wei",
+    "Chen, Huajun",
+    "Wang, Haofen",
+    "Yang, Hongkang",
+    "Zhang, Wentao",
+    "Xu, Zhi-Qin John",
+    "Chen, Siheng",
+    "Xiong, Feiyu"
+  ],
+  "first_author": "Li, Zhiyu",
+  "year": 2025,
+  "source_date": "2025/07/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.03724",
+  "abstract": "Large Language Models (LLMs) have become an essential infrastructure for Artificial General Intelligence (AGI), yet their lack of well-defined memory management systems hinders the development of long-context reasoning, continual personalization, and knowledge this http URL models mainly rely on static parameters and short-lived contextual states, limiting their ability to track user preferences or update knowledge over extended this http URL Retrieval-Augmented Generation (RAG) introduces external knowledge in plain text, it remains a stateless workaround without lifecycle control or integration with persistent this http URL work has modeled the training and inference cost of LLMs from a memory hierarchy perspective, showing that introducing an explicit memory layer between parameter memory and external retrieval can substantially reduce these costs by externalizing specific knowledge. Beyond computational efficiency, LLMs face broader challenges arising from how information is distributed over time and context, requiring systems capable of managing heterogeneous knowledge spanning different temporal scales and sources. To address this challenge, we propose MemOS, a memory operating system that treats memory as a manageable system resource. It unifies the representation, scheduling, and evolution of plaintext, activation-based, and parameter-level memories, enabling cost-efficient storage and retrieval. As the basic unit, a MemCube encapsulates both memory content and metadata such as provenance and versioning. MemCubes can be composed, migrated, and fused over time, enabling flexible transitions between memory types and bridging retrieval with parameter-based learning. MemOS establishes a memory-centric system framework that brings controllability, plasticity, and evolvability to LLMs, laying the foundation for continual learning and personalized modeling.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.03724: MemOS: A Memory OS for AI System"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MemOS: A Memory OS for AI System"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.03724v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) have become an essential infrastructure for Artificial General Intelligence (AGI), yet their lack of well-defined memory management systems hinders the development of long-context reasoning, continual personalization, and knowledge consistency.Existing models mainly rely on static parameters and short-lived contextual states, limiting their ability to track user preferences or update knowledge over extended periods.While Retrieval-Augmented Generation (RAG) introduces external knowledge in plain text, it remains a stateless workaround without lifecycle control or integration with persistent representations.Recent work has modeled the training and inference cost of LLMs from a memory hierarchy perspective, showing that introducing an explicit memory layer between parameter memory and external retrieval can substantially reduce these costs by externalizing specific knowledge. Beyond computational efficiency, LLMs face broader challenges arising from how information is distributed over time and context, requiring systems capable of managing heterogeneous knowledge spanning different temporal scales and sources. To address this challenge, we propose MemOS, a memory operating system that treats memory as a manageable system resource. It unifies the representation, scheduling, and evolution of plaintext, activation-based, and parameter-level memories, enabling cost-efficient storage and retrieval. As the basic unit, a MemCube encapsulates both memory content and metadata such as provenance and versioning. MemCubes can be composed, migrated, and fused over time, enabling flexible transitions between memory types and bridging retrieval with parameter-based learning. MemOS establishes a memory-centric system framework that brings controllability, plasticity, and evolvability to LLMs, laying the foundation for continual learning and personalized modeling."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MemOS: A Memory OS for AI System"
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) have become an essential infrastructure for Artificial General Intelligence (AGI), yet their lack of well-defined memory management systems hinders the development of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MemOS: A Memory OS for AI System"
+    ],
+    "citation_author": [
+      "Li, Zhiyu",
+      "Xi, Chenyang",
+      "Li, Chunyu",
+      "Chen, Ding",
+      "Chen, Boyu",
+      "Song, Shichao",
+      "Niu, Simin",
+      "Wang, Hanyu",
+      "Yang, Jiawei",
+      "Tang, Chen",
+      "Yu, Qingchen",
+      "Zhao, Jihao",
+      "Wang, Yezhaohui",
+      "Liu, Peng",
+      "Lin, Zehao",
+      "Wang, Pengyuan",
+      "Huo, Jiahao",
+      "Chen, Tianyi",
+      "Chen, Kai",
+      "Li, Kehang",
+      "Tao, Zhen",
+      "Lai, Huayi",
+      "Wu, Hao",
+      "Tang, Bo",
+      "Wang, Zhengren",
+      "Fan, Zhaoxin",
+      "Zhang, Ningyu",
+      "Zhang, Linfeng",
+      "Yan, Junchi",
+      "Yang, Mingchuan",
+      "Xu, Tong",
+      "Xu, Wei",
+      "Chen, Huajun",
+      "Wang, Haofen",
+      "Yang, Hongkang",
+      "Zhang, Wentao",
+      "Xu, Zhi-Qin John",
+      "Chen, Siheng",
+      "Xiong, Feiyu"
+    ],
+    "citation_date": [
+      "2025/07/04"
+    ],
+    "citation_online_date": [
+      "2025/12/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.03724"
+    ],
+    "citation_arxiv_id": [
+      "2507.03724"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) have become an essential infrastructure for Artificial General Intelligence (AGI), yet their lack of well-defined memory management systems hinders the development of long-context reasoning, continual personalization, and knowledge consistency.Existing models mainly rely on static parameters and short-lived contextual states, limiting their ability to track user preferences or update knowledge over extended periods.While Retrieval-Augmented Generation (RAG) introduces external knowledge in plain text, it remains a stateless workaround without lifecycle control or integration with persistent representations.Recent work has modeled the training and inference cost of LLMs from a memory hierarchy perspective, showing that introducing an explicit memory layer between parameter memory and external retrieval can substantially reduce these costs by externalizing specific knowledge. Beyond computational efficiency, LLMs face broader challenges arising from how information is distributed over time and context, requiring systems capable of managing heterogeneous knowledge spanning different temporal scales and sources. To address this challenge, we propose MemOS, a memory operating system that treats memory as a manageable system resource. It unifies the representation, scheduling, and evolution of plaintext, activation-based, and parameter-level memories, enabling cost-efficient storage and retrieval. As the basic unit, a MemCube encapsulates both memory content and metadata such as provenance and versioning. MemCubes can be composed, migrated, and fused over time, enabling flexible transitions between memory types and bridging retrieval with parameter-based learning. MemOS establishes a memory-centric system framework that brings controllability, plasticity, and evolvability to LLMs, laying the foundation for continual learning and personalized modeling."
+    ]
+  },
+  "html_sha256": "af124a5c473891306cdfb9878c714af79b06bb74f25e28ae7d089abff23d2764",
+  "evidence_html": "evidence/60b9d68ed0ea6370d5d9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

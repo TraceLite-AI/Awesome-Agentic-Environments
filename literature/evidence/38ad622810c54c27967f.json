@@ -1,0 +1,207 @@
+{
+  "url": "https://arxiv.org/abs/2204.01691",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2204.01691",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "SayCan",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2204.01691",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:44.694605+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2204.01691",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 50714,
+  "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+  "authors": [
+    "Ahn, Michael",
+    "Brohan, Anthony",
+    "Brown, Noah",
+    "Chebotar, Yevgen",
+    "Cortes, Omar",
+    "David, Byron",
+    "Finn, Chelsea",
+    "Fu, Chuyuan",
+    "Gopalakrishnan, Keerthana",
+    "Hausman, Karol",
+    "Herzog, Alex",
+    "Ho, Daniel",
+    "Hsu, Jasmine",
+    "Ibarz, Julian",
+    "Ichter, Brian",
+    "Irpan, Alex",
+    "Jang, Eric",
+    "Ruano, Rosario Jauregui",
+    "Jeffrey, Kyle",
+    "Jesmonth, Sally",
+    "Joshi, Nikhil J",
+    "Julian, Ryan",
+    "Kalashnikov, Dmitry",
+    "Kuang, Yuheng",
+    "Lee, Kuang-Huei",
+    "Levine, Sergey",
+    "Lu, Yao",
+    "Luu, Linda",
+    "Parada, Carolina",
+    "Pastor, Peter",
+    "Quiambao, Jornell",
+    "Rao, Kanishka",
+    "Rettinghouse, Jarek",
+    "Reyes, Diego",
+    "Sermanet, Pierre",
+    "Sievers, Nicolas",
+    "Tan, Clayton",
+    "Toshev, Alexander",
+    "Vanhoucke, Vincent",
+    "Xia, Fei",
+    "Xiao, Ted",
+    "Xu, Peng",
+    "Xu, Sichun",
+    "Yan, Mengyuan",
+    "Zeng, Andy"
+  ],
+  "first_author": "Ahn, Michael",
+  "year": 2022,
+  "source_date": "2022/04/04",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2204.01691",
+  "abstract": "Large language models can encode a wealth of semantic knowledge about the world. Such knowledge could be extremely useful to robots aiming to act upon high-level, temporally extended instructions expressed in natural language. However, a significant weakness of language models is that they lack real-world experience, which makes it difficult to leverage them for decision making within a given embodiment. For example, asking a language model to describe how to clean a spill might result in a reasonable narrative, but it may not be applicable to a particular agent, such as a robot, that needs to perform this task in a particular environment. We propose to provide real-world grounding by means of pretrained skills, which are used to constrain the model to propose natural language actions that are both feasible and contextually appropriate. The robot can act as the language model's \"hands and eyes,\" while the language model supplies high-level semantic knowledge about the task. We show how low-level skills can be combined with large language models so that the language model provides high-level knowledge about the procedures for performing complex and temporally-extended instructions, while value functions associated with these skills provide the grounding necessary to connect this knowledge to a particular physical environment. We evaluate our method on a number of real-world robotic tasks, where we show the need for real-world grounding and that this approach is capable of completing long-horizon, abstract, natural language instructions on a mobile manipulator. The project's website and the video can be found at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2204.01691: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2204.01691v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models can encode a wealth of semantic knowledge about the world. Such knowledge could be extremely useful to robots aiming to act upon high-level, temporally extended instructions expressed in natural language. However, a significant weakness of language models is that they lack real-world experience, which makes it difficult to leverage them for decision making within a given embodiment. For example, asking a language model to describe how to clean a spill might result in a reasonable narrative, but it may not be applicable to a particular agent, such as a robot, that needs to perform this task in a particular environment. We propose to provide real-world grounding by means of pretrained skills, which are used to constrain the model to propose natural language actions that are both feasible and contextually appropriate. The robot can act as the language model's \"hands and eyes,\" while the language model supplies high-level semantic knowledge about the task. We show how low-level skills can be combined with large language models so that the language model provides high-level knowledge about the procedures for performing complex and temporally-extended instructions, while value functions associated with these skills provide the grounding necessary to connect this knowledge to a particular physical environment. We evaluate our method on a number of real-world robotic tasks, where we show the need for real-world grounding and that this approach is capable of completing long-horizon, abstract, natural language instructions on a mobile manipulator. The project's website and the video can be found at https://say-can.github.io/."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances"
+    ],
+    "twitter:description": [
+      "Large language models can encode a wealth of semantic knowledge about the world. Such knowledge could be extremely useful to robots aiming to act upon high-level, temporally extended instructions..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances"
+    ],
+    "citation_author": [
+      "Ahn, Michael",
+      "Brohan, Anthony",
+      "Brown, Noah",
+      "Chebotar, Yevgen",
+      "Cortes, Omar",
+      "David, Byron",
+      "Finn, Chelsea",
+      "Fu, Chuyuan",
+      "Gopalakrishnan, Keerthana",
+      "Hausman, Karol",
+      "Herzog, Alex",
+      "Ho, Daniel",
+      "Hsu, Jasmine",
+      "Ibarz, Julian",
+      "Ichter, Brian",
+      "Irpan, Alex",
+      "Jang, Eric",
+      "Ruano, Rosario Jauregui",
+      "Jeffrey, Kyle",
+      "Jesmonth, Sally",
+      "Joshi, Nikhil J",
+      "Julian, Ryan",
+      "Kalashnikov, Dmitry",
+      "Kuang, Yuheng",
+      "Lee, Kuang-Huei",
+      "Levine, Sergey",
+      "Lu, Yao",
+      "Luu, Linda",
+      "Parada, Carolina",
+      "Pastor, Peter",
+      "Quiambao, Jornell",
+      "Rao, Kanishka",
+      "Rettinghouse, Jarek",
+      "Reyes, Diego",
+      "Sermanet, Pierre",
+      "Sievers, Nicolas",
+      "Tan, Clayton",
+      "Toshev, Alexander",
+      "Vanhoucke, Vincent",
+      "Xia, Fei",
+      "Xiao, Ted",
+      "Xu, Peng",
+      "Xu, Sichun",
+      "Yan, Mengyuan",
+      "Zeng, Andy"
+    ],
+    "citation_date": [
+      "2022/04/04"
+    ],
+    "citation_online_date": [
+      "2022/08/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2204.01691"
+    ],
+    "citation_arxiv_id": [
+      "2204.01691"
+    ],
+    "citation_abstract": [
+      "Large language models can encode a wealth of semantic knowledge about the world. Such knowledge could be extremely useful to robots aiming to act upon high-level, temporally extended instructions expressed in natural language. However, a significant weakness of language models is that they lack real-world experience, which makes it difficult to leverage them for decision making within a given embodiment. For example, asking a language model to describe how to clean a spill might result in a reasonable narrative, but it may not be applicable to a particular agent, such as a robot, that needs to perform this task in a particular environment. We propose to provide real-world grounding by means of pretrained skills, which are used to constrain the model to propose natural language actions that are both feasible and contextually appropriate. The robot can act as the language model's \"hands and eyes,\" while the language model supplies high-level semantic knowledge about the task. We show how low-level skills can be combined with large language models so that the language model provides high-level knowledge about the procedures for performing complex and temporally-extended instructions, while value functions associated with these skills provide the grounding necessary to connect this knowledge to a particular physical environment. We evaluate our method on a number of real-world robotic tasks, where we show the need for real-world grounding and that this approach is capable of completing long-horizon, abstract, natural language instructions on a mobile manipulator. The project's website and the video can be found at https://say-can.github.io/."
+    ]
+  },
+  "html_sha256": "6d5f957d099eff18d25746ad9c1ed054c9a13afdf927c2c89de94399f09ccae9",
+  "evidence_html": "evidence/38ad622810c54c27967f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

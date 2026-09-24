@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2410.02089",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.02089",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "RLEF: GROUNDING CODE LLMS IN EXECUTION FEEDBACK WITH REINFORCEMENT LEARNING",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.02089",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:03.972236+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.02089",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41384,
+  "title": "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning",
+  "authors": [
+    "Gehring, Jonas",
+    "Zheng, Kunhao",
+    "Copet, Jade",
+    "Mella, Vegard",
+    "Carbonneaux, Quentin",
+    "Cohen, Taco",
+    "Synnaeve, Gabriel"
+  ],
+  "first_author": "Gehring, Jonas",
+  "year": 2024,
+  "source_date": "2024/10/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.02089",
+  "abstract": "Large language models (LLMs) deployed as agents solve user-specified tasks over multiple steps while keeping the required manual engagement to a minimum. Crucially, such LLMs need to ground their generations in any feedback obtained to reliably achieve the desired outcomes. We propose an end-to-end reinforcement learning method for teaching models to leverage execution feedback in the realm of code synthesis, where state-of-the-art LLMs struggle to improve code iteratively compared to independent sampling. We benchmark on competitive programming tasks, where we achieve new state-of-the art results with both small (8B parameters) and large (70B) models while reducing the amount of samples required by an order of magnitude. Our analysis of inference-time behavior demonstrates that our method produces LLMs that effectively leverage automatic feedback over multiple steps.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.02089: RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.02089v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) deployed as agents solve user-specified tasks over multiple steps while keeping the required manual engagement to a minimum. Crucially, such LLMs need to ground their generations in any feedback obtained to reliably achieve the desired outcomes. We propose an end-to-end reinforcement learning method for teaching models to leverage execution feedback in the realm of code synthesis, where state-of-the-art LLMs struggle to improve code iteratively compared to independent sampling. We benchmark on competitive programming tasks, where we achieve new state-of-the art results with both small (8B parameters) and large (70B) models while reducing the amount of samples required by an order of magnitude. Our analysis of inference-time behavior demonstrates that our method produces LLMs that effectively leverage automatic feedback over multiple steps."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) deployed as agents solve user-specified tasks over multiple steps while keeping the required manual engagement to a minimum. Crucially, such LLMs need to ground their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Gehring, Jonas",
+      "Zheng, Kunhao",
+      "Copet, Jade",
+      "Mella, Vegard",
+      "Carbonneaux, Quentin",
+      "Cohen, Taco",
+      "Synnaeve, Gabriel"
+    ],
+    "citation_date": [
+      "2024/10/02"
+    ],
+    "citation_online_date": [
+      "2025/02/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.02089"
+    ],
+    "citation_arxiv_id": [
+      "2410.02089"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) deployed as agents solve user-specified tasks over multiple steps while keeping the required manual engagement to a minimum. Crucially, such LLMs need to ground their generations in any feedback obtained to reliably achieve the desired outcomes. We propose an end-to-end reinforcement learning method for teaching models to leverage execution feedback in the realm of code synthesis, where state-of-the-art LLMs struggle to improve code iteratively compared to independent sampling. We benchmark on competitive programming tasks, where we achieve new state-of-the art results with both small (8B parameters) and large (70B) models while reducing the amount of samples required by an order of magnitude. Our analysis of inference-time behavior demonstrates that our method produces LLMs that effectively leverage automatic feedback over multiple steps."
+    ]
+  },
+  "html_sha256": "c7f899ff5c8331b1904c3f0518bab7e95b2a5c7e3249a151f3737d2f596d817e",
+  "evidence_html": "evidence/6fba0a1554b9319a26ed.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

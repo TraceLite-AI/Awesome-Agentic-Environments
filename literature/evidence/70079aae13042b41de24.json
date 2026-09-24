@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2503.06047",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.06047",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Dsgbench: A diverse strategic game benchmark for evaluating llm-based agents in complex decision-making environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.06047",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:13.895435+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.06047",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43118,
+  "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments",
+  "authors": [
+    "Tang, Wenjie",
+    "Zhou, Yuan",
+    "Xu, Erqiang",
+    "Cheng, Keyan",
+    "Li, Minne",
+    "Xiao, Liquan"
+  ],
+  "first_author": "Tang, Wenjie",
+  "year": 2025,
+  "source_date": "2025/03/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.06047",
+  "abstract": "Large language model (LLM)-based agents are increasingly applied to complex strategic environments that demand long-horizon reasoning, multi-agent interaction, and decision-making under uncertainty. However, common existing benchmarks either assess isolated skills, lack environmental diversity, or rely on broad overall metrics. To address these issues, we introduce DSGBench, a more rigorous evaluation platform for strategic decision-making tasks. Firstly, it incorporates six complex strategic games which serve as ideal testbeds due to their long-term and multi-dimensional decision-making demands and flexibility in customizing tasks with various difficulty levels and targets. Secondly, DSGBench employs a fine-grained evaluation scoring system which examines the decision-making capabilities by looking into the performance in five specific dimensions, offering a comprehensive assessment in a better-designed fashion. Furthermore, DSGBench also incorporates an automated decision-tracking mechanism which enables in-depth analysis of agent behaviour patterns and the turning points in their strategies. We evaluate six popular LLM agents, including open-source and closed-source models, and observe distinct strengths and limitations among various tasks. Through decision trajectory analysis, we further identify systemic limitations in different LLMs. These findings offer valuable insights for model selection and future LLM-based agent development.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.06047: DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.06047v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM)-based agents are increasingly applied to complex strategic environments that demand long-horizon reasoning, multi-agent interaction, and decision-making under uncertainty. However, common existing benchmarks either assess isolated skills, lack environmental diversity, or rely on broad overall metrics. To address these issues, we introduce DSGBench, a more rigorous evaluation platform for strategic decision-making tasks. Firstly, it incorporates six complex strategic games which serve as ideal testbeds due to their long-term and multi-dimensional decision-making demands and flexibility in customizing tasks with various difficulty levels and targets. Secondly, DSGBench employs a fine-grained evaluation scoring system which examines the decision-making capabilities by looking into the performance in five specific dimensions, offering a comprehensive assessment in a better-designed fashion. Furthermore, DSGBench also incorporates an automated decision-tracking mechanism which enables in-depth analysis of agent behaviour patterns and the turning points in their strategies. We evaluate six popular LLM agents, including open-source and closed-source models, and observe distinct strengths and limitations among various tasks. Through decision trajectory analysis, we further identify systemic limitations in different LLMs. These findings offer valuable insights for model selection and future LLM-based agent development."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "DSGBench: A Diverse Strategic Game Benchmark for Evaluating..."
+    ],
+    "twitter:description": [
+      "Large language model (LLM)-based agents are increasingly applied to complex strategic environments that demand long-horizon reasoning, multi-agent interaction, and decision-making under..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments"
+    ],
+    "citation_author": [
+      "Tang, Wenjie",
+      "Zhou, Yuan",
+      "Xu, Erqiang",
+      "Cheng, Keyan",
+      "Li, Minne",
+      "Xiao, Liquan"
+    ],
+    "citation_date": [
+      "2025/03/08"
+    ],
+    "citation_online_date": [
+      "2026/05/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.06047"
+    ],
+    "citation_arxiv_id": [
+      "2503.06047"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM)-based agents are increasingly applied to complex strategic environments that demand long-horizon reasoning, multi-agent interaction, and decision-making under uncertainty. However, common existing benchmarks either assess isolated skills, lack environmental diversity, or rely on broad overall metrics. To address these issues, we introduce DSGBench, a more rigorous evaluation platform for strategic decision-making tasks. Firstly, it incorporates six complex strategic games which serve as ideal testbeds due to their long-term and multi-dimensional decision-making demands and flexibility in customizing tasks with various difficulty levels and targets. Secondly, DSGBench employs a fine-grained evaluation scoring system which examines the decision-making capabilities by looking into the performance in five specific dimensions, offering a comprehensive assessment in a better-designed fashion. Furthermore, DSGBench also incorporates an automated decision-tracking mechanism which enables in-depth analysis of agent behaviour patterns and the turning points in their strategies. We evaluate six popular LLM agents, including open-source and closed-source models, and observe distinct strengths and limitations among various tasks. Through decision trajectory analysis, we further identify systemic limitations in different LLMs. These findings offer valuable insights for model selection and future LLM-based agent development."
+    ]
+  },
+  "html_sha256": "4d3e6eb7b2c91a21b60952dd9508fed2e1b7e7cb429a4dd1d3eeb3cfa79fd974",
+  "evidence_html": "evidence/70079aae13042b41de24.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

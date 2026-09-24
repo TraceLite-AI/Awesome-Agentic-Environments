@@ -1,0 +1,82 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Mind2web: Towards a generalist agent for the web",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:33.857360+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10100,
+  "title": "Mind2Web: Towards a Generalist Agent for the Web",
+  "authors": [
+    "Deng, Xiang",
+    "Gu, Yu",
+    "Zheng, Boyuan",
+    "Chen, Shijie",
+    "Stevens, Sam",
+    "Wang, Boshi",
+    "Sun, Huan",
+    "Su, Yu"
+  ],
+  "first_author": "Deng, Xiang",
+  "year": 2023,
+  "source_date": "2023-12-15",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/075280-1220",
+  "arxiv_id": "",
+  "abstract": "We introduce Mind2Web, the first dataset for developing and evaluating generalist agents for the web that can follow language instructions to complete complex tasks on any website. Existing datasets for web agents either use simulated websites or only cover a limited set of websites and tasks, thus not suitable for generalist web agents. With over 2,000 open-ended tasks collected from 137 websites spanning 31 domains and crowdsourced action sequences for the tasks, Mind2Web provides three necessary ingredients for building generalist web agents: 1) diverse domains, websites, and tasks, 2) use of real-world websites instead of simulated and simplified ones, and 3) a broad spectrum of user interaction patterns. Based on Mind2Web, we conduct an initial exploration of using large language models (LLMs) for building generalist web agents. While the raw HTML of real-world websites are often too large to be fed to LLMs, we show that first filtering it with a small LM significantly improves the effectiveness and efficiency of LLMs. Our solution demonstrates a decent level of performance, even on websites or entire domains the model has never seen before, but there is still a substantial room to improve towards truly generalizable agents. We open-source our dataset, model implementation, and trained models (https://osu-nlp-group.github.io/Mind2Web) to facilitate further research on building a generalist agent for the web.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "Mind2Web: Towards a Generalist Agent for the Web"
+    ],
+    "citation_author": [
+      "Deng, Xiang",
+      "Gu, Yu",
+      "Zheng, Boyuan",
+      "Chen, Shijie",
+      "Stevens, Sam",
+      "Wang, Boshi",
+      "Sun, Huan",
+      "Su, Yu"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "36"
+    ],
+    "citation_doi": [
+      "10.52202/075280-1220"
+    ],
+    "citation_firstpage": [
+      "28091"
+    ],
+    "citation_lastpage": [
+      "28114"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2023/file/5950bf290a1570ea401bf98882128160-Paper-Datasets_and_Benchmarks.pdf"
+    ],
+    "citation_publication_date": [
+      "2023-12-15"
+    ]
+  },
+  "html_sha256": "3fb7bb978325115a5c563f8421fc5ca2a4d1403f137223f5d7f7c7142e3fe4fa",
+  "evidence_html": "evidence/2a788ecf5da54fc6d0d6.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

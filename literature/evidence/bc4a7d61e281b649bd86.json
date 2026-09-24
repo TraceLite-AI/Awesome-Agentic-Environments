@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2506.06363",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.06363",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.06363",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:33.689968+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.06363",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42901,
+  "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+  "authors": [
+    "Pham, Thang D.",
+    "Tanikanti, Aditya",
+    "Keçeli, Murat"
+  ],
+  "first_author": "Pham, Thang D.",
+  "year": 2025,
+  "source_date": "2025/06/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.06363",
+  "abstract": "Atomistic simulations are essential tools in chemistry and materials science, accelerating the discovery of novel catalysts, energy storage materials, and pharmaceuticals. However, running these simulations remains challenging due to the wide range of computational methods, diverse software ecosystems, and the need for expert knowledge and manual effort for the setup, execution, and validation stages. In this work, we present ChemGraph, an agentic framework powered by artificial intelligence and state-of-the-art simulation tools to streamline and automate computational chemistry and materials science workflows. ChemGraph leverages graph neural network-based foundation models for accurate yet computationally efficient calculations and large language models (LLMs) for natural language understanding, task planning, and scientific reasoning to provide an intuitive and interactive interface. Users can perform tasks such as molecular structure generation, single-point energy, geometry optimization, vibrational analysis, and thermochemistry calculations with methods ranging from tight-binding and machine learning interatomic potentials to density functional theory or wave function theory-based methods. We evaluate ChemGraph across 13 benchmark tasks and demonstrate that smaller LLMs (GPT-4o-mini, Claude-3.5-haiku, Qwen2.5-14B) perform well on simple workflows, while more complex tasks benefit from using larger models like GPT-4o. Importantly, we show that decomposing complex tasks into smaller subtasks through a multi-agent framework enables smaller LLM models to match or exceed GPT-4o's performance in specific scenarios.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.06363: ChemGraph: An Agentic Framework for Computational Chemistry Workflows"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ChemGraph: An Agentic Framework for Computational Chemistry Workflows"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.06363v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Atomistic simulations are essential tools in chemistry and materials science, accelerating the discovery of novel catalysts, energy storage materials, and pharmaceuticals. However, running these simulations remains challenging due to the wide range of computational methods, diverse software ecosystems, and the need for expert knowledge and manual effort for the setup, execution, and validation stages. In this work, we present ChemGraph, an agentic framework powered by artificial intelligence and state-of-the-art simulation tools to streamline and automate computational chemistry and materials science workflows. ChemGraph leverages graph neural network-based foundation models for accurate yet computationally efficient calculations and large language models (LLMs) for natural language understanding, task planning, and scientific reasoning to provide an intuitive and interactive interface. Users can perform tasks such as molecular structure generation, single-point energy, geometry optimization, vibrational analysis, and thermochemistry calculations with methods ranging from tight-binding and machine learning interatomic potentials to density functional theory or wave function theory-based methods. We evaluate ChemGraph across 13 benchmark tasks and demonstrate that smaller LLMs (GPT-4o-mini, Claude-3.5-haiku, Qwen2.5-14B) perform well on simple workflows, while more complex tasks benefit from using larger models like GPT-4o. Importantly, we show that decomposing complex tasks into smaller subtasks through a multi-agent framework enables smaller LLM models to match or exceed GPT-4o's performance in specific scenarios."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ChemGraph: An Agentic Framework for Computational Chemistry Workflows"
+    ],
+    "twitter:description": [
+      "Atomistic simulations are essential tools in chemistry and materials science, accelerating the discovery of novel catalysts, energy storage materials, and pharmaceuticals. However, running these..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ChemGraph: An Agentic Framework for Computational Chemistry Workflows"
+    ],
+    "citation_author": [
+      "Pham, Thang D.",
+      "Tanikanti, Aditya",
+      "Keçeli, Murat"
+    ],
+    "citation_date": [
+      "2025/06/03"
+    ],
+    "citation_online_date": [
+      "2025/06/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.06363"
+    ],
+    "citation_arxiv_id": [
+      "2506.06363"
+    ],
+    "citation_abstract": [
+      "Atomistic simulations are essential tools in chemistry and materials science, accelerating the discovery of novel catalysts, energy storage materials, and pharmaceuticals. However, running these simulations remains challenging due to the wide range of computational methods, diverse software ecosystems, and the need for expert knowledge and manual effort for the setup, execution, and validation stages. In this work, we present ChemGraph, an agentic framework powered by artificial intelligence and state-of-the-art simulation tools to streamline and automate computational chemistry and materials science workflows. ChemGraph leverages graph neural network-based foundation models for accurate yet computationally efficient calculations and large language models (LLMs) for natural language understanding, task planning, and scientific reasoning to provide an intuitive and interactive interface. Users can perform tasks such as molecular structure generation, single-point energy, geometry optimization, vibrational analysis, and thermochemistry calculations with methods ranging from tight-binding and machine learning interatomic potentials to density functional theory or wave function theory-based methods. We evaluate ChemGraph across 13 benchmark tasks and demonstrate that smaller LLMs (GPT-4o-mini, Claude-3.5-haiku, Qwen2.5-14B) perform well on simple workflows, while more complex tasks benefit from using larger models like GPT-4o. Importantly, we show that decomposing complex tasks into smaller subtasks through a multi-agent framework enables smaller LLM models to match or exceed GPT-4o's performance in specific scenarios."
+    ]
+  },
+  "html_sha256": "7bc5c2ced29e66da83414e5e6c3c6ff878f4c762cc8798d4fe7f8d40b42b0d3b",
+  "evidence_html": "evidence/bc4a7d61e281b649bd86.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

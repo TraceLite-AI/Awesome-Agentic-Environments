@@ -1,0 +1,143 @@
+{
+  "url": "https://arxiv.org/abs/2508.07999",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.07999",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Widesearch: Benchmarking agentic broad info-seeking",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.07999",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:35.801561+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.07999",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44135,
+  "title": "WideSearch: Benchmarking Agentic Broad Info-Seeking",
+  "authors": [
+    "Wong, Ryan",
+    "Wang, Jiawei",
+    "Zhao, Junjie",
+    "Chen, Li",
+    "Gao, Yan",
+    "Zhang, Long",
+    "Zhou, Xuan",
+    "Wang, Zuo",
+    "Xiang, Kai",
+    "Zhang, Ge",
+    "Huang, Wenhao",
+    "Wang, Yang",
+    "Wang, Ke"
+  ],
+  "first_author": "Wong, Ryan",
+  "year": 2025,
+  "source_date": "2025/08/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.07999",
+  "abstract": "From professional research to everyday planning, many tasks are bottlenecked by wide-scale information seeking, which is more repetitive than cognitively complex. With the rapid development of Large Language Models (LLMs), automated search agents powered by LLMs offer a promising solution to liberate humans from this tedious work. However, the capability of these agents to perform such \"wide-context\" collection reliably and completely remains largely unevaluated due to a lack of suitable benchmarks. To bridge this gap, we introduce WideSearch, a new benchmark engineered to evaluate agent reliability on these large-scale collection tasks. The benchmark features 200 manually curated questions (100 in English, 100 in Chinese) from over 15 diverse domains, grounded in real user queries. Each task requires agents to collect large-scale atomic information, which could be verified one by one objectively, and arrange it into a well-organized output. A rigorous five-stage quality control pipeline ensures the difficulty, completeness, and verifiability of the dataset. We benchmark over 10 state-of-the-art agentic search systems, including single-agent, multi-agent frameworks, and end-to-end commercial systems. Most systems achieve overall success rates near 0\\%, with the best performer reaching just 5\\%. However, given sufficient time, cross-validation by multiple human testers can achieve a near 100\\% success rate. These results demonstrate that present search agents have critical deficiencies in large-scale information seeking, underscoring urgent areas for future research and development in agentic search. Our dataset, evaluation pipeline, and benchmark results have been publicly released at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.07999: WideSearch: Benchmarking Agentic Broad Info-Seeking"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WideSearch: Benchmarking Agentic Broad Info-Seeking"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.07999v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "From professional research to everyday planning, many tasks are bottlenecked by wide-scale information seeking, which is more repetitive than cognitively complex. With the rapid development of Large Language Models (LLMs), automated search agents powered by LLMs offer a promising solution to liberate humans from this tedious work. However, the capability of these agents to perform such \"wide-context\" collection reliably and completely remains largely unevaluated due to a lack of suitable benchmarks. To bridge this gap, we introduce WideSearch, a new benchmark engineered to evaluate agent reliability on these large-scale collection tasks. The benchmark features 200 manually curated questions (100 in English, 100 in Chinese) from over 15 diverse domains, grounded in real user queries. Each task requires agents to collect large-scale atomic information, which could be verified one by one objectively, and arrange it into a well-organized output. A rigorous five-stage quality control pipeline ensures the difficulty, completeness, and verifiability of the dataset. We benchmark over 10 state-of-the-art agentic search systems, including single-agent, multi-agent frameworks, and end-to-end commercial systems. Most systems achieve overall success rates near 0\\%, with the best performer reaching just 5\\%. However, given sufficient time, cross-validation by multiple human testers can achieve a near 100\\% success rate. These results demonstrate that present search agents have critical deficiencies in large-scale information seeking, underscoring urgent areas for future research and development in agentic search. Our dataset, evaluation pipeline, and benchmark results have been publicly released at https://widesearch-seed.github.io/"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WideSearch: Benchmarking Agentic Broad Info-Seeking"
+    ],
+    "twitter:description": [
+      "From professional research to everyday planning, many tasks are bottlenecked by wide-scale information seeking, which is more repetitive than cognitively complex. With the rapid development of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WideSearch: Benchmarking Agentic Broad Info-Seeking"
+    ],
+    "citation_author": [
+      "Wong, Ryan",
+      "Wang, Jiawei",
+      "Zhao, Junjie",
+      "Chen, Li",
+      "Gao, Yan",
+      "Zhang, Long",
+      "Zhou, Xuan",
+      "Wang, Zuo",
+      "Xiang, Kai",
+      "Zhang, Ge",
+      "Huang, Wenhao",
+      "Wang, Yang",
+      "Wang, Ke"
+    ],
+    "citation_date": [
+      "2025/08/11"
+    ],
+    "citation_online_date": [
+      "2025/08/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.07999"
+    ],
+    "citation_arxiv_id": [
+      "2508.07999"
+    ],
+    "citation_abstract": [
+      "From professional research to everyday planning, many tasks are bottlenecked by wide-scale information seeking, which is more repetitive than cognitively complex. With the rapid development of Large Language Models (LLMs), automated search agents powered by LLMs offer a promising solution to liberate humans from this tedious work. However, the capability of these agents to perform such \"wide-context\" collection reliably and completely remains largely unevaluated due to a lack of suitable benchmarks. To bridge this gap, we introduce WideSearch, a new benchmark engineered to evaluate agent reliability on these large-scale collection tasks. The benchmark features 200 manually curated questions (100 in English, 100 in Chinese) from over 15 diverse domains, grounded in real user queries. Each task requires agents to collect large-scale atomic information, which could be verified one by one objectively, and arrange it into a well-organized output. A rigorous five-stage quality control pipeline ensures the difficulty, completeness, and verifiability of the dataset. We benchmark over 10 state-of-the-art agentic search systems, including single-agent, multi-agent frameworks, and end-to-end commercial systems. Most systems achieve overall success rates near 0\\%, with the best performer reaching just 5\\%. However, given sufficient time, cross-validation by multiple human testers can achieve a near 100\\% success rate. These results demonstrate that present search agents have critical deficiencies in large-scale information seeking, underscoring urgent areas for future research and development in agentic search. Our dataset, evaluation pipeline, and benchmark results have been publicly released at https://widesearch-seed.github.io/"
+    ]
+  },
+  "html_sha256": "e24e8aef5c714a03bc0ac4ea1e16f7c74d2c374bf6de77715bc60107654ebac5",
+  "evidence_html": "evidence/83e1e39a04f47c229643.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

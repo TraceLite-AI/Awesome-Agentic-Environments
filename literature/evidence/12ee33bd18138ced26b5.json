@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2310.08067",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.08067",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "GameGPT: Multi-agent Collaborative Framework for Game Development. Dake Chen et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.08067",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:14.600168+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.08067",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40476,
+  "title": "GameGPT: Multi-agent Collaborative Framework for Game Development",
+  "authors": [
+    "Chen, Dake",
+    "Zhang, Haoyang",
+    "Wang, Hanbin",
+    "Huo, Yunhao",
+    "Li, Yuzhao",
+    "Wang, Junjie"
+  ],
+  "first_author": "Chen, Dake",
+  "year": 2023,
+  "source_date": "2023/10/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.08067",
+  "abstract": "The large language model (LLM) based agents have demonstrated their capacity to automate and expedite software development processes. In this paper, we focus on game development and propose a multi-agent collaborative framework, dubbed GameGPT, to automate game development. While many studies have pinpointed hallucination as a primary roadblock for deploying LLMs in production, we identify another concern: redundancy. Our framework presents a series of methods to mitigate both concerns. These methods include dual collaboration and layered approaches with several in-house lexicons, to mitigate the hallucination and redundancy in the planning, task identification, and implementation phases. Furthermore, a decoupling approach is also introduced to achieve code generation with better precision.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.08067: GameGPT: Multi-agent Collaborative Framework for Game Development"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GameGPT: Multi-agent Collaborative Framework for Game Development"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.08067v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The large language model (LLM) based agents have demonstrated their capacity to automate and expedite software development processes. In this paper, we focus on game development and propose a multi-agent collaborative framework, dubbed GameGPT, to automate game development. While many studies have pinpointed hallucination as a primary roadblock for deploying LLMs in production, we identify another concern: redundancy. Our framework presents a series of methods to mitigate both concerns. These methods include dual collaboration and layered approaches with several in-house lexicons, to mitigate the hallucination and redundancy in the planning, task identification, and implementation phases. Furthermore, a decoupling approach is also introduced to achieve code generation with better precision."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GameGPT: Multi-agent Collaborative Framework for Game Development"
+    ],
+    "twitter:description": [
+      "The large language model (LLM) based agents have demonstrated their capacity to automate and expedite software development processes. In this paper, we focus on game development and propose a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GameGPT: Multi-agent Collaborative Framework for Game Development"
+    ],
+    "citation_author": [
+      "Chen, Dake",
+      "Zhang, Haoyang",
+      "Wang, Hanbin",
+      "Huo, Yunhao",
+      "Li, Yuzhao",
+      "Wang, Junjie"
+    ],
+    "citation_date": [
+      "2023/10/12"
+    ],
+    "citation_online_date": [
+      "2025/09/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.08067"
+    ],
+    "citation_arxiv_id": [
+      "2310.08067"
+    ],
+    "citation_abstract": [
+      "The large language model (LLM) based agents have demonstrated their capacity to automate and expedite software development processes. In this paper, we focus on game development and propose a multi-agent collaborative framework, dubbed GameGPT, to automate game development. While many studies have pinpointed hallucination as a primary roadblock for deploying LLMs in production, we identify another concern: redundancy. Our framework presents a series of methods to mitigate both concerns. These methods include dual collaboration and layered approaches with several in-house lexicons, to mitigate the hallucination and redundancy in the planning, task identification, and implementation phases. Furthermore, a decoupling approach is also introduced to achieve code generation with better precision."
+    ]
+  },
+  "html_sha256": "8fc859ff2c7d8ba1eaceff8de51c1cfb6b98e79bb21f5a4c5383598c7b72284e",
+  "evidence_html": "evidence/12ee33bd18138ced26b5.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

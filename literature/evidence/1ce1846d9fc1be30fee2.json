@@ -1,0 +1,168 @@
+{
+  "url": "https://arxiv.org/abs/2505.16938",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.16938",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "NovelSeek: When Agent Becomes the Scientist--Building Closed-Loop System from Hypothesis to Verification",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.16938",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:16.114605+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.16938",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46416,
+  "title": "InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification",
+  "authors": [
+    "InternAgent Team",
+    "Zhang, Bo",
+    "Feng, Shiyang",
+    "Yan, Xiangchao",
+    "Yuan, Jiakang",
+    "Ma, Runmin",
+    "Hu, Yusong",
+    "Yu, Zhiyin",
+    "He, Xiaohan",
+    "Huang, Songtao",
+    "Hou, Shaowei",
+    "Nie, Zheng",
+    "Wang, Zhilong",
+    "Liu, Jinyao",
+    "Peng, Tianshuo",
+    "Ye, Peng",
+    "Zhou, Dongzhan",
+    "Zhang, Shufei",
+    "Wang, Xiaosong",
+    "Zhang, Yilan",
+    "Li, Meng",
+    "Tu, Zhongying",
+    "Yue, Xiangyu",
+    "Ouyang, Wangli",
+    "Zhou, Bowen",
+    "Bai, Lei"
+  ],
+  "first_author": "InternAgent Team",
+  "year": 2025,
+  "source_date": "2025/05/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.16938",
+  "abstract": "Artificial Intelligence (AI) is accelerating the transformation of scientific research paradigms, not only enhancing research efficiency but also driving innovation. We introduce InternAgent, a unified closed-loop multi-agent framework to conduct Autonomous Scientific Research (ASR) across various scientific research fields, enabling researchers to tackle complicated problems in these fields with unprecedented speed and precision. InternAgent highlights three key advantages: 1) Scalability: InternAgent has demonstrated its versatility across 12 scientific research tasks, capable of generating innovative ideas to enhance the performance of baseline code. 2) Interactivity: InternAgent provides an interface for human expert feedback and multi-agent interaction in automated end-to-end processes, allowing for the seamless integration of domain expert knowledge. 3) Efficiency: InternAgent has achieved promising performance gains in several scientific fields with significantly less time cost compared to human efforts. For instance, in reaction yield prediction, it increased from 27.6% to 35.4% in just 12 hours; in enhancer activity prediction, accuracy rose from 0.65 to 0.79 with only 4 hours of processing; and in 2D semantic segmentation, precision advanced from 78.8% to 81.0% in a mere 30 hours.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.16938: InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.16938v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Artificial Intelligence (AI) is accelerating the transformation of scientific research paradigms, not only enhancing research efficiency but also driving innovation. We introduce InternAgent, a unified closed-loop multi-agent framework to conduct Autonomous Scientific Research (ASR) across various scientific research fields, enabling researchers to tackle complicated problems in these fields with unprecedented speed and precision. InternAgent highlights three key advantages: 1) Scalability: InternAgent has demonstrated its versatility across 12 scientific research tasks, capable of generating innovative ideas to enhance the performance of baseline code. 2) Interactivity: InternAgent provides an interface for human expert feedback and multi-agent interaction in automated end-to-end processes, allowing for the seamless integration of domain expert knowledge. 3) Efficiency: InternAgent has achieved promising performance gains in several scientific fields with significantly less time cost compared to human efforts. For instance, in reaction yield prediction, it increased from 27.6% to 35.4% in just 12 hours; in enhancer activity prediction, accuracy rose from 0.65 to 0.79 with only 4 hours of processing; and in 2D semantic segmentation, precision advanced from 78.8% to 81.0% in a mere 30 hours."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "InternAgent: When Agent Becomes the Scientist -- Building..."
+    ],
+    "twitter:description": [
+      "Artificial Intelligence (AI) is accelerating the transformation of scientific research paradigms, not only enhancing research efficiency but also driving innovation. We introduce InternAgent, a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification"
+    ],
+    "citation_author": [
+      "InternAgent Team",
+      "Zhang, Bo",
+      "Feng, Shiyang",
+      "Yan, Xiangchao",
+      "Yuan, Jiakang",
+      "Ma, Runmin",
+      "Hu, Yusong",
+      "Yu, Zhiyin",
+      "He, Xiaohan",
+      "Huang, Songtao",
+      "Hou, Shaowei",
+      "Nie, Zheng",
+      "Wang, Zhilong",
+      "Liu, Jinyao",
+      "Peng, Tianshuo",
+      "Ye, Peng",
+      "Zhou, Dongzhan",
+      "Zhang, Shufei",
+      "Wang, Xiaosong",
+      "Zhang, Yilan",
+      "Li, Meng",
+      "Tu, Zhongying",
+      "Yue, Xiangyu",
+      "Ouyang, Wangli",
+      "Zhou, Bowen",
+      "Bai, Lei"
+    ],
+    "citation_date": [
+      "2025/05/22"
+    ],
+    "citation_online_date": [
+      "2025/07/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.16938"
+    ],
+    "citation_arxiv_id": [
+      "2505.16938"
+    ],
+    "citation_abstract": [
+      "Artificial Intelligence (AI) is accelerating the transformation of scientific research paradigms, not only enhancing research efficiency but also driving innovation. We introduce InternAgent, a unified closed-loop multi-agent framework to conduct Autonomous Scientific Research (ASR) across various scientific research fields, enabling researchers to tackle complicated problems in these fields with unprecedented speed and precision. InternAgent highlights three key advantages: 1) Scalability: InternAgent has demonstrated its versatility across 12 scientific research tasks, capable of generating innovative ideas to enhance the performance of baseline code. 2) Interactivity: InternAgent provides an interface for human expert feedback and multi-agent interaction in automated end-to-end processes, allowing for the seamless integration of domain expert knowledge. 3) Efficiency: InternAgent has achieved promising performance gains in several scientific fields with significantly less time cost compared to human efforts. For instance, in reaction yield prediction, it increased from 27.6% to 35.4% in just 12 hours; in enhancer activity prediction, accuracy rose from 0.65 to 0.79 with only 4 hours of processing; and in 2D semantic segmentation, precision advanced from 78.8% to 81.0% in a mere 30 hours."
+    ]
+  },
+  "html_sha256": "789be50be97106eec54ebf82b96292e69ffede1c09467cdce41d368e73523f99",
+  "evidence_html": "evidence/1ce1846d9fc1be30fee2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,160 @@
+{
+  "url": "https://arxiv.org/abs/2412.14161",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.14161",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-16",
+      "topic": "Agent benchmark",
+      "title_hint": "Xu et al. TheAgentCompany. arXiv:2412.14161.",
+      "existing_reference_number": 16,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.14161",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:06.624358+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.14161",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46280,
+  "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+  "authors": [
+    "Xu, Frank F.",
+    "Song, Yufan",
+    "Li, Boxuan",
+    "Tang, Yuxuan",
+    "Jain, Kritanjali",
+    "Bao, Mengxue",
+    "Wang, Zora Z.",
+    "Zhou, Xuhui",
+    "Guo, Zhitong",
+    "Cao, Murong",
+    "Yang, Mingyang",
+    "Lu, Hao Yang",
+    "Martin, Amaad",
+    "Su, Zhe",
+    "Maben, Leander",
+    "Mehta, Raj",
+    "Chi, Wayne",
+    "Jang, Lawrence",
+    "Xie, Yiqing",
+    "Zhou, Shuyan",
+    "Neubig, Graham"
+  ],
+  "first_author": "Xu, Frank F.",
+  "year": 2024,
+  "source_date": "2024/12/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2412.14161",
+  "abstract": "We interact with computers on an everyday basis, be it in everyday life or work, and many aspects of work can be done entirely with access to a computer and the Internet. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. But how performant are AI agents at accelerating or even autonomously performing work-related tasks? The answer to this question has important implications both for industry looking to adopt AI into their workflows and for economic policy to understand the effects that adoption of AI may have on the labor market. To measure the progress of these LLM agents' performance on performing real-world professional tasks, in this paper we introduce TheAgentCompany, an extensible benchmark for evaluating AI agents that interact with the world in similar ways to those of a digital worker: by browsing the Web, writing code, running programs, and communicating with other coworkers. We build a self-contained environment with internal web sites and data that mimics a small software company environment, and create a variety of tasks that may be performed by workers in such a company. We test baseline agents powered by both closed API-based and open-weights language models (LMs), and find that the most competitive agent can complete 30% of tasks autonomously. This paints a nuanced picture on task automation with LM agents--in a setting simulating a real workplace, a good portion of simpler tasks could be solved autonomously, but more difficult long-horizon tasks are still beyond the reach of current systems. We release code, data, environment, and experiments on this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.14161: TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.14161v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We interact with computers on an everyday basis, be it in everyday life or work, and many aspects of work can be done entirely with access to a computer and the Internet. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. But how performant are AI agents at accelerating or even autonomously performing work-related tasks? The answer to this question has important implications both for industry looking to adopt AI into their workflows and for economic policy to understand the effects that adoption of AI may have on the labor market. To measure the progress of these LLM agents' performance on performing real-world professional tasks, in this paper we introduce TheAgentCompany, an extensible benchmark for evaluating AI agents that interact with the world in similar ways to those of a digital worker: by browsing the Web, writing code, running programs, and communicating with other coworkers. We build a self-contained environment with internal web sites and data that mimics a small software company environment, and create a variety of tasks that may be performed by workers in such a company. We test baseline agents powered by both closed API-based and open-weights language models (LMs), and find that the most competitive agent can complete 30% of tasks autonomously. This paints a nuanced picture on task automation with LM agents--in a setting simulating a real workplace, a good portion of simpler tasks could be solved autonomously, but more difficult long-horizon tasks are still beyond the reach of current systems. We release code, data, environment, and experiments on https://the-agent-company.com."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks"
+    ],
+    "twitter:description": [
+      "We interact with computers on an everyday basis, be it in everyday life or work, and many aspects of work can be done entirely with access to a computer and the Internet. At the same time, thanks..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks"
+    ],
+    "citation_author": [
+      "Xu, Frank F.",
+      "Song, Yufan",
+      "Li, Boxuan",
+      "Tang, Yuxuan",
+      "Jain, Kritanjali",
+      "Bao, Mengxue",
+      "Wang, Zora Z.",
+      "Zhou, Xuhui",
+      "Guo, Zhitong",
+      "Cao, Murong",
+      "Yang, Mingyang",
+      "Lu, Hao Yang",
+      "Martin, Amaad",
+      "Su, Zhe",
+      "Maben, Leander",
+      "Mehta, Raj",
+      "Chi, Wayne",
+      "Jang, Lawrence",
+      "Xie, Yiqing",
+      "Zhou, Shuyan",
+      "Neubig, Graham"
+    ],
+    "citation_date": [
+      "2024/12/18"
+    ],
+    "citation_online_date": [
+      "2025/09/10"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.14161"
+    ],
+    "citation_arxiv_id": [
+      "2412.14161"
+    ],
+    "citation_abstract": [
+      "We interact with computers on an everyday basis, be it in everyday life or work, and many aspects of work can be done entirely with access to a computer and the Internet. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. But how performant are AI agents at accelerating or even autonomously performing work-related tasks? The answer to this question has important implications both for industry looking to adopt AI into their workflows and for economic policy to understand the effects that adoption of AI may have on the labor market. To measure the progress of these LLM agents' performance on performing real-world professional tasks, in this paper we introduce TheAgentCompany, an extensible benchmark for evaluating AI agents that interact with the world in similar ways to those of a digital worker: by browsing the Web, writing code, running programs, and communicating with other coworkers. We build a self-contained environment with internal web sites and data that mimics a small software company environment, and create a variety of tasks that may be performed by workers in such a company. We test baseline agents powered by both closed API-based and open-weights language models (LMs), and find that the most competitive agent can complete 30% of tasks autonomously. This paints a nuanced picture on task automation with LM agents--in a setting simulating a real workplace, a good portion of simpler tasks could be solved autonomously, but more difficult long-horizon tasks are still beyond the reach of current systems. We release code, data, environment, and experiments on https://the-agent-company.com."
+    ]
+  },
+  "html_sha256": "bb7e3cac0732aa2ee898172e3d86d0b0f14f49d99e1769df13029745e84afd9b",
+  "evidence_html": "evidence/ef33e3e91126f3bcaef7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

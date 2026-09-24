@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2410.14684",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.14684",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.14684",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:24.151877+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.14684",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42824,
+  "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+  "authors": [
+    "Ouyang, Siru",
+    "Yu, Wenhao",
+    "Ma, Kaixin",
+    "Xiao, Zilin",
+    "Zhang, Zhihan",
+    "Jia, Mengzhao",
+    "Han, Jiawei",
+    "Zhang, Hongming",
+    "Yu, Dong"
+  ],
+  "first_author": "Ouyang, Siru",
+  "year": 2024,
+  "source_date": "2024/10/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.14684",
+  "abstract": "Large Language Models (LLMs) excel in code generation yet struggle with modern AI software engineering tasks. Unlike traditional function-level or file-level coding tasks, AI software engineering requires not only basic coding proficiency but also advanced skills in managing and interacting with code repositories. However, existing methods often overlook the need for repository-level code understanding, which is crucial for accurately grasping the broader context and developing effective solutions. On this basis, we present RepoGraph, a plug-in module that manages a repository-level structure for modern AI software engineering solutions. RepoGraph offers the desired guidance and serves as a repository-wide navigation for AI software engineers. We evaluate RepoGraph on the SWE-bench by plugging it into four different methods of two lines of approaches, where RepoGraph substantially boosts the performance of all systems, leading to a new state-of-the-art among open-source frameworks. Our analyses also demonstrate the extensibility and flexibility of RepoGraph by testing on another repo-level coding benchmark, CrossCodeEval. Our code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.14684: RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.14684v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) excel in code generation yet struggle with modern AI software engineering tasks. Unlike traditional function-level or file-level coding tasks, AI software engineering requires not only basic coding proficiency but also advanced skills in managing and interacting with code repositories. However, existing methods often overlook the need for repository-level code understanding, which is crucial for accurately grasping the broader context and developing effective solutions. On this basis, we present RepoGraph, a plug-in module that manages a repository-level structure for modern AI software engineering solutions. RepoGraph offers the desired guidance and serves as a repository-wide navigation for AI software engineers. We evaluate RepoGraph on the SWE-bench by plugging it into four different methods of two lines of approaches, where RepoGraph substantially boosts the performance of all systems, leading to a new state-of-the-art among open-source frameworks. Our analyses also demonstrate the extensibility and flexibility of RepoGraph by testing on another repo-level coding benchmark, CrossCodeEval. Our code is available at https://github.com/ozyyshr/RepoGraph."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RepoGraph: Enhancing AI Software Engineering with Repository-level..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) excel in code generation yet struggle with modern AI software engineering tasks. Unlike traditional function-level or file-level coding tasks, AI software engineering..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph"
+    ],
+    "citation_author": [
+      "Ouyang, Siru",
+      "Yu, Wenhao",
+      "Ma, Kaixin",
+      "Xiao, Zilin",
+      "Zhang, Zhihan",
+      "Jia, Mengzhao",
+      "Han, Jiawei",
+      "Zhang, Hongming",
+      "Yu, Dong"
+    ],
+    "citation_date": [
+      "2024/10/03"
+    ],
+    "citation_online_date": [
+      "2025/03/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.14684"
+    ],
+    "citation_arxiv_id": [
+      "2410.14684"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) excel in code generation yet struggle with modern AI software engineering tasks. Unlike traditional function-level or file-level coding tasks, AI software engineering requires not only basic coding proficiency but also advanced skills in managing and interacting with code repositories. However, existing methods often overlook the need for repository-level code understanding, which is crucial for accurately grasping the broader context and developing effective solutions. On this basis, we present RepoGraph, a plug-in module that manages a repository-level structure for modern AI software engineering solutions. RepoGraph offers the desired guidance and serves as a repository-wide navigation for AI software engineers. We evaluate RepoGraph on the SWE-bench by plugging it into four different methods of two lines of approaches, where RepoGraph substantially boosts the performance of all systems, leading to a new state-of-the-art among open-source frameworks. Our analyses also demonstrate the extensibility and flexibility of RepoGraph by testing on another repo-level coding benchmark, CrossCodeEval. Our code is available at https://github.com/ozyyshr/RepoGraph."
+    ]
+  },
+  "html_sha256": "b11436bb2f1b008935a0c1035ed1bb66a35fdfccaa7d84672809a33e0f077eda",
+  "evidence_html": "evidence/0a3f5bcc769ee650985e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

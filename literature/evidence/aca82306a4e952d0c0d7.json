@@ -1,0 +1,225 @@
+{
+  "url": "https://arxiv.org/abs/2510.02387",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.02387",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "CWM: An Open-Weights LLM for Research on Code Generation with World Models",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.02387",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "CWM: an open-weights LLM for research on code generation with world models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.02387",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:43.365751+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.02387",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 50293,
+  "title": "CWM: An Open-Weights LLM for Research on Code Generation with World Models",
+  "authors": [
+    "FAIR CodeGen team",
+    "Copet, Jade",
+    "Carbonneaux, Quentin",
+    "Cohen, Gal",
+    "Gehring, Jonas",
+    "Kahn, Jacob",
+    "Kossen, Jannik",
+    "Kreuk, Felix",
+    "McMilin, Emily",
+    "Meyer, Michel",
+    "Wei, Yuxiang",
+    "Zhang, David",
+    "Zheng, Kunhao",
+    "Armengol-Estapé, Jordi",
+    "Bashiri, Pedram",
+    "Beck, Maximilian",
+    "Chambon, Pierre",
+    "Charnalia, Abhishek",
+    "Cummins, Chris",
+    "Decugis, Juliette",
+    "Fisches, Zacharias V.",
+    "Fleuret, François",
+    "Gloeckle, Fabian",
+    "Gu, Alex",
+    "Hassid, Michael",
+    "Haziza, Daniel",
+    "Idrissi, Badr Youbi",
+    "Keller, Christian",
+    "Kindi, Rahul",
+    "Leather, Hugh",
+    "Maimon, Gallil",
+    "Markosyan, Aram",
+    "Massa, Francisco",
+    "Mazaré, Pierre-Emmanuel",
+    "Mella, Vegard",
+    "Murray, Naila",
+    "Muzumdar, Keyur",
+    "O'Hearn, Peter",
+    "Pagliardini, Matteo",
+    "Pedchenko, Dmitrii",
+    "Remez, Tal",
+    "Seeker, Volker",
+    "Selvi, Marco",
+    "Sultan, Oren",
+    "Wang, Sida",
+    "Wehrstedt, Luca",
+    "Yoran, Ori",
+    "Zhang, Lingming",
+    "Cohen, Taco",
+    "Adi, Yossi",
+    "Synnaeve, Gabriel"
+  ],
+  "first_author": "FAIR CodeGen team",
+  "year": 2025,
+  "source_date": "2025/09/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.02387",
+  "abstract": "We release Code World Model (CWM), a 32-billion-parameter open-weights LLM, to advance research on code generation with world models. To improve code understanding beyond what can be learned from training on static code alone, we mid-train CWM on a large amount of observation-action trajectories from Python interpreter and agentic Docker environments, and perform extensive multi-task reasoning RL in verifiable coding, math, and multi-turn software engineering environments. With CWM, we provide a strong testbed for researchers to explore the opportunities world modeling affords for improving code generation with reasoning and planning in computational environments. We present first steps of how world models can benefit agentic coding, enable step-by-step simulation of Python code execution, and show early results of how reasoning can benefit from the latter. CWM is a dense, decoder-only LLM trained with a context size of up to 131k tokens. Independent of its world modeling capabilities, CWM offers strong performance on general coding and math tasks: it reaches pass@1 scores of 65.8% on SWE-bench Verified (with test-time scaling), 68.6% on LiveCodeBench, 96.6% on Math-500, and 76.0% on AIME 2024. To support further research on code world modeling, we release model checkpoints after mid-training, SFT, and RL.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.02387: CWM: An Open-Weights LLM for Research on Code Generation with World Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CWM: An Open-Weights LLM for Research on Code Generation with World Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.02387v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We release Code World Model (CWM), a 32-billion-parameter open-weights LLM, to advance research on code generation with world models. To improve code understanding beyond what can be learned from training on static code alone, we mid-train CWM on a large amount of observation-action trajectories from Python interpreter and agentic Docker environments, and perform extensive multi-task reasoning RL in verifiable coding, math, and multi-turn software engineering environments. With CWM, we provide a strong testbed for researchers to explore the opportunities world modeling affords for improving code generation with reasoning and planning in computational environments. We present first steps of how world models can benefit agentic coding, enable step-by-step simulation of Python code execution, and show early results of how reasoning can benefit from the latter. CWM is a dense, decoder-only LLM trained with a context size of up to 131k tokens. Independent of its world modeling capabilities, CWM offers strong performance on general coding and math tasks: it reaches pass@1 scores of 65.8% on SWE-bench Verified (with test-time scaling), 68.6% on LiveCodeBench, 96.6% on Math-500, and 76.0% on AIME 2024. To support further research on code world modeling, we release model checkpoints after mid-training, SFT, and RL."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CWM: An Open-Weights LLM for Research on Code Generation with World Models"
+    ],
+    "twitter:description": [
+      "We release Code World Model (CWM), a 32-billion-parameter open-weights LLM, to advance research on code generation with world models. To improve code understanding beyond what can be learned from..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CWM: An Open-Weights LLM for Research on Code Generation with World Models"
+    ],
+    "citation_author": [
+      "FAIR CodeGen team",
+      "Copet, Jade",
+      "Carbonneaux, Quentin",
+      "Cohen, Gal",
+      "Gehring, Jonas",
+      "Kahn, Jacob",
+      "Kossen, Jannik",
+      "Kreuk, Felix",
+      "McMilin, Emily",
+      "Meyer, Michel",
+      "Wei, Yuxiang",
+      "Zhang, David",
+      "Zheng, Kunhao",
+      "Armengol-Estapé, Jordi",
+      "Bashiri, Pedram",
+      "Beck, Maximilian",
+      "Chambon, Pierre",
+      "Charnalia, Abhishek",
+      "Cummins, Chris",
+      "Decugis, Juliette",
+      "Fisches, Zacharias V.",
+      "Fleuret, François",
+      "Gloeckle, Fabian",
+      "Gu, Alex",
+      "Hassid, Michael",
+      "Haziza, Daniel",
+      "Idrissi, Badr Youbi",
+      "Keller, Christian",
+      "Kindi, Rahul",
+      "Leather, Hugh",
+      "Maimon, Gallil",
+      "Markosyan, Aram",
+      "Massa, Francisco",
+      "Mazaré, Pierre-Emmanuel",
+      "Mella, Vegard",
+      "Murray, Naila",
+      "Muzumdar, Keyur",
+      "O'Hearn, Peter",
+      "Pagliardini, Matteo",
+      "Pedchenko, Dmitrii",
+      "Remez, Tal",
+      "Seeker, Volker",
+      "Selvi, Marco",
+      "Sultan, Oren",
+      "Wang, Sida",
+      "Wehrstedt, Luca",
+      "Yoran, Ori",
+      "Zhang, Lingming",
+      "Cohen, Taco",
+      "Adi, Yossi",
+      "Synnaeve, Gabriel"
+    ],
+    "citation_date": [
+      "2025/09/30"
+    ],
+    "citation_online_date": [
+      "2025/09/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.02387"
+    ],
+    "citation_arxiv_id": [
+      "2510.02387"
+    ],
+    "citation_abstract": [
+      "We release Code World Model (CWM), a 32-billion-parameter open-weights LLM, to advance research on code generation with world models. To improve code understanding beyond what can be learned from training on static code alone, we mid-train CWM on a large amount of observation-action trajectories from Python interpreter and agentic Docker environments, and perform extensive multi-task reasoning RL in verifiable coding, math, and multi-turn software engineering environments. With CWM, we provide a strong testbed for researchers to explore the opportunities world modeling affords for improving code generation with reasoning and planning in computational environments. We present first steps of how world models can benefit agentic coding, enable step-by-step simulation of Python code execution, and show early results of how reasoning can benefit from the latter. CWM is a dense, decoder-only LLM trained with a context size of up to 131k tokens. Independent of its world modeling capabilities, CWM offers strong performance on general coding and math tasks: it reaches pass@1 scores of 65.8% on SWE-bench Verified (with test-time scaling), 68.6% on LiveCodeBench, 96.6% on Math-500, and 76.0% on AIME 2024. To support further research on code world modeling, we release model checkpoints after mid-training, SFT, and RL."
+    ]
+  },
+  "html_sha256": "bd0ef63d47cb2e799e46ac4b1c165d6b1c8b7e326d36f99e0b3e9d1cc071cb65",
+  "evidence_html": "evidence/aca82306a4e952d0c0d7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

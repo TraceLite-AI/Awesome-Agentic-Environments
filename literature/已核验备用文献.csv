@@ -1,0 +1,240 @@
+﻿title,first_author,year,primary_area,subcategory,opened_url,evidence_json
+AgentGym: Evolving Large Language Model-based Agents across Diverse Environments,"Xi, Zhiheng",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2406.04151,evidence/2e1e4e6d9859935bf5b3.json
+AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents,"Andriushchenko, Maksym",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2410.09024,evidence/9d3771ee05215ce0e910.json
+Attacking Vision-Language Computer Agents via Pop-ups,"Zhang, Yanzhe",2024,Environment,环境变化与鲁棒性,https://arxiv.org/abs/2411.02391,evidence/830812a7f9ec87422bf1.json
+BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games,"Paglieri, Davide",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2411.13543,evidence/5f0d06748b80d31b4a81.json
+Baba Is AI: Break the Rules to Beat the Benchmark,"Cloos, Nathan",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2407.13729,evidence/8446e360ee88b620a0c5.json
+Benchmarking Data Science Agents,Yuge Zhang,2024,Environment,交互环境与评测基准,https://aclanthology.org/2024.acl-long.308/,evidence/93b318bef41489dcd161.json
+Benchmarking Mobile Device Control Agents across Diverse Configurations,"Lee, Juyong",2024,Environment,环境变化与鲁棒性,https://arxiv.org/abs/2404.16660,evidence/c19a027f6996c2cd572b.json
+Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions,"Ma, Xinbei",2024,Environment,环境变化与鲁棒性,https://arxiv.org/abs/2408.02544,evidence/1a76f8305d4baf7a5783.json
+CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents,"Qi, Siyuan",2024,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2401.10568,evidence/fe35267e3e5bf6ccce34.json
+DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning,"Zhou, Gaoyue",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2411.04983,evidence/e9f82a363b1e1d819be9.json
+DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents,"Jansen, Peter",2024,Environment,具身、游戏与模拟环境,https://papers.nips.cc/paper_files/paper/2024/hash/13836f251823945316ae067350a5c366-Abstract-Datasets_and_Benchmarks_Track.html,evidence/778d0179adf885bcc5d3.json
+EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage,"Liao, Zeyi",2024,Environment,环境变化与鲁棒性,https://arxiv.org/abs/2409.11295,evidence/100eec7625737625b576.json
+EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents,"Zala, Abhay",2024,Environment,环境生成与演化,https://arxiv.org/abs/2403.12014,evidence/5a800c0497d947ed5362.json
+FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents,Ruixuan Xiao,2024,Environment,交互环境与评测基准,https://aclanthology.org/2024.findings-emnlp.638/,evidence/901f6d8252684521b754.json
+GameBench: Evaluating Strategic Reasoning Abilities of LLM Agents,"Costarelli, Anthony",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2406.06613,evidence/ad9d0856d59e0ce58140.json
+GameTraversalBenchmark: Evaluating Planning Abilities Of Large Language Models Through Traversing 2D Game Maps,"Nasir, Muhammad Umair",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2410.07765,evidence/32cec132d7ead8d816fc.json
+Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents,"Gu, Yu",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2411.06559,evidence/aa437a60391e844373ea.json
+LEGENT: Open Platform for Embodied Agents,Zhili Cheng,2024,Environment,具身、游戏与模拟环境,https://aclanthology.org/2024.acl-demos.32/,evidence/31c84683d0881b90091c.json
+LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments,"Chen, Junzhe",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2402.16499,evidence/3177b633d9a2c1961172.json
+Leveraging Environment Interaction for Automated PDDL Translation and Planning with Large Language Models,"Mahdavi, Sadegh",2024,Environment,环境生成与演化,https://papers.nips.cc/paper_files/paper/2024/hash/44af065477781e7f8a8589b14a62c489-Abstract-Conference.html,evidence/9fb9971b2a0054dcec93.json
+Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents,"Deng, Shihan",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2407.00993,evidence/5007fe1624a07a745cf5.json
+MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents,"Wang, Luyuan",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2406.08184,evidence/87ec60001f476baeb853.json
+NATURAL PLAN: Benchmarking LLMs on Natural Language Planning,"Zheng, Huaixiu Steven",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2406.04520,evidence/5fc788ed52a6d5dd1c85.json
+On the Effects of Data Scale on UI Control Agents,"Li, Wei",2024,Environment,交互环境与评测基准,https://papers.nips.cc/paper_files/paper/2024/hash/a79f3ef3b445fd4659f44648f7ea8ffd-Abstract-Datasets_and_Benchmarks_Track.html,evidence/6de7df2cd4f3c4d8467a.json
+On the Multi-turn Instruction Following for Conversational Web Agents,Yang Deng,2024,Environment,交互环境与评测基准,https://aclanthology.org/2024.acl-long.477/,evidence/8b21107a786a0a011898.json
+R-Judge: Benchmarking Safety Risk Awareness for LLM Agents,"Yuan, Tongxin",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2401.10019,evidence/be8ddbc132d6e5ab7c1f.json
+SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents,"Mündler, Niels",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2406.12952,evidence/d74fad013fd95c9bf820.json
+SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents,"Yin, Sheng",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2412.13178,evidence/ae5d49622e0eb0314e0c.json
+TravelPlanner: A Benchmark for Real-World Planning with Language Agents,Jian Xie,2024,Environment,交互环境与评测基准,https://proceedings.mlr.press/v235/xie24j.html,evidence/b9bdb2555228adc6f25a.json
+UFO: A UI-Focused Agent for Windows OS Interaction,"Zhang, Chaoyun",2024,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2402.07939,evidence/768b770dbaf61df7b34b.json
+Understanding World or Predicting Future? A Comprehensive Survey of World Models,"Ding, Jingtao",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2411.14499,evidence/6a6e8dac1ee9db42b75a.json
+WebCanvas: Benchmarking Web Agents in Online Environments,"Pan, Yichen",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2406.12373,evidence/7e2fb9fdf63387a56e83.json
+WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration,"Zhang, Yao",2024,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2408.15978,evidence/00cdfd142beaabb9bc12.json
+WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?,Alexandre Drouin,2024,Environment,交互环境与评测基准,https://proceedings.mlr.press/v235/drouin24a.html,evidence/96a00216579f23bb18a4.json
+"WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment","Tang, Hao",2024,Environment,世界模型与模拟器,https://papers.nips.cc/paper_files/paper/2024/hash/820c61a0cd419163ccbd2c33b268816e-Abstract-Conference.html,evidence/438642c3a8279ce5180d.json
+dZiner: Rational Inverse Design of Materials with AI Agents,"Ansari, Mehrad",2024,Agent,科学与研究智能体,https://arxiv.org/abs/2410.03963,evidence/d23b9bfdb7ca127f25fa.json
+"A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis","Gur, Izzeddin",2023,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2307.12856,evidence/abd662cb969d2b5fb5bd.json
+A Survey of Zero-shot Generalisation in Deep Reinforcement Learning,"Kirk, Robert",2023,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/2111.09794,evidence/d3cea678f8040cb2816c.json
+ART: Automatic multi-step reasoning and tool-use for large language models,"Paranjape, Bhargavi",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2303.09014,evidence/4bfe83a7aaa2ae06d5f8.json
+AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation,"Huang, Dong",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2312.13010,evidence/a7a51d5ba473af9d3323.json
+Agents: An Open-source Framework for Autonomous Language Agents,"Zhou, Wangchunshu",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2309.07870,evidence/e852e9ce617c4bc0fa0f.json
+AppAgent: Multimodal Agents as Smartphone Users,"Zhang, Chi",2023,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2312.13771,evidence/c0faa48fdba2e37ddcc2.json
+AutoAgents: A Framework for Automatic Agent Generation,"Chen, Guangyao",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2309.17288,evidence/af61a114dc0f6c7e072f.json
+ChemCrow: Augmenting large-language models with chemistry tools,"Bran, Andres M",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2304.05376,evidence/ed8621f3ca35e857a4ba.json
+Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis,"Chen, Kexin",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2311.10776,evidence/b5998eed3b905cf7ccfd.json
+Clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents,"Chalamalasetti, Kranti",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2305.13455,evidence/d67f3a7f80d6db2d843c.json
+CodePlan: Repository-level Coding using LLMs and Planning,"Bairi, Ramakrishna",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2309.12499,evidence/adf633d8a5d7d39fda7d.json
+CogAgent: A Visual Language Model for GUI Agents,"Hong, Wenyi",2023,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2312.08914,evidence/5ba207976f68fdc95f93.json
+Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach,"Zhang, Bin",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2311.13884,evidence/d820de664c7c3bd86fdc.json
+Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling,"Nottingham, Kolby",2023,Environment,世界模型与模拟器,https://arxiv.org/abs/2301.12050,evidence/ca163ec886a40a665a45.json
+GameGPT: Multi-agent Collaborative Framework for Game Development,"Chen, Dake",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2310.08067,evidence/12ee33bd18138ced26b5.json
+"Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia","Vezhnevets, Alexander Sasha",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2312.03664,evidence/47ee3df258cb789f16a6.json
+Gentopia: A Collaborative Platform for Tool-Augmented LLMs,"Xu, Binfeng",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2308.04030,evidence/ce33c9707edc8296125f.json
+InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback,"Yang, John",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2306.14898,evidence/674c5579ba5134c68ae8.json
+LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models,"Abdulhai, Marwa",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2311.18232,evidence/f2901a35f8fe6da8e894.json
+Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game,"Xu, Zelai",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2310.18940,evidence/085e8ddba894b446fc6d.json
+Large Language Models Are Semi-Parametric Reinforcement Learning Agents,"Zhang, Danyang",2023,Agent,具身智能体,https://arxiv.org/abs/2306.07929,evidence/30e161510cb12c2e7588.json
+Lemur: Harmonizing Natural Language and Code for Language Agents,"Xu, Yiheng",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2310.06830,evidence/2b52484ddea7ced686e9.json
+Lyfe Agents: Generative agents for low-cost real-time social interactions,"Kaiya, Zhao",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2310.02172,evidence/aac07c20468069f5f04d.json
+"MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge","Ni, Bo",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2311.08166,evidence/0830ddd508f4782807b8.json
+MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming,"Li, Yuan",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2310.06500,evidence/0a7d68aad624da30e32a.json
+MindAgent: Emergent Gaming Interaction,"Gong, Ran",2023,Agent,具身智能体,https://arxiv.org/abs/2309.09971,evidence/9d797528c5c2a948cac7.json
+Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction,"Zhang, Danyang",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2305.08144,evidence/bcb866037baacb56c46c.json
+Multi-Agent Consensus Seeking via Large Language Models,"Chen, Huaben",2023,Agent,具身智能体,https://arxiv.org/abs/2310.20151,evidence/1f6769a0c6a1efd04bb2.json
+OpenAgents: An Open Platform for Language Agents in the Wild,"Xie, Tianbao",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2310.10634,evidence/79f5ae0792e3f5f6f888.json
+PentestGPT: An LLM-empowered Automatic Penetration Testing Tool,"Deng, Gelei",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2308.06782,evidence/6885f39ebfb369d0e995.json
+"Plan, Eliminate, and Track -- Language Models are Good Teachers for Embodied Agents","Wu, Yue",2023,Agent,具身智能体,https://arxiv.org/abs/2305.02412,evidence/c05fe3bc1be506679376.json
+ProAgent: Building Proactive Cooperative Agents with Large Language Models,"Zhang, Ceyao",2023,Agent,具身智能体,https://arxiv.org/abs/2308.11339,evidence/3687116a118e2520973c.json
+RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models,"Wang, Zefan",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2310.16340,evidence/7be5bf57d8784bbb00ad.json
+S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents,"Gao, Chen",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2307.14984,evidence/bd8f43c6ce9ab88cfc4d.json
+Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems,"Nascimento, Nathalia",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2307.06187,evidence/21a3eae5a62c90089741.json
+Should we be going MAD? A Look at Multi-Agent Debate Strategies for LLMs,"Smit, Andries",2023,Harness,多代理协作编排,https://arxiv.org/abs/2311.17371,evidence/cb119af00aeb51c69d6d.json
+SmartPlay: A Benchmark for LLMs as Intelligent Agents,"Wu, Yue",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2310.01557,evidence/7c12ff2f340a0a747c71.json
+TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage,"Ruan, Jingqing",2023,Harness,工具调用与接口,https://arxiv.org/abs/2308.03427,evidence/2f9489852b6c5bbb3a7a.json
+Theory of Mind for Multi-Agent Collaboration via Large Language Models,"Li, Huao",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2310.10701,evidence/aaa67c4ce023140035e1.json
+Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory,"Liu, Lei",2023,Harness,记忆与上下文,https://arxiv.org/abs/2311.08719,evidence/1bc875d0cf367c7cba0c.json
+Tool Documentation Enables Zero-Shot Tool-Usage with Large Language Models,"Hsieh, Cheng-Yu",2023,Harness,工具调用与接口,https://arxiv.org/abs/2308.00675,evidence/18c61c4519061a3a517c.json
+Tool Learning with Foundation Models,"Qin, Yujia",2023,Harness,规划、搜索与反思,https://arxiv.org/abs/2304.08354,evidence/653e0bbee31e3f880c9d.json
+ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases,"Tang, Qiaoyu",2023,Harness,工具调用与接口,https://arxiv.org/abs/2306.05301,evidence/41eca3fea488c31de81a.json
+ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs,"Qin, Yujia",2023,Harness,工具调用与接口,https://arxiv.org/abs/2307.16789,evidence/e83b9750d164ea195902.json
+ToolTalk: Evaluating Tool-Usage in a Conversational Setting,"Farn, Nicholas",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2311.10775,evidence/7d696b51f3e23e1a4f3e.json
+ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings,"Hao, Shibo",2023,Harness,工具调用与接口,https://arxiv.org/abs/2305.11554,evidence/2bdb22a855fb49eba864.json
+Towards A Unified Agent with Foundation Models,"Di Palo, Norman",2023,Agent,具身智能体,https://arxiv.org/abs/2307.09668,evidence/f8d2a13591fd7335806a.json
+User Behavior Simulation with Large Language Model based Agents,"Wang, Lei",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2306.02552,evidence/1bac8623b7faf9c97f0f.json
+Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading,"Chen, Howard",2023,Harness,记忆与上下文,https://arxiv.org/abs/2310.05029,evidence/914c71948282f0622ba7.json
+"BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments",Sanjana Srivastava,2022,Environment,交互环境与评测基准,https://proceedings.mlr.press/v164/srivastava22a.html,evidence/01f4fde4b638e4e11fda.json
+Inner Monologue: Embodied Reasoning through Planning with Language Models,"Huang, Wenlong",2022,Agent,具身智能体,https://arxiv.org/abs/2207.05608,evidence/6e48551f8ddd757f598d.json
+Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents,"Huang, Wenlong",2022,Agent,具身智能体,https://arxiv.org/abs/2201.07207,evidence/69e013c3893c834def84.json
+TALM: Tool Augmented Language Models,"Parisi, Aaron",2022,Harness,工具调用与接口,https://arxiv.org/abs/2205.12255,evidence/eed7bfea4e70a803f9f5.json
+A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments,"Padakandla, Sindhu",2020,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/2005.10619,evidence/20c2b0ccc6d782200449.json
+Learning Software Configuration Spaces: A Systematic Literature Review,"Pereira, Juliana Alves",2019,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/1906.03018,evidence/caff9a93d2931c193cd4.json
+RLBench: The Robot Learning Benchmark & Learning Environment,"James, Stephen",2019,Environment,交互环境与评测基准,https://arxiv.org/abs/1909.12271,evidence/d02c9904ad2503dbd912.json
+A survey on software testability,"Garousi, Vahid",2018,Environment,交互环境与评测基准,https://arxiv.org/abs/1801.02201,evidence/db5f5d53b0e55f1ac204.json
+"A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment","Wang, Kun",2025,Harness,安全、权限与执行验证,https://arxiv.org/abs/2504.15585,evidence/6aa55ba9087047752c97.json
+CWM: An Open-Weights LLM for Research on Code Generation with World Models,FAIR CodeGen team,2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2510.02387,evidence/aca82306a4e952d0c0d7.json
+HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models,"Gutiérrez, Bernal Jiménez",2024,Harness,记忆与上下文,https://arxiv.org/abs/2405.14831,evidence/51b1ae022a4ed8faf008.json
+Larimar: Large Language Models with Episodic Memory Control,"Das, Payel",2024,Harness,记忆与上下文,https://arxiv.org/abs/2403.11901,evidence/f7245061cdf1ce3f1cde.json
+Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training,"Hubinger, Evan",2024,Harness,安全、权限与执行验证,https://arxiv.org/abs/2401.05566,evidence/e5c0904211c7d0cc4437.json
+Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering,"Ridnik, Tal",2024,Harness,规划、搜索与反思,https://arxiv.org/abs/2401.08500,evidence/f3008c1248fff44a59a2.json
+Augmenting Language Models with Long-Term Memory,"Wang, Weizhi",2023,Harness,记忆与上下文,https://arxiv.org/abs/2306.07174,evidence/cf51363cdbda14da2bf5.json
+ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs,"Chen, Justin Chih-Yao",2023,Harness,多代理协作编排,https://arxiv.org/abs/2309.13007,evidence/ef43d07452d0224b0e61.json
+Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions,"Wang, Rui",2019,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/1901.01753,evidence/6f404dfaf8c5d549b2d5.json
+"AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games","Ying, Lance",2026,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2602.17594,evidence/b0ffc905466a7a49a0e7.json
+AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines,"Wu, Yifan",2026,Environment,环境生成与演化,https://arxiv.org/abs/2602.14296,evidence/3f2dbbf4323abcc8745f.json
+Closing the Loop: Universal Repository Representation with RPG-Encoder,"Luo, Jane",2026,Agent,软件工程与代码智能体,https://arxiv.org/abs/2602.02084,evidence/9359d97485c20a3c0c86.json
+Code2World: A GUI World Model via Renderable Code Generation,"Zheng, Yuhao",2026,Environment,世界模型与模拟器,https://arxiv.org/abs/2602.09856,evidence/3c2e21087ecb1704395f.json
+Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction,"Zhang, Yuzhe",2026,Environment,环境变化与鲁棒性,https://arxiv.org/abs/2604.05477,evidence/e78e277666b17bfc46a4.json
+On Data Engineering for Scaling LLM Terminal Capabilities,"Pi, Renjie",2026,Environment,环境生成与演化,https://arxiv.org/abs/2602.21193,evidence/3ce7a4e0d41aa445a295.json
+Quantifying Frontier LLM Capabilities for Container Sandbox Escape,"Marchand, Rahul",2026,Harness,安全、权限与执行验证,https://arxiv.org/abs/2603.02277,evidence/ad8c646423a3802df0d9.json
+SCALER:Synthetic Scalable Adaptive Learning Environment for Reasoning,"Xu, Caijun",2026,Environment,环境生成与演化,https://arxiv.org/abs/2601.04809,evidence/c480e16d7bdee86192e4.json
+"SWE-Hub: A Unified Production System for Scalable, Executable Software Engineering Tasks","Zeng, Yucheng",2026,Environment,环境生成与演化,https://arxiv.org/abs/2603.00575,evidence/bd701a15fed602226f6b.json
+SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving,"Tao, Chaofan",2026,Agent,软件工程与代码智能体,https://arxiv.org/abs/2601.01426,evidence/7dbe935f703d3afd9747.json
+SWE-Universe: Scale Real-World Verifiable Environments to Millions,"Chen, Mouxiang",2026,Environment,环境生成与演化,https://arxiv.org/abs/2602.02361,evidence/db195f5def7f514df8a8.json
+UI-Venus-1.5 Technical Report,Venus Team,2026,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2602.09082,evidence/ca0344e8dd593e354de4.json
+Accelerating scientific discovery with Co-Scientist,"Gottweis, Juraj",2025,Agent,科学与研究智能体,https://arxiv.org/abs/2502.18864,evidence/7166f089a529484eabf5.json
+AdaWorld: Learning Adaptable World Models with Latent Actions,Shenyuan Gao,2025,Environment,世界模型与模拟器,https://proceedings.mlr.press/v267/gao25u.html,evidence/ca883d875395dd7ff120.json
+BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills,"Sonwane, Atharv",2025,Agent,软件工程与代码智能体,https://arxiv.org/abs/2510.19898,evidence/84a9f6d63aef50d97b92.json
+Cosmos World Foundation Model Platform for Physical AI,NVIDIA,2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2501.03575,evidence/23c7c4048d62a33995df.json
+Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models,"Ren, Xuanchi",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2506.09042,evidence/af5b1b7a935e5693e53b.json
+Decoupled Diffusion Sparks Adaptive Scene Generation,"Zhou, Yunsong",2025,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2504.10485,evidence/d5d0b6b2d6e698f23ee2.json
+DreamGen: Unlocking Generalization in Robot Learning through Video World Models,"Jang, Joel",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2505.12705,evidence/3de660eacc86a28a3e57.json
+Factorio Learning Environment,"Hopkins, Jack",2025,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2503.09617,evidence/da8612d7764aacc0daad.json
+GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving,"Russell, Lloyd",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2503.20523,evidence/086cbc4634cdd975e5c5.json
+GameFactory: Creating New Games with Generative Interactive Videos,"Yu, Jiwen",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2501.08325,evidence/fc1e4cb32d7497bb5efa.json
+Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation,"Liao, Yue",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2508.05635,evidence/a5f9e7ed76a61278d803.json
+InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution,"Li, KeFan",2025,Agent,软件工程与代码智能体,https://arxiv.org/abs/2511.16004,evidence/a658384cae89eb0df9ec.json
+KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation,"Shi, Jiajun",2025,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2505.14552,evidence/9cf791269e59c39a896f.json
+KernelBench: Can LLMs Write Efficient GPU Kernels?,"Ouyang, Anne",2025,Environment,交互环境与评测基准,https://arxiv.org/abs/2502.10517,evidence/75d483d1dc3d6e8b171a.json
+Matrix-Game: Interactive World Foundation Model,"Zhang, Yifan",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2506.18701,evidence/5a443dc797980710c801.json
+Matrix-game 2.0: An open-source real-time and streaming interactive world model,"He, Xianglong",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2508.13009,evidence/4587e826aac28be8f09c.json
+Measuring General Intelligence with Generated Games,"Verma, Vivek",2025,Environment,环境生成与演化,https://arxiv.org/abs/2505.07215,evidence/915c099a28c50d333b95.json
+MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft,"Guo, Junliang",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2504.08388,evidence/de4e75389ca2fe516eec.json
+"Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions","Hou, Xinyi",2025,Harness,工具调用与接口,https://arxiv.org/abs/2503.23278,evidence/44420ea2f77d15cd746a.json
+NeuralOS: Towards Simulating Operating Systems via Neural Generative Models,"Rivard, Luke",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2507.08800,evidence/9138f9aae055e6e9e5c9.json
+"OpenFOAMGPT 2.0: end-to-end, trustworthy automation for computational fluid dynamics","Feng, Jingsen",2025,Agent,科学与研究智能体,https://arxiv.org/abs/2504.19338,evidence/bdba03c965b3783fb91c.json
+PaperBench: Evaluating AI’s Ability to Replicate AI Research,Giulio Starace,2025,Environment,交互环境与评测基准,https://proceedings.mlr.press/v267/starace25a.html,evidence/9c37b8d188f6084e39b7.json
+RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments,"Zeng, Zhiyuan",2025,Environment,环境生成与演化,https://arxiv.org/abs/2511.07317,evidence/5574baee2b14fd19fd96.json
+Reasoning Core: A Scalable RL Environment for LLM Symbolic Reasoning,"Lacombe, Valentin",2025,Environment,环境生成与演化,https://arxiv.org/abs/2509.18083,evidence/0d9075b942324701275e.json
+SIADAFIX: issue description response for adaptive program repair,"Cao, Xin",2025,Agent,软件工程与代码智能体,https://arxiv.org/abs/2510.16059,evidence/6180f84c00d34f29ce9e.json
+SPIN-Bench: How Well Do LLMs Plan Strategically and Reason Socially?,"Yao, Jianzhu",2025,Environment,交互环境与评测基准,https://arxiv.org/abs/2503.12349,evidence/32da789f72478f9ada57.json
+Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments,"Rowe, Luke",2025,Environment,世界模型与模拟器,https://openaccess.thecvf.com/content/CVPR2025/html/Rowe_Scenario_Dreamer_Vectorized_Latent_Diffusion_for_Generating_Driving_Simulation_Environments_CVPR_2025_paper.html,evidence/dcb2df75b71bfefcf919.json
+"Securing the Model Context Protocol (MCP): Risks, Controls, and Governance","Errico, Herman",2025,Harness,安全、权限与执行验证,https://arxiv.org/abs/2511.20920,evidence/370a6e2bf3a155acfc6e.json
+TextArena,"Guertler, Leon",2025,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2504.11442,evidence/34e886c1b749424040a5.json
+TextGames: Learning to Self-Play Text-Based Puzzle Games via Language Model Reasoning,"Hudi, Frederikus",2025,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2502.18431,evidence/c474661207c4a82cbcb6.json
+V-GameGym: Visual Game Generation for Code Large Language Models,"Zhang, Wei",2025,Environment,环境生成与演化,https://arxiv.org/abs/2509.20136,evidence/f621f64ca669f96ce0e1.json
+VideoGameBench: Can Vision-Language Models complete popular video games?,"Zhang, Alex L.",2025,Environment,交互环境与评测基准,https://arxiv.org/abs/2505.18134,evidence/e33fe34bb82c4323146c.json
+Web World Models,"Feng, Jichen",2025,Environment,世界模型与模拟器,https://arxiv.org/abs/2512.23676,evidence/1916a9ccf2aad1e0c4de.json
+WebDancer: Towards Autonomous Information Seeking Agency,"Wu, Jialong",2025,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2505.22648,evidence/319a659f5acdc53e5493.json
+lmgame-Bench: How Good are LLMs at Playing Games?,"Hu, Lanxiang",2025,Environment,交互环境与评测基准,https://arxiv.org/abs/2505.15146,evidence/f95071fd1138ad0e99de.json
+3D-VLA: A 3D Vision-Language-Action Generative World Model,"Zhen, Haoyu",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2403.09631,evidence/d7c8ba37ff983f8d2236.json
+AutoCodeRover: Autonomous Program Improvement,"Zhang, Yuntong",2024,Harness,框架与运行编排,https://arxiv.org/abs/2404.05427,evidence/c5ec6c669bf4f6d4e0a9.json
+AutoDev: Automated AI-Driven Development,"Tufano, Michele",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2403.08299,evidence/616dbdde22b990975bb0.json
+Can Language Models Serve as Text-Based World Simulators?,Ruoyao Wang,2024,Environment,世界模型与模拟器,https://aclanthology.org/2024.acl-short.1/,evidence/0877bff7beecaeb8daab.json
+CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases,"Liu, Xiangyan",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2408.03910,evidence/1f2f4679d8f443e26945.json
+CoverUp: Effective High Coverage Test Generation for Python,"Pizzorno, Juan Altmayer",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2403.16218,evidence/7a6b9d16a91a6c804ade.json
+Debating with More Persuasive LLMs Leads to More Truthful Answers,"Khan, Akbir",2024,Harness,多代理协作编排,https://arxiv.org/abs/2402.06782,evidence/8b662fa972ffb9e477e1.json
+Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step,"Zhong, Li",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2402.16906,evidence/4c611f2850a70466102e.json
+Diffusion Models Are Real-Time Game Engines,"Valevski, Dani",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2408.14837,evidence/685daea9619807697057.json
+Diffusion for World Modeling: Visual Details Matter in Atari,"Alonso, Eloi",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2405.12399,evidence/8c60cc44559aa4c62d99.json
+Frontier Models are Capable of In-context Scheming,"Meinke, Alexander",2024,Harness,安全、权限与执行验证,https://arxiv.org/abs/2412.04984,evidence/bcf3c227b9d76e611843.json
+GAMEBoT: Transparent Assessment of LLM Reasoning in Games,"Lin, Wenye",2024,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2412.13602,evidence/a838f0a69d9b48c85ab4.json
+GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations,"Duan, Jinhao",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2402.12348,evidence/4bd3a743d71179dabb34.json
+GameArena: Evaluating LLM Reasoning through Live Computer Games,"Hu, Lanxiang",2024,Environment,交互环境与评测基准,https://arxiv.org/abs/2412.06394,evidence/51848161e44a3960be1b.json
+GameGen-X: Interactive Open-world Game Video Generation,"Che, Haoxuan",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2411.00769,evidence/38b04da4f91adc6256ec.json
+GenEx: Generating an Explorable World,"Lu, Taiming",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2412.09624,evidence/686c4f44ad5d4d3bdc43.json
+GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications,"Patil, Shishir G.",2024,Harness,框架与运行编排,https://arxiv.org/abs/2404.06921,evidence/049967ddc4f15e8ebe95.json
+Hammer: Robust Function-Calling for On-Device Language Models via Function Masking,"Lin, Qiqiang",2024,Harness,工具调用与接口,https://arxiv.org/abs/2410.04587,evidence/d84f965160aa3303923e.json
+LLMatDesign: Autonomous Materials Discovery with Large Language Models,"Jia, Shuyi",2024,Agent,科学与研究智能体,https://arxiv.org/abs/2406.13163,evidence/8c0c2a91068d2d5dd170.json
+Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement,"Ma, Yingwei",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2411.00622,evidence/695b82ff12ce2354fcd5.json
+LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation,"Zhang, Li",2024,Environment,环境变化与鲁棒性,https://arxiv.org/abs/2404.16054,evidence/b2843415a0d1554334c6.json
+MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration,"Ni, Ziqi",2024,Agent,科学与研究智能体,https://arxiv.org/abs/2411.08063,evidence/35d06eec863ddf898da5.json
+Mokav: Execution-driven Differential Testing with LLMs,"Etemadi, Khashayar",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2406.10375,evidence/fe4595d4529819491049.json
+Navigation World Models,"Bar, Amir",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2412.03572,evidence/16186221c31a97054da5.json
+Pandora: Towards General World Model with Natural Language Actions and Video States,"Xiang, Jiannan",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2406.09455,evidence/f246aa9c8682966a4f3a.json
+RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning,"Gehring, Jonas",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2410.02089,evidence/6fba0a1554b9319a26ed.json
+RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph,"Ouyang, Siru",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2410.14684,evidence/0a3f5bcc769ee650985e.json
+RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots,"Nasiriany, Soroush",2024,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2406.02523,evidence/684fe5d9f4931b1e89e4.json
+SpecRover: Code Intent Extraction via LLMs,"Ruan, Haifeng",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2408.02232,evidence/a53a125594f991984f50.json
+StarWhisper Telescope: An AI framework for automating end-to-end astronomical observations,"Wang, Cunshi",2024,Agent,科学与研究智能体,https://arxiv.org/abs/2412.06412,evidence/0f6058f4643b63ef96a9.json
+The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery,"Lu, Chris",2024,Agent,科学与研究智能体,https://arxiv.org/abs/2408.06292,evidence/395ebe20f9b0a821950a.json
+The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control,"Feng, Ruili",2024,Environment,世界模型与模拟器,https://arxiv.org/abs/2412.03568,evidence/66ad987b433e57e38253.json
+Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data,"Liu, Haoyang",2024,Agent,科学与研究智能体,https://arxiv.org/abs/2402.12391,evidence/ddccc6c38364c0469020.json
+You Can REST Now: Automated REST API Documentation and Testing via LLM-Assisted Request Mutations,"Decrop, Alix",2024,Agent,软件工程与代码智能体,https://arxiv.org/abs/2402.05102,evidence/0eaf8199f0f759979e39.json
+Android in the Wild: A Large-Scale Dataset for Android Device Control,"Rawles, Christopher",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2307.10088,evidence/fb43d11dc82c67eca334.json
+AutoDroid: LLM-powered Task Automation in Android,"Wen, Hao",2023,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2308.15272,evidence/0dd34d2d7793b1047e95.json
+Avalon's Game of Thoughts: Battle Against Deception through Recursive Contemplation,"Wang, Shenzhi",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2310.01320,evidence/e06a390dbe83e798d058.json
+AvalonBench: Evaluating LLMs Playing the Game of Avalon,"Light, Jonathan",2023,Environment,交互环境与评测基准,https://arxiv.org/abs/2310.05036,evidence/52e2b9fee75314ad59dc.json
+Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models,"Lu, Pan",2023,Harness,工具调用与接口,https://arxiv.org/abs/2304.09842,evidence/99a0ac84fe8906f2c76b.json
+Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models,"Yu, Bangguo",2023,Agent,具身智能体,https://arxiv.org/abs/2310.07937,evidence/daedbf0096c0f407f474.json
+Collaborating with language models for embodied reasoning,"Dasgupta, Ishita",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2302.00763,evidence/3d7f0a3529ddc8695566.json
+"Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation","Abdelnabi, Sahar",2023,Harness,多代理协作编排,https://arxiv.org/abs/2309.17234,evidence/636701b2399d535623d6.json
+D-Bot: Database Diagnosis System using Large Language Models,"Zhou, Xuanhe",2023,Agent,通用与多代理方法,https://arxiv.org/abs/2312.01454,evidence/4c4d8c4c821bd7edbf1a.json
+Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions,Ezgi Korkmaz,2023,Environment,理论基础、配置与可复现性,https://proceedings.mlr.press/v202/korkmaz23a.html,evidence/9ee1d242bd4c81706473.json
+Emergent autonomous scientific research capabilities of large language models,"Boiko, Daniil A.",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2304.05332,evidence/2e4f03f37d5d51fbde07.json
+Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication,"Yin, Zhangyue",2023,Harness,多代理协作编排,https://arxiv.org/abs/2312.01823,evidence/ca708b316a70d628a081.json
+Flows: Building Blocks of Reasoning and Collaborating AI,"Josifoski, Martin",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2308.01285,evidence/923da9fa1de51ca948e0.json
+Fuzz4All: Universal Fuzzing with Large Language Models,"Xia, Chunqiu Steven",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2308.04748,evidence/6fe1e34621d06c920996.json
+GAIA-1: A Generative World Model for Autonomous Driving,"Hu, Anthony",2023,Environment,世界模型与模拟器,https://arxiv.org/abs/2309.17080,evidence/8258e3595e4d21554787.json
+Gorilla: Large Language Model Connected with Massive APIs,"Patil, Shishir G.",2023,Harness,工具调用与接口,https://arxiv.org/abs/2305.15334,evidence/76de1ffe387103360be6.json
+KernelGPT: Enhanced Kernel Fuzzing via Large Language Models,"Yang, Chenyuan",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2401.00563,evidence/9b9f98a1ea7bebf61fa8.json
+L2MAC: Large Language Model Automatic Computer for Extensive Code Generation,"Holt, Samuel",2023,Agent,网页、桌面与移动智能体,https://arxiv.org/abs/2310.02003,evidence/e7485fd6a73b8f256a75.json
+Language Models Meet World Models: Embodied Experiences Enhance Language Models,"Xiang, Jiannan",2023,Environment,世界模型与模拟器,https://arxiv.org/abs/2305.10626,evidence/4d06383c68516f7deaf6.json
+Minigrid & Miniworld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks,"Chevalier-Boisvert, Maxime",2023,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/2306.13831,evidence/280a5096c7b0e6e04e18.json
+Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,"Greshake, Kai",2023,Harness,安全、权限与执行验证,https://arxiv.org/abs/2302.12173,evidence/e8cc7f5045bc662c648b.json
+ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models,"Xu, Binfeng",2023,Harness,框架与运行编排,https://arxiv.org/abs/2305.18323,evidence/81d404c991f5bc48b994.json
+RestGPT: Connecting Large Language Models with Real-World RESTful APIs,"Song, Yifan",2023,Harness,工具调用与接口,https://arxiv.org/abs/2306.06624,evidence/e83aa292ed544c051146.json
+Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?,"Chen, Yongchao",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2309.15943,evidence/f1128451874adf52ea03.json
+Teaching Large Language Models to Self-Debug,"Chen, Xinyun",2023,Agent,软件工程与代码智能体,https://arxiv.org/abs/2304.05128,evidence/1043fe46babe6002ed6a.json
+TidyBot: Personalized Robot Assistance with Large Language Models,"Wu, Jimmy",2023,Agent,具身智能体,https://arxiv.org/abs/2305.05658,evidence/b04eb203e6b0a4d4534e.json
+Tree of Thoughts: Deliberate Problem Solving with Large Language Models,"Yao, Shunyu",2023,Harness,规划、搜索与反思,https://arxiv.org/abs/2305.10601,evidence/ba7b8013ee20dc8e3113.json
+"MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning","Karpas, Ehud",2022,Harness,规划、搜索与反思,https://arxiv.org/abs/2205.00445,evidence/d92ad25c3ef43967e930.json
+Measuring and Narrowing the Compositionality Gap in Language Models,"Press, Ofir",2022,Harness,规划、搜索与反思,https://arxiv.org/abs/2210.03350,evidence/c3814cc588886286b549.json
+Asymmetric self-play for automatic goal discovery in robotic manipulation,"OpenAI, OpenAI",2021,Environment,环境生成与演化,https://arxiv.org/abs/2101.04882,evidence/b4c6cee67124885e4f25.json
+Investigating vulnerabilities of deep neural policies,Ezgi Korkmaz,2021,Environment,理论基础、配置与可复现性,https://proceedings.mlr.press/v161/korkmaz21a.html,evidence/da2e35a003479120bf6f.json
+SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning,Kimin Lee,2021,Environment,理论基础、配置与可复现性,https://proceedings.mlr.press/v139/lee21g.html,evidence/672c75eb2b466530de90.json
+panda-gym: Open-source goal-conditioned environments for robotic learning,"Gallouédec, Quentin",2021,Environment,交互环境与评测基准,https://arxiv.org/abs/2106.13687,evidence/ac3a6771ddc3dbe7806b.json
+CURL: Contrastive Unsupervised Representations for Reinforcement Learning,Michael Laskin,2020,Environment,理论基础、配置与可复现性,https://proceedings.mlr.press/v119/laskin20a.html,evidence/8212d2519bbc899ffd3d.json
+Discount Factor as a Regularizer in Reinforcement Learning,Ron Amit,2020,Environment,理论基础、配置与可复现性,https://proceedings.mlr.press/v119/amit20a.html,evidence/de9f2eabf2553e19dcea.json
+Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions,"Wang, Rui",2020,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/2003.08536,evidence/075726fa69d3c0885dd0.json
+Prioritized Level Replay,"Jiang, Minqi",2020,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/2010.03934,evidence/2813922fc07b05786c7d.json
+Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding,Alexander Ku,2020,Environment,具身、游戏与模拟环境,https://aclanthology.org/2020.emnlp-main.356/,evidence/8863372f838821403688.json
+Solving Rubik's Cube with a Robot Hand,OpenAI,2019,Environment,环境生成与演化,https://arxiv.org/abs/1910.07113,evidence/9190e7469fa8224bb0fa.json
+DeepMind Control Suite,"Tassa, Yuval",2018,Environment,具身、游戏与模拟环境,https://arxiv.org/abs/1801.00690,evidence/4c50291abbfecaa24418.json
+Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments,"Anderson, Peter",2018,Environment,具身、游戏与模拟环境,https://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.html,evidence/e0201a8da35e8b32ce42.json
+Robust Adversarial Reinforcement Learning,Lerrel Pinto,2017,Environment,理论基础、配置与可复现性,http://proceedings.mlr.press/v70/pinto17a.html,evidence/142a62dc3f80c6f84c1b.json
+Deep Reinforcement Learning with Double Q-learning,"van Hasselt, Hado",2015,Environment,理论基础、配置与可复现性,https://arxiv.org/abs/1509.06461,evidence/f88375f30613181ae244.json
+Self-Refine: Iterative Refinement with Self-Feedback,"Madaan, Aman",2023,Harness,规划、搜索与反思,https://arxiv.org/abs/2303.17651,evidence/5ef9bdcc0ba68615d547.json
+AReaL: A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning,"Fu, Wei",2025,Harness,训练与反馈基础设施,https://arxiv.org/abs/2505.24298,evidence/88a24475a5562d8c7686.json
+Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems,"Chen, Lingjiao",2024,Agent,通用与多代理方法,https://arxiv.org/abs/2403.02419,evidence/5dc66913a033e0d173c6.json
+HybridFlow: A Flexible and Efficient RLHF Framework,"Sheng, Guangming",2024,Harness,训练与反馈基础设施,https://arxiv.org/abs/2409.19256,evidence/e08180f4cd26dee65831.json
+Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach,"Li, Zhuowan",2024,Harness,记忆与上下文,https://arxiv.org/abs/2407.16833,evidence/cbac1342b93e47c9dee2.json
+Training Language Models to Self-Correct via Reinforcement Learning,"Kumar, Aviral",2024,Harness,规划、搜索与反思,https://arxiv.org/abs/2409.12917,evidence/8b89f21a7140cf50f31f.json
+Large Language Models for Automated Open-domain Scientific Hypotheses Discovery,"Yang, Zonglin",2023,Agent,科学与研究智能体,https://arxiv.org/abs/2309.02726,evidence/4fca3c52f9af746c82aa.json
+Lost in the Middle: How Language Models Use Long Contexts,"Liu, Nelson F.",2023,Harness,记忆与上下文,https://arxiv.org/abs/2307.03172,evidence/6ee83218472b4aa1478e.json
+Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models,"Wang, Lei",2023,Harness,规划、搜索与反思,https://arxiv.org/abs/2305.04091,evidence/310e25743a23864213a0.json
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,"Wei, Jason",2022,Harness,规划、搜索与反思,https://arxiv.org/abs/2201.11903,evidence/7d42a191f4b30946c036.json
+Ignore Previous Prompt: Attack Techniques For Language Models,"Perez, Fábio",2022,Harness,安全、权限与执行验证,https://arxiv.org/abs/2211.09527,evidence/baa6388bfd1ca8ac03f8.json
+Large Language Models are Zero-Shot Reasoners,"Kojima, Takeshi",2022,Harness,规划、搜索与反思,https://arxiv.org/abs/2205.11916,evidence/b693b7aca61347ea2c4d.json
+Self-Consistency Improves Chain of Thought Reasoning in Language Models,"Wang, Xuezhi",2022,Harness,规划、搜索与反思,https://arxiv.org/abs/2203.11171,evidence/81253798e4e555d94f56.json

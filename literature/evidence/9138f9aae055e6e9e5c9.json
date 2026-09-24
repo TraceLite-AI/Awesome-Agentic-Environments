@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2507.08800",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.08800",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Neuralos: Towards simulating operating systems via neural generative models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.08800",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:40.118366+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.08800",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41828,
+  "title": "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models",
+  "authors": [
+    "Rivard, Luke",
+    "Sun, Sun",
+    "Guo, Hongyu",
+    "Chen, Wenhu",
+    "Deng, Yuntian"
+  ],
+  "first_author": "Rivard, Luke",
+  "year": 2025,
+  "source_date": "2025/07/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.08800",
+  "abstract": "We introduce NeuralOS, a neural framework that simulates graphical user interfaces (GUIs) of operating systems by directly predicting screen frames in response to user inputs such as mouse movements, clicks, and keyboard events. NeuralOS combines a recurrent neural network (RNN), which tracks computer state, with a diffusion-based neural renderer that generates screen images. The model is trained on a dataset of Ubuntu XFCE recordings, which include both randomly generated interactions and realistic interactions produced by AI agents. Experiments show that NeuralOS successfully renders realistic GUI sequences, accurately captures mouse interactions, and reliably predicts state transitions like application launches. Beyond reproducing existing systems, NeuralOS shows that synthesized training data can teach the model to simulate applications that were never installed, as illustrated by a Doom application, and suggests a path toward learning user interfaces purely from synthetic demonstrations.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.08800: NeuralOS: Towards Simulating Operating Systems via Neural Generative Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.08800v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce NeuralOS, a neural framework that simulates graphical user interfaces (GUIs) of operating systems by directly predicting screen frames in response to user inputs such as mouse movements, clicks, and keyboard events. NeuralOS combines a recurrent neural network (RNN), which tracks computer state, with a diffusion-based neural renderer that generates screen images. The model is trained on a dataset of Ubuntu XFCE recordings, which include both randomly generated interactions and realistic interactions produced by AI agents. Experiments show that NeuralOS successfully renders realistic GUI sequences, accurately captures mouse interactions, and reliably predicts state transitions like application launches. Beyond reproducing existing systems, NeuralOS shows that synthesized training data can teach the model to simulate applications that were never installed, as illustrated by a Doom application, and suggests a path toward learning user interfaces purely from synthetic demonstrations."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models"
+    ],
+    "twitter:description": [
+      "We introduce NeuralOS, a neural framework that simulates graphical user interfaces (GUIs) of operating systems by directly predicting screen frames in response to user inputs such as mouse..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models"
+    ],
+    "citation_author": [
+      "Rivard, Luke",
+      "Sun, Sun",
+      "Guo, Hongyu",
+      "Chen, Wenhu",
+      "Deng, Yuntian"
+    ],
+    "citation_date": [
+      "2025/07/11"
+    ],
+    "citation_online_date": [
+      "2026/03/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.08800"
+    ],
+    "citation_arxiv_id": [
+      "2507.08800"
+    ],
+    "citation_abstract": [
+      "We introduce NeuralOS, a neural framework that simulates graphical user interfaces (GUIs) of operating systems by directly predicting screen frames in response to user inputs such as mouse movements, clicks, and keyboard events. NeuralOS combines a recurrent neural network (RNN), which tracks computer state, with a diffusion-based neural renderer that generates screen images. The model is trained on a dataset of Ubuntu XFCE recordings, which include both randomly generated interactions and realistic interactions produced by AI agents. Experiments show that NeuralOS successfully renders realistic GUI sequences, accurately captures mouse interactions, and reliably predicts state transitions like application launches. Beyond reproducing existing systems, NeuralOS shows that synthesized training data can teach the model to simulate applications that were never installed, as illustrated by a Doom application, and suggests a path toward learning user interfaces purely from synthetic demonstrations."
+    ]
+  },
+  "html_sha256": "abc9d4dd6415c7b11127d18d7ed399396a3af3c6cb5b4f0193a966a640074713",
+  "evidence_html": "evidence/9138f9aae055e6e9e5c9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

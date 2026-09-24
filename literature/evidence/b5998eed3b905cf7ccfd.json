@@ -1,0 +1,146 @@
+{
+  "url": "https://arxiv.org/abs/2311.10776",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2311.10776",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "Chemist-X: Large language model-empowered agent for reaction condition recommendation in chemical synthesis",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2311.10776",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:33.052851+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2311.10776",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45023,
+  "title": "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis",
+  "authors": [
+    "Chen, Kexin",
+    "Lu, Jiamin",
+    "Li, Junyou",
+    "Yang, Xiaoran",
+    "Du, Yuyang",
+    "Wang, Kunyi",
+    "Shi, Qiannuan",
+    "Yu, Jiahui",
+    "Li, Lanqing",
+    "Qiu, Jiezhong",
+    "Pan, Jianzhang",
+    "Huang, Yi",
+    "Fang, Qun",
+    "Heng, Pheng Ann",
+    "Chen, Guangyong"
+  ],
+  "first_author": "Chen, Kexin",
+  "year": 2023,
+  "source_date": "2023/11/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2311.10776",
+  "abstract": "Recent AI research plots a promising future of automatic chemical reactions within the chemistry society. This study proposes Chemist-X, a comprehensive AI agent that automates the reaction condition optimization (RCO) task in chemical synthesis with retrieval-augmented generation (RAG) technology and AI-controlled wet-lab experiment executions. To begin with, as an emulation on how chemical experts solve the RCO task, Chemist-X utilizes a novel RAG scheme to interrogate available molecular and literature databases to narrow the searching space for later processing. The agent then leverages a computer-aided design (CAD) tool we have developed through a large language model (LLM) supervised programming interface. With updated chemical knowledge obtained via RAG, as well as the ability in using CAD tools, our agent significantly outperforms conventional RCO AIs confined to the fixed knowledge within its training data. Finally, Chemist-X interacts with the physical world through an automated robotic system, which can validate the suggested chemical reaction condition without human interventions. The control of the robotic system was achieved with a novel algorithm we have developed for the equipment, which relies on LLMs for reliable script generation. Results of our automatic wet-lab experiments, achieved by fully LLM-supervised end-to-end operation with no human in the lope, prove Chemist-X's ability in self-driving laboratories.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2311.10776: Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2311.10776v6"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent AI research plots a promising future of automatic chemical reactions within the chemistry society. This study proposes Chemist-X, a comprehensive AI agent that automates the reaction condition optimization (RCO) task in chemical synthesis with retrieval-augmented generation (RAG) technology and AI-controlled wet-lab experiment executions. To begin with, as an emulation on how chemical experts solve the RCO task, Chemist-X utilizes a novel RAG scheme to interrogate available molecular and literature databases to narrow the searching space for later processing. The agent then leverages a computer-aided design (CAD) tool we have developed through a large language model (LLM) supervised programming interface. With updated chemical knowledge obtained via RAG, as well as the ability in using CAD tools, our agent significantly outperforms conventional RCO AIs confined to the fixed knowledge within its training data. Finally, Chemist-X interacts with the physical world through an automated robotic system, which can validate the suggested chemical reaction condition without human interventions. The control of the robotic system was achieved with a novel algorithm we have developed for the equipment, which relies on LLMs for reliable script generation. Results of our automatic wet-lab experiments, achieved by fully LLM-supervised end-to-end operation with no human in the lope, prove Chemist-X's ability in self-driving laboratories."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Chemist-X: Large Language Model-empowered Agent for Reaction..."
+    ],
+    "twitter:description": [
+      "Recent AI research plots a promising future of automatic chemical reactions within the chemistry society. This study proposes Chemist-X, a comprehensive AI agent that automates the reaction..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis"
+    ],
+    "citation_author": [
+      "Chen, Kexin",
+      "Lu, Jiamin",
+      "Li, Junyou",
+      "Yang, Xiaoran",
+      "Du, Yuyang",
+      "Wang, Kunyi",
+      "Shi, Qiannuan",
+      "Yu, Jiahui",
+      "Li, Lanqing",
+      "Qiu, Jiezhong",
+      "Pan, Jianzhang",
+      "Huang, Yi",
+      "Fang, Qun",
+      "Heng, Pheng Ann",
+      "Chen, Guangyong"
+    ],
+    "citation_date": [
+      "2023/11/16"
+    ],
+    "citation_online_date": [
+      "2025/04/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2311.10776"
+    ],
+    "citation_arxiv_id": [
+      "2311.10776"
+    ],
+    "citation_abstract": [
+      "Recent AI research plots a promising future of automatic chemical reactions within the chemistry society. This study proposes Chemist-X, a comprehensive AI agent that automates the reaction condition optimization (RCO) task in chemical synthesis with retrieval-augmented generation (RAG) technology and AI-controlled wet-lab experiment executions. To begin with, as an emulation on how chemical experts solve the RCO task, Chemist-X utilizes a novel RAG scheme to interrogate available molecular and literature databases to narrow the searching space for later processing. The agent then leverages a computer-aided design (CAD) tool we have developed through a large language model (LLM) supervised programming interface. With updated chemical knowledge obtained via RAG, as well as the ability in using CAD tools, our agent significantly outperforms conventional RCO AIs confined to the fixed knowledge within its training data. Finally, Chemist-X interacts with the physical world through an automated robotic system, which can validate the suggested chemical reaction condition without human interventions. The control of the robotic system was achieved with a novel algorithm we have developed for the equipment, which relies on LLMs for reliable script generation. Results of our automatic wet-lab experiments, achieved by fully LLM-supervised end-to-end operation with no human in the lope, prove Chemist-X's ability in self-driving laboratories."
+    ]
+  },
+  "html_sha256": "4cdaa3284160d3822657f100dbf4336ddbdbc488ba6a91d9c9a8da8360c5a6c8",
+  "evidence_html": "evidence/b5998eed3b905cf7ccfd.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

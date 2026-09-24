@@ -1,0 +1,174 @@
+{
+  "url": "https://arxiv.org/abs/2402.15391",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.15391",
+      "discovery_url": "https://github.com/journee-live/awesome-world-models",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Genie : Generative Interactive Environments",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.15391",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-72",
+      "topic": "机器人与世界模型",
+      "title_hint": "Bruce et al. Genie: Generative Interactive Environments. ICML 2024. arXiv:2402.15391.",
+      "existing_reference_number": 72,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.15391",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:48.429206+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.15391",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44760,
+  "title": "Genie: Generative Interactive Environments",
+  "authors": [
+    "Bruce, Jake",
+    "Dennis, Michael",
+    "Edwards, Ashley",
+    "Parker-Holder, Jack",
+    "Shi, Yuge",
+    "Hughes, Edward",
+    "Lai, Matthew",
+    "Mavalankar, Aditi",
+    "Steigerwald, Richie",
+    "Apps, Chris",
+    "Aytar, Yusuf",
+    "Bechtle, Sarah",
+    "Behbahani, Feryal",
+    "Chan, Stephanie",
+    "Heess, Nicolas",
+    "Gonzalez, Lucy",
+    "Osindero, Simon",
+    "Ozair, Sherjil",
+    "Reed, Scott",
+    "Zhang, Jingwei",
+    "Zolna, Konrad",
+    "Clune, Jeff",
+    "de Freitas, Nando",
+    "Singh, Satinder",
+    "Rocktäschel, Tim"
+  ],
+  "first_author": "Bruce, Jake",
+  "year": 2024,
+  "source_date": "2024/02/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.15391",
+  "abstract": "We introduce Genie, the first generative interactive environment trained in an unsupervised manner from unlabelled Internet videos. The model can be prompted to generate an endless variety of action-controllable virtual worlds described through text, synthetic images, photographs, and even sketches. At 11B parameters, Genie can be considered a foundation world model. It is comprised of a spatiotemporal video tokenizer, an autoregressive dynamics model, and a simple and scalable latent action model. Genie enables users to act in the generated environments on a frame-by-frame basis despite training without any ground-truth action labels or other domain-specific requirements typically found in the world model literature. Further the resulting learned latent action space facilitates training agents to imitate behaviors from unseen videos, opening the path for training generalist agents of the future.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.15391: Genie: Generative Interactive Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Genie: Generative Interactive Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.15391v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Genie, the first generative interactive environment trained in an unsupervised manner from unlabelled Internet videos. The model can be prompted to generate an endless variety of action-controllable virtual worlds described through text, synthetic images, photographs, and even sketches. At 11B parameters, Genie can be considered a foundation world model. It is comprised of a spatiotemporal video tokenizer, an autoregressive dynamics model, and a simple and scalable latent action model. Genie enables users to act in the generated environments on a frame-by-frame basis despite training without any ground-truth action labels or other domain-specific requirements typically found in the world model literature. Further the resulting learned latent action space facilitates training agents to imitate behaviors from unseen videos, opening the path for training generalist agents of the future."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Genie: Generative Interactive Environments"
+    ],
+    "twitter:description": [
+      "We introduce Genie, the first generative interactive environment trained in an unsupervised manner from unlabelled Internet videos. The model can be prompted to generate an endless variety of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Genie: Generative Interactive Environments"
+    ],
+    "citation_author": [
+      "Bruce, Jake",
+      "Dennis, Michael",
+      "Edwards, Ashley",
+      "Parker-Holder, Jack",
+      "Shi, Yuge",
+      "Hughes, Edward",
+      "Lai, Matthew",
+      "Mavalankar, Aditi",
+      "Steigerwald, Richie",
+      "Apps, Chris",
+      "Aytar, Yusuf",
+      "Bechtle, Sarah",
+      "Behbahani, Feryal",
+      "Chan, Stephanie",
+      "Heess, Nicolas",
+      "Gonzalez, Lucy",
+      "Osindero, Simon",
+      "Ozair, Sherjil",
+      "Reed, Scott",
+      "Zhang, Jingwei",
+      "Zolna, Konrad",
+      "Clune, Jeff",
+      "de Freitas, Nando",
+      "Singh, Satinder",
+      "Rocktäschel, Tim"
+    ],
+    "citation_date": [
+      "2024/02/23"
+    ],
+    "citation_online_date": [
+      "2024/02/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.15391"
+    ],
+    "citation_arxiv_id": [
+      "2402.15391"
+    ],
+    "citation_abstract": [
+      "We introduce Genie, the first generative interactive environment trained in an unsupervised manner from unlabelled Internet videos. The model can be prompted to generate an endless variety of action-controllable virtual worlds described through text, synthetic images, photographs, and even sketches. At 11B parameters, Genie can be considered a foundation world model. It is comprised of a spatiotemporal video tokenizer, an autoregressive dynamics model, and a simple and scalable latent action model. Genie enables users to act in the generated environments on a frame-by-frame basis despite training without any ground-truth action labels or other domain-specific requirements typically found in the world model literature. Further the resulting learned latent action space facilitates training agents to imitate behaviors from unseen videos, opening the path for training generalist agents of the future."
+    ]
+  },
+  "html_sha256": "1f247aac749c9d0ad539a0e3a18e90adfcbb8391cf759a731738177a7b21af24",
+  "evidence_html": "evidence/9abc4cf2e547a5169329.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

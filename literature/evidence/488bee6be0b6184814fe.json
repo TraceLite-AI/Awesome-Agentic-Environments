@@ -1,0 +1,142 @@
+{
+  "url": "https://proceedings.mlr.press/v267/yang25f.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v267/yang25f.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment synthesis/generation/executable task construction",
+      "title_hint": "Embodiedbench: Comprehensive benchmarking multi-modal large language models for vision-driven embodied agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v267/yang25f.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:29.775225+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v267/yang25f.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 18257,
+  "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+  "authors": [
+    "Rui Yang",
+    "Hanyang Chen",
+    "Junyu Zhang",
+    "Mark Zhao",
+    "Cheng Qian",
+    "Kangrui Wang",
+    "Qineng Wang",
+    "Teja Venkat Koripella",
+    "Marziyeh Movahedi",
+    "Manling Li",
+    "Heng Ji",
+    "Huan Zhang",
+    "Tong Zhang"
+  ],
+  "first_author": "Rui Yang",
+  "year": 2025,
+  "source_date": "2025/10/06",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Leveraging Multi-modal Large Language Models (MLLMs) to create embodied agents offers a promising avenue for tackling real-world tasks. While language-centric embodied agents have garnered substantial attention, MLLM-based embodied agents remain underexplored due to the lack of comprehensive evaluation frameworks. To bridge this gap, we introduce EmbodiedBench, an extensive benchmark designed to evaluate vision-driven embodied agents. EmbodiedBench features: (1) a diverse set of 1,128 testing tasks across four environments, ranging from high-level semantic tasks (e.g., household) to low-level tasks involving atomic actions (e.g., navigation and manipulation); and (2) six meticulously curated subsets evaluating essential agent capabilities like commonsense reasoning, complex instruction understanding, spatial awareness, visual perception, and long-term planning. Through extensive experiments, we evaluated 24 leading proprietary and open-source MLLMs within EmbodiedBench. Our findings reveal that: MLLMs excel at high-level tasks but struggle with low-level manipulation, with the best model, GPT-4o, scoring only $28.9\\%$ on average. EmbodiedBench provides a multifaceted standardized evaluation platform that not only highlights existing challenges but also offers valuable insights to advance MLLM-based embodied agents. Our code and dataset are available at [https://embodiedbench.github.io](https://embodiedbench.github.io).",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied AgentsRui Yang, Hanyang Chen, Junyu Zhang,&n..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v267/yang25f.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25f/yang25f.pdf"
+    ],
+    "citation_firstpage": [
+      "70576"
+    ],
+    "citation_lastpage": [
+      "70631"
+    ],
+    "citation_author": [
+      "Rui Yang",
+      "Hanyang Chen",
+      "Junyu Zhang",
+      "Mark Zhao",
+      "Cheng Qian",
+      "Kangrui Wang",
+      "Qineng Wang",
+      "Teja Venkat Koripella",
+      "Marziyeh Movahedi",
+      "Manling Li",
+      "Heng Ji",
+      "Huan Zhang",
+      "Tong Zhang"
+    ],
+    "citation_publication_date": [
+      "2025/10/06"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Leveraging Multi-modal Large Language Models (MLLMs) to create embodied agents offers a promising avenue for tackling real-world tasks. While language-centri..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents"
+    ],
+    "og:description": [
+      "Leveraging Multi-modal Large Language Models (MLLMs) to create embodied agents offers a promising avenue for tackling real-world tasks. While language-centric embodied agents have garnered substant..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2025-10-06T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v267/yang25f.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "b87749c273bdad875d78d9223d6808710e3d4450ac6dc9bd609c53d58de59f3d",
+  "evidence_html": "evidence/488bee6be0b6184814fe.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

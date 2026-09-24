@@ -1,0 +1,161 @@
+{
+  "url": "https://arxiv.org/abs/2510.13936",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.13936",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Findeepresearch: Evaluating deep research agents in rigorous financial analysis",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.13936",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:19.365877+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.13936",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45170,
+  "title": "FinDeepResearch: Evaluating Deep Research Agents in Rigorous Financial Analysis",
+  "authors": [
+    "Zhu, Fengbin",
+    "Ng, Xiang Yao",
+    "Liu, Ziyang",
+    "Liu, Chang",
+    "Zeng, Xianwei",
+    "Wang, Chao",
+    "Tan, Tianhui",
+    "Yao, Xuan",
+    "Shao, Pengyang",
+    "Xu, Min",
+    "Wang, Zixuan",
+    "Wang, Jing",
+    "Lin, Xin",
+    "Li, Junfeng",
+    "Zhu, Jingxian",
+    "Zhang, Yang",
+    "Wang, Wenjie",
+    "Feng, Fuli",
+    "Hong, Richang",
+    "Luan, Huanbo",
+    "Huang, Ke-Wei",
+    "Chua, Tat-Seng"
+  ],
+  "first_author": "Zhu, Fengbin",
+  "year": 2025,
+  "source_date": "2025/10/15",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.13936",
+  "abstract": "Deep Research (DR) agents, powered by advanced Large Language Models (LLMs), have recently garnered increasing attention for their capability in conducting complex research tasks. However, existing literature lacks a rigorous and systematic evaluation of DR Agent's capabilities in critical research analysis. To address this gap, we first propose HisRubric, a novel evaluation framework with a hierarchical analytical structure and a fine-grained grading rubric for rigorously assessing DR agents' capabilities in corporate financial analysis. This framework mirrors the professional analyst's workflow, progressing from data recognition to metric calculation, and finally to strategic summarization and interpretation. Built on this framework, we construct a FinDeepResearch benchmark that comprises 64 listed companies from 8 financial markets across 4 languages, encompassing a total of 15,808 grading items. We further conduct extensive experiments on the FinDeepResearch using 16 representative methods, including 6 DR agents, 5 LLMs equipped with both deep reasoning and search capabilities, and 5 LLMs with deep reasoning capabilities only. The results reveal the strengths and limitations of these approaches across diverse capabilities, financial markets, and languages, offering valuable insights for future research and development. The benchmark and evaluation code is publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.13936: FinDeepResearch: Evaluating Deep Research Agents in Rigorous Financial Analysis"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "FinDeepResearch: Evaluating Deep Research Agents in Rigorous Financial Analysis"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.13936v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Deep Research (DR) agents, powered by advanced Large Language Models (LLMs), have recently garnered increasing attention for their capability in conducting complex research tasks. However, existing literature lacks a rigorous and systematic evaluation of DR Agent's capabilities in critical research analysis. To address this gap, we first propose HisRubric, a novel evaluation framework with a hierarchical analytical structure and a fine-grained grading rubric for rigorously assessing DR agents' capabilities in corporate financial analysis. This framework mirrors the professional analyst's workflow, progressing from data recognition to metric calculation, and finally to strategic summarization and interpretation. Built on this framework, we construct a FinDeepResearch benchmark that comprises 64 listed companies from 8 financial markets across 4 languages, encompassing a total of 15,808 grading items. We further conduct extensive experiments on the FinDeepResearch using 16 representative methods, including 6 DR agents, 5 LLMs equipped with both deep reasoning and search capabilities, and 5 LLMs with deep reasoning capabilities only. The results reveal the strengths and limitations of these approaches across diverse capabilities, financial markets, and languages, offering valuable insights for future research and development. The benchmark and evaluation code is publicly available at https://OpenFinArena.com/."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "FinDeepResearch: Evaluating Deep Research Agents in Rigorous..."
+    ],
+    "twitter:description": [
+      "Deep Research (DR) agents, powered by advanced Large Language Models (LLMs), have recently garnered increasing attention for their capability in conducting complex research tasks. However,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "FinDeepResearch: Evaluating Deep Research Agents in Rigorous Financial Analysis"
+    ],
+    "citation_author": [
+      "Zhu, Fengbin",
+      "Ng, Xiang Yao",
+      "Liu, Ziyang",
+      "Liu, Chang",
+      "Zeng, Xianwei",
+      "Wang, Chao",
+      "Tan, Tianhui",
+      "Yao, Xuan",
+      "Shao, Pengyang",
+      "Xu, Min",
+      "Wang, Zixuan",
+      "Wang, Jing",
+      "Lin, Xin",
+      "Li, Junfeng",
+      "Zhu, Jingxian",
+      "Zhang, Yang",
+      "Wang, Wenjie",
+      "Feng, Fuli",
+      "Hong, Richang",
+      "Luan, Huanbo",
+      "Huang, Ke-Wei",
+      "Chua, Tat-Seng"
+    ],
+    "citation_date": [
+      "2025/10/15"
+    ],
+    "citation_online_date": [
+      "2026/01/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.13936"
+    ],
+    "citation_arxiv_id": [
+      "2510.13936"
+    ],
+    "citation_abstract": [
+      "Deep Research (DR) agents, powered by advanced Large Language Models (LLMs), have recently garnered increasing attention for their capability in conducting complex research tasks. However, existing literature lacks a rigorous and systematic evaluation of DR Agent's capabilities in critical research analysis. To address this gap, we first propose HisRubric, a novel evaluation framework with a hierarchical analytical structure and a fine-grained grading rubric for rigorously assessing DR agents' capabilities in corporate financial analysis. This framework mirrors the professional analyst's workflow, progressing from data recognition to metric calculation, and finally to strategic summarization and interpretation. Built on this framework, we construct a FinDeepResearch benchmark that comprises 64 listed companies from 8 financial markets across 4 languages, encompassing a total of 15,808 grading items. We further conduct extensive experiments on the FinDeepResearch using 16 representative methods, including 6 DR agents, 5 LLMs equipped with both deep reasoning and search capabilities, and 5 LLMs with deep reasoning capabilities only. The results reveal the strengths and limitations of these approaches across diverse capabilities, financial markets, and languages, offering valuable insights for future research and development. The benchmark and evaluation code is publicly available at https://OpenFinArena.com/."
+    ]
+  },
+  "html_sha256": "dedccb2d89de16cb3447b61246e606d28fbd52aff7c9f7b6a65cc97073fdb65c",
+  "evidence_html": "evidence/39c1700e325f7b98fb07.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

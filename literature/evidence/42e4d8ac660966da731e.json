@@ -1,0 +1,146 @@
+{
+  "url": "https://arxiv.org/abs/2509.24002",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.24002",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Mcpmark: A benchmark for stress-testing realistic and comprehensive mcp use",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.24002",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:18.652185+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.24002",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43784,
+  "title": "MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use",
+  "authors": [
+    "Wu, Zijian",
+    "Liu, Xiangyan",
+    "Zhang, Xinyuan",
+    "Chen, Lingjun",
+    "Meng, Fanqing",
+    "Du, Lingxiao",
+    "Zhao, Yiran",
+    "Zhang, Fanshi",
+    "Ye, Yaoqi",
+    "Wang, Jiawei",
+    "Wang, Zirui",
+    "Ni, Jinjie",
+    "Yang, Yufan",
+    "Xu, Arvin",
+    "Shieh, Michael Qizhe"
+  ],
+  "first_author": "Wu, Zijian",
+  "year": 2025,
+  "source_date": "2025/09/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.24002",
+  "abstract": "MCP standardizes how LLMs interact with external systems, forming the foundation for general agents. However, existing MCP benchmarks remain narrow in scope: they focus on read-heavy tasks or tasks with limited interaction depth, and fail to capture the complexity and realism of real-world workflows. To address this gap, we propose MCPMark, a benchmark designed to evaluate MCP use in a more realistic and comprehensive manner. It consists of $127$ high-quality tasks collaboratively created by domain experts and AI agents. Each task begins with a curated initial state and includes a programmatic script for automatic verification. These tasks demand richer and more diverse interactions with the environment, involving a broad range of create, read, update, and delete (CRUD) operations. We conduct a comprehensive evaluation of cutting-edge LLMs using a minimal agent framework that operates in a tool-calling loop. Empirical results show that the best-performing model, gpt-5-medium, reaches only $52.56$\\% pass@1 and $33.86$\\% pass^4, while other widely regarded strong models, including claude-sonnet-4 and o3, fall below $30$\\% pass@1 and $15$\\% pass^4. On average, LLMs require $16.2$ execution turns and $17.4$ tool calls per task, significantly surpassing those in previous MCP benchmarks and highlighting the stress-testing nature of MCPMark.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.24002: MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.24002v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "MCP standardizes how LLMs interact with external systems, forming the foundation for general agents. However, existing MCP benchmarks remain narrow in scope: they focus on read-heavy tasks or tasks with limited interaction depth, and fail to capture the complexity and realism of real-world workflows. To address this gap, we propose MCPMark, a benchmark designed to evaluate MCP use in a more realistic and comprehensive manner. It consists of $127$ high-quality tasks collaboratively created by domain experts and AI agents. Each task begins with a curated initial state and includes a programmatic script for automatic verification. These tasks demand richer and more diverse interactions with the environment, involving a broad range of create, read, update, and delete (CRUD) operations. We conduct a comprehensive evaluation of cutting-edge LLMs using a minimal agent framework that operates in a tool-calling loop. Empirical results show that the best-performing model, gpt-5-medium, reaches only $52.56$\\% pass@1 and $33.86$\\% pass^4, while other widely regarded strong models, including claude-sonnet-4 and o3, fall below $30$\\% pass@1 and $15$\\% pass^4. On average, LLMs require $16.2$ execution turns and $17.4$ tool calls per task, significantly surpassing those in previous MCP benchmarks and highlighting the stress-testing nature of MCPMark."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use"
+    ],
+    "twitter:description": [
+      "MCP standardizes how LLMs interact with external systems, forming the foundation for general agents. However, existing MCP benchmarks remain narrow in scope: they focus on read-heavy tasks or..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use"
+    ],
+    "citation_author": [
+      "Wu, Zijian",
+      "Liu, Xiangyan",
+      "Zhang, Xinyuan",
+      "Chen, Lingjun",
+      "Meng, Fanqing",
+      "Du, Lingxiao",
+      "Zhao, Yiran",
+      "Zhang, Fanshi",
+      "Ye, Yaoqi",
+      "Wang, Jiawei",
+      "Wang, Zirui",
+      "Ni, Jinjie",
+      "Yang, Yufan",
+      "Xu, Arvin",
+      "Shieh, Michael Qizhe"
+    ],
+    "citation_date": [
+      "2025/09/28"
+    ],
+    "citation_online_date": [
+      "2025/09/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.24002"
+    ],
+    "citation_arxiv_id": [
+      "2509.24002"
+    ],
+    "citation_abstract": [
+      "MCP standardizes how LLMs interact with external systems, forming the foundation for general agents. However, existing MCP benchmarks remain narrow in scope: they focus on read-heavy tasks or tasks with limited interaction depth, and fail to capture the complexity and realism of real-world workflows. To address this gap, we propose MCPMark, a benchmark designed to evaluate MCP use in a more realistic and comprehensive manner. It consists of $127$ high-quality tasks collaboratively created by domain experts and AI agents. Each task begins with a curated initial state and includes a programmatic script for automatic verification. These tasks demand richer and more diverse interactions with the environment, involving a broad range of create, read, update, and delete (CRUD) operations. We conduct a comprehensive evaluation of cutting-edge LLMs using a minimal agent framework that operates in a tool-calling loop. Empirical results show that the best-performing model, gpt-5-medium, reaches only $52.56$\\% pass@1 and $33.86$\\% pass^4, while other widely regarded strong models, including claude-sonnet-4 and o3, fall below $30$\\% pass@1 and $15$\\% pass^4. On average, LLMs require $16.2$ execution turns and $17.4$ tool calls per task, significantly surpassing those in previous MCP benchmarks and highlighting the stress-testing nature of MCPMark."
+    ]
+  },
+  "html_sha256": "63fe9e7b3cba6ca851c618e6af287400614d212a9a7d0678c3ed4086e4b58fb7",
+  "evidence_html": "evidence/42e4d8ac660966da731e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

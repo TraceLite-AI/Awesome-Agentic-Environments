@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2512.10398",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.10398",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.10398",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:31.892769+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.10398",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44639,
+  "title": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases",
+  "authors": [
+    "Wong, Sherman",
+    "Qi, Zhenting",
+    "Wang, Zhaodong",
+    "Hu, Nathan",
+    "Lin, Samuel",
+    "Ge, Jun",
+    "Gao, Erwin",
+    "Chen, Wenlin",
+    "Du, Yilun",
+    "Yu, Minlan",
+    "Zhang, Ying"
+  ],
+  "first_author": "Wong, Sherman",
+  "year": 2025,
+  "source_date": "2025/12/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.10398",
+  "abstract": "Real-world software engineering tasks require coding agents that can operate on massive repositories, sustain long-horizon sessions, and reliably coordinate complex toolchains at test time. Existing research-grade coding agents offer transparency but struggle when scaled to heavier, production-level workloads, while production-grade systems achieve strong practical performance but provide limited extensibility, interpretability, and controllability. We introduce the Confucius Code Agent (CCA), a software engineering agent that can operate at large-scale codebases. CCA is built on top of the Confucius SDK, an agent development platform structured around three complementary perspectives: Agent Experience (AX), User Experience (UX), and Developer Experience (DX). The SDK supports a unified orchestrator with advanced context management for long-context reasoning, a persistent note-taking system for cross-session continual learning, and a modular extension system for reliable tool use. In addition, we introduce a meta-agent that automates the construction, evaluation, and refinement of agents through a build-test-improve cycle, enabling rapid agent development on new tasks and tool stacks. Instantiated on the Confucius SDK using the meta-agent, CCA demonstrates strong performance on real-world software engineering tasks. On SWE-Bench-Pro, CCA achieves a Resolve@1 of 59%, exceeding prior research baselines as well as commercial results, under identical repositories, model backends, and tool access.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.10398: Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.10398v6"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Real-world software engineering tasks require coding agents that can operate on massive repositories, sustain long-horizon sessions, and reliably coordinate complex toolchains at test time. Existing research-grade coding agents offer transparency but struggle when scaled to heavier, production-level workloads, while production-grade systems achieve strong practical performance but provide limited extensibility, interpretability, and controllability. We introduce the Confucius Code Agent (CCA), a software engineering agent that can operate at large-scale codebases. CCA is built on top of the Confucius SDK, an agent development platform structured around three complementary perspectives: Agent Experience (AX), User Experience (UX), and Developer Experience (DX). The SDK supports a unified orchestrator with advanced context management for long-context reasoning, a persistent note-taking system for cross-session continual learning, and a modular extension system for reliable tool use. In addition, we introduce a meta-agent that automates the construction, evaluation, and refinement of agents through a build-test-improve cycle, enabling rapid agent development on new tasks and tool stacks. Instantiated on the Confucius SDK using the meta-agent, CCA demonstrates strong performance on real-world software engineering tasks. On SWE-Bench-Pro, CCA achieves a Resolve@1 of 59%, exceeding prior research baselines as well as commercial results, under identical repositories, model backends, and tool access."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases"
+    ],
+    "twitter:description": [
+      "Real-world software engineering tasks require coding agents that can operate on massive repositories, sustain long-horizon sessions, and reliably coordinate complex toolchains at test time...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases"
+    ],
+    "citation_author": [
+      "Wong, Sherman",
+      "Qi, Zhenting",
+      "Wang, Zhaodong",
+      "Hu, Nathan",
+      "Lin, Samuel",
+      "Ge, Jun",
+      "Gao, Erwin",
+      "Chen, Wenlin",
+      "Du, Yilun",
+      "Yu, Minlan",
+      "Zhang, Ying"
+    ],
+    "citation_date": [
+      "2025/12/11"
+    ],
+    "citation_online_date": [
+      "2026/02/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.10398"
+    ],
+    "citation_arxiv_id": [
+      "2512.10398"
+    ],
+    "citation_abstract": [
+      "Real-world software engineering tasks require coding agents that can operate on massive repositories, sustain long-horizon sessions, and reliably coordinate complex toolchains at test time. Existing research-grade coding agents offer transparency but struggle when scaled to heavier, production-level workloads, while production-grade systems achieve strong practical performance but provide limited extensibility, interpretability, and controllability. We introduce the Confucius Code Agent (CCA), a software engineering agent that can operate at large-scale codebases. CCA is built on top of the Confucius SDK, an agent development platform structured around three complementary perspectives: Agent Experience (AX), User Experience (UX), and Developer Experience (DX). The SDK supports a unified orchestrator with advanced context management for long-context reasoning, a persistent note-taking system for cross-session continual learning, and a modular extension system for reliable tool use. In addition, we introduce a meta-agent that automates the construction, evaluation, and refinement of agents through a build-test-improve cycle, enabling rapid agent development on new tasks and tool stacks. Instantiated on the Confucius SDK using the meta-agent, CCA demonstrates strong performance on real-world software engineering tasks. On SWE-Bench-Pro, CCA achieves a Resolve@1 of 59%, exceeding prior research baselines as well as commercial results, under identical repositories, model backends, and tool access."
+    ]
+  },
+  "html_sha256": "e3091f53ce334036cb015c53efd7182488fa83e337b00185934e4217c30a1419",
+  "evidence_html": "evidence/bee25135f9178038f872.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

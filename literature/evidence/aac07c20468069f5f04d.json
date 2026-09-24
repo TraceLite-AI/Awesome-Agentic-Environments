@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2310.02172",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.02172",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Lyfe Agents: Generative agents for low-cost real-time social interactions. Zhao Kaiya et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.02172",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:10.730410+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.02172",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42333,
+  "title": "Lyfe Agents: Generative agents for low-cost real-time social interactions",
+  "authors": [
+    "Kaiya, Zhao",
+    "Naim, Michelangelo",
+    "Kondic, Jovana",
+    "Cortes, Manuel",
+    "Ge, Jiaxin",
+    "Luo, Shuying",
+    "Yang, Guangyu Robert",
+    "Ahn, Andrew"
+  ],
+  "first_author": "Kaiya, Zhao",
+  "year": 2023,
+  "source_date": "2023/10/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.02172",
+  "abstract": "Highly autonomous generative agents powered by large language models promise to simulate intricate social behaviors in virtual societies. However, achieving real-time interactions with humans at a low computational cost remains challenging. Here, we introduce Lyfe Agents. They combine low-cost with real-time responsiveness, all while remaining intelligent and goal-oriented. Key innovations include: (1) an option-action framework, reducing the cost of high-level decisions; (2) asynchronous self-monitoring for better self-consistency; and (3) a Summarize-and-Forget memory mechanism, prioritizing critical memory items at a low cost. We evaluate Lyfe Agents' self-motivation and sociability across several multi-agent scenarios in our custom LyfeGame 3D virtual environment platform. When equipped with our brain-inspired techniques, Lyfe Agents can exhibit human-like self-motivated social reasoning. For example, the agents can solve a crime (a murder mystery) through autonomous collaboration and information exchange. Meanwhile, our techniques enabled Lyfe Agents to operate at a computational cost 10-100 times lower than existing alternatives. Our findings underscore the transformative potential of autonomous generative agents to enrich human social experiences in virtual worlds.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.02172: Lyfe Agents: Generative agents for low-cost real-time social interactions"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Lyfe Agents: Generative agents for low-cost real-time social interactions"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.02172v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Highly autonomous generative agents powered by large language models promise to simulate intricate social behaviors in virtual societies. However, achieving real-time interactions with humans at a low computational cost remains challenging. Here, we introduce Lyfe Agents. They combine low-cost with real-time responsiveness, all while remaining intelligent and goal-oriented. Key innovations include: (1) an option-action framework, reducing the cost of high-level decisions; (2) asynchronous self-monitoring for better self-consistency; and (3) a Summarize-and-Forget memory mechanism, prioritizing critical memory items at a low cost. We evaluate Lyfe Agents' self-motivation and sociability across several multi-agent scenarios in our custom LyfeGame 3D virtual environment platform. When equipped with our brain-inspired techniques, Lyfe Agents can exhibit human-like self-motivated social reasoning. For example, the agents can solve a crime (a murder mystery) through autonomous collaboration and information exchange. Meanwhile, our techniques enabled Lyfe Agents to operate at a computational cost 10-100 times lower than existing alternatives. Our findings underscore the transformative potential of autonomous generative agents to enrich human social experiences in virtual worlds."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Lyfe Agents: Generative agents for low-cost real-time social interactions"
+    ],
+    "twitter:description": [
+      "Highly autonomous generative agents powered by large language models promise to simulate intricate social behaviors in virtual societies. However, achieving real-time interactions with humans at a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Lyfe Agents: Generative agents for low-cost real-time social interactions"
+    ],
+    "citation_author": [
+      "Kaiya, Zhao",
+      "Naim, Michelangelo",
+      "Kondic, Jovana",
+      "Cortes, Manuel",
+      "Ge, Jiaxin",
+      "Luo, Shuying",
+      "Yang, Guangyu Robert",
+      "Ahn, Andrew"
+    ],
+    "citation_date": [
+      "2023/10/03"
+    ],
+    "citation_online_date": [
+      "2023/10/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.02172"
+    ],
+    "citation_arxiv_id": [
+      "2310.02172"
+    ],
+    "citation_abstract": [
+      "Highly autonomous generative agents powered by large language models promise to simulate intricate social behaviors in virtual societies. However, achieving real-time interactions with humans at a low computational cost remains challenging. Here, we introduce Lyfe Agents. They combine low-cost with real-time responsiveness, all while remaining intelligent and goal-oriented. Key innovations include: (1) an option-action framework, reducing the cost of high-level decisions; (2) asynchronous self-monitoring for better self-consistency; and (3) a Summarize-and-Forget memory mechanism, prioritizing critical memory items at a low cost. We evaluate Lyfe Agents' self-motivation and sociability across several multi-agent scenarios in our custom LyfeGame 3D virtual environment platform. When equipped with our brain-inspired techniques, Lyfe Agents can exhibit human-like self-motivated social reasoning. For example, the agents can solve a crime (a murder mystery) through autonomous collaboration and information exchange. Meanwhile, our techniques enabled Lyfe Agents to operate at a computational cost 10-100 times lower than existing alternatives. Our findings underscore the transformative potential of autonomous generative agents to enrich human social experiences in virtual worlds."
+    ]
+  },
+  "html_sha256": "ea18b1c13d96c5a374a18ff36664245edba10ae8be31066279f6cfe8c2489180",
+  "evidence_html": "evidence/aac07c20468069f5f04d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

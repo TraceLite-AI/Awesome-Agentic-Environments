@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=jp3gWrMuIZ",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=jp3gWrMuIZ",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "MINT: evaluating llms in multi-turn interaction with tools and language feedback",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=jp3gWrMuIZ",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:26.922059+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Djp3gWrMuIZ",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4787,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "2a9c6bbf5d25e25fdf2fe55967b389a4f5243fe951055c6e5ed3b92327e76bbc",
+  "evidence_html": "evidence/d513b29d8e97ca72cd67.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

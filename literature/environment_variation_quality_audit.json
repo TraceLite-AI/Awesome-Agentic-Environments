@@ -1,0 +1,90 @@
+{
+  "audit_time_utc": "2026-09-24T05:59:22.738854+00:00",
+  "evidence_records_seen": 515,
+  "statuses": {
+    "verified_metadata": 487,
+    "unverified": 28
+  },
+  "exact_title_duplicate_groups": [
+    {
+      "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+      "urls": [
+        "https://arxiv.org/abs/2401.13649",
+        "https://doi.org/10.18653/v1/2024.acl-long.50"
+      ],
+      "action": "merge alternate-source records; one paper"
+    },
+    {
+      "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+      "urls": [
+        "https://arxiv.org/abs/2304.08244",
+        "https://doi.org/10.18653/v1/2023.emnlp-main.187"
+      ],
+      "action": "merge alternate-source records; one paper"
+    },
+    {
+      "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+      "urls": [
+        "https://arxiv.org/abs/2412.21139",
+        "https://proceedings.mlr.press/v267/pan25g.html"
+      ],
+      "action": "merge alternate-source records; one paper"
+    },
+    {
+      "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+      "urls": [
+        "https://arxiv.org/abs/2403.07714",
+        "https://doi.org/10.18653/v1/2024.findings-acl.664"
+      ],
+      "action": "merge alternate-source records; one paper"
+    },
+    {
+      "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "urls": [
+        "https://papers.nips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html",
+        "https://arxiv.org/abs/2404.07972"
+      ],
+      "action": "merge alternate-source records; one paper"
+    },
+    {
+      "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+      "urls": [
+        "https://arxiv.org/abs/2405.12399",
+        "https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html"
+      ],
+      "action": "merge alternate-source records; one paper"
+    }
+  ],
+  "obvious_unrelated_title_mismatch_found": false,
+  "scope_limit": "Title-hint vs opened-title matching and review of low-similarity cases; not a full-content scientific quality audit.",
+  "possible_version_family": [
+    {
+      "titles": [
+        "World Models",
+        "Recurrent World Models Facilitate Policy Evolution"
+      ],
+      "authors": "David Ha; Juergen Schmidhuber",
+      "year": 2018,
+      "action": "Review as possible related preprint/conference versions; do not infer independence solely from different titles."
+    }
+  ],
+  "keep_with_correct_source_title": [
+    {
+      "url": "https://arxiv.org/abs/2501.14654",
+      "title": "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16206",
+      "title": "Computer Environments Elicit General Agentic Intelligence in LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.13334",
+      "title": "A Survey of Context Engineering for Large Language Models",
+      "note": "Discovery hint claims 1,400 papers; do not retain count in title."
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.21236",
+      "title": "AgentBound: Securing Execution Boundaries of AI Agents"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2310.05029",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.05029",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "memory_and_context",
+      "title_hint": "Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading (MemWalker)",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.05029",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:01.710059+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.05029",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41349,
+  "title": "Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading",
+  "authors": [
+    "Chen, Howard",
+    "Pasunuru, Ramakanth",
+    "Weston, Jason",
+    "Celikyilmaz, Asli"
+  ],
+  "first_author": "Chen, Howard",
+  "year": 2023,
+  "source_date": "2023/10/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.05029",
+  "abstract": "Large language models (LLMs) have advanced in large strides due to the effectiveness of the self-attention mechanism that processes and compares all tokens at once. However, this mechanism comes with a fundamental issue -- the predetermined context window is bound to be limited. Despite attempts to extend the context window through methods like extrapolating the positional embedding, using recurrence, or selectively retrieving essential parts of the long sequence, long-text understanding continues to be a challenge. We propose an alternative approach which instead treats the LLM as an interactive agent, allowing it to decide how to read the text via iterative prompting. We introduce MemWalker, a method that first processes the long context into a tree of summary nodes. Upon receiving a query, the model navigates this tree in search of relevant information, and responds once it gathers sufficient information. On long-text question answering tasks our method outperforms baseline approaches that use long context windows, recurrence, and retrieval. We show that, beyond effective reading, MemWalker enhances explainability by highlighting the reasoning steps as it interactively reads the text; pinpointing the relevant text segments related to the query.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.05029: Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.05029v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have advanced in large strides due to the effectiveness of the self-attention mechanism that processes and compares all tokens at once. However, this mechanism comes with a fundamental issue -- the predetermined context window is bound to be limited. Despite attempts to extend the context window through methods like extrapolating the positional embedding, using recurrence, or selectively retrieving essential parts of the long sequence, long-text understanding continues to be a challenge. We propose an alternative approach which instead treats the LLM as an interactive agent, allowing it to decide how to read the text via iterative prompting. We introduce MemWalker, a method that first processes the long context into a tree of summary nodes. Upon receiving a query, the model navigates this tree in search of relevant information, and responds once it gathers sufficient information. On long-text question answering tasks our method outperforms baseline approaches that use long context windows, recurrence, and retrieval. We show that, beyond effective reading, MemWalker enhances explainability by highlighting the reasoning steps as it interactively reads the text; pinpointing the relevant text segments related to the query."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Walking Down the Memory Maze: Beyond Context Limit through..."
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have advanced in large strides due to the effectiveness of the self-attention mechanism that processes and compares all tokens at once. However, this mechanism comes..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading"
+    ],
+    "citation_author": [
+      "Chen, Howard",
+      "Pasunuru, Ramakanth",
+      "Weston, Jason",
+      "Celikyilmaz, Asli"
+    ],
+    "citation_date": [
+      "2023/10/08"
+    ],
+    "citation_online_date": [
+      "2023/10/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.05029"
+    ],
+    "citation_arxiv_id": [
+      "2310.05029"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have advanced in large strides due to the effectiveness of the self-attention mechanism that processes and compares all tokens at once. However, this mechanism comes with a fundamental issue -- the predetermined context window is bound to be limited. Despite attempts to extend the context window through methods like extrapolating the positional embedding, using recurrence, or selectively retrieving essential parts of the long sequence, long-text understanding continues to be a challenge. We propose an alternative approach which instead treats the LLM as an interactive agent, allowing it to decide how to read the text via iterative prompting. We introduce MemWalker, a method that first processes the long context into a tree of summary nodes. Upon receiving a query, the model navigates this tree in search of relevant information, and responds once it gathers sufficient information. On long-text question answering tasks our method outperforms baseline approaches that use long context windows, recurrence, and retrieval. We show that, beyond effective reading, MemWalker enhances explainability by highlighting the reasoning steps as it interactively reads the text; pinpointing the relevant text segments related to the query."
+    ]
+  },
+  "html_sha256": "2f0732fee177b1d474bce8a0fb5aba4dbe169e528354bf9c8be19ff4c11192b3",
+  "evidence_html": "evidence/914c71948282f0622ba7.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

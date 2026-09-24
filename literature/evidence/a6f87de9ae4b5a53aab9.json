@@ -1,0 +1,143 @@
+{
+  "url": "https://arxiv.org/abs/2603.25226",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.25226",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.25226",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:51.659545+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.25226",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44586,
+  "title": "WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing",
+  "authors": [
+    "Kong, Fanheng",
+    "Zhang, Jingyuan",
+    "Yue, Yang",
+    "Sun, Chenxi",
+    "Tian, Yang",
+    "Feng, Shi",
+    "Yang, Xiaocui",
+    "Wang, Daling",
+    "Tian, Yu",
+    "Du, Jun",
+    "Zeng, Wenchong",
+    "Li, Han",
+    "Gai, Kun"
+  ],
+  "first_author": "Kong, Fanheng",
+  "year": 2026,
+  "source_date": "2026/03/26",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2603.25226",
+  "abstract": "The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift in programming, giving rise to \"vibe coding\", where users can build complete projects and even control computers using natural language instructions. This paradigm has driven automated webpage development, but it introduces a new requirement about how to automatically verify whether the web functionalities are reliably implemented. Existing works struggle to adapt, relying on static visual similarity or predefined checklists that constrain their utility in open-ended environments. Furthermore, they overlook a vital aspect of software quality, namely latent logical constraints. To address these gaps, we introduce WebTestBench, a benchmark for evaluating end-to-end automated web testing. WebTestBench encompasses comprehensive dimensions across diverse web application categories. We decompose the testing process into two cascaded sub-tasks, checklist generation and defect detection, and propose WebTester, a baseline framework for this task. Evaluating popular LLMs with WebTester reveals severe challenges, including insufficient test completeness, detection bottlenecks, and long-horizon interaction unreliability. These findings expose a substantial gap between current computer-use agent capabilities and industrial-grade deployment demands. We hope that WebTestBench provides valuable insights and guidance for advancing end-to-end automated web testing. Our dataset and code are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.25226: WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.25226v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift in programming, giving rise to \"vibe coding\", where users can build complete projects and even control computers using natural language instructions. This paradigm has driven automated webpage development, but it introduces a new requirement about how to automatically verify whether the web functionalities are reliably implemented. Existing works struggle to adapt, relying on static visual similarity or predefined checklists that constrain their utility in open-ended environments. Furthermore, they overlook a vital aspect of software quality, namely latent logical constraints. To address these gaps, we introduce WebTestBench, a benchmark for evaluating end-to-end automated web testing. WebTestBench encompasses comprehensive dimensions across diverse web application categories. We decompose the testing process into two cascaded sub-tasks, checklist generation and defect detection, and propose WebTester, a baseline framework for this task. Evaluating popular LLMs with WebTester reveals severe challenges, including insufficient test completeness, detection bottlenecks, and long-horizon interaction unreliability. These findings expose a substantial gap between current computer-use agent capabilities and industrial-grade deployment demands. We hope that WebTestBench provides valuable insights and guidance for advancing end-to-end automated web testing. Our dataset and code are available at https://github.com/friedrichor/WebTestBench."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "WebTestBench: Evaluating Computer-Use Agents towards End-to-End..."
+    ],
+    "twitter:description": [
+      "The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift in programming, giving rise to \"vibe coding\", where users can build complete projects and even control computers using..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing"
+    ],
+    "citation_author": [
+      "Kong, Fanheng",
+      "Zhang, Jingyuan",
+      "Yue, Yang",
+      "Sun, Chenxi",
+      "Tian, Yang",
+      "Feng, Shi",
+      "Yang, Xiaocui",
+      "Wang, Daling",
+      "Tian, Yu",
+      "Du, Jun",
+      "Zeng, Wenchong",
+      "Li, Han",
+      "Gai, Kun"
+    ],
+    "citation_date": [
+      "2026/03/26"
+    ],
+    "citation_online_date": [
+      "2026/03/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.25226"
+    ],
+    "citation_arxiv_id": [
+      "2603.25226"
+    ],
+    "citation_abstract": [
+      "The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift in programming, giving rise to \"vibe coding\", where users can build complete projects and even control computers using natural language instructions. This paradigm has driven automated webpage development, but it introduces a new requirement about how to automatically verify whether the web functionalities are reliably implemented. Existing works struggle to adapt, relying on static visual similarity or predefined checklists that constrain their utility in open-ended environments. Furthermore, they overlook a vital aspect of software quality, namely latent logical constraints. To address these gaps, we introduce WebTestBench, a benchmark for evaluating end-to-end automated web testing. WebTestBench encompasses comprehensive dimensions across diverse web application categories. We decompose the testing process into two cascaded sub-tasks, checklist generation and defect detection, and propose WebTester, a baseline framework for this task. Evaluating popular LLMs with WebTester reveals severe challenges, including insufficient test completeness, detection bottlenecks, and long-horizon interaction unreliability. These findings expose a substantial gap between current computer-use agent capabilities and industrial-grade deployment demands. We hope that WebTestBench provides valuable insights and guidance for advancing end-to-end automated web testing. Our dataset and code are available at https://github.com/friedrichor/WebTestBench."
+    ]
+  },
+  "html_sha256": "5d904bd8269d924c52524b742c9753cf633f0d073a7a3068fe0d0064e07df71d",
+  "evidence_html": "evidence/a6f87de9ae4b5a53aab9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

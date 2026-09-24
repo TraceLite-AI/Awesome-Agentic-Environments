@@ -1,0 +1,51 @@
+{
+  "target": 500,
+  "selected_verified_papers": 500,
+  "unique_candidate_urls": 783,
+  "eligible_verified_unique_works": 739,
+  "verified_reserve": 239,
+  "pending_or_excluded": 36,
+  "duplicate_records_merged": 8,
+  "primary_areas": {
+    "Environment": 200,
+    "Harness": 170,
+    "Agent": 130
+  },
+  "subcategories": {
+    "Environment / 世界模型与模拟器": 19,
+    "Environment / 交互环境与评测基准": 96,
+    "Environment / 具身、游戏与模拟环境": 12,
+    "Environment / 环境变化与鲁棒性": 16,
+    "Environment / 环境生成与演化": 45,
+    "Environment / 理论基础、配置与可复现性": 12,
+    "Harness / 多代理协作编排": 24,
+    "Harness / 安全、权限与执行验证": 28,
+    "Harness / 工具调用与接口": 17,
+    "Harness / 框架与综述": 8,
+    "Harness / 框架与运行编排": 36,
+    "Harness / 规划、搜索与反思": 16,
+    "Harness / 训练与反馈基础设施": 15,
+    "Harness / 记忆与上下文": 26,
+    "Agent / 具身智能体": 8,
+    "Agent / 科学与研究智能体": 34,
+    "Agent / 网页、桌面与移动智能体": 42,
+    "Agent / 软件工程与代码智能体": 38,
+    "Agent / 通用与多代理方法": 8
+  },
+  "year_counts": {
+    "2015": 2,
+    "2016": 2,
+    "2017": 4,
+    "2018": 3,
+    "2019": 3,
+    "2020": 6,
+    "2021": 6,
+    "2022": 8,
+    "2023": 56,
+    "2024": 128,
+    "2025": 177,
+    "2026": 105
+  },
+  "cutoff": "2026-09-24",
+  "verification_level": "Bibliographic metadata and abstract landing page only; full-text extraction not completed."
+}

@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2404.13501",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2404.13501",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_foundations_and_surveys",
+      "title_hint": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2404.13501",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:35.948564+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2404.13501",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42783,
+  "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+  "authors": [
+    "Zhang, Zeyu",
+    "Bo, Xiaohe",
+    "Ma, Chen",
+    "Li, Rui",
+    "Chen, Xu",
+    "Dai, Quanyu",
+    "Zhu, Jieming",
+    "Dong, Zhenhua",
+    "Wen, Ji-Rong"
+  ],
+  "first_author": "Zhang, Zeyu",
+  "year": 2024,
+  "source_date": "2024/04/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2404.13501",
+  "abstract": "Large language model (LLM) based agents have recently attracted much attention from the research and industry communities. Compared with original LLMs, LLM-based agents are featured in their self-evolving capability, which is the basis for solving real-world problems that need long-term and complex agent-environment interactions. The key component to support agent-environment interactions is the memory of the agents. While previous studies have proposed many promising memory mechanisms, they are scattered in different papers, and there lacks a systematical review to summarize and compare these works from a holistic perspective, failing to abstract common and effective designing patterns for inspiring future studies. To bridge this gap, in this paper, we propose a comprehensive survey on the memory mechanism of LLM-based agents. In specific, we first discuss ''what is'' and ''why do we need'' the memory in LLM-based agents. Then, we systematically review previous studies on how to design and evaluate the memory module. In addition, we also present many agent applications, where the memory module plays an important role. At last, we analyze the limitations of existing work and show important future directions. To keep up with the latest advances in this field, we create a repository at \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2404.13501: A Survey on the Memory Mechanism of Large Language Model based Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "A Survey on the Memory Mechanism of Large Language Model based Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2404.13501v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM) based agents have recently attracted much attention from the research and industry communities. Compared with original LLMs, LLM-based agents are featured in their self-evolving capability, which is the basis for solving real-world problems that need long-term and complex agent-environment interactions. The key component to support agent-environment interactions is the memory of the agents. While previous studies have proposed many promising memory mechanisms, they are scattered in different papers, and there lacks a systematical review to summarize and compare these works from a holistic perspective, failing to abstract common and effective designing patterns for inspiring future studies. To bridge this gap, in this paper, we propose a comprehensive survey on the memory mechanism of LLM-based agents. In specific, we first discuss ''what is'' and ''why do we need'' the memory in LLM-based agents. Then, we systematically review previous studies on how to design and evaluate the memory module. In addition, we also present many agent applications, where the memory module plays an important role. At last, we analyze the limitations of existing work and show important future directions. To keep up with the latest advances in this field, we create a repository at \\url{https://github.com/nuster1128/LLM_Agent_Memory_Survey}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "A Survey on the Memory Mechanism of Large Language Model based Agents"
+    ],
+    "twitter:description": [
+      "Large language model (LLM) based agents have recently attracted much attention from the research and industry communities. Compared with original LLMs, LLM-based agents are featured in their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "A Survey on the Memory Mechanism of Large Language Model based Agents"
+    ],
+    "citation_author": [
+      "Zhang, Zeyu",
+      "Bo, Xiaohe",
+      "Ma, Chen",
+      "Li, Rui",
+      "Chen, Xu",
+      "Dai, Quanyu",
+      "Zhu, Jieming",
+      "Dong, Zhenhua",
+      "Wen, Ji-Rong"
+    ],
+    "citation_date": [
+      "2024/04/21"
+    ],
+    "citation_online_date": [
+      "2024/04/21"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2404.13501"
+    ],
+    "citation_arxiv_id": [
+      "2404.13501"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM) based agents have recently attracted much attention from the research and industry communities. Compared with original LLMs, LLM-based agents are featured in their self-evolving capability, which is the basis for solving real-world problems that need long-term and complex agent-environment interactions. The key component to support agent-environment interactions is the memory of the agents. While previous studies have proposed many promising memory mechanisms, they are scattered in different papers, and there lacks a systematical review to summarize and compare these works from a holistic perspective, failing to abstract common and effective designing patterns for inspiring future studies. To bridge this gap, in this paper, we propose a comprehensive survey on the memory mechanism of LLM-based agents. In specific, we first discuss ''what is'' and ''why do we need'' the memory in LLM-based agents. Then, we systematically review previous studies on how to design and evaluate the memory module. In addition, we also present many agent applications, where the memory module plays an important role. At last, we analyze the limitations of existing work and show important future directions. To keep up with the latest advances in this field, we create a repository at \\url{https://github.com/nuster1128/LLM_Agent_Memory_Survey}."
+    ]
+  },
+  "html_sha256": "127adb885822b8d302d218f60144b742cbf0dd97ec4414c3209752b11e970c4e",
+  "evidence_html": "evidence/8257c5dc5657d6f1f537.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

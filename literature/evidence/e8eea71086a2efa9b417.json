@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2512.19682",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.19682",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "Genenv: Difficulty-aligned co-evolution between LLM agents and environment simulators",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.19682",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:57.692905+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.19682",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42692,
+  "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+  "authors": [
+    "Guo, Jiacheng",
+    "Yang, Ling",
+    "Chen, Peter",
+    "Xiao, Qixin",
+    "Wang, Yinjie",
+    "Juan, Xinzhe",
+    "Qiu, Jiahao",
+    "Shen, Ke",
+    "Wang, Mengdi"
+  ],
+  "first_author": "Guo, Jiacheng",
+  "year": 2025,
+  "source_date": "2025/12/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.19682",
+  "abstract": "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative environment simulator. Unlike traditional methods that evolve models on static datasets, GenEnv instantiates a dataevolving: the simulator acts as a dynamic curriculum policy, continuously generating tasks specifically tailored to the agent's ``zone of proximal development''. This process is guided by a simple but effective $\\alpha$-Curriculum Reward, which aligns task difficulty with the agent's current capabilities. We evaluate GenEnv on five benchmarks, including API-Bank, ALFWorld, BFCL, Bamboogle, and TravelPlanner. Across these tasks, GenEnv improves agent performance by up to \\textbf{+40.3\\%} over 7B baselines and matches or exceeds the average performance of larger models. Compared to Gemini 2.5 Pro-based offline data augmentation, GenEnv achieves better performance while using 3.3$\\times$ less data. By shifting from static supervision to adaptive simulation, GenEnv provides a data-efficient pathway for scaling agent capabilities.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.19682: GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.19682v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative environment simulator. Unlike traditional methods that evolve models on static datasets, GenEnv instantiates a dataevolving: the simulator acts as a dynamic curriculum policy, continuously generating tasks specifically tailored to the agent's ``zone of proximal development''. This process is guided by a simple but effective $α$-Curriculum Reward, which aligns task difficulty with the agent's current capabilities. We evaluate GenEnv on five benchmarks, including API-Bank, ALFWorld, BFCL, Bamboogle, and TravelPlanner. Across these tasks, GenEnv improves agent performance by up to \\textbf{+40.3\\%} over 7B baselines and matches or exceeds the average performance of larger models. Compared to Gemini 2.5 Pro-based offline data augmentation, GenEnv achieves better performance while using 3.3$\\times$ less data. By shifting from static supervision to adaptive simulation, GenEnv provides a data-efficient pathway for scaling agent capabilities."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and..."
+    ],
+    "twitter:description": [
+      "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators"
+    ],
+    "citation_author": [
+      "Guo, Jiacheng",
+      "Yang, Ling",
+      "Chen, Peter",
+      "Xiao, Qixin",
+      "Wang, Yinjie",
+      "Juan, Xinzhe",
+      "Qiu, Jiahao",
+      "Shen, Ke",
+      "Wang, Mengdi"
+    ],
+    "citation_date": [
+      "2025/12/22"
+    ],
+    "citation_online_date": [
+      "2025/12/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.19682"
+    ],
+    "citation_arxiv_id": [
+      "2512.19682"
+    ],
+    "citation_abstract": [
+      "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative environment simulator. Unlike traditional methods that evolve models on static datasets, GenEnv instantiates a dataevolving: the simulator acts as a dynamic curriculum policy, continuously generating tasks specifically tailored to the agent's ``zone of proximal development''. This process is guided by a simple but effective $\\alpha$-Curriculum Reward, which aligns task difficulty with the agent's current capabilities. We evaluate GenEnv on five benchmarks, including API-Bank, ALFWorld, BFCL, Bamboogle, and TravelPlanner. Across these tasks, GenEnv improves agent performance by up to \\textbf{+40.3\\%} over 7B baselines and matches or exceeds the average performance of larger models. Compared to Gemini 2.5 Pro-based offline data augmentation, GenEnv achieves better performance while using 3.3$\\times$ less data. By shifting from static supervision to adaptive simulation, GenEnv provides a data-efficient pathway for scaling agent capabilities."
+    ]
+  },
+  "html_sha256": "08d9e393aa9b85c49fa40cebaedd1f2536c74ed92aa66d5fcd2472c6d1d96f91",
+  "evidence_html": "evidence/e8eea71086a2efa9b417.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

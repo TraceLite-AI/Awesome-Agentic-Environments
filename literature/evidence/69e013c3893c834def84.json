@@ -1,0 +1,125 @@
+{
+  "url": "https://arxiv.org/abs/2201.07207",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2201.07207",
+      "discovery_url": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "topic": "embodied_llm_agents",
+      "title_hint": "Language-Planners",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2201.07207",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:45.995586+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2201.07207",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44425,
+  "title": "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents",
+  "authors": [
+    "Huang, Wenlong",
+    "Abbeel, Pieter",
+    "Pathak, Deepak",
+    "Mordatch, Igor"
+  ],
+  "first_author": "Huang, Wenlong",
+  "year": 2022,
+  "source_date": "2022/01/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2201.07207",
+  "abstract": "Can world knowledge learned by large language models (LLMs) be used to act in interactive environments? In this paper, we investigate the possibility of grounding high-level tasks, expressed in natural language (e.g. \"make breakfast\"), to a chosen set of actionable steps (e.g. \"open fridge\"). While prior work focused on learning from explicit step-by-step examples of how to act, we surprisingly find that if pre-trained LMs are large enough and prompted appropriately, they can effectively decompose high-level tasks into mid-level plans without any further training. However, the plans produced naively by LLMs often cannot map precisely to admissible actions. We propose a procedure that conditions on existing demonstrations and semantically translates the plans to admissible actions. Our evaluation in the recent VirtualHome environment shows that the resulting method substantially improves executability over the LLM baseline. The conducted human evaluation reveals a trade-off between executability and correctness but shows a promising sign towards extracting actionable knowledge from language models. Website at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2201.07207: Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2201.07207v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Can world knowledge learned by large language models (LLMs) be used to act in interactive environments? In this paper, we investigate the possibility of grounding high-level tasks, expressed in natural language (e.g. \"make breakfast\"), to a chosen set of actionable steps (e.g. \"open fridge\"). While prior work focused on learning from explicit step-by-step examples of how to act, we surprisingly find that if pre-trained LMs are large enough and prompted appropriately, they can effectively decompose high-level tasks into mid-level plans without any further training. However, the plans produced naively by LLMs often cannot map precisely to admissible actions. We propose a procedure that conditions on existing demonstrations and semantically translates the plans to admissible actions. Our evaluation in the recent VirtualHome environment shows that the resulting method substantially improves executability over the LLM baseline. The conducted human evaluation reveals a trade-off between executability and correctness but shows a promising sign towards extracting actionable knowledge from language models. Website at https://huangwl18.github.io/language-planner"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Language Models as Zero-Shot Planners: Extracting Actionable..."
+    ],
+    "twitter:description": [
+      "Can world knowledge learned by large language models (LLMs) be used to act in interactive environments? In this paper, we investigate the possibility of grounding high-level tasks, expressed in..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
+    ],
+    "citation_author": [
+      "Huang, Wenlong",
+      "Abbeel, Pieter",
+      "Pathak, Deepak",
+      "Mordatch, Igor"
+    ],
+    "citation_date": [
+      "2022/01/18"
+    ],
+    "citation_online_date": [
+      "2022/03/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2201.07207"
+    ],
+    "citation_arxiv_id": [
+      "2201.07207"
+    ],
+    "citation_abstract": [
+      "Can world knowledge learned by large language models (LLMs) be used to act in interactive environments? In this paper, we investigate the possibility of grounding high-level tasks, expressed in natural language (e.g. \"make breakfast\"), to a chosen set of actionable steps (e.g. \"open fridge\"). While prior work focused on learning from explicit step-by-step examples of how to act, we surprisingly find that if pre-trained LMs are large enough and prompted appropriately, they can effectively decompose high-level tasks into mid-level plans without any further training. However, the plans produced naively by LLMs often cannot map precisely to admissible actions. We propose a procedure that conditions on existing demonstrations and semantically translates the plans to admissible actions. Our evaluation in the recent VirtualHome environment shows that the resulting method substantially improves executability over the LLM baseline. The conducted human evaluation reveals a trade-off between executability and correctness but shows a promising sign towards extracting actionable knowledge from language models. Website at https://huangwl18.github.io/language-planner"
+    ]
+  },
+  "html_sha256": "8cc76264798746e7415dfafae22ce2716c88d1afbbf070dc727cb3e3596a7190",
+  "evidence_html": "evidence/69e013c3893c834def84.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2602.03786",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.03786",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.03786",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:49.903183+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.03786",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43449,
+  "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+  "authors": [
+    "Ruan, Jianhao",
+    "Xu, Zhihao",
+    "Peng, Yiran",
+    "Ren, Fashen",
+    "Yu, Zhaoyang",
+    "Liang, Xinbing",
+    "Xiang, Jinyu",
+    "Chen, Yongru",
+    "Liu, Bang",
+    "Wu, Chenglin",
+    "Luo, Yuyu",
+    "Zhang, Jiayi"
+  ],
+  "first_author": "Ruan, Jianhao",
+  "year": 2026,
+  "source_date": "2026/02/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.03786",
+  "abstract": "Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a sub-agent-as-tools paradigm for multi-turn task solving. However, existing designs still lack a dynamic abstraction view of sub-agents, thereby hurting adaptability. We address this challenge with a unified, framework-agnostic agent abstraction that models any agent as a tuple Instruction, Context, Tools, Model. This tuple acts as a compositional recipe for capabilities, enabling the system to spawn specialized executors for each task on demand. Building on this abstraction, we introduce an agentic system AOrchestra, where the central orchestrator concretizes the tuple at each step: it curates task-relevant context, selects tools and models, and delegates execution via on-the-fly automatic agent creation. Such designs enable reducing human engineering efforts, and remain framework-agnostic with plug-and-play support for diverse agents as task executors. It also enables a controllable performance-cost trade-off, allowing the system to approach Pareto-efficient. Across three challenging benchmarks (GAIA, SWE-Bench, Terminal-Bench), AOrchestra achieves 16.28% relative improvement against the strongest baseline when paired with Gemini-3-Flash. The code is available at: this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.03786: AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.03786v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a sub-agent-as-tools paradigm for multi-turn task solving. However, existing designs still lack a dynamic abstraction view of sub-agents, thereby hurting adaptability. We address this challenge with a unified, framework-agnostic agent abstraction that models any agent as a tuple Instruction, Context, Tools, Model. This tuple acts as a compositional recipe for capabilities, enabling the system to spawn specialized executors for each task on demand. Building on this abstraction, we introduce an agentic system AOrchestra, where the central orchestrator concretizes the tuple at each step: it curates task-relevant context, selects tools and models, and delegates execution via on-the-fly automatic agent creation. Such designs enable reducing human engineering efforts, and remain framework-agnostic with plug-and-play support for diverse agents as task executors. It also enables a controllable performance-cost trade-off, allowing the system to approach Pareto-efficient. Across three challenging benchmarks (GAIA, SWE-Bench, Terminal-Bench), AOrchestra achieves 16.28% relative improvement against the strongest baseline when paired with Gemini-3-Flash. The code is available at: https://github.com/FoundationAgents/AOrchestra"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration"
+    ],
+    "twitter:description": [
+      "Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a sub-agent-as-tools paradigm for..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration"
+    ],
+    "citation_author": [
+      "Ruan, Jianhao",
+      "Xu, Zhihao",
+      "Peng, Yiran",
+      "Ren, Fashen",
+      "Yu, Zhaoyang",
+      "Liang, Xinbing",
+      "Xiang, Jinyu",
+      "Chen, Yongru",
+      "Liu, Bang",
+      "Wu, Chenglin",
+      "Luo, Yuyu",
+      "Zhang, Jiayi"
+    ],
+    "citation_date": [
+      "2026/02/03"
+    ],
+    "citation_online_date": [
+      "2026/02/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.03786"
+    ],
+    "citation_arxiv_id": [
+      "2602.03786"
+    ],
+    "citation_abstract": [
+      "Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a sub-agent-as-tools paradigm for multi-turn task solving. However, existing designs still lack a dynamic abstraction view of sub-agents, thereby hurting adaptability. We address this challenge with a unified, framework-agnostic agent abstraction that models any agent as a tuple Instruction, Context, Tools, Model. This tuple acts as a compositional recipe for capabilities, enabling the system to spawn specialized executors for each task on demand. Building on this abstraction, we introduce an agentic system AOrchestra, where the central orchestrator concretizes the tuple at each step: it curates task-relevant context, selects tools and models, and delegates execution via on-the-fly automatic agent creation. Such designs enable reducing human engineering efforts, and remain framework-agnostic with plug-and-play support for diverse agents as task executors. It also enables a controllable performance-cost trade-off, allowing the system to approach Pareto-efficient. Across three challenging benchmarks (GAIA, SWE-Bench, Terminal-Bench), AOrchestra achieves 16.28% relative improvement against the strongest baseline when paired with Gemini-3-Flash. The code is available at: https://github.com/FoundationAgents/AOrchestra"
+    ]
+  },
+  "html_sha256": "76ee8d6b7ffb4a9ebd85cae7d84e0a5e044e671eae312a720df74b4b2b43fb4d",
+  "evidence_html": "evidence/45dd1f757d8c4135b03e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

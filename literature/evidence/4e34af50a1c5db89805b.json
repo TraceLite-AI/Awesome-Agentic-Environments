@@ -1,0 +1,156 @@
+{
+  "url": "https://arxiv.org/abs/2308.10848",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.10848",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.10848",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.10848",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:52.174015+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.10848",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43692,
+  "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+  "authors": [
+    "Chen, Weize",
+    "Su, Yusheng",
+    "Zuo, Jingwei",
+    "Yang, Cheng",
+    "Yuan, Chenfei",
+    "Chan, Chi-Min",
+    "Yu, Heyang",
+    "Lu, Yaxi",
+    "Hung, Yi-Hsin",
+    "Qian, Chen",
+    "Qin, Yujia",
+    "Cong, Xin",
+    "Xie, Ruobing",
+    "Liu, Zhiyuan",
+    "Sun, Maosong",
+    "Zhou, Jie"
+  ],
+  "first_author": "Chen, Weize",
+  "year": 2023,
+  "source_date": "2023/08/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.10848",
+  "abstract": "Autonomous agents empowered by Large Language Models (LLMs) have undergone significant improvements, enabling them to generalize across a broad spectrum of tasks. However, in real-world scenarios, cooperation among individuals is often required to enhance the efficiency and effectiveness of task accomplishment. Hence, inspired by human group dynamics, we propose a multi-agent framework \\framework that can collaboratively and dynamically adjust its composition as a greater-than-the-sum-of-its-parts system. Our experiments demonstrate that \\framework framework can effectively deploy multi-agent groups that outperform a single agent. Furthermore, we delve into the emergence of social behaviors among individual agents within a group during collaborative task accomplishment. In view of these behaviors, we discuss some possible strategies to leverage positive ones and mitigate negative ones for improving the collaborative potential of multi-agent groups. Our codes for \\framework will soon be released at \\url{ this https URL }.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.10848: AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.10848v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous agents empowered by Large Language Models (LLMs) have undergone significant improvements, enabling them to generalize across a broad spectrum of tasks. However, in real-world scenarios, cooperation among individuals is often required to enhance the efficiency and effectiveness of task accomplishment. Hence, inspired by human group dynamics, we propose a multi-agent framework \\framework that can collaboratively and dynamically adjust its composition as a greater-than-the-sum-of-its-parts system. Our experiments demonstrate that \\framework framework can effectively deploy multi-agent groups that outperform a single agent. Furthermore, we delve into the emergence of social behaviors among individual agents within a group during collaborative task accomplishment. In view of these behaviors, we discuss some possible strategies to leverage positive ones and mitigate negative ones for improving the collaborative potential of multi-agent groups. Our codes for \\framework will soon be released at \\url{https://github.com/OpenBMB/AgentVerse}."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring..."
+    ],
+    "twitter:description": [
+      "Autonomous agents empowered by Large Language Models (LLMs) have undergone significant improvements, enabling them to generalize across a broad spectrum of tasks. However, in real-world scenarios,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors"
+    ],
+    "citation_author": [
+      "Chen, Weize",
+      "Su, Yusheng",
+      "Zuo, Jingwei",
+      "Yang, Cheng",
+      "Yuan, Chenfei",
+      "Chan, Chi-Min",
+      "Yu, Heyang",
+      "Lu, Yaxi",
+      "Hung, Yi-Hsin",
+      "Qian, Chen",
+      "Qin, Yujia",
+      "Cong, Xin",
+      "Xie, Ruobing",
+      "Liu, Zhiyuan",
+      "Sun, Maosong",
+      "Zhou, Jie"
+    ],
+    "citation_date": [
+      "2023/08/21"
+    ],
+    "citation_online_date": [
+      "2023/10/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.10848"
+    ],
+    "citation_arxiv_id": [
+      "2308.10848"
+    ],
+    "citation_abstract": [
+      "Autonomous agents empowered by Large Language Models (LLMs) have undergone significant improvements, enabling them to generalize across a broad spectrum of tasks. However, in real-world scenarios, cooperation among individuals is often required to enhance the efficiency and effectiveness of task accomplishment. Hence, inspired by human group dynamics, we propose a multi-agent framework \\framework that can collaboratively and dynamically adjust its composition as a greater-than-the-sum-of-its-parts system. Our experiments demonstrate that \\framework framework can effectively deploy multi-agent groups that outperform a single agent. Furthermore, we delve into the emergence of social behaviors among individual agents within a group during collaborative task accomplishment. In view of these behaviors, we discuss some possible strategies to leverage positive ones and mitigate negative ones for improving the collaborative potential of multi-agent groups. Our codes for \\framework will soon be released at \\url{https://github.com/OpenBMB/AgentVerse}."
+    ]
+  },
+  "html_sha256": "bf6f4191e0791d87a9965fd4e9ea9ba6e61cc6e16a72f34ea75ea19b83c30027",
+  "evidence_html": "evidence/4e34af50a1c5db89805b.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

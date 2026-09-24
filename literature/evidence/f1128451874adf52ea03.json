@@ -1,0 +1,127 @@
+{
+  "url": "https://arxiv.org/abs/2309.15943",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2309.15943",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "embodied_llm_agents",
+      "title_hint": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?. Yongchao Chen et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2309.15943",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:59.689226+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2309.15943",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42958,
+  "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
+  "authors": [
+    "Chen, Yongchao",
+    "Arkin, Jacob",
+    "Zhang, Yang",
+    "Roy, Nicholas",
+    "Fan, Chuchu"
+  ],
+  "first_author": "Chen, Yongchao",
+  "year": 2023,
+  "source_date": "2023/09/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "The 2024 International Conference on Robotics and Automation",
+  "doi": "",
+  "arxiv_id": "2309.15943",
+  "abstract": "A flurry of recent work has demonstrated that pre-trained large language models (LLMs) can be effective task planners for a variety of single-robot tasks. The planning performance of LLMs is significantly improved via prompting techniques, such as in-context learning or re-prompting with state feedback, placing new importance on the token budget for the context window. An under-explored but natural next direction is to investigate LLMs as multi-robot task planners. However, long-horizon, heterogeneous multi-robot planning introduces new challenges of coordination while also pushing up against the limits of context window length. It is therefore critical to find token-efficient LLM planning frameworks that are also able to reason about the complexities of multi-robot coordination. In this work, we compare the task success rate and token efficiency of four multi-agent communication frameworks (centralized, decentralized, and two hybrid) as applied to four coordination-dependent multi-agent 2D task scenarios for increasing numbers of agents. We find that a hybrid framework achieves better task success rates across all four tasks and scales better to more agents. We further demonstrate the hybrid frameworks in 3D simulations where the vision-to-text problem and dynamical errors are considered. See our project website this https URL for prompts, videos, and code.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2309.15943: Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2309.15943v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "A flurry of recent work has demonstrated that pre-trained large language models (LLMs) can be effective task planners for a variety of single-robot tasks. The planning performance of LLMs is significantly improved via prompting techniques, such as in-context learning or re-prompting with state feedback, placing new importance on the token budget for the context window. An under-explored but natural next direction is to investigate LLMs as multi-robot task planners. However, long-horizon, heterogeneous multi-robot planning introduces new challenges of coordination while also pushing up against the limits of context window length. It is therefore critical to find token-efficient LLM planning frameworks that are also able to reason about the complexities of multi-robot coordination. In this work, we compare the task success rate and token efficiency of four multi-agent communication frameworks (centralized, decentralized, and two hybrid) as applied to four coordination-dependent multi-agent 2D task scenarios for increasing numbers of agents. We find that a hybrid framework achieves better task success rates across all four tasks and scales better to more agents. We further demonstrate the hybrid frameworks in 3D simulations where the vision-to-text problem and dynamical errors are considered. See our project website https://yongchao98.github.io/MIT-REALM-Multi-Robot/ for prompts, videos, and code."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Scalable Multi-Robot Collaboration with Large Language Models:..."
+    ],
+    "twitter:description": [
+      "A flurry of recent work has demonstrated that pre-trained large language models (LLMs) can be effective task planners for a variety of single-robot tasks. The planning performance of LLMs is..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?"
+    ],
+    "citation_author": [
+      "Chen, Yongchao",
+      "Arkin, Jacob",
+      "Zhang, Yang",
+      "Roy, Nicholas",
+      "Fan, Chuchu"
+    ],
+    "citation_date": [
+      "2023/09/27"
+    ],
+    "citation_online_date": [
+      "2024/03/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2309.15943"
+    ],
+    "citation_arxiv_id": [
+      "2309.15943"
+    ],
+    "citation_abstract": [
+      "A flurry of recent work has demonstrated that pre-trained large language models (LLMs) can be effective task planners for a variety of single-robot tasks. The planning performance of LLMs is significantly improved via prompting techniques, such as in-context learning or re-prompting with state feedback, placing new importance on the token budget for the context window. An under-explored but natural next direction is to investigate LLMs as multi-robot task planners. However, long-horizon, heterogeneous multi-robot planning introduces new challenges of coordination while also pushing up against the limits of context window length. It is therefore critical to find token-efficient LLM planning frameworks that are also able to reason about the complexities of multi-robot coordination. In this work, we compare the task success rate and token efficiency of four multi-agent communication frameworks (centralized, decentralized, and two hybrid) as applied to four coordination-dependent multi-agent 2D task scenarios for increasing numbers of agents. We find that a hybrid framework achieves better task success rates across all four tasks and scales better to more agents. We further demonstrate the hybrid frameworks in 3D simulations where the vision-to-text problem and dynamical errors are considered. See our project website https://yongchao98.github.io/MIT-REALM-Multi-Robot/ for prompts, videos, and code."
+    ]
+  },
+  "html_sha256": "32e9211cb72b8c53a9a66b87ab71e2ad2ac61b1809cad27bcd0cfacc922e14ef",
+  "evidence_html": "evidence/f1128451874adf52ea03.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

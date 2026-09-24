@@ -1,0 +1,155 @@
+{
+  "url": "https://arxiv.org/abs/2402.14034",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.14034",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.14034",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:56.057015+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.14034",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44886,
+  "title": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+  "authors": [
+    "Gao, Dawei",
+    "Li, Zitao",
+    "Pan, Xuchen",
+    "Kuang, Weirui",
+    "Ma, Zhijian",
+    "Qian, Bingchen",
+    "Wei, Fei",
+    "Zhang, Wenhao",
+    "Xie, Yuexiang",
+    "Chen, Daoyuan",
+    "Yao, Liuyi",
+    "Peng, Hongyi",
+    "Zhang, Zeyu",
+    "Zhu, Lin",
+    "Cheng, Chen",
+    "Shi, Hongzhu",
+    "Li, Yaliang",
+    "Ding, Bolin",
+    "Zhou, Jingren"
+  ],
+  "first_author": "Gao, Dawei",
+  "year": 2024,
+  "source_date": "2024/02/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.14034",
+  "abstract": "With the rapid advancement of Large Language Models (LLMs), significant progress has been made in multi-agent applications. However, the complexities in coordinating agents' cooperation and LLMs' erratic performance pose notable challenges in developing robust and efficient multi-agent applications. To tackle these challenges, we propose AgentScope, a developer-centric multi-agent platform with message exchange as its core communication mechanism. The abundant syntactic tools, built-in agents and service functions, user-friendly interfaces for application demonstration and utility monitor, zero-code programming workstation, and automatic prompt tuning mechanism significantly lower the barriers to both development and deployment. Towards robust and flexible multi-agent application, AgentScope provides both built-in and customizable fault tolerance mechanisms. At the same time, it is also armed with system-level support for managing and utilizing multi-modal data, tools, and external knowledge. Additionally, we design an actor-based distribution framework, enabling easy conversion between local and distributed deployments and automatic parallel optimization without extra effort. With these features, AgentScope empowers developers to build applications that fully realize the potential of intelligent agents. We have released AgentScope at this https URL , and hope AgentScope invites wider participation and innovation in this fast-moving field.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.14034: AgentScope: A Flexible yet Robust Multi-Agent Platform"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentScope: A Flexible yet Robust Multi-Agent Platform"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.14034v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "With the rapid advancement of Large Language Models (LLMs), significant progress has been made in multi-agent applications. However, the complexities in coordinating agents' cooperation and LLMs' erratic performance pose notable challenges in developing robust and efficient multi-agent applications. To tackle these challenges, we propose AgentScope, a developer-centric multi-agent platform with message exchange as its core communication mechanism. The abundant syntactic tools, built-in agents and service functions, user-friendly interfaces for application demonstration and utility monitor, zero-code programming workstation, and automatic prompt tuning mechanism significantly lower the barriers to both development and deployment. Towards robust and flexible multi-agent application, AgentScope provides both built-in and customizable fault tolerance mechanisms. At the same time, it is also armed with system-level support for managing and utilizing multi-modal data, tools, and external knowledge. Additionally, we design an actor-based distribution framework, enabling easy conversion between local and distributed deployments and automatic parallel optimization without extra effort. With these features, AgentScope empowers developers to build applications that fully realize the potential of intelligent agents. We have released AgentScope at https://github.com/modelscope/agentscope, and hope AgentScope invites wider participation and innovation in this fast-moving field."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentScope: A Flexible yet Robust Multi-Agent Platform"
+    ],
+    "twitter:description": [
+      "With the rapid advancement of Large Language Models (LLMs), significant progress has been made in multi-agent applications. However, the complexities in coordinating agents' cooperation and LLMs'..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentScope: A Flexible yet Robust Multi-Agent Platform"
+    ],
+    "citation_author": [
+      "Gao, Dawei",
+      "Li, Zitao",
+      "Pan, Xuchen",
+      "Kuang, Weirui",
+      "Ma, Zhijian",
+      "Qian, Bingchen",
+      "Wei, Fei",
+      "Zhang, Wenhao",
+      "Xie, Yuexiang",
+      "Chen, Daoyuan",
+      "Yao, Liuyi",
+      "Peng, Hongyi",
+      "Zhang, Zeyu",
+      "Zhu, Lin",
+      "Cheng, Chen",
+      "Shi, Hongzhu",
+      "Li, Yaliang",
+      "Ding, Bolin",
+      "Zhou, Jingren"
+    ],
+    "citation_date": [
+      "2024/02/21"
+    ],
+    "citation_online_date": [
+      "2024/05/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.14034"
+    ],
+    "citation_arxiv_id": [
+      "2402.14034"
+    ],
+    "citation_abstract": [
+      "With the rapid advancement of Large Language Models (LLMs), significant progress has been made in multi-agent applications. However, the complexities in coordinating agents' cooperation and LLMs' erratic performance pose notable challenges in developing robust and efficient multi-agent applications. To tackle these challenges, we propose AgentScope, a developer-centric multi-agent platform with message exchange as its core communication mechanism. The abundant syntactic tools, built-in agents and service functions, user-friendly interfaces for application demonstration and utility monitor, zero-code programming workstation, and automatic prompt tuning mechanism significantly lower the barriers to both development and deployment. Towards robust and flexible multi-agent application, AgentScope provides both built-in and customizable fault tolerance mechanisms. At the same time, it is also armed with system-level support for managing and utilizing multi-modal data, tools, and external knowledge. Additionally, we design an actor-based distribution framework, enabling easy conversion between local and distributed deployments and automatic parallel optimization without extra effort. With these features, AgentScope empowers developers to build applications that fully realize the potential of intelligent agents. We have released AgentScope at https://github.com/modelscope/agentscope, and hope AgentScope invites wider participation and innovation in this fast-moving field."
+    ]
+  },
+  "html_sha256": "2a7b0c223f29241c5af16c506ef0ff9c03d99cb9ebbaf40ac1c1f3343ce44f8c",
+  "evidence_html": "evidence/2ed1afe7ec3d43f5a138.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

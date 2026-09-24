@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2606.24177",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2606.24177",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "multi_agent_coordination",
+      "title_hint": "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2606.24177",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:56.041928+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2606.24177",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41525,
+  "title": "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy",
+  "authors": [
+    "Sun, Youran",
+    "Ren, Xingyu",
+    "Yi, Chugang",
+    "Guo, Jiaxuan",
+    "Zhang, Kejia",
+    "Du, Jianda",
+    "Yang, Haizhao"
+  ],
+  "first_author": "Sun, Youran",
+  "year": 2026,
+  "source_date": "2026/06/23",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2606.24177",
+  "abstract": "Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. We present \\textsc{Agon}, a research orchestrator that validates what can be checked inside the workflow and leaves the remaining judgments to human scientists. \\textsc{Agon} is built on six design principles: Prompt Economy, Future-Facing, Minimal Prompts, OmniDisciplinary, Massive Parallelism, and Zero-Code. We ran \\textsc{Agon} across domains for 444 iterations of Prompt Economy loops, using only small starting topics and no human-written experimental code. These deployments demonstrate scalability while exposing new classes of failure. We organize these failures into a taxonomy along severity, fixability, visibility, and capability locus. The taxonomy separates failures the loops can see and fix from those that require human judgment. Together, these results show that \\textsc{Agon} is pushing research toward a new paradigm: machine scales, human steers.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2606.24177: Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2606.24177v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. We present \\textsc{Agon}, a research orchestrator that validates what can be checked inside the workflow and leaves the remaining judgments to human scientists. \\textsc{Agon} is built on six design principles: Prompt Economy, Future-Facing, Minimal Prompts, OmniDisciplinary, Massive Parallelism, and Zero-Code. We ran \\textsc{Agon} across domains for 444 iterations of Prompt Economy loops, using only small starting topics and no human-written experimental code. These deployments demonstrate scalability while exposing new classes of failure. We organize these failures into a taxonomy along severity, fixability, visibility, and capability locus. The taxonomy separates failures the loops can see and fix from those that require human judgment. Together, these results show that \\textsc{Agon} is pushing research toward a new paradigm: machine scales, human steers."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agon: An Autonomous Large-Scale Omnidisciplinary Research System..."
+    ],
+    "twitter:description": [
+      "Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. We present \\textsc{Agon}, a research orchestrator that validates..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy"
+    ],
+    "citation_author": [
+      "Sun, Youran",
+      "Ren, Xingyu",
+      "Yi, Chugang",
+      "Guo, Jiaxuan",
+      "Zhang, Kejia",
+      "Du, Jianda",
+      "Yang, Haizhao"
+    ],
+    "citation_date": [
+      "2026/06/23"
+    ],
+    "citation_online_date": [
+      "2026/06/23"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2606.24177"
+    ],
+    "citation_arxiv_id": [
+      "2606.24177"
+    ],
+    "citation_abstract": [
+      "Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. We present \\textsc{Agon}, a research orchestrator that validates what can be checked inside the workflow and leaves the remaining judgments to human scientists. \\textsc{Agon} is built on six design principles: Prompt Economy, Future-Facing, Minimal Prompts, OmniDisciplinary, Massive Parallelism, and Zero-Code. We ran \\textsc{Agon} across domains for 444 iterations of Prompt Economy loops, using only small starting topics and no human-written experimental code. These deployments demonstrate scalability while exposing new classes of failure. We organize these failures into a taxonomy along severity, fixability, visibility, and capability locus. The taxonomy separates failures the loops can see and fix from those that require human judgment. Together, these results show that \\textsc{Agon} is pushing research toward a new paradigm: machine scales, human steers."
+    ]
+  },
+  "html_sha256": "fca2604f68a3332659ae1ea69988a2d93810475c5ad2292f8a2e5424939deed4",
+  "evidence_html": "evidence/6df4799500be9b875bee.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2310.06114",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.06114",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-74",
+      "topic": "机器人与世界模型",
+      "title_hint": "Yang et al. Learning Interactive Real-World Simulators (UniSim). ICLR 2024. arXiv:2310.06114.",
+      "existing_reference_number": 74,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.06114",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:19.649501+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.06114",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43348,
+  "title": "Learning Interactive Real-World Simulators",
+  "authors": [
+    "Yang, Sherry",
+    "Du, Yilun",
+    "Ghasemipour, Kamyar",
+    "Tompson, Jonathan",
+    "Kaelbling, Leslie",
+    "Schuurmans, Dale",
+    "Abbeel, Pieter"
+  ],
+  "first_author": "Yang, Sherry",
+  "year": 2023,
+  "source_date": "2023/10/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.06114",
+  "abstract": "Generative models trained on internet data have revolutionized how text, image, and video content can be created. Perhaps the next milestone for generative models is to simulate realistic experience in response to actions taken by humans, robots, and other interactive agents. Applications of a real-world simulator range from controllable content creation in games and movies, to training embodied agents purely in simulation that can be directly deployed in the real world. We explore the possibility of learning a universal simulator (UniSim) of real-world interaction through generative modeling. We first make the important observation that natural datasets available for learning a real-world simulator are often rich along different dimensions (e.g., abundant objects in image data, densely sampled actions in robotics data, and diverse movements in navigation data). With careful orchestration of diverse datasets, each providing a different aspect of the overall experience, we can simulate the visual outcome of both high-level instructions such as \"open the drawer\" and low-level controls from otherwise static scenes and objects. We use the simulator to train both high-level vision-language policies and low-level reinforcement learning policies, each of which can be deployed in the real world in zero shot after training purely in simulation. We also show that other types of intelligence such as video captioning models can benefit from training with simulated experience, opening up even wider applications. Video demos can be found at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.06114: Learning Interactive Real-World Simulators"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Learning Interactive Real-World Simulators"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.06114v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Generative models trained on internet data have revolutionized how text, image, and video content can be created. Perhaps the next milestone for generative models is to simulate realistic experience in response to actions taken by humans, robots, and other interactive agents. Applications of a real-world simulator range from controllable content creation in games and movies, to training embodied agents purely in simulation that can be directly deployed in the real world. We explore the possibility of learning a universal simulator (UniSim) of real-world interaction through generative modeling. We first make the important observation that natural datasets available for learning a real-world simulator are often rich along different dimensions (e.g., abundant objects in image data, densely sampled actions in robotics data, and diverse movements in navigation data). With careful orchestration of diverse datasets, each providing a different aspect of the overall experience, we can simulate the visual outcome of both high-level instructions such as \"open the drawer\" and low-level controls from otherwise static scenes and objects. We use the simulator to train both high-level vision-language policies and low-level reinforcement learning policies, each of which can be deployed in the real world in zero shot after training purely in simulation. We also show that other types of intelligence such as video captioning models can benefit from training with simulated experience, opening up even wider applications. Video demos can be found at https://universal-simulator.github.io."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Learning Interactive Real-World Simulators"
+    ],
+    "twitter:description": [
+      "Generative models trained on internet data have revolutionized how text, image, and video content can be created. Perhaps the next milestone for generative models is to simulate realistic..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Learning Interactive Real-World Simulators"
+    ],
+    "citation_author": [
+      "Yang, Sherry",
+      "Du, Yilun",
+      "Ghasemipour, Kamyar",
+      "Tompson, Jonathan",
+      "Kaelbling, Leslie",
+      "Schuurmans, Dale",
+      "Abbeel, Pieter"
+    ],
+    "citation_date": [
+      "2023/10/09"
+    ],
+    "citation_online_date": [
+      "2024/09/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.06114"
+    ],
+    "citation_arxiv_id": [
+      "2310.06114"
+    ],
+    "citation_abstract": [
+      "Generative models trained on internet data have revolutionized how text, image, and video content can be created. Perhaps the next milestone for generative models is to simulate realistic experience in response to actions taken by humans, robots, and other interactive agents. Applications of a real-world simulator range from controllable content creation in games and movies, to training embodied agents purely in simulation that can be directly deployed in the real world. We explore the possibility of learning a universal simulator (UniSim) of real-world interaction through generative modeling. We first make the important observation that natural datasets available for learning a real-world simulator are often rich along different dimensions (e.g., abundant objects in image data, densely sampled actions in robotics data, and diverse movements in navigation data). With careful orchestration of diverse datasets, each providing a different aspect of the overall experience, we can simulate the visual outcome of both high-level instructions such as \"open the drawer\" and low-level controls from otherwise static scenes and objects. We use the simulator to train both high-level vision-language policies and low-level reinforcement learning policies, each of which can be deployed in the real world in zero shot after training purely in simulation. We also show that other types of intelligence such as video captioning models can benefit from training with simulated experience, opening up even wider applications. Video demos can be found at https://universal-simulator.github.io."
+    ]
+  },
+  "html_sha256": "180fb577cca43ac2be31376668a55e96c6a77fd9349e03519cecdd912a9fa980",
+  "evidence_html": "evidence/ae7d7530b0e45a0de9e3.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

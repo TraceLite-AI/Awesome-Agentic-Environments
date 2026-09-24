@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Unsupervised Environment Design: 10 key papers, from Prioritized Level Replay to Paired Open-Ended Trailblazer (POET). Curated by Mouhssine Rifaki, Stanford EE.">
+<meta name="keywords" content="unsupervised environment design, UED, PAIRED, PLR, ACCEL, autocurricula, curriculum learning, Mouhssine Rifaki, Stanford, Arbabian Lab">
+<meta name="author" content="Mouhssine Rifaki">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<title>Unsupervised Environment Design | Mouhssine Rifaki</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<!-- seo:fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+<!-- /seo:fonts -->
+<link rel="canonical" href="https://web.stanford.edu/~mrifaki/ued-readings.html">
+<!-- seo:social -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Mouhssine Rifaki">
+<meta property="og:title" content="Unsupervised Environment Design | Mouhssine Rifaki">
+<meta property="og:description" content="Unsupervised Environment Design: 10 key papers, from Prioritized Level Replay to Paired Open-Ended Trailblazer (POET). Curated by Mouhssine Rifaki, Stanford EE.">
+<meta property="og:url" content="https://web.stanford.edu/~mrifaki/ued-readings.html">
+<meta property="og:image" content="https://web.stanford.edu/~mrifaki/portrait.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Unsupervised Environment Design | Mouhssine Rifaki">
+<meta name="twitter:description" content="Unsupervised Environment Design: 10 key papers, from Prioritized Level Replay to Paired Open-Ended Trailblazer (POET). Curated by Mouhssine Rifaki, Stanford EE.">
+<meta name="twitter:image" content="https://web.stanford.edu/~mrifaki/portrait.jpg">
+<!-- /seo:social -->
+<link rel="me" href="https://mouhssine.rifaki.me">
+<link rel="me" href="https://scholar.google.com/citations?user=1lGBfd0AAAAJ&hl=en">
+<link rel="me" href="https://orcid.org/0009-0009-0159-4932">
+<link rel="me" href="https://www.linkedin.com/in/rifaki/">
+<link rel="me" href="https://bsky.app/profile/rifaki.bsky.social">
+<link rel="me" href="https://wp.nyu.edu/mrifaki/">
+<link rel="me" href="https://github.com/rifaki-mouhssine">
+<link rel="me" href="https://emerge-lab.github.io/">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Person",
+   "@id": "https://web.stanford.edu/~mrifaki/#person",
+   "name": "Mouhssine Rifaki",
+   "url": "https://web.stanford.edu/~mrifaki/",
+   "sameAs": [
+    "https://mouhssine.rifaki.me",
+    "https://orcid.org/0009-0009-0159-4932",
+    "https://scholar.google.com/citations?user=1lGBfd0AAAAJ&hl=en",
+    "https://github.com/rifaki-mouhssine",
+    "https://www.linkedin.com/in/rifaki/",
+    "https://bsky.app/profile/rifaki.bsky.social",
+    "https://wp.nyu.edu/mrifaki/"
+   ],
+   "jobTitle": "AI Researcher",
+   "affiliation": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "Stanford University",
+     "department": "Electrical Engineering"
+    },
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "New York University",
+     "department": "Tandon School of Engineering, EMERGE Lab"
+    }
+   ],
+   "knowsAbout": [
+    "Reinforcement Learning",
+    "Multi-Agent Reinforcement Learning",
+    "Adaptive Sensing",
+    "Optimal Transport",
+    "Monte Carlo Tree Search",
+    "Environment Design",
+    "Control Theory"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://web.stanford.edu/~mrifaki/#website",
+   "url": "https://web.stanford.edu/~mrifaki/",
+   "name": "Mouhssine Rifaki â Stanford Electrical Engineering",
+   "publisher": {
+    "@id": "https://web.stanford.edu/~mrifaki/#person"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Mouhssine Rifaki",
+     "item": "https://web.stanford.edu/~mrifaki/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Unsupervised Environment Design Reading List",
+     "item": "https://web.stanford.edu/~mrifaki/ued-readings.html"
+    }
+   ]
+  },
+  {
+   "@type": "CollectionPage",
+   "@id": "https://web.stanford.edu/~mrifaki/ued-readings.html#page",
+   "url": "https://web.stanford.edu/~mrifaki/ued-readings.html",
+   "name": "Unsupervised Environment Design | Mouhssine Rifaki",
+   "description": "Unsupervised Environment Design: 10 key papers, from Prioritized Level Replay to Paired Open-Ended Trailblazer (POET). Curated by Mouhssine Rifaki, Stanford EE.",
+   "isPartOf": {
+    "@id": "https://web.stanford.edu/~mrifaki/#website"
+   },
+   "about": "Unsupervised Environment Design",
+   "author": {
+    "@id": "https://web.stanford.edu/~mrifaki/#person"
+   },
+   "inLanguage": "en",
+   "mainEntity": {
+    "@id": "https://web.stanford.edu/~mrifaki/ued-readings.html#list"
+   }
+  },
+  {
+   "@type": "ItemList",
+   "@id": "https://web.stanford.edu/~mrifaki/ued-readings.html#list",
+   "name": "Unsupervised Environment Design Reading List",
+   "description": "Automatically generating training environments to improve agent robustness and generalization.",
+   "itemListOrder": "https://schema.org/ItemListOrderAscending",
+   "numberOfItems": 10,
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "url": "https://arxiv.org/abs/2012.02096",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design",
+      "url": "https://arxiv.org/abs/2012.02096"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "url": "https://arxiv.org/abs/2110.02439",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Replay-Guided Adversarial Environment Design",
+      "url": "https://arxiv.org/abs/2110.02439"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "url": "https://arxiv.org/abs/2203.01302",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Evolving Curricula with Regret-Based Environment Design",
+      "url": "https://arxiv.org/abs/2203.01302"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "url": "https://arxiv.org/abs/2010.03934",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Prioritized Level Replay",
+      "url": "https://arxiv.org/abs/2010.03934"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "url": "https://arxiv.org/abs/2207.05219",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Grounding Aleatoric Uncertainty for Unsupervised Environment Design",
+      "url": "https://arxiv.org/abs/2207.05219"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "url": "https://arxiv.org/abs/2308.10797",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Stabilizing Unsupervised Environment Design with a Learned Adversary",
+      "url": "https://arxiv.org/abs/2308.10797"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "url": "https://arxiv.org/abs/2303.03376",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2303.03376"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 8,
+     "url": "https://arxiv.org/abs/2003.08536",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions",
+      "url": "https://arxiv.org/abs/2003.08536"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 9,
+     "url": "https://arxiv.org/abs/1901.01753",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions",
+      "url": "https://arxiv.org/abs/1901.01753"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 10,
+     "url": "https://arxiv.org/abs/2302.02119",
+     "item": {
+      "@type": "ScholarlyArticle",
+      "name": "Diversity Induced Environment Design via Self-Play",
+      "url": "https://arxiv.org/abs/2302.02119"
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+:root {
+            --cardinal: #8C1515;
+            --sand: #D2C295;
+            --cream: #FDFBF7;
+            --paper: #F9F6F0;
+            --ink: #191919;
+            --body: #363636;
+            --dim: #888;
+            --rule: #DDD5C8;
+        }
+        html { font-size: 17px; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--cream);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.7;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        h1 {
+            font-family: 'EB Garamond', Georgia, serif;
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: 8px;
+            letter-spacing: -0.01em;
+        }
+        .meta { font-size: 0.85rem; color: var(--dim); margin-bottom: 32px; }
+        .meta a { color: var(--cardinal); text-decoration: none; font-weight: 500; }
+        .meta a:hover { text-decoration: underline; }
+        p.intro { font-size: 0.95rem; color: var(--body); margin-bottom: 32px; border-left: 3px solid var(--cardinal); padding-left: 16px; font-weight: 300; }
+        ol { padding-left: 20px; }
+        li { margin-bottom: 20px; font-size: 0.92rem; font-weight: 300; color: var(--body); }
+        li a.paper-link { color: var(--cardinal); font-weight: 600; text-decoration: none; }
+        li a.paper-link:hover { text-decoration: underline; opacity: 0.8; }
+        li em { font-style: normal; color: var(--dim); font-size: 0.85rem; display: block; margin-top: 2px; font-weight: 300; }
+        a { color: var(--cardinal); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back { display: inline-block; margin-top: 40px; font-size: 0.85rem; color: var(--cardinal); font-weight: 500; }
+        h2.related-h { font-family: 'EB Garamond', Georgia, serif; font-size: 1.05rem; font-weight: 500; color: var(--ink); margin: 48px 0 12px; }
+        h2.list-h { font-family: 'EB Garamond', Georgia, serif; font-size: 1.05rem; font-weight: 500; color: var(--ink); margin: 0 0 12px; }
+        ul.related { list-style: none; padding: 0; columns: 2; column-gap: 32px; }
+        ul.related li { margin-bottom: 6px; font-size: 0.85rem; font-weight: 300; }
+        ul.related a { color: var(--cardinal); text-decoration: none; }
+        ul.related a:hover { text-decoration: underline; }
+        @media (max-width: 560px) { ul.related { columns: 1; } }
+\1 margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 0.75rem; color: var(--dim); line-height: 2; }
+        .footer-links a { color: var(--dim); }
+        .footer-links a:hover { color: var(--cardinal); }
+</style>
+</head>
+<body>
+<h1>Unsupervised Environment Design Reading List</h1>
+<p class="meta">Curated by <a href="https://web.stanford.edu/~mrifaki/">Mouhssine Rifaki</a> | <a href="https://profiles.stanford.edu/mouhssine-rifaki">Stanford Electrical Engineering</a> | Last updated August 2026</p>
+<p class="intro">Automatically generating training environments to improve agent robustness and generalization.</p>
+<h2 class="list-h">Unsupervised Environment Design: 10 key papers</h2>
+<ol>
+<li><a class="paper-link" href="https://arxiv.org/abs/2012.02096">Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design</a><br><em>Dennis et al. arXiv 2020.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2110.02439">Replay-Guided Adversarial Environment Design</a><br><em>Jiang et al. arXiv 2021.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2203.01302">Evolving Curricula with Regret-Based Environment Design</a><br><em>Parker-Holder et al. arXiv 2022.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2010.03934">Prioritized Level Replay</a><br><em>Jiang et al. arXiv 2020.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2207.05219">Grounding Aleatoric Uncertainty for Unsupervised Environment Design</a><br><em>Jiang et al. arXiv 2022.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2308.10797">Stabilizing Unsupervised Environment Design with a Learned Adversary</a><br><em>Mediratta et al. arXiv 2023.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2303.03376">MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning</a><br><em>Samvelyan et al. arXiv 2023.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2003.08536">Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions</a><br><em>Wang et al. arXiv 2020.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/1901.01753">Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions</a><br><em>Wang et al. arXiv 2019.</em></li>
+<li><a class="paper-link" href="https://arxiv.org/abs/2302.02119">Diversity Induced Environment Design via Self-Play</a><br><em>Li et al. arXiv 2023.</em></li>
+</ol>
+<!-- seo:related -->
+<h2 class="related-h">Related reading lists</h2>
+<ul class="related">
+<li><a href="mcts-readings.html">Monte Carlo Tree Search</a></li>
+<li><a href="adversarial-rl-readings.html">Adversarial Reinforcement Learning &amp; Robustness to Adversaries</a></li>
+<li><a href="llm-agents-readings.html">LLM Agents &amp; Tool-Augmented Language Models</a></li>
+<li><a href="self-play-readings.html">Self-Play &amp; Population-Based Training</a></li>
+<li><a href="curriculum-learning-readings.html">Curriculum Learning &amp; Teacher-Student</a></li>
+<li><a href="intrinsic-motivation-readings.html">Intrinsic Motivation &amp; Empowerment</a></li>
+<li><a href="domain-adaptation-readings.html">Domain Adaptation &amp; Domain Generalization</a></li>
+<li><a href="population-based-training-readings.html">Population-Based Training</a></li>
+</ul>
+<!-- /seo:related -->
+<a class="back" href="https://web.stanford.edu/~mrifaki/">&larr; Back to main page</a>
+<div class="footer-links">
+<a href="https://web.stanford.edu/~mrifaki/">Mouhssine Rifaki</a> &middot;
+<a href="https://profiles.stanford.edu/mouhssine-rifaki">Stanford Profile</a> &middot;
+<a href="https://mouhssine.rifaki.me">mouhssine.rifaki.me</a> &middot;
+<a href="https://scholar.google.com/citations?user=1lGBfd0AAAAJ&hl=en">Google Scholar</a> &middot;
+<a href="https://arbabianlab.stanford.edu/">Arbabian Lab</a>
+</div>
+</body>
+</html>

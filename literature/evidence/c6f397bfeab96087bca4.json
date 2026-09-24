@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2410.18603",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.18603",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.18603",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:54.058334+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.18603",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43499,
+  "title": "AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant",
+  "authors": [
+    "Jia, Chengyou",
+    "Luo, Minnan",
+    "Dang, Zhuohang",
+    "Sun, Qiushi",
+    "Xu, Fangzhi",
+    "Hu, Junlin",
+    "Xie, Tianbao",
+    "Wu, Zhiyong"
+  ],
+  "first_author": "Jia, Chengyou",
+  "year": 2024,
+  "source_date": "2024/10/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.18603",
+  "abstract": "Digital agents capable of automating complex computer tasks have attracted considerable attention due to their immense potential to enhance human-computer interaction. However, existing agent methods exhibit deficiencies in their generalization and specialization capabilities, especially in handling open-ended computer tasks in real-world environments. Inspired by the rich functionality of the App store, we present AgentStore, a scalable platform designed to dynamically integrate heterogeneous agents for automating computer tasks. AgentStore empowers users to integrate third-party agents, allowing the system to continuously enrich its capabilities and adapt to rapidly evolving operating systems. Additionally, we propose a novel core \\textbf{MetaAgent} with the \\textbf{AgentToken} strategy to efficiently manage diverse agents and utilize their specialized and generalist abilities for both domain-specific and system-wide tasks. Extensive experiments on three challenging benchmarks demonstrate that AgentStore surpasses the limitations of previous systems with narrow capabilities, particularly achieving a significant improvement from 11.21\\% to 23.85\\% on the OSWorld benchmark, more than doubling the previous results. Comprehensive quantitative and qualitative results further demonstrate AgentStore's ability to enhance agent systems in both generalization and specialization, underscoring its potential for developing the specialized generalist computer assistant. All our codes will be made publicly available in this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.18603: AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.18603v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Digital agents capable of automating complex computer tasks have attracted considerable attention due to their immense potential to enhance human-computer interaction. However, existing agent methods exhibit deficiencies in their generalization and specialization capabilities, especially in handling open-ended computer tasks in real-world environments. Inspired by the rich functionality of the App store, we present AgentStore, a scalable platform designed to dynamically integrate heterogeneous agents for automating computer tasks. AgentStore empowers users to integrate third-party agents, allowing the system to continuously enrich its capabilities and adapt to rapidly evolving operating systems. Additionally, we propose a novel core \\textbf{MetaAgent} with the \\textbf{AgentToken} strategy to efficiently manage diverse agents and utilize their specialized and generalist abilities for both domain-specific and system-wide tasks. Extensive experiments on three challenging benchmarks demonstrate that AgentStore surpasses the limitations of previous systems with narrow capabilities, particularly achieving a significant improvement from 11.21\\% to 23.85\\% on the OSWorld benchmark, more than doubling the previous results. Comprehensive quantitative and qualitative results further demonstrate AgentStore's ability to enhance agent systems in both generalization and specialization, underscoring its potential for developing the specialized generalist computer assistant. All our codes will be made publicly available in https://chengyou-jia.github.io/AgentStore-Home."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentStore: Scalable Integration of Heterogeneous Agents As..."
+    ],
+    "twitter:description": [
+      "Digital agents capable of automating complex computer tasks have attracted considerable attention due to their immense potential to enhance human-computer interaction. However, existing agent..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant"
+    ],
+    "citation_author": [
+      "Jia, Chengyou",
+      "Luo, Minnan",
+      "Dang, Zhuohang",
+      "Sun, Qiushi",
+      "Xu, Fangzhi",
+      "Hu, Junlin",
+      "Xie, Tianbao",
+      "Wu, Zhiyong"
+    ],
+    "citation_date": [
+      "2024/10/24"
+    ],
+    "citation_online_date": [
+      "2024/10/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.18603"
+    ],
+    "citation_arxiv_id": [
+      "2410.18603"
+    ],
+    "citation_abstract": [
+      "Digital agents capable of automating complex computer tasks have attracted considerable attention due to their immense potential to enhance human-computer interaction. However, existing agent methods exhibit deficiencies in their generalization and specialization capabilities, especially in handling open-ended computer tasks in real-world environments. Inspired by the rich functionality of the App store, we present AgentStore, a scalable platform designed to dynamically integrate heterogeneous agents for automating computer tasks. AgentStore empowers users to integrate third-party agents, allowing the system to continuously enrich its capabilities and adapt to rapidly evolving operating systems. Additionally, we propose a novel core \\textbf{MetaAgent} with the \\textbf{AgentToken} strategy to efficiently manage diverse agents and utilize their specialized and generalist abilities for both domain-specific and system-wide tasks. Extensive experiments on three challenging benchmarks demonstrate that AgentStore surpasses the limitations of previous systems with narrow capabilities, particularly achieving a significant improvement from 11.21\\% to 23.85\\% on the OSWorld benchmark, more than doubling the previous results. Comprehensive quantitative and qualitative results further demonstrate AgentStore's ability to enhance agent systems in both generalization and specialization, underscoring its potential for developing the specialized generalist computer assistant. All our codes will be made publicly available in https://chengyou-jia.github.io/AgentStore-Home."
+    ]
+  },
+  "html_sha256": "ceb4fd263bf1d3c61286cbd482252949514eaa85538917ca96ea26bb2e941837",
+  "evidence_html": "evidence/c6f397bfeab96087bca4.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

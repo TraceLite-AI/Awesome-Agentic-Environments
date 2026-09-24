@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/1502.02259",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1502.02259",
+      "discovery_url": "https://arxiv.org/abs/1502.02259",
+      "topic": "Contextual RL/environment variation",
+      "title_hint": "Contextual Markov Decision Processes",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/1502.02259",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-79",
+      "topic": "Harness 综述与相关",
+      "title_hint": "Hallak, Di Castro, Mannor. Contextual Markov Decision Processes. arXiv:1502.02259.",
+      "existing_reference_number": 79,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1502.02259",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:11.286606+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1502.02259",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40129,
+  "title": "Contextual Markov Decision Processes",
+  "authors": [
+    "Hallak, Assaf",
+    "Di Castro, Dotan",
+    "Mannor, Shie"
+  ],
+  "first_author": "Hallak, Assaf",
+  "year": 2015,
+  "source_date": "2015/02/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1502.02259",
+  "abstract": "We consider a planning problem where the dynamics and rewards of the environment depend on a hidden static parameter referred to as the context. The objective is to learn a strategy that maximizes the accumulated reward across all contexts. The new model, called Contextual Markov Decision Process (CMDP), can model a customer's behavior when interacting with a website (the learner). The customer's behavior depends on gender, age, location, device, etc. Based on that behavior, the website objective is to determine customer characteristics, and to optimize the interaction between them. Our work focuses on one basic scenario--finite horizon with a small known number of possible contexts. We suggest a family of algorithms with provable guarantees that learn the underlying models and the latent contexts, and optimize the CMDPs. Bounds are obtained for specific naive implementations, and extensions of the framework are discussed, laying the ground for future research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1502.02259: Contextual Markov Decision Processes"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Contextual Markov Decision Processes"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1502.02259v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We consider a planning problem where the dynamics and rewards of the environment depend on a hidden static parameter referred to as the context. The objective is to learn a strategy that maximizes the accumulated reward across all contexts. The new model, called Contextual Markov Decision Process (CMDP), can model a customer's behavior when interacting with a website (the learner). The customer's behavior depends on gender, age, location, device, etc. Based on that behavior, the website objective is to determine customer characteristics, and to optimize the interaction between them. Our work focuses on one basic scenario--finite horizon with a small known number of possible contexts. We suggest a family of algorithms with provable guarantees that learn the underlying models and the latent contexts, and optimize the CMDPs. Bounds are obtained for specific naive implementations, and extensions of the framework are discussed, laying the ground for future research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Contextual Markov Decision Processes"
+    ],
+    "twitter:description": [
+      "We consider a planning problem where the dynamics and rewards of the environment depend on a hidden static parameter referred to as the context. The objective is to learn a strategy that maximizes..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Contextual Markov Decision Processes"
+    ],
+    "citation_author": [
+      "Hallak, Assaf",
+      "Di Castro, Dotan",
+      "Mannor, Shie"
+    ],
+    "citation_date": [
+      "2015/02/08"
+    ],
+    "citation_online_date": [
+      "2015/02/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1502.02259"
+    ],
+    "citation_arxiv_id": [
+      "1502.02259"
+    ],
+    "citation_abstract": [
+      "We consider a planning problem where the dynamics and rewards of the environment depend on a hidden static parameter referred to as the context. The objective is to learn a strategy that maximizes the accumulated reward across all contexts. The new model, called Contextual Markov Decision Process (CMDP), can model a customer's behavior when interacting with a website (the learner). The customer's behavior depends on gender, age, location, device, etc. Based on that behavior, the website objective is to determine customer characteristics, and to optimize the interaction between them. Our work focuses on one basic scenario--finite horizon with a small known number of possible contexts. We suggest a family of algorithms with provable guarantees that learn the underlying models and the latent contexts, and optimize the CMDPs. Bounds are obtained for specific naive implementations, and extensions of the framework are discussed, laying the ground for future research."
+    ]
+  },
+  "html_sha256": "76438330f9102b835804270a9f22a990453947bfedd8739e555de4fb46aee927",
+  "evidence_html": "evidence/5277d1e4a2cdf509c975.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

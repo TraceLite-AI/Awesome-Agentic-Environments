@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2009.13303",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2009.13303",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-66",
+      "topic": "机器人与世界模型",
+      "title_hint": "Zhao, Queralta, Westerlund. Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey. IEEE SSCI 2020. arXiv:2009.13303.",
+      "existing_reference_number": 66,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2009.13303",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:17.245661+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2009.13303",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45510,
+  "title": "Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey",
+  "authors": [
+    "Zhao, Wenshuai",
+    "Queralta, Jorge Peña",
+    "Westerlund, Tomi"
+  ],
+  "first_author": "Zhao, Wenshuai",
+  "year": 2020,
+  "source_date": "2020/09/24",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "2020 IEEE Symposium Series on Computational Intelligence (SSCI), 2020, pp. 737-744",
+  "doi": "10.1109/SSCI47803.2020.9308468.",
+  "arxiv_id": "2009.13303",
+  "abstract": "Deep reinforcement learning has recently seen huge success across multiple areas in the robotics domain. Owing to the limitations of gathering real-world data, i.e., sample inefficiency and the cost of collecting it, simulation environments are utilized for training the different agents. This not only aids in providing a potentially infinite data source, but also alleviates safety concerns with real robots. Nonetheless, the gap between the simulated and real worlds degrades the performance of the policies once the models are transferred into real robots. Multiple research efforts are therefore now being directed towards closing this sim-to-real gap and accomplish more efficient policy transfer. Recent years have seen the emergence of multiple methods applicable to different domains, but there is a lack, to the best of our knowledge, of a comprehensive review summarizing and putting into context the different methods. In this survey paper, we cover the fundamental background behind sim-to-real transfer in deep reinforcement learning and overview the main methods being utilized at the moment: domain randomization, domain adaptation, imitation learning, meta-learning and knowledge distillation. We categorize some of the most relevant recent works, and outline the main application scenarios. Finally, we discuss the main opportunities and challenges of the different approaches and point to the most promising directions.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2009.13303: Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2009.13303v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Deep reinforcement learning has recently seen huge success across multiple areas in the robotics domain. Owing to the limitations of gathering real-world data, i.e., sample inefficiency and the cost of collecting it, simulation environments are utilized for training the different agents. This not only aids in providing a potentially infinite data source, but also alleviates safety concerns with real robots. Nonetheless, the gap between the simulated and real worlds degrades the performance of the policies once the models are transferred into real robots. Multiple research efforts are therefore now being directed towards closing this sim-to-real gap and accomplish more efficient policy transfer. Recent years have seen the emergence of multiple methods applicable to different domains, but there is a lack, to the best of our knowledge, of a comprehensive review summarizing and putting into context the different methods. In this survey paper, we cover the fundamental background behind sim-to-real transfer in deep reinforcement learning and overview the main methods being utilized at the moment: domain randomization, domain adaptation, imitation learning, meta-learning and knowledge distillation. We categorize some of the most relevant recent works, and outline the main application scenarios. Finally, we discuss the main opportunities and challenges of the different approaches and point to the most promising directions."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey"
+    ],
+    "twitter:description": [
+      "Deep reinforcement learning has recently seen huge success across multiple areas in the robotics domain. Owing to the limitations of gathering real-world data, i.e., sample inefficiency and the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey"
+    ],
+    "citation_author": [
+      "Zhao, Wenshuai",
+      "Queralta, Jorge Peña",
+      "Westerlund, Tomi"
+    ],
+    "citation_doi": [
+      "10.1109/SSCI47803.2020.9308468."
+    ],
+    "citation_date": [
+      "2020/09/24"
+    ],
+    "citation_online_date": [
+      "2021/07/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2009.13303"
+    ],
+    "citation_arxiv_id": [
+      "2009.13303"
+    ],
+    "citation_abstract": [
+      "Deep reinforcement learning has recently seen huge success across multiple areas in the robotics domain. Owing to the limitations of gathering real-world data, i.e., sample inefficiency and the cost of collecting it, simulation environments are utilized for training the different agents. This not only aids in providing a potentially infinite data source, but also alleviates safety concerns with real robots. Nonetheless, the gap between the simulated and real worlds degrades the performance of the policies once the models are transferred into real robots. Multiple research efforts are therefore now being directed towards closing this sim-to-real gap and accomplish more efficient policy transfer. Recent years have seen the emergence of multiple methods applicable to different domains, but there is a lack, to the best of our knowledge, of a comprehensive review summarizing and putting into context the different methods. In this survey paper, we cover the fundamental background behind sim-to-real transfer in deep reinforcement learning and overview the main methods being utilized at the moment: domain randomization, domain adaptation, imitation learning, meta-learning and knowledge distillation. We categorize some of the most relevant recent works, and outline the main application scenarios. Finally, we discuss the main opportunities and challenges of the different approaches and point to the most promising directions."
+    ]
+  },
+  "html_sha256": "666893e68d862137beef755bffb2cfac7bd4b085f83d977cb6febf2971f6aad9",
+  "evidence_html": "evidence/590c63c5c5c8ea390755.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

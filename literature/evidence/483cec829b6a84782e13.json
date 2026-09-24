@@ -1,0 +1,124 @@
+{
+  "url": "https://arxiv.org/abs/2406.11912",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.11912",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.11912",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:22.173431+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.11912",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41998,
+  "title": "AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology",
+  "authors": [
+    "Nguyen, Minh Huynh",
+    "Chau, Thang Phan",
+    "Nguyen, Phong X.",
+    "Bui, Nghi D. Q."
+  ],
+  "first_author": "Nguyen, Minh Huynh",
+  "year": 2024,
+  "source_date": "2024/06/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.11912",
+  "abstract": "Software agents have emerged as promising tools for addressing complex software engineering tasks. Existing works, on the other hand, frequently oversimplify software development workflows, despite the fact that such workflows are typically more complex in the real world. Thus, we propose AgileCoder, a multi agent system that integrates Agile Methodology (AM) into the framework. This system assigns specific AM roles - such as Product Manager, Developer, and Tester to different agents, who then collaboratively develop software based on user inputs. AgileCoder enhances development efficiency by organizing work into sprints, focusing on incrementally developing software through sprints. Additionally, we introduce Dynamic Code Graph Generator, a module that creates a Code Dependency Graph dynamically as updates are made to the codebase. This allows agents to better comprehend the codebase, leading to more precise code generation and modifications throughout the software development process. AgileCoder surpasses existing benchmarks, like ChatDev and MetaGPT, establishing a new standard and showcasing the capabilities of multi agent systems in advanced software engineering environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.11912: AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.11912v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Software agents have emerged as promising tools for addressing complex software engineering tasks. Existing works, on the other hand, frequently oversimplify software development workflows, despite the fact that such workflows are typically more complex in the real world. Thus, we propose AgileCoder, a multi agent system that integrates Agile Methodology (AM) into the framework. This system assigns specific AM roles - such as Product Manager, Developer, and Tester to different agents, who then collaboratively develop software based on user inputs. AgileCoder enhances development efficiency by organizing work into sprints, focusing on incrementally developing software through sprints. Additionally, we introduce Dynamic Code Graph Generator, a module that creates a Code Dependency Graph dynamically as updates are made to the codebase. This allows agents to better comprehend the codebase, leading to more precise code generation and modifications throughout the software development process. AgileCoder surpasses existing benchmarks, like ChatDev and MetaGPT, establishing a new standard and showcasing the capabilities of multi agent systems in advanced software engineering environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgileCoder: Dynamic Collaborative Agents for Software Development..."
+    ],
+    "twitter:description": [
+      "Software agents have emerged as promising tools for addressing complex software engineering tasks. Existing works, on the other hand, frequently oversimplify software development workflows,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology"
+    ],
+    "citation_author": [
+      "Nguyen, Minh Huynh",
+      "Chau, Thang Phan",
+      "Nguyen, Phong X.",
+      "Bui, Nghi D. Q."
+    ],
+    "citation_date": [
+      "2024/06/16"
+    ],
+    "citation_online_date": [
+      "2024/07/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.11912"
+    ],
+    "citation_arxiv_id": [
+      "2406.11912"
+    ],
+    "citation_abstract": [
+      "Software agents have emerged as promising tools for addressing complex software engineering tasks. Existing works, on the other hand, frequently oversimplify software development workflows, despite the fact that such workflows are typically more complex in the real world. Thus, we propose AgileCoder, a multi agent system that integrates Agile Methodology (AM) into the framework. This system assigns specific AM roles - such as Product Manager, Developer, and Tester to different agents, who then collaboratively develop software based on user inputs. AgileCoder enhances development efficiency by organizing work into sprints, focusing on incrementally developing software through sprints. Additionally, we introduce Dynamic Code Graph Generator, a module that creates a Code Dependency Graph dynamically as updates are made to the codebase. This allows agents to better comprehend the codebase, leading to more precise code generation and modifications throughout the software development process. AgileCoder surpasses existing benchmarks, like ChatDev and MetaGPT, establishing a new standard and showcasing the capabilities of multi agent systems in advanced software engineering environments."
+    ]
+  },
+  "html_sha256": "1a1975623919c35952fb154f84f681321db571614bef778906d72850cb39e6af",
+  "evidence_html": "evidence/483cec829b6a84782e13.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

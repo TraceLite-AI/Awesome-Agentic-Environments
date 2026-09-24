@@ -1,0 +1,194 @@
+{
+  "url": "https://arxiv.org/abs/2401.05566",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.05566",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.05566",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:35.470829+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.05566",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 48929,
+  "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+  "authors": [
+    "Hubinger, Evan",
+    "Denison, Carson",
+    "Mu, Jesse",
+    "Lambert, Mike",
+    "Tong, Meg",
+    "MacDiarmid, Monte",
+    "Lanham, Tamera",
+    "Ziegler, Daniel M.",
+    "Maxwell, Tim",
+    "Cheng, Newton",
+    "Jermyn, Adam",
+    "Askell, Amanda",
+    "Radhakrishnan, Ansh",
+    "Anil, Cem",
+    "Duvenaud, David",
+    "Ganguli, Deep",
+    "Barez, Fazl",
+    "Clark, Jack",
+    "Ndousse, Kamal",
+    "Sachan, Kshitij",
+    "Sellitto, Michael",
+    "Sharma, Mrinank",
+    "DasSarma, Nova",
+    "Grosse, Roger",
+    "Kravec, Shauna",
+    "Bai, Yuntao",
+    "Witten, Zachary",
+    "Favaro, Marina",
+    "Brauner, Jan",
+    "Karnofsky, Holden",
+    "Christiano, Paul",
+    "Bowman, Samuel R.",
+    "Graham, Logan",
+    "Kaplan, Jared",
+    "Mindermann, Sören",
+    "Greenblatt, Ryan",
+    "Shlegeris, Buck",
+    "Schiefer, Nicholas",
+    "Perez, Ethan"
+  ],
+  "first_author": "Hubinger, Evan",
+  "year": 2024,
+  "source_date": "2024/01/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.05566",
+  "abstract": "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs). For example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. We find that such backdoor behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). The backdoor behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. Furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. Our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.05566: Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.05566v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs). For example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. We find that such backdoor behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). The backdoor behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. Furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. Our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Sleeper Agents: Training Deceptive LLMs that Persist Through..."
+    ],
+    "twitter:description": [
+      "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training"
+    ],
+    "citation_author": [
+      "Hubinger, Evan",
+      "Denison, Carson",
+      "Mu, Jesse",
+      "Lambert, Mike",
+      "Tong, Meg",
+      "MacDiarmid, Monte",
+      "Lanham, Tamera",
+      "Ziegler, Daniel M.",
+      "Maxwell, Tim",
+      "Cheng, Newton",
+      "Jermyn, Adam",
+      "Askell, Amanda",
+      "Radhakrishnan, Ansh",
+      "Anil, Cem",
+      "Duvenaud, David",
+      "Ganguli, Deep",
+      "Barez, Fazl",
+      "Clark, Jack",
+      "Ndousse, Kamal",
+      "Sachan, Kshitij",
+      "Sellitto, Michael",
+      "Sharma, Mrinank",
+      "DasSarma, Nova",
+      "Grosse, Roger",
+      "Kravec, Shauna",
+      "Bai, Yuntao",
+      "Witten, Zachary",
+      "Favaro, Marina",
+      "Brauner, Jan",
+      "Karnofsky, Holden",
+      "Christiano, Paul",
+      "Bowman, Samuel R.",
+      "Graham, Logan",
+      "Kaplan, Jared",
+      "Mindermann, Sören",
+      "Greenblatt, Ryan",
+      "Shlegeris, Buck",
+      "Schiefer, Nicholas",
+      "Perez, Ethan"
+    ],
+    "citation_date": [
+      "2024/01/10"
+    ],
+    "citation_online_date": [
+      "2024/01/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.05566"
+    ],
+    "citation_arxiv_id": [
+      "2401.05566"
+    ],
+    "citation_abstract": [
+      "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs). For example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. We find that such backdoor behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). The backdoor behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. Furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. Our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety."
+    ]
+  },
+  "html_sha256": "c8ea6cec97d4a2419928822e792b146bc5f5dd7fba7150a974b7629d3934c525",
+  "evidence_html": "evidence/e5c0904211c7d0cc4437.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

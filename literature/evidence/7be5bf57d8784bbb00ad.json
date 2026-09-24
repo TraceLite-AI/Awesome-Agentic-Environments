@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2310.16340",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.16340",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.16340",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:20.846171+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.16340",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44400,
+  "title": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+  "authors": [
+    "Wang, Zefan",
+    "Liu, Zichuan",
+    "Zhang, Yingying",
+    "Zhong, Aoxiao",
+    "Wang, Jihong",
+    "Yin, Fengbin",
+    "Fan, Lunting",
+    "Wu, Lingfei",
+    "Wen, Qingsong"
+  ],
+  "first_author": "Wang, Zefan",
+  "year": 2023,
+  "source_date": "2023/10/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1145/3627673.3680016",
+  "arxiv_id": "2310.16340",
+  "abstract": "Large language model (LLM) applications in cloud root cause analysis (RCA) have been actively explored recently. However, current methods are still reliant on manual workflow settings and do not unleash LLMs' decision-making and environment interaction capabilities. We present RCAgent, a tool-augmented LLM autonomous agent framework for practical and privacy-aware industrial RCA usage. Running on an internally deployed model rather than GPT families, RCAgent is capable of free-form data collection and comprehensive analysis with tools. Our framework combines a variety of enhancements, including a unique Self-Consistency for action trajectories, and a suite of methods for context management, stabilization, and importing domain knowledge. Our experiments show RCAgent's evident and consistent superiority over ReAct across all aspects of RCA -- predicting root causes, solutions, evidence, and responsibilities -- and tasks covered or uncovered by current rules, as validated by both automated metrics and human evaluations. Furthermore, RCAgent has already been integrated into the diagnosis and issue discovery workflow of the Real-time Compute Platform for Apache Flink of Alibaba Cloud.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.16340: RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.16340v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language model (LLM) applications in cloud root cause analysis (RCA) have been actively explored recently. However, current methods are still reliant on manual workflow settings and do not unleash LLMs' decision-making and environment interaction capabilities. We present RCAgent, a tool-augmented LLM autonomous agent framework for practical and privacy-aware industrial RCA usage. Running on an internally deployed model rather than GPT families, RCAgent is capable of free-form data collection and comprehensive analysis with tools. Our framework combines a variety of enhancements, including a unique Self-Consistency for action trajectories, and a suite of methods for context management, stabilization, and importing domain knowledge. Our experiments show RCAgent's evident and consistent superiority over ReAct across all aspects of RCA -- predicting root causes, solutions, evidence, and responsibilities -- and tasks covered or uncovered by current rules, as validated by both automated metrics and human evaluations. Furthermore, RCAgent has already been integrated into the diagnosis and issue discovery workflow of the Real-time Compute Platform for Apache Flink of Alibaba Cloud."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with..."
+    ],
+    "twitter:description": [
+      "Large language model (LLM) applications in cloud root cause analysis (RCA) have been actively explored recently. However, current methods are still reliant on manual workflow settings and do not..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models"
+    ],
+    "citation_author": [
+      "Wang, Zefan",
+      "Liu, Zichuan",
+      "Zhang, Yingying",
+      "Zhong, Aoxiao",
+      "Wang, Jihong",
+      "Yin, Fengbin",
+      "Fan, Lunting",
+      "Wu, Lingfei",
+      "Wen, Qingsong"
+    ],
+    "citation_doi": [
+      "10.1145/3627673.3680016"
+    ],
+    "citation_date": [
+      "2023/10/25"
+    ],
+    "citation_online_date": [
+      "2024/08/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.16340"
+    ],
+    "citation_arxiv_id": [
+      "2310.16340"
+    ],
+    "citation_abstract": [
+      "Large language model (LLM) applications in cloud root cause analysis (RCA) have been actively explored recently. However, current methods are still reliant on manual workflow settings and do not unleash LLMs' decision-making and environment interaction capabilities. We present RCAgent, a tool-augmented LLM autonomous agent framework for practical and privacy-aware industrial RCA usage. Running on an internally deployed model rather than GPT families, RCAgent is capable of free-form data collection and comprehensive analysis with tools. Our framework combines a variety of enhancements, including a unique Self-Consistency for action trajectories, and a suite of methods for context management, stabilization, and importing domain knowledge. Our experiments show RCAgent's evident and consistent superiority over ReAct across all aspects of RCA -- predicting root causes, solutions, evidence, and responsibilities -- and tasks covered or uncovered by current rules, as validated by both automated metrics and human evaluations. Furthermore, RCAgent has already been integrated into the diagnosis and issue discovery workflow of the Real-time Compute Platform for Apache Flink of Alibaba Cloud."
+    ]
+  },
+  "html_sha256": "dad4a2a99cf4e34ef60337730dcb67aa6fb0897e20158badf9c53a5df47cf95c",
+  "evidence_html": "evidence/7be5bf57d8784bbb00ad.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

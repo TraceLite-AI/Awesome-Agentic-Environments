@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2505.15146",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2505.15146",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "lmgame-bench: How good are llms at playing games?",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2505.15146",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:59.252686+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2505.15146",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41919,
+  "title": "lmgame-Bench: How Good are LLMs at Playing Games?",
+  "authors": [
+    "Hu, Lanxiang",
+    "Huo, Mingjia",
+    "Zhang, Yuxuan",
+    "Yu, Haoyang",
+    "Xing, Eric P.",
+    "Stoica, Ion",
+    "Rosing, Tajana",
+    "Jin, Haojian",
+    "Zhang, Hao"
+  ],
+  "first_author": "Hu, Lanxiang",
+  "year": 2025,
+  "source_date": "2025/05/21",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2505.15146",
+  "abstract": "Playing video games requires perception, memory, and planning, exactly the faculties modern large language model (LLM) agents are expected to master. We study the major challenges in using popular video games to evaluate modern LLMs and find that directly dropping LLMs into games cannot make an effective evaluation, for three reasons -- brittle vision perception, prompt sensitivity, and potential data contamination. We introduce lmgame-Bench to turn games into reliable evaluations. lmgame-Bench features a suite of platformer, puzzle, and narrative games delivered through a unified Gym-style API and paired with lightweight perception and memory scaffolds, and is designed to stabilize prompt variance and remove contamination. Across 13 leading models, we show lmgame-Bench is challenging while still separating models well. Correlation analysis shows that every game probes a unique blend of capabilities often tested in isolation elsewhere. More interestingly, performing reinforcement learning on a single game from lmgame-Bench transfers both to unseen games and to external planning tasks. Our evaluation code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2505.15146: lmgame-Bench: How Good are LLMs at Playing Games?"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "lmgame-Bench: How Good are LLMs at Playing Games?"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2505.15146v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Playing video games requires perception, memory, and planning, exactly the faculties modern large language model (LLM) agents are expected to master. We study the major challenges in using popular video games to evaluate modern LLMs and find that directly dropping LLMs into games cannot make an effective evaluation, for three reasons -- brittle vision perception, prompt sensitivity, and potential data contamination. We introduce lmgame-Bench to turn games into reliable evaluations. lmgame-Bench features a suite of platformer, puzzle, and narrative games delivered through a unified Gym-style API and paired with lightweight perception and memory scaffolds, and is designed to stabilize prompt variance and remove contamination. Across 13 leading models, we show lmgame-Bench is challenging while still separating models well. Correlation analysis shows that every game probes a unique blend of capabilities often tested in isolation elsewhere. More interestingly, performing reinforcement learning on a single game from lmgame-Bench transfers both to unseen games and to external planning tasks. Our evaluation code is available at https://github.com/lmgame-org/GamingAgent/lmgame-bench."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "lmgame-Bench: How Good are LLMs at Playing Games?"
+    ],
+    "twitter:description": [
+      "Playing video games requires perception, memory, and planning, exactly the faculties modern large language model (LLM) agents are expected to master. We study the major challenges in using popular..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "lmgame-Bench: How Good are LLMs at Playing Games?"
+    ],
+    "citation_author": [
+      "Hu, Lanxiang",
+      "Huo, Mingjia",
+      "Zhang, Yuxuan",
+      "Yu, Haoyang",
+      "Xing, Eric P.",
+      "Stoica, Ion",
+      "Rosing, Tajana",
+      "Jin, Haojian",
+      "Zhang, Hao"
+    ],
+    "citation_date": [
+      "2025/05/21"
+    ],
+    "citation_online_date": [
+      "2025/06/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2505.15146"
+    ],
+    "citation_arxiv_id": [
+      "2505.15146"
+    ],
+    "citation_abstract": [
+      "Playing video games requires perception, memory, and planning, exactly the faculties modern large language model (LLM) agents are expected to master. We study the major challenges in using popular video games to evaluate modern LLMs and find that directly dropping LLMs into games cannot make an effective evaluation, for three reasons -- brittle vision perception, prompt sensitivity, and potential data contamination. We introduce lmgame-Bench to turn games into reliable evaluations. lmgame-Bench features a suite of platformer, puzzle, and narrative games delivered through a unified Gym-style API and paired with lightweight perception and memory scaffolds, and is designed to stabilize prompt variance and remove contamination. Across 13 leading models, we show lmgame-Bench is challenging while still separating models well. Correlation analysis shows that every game probes a unique blend of capabilities often tested in isolation elsewhere. More interestingly, performing reinforcement learning on a single game from lmgame-Bench transfers both to unseen games and to external planning tasks. Our evaluation code is available at https://github.com/lmgame-org/GamingAgent/lmgame-bench."
+    ]
+  },
+  "html_sha256": "26ca08c6a5eb86e7a1191915bccce3f8e9aa04adc418cabeba2983ee2da1786c",
+  "evidence_html": "evidence/f95071fd1138ad0e99de.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

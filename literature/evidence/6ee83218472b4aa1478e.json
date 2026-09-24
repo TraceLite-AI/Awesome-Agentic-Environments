@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2307.03172",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2307.03172",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "memory_and_context",
+      "title_hint": "Lost in the Middle: How Language Models Use Long Contexts",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2307.03172",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:44.136305+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2307.03172",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41931,
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": [
+    "Liu, Nelson F.",
+    "Lin, Kevin",
+    "Hewitt, John",
+    "Paranjape, Ashwin",
+    "Bevilacqua, Michele",
+    "Petroni, Fabio",
+    "Liang, Percy"
+  ],
+  "first_author": "Liu, Nelson F.",
+  "year": 2023,
+  "source_date": "2023/07/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2307.03172",
+  "abstract": "While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustly make use of information in long input contexts. In particular, we observe that performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models. Our analysis provides a better understanding of how language models use their input context and provides new evaluation protocols for future long-context language models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2307.03172: Lost in the Middle: How Language Models Use Long Contexts"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Lost in the Middle: How Language Models Use Long Contexts"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2307.03172v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustly make use of information in long input contexts. In particular, we observe that performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models. Our analysis provides a better understanding of how language models use their input context and provides new evaluation protocols for future long-context language models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Lost in the Middle: How Language Models Use Long Contexts"
+    ],
+    "twitter:description": [
+      "While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Lost in the Middle: How Language Models Use Long Contexts"
+    ],
+    "citation_author": [
+      "Liu, Nelson F.",
+      "Lin, Kevin",
+      "Hewitt, John",
+      "Paranjape, Ashwin",
+      "Bevilacqua, Michele",
+      "Petroni, Fabio",
+      "Liang, Percy"
+    ],
+    "citation_date": [
+      "2023/07/06"
+    ],
+    "citation_online_date": [
+      "2023/11/20"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2307.03172"
+    ],
+    "citation_arxiv_id": [
+      "2307.03172"
+    ],
+    "citation_abstract": [
+      "While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustly make use of information in long input contexts. In particular, we observe that performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models. Our analysis provides a better understanding of how language models use their input context and provides new evaluation protocols for future long-context language models."
+    ]
+  },
+  "html_sha256": "af63ac4b31d2d47748f3ad62081349ff820ca488c577888c8b0289545915c275",
+  "evidence_html": "evidence/6ee83218472b4aa1478e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

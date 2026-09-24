@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2510.12635",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.12635",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "memory_and_context",
+      "title_hint": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.12635",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:48.758263+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.12635",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41504,
+  "title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks",
+  "authors": [
+    "Zhang, Yuxiang",
+    "Shu, Jiangming",
+    "Ma, Ye",
+    "Lin, Xueyuan",
+    "Wu, Shangxi",
+    "Sang, Jitao"
+  ],
+  "first_author": "Zhang, Yuxiang",
+  "year": 2025,
+  "source_date": "2025/10/14",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.12635",
+  "abstract": "Long-context Large Language Models, despite their expanded capacity, require careful working memory management to mitigate attention dilution during long-horizon tasks. Yet existing approaches rely on external mechanisms that lack awareness of the agent's reasoning state, leading to suboptimal decisions. We propose Memory-as-Action (MemAct), a framework that treats working memory management as learnable policy actions. By formulating context management as in-place editing operations (deletion, insertion), MemAct enables joint optimization of information retention and task performance through end-to-end reinforcement learning. To address the computational challenges of dynamic context updates, we introduce Dynamic Context Policy Optimization, which restores training efficiency without compromising reasoning integrity. Experiments show that MemAct-RL-14B matches the accuracy of models $16\\times$ larger while reducing average context length by 51\\%, with learned strategies that adapt to model capabilities and generalize across task complexities.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.12635: Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.12635v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Long-context Large Language Models, despite their expanded capacity, require careful working memory management to mitigate attention dilution during long-horizon tasks. Yet existing approaches rely on external mechanisms that lack awareness of the agent's reasoning state, leading to suboptimal decisions. We propose Memory-as-Action (MemAct), a framework that treats working memory management as learnable policy actions. By formulating context management as in-place editing operations (deletion, insertion), MemAct enables joint optimization of information retention and task performance through end-to-end reinforcement learning. To address the computational challenges of dynamic context updates, we introduce Dynamic Context Policy Optimization, which restores training efficiency without compromising reasoning integrity. Experiments show that MemAct-RL-14B matches the accuracy of models $16\\times$ larger while reducing average context length by 51\\%, with learned strategies that adapt to model capabilities and generalize across task complexities."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Memory as Action: Autonomous Context Curation for Long-Horizon..."
+    ],
+    "twitter:description": [
+      "Long-context Large Language Models, despite their expanded capacity, require careful working memory management to mitigate attention dilution during long-horizon tasks. Yet existing approaches..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks"
+    ],
+    "citation_author": [
+      "Zhang, Yuxiang",
+      "Shu, Jiangming",
+      "Ma, Ye",
+      "Lin, Xueyuan",
+      "Wu, Shangxi",
+      "Sang, Jitao"
+    ],
+    "citation_date": [
+      "2025/10/14"
+    ],
+    "citation_online_date": [
+      "2026/05/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.12635"
+    ],
+    "citation_arxiv_id": [
+      "2510.12635"
+    ],
+    "citation_abstract": [
+      "Long-context Large Language Models, despite their expanded capacity, require careful working memory management to mitigate attention dilution during long-horizon tasks. Yet existing approaches rely on external mechanisms that lack awareness of the agent's reasoning state, leading to suboptimal decisions. We propose Memory-as-Action (MemAct), a framework that treats working memory management as learnable policy actions. By formulating context management as in-place editing operations (deletion, insertion), MemAct enables joint optimization of information retention and task performance through end-to-end reinforcement learning. To address the computational challenges of dynamic context updates, we introduce Dynamic Context Policy Optimization, which restores training efficiency without compromising reasoning integrity. Experiments show that MemAct-RL-14B matches the accuracy of models $16\\times$ larger while reducing average context length by 51\\%, with learned strategies that adapt to model capabilities and generalize across task complexities."
+    ]
+  },
+  "html_sha256": "d9282a118de527e10815b2379f5e772df7e0f646bcc2105cd0273049cdb8d745",
+  "evidence_html": "evidence/fac23695b0ae0aaca96a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

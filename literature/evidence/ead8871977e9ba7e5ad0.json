@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2411.07228",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.07228",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "ChemToolAgent: The impact of tools on language agents for chemistry problem solving",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.07228",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:31.739595+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.07228",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42394,
+  "title": "ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving",
+  "authors": [
+    "Yu, Botao",
+    "Baker, Frazier N.",
+    "Chen, Ziru",
+    "Herb, Garrett",
+    "Gou, Boyu",
+    "Adu-Ampratwum, Daniel",
+    "Ning, Xia",
+    "Sun, Huan"
+  ],
+  "first_author": "Yu, Botao",
+  "year": 2024,
+  "source_date": "2024/11/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.07228",
+  "abstract": "To enhance large language models (LLMs) for chemistry problem solving, several LLM-based agents augmented with tools have been proposed, such as ChemCrow and Coscientist. However, their evaluations are narrow in scope, leaving a large gap in understanding the benefits of tools across diverse chemistry tasks. To bridge this gap, we develop ChemToolAgent, an enhanced chemistry agent over ChemCrow, and conduct a comprehensive evaluation of its performance on both specialized chemistry tasks and general chemistry questions. Surprisingly, ChemToolAgent does not consistently outperform its base LLMs without tools. Our error analysis with a chemistry expert suggests that: For specialized chemistry tasks, such as synthesis prediction, we should augment agents with specialized tools; however, for general chemistry questions like those in exams, agents' ability to reason correctly with chemistry knowledge matters more, and tool augmentation does not always help.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.07228: ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.07228v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "To enhance large language models (LLMs) for chemistry problem solving, several LLM-based agents augmented with tools have been proposed, such as ChemCrow and Coscientist. However, their evaluations are narrow in scope, leaving a large gap in understanding the benefits of tools across diverse chemistry tasks. To bridge this gap, we develop ChemToolAgent, an enhanced chemistry agent over ChemCrow, and conduct a comprehensive evaluation of its performance on both specialized chemistry tasks and general chemistry questions. Surprisingly, ChemToolAgent does not consistently outperform its base LLMs without tools. Our error analysis with a chemistry expert suggests that: For specialized chemistry tasks, such as synthesis prediction, we should augment agents with specialized tools; however, for general chemistry questions like those in exams, agents' ability to reason correctly with chemistry knowledge matters more, and tool augmentation does not always help."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ChemToolAgent: The Impact of Tools on Language Agents for..."
+    ],
+    "twitter:description": [
+      "To enhance large language models (LLMs) for chemistry problem solving, several LLM-based agents augmented with tools have been proposed, such as ChemCrow and Coscientist. However, their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving"
+    ],
+    "citation_author": [
+      "Yu, Botao",
+      "Baker, Frazier N.",
+      "Chen, Ziru",
+      "Herb, Garrett",
+      "Gou, Boyu",
+      "Adu-Ampratwum, Daniel",
+      "Ning, Xia",
+      "Sun, Huan"
+    ],
+    "citation_date": [
+      "2024/11/11"
+    ],
+    "citation_online_date": [
+      "2025/05/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.07228"
+    ],
+    "citation_arxiv_id": [
+      "2411.07228"
+    ],
+    "citation_abstract": [
+      "To enhance large language models (LLMs) for chemistry problem solving, several LLM-based agents augmented with tools have been proposed, such as ChemCrow and Coscientist. However, their evaluations are narrow in scope, leaving a large gap in understanding the benefits of tools across diverse chemistry tasks. To bridge this gap, we develop ChemToolAgent, an enhanced chemistry agent over ChemCrow, and conduct a comprehensive evaluation of its performance on both specialized chemistry tasks and general chemistry questions. Surprisingly, ChemToolAgent does not consistently outperform its base LLMs without tools. Our error analysis with a chemistry expert suggests that: For specialized chemistry tasks, such as synthesis prediction, we should augment agents with specialized tools; however, for general chemistry questions like those in exams, agents' ability to reason correctly with chemistry knowledge matters more, and tool augmentation does not always help."
+    ]
+  },
+  "html_sha256": "886debddd43769fe972837ee08814ec2a8ef9418a9bd1fce6e68feb47e504902",
+  "evidence_html": "evidence/ead8871977e9ba7e5ad0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

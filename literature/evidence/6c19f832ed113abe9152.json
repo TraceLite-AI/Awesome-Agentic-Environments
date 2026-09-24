@@ -1,0 +1,38 @@
+{
+  "url": "https://openreview.net/forum?id=Sy0GnUxCb",
+  "discoveries": [
+    {
+      "url": "https://openreview.net/forum?id=Sy0GnUxCb",
+      "discovery_url": "https://github.com/zongqing0068/awesome-co-evolution",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "2017 · Emergent Complexity — Emergent Complexity via Multi-Agent Competition",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://openreview.net/forum?id=Sy0GnUxCb",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:34.404681+00:00",
+  "http_status": 200,
+  "opened_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DSy0GnUxCb",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 4785,
+  "title": "",
+  "authors": [],
+  "first_author": "",
+  "year": null,
+  "source_date": "",
+  "venue_from_source": "",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ]
+  },
+  "html_sha256": "6ca1c3e04a9db4e5291fcacfbe6ebdbcb9c31d73f88dab0ca22754f693bbe884",
+  "evidence_html": "evidence/6c19f832ed113abe9152.html.gz",
+  "error": "Opened page lacks complete machine-readable title/authors/year; manual review required."
+}

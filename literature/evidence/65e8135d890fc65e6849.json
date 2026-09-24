@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2510.02250",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.02250",
+      "discovery_url": "https://github.com/simular-ai/Agent-S",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "The Unreasonable Effectiveness of Scaling Agents for Computer Use",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.02250",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:15.523839+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.02250",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42648,
+  "title": "Scaling Agents for Computer Use",
+  "authors": [
+    "Gonzalez-Pumariega, Gonzalo",
+    "Tu, Vincent",
+    "Lee, Chih-Lun",
+    "Yang, Jiachen",
+    "Li, Ang",
+    "Wang, Xin Eric"
+  ],
+  "first_author": "Gonzalez-Pumariega, Gonzalo",
+  "year": 2025,
+  "source_date": "2025/10/02",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.02250",
+  "abstract": "Computer-use agents (CUAs) hold promise for automating everyday digital tasks, but their performance on long-horizon, complex problems remains unreliable. Single-rollout execution is brittle, with small errors compounding over time and leading to high variance in outcomes. While prior work has attempted to scale within a single rollout, such approaches have yielded limited gains. Scaling over multiple rollouts offers a more promising alternative but doing so effectively is challenging due to the difficulty of evaluating and selecting among long-horizon agent behaviors. We introduce Behavior Judge (BJudge), which addresses this challenge by representing agent executions as behavior narratives and comparing candidate behaviors at this level, substantially improving robustness and success rates. Using multiple rollouts, BJudge establishes a new state of the art (SoTA) in OSWorld at 72.6%, significantly outperforming prior methods and surpassing human-level performance at 72.36%, with comprehensive ablations validating key design choices. We further demonstrate strong generalization results to different operating systems on WindowsAgentArena and AndroidWorld. Crucially, our results highlight the strong effectiveness of scaling CUAs, when you do it right: effective scaling requires structured trajectory understanding and selection, and BJudge provides a practical framework to achieve this.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.02250: Scaling Agents for Computer Use"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Scaling Agents for Computer Use"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.02250v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Computer-use agents (CUAs) hold promise for automating everyday digital tasks, but their performance on long-horizon, complex problems remains unreliable. Single-rollout execution is brittle, with small errors compounding over time and leading to high variance in outcomes. While prior work has attempted to scale within a single rollout, such approaches have yielded limited gains. Scaling over multiple rollouts offers a more promising alternative but doing so effectively is challenging due to the difficulty of evaluating and selecting among long-horizon agent behaviors. We introduce Behavior Judge (BJudge), which addresses this challenge by representing agent executions as behavior narratives and comparing candidate behaviors at this level, substantially improving robustness and success rates. Using multiple rollouts, BJudge establishes a new state of the art (SoTA) in OSWorld at 72.6%, significantly outperforming prior methods and surpassing human-level performance at 72.36%, with comprehensive ablations validating key design choices. We further demonstrate strong generalization results to different operating systems on WindowsAgentArena and AndroidWorld. Crucially, our results highlight the strong effectiveness of scaling CUAs, when you do it right: effective scaling requires structured trajectory understanding and selection, and BJudge provides a practical framework to achieve this."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Scaling Agents for Computer Use"
+    ],
+    "twitter:description": [
+      "Computer-use agents (CUAs) hold promise for automating everyday digital tasks, but their performance on long-horizon, complex problems remains unreliable. Single-rollout execution is brittle, with..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Scaling Agents for Computer Use"
+    ],
+    "citation_author": [
+      "Gonzalez-Pumariega, Gonzalo",
+      "Tu, Vincent",
+      "Lee, Chih-Lun",
+      "Yang, Jiachen",
+      "Li, Ang",
+      "Wang, Xin Eric"
+    ],
+    "citation_date": [
+      "2025/10/02"
+    ],
+    "citation_online_date": [
+      "2026/02/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.02250"
+    ],
+    "citation_arxiv_id": [
+      "2510.02250"
+    ],
+    "citation_abstract": [
+      "Computer-use agents (CUAs) hold promise for automating everyday digital tasks, but their performance on long-horizon, complex problems remains unreliable. Single-rollout execution is brittle, with small errors compounding over time and leading to high variance in outcomes. While prior work has attempted to scale within a single rollout, such approaches have yielded limited gains. Scaling over multiple rollouts offers a more promising alternative but doing so effectively is challenging due to the difficulty of evaluating and selecting among long-horizon agent behaviors. We introduce Behavior Judge (BJudge), which addresses this challenge by representing agent executions as behavior narratives and comparing candidate behaviors at this level, substantially improving robustness and success rates. Using multiple rollouts, BJudge establishes a new state of the art (SoTA) in OSWorld at 72.6%, significantly outperforming prior methods and surpassing human-level performance at 72.36%, with comprehensive ablations validating key design choices. We further demonstrate strong generalization results to different operating systems on WindowsAgentArena and AndroidWorld. Crucially, our results highlight the strong effectiveness of scaling CUAs, when you do it right: effective scaling requires structured trajectory understanding and selection, and BJudge provides a practical framework to achieve this."
+    ]
+  },
+  "html_sha256": "7febfcda643af479ef0ce03909dbe9533944d2216a4e2658ab46d872c2b67785",
+  "evidence_html": "evidence/65e8135d890fc65e6849.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

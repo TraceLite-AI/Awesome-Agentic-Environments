@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2101.09077",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2101.09077",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-54",
+      "topic": "软件工程：组合测试、配置空间、跨平台 bug、可复现",
+      "title_hint": "Gruber, Lukasczyk, Kroiss, Fraser. An Empirical Study of Flaky Tests in Python. ICST 2021. arXiv:2101.09077.",
+      "existing_reference_number": 54,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2101.09077",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:26.197775+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2101.09077",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44095,
+  "title": "An Empirical Study of Flaky Tests in Python",
+  "authors": [
+    "Gruber, Martin",
+    "Lukasczyk, Stephan",
+    "Kroiß, Florian",
+    "Fraser, Gordon"
+  ],
+  "first_author": "Gruber, Martin",
+  "year": 2021,
+  "source_date": "2021/01/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1109/ICST49551.2021.00026",
+  "arxiv_id": "2101.09077",
+  "abstract": "Tests that cause spurious failures without any code changes, i.e., flaky tests, hamper regression testing, increase maintenance costs, may shadow real bugs, and decrease trust in tests. While the prevalence and importance of flakiness is well established, prior research focused on Java projects, thus raising the question of how the findings generalize. In order to provide a better understanding of the role of flakiness in software development beyond Java, we empirically study the prevalence, causes, and degree of flakiness within software written in Python, one of the currently most popular programming languages. For this, we sampled 22352 open source projects from the popular PyPI package index, and analyzed their 876186 test cases for flakiness. Our investigation suggests that flakiness is equally prevalent in Python as it is in Java. The reasons, however, are different: Order dependency is a much more dominant problem in Python, causing 59% of the 7571 flaky tests in our dataset. Another 28% were caused by test infrastructure problems, which represent a previously undocumented cause of flakiness. The remaining 13% can mostly be attributed to the use of network and randomness APIs by the projects, which is indicative of the type of software commonly written in Python. Our data also suggests that finding flaky tests requires more runs than are often done in the literature: A 95% confidence that a passing test case is not flaky on average would require 170 reruns.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2101.09077: An Empirical Study of Flaky Tests in Python"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "An Empirical Study of Flaky Tests in Python"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2101.09077v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Tests that cause spurious failures without any code changes, i.e., flaky tests, hamper regression testing, increase maintenance costs, may shadow real bugs, and decrease trust in tests. While the prevalence and importance of flakiness is well established, prior research focused on Java projects, thus raising the question of how the findings generalize. In order to provide a better understanding of the role of flakiness in software development beyond Java, we empirically study the prevalence, causes, and degree of flakiness within software written in Python, one of the currently most popular programming languages. For this, we sampled 22352 open source projects from the popular PyPI package index, and analyzed their 876186 test cases for flakiness. Our investigation suggests that flakiness is equally prevalent in Python as it is in Java. The reasons, however, are different: Order dependency is a much more dominant problem in Python, causing 59% of the 7571 flaky tests in our dataset. Another 28% were caused by test infrastructure problems, which represent a previously undocumented cause of flakiness. The remaining 13% can mostly be attributed to the use of network and randomness APIs by the projects, which is indicative of the type of software commonly written in Python. Our data also suggests that finding flaky tests requires more runs than are often done in the literature: A 95% confidence that a passing test case is not flaky on average would require 170 reruns."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "An Empirical Study of Flaky Tests in Python"
+    ],
+    "twitter:description": [
+      "Tests that cause spurious failures without any code changes, i.e., flaky tests, hamper regression testing, increase maintenance costs, may shadow real bugs, and decrease trust in tests. While the..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "An Empirical Study of Flaky Tests in Python"
+    ],
+    "citation_author": [
+      "Gruber, Martin",
+      "Lukasczyk, Stephan",
+      "Kroiß, Florian",
+      "Fraser, Gordon"
+    ],
+    "citation_doi": [
+      "10.1109/ICST49551.2021.00026"
+    ],
+    "citation_date": [
+      "2021/01/22"
+    ],
+    "citation_online_date": [
+      "2021/01/22"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2101.09077"
+    ],
+    "citation_arxiv_id": [
+      "2101.09077"
+    ],
+    "citation_abstract": [
+      "Tests that cause spurious failures without any code changes, i.e., flaky tests, hamper regression testing, increase maintenance costs, may shadow real bugs, and decrease trust in tests. While the prevalence and importance of flakiness is well established, prior research focused on Java projects, thus raising the question of how the findings generalize. In order to provide a better understanding of the role of flakiness in software development beyond Java, we empirically study the prevalence, causes, and degree of flakiness within software written in Python, one of the currently most popular programming languages. For this, we sampled 22352 open source projects from the popular PyPI package index, and analyzed their 876186 test cases for flakiness. Our investigation suggests that flakiness is equally prevalent in Python as it is in Java. The reasons, however, are different: Order dependency is a much more dominant problem in Python, causing 59% of the 7571 flaky tests in our dataset. Another 28% were caused by test infrastructure problems, which represent a previously undocumented cause of flakiness. The remaining 13% can mostly be attributed to the use of network and randomness APIs by the projects, which is indicative of the type of software commonly written in Python. Our data also suggests that finding flaky tests requires more runs than are often done in the literature: A 95% confidence that a passing test case is not flaky on average would require 170 reruns."
+    ]
+  },
+  "html_sha256": "ccfd61542e932362a5d686950a51cfd109df250c384ff74fc843f0c19b4ff1a1",
+  "evidence_html": "evidence/9b2293142e8affaf828d.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

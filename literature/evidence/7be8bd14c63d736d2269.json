@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2303.17760",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2303.17760",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "multi_agent_interaction",
+      "title_hint": "CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society",
+      "candidate_file": "candidates_agent.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17760",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "CAMEL: Communicative Agents for 'Mind' Exploration of Large Language Model Society",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2303.17760",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:52.809263+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2303.17760",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43725,
+  "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+  "authors": [
+    "Li, Guohao",
+    "Hammoud, Hasan Abed Al Kader",
+    "Itani, Hani",
+    "Khizbullin, Dmitrii",
+    "Ghanem, Bernard"
+  ],
+  "first_author": "Li, Guohao",
+  "year": 2023,
+  "source_date": "2023/03/31",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2303.17760",
+  "abstract": "The rapid advancement of chat-based language models has led to remarkable progress in complex task-solving. However, their success heavily relies on human input to guide the conversation, which can be challenging and time-consuming. This paper explores the potential of building scalable techniques to facilitate autonomous cooperation among communicative agents, and provides insight into their \"cognitive\" processes. To address the challenges of achieving autonomous cooperation, we propose a novel communicative agent framework named role-playing. Our approach involves using inception prompting to guide chat agents toward task completion while maintaining consistency with human intentions. We showcase how role-playing can be used to generate conversational data for studying the behaviors and capabilities of a society of agents, providing a valuable resource for investigating conversational language models. In particular, we conduct comprehensive studies on instruction-following cooperation in multi-agent settings. Our contributions include introducing a novel communicative agent framework, offering a scalable approach for studying the cooperative behaviors and capabilities of multi-agent systems, and open-sourcing our library to support research on communicative agents and beyond: this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2303.17760: CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2303.17760v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The rapid advancement of chat-based language models has led to remarkable progress in complex task-solving. However, their success heavily relies on human input to guide the conversation, which can be challenging and time-consuming. This paper explores the potential of building scalable techniques to facilitate autonomous cooperation among communicative agents, and provides insight into their \"cognitive\" processes. To address the challenges of achieving autonomous cooperation, we propose a novel communicative agent framework named role-playing. Our approach involves using inception prompting to guide chat agents toward task completion while maintaining consistency with human intentions. We showcase how role-playing can be used to generate conversational data for studying the behaviors and capabilities of a society of agents, providing a valuable resource for investigating conversational language models. In particular, we conduct comprehensive studies on instruction-following cooperation in multi-agent settings. Our contributions include introducing a novel communicative agent framework, offering a scalable approach for studying the cooperative behaviors and capabilities of multi-agent systems, and open-sourcing our library to support research on communicative agents and beyond: https://github.com/camel-ai/camel."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CAMEL: Communicative Agents for \"Mind\" Exploration of..."
+    ],
+    "twitter:description": [
+      "The rapid advancement of chat-based language models has led to remarkable progress in complex task-solving. However, their success heavily relies on human input to guide the conversation, which..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society"
+    ],
+    "citation_author": [
+      "Li, Guohao",
+      "Hammoud, Hasan Abed Al Kader",
+      "Itani, Hani",
+      "Khizbullin, Dmitrii",
+      "Ghanem, Bernard"
+    ],
+    "citation_date": [
+      "2023/03/31"
+    ],
+    "citation_online_date": [
+      "2023/11/02"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2303.17760"
+    ],
+    "citation_arxiv_id": [
+      "2303.17760"
+    ],
+    "citation_abstract": [
+      "The rapid advancement of chat-based language models has led to remarkable progress in complex task-solving. However, their success heavily relies on human input to guide the conversation, which can be challenging and time-consuming. This paper explores the potential of building scalable techniques to facilitate autonomous cooperation among communicative agents, and provides insight into their \"cognitive\" processes. To address the challenges of achieving autonomous cooperation, we propose a novel communicative agent framework named role-playing. Our approach involves using inception prompting to guide chat agents toward task completion while maintaining consistency with human intentions. We showcase how role-playing can be used to generate conversational data for studying the behaviors and capabilities of a society of agents, providing a valuable resource for investigating conversational language models. In particular, we conduct comprehensive studies on instruction-following cooperation in multi-agent settings. Our contributions include introducing a novel communicative agent framework, offering a scalable approach for studying the cooperative behaviors and capabilities of multi-agent systems, and open-sourcing our library to support research on communicative agents and beyond: https://github.com/camel-ai/camel."
+    ]
+  },
+  "html_sha256": "e6354da04451c21ed8c00a086c7ce771cc0493ecaef68839b77401f246f3c00c",
+  "evidence_html": "evidence/7be8bd14c63d736d2269.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2406.11638",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2406.11638",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "MASAI: Modular Architecture for Software-engineering AI Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2406.11638",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:26.043333+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2406.11638",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41394,
+  "title": "MASAI: Modular Architecture for Software-engineering AI Agents",
+  "authors": [
+    "Arora, Daman",
+    "Sonwane, Atharv",
+    "Wadhwa, Nalin",
+    "Mehrotra, Abhav",
+    "Utpala, Saiteja",
+    "Bairi, Ramakrishna",
+    "Kanade, Aditya",
+    "Natarajan, Nagarajan"
+  ],
+  "first_author": "Arora, Daman",
+  "year": 2024,
+  "source_date": "2024/06/17",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2406.11638",
+  "abstract": "A common method to solve complex problems in software engineering, is to divide the problem into multiple sub-problems. Inspired by this, we propose a Modular Architecture for Software-engineering AI (MASAI) agents, where different LLM-powered sub-agents are instantiated with well-defined objectives and strategies tuned to achieve those objectives. Our modular architecture offers several advantages: (1) employing and tuning different problem-solving strategies across sub-agents, (2) enabling sub-agents to gather information from different sources scattered throughout a repository, and (3) avoiding unnecessarily long trajectories which inflate costs and add extraneous context. MASAI enabled us to achieve the highest performance (28.33% resolution rate) on the popular and highly challenging SWE-bench Lite dataset consisting of 300 GitHub issues from 11 Python repositories. We conduct a comprehensive evaluation of MASAI relative to other agentic methods and analyze the effects of our design decisions and their contribution to the success of MASAI.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2406.11638: MASAI: Modular Architecture for Software-engineering AI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MASAI: Modular Architecture for Software-engineering AI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2406.11638v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "A common method to solve complex problems in software engineering, is to divide the problem into multiple sub-problems. Inspired by this, we propose a Modular Architecture for Software-engineering AI (MASAI) agents, where different LLM-powered sub-agents are instantiated with well-defined objectives and strategies tuned to achieve those objectives. Our modular architecture offers several advantages: (1) employing and tuning different problem-solving strategies across sub-agents, (2) enabling sub-agents to gather information from different sources scattered throughout a repository, and (3) avoiding unnecessarily long trajectories which inflate costs and add extraneous context. MASAI enabled us to achieve the highest performance (28.33% resolution rate) on the popular and highly challenging SWE-bench Lite dataset consisting of 300 GitHub issues from 11 Python repositories. We conduct a comprehensive evaluation of MASAI relative to other agentic methods and analyze the effects of our design decisions and their contribution to the success of MASAI."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MASAI: Modular Architecture for Software-engineering AI Agents"
+    ],
+    "twitter:description": [
+      "A common method to solve complex problems in software engineering, is to divide the problem into multiple sub-problems. Inspired by this, we propose a Modular Architecture for Software-engineering..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MASAI: Modular Architecture for Software-engineering AI Agents"
+    ],
+    "citation_author": [
+      "Arora, Daman",
+      "Sonwane, Atharv",
+      "Wadhwa, Nalin",
+      "Mehrotra, Abhav",
+      "Utpala, Saiteja",
+      "Bairi, Ramakrishna",
+      "Kanade, Aditya",
+      "Natarajan, Nagarajan"
+    ],
+    "citation_date": [
+      "2024/06/17"
+    ],
+    "citation_online_date": [
+      "2024/06/17"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2406.11638"
+    ],
+    "citation_arxiv_id": [
+      "2406.11638"
+    ],
+    "citation_abstract": [
+      "A common method to solve complex problems in software engineering, is to divide the problem into multiple sub-problems. Inspired by this, we propose a Modular Architecture for Software-engineering AI (MASAI) agents, where different LLM-powered sub-agents are instantiated with well-defined objectives and strategies tuned to achieve those objectives. Our modular architecture offers several advantages: (1) employing and tuning different problem-solving strategies across sub-agents, (2) enabling sub-agents to gather information from different sources scattered throughout a repository, and (3) avoiding unnecessarily long trajectories which inflate costs and add extraneous context. MASAI enabled us to achieve the highest performance (28.33% resolution rate) on the popular and highly challenging SWE-bench Lite dataset consisting of 300 GitHub issues from 11 Python repositories. We conduct a comprehensive evaluation of MASAI relative to other agentic methods and analyze the effects of our design decisions and their contribution to the success of MASAI."
+    ]
+  },
+  "html_sha256": "91b36d2afe3c8dfa4106ea6b1d600898fa10dd58158a0155f14d23c08fd43ebb",
+  "evidence_html": "evidence/d2b0bf5cfbf20bf23aec.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

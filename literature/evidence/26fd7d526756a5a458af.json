@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2511.20766",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2511.20766",
+      "discovery_url": "https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents",
+      "topic": "Environment variation/robustness/GUI reliability",
+      "title_hint": "OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability",
+      "candidate_file": "candidates_environment_variation.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2511.20766",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:40.592186+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2511.20766",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44015,
+  "title": "OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability",
+  "authors": [
+    "Ullrich, Karen",
+    "Su, Jingtong",
+    "Shi, Claudia",
+    "Subramonian, Arjun",
+    "Bar, Amir",
+    "Evtimov, Ivan",
+    "Tsilivis, Nikolaos",
+    "Balestriero, Randall",
+    "Kempe, Julia",
+    "Ibrahim, Mark"
+  ],
+  "first_author": "Ullrich, Karen",
+  "year": 2025,
+  "source_date": "2025/11/25",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2511.20766",
+  "abstract": "Reliability is key to realizing the promise of autonomous UI-Agents, multimodal agents that directly interact with apps in the same manner as humans, as users must be able to trust an agent to complete a given task. Current evaluations rely on fixed environments, often clones of existing apps, which are limited in that they can only shed light on whether or how often an agent can complete a task within a specific environment. When deployed however, agents are likely to encounter variations in app design and content that can affect an agent's ability to complete a task. To address this blind spot of measuring agent reliability across app variations, we develop OpenApps, a light-weight open-source ecosystem with six apps (messenger, calendar, maps, etc.) that are configurable in appearance and content. OpenApps requires just a single CPU to run, enabling easy generation and deployment of thousands of versions of each app. Specifically, we run more than 10,000 independent evaluations to study reliability across seven leading multimodal agents. We find that while standard reliability within a fixed app is relatively stable, reliability can vary drastically when measured across app variations. Task success rates for many agents can fluctuate by more than $50\\%$ across app variations. For example, Kimi-VL-3B's average success across all tasks fluctuates from $63\\%$ to just $4\\%$ across app versions. We also find agent behaviors such as looping or hallucinating actions can differ drastically depending on the environment configuration. These initial findings highlight the importance of measuring reliability along this new dimension of app variations. OpenApps is available at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2511.20766: OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2511.20766v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Reliability is key to realizing the promise of autonomous UI-Agents, multimodal agents that directly interact with apps in the same manner as humans, as users must be able to trust an agent to complete a given task. Current evaluations rely on fixed environments, often clones of existing apps, which are limited in that they can only shed light on whether or how often an agent can complete a task within a specific environment. When deployed however, agents are likely to encounter variations in app design and content that can affect an agent's ability to complete a task. To address this blind spot of measuring agent reliability across app variations, we develop OpenApps, a light-weight open-source ecosystem with six apps (messenger, calendar, maps, etc.) that are configurable in appearance and content. OpenApps requires just a single CPU to run, enabling easy generation and deployment of thousands of versions of each app. Specifically, we run more than 10,000 independent evaluations to study reliability across seven leading multimodal agents. We find that while standard reliability within a fixed app is relatively stable, reliability can vary drastically when measured across app variations. Task success rates for many agents can fluctuate by more than $50\\%$ across app variations. For example, Kimi-VL-3B's average success across all tasks fluctuates from $63\\%$ to just $4\\%$ across app versions. We also find agent behaviors such as looping or hallucinating actions can differ drastically depending on the environment configuration. These initial findings highlight the importance of measuring reliability along this new dimension of app variations. OpenApps is available at https://facebookresearch.github.io/OpenApps/"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability"
+    ],
+    "twitter:description": [
+      "Reliability is key to realizing the promise of autonomous UI-Agents, multimodal agents that directly interact with apps in the same manner as humans, as users must be able to trust an agent to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OpenApps: Simulating Environment Variations to Measure UI-Agent Reliability"
+    ],
+    "citation_author": [
+      "Ullrich, Karen",
+      "Su, Jingtong",
+      "Shi, Claudia",
+      "Subramonian, Arjun",
+      "Bar, Amir",
+      "Evtimov, Ivan",
+      "Tsilivis, Nikolaos",
+      "Balestriero, Randall",
+      "Kempe, Julia",
+      "Ibrahim, Mark"
+    ],
+    "citation_date": [
+      "2025/11/25"
+    ],
+    "citation_online_date": [
+      "2025/11/25"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2511.20766"
+    ],
+    "citation_arxiv_id": [
+      "2511.20766"
+    ],
+    "citation_abstract": [
+      "Reliability is key to realizing the promise of autonomous UI-Agents, multimodal agents that directly interact with apps in the same manner as humans, as users must be able to trust an agent to complete a given task. Current evaluations rely on fixed environments, often clones of existing apps, which are limited in that they can only shed light on whether or how often an agent can complete a task within a specific environment. When deployed however, agents are likely to encounter variations in app design and content that can affect an agent's ability to complete a task. To address this blind spot of measuring agent reliability across app variations, we develop OpenApps, a light-weight open-source ecosystem with six apps (messenger, calendar, maps, etc.) that are configurable in appearance and content. OpenApps requires just a single CPU to run, enabling easy generation and deployment of thousands of versions of each app. Specifically, we run more than 10,000 independent evaluations to study reliability across seven leading multimodal agents. We find that while standard reliability within a fixed app is relatively stable, reliability can vary drastically when measured across app variations. Task success rates for many agents can fluctuate by more than $50\\%$ across app variations. For example, Kimi-VL-3B's average success across all tasks fluctuates from $63\\%$ to just $4\\%$ across app versions. We also find agent behaviors such as looping or hallucinating actions can differ drastically depending on the environment configuration. These initial findings highlight the importance of measuring reliability along this new dimension of app variations. OpenApps is available at https://facebookresearch.github.io/OpenApps/"
+    ]
+  },
+  "html_sha256": "518319ff4bb41885fb73e1169bbad7222df7a91f8dac0bca8d37466da4d05f24",
+  "evidence_html": "evidence/26fd7d526756a5a458af.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,118 @@
+{
+  "url": "https://proceedings.mlr.press/v161/korkmaz21a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v161/korkmaz21a.html",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Investigating Vulnerabilities of Deep Neural Policies. UAI 2021. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v161/korkmaz21a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:41.239714+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v161/korkmaz21a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 16579,
+  "title": "Investigating vulnerabilities of deep neural policies",
+  "authors": [
+    "Ezgi Korkmaz"
+  ],
+  "first_author": "Ezgi Korkmaz",
+  "year": 2021,
+  "source_date": "2021/12/01",
+  "venue_from_source": "Uncertainty in Artificial Intelligence",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Reinforcement learning policies based on deep neural networks are vulnerable to imperceptible adversarial perturbations to their inputs, in much the same way as neural network image classifiers. Recent work has proposed several methods to improve the robustness of deep reinforcement learning agents to adversarial perturbations based on training in the presence of these imperceptible perturbations (i.e. adversarial training). In this paper, we study the effects of adversarial training on the neural policy learned by the agent. In particular, we follow two distinct parallel approaches to investigate the outcomes of adversarial training on deep neural policies based on worst-case distributional shift and feature sensitivity. For the first approach, we compare the Fourier spectrum of minimal perturbations computed for both adversarially trained and vanilla trained neural policies. Via experiments in the OpenAI Atari environments we show that minimal perturbations computed for adversarially trained policies are more focused on lower frequencies in the Fourier domain, indicating a higher sensitivity of these policies to low frequency perturbations. For the second approach, we propose a novel method to measure the feature sensitivities of deep neural policies and we compare these feature sensitivity differences in state-of-the-art adversarially trained deep neural policies and vanilla trained deep neural policies. We believe our results can be an initial step towards understanding the relationship between adversarial training and different notions of robustness for neural policies.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "Investigating vulnerabilities of deep neural policiesEzgi KorkmazReinforcement learning policies based on deep neural networks are vulnerable to imperceptibl..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "Investigating vulnerabilities of deep neural policies"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v161/korkmaz21a.html"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.mlr.press/v161/korkmaz21a/korkmaz21a.pdf"
+    ],
+    "citation_firstpage": [
+      "1661"
+    ],
+    "citation_lastpage": [
+      "1670"
+    ],
+    "citation_author": [
+      "Ezgi Korkmaz"
+    ],
+    "citation_publication_date": [
+      "2021/12/01"
+    ],
+    "citation_inbook_title": [
+      "Uncertainty in Artificial Intelligence"
+    ],
+    "citation_conference_title": [
+      "Uncertainty in Artificial Intelligence"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Investigating vulnerabilities of deep neural policies"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Reinforcement learning policies based on deep neural networks are vulnerable to imperceptible adversarial perturbations to their inputs, in much the same way..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v161/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "Investigating vulnerabilities of deep neural policies"
+    ],
+    "og:description": [
+      "Reinforcement learning policies based on deep neural networks are vulnerable to imperceptible adversarial perturbations to their inputs, in much the same way as neural network image classifiers. Re..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2021-12-01T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v161/korkmaz21a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v161/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "1120b094c3230c415a32d9d4872a6cc2144aa7d77df52d6709fe04f0e8697eef",
+  "evidence_html": "evidence/da2e35a003479120bf6f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

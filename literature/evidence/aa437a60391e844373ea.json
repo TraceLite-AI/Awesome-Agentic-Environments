@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2411.06559",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2411.06559",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2411.06559",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:52.043212+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2411.06559",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43797,
+  "title": "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents",
+  "authors": [
+    "Gu, Yu",
+    "Zhang, Kai",
+    "Ning, Yuting",
+    "Zheng, Boyuan",
+    "Gou, Boyu",
+    "Xue, Tianci",
+    "Chang, Cheng",
+    "Srivastava, Sanjari",
+    "Xie, Yanan",
+    "Qi, Peng",
+    "Sun, Huan",
+    "Su, Yu"
+  ],
+  "first_author": "Gu, Yu",
+  "year": 2024,
+  "source_date": "2024/11/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2411.06559",
+  "abstract": "Language agents based on large language models (LLMs) have demonstrated great promise in automating web-based tasks. Recent work has shown that incorporating advanced planning algorithms, e.g., tree search, is advantageous over reactive planning for web agents. However, unlike simulated sandbox environments, real-world environments such as the web are rife with irreversible actions. This undermines the feasibility of backtracking, a cornerstone of (tree) search. Overly relying on test-time search also hurts efficiency. We advocate model-based planning for web agents that employs a world model to simulate and deliberate over the outcome of each candidate action before committing to one. We systematically explore this paradigm by (1) Proposing a model-based planning framework, WebDreamer, which employs LLMs to serve as both world models and value functions; (2) Training specialized LLMs as world models with a scalable data synthesis pipeline. Empirical results demonstrate that WebDreamer achieves substantial performance improvements over reactive baselines. It is competitive, while being 4-5 times more efficient, with tree search in sandbox environments (VisualWebArena) and also works effectively on real-world websites (Online-Mind2Web and Mind2Web-Live). Furthermore, our trained world model, Dreamer-7B, performs comparable to GPT-4o, highlighting the potential of specialized world models for efficient and effective planning in complex web environments.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2411.06559: Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2411.06559v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Language agents based on large language models (LLMs) have demonstrated great promise in automating web-based tasks. Recent work has shown that incorporating advanced planning algorithms, e.g., tree search, is advantageous over reactive planning for web agents. However, unlike simulated sandbox environments, real-world environments such as the web are rife with irreversible actions. This undermines the feasibility of backtracking, a cornerstone of (tree) search. Overly relying on test-time search also hurts efficiency. We advocate model-based planning for web agents that employs a world model to simulate and deliberate over the outcome of each candidate action before committing to one. We systematically explore this paradigm by (1) Proposing a model-based planning framework, WebDreamer, which employs LLMs to serve as both world models and value functions; (2) Training specialized LLMs as world models with a scalable data synthesis pipeline. Empirical results demonstrate that WebDreamer achieves substantial performance improvements over reactive baselines. It is competitive, while being 4-5 times more efficient, with tree search in sandbox environments (VisualWebArena) and also works effectively on real-world websites (Online-Mind2Web and Mind2Web-Live). Furthermore, our trained world model, Dreamer-7B, performs comparable to GPT-4o, highlighting the potential of specialized world models for efficient and effective planning in complex web environments."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Is Your LLM Secretly a World Model of the Internet? Model-Based..."
+    ],
+    "twitter:description": [
+      "Language agents based on large language models (LLMs) have demonstrated great promise in automating web-based tasks. Recent work has shown that incorporating advanced planning algorithms, e.g.,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents"
+    ],
+    "citation_author": [
+      "Gu, Yu",
+      "Zhang, Kai",
+      "Ning, Yuting",
+      "Zheng, Boyuan",
+      "Gou, Boyu",
+      "Xue, Tianci",
+      "Chang, Cheng",
+      "Srivastava, Sanjari",
+      "Xie, Yanan",
+      "Qi, Peng",
+      "Sun, Huan",
+      "Su, Yu"
+    ],
+    "citation_date": [
+      "2024/11/10"
+    ],
+    "citation_online_date": [
+      "2025/04/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2411.06559"
+    ],
+    "citation_arxiv_id": [
+      "2411.06559"
+    ],
+    "citation_abstract": [
+      "Language agents based on large language models (LLMs) have demonstrated great promise in automating web-based tasks. Recent work has shown that incorporating advanced planning algorithms, e.g., tree search, is advantageous over reactive planning for web agents. However, unlike simulated sandbox environments, real-world environments such as the web are rife with irreversible actions. This undermines the feasibility of backtracking, a cornerstone of (tree) search. Overly relying on test-time search also hurts efficiency. We advocate model-based planning for web agents that employs a world model to simulate and deliberate over the outcome of each candidate action before committing to one. We systematically explore this paradigm by (1) Proposing a model-based planning framework, WebDreamer, which employs LLMs to serve as both world models and value functions; (2) Training specialized LLMs as world models with a scalable data synthesis pipeline. Empirical results demonstrate that WebDreamer achieves substantial performance improvements over reactive baselines. It is competitive, while being 4-5 times more efficient, with tree search in sandbox environments (VisualWebArena) and also works effectively on real-world websites (Online-Mind2Web and Mind2Web-Live). Furthermore, our trained world model, Dreamer-7B, performs comparable to GPT-4o, highlighting the potential of specialized world models for efficient and effective planning in complex web environments."
+    ]
+  },
+  "html_sha256": "5f218ae62f6fb069ac50e5269b79421da3688e511e7525fa3c36df7c846c034e",
+  "evidence_html": "evidence/aa437a60391e844373ea.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

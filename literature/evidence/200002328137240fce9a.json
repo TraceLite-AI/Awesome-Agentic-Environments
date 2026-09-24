@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2302.04761",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2302.04761",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2302.04761",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:48.952215+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2302.04761",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41534,
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "authors": [
+    "Schick, Timo",
+    "Dwivedi-Yu, Jane",
+    "Dessì, Roberto",
+    "Raileanu, Roberta",
+    "Lomeli, Maria",
+    "Zettlemoyer, Luke",
+    "Cancedda, Nicola",
+    "Scialom, Thomas"
+  ],
+  "first_author": "Schick, Timo",
+  "year": 2023,
+  "source_date": "2023/02/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2302.04761",
+  "abstract": "Language models (LMs) exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. They also, paradoxically, struggle with basic functionality, such as arithmetic or factual lookup, where much simpler and smaller models excel. In this paper, we show that LMs can teach themselves to use external tools via simple APIs and achieve the best of both worlds. We introduce Toolformer, a model trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. This is done in a self-supervised way, requiring nothing more than a handful of demonstrations for each API. We incorporate a range of tools, including a calculator, a Q\\&A system, two different search engines, a translation system, and a calendar. Toolformer achieves substantially improved zero-shot performance across a variety of downstream tasks, often competitive with much larger models, without sacrificing its core language modeling abilities.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2302.04761: Toolformer: Language Models Can Teach Themselves to Use Tools"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Toolformer: Language Models Can Teach Themselves to Use Tools"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2302.04761v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Language models (LMs) exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. They also, paradoxically, struggle with basic functionality, such as arithmetic or factual lookup, where much simpler and smaller models excel. In this paper, we show that LMs can teach themselves to use external tools via simple APIs and achieve the best of both worlds. We introduce Toolformer, a model trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. This is done in a self-supervised way, requiring nothing more than a handful of demonstrations for each API. We incorporate a range of tools, including a calculator, a Q\\&A system, two different search engines, a translation system, and a calendar. Toolformer achieves substantially improved zero-shot performance across a variety of downstream tasks, often competitive with much larger models, without sacrificing its core language modeling abilities."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Toolformer: Language Models Can Teach Themselves to Use Tools"
+    ],
+    "twitter:description": [
+      "Language models (LMs) exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. They also, paradoxically, struggle with basic..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Toolformer: Language Models Can Teach Themselves to Use Tools"
+    ],
+    "citation_author": [
+      "Schick, Timo",
+      "Dwivedi-Yu, Jane",
+      "Dessì, Roberto",
+      "Raileanu, Roberta",
+      "Lomeli, Maria",
+      "Zettlemoyer, Luke",
+      "Cancedda, Nicola",
+      "Scialom, Thomas"
+    ],
+    "citation_date": [
+      "2023/02/09"
+    ],
+    "citation_online_date": [
+      "2023/02/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2302.04761"
+    ],
+    "citation_arxiv_id": [
+      "2302.04761"
+    ],
+    "citation_abstract": [
+      "Language models (LMs) exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. They also, paradoxically, struggle with basic functionality, such as arithmetic or factual lookup, where much simpler and smaller models excel. In this paper, we show that LMs can teach themselves to use external tools via simple APIs and achieve the best of both worlds. We introduce Toolformer, a model trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. This is done in a self-supervised way, requiring nothing more than a handful of demonstrations for each API. We incorporate a range of tools, including a calculator, a Q\\&A system, two different search engines, a translation system, and a calendar. Toolformer achieves substantially improved zero-shot performance across a variety of downstream tasks, often competitive with much larger models, without sacrificing its core language modeling abilities."
+    ]
+  },
+  "html_sha256": "811ca69d5934ccdc7057db4c1d14a20ca60c2db2b9e4b4f6f39db061cd942362",
+  "evidence_html": "evidence/200002328137240fce9a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

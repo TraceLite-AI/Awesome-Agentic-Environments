@@ -1,0 +1,122 @@
+{
+  "url": "https://arxiv.org/abs/2304.05332",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2304.05332",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "scientific_research_agents",
+      "title_hint": "Emergent autonomous scientific research capabilities of large language models. Daniil A. Boiko et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2304.05332",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:44.048783+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2304.05332",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 40174,
+  "title": "Emergent autonomous scientific research capabilities of large language models",
+  "authors": [
+    "Boiko, Daniil A.",
+    "MacKnight, Robert",
+    "Gomes, Gabe"
+  ],
+  "first_author": "Boiko, Daniil A.",
+  "year": 2023,
+  "source_date": "2023/04/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2304.05332",
+  "abstract": "Transformer-based large language models are rapidly advancing in the field of machine learning research, with applications spanning natural language, biology, chemistry, and computer programming. Extreme scaling and reinforcement learning from human feedback have significantly improved the quality of generated text, enabling these models to perform various tasks and reason about their choices. In this paper, we present an Intelligent Agent system that combines multiple large language models for autonomous design, planning, and execution of scientific experiments. We showcase the Agent's scientific research capabilities with three distinct examples, with the most complex being the successful performance of catalyzed cross-coupling reactions. Finally, we discuss the safety implications of such systems and propose measures to prevent their misuse.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2304.05332: Emergent autonomous scientific research capabilities of large language models"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Emergent autonomous scientific research capabilities of large language models"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2304.05332v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Transformer-based large language models are rapidly advancing in the field of machine learning research, with applications spanning natural language, biology, chemistry, and computer programming. Extreme scaling and reinforcement learning from human feedback have significantly improved the quality of generated text, enabling these models to perform various tasks and reason about their choices. In this paper, we present an Intelligent Agent system that combines multiple large language models for autonomous design, planning, and execution of scientific experiments. We showcase the Agent's scientific research capabilities with three distinct examples, with the most complex being the successful performance of catalyzed cross-coupling reactions. Finally, we discuss the safety implications of such systems and propose measures to prevent their misuse."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Emergent autonomous scientific research capabilities of large..."
+    ],
+    "twitter:description": [
+      "Transformer-based large language models are rapidly advancing in the field of machine learning research, with applications spanning natural language, biology, chemistry, and computer programming...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Emergent autonomous scientific research capabilities of large language models"
+    ],
+    "citation_author": [
+      "Boiko, Daniil A.",
+      "MacKnight, Robert",
+      "Gomes, Gabe"
+    ],
+    "citation_date": [
+      "2023/04/11"
+    ],
+    "citation_online_date": [
+      "2023/04/11"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2304.05332"
+    ],
+    "citation_arxiv_id": [
+      "2304.05332"
+    ],
+    "citation_abstract": [
+      "Transformer-based large language models are rapidly advancing in the field of machine learning research, with applications spanning natural language, biology, chemistry, and computer programming. Extreme scaling and reinforcement learning from human feedback have significantly improved the quality of generated text, enabling these models to perform various tasks and reason about their choices. In this paper, we present an Intelligent Agent system that combines multiple large language models for autonomous design, planning, and execution of scientific experiments. We showcase the Agent's scientific research capabilities with three distinct examples, with the most complex being the successful performance of catalyzed cross-coupling reactions. Finally, we discuss the safety implications of such systems and propose measures to prevent their misuse."
+    ]
+  },
+  "html_sha256": "41d4c129bab3c90e6472dd07c9ded614db96fe17febce0331fe6bcb4bc5d5bc6",
+  "evidence_html": "evidence/2e4f03f37d5d51fbde07.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://proceedings.mlr.press/v235/xie24j.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v235/xie24j.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Travelplanner: A benchmark for real-world planning with language agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v235/xie24j.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:14.898085+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v235/xie24j.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 16787,
+  "title": "TravelPlanner: A Benchmark for Real-World Planning with Language Agents",
+  "authors": [
+    "Jian Xie",
+    "Kai Zhang",
+    "Jiangjie Chen",
+    "Tinghui Zhu",
+    "Renze Lou",
+    "Yuandong Tian",
+    "Yanghua Xiao",
+    "Yu Su"
+  ],
+  "first_author": "Jian Xie",
+  "year": 2024,
+  "source_date": "2024/07/08",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Planning has been part of the core pursuit for artificial intelligence since its conception, but earlier AI agents mostly focused on constrained settings because many of the cognitive substrates necessary for human-level planning have been lacking. Recently, language agents powered by large language models (LLMs) have shown interesting capabilities such as tool use and reasoning. Are these language agents capable of planning in more complex settings that are out of the reach of prior AI agents? To advance this investigation, we propose TravelPlanner, a new planning benchmark that focuses on travel planning, a common real-world planning scenario. It provides a rich sandbox environment, various tools for accessing nearly four million data records, and 1,225 meticulously curated planning intents and reference plans. Comprehensive evaluations show that the current language agents are not yet capable of handling such complex planning tasks—even GPT-4 only achieves a success rate of 0.6%. Language agents struggle to stay on task, use the right tools to collect information, or keep track of multiple constraints. However, we note that the mere possibility for language agents to tackle such a complex problem is in itself non-trivial progress. TravelPlanner provides a challenging yet meaningful testbed for future language agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "TravelPlanner: A Benchmark for Real-World Planning with Language AgentsJian Xie, Kai Zhang, Jiangjie Chen, Tinghui Zhu, Renze Lou, Y..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "TravelPlanner: A Benchmark for Real-World Planning with Language Agents"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v235/xie24j.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xie24j/xie24j.pdf"
+    ],
+    "citation_firstpage": [
+      "54590"
+    ],
+    "citation_lastpage": [
+      "54613"
+    ],
+    "citation_author": [
+      "Jian Xie",
+      "Kai Zhang",
+      "Jiangjie Chen",
+      "Tinghui Zhu",
+      "Renze Lou",
+      "Yuandong Tian",
+      "Yanghua Xiao",
+      "Yu Su"
+    ],
+    "citation_publication_date": [
+      "2024/07/08"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "TravelPlanner: A Benchmark for Real-World Planning with Language Agents"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Planning has been part of the core pursuit for artificial intelligence since its conception, but earlier AI agents mostly focused on constrained settings bec..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v235/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "TravelPlanner: A Benchmark for Real-World Planning with Language Agents"
+    ],
+    "og:description": [
+      "Planning has been part of the core pursuit for artificial intelligence since its conception, but earlier AI agents mostly focused on constrained settings because many of the cognitive substrates ne..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2024-07-08T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v235/xie24j.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v235/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "61954224904ac99f6089716b9fdc15f3cb9ba2099a617d8df409ead65fd3b45a",
+  "evidence_html": "evidence/b9bdb2555228adc6f25a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

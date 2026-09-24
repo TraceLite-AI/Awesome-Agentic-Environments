@@ -1,0 +1,142 @@
+{
+  "url": "https://arxiv.org/abs/2512.19432",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2512.19432",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "GUI/web/mobile/OS interactive environments",
+      "title_hint": "Mobileworld: Benchmarking autonomous mobile agents in agent-user interactive and mcp-augmented environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2512.19432",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:33.233390+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2512.19432",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 45486,
+  "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+  "authors": [
+    "Kong, Quyu",
+    "Zhang, Xu",
+    "Yang, Zhenyu",
+    "Gao, Nolan",
+    "Liu, Chen",
+    "Tong, Panrong",
+    "Cai, Chenglin",
+    "Zhou, Hanzhang",
+    "Zhang, Jianan",
+    "Chen, Liangyu",
+    "Liu, Zhidan",
+    "Hoi, Steven",
+    "Wang, Yue"
+  ],
+  "first_author": "Kong, Quyu",
+  "year": 2025,
+  "source_date": "2025/12/22",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2512.19432",
+  "abstract": "Among existing online mobile-use benchmarks, AndroidWorld has emerged as the dominant benchmark due to its reproducible environment and deterministic evaluation; however, recent agents achieving over 90% success rates indicate its saturation and motivate the need for a more challenging benchmark. In addition, its environment lacks key application categories, such as e-commerce and enterprise communication, and does not reflect realistic mobile-use scenarios characterized by vague user instructions and hybrid tool usage. We introduce MobileWorld, a substantially more challenging benchmark designed to reflect real-world usage through 201 tasks across 20 applications. MobileWorld derives its difficulty from an emphasis on long-horizon, cross-application workflows, requiring nearly twice as many completion steps on average (27.8 vs. 14.3) and featuring a significantly higher proportion of multi-app tasks (62.2% vs. 9.5%) than AndroidWorld. To overcome the limitations of existing environments, MobileWorld achieves a balance between production-grade utility and reproducible evaluation by utilizing open-source alternatives to industry standards (e.g., Mattermost for Slack). This approach enables a fully observable and controlled environment through source code modification and direct backend database access for precise verification. MobileWorld also introduces novel task categories, including agent-user interaction and Model Context Protocol (MCP)-augmented tasks, for evaluating agents in user-aware, hybrid-tool scenarios. To facilitate evaluation, we develop a planner-executor agentic framework with extended action spaces to support user interactions and MCP calls. Our results reveal a sharp performance drop compared to AndroidWorld, with the best agentic framework and end-to-end model achieving 51.7% and 20.9% success rates, respectively, highlighting ample headroom for future research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2512.19432: MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2512.19432v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Among existing online mobile-use benchmarks, AndroidWorld has emerged as the dominant benchmark due to its reproducible environment and deterministic evaluation; however, recent agents achieving over 90% success rates indicate its saturation and motivate the need for a more challenging benchmark. In addition, its environment lacks key application categories, such as e-commerce and enterprise communication, and does not reflect realistic mobile-use scenarios characterized by vague user instructions and hybrid tool usage. We introduce MobileWorld, a substantially more challenging benchmark designed to reflect real-world usage through 201 tasks across 20 applications. MobileWorld derives its difficulty from an emphasis on long-horizon, cross-application workflows, requiring nearly twice as many completion steps on average (27.8 vs. 14.3) and featuring a significantly higher proportion of multi-app tasks (62.2% vs. 9.5%) than AndroidWorld. To overcome the limitations of existing environments, MobileWorld achieves a balance between production-grade utility and reproducible evaluation by utilizing open-source alternatives to industry standards (e.g., Mattermost for Slack). This approach enables a fully observable and controlled environment through source code modification and direct backend database access for precise verification. MobileWorld also introduces novel task categories, including agent-user interaction and Model Context Protocol (MCP)-augmented tasks, for evaluating agents in user-aware, hybrid-tool scenarios. To facilitate evaluation, we develop a planner-executor agentic framework with extended action spaces to support user interactions and MCP calls. Our results reveal a sharp performance drop compared to AndroidWorld, with the best agentic framework and end-to-end model achieving 51.7% and 20.9% success rates, respectively, highlighting ample headroom for future research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User..."
+    ],
+    "twitter:description": [
+      "Among existing online mobile-use benchmarks, AndroidWorld has emerged as the dominant benchmark due to its reproducible environment and deterministic evaluation; however, recent agents achieving..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments"
+    ],
+    "citation_author": [
+      "Kong, Quyu",
+      "Zhang, Xu",
+      "Yang, Zhenyu",
+      "Gao, Nolan",
+      "Liu, Chen",
+      "Tong, Panrong",
+      "Cai, Chenglin",
+      "Zhou, Hanzhang",
+      "Zhang, Jianan",
+      "Chen, Liangyu",
+      "Liu, Zhidan",
+      "Hoi, Steven",
+      "Wang, Yue"
+    ],
+    "citation_date": [
+      "2025/12/22"
+    ],
+    "citation_online_date": [
+      "2025/12/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2512.19432"
+    ],
+    "citation_arxiv_id": [
+      "2512.19432"
+    ],
+    "citation_abstract": [
+      "Among existing online mobile-use benchmarks, AndroidWorld has emerged as the dominant benchmark due to its reproducible environment and deterministic evaluation; however, recent agents achieving over 90% success rates indicate its saturation and motivate the need for a more challenging benchmark. In addition, its environment lacks key application categories, such as e-commerce and enterprise communication, and does not reflect realistic mobile-use scenarios characterized by vague user instructions and hybrid tool usage. We introduce MobileWorld, a substantially more challenging benchmark designed to reflect real-world usage through 201 tasks across 20 applications. MobileWorld derives its difficulty from an emphasis on long-horizon, cross-application workflows, requiring nearly twice as many completion steps on average (27.8 vs. 14.3) and featuring a significantly higher proportion of multi-app tasks (62.2% vs. 9.5%) than AndroidWorld. To overcome the limitations of existing environments, MobileWorld achieves a balance between production-grade utility and reproducible evaluation by utilizing open-source alternatives to industry standards (e.g., Mattermost for Slack). This approach enables a fully observable and controlled environment through source code modification and direct backend database access for precise verification. MobileWorld also introduces novel task categories, including agent-user interaction and Model Context Protocol (MCP)-augmented tasks, for evaluating agents in user-aware, hybrid-tool scenarios. To facilitate evaluation, we develop a planner-executor agentic framework with extended action spaces to support user interactions and MCP calls. Our results reveal a sharp performance drop compared to AndroidWorld, with the best agentic framework and end-to-end model achieving 51.7% and 20.9% success rates, respectively, highlighting ample headroom for future research."
+    ]
+  },
+  "html_sha256": "c5296f52198c30f2d4f774b36ba056d7d9b6201da70019c6945d9dcfba0e00a1",
+  "evidence_html": "evidence/9aa2d307123cc64a6ce1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

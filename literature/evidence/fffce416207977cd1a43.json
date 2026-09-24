@@ -1,0 +1,130 @@
+{
+  "url": "https://arxiv.org/abs/2509.01052",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2509.01052",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Flashadventure: A benchmark for gui agents solving full story arcs in diverse adventure games",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2509.01052",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:57.281918+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2509.01052",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42257,
+  "title": "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games",
+  "authors": [
+    "Ahn, Jaewoo",
+    "Kim, Junseo",
+    "Yun, Heeseung",
+    "Son, Jaehyeon",
+    "Park, Dongmin",
+    "Cho, Jaewoong",
+    "Kim, Gunhee"
+  ],
+  "first_author": "Ahn, Jaewoo",
+  "year": 2025,
+  "source_date": "2025/09/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2509.01052",
+  "abstract": "GUI agents powered by LLMs show promise in interacting with diverse digital environments. Among these, video games offer a valuable testbed due to their varied interfaces, with adventure games posing additional challenges through complex, narrative-driven interactions. Existing game benchmarks, however, lack diversity and rarely evaluate agents on completing entire storylines. To address this, we introduce FlashAdventure, a benchmark of 34 Flash-based adventure games designed to test full story arc completion and tackle the observation-behavior gap: the challenge of remembering and acting on earlier gameplay information. We also propose CUA-as-a-Judge, an automated gameplay evaluator, and COAST, an agentic framework leveraging long-term clue memory to better plan and solve sequential tasks. Experiments show current GUI agents struggle with full story arcs, while COAST improves milestone completion by bridging the observation-behavior gap. Nonetheless, a marked discrepancy between humans and best-performing agents warrants continued research efforts to narrow this divide.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2509.01052: FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2509.01052v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "GUI agents powered by LLMs show promise in interacting with diverse digital environments. Among these, video games offer a valuable testbed due to their varied interfaces, with adventure games posing additional challenges through complex, narrative-driven interactions. Existing game benchmarks, however, lack diversity and rarely evaluate agents on completing entire storylines. To address this, we introduce FlashAdventure, a benchmark of 34 Flash-based adventure games designed to test full story arc completion and tackle the observation-behavior gap: the challenge of remembering and acting on earlier gameplay information. We also propose CUA-as-a-Judge, an automated gameplay evaluator, and COAST, an agentic framework leveraging long-term clue memory to better plan and solve sequential tasks. Experiments show current GUI agents struggle with full story arcs, while COAST improves milestone completion by bridging the observation-behavior gap. Nonetheless, a marked discrepancy between humans and best-performing agents warrants continued research efforts to narrow this divide."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs..."
+    ],
+    "twitter:description": [
+      "GUI agents powered by LLMs show promise in interacting with diverse digital environments. Among these, video games offer a valuable testbed due to their varied interfaces, with adventure games..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games"
+    ],
+    "citation_author": [
+      "Ahn, Jaewoo",
+      "Kim, Junseo",
+      "Yun, Heeseung",
+      "Son, Jaehyeon",
+      "Park, Dongmin",
+      "Cho, Jaewoong",
+      "Kim, Gunhee"
+    ],
+    "citation_date": [
+      "2025/09/01"
+    ],
+    "citation_online_date": [
+      "2025/10/15"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2509.01052"
+    ],
+    "citation_arxiv_id": [
+      "2509.01052"
+    ],
+    "citation_abstract": [
+      "GUI agents powered by LLMs show promise in interacting with diverse digital environments. Among these, video games offer a valuable testbed due to their varied interfaces, with adventure games posing additional challenges through complex, narrative-driven interactions. Existing game benchmarks, however, lack diversity and rarely evaluate agents on completing entire storylines. To address this, we introduce FlashAdventure, a benchmark of 34 Flash-based adventure games designed to test full story arc completion and tackle the observation-behavior gap: the challenge of remembering and acting on earlier gameplay information. We also propose CUA-as-a-Judge, an automated gameplay evaluator, and COAST, an agentic framework leveraging long-term clue memory to better plan and solve sequential tasks. Experiments show current GUI agents struggle with full story arcs, while COAST improves milestone completion by bridging the observation-behavior gap. Nonetheless, a marked discrepancy between humans and best-performing agents warrants continued research efforts to narrow this divide."
+    ]
+  },
+  "html_sha256": "a7b944319b9283aaa4c7f462d0d51e8cd31480e770c1aa2b32e237c2e12b15a6",
+  "evidence_html": "evidence/fffce416207977cd1a43.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

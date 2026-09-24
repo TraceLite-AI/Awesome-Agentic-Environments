@@ -1,0 +1,21 @@
+{
+  "url": "https://proceedings.neurips.cc/paper/2020/file/e615c82aba461681ade82da2da38004a-Paper.pdf",
+  "discoveries": [
+    {
+      "url": "https://proceedings.neurips.cc/paper/2020/file/e615c82aba461681ade82da2da38004a-Paper.pdf",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Reinforcement learning with augmented data, NeurIPS 2020. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "unverified",
+  "requested_url": "https://proceedings.neurips.cc/paper/2020/file/e615c82aba461681ade82da2da38004a-Paper.pdf",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:09.485872+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.neurips.cc/paper/2020/file/e615c82aba461681ade82da2da38004a-Paper.pdf",
+  "content_type": "application/pdf",
+  "response_bytes": 6037253,
+  "error": "PDF source opened; metadata requires manual extraction; not automatically counted."
+}

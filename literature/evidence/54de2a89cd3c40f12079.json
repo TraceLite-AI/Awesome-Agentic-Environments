@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2412.07978",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2412.07978",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "k-agents: Agents for self-driving laboratories applied to quantum computing",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2412.07978",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:42.225763+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2412.07978",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44448,
+  "title": "Agents for self-driving laboratories applied to quantum computing",
+  "authors": [
+    "Cao, Shuxiang",
+    "Zhang, Zijian",
+    "Alghadeer, Mohammed",
+    "Fasciati, Simone D",
+    "Piscitelli, Michele",
+    "Bakr, Mustafa",
+    "Leek, Peter",
+    "Aspuru-Guzik, Alán"
+  ],
+  "first_author": "Cao, Shuxiang",
+  "year": 2024,
+  "source_date": "2024/12/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1016/j.patter.2025.101372",
+  "arxiv_id": "2412.07978",
+  "abstract": "Fully automated self-driving laboratories are promising to enable high-throughput and large-scale scientific discovery by reducing repetitive labour. However, effective automation requires deep integration of laboratory knowledge, which is often unstructured, multimodal, and difficult to incorporate into current AI systems. This paper introduces the k-agents framework, designed to support experimentalists in organizing laboratory knowledge and automating experiments with agents. Our framework employs large language model-based agents to encapsulate laboratory knowledge including available laboratory operations and methods for analyzing experiment results. To automate experiments, we introduce execution agents that break multi-step experimental procedures into agent-based state machines, interact with other agents to execute each step and analyze the experiment results. The analyzed results are then utilized to drive state transitions, enabling closed-loop feedback control. To demonstrate its capabilities, we applied the agents to calibrate and operate a superconducting quantum processor, where they autonomously planned and executed experiments for hours, successfully producing and characterizing entangled quantum states at the level achieved by human scientists. Our knowledge-based agent system opens up new possibilities for managing laboratory knowledge and accelerating scientific discovery.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2412.07978: Agents for self-driving laboratories applied to quantum computing"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Agents for self-driving laboratories applied to quantum computing"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2412.07978v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Fully automated self-driving laboratories are promising to enable high-throughput and large-scale scientific discovery by reducing repetitive labour. However, effective automation requires deep integration of laboratory knowledge, which is often unstructured, multimodal, and difficult to incorporate into current AI systems. This paper introduces the k-agents framework, designed to support experimentalists in organizing laboratory knowledge and automating experiments with agents. Our framework employs large language model-based agents to encapsulate laboratory knowledge including available laboratory operations and methods for analyzing experiment results. To automate experiments, we introduce execution agents that break multi-step experimental procedures into agent-based state machines, interact with other agents to execute each step and analyze the experiment results. The analyzed results are then utilized to drive state transitions, enabling closed-loop feedback control. To demonstrate its capabilities, we applied the agents to calibrate and operate a superconducting quantum processor, where they autonomously planned and executed experiments for hours, successfully producing and characterizing entangled quantum states at the level achieved by human scientists. Our knowledge-based agent system opens up new possibilities for managing laboratory knowledge and accelerating scientific discovery."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Agents for self-driving laboratories applied to quantum computing"
+    ],
+    "twitter:description": [
+      "Fully automated self-driving laboratories are promising to enable high-throughput and large-scale scientific discovery by reducing repetitive labour. However, effective automation requires deep..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Agents for self-driving laboratories applied to quantum computing"
+    ],
+    "citation_author": [
+      "Cao, Shuxiang",
+      "Zhang, Zijian",
+      "Alghadeer, Mohammed",
+      "Fasciati, Simone D",
+      "Piscitelli, Michele",
+      "Bakr, Mustafa",
+      "Leek, Peter",
+      "Aspuru-Guzik, Alán"
+    ],
+    "citation_doi": [
+      "10.1016/j.patter.2025.101372"
+    ],
+    "citation_date": [
+      "2024/12/10"
+    ],
+    "citation_online_date": [
+      "2025/06/05"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2412.07978"
+    ],
+    "citation_arxiv_id": [
+      "2412.07978"
+    ],
+    "citation_abstract": [
+      "Fully automated self-driving laboratories are promising to enable high-throughput and large-scale scientific discovery by reducing repetitive labour. However, effective automation requires deep integration of laboratory knowledge, which is often unstructured, multimodal, and difficult to incorporate into current AI systems. This paper introduces the k-agents framework, designed to support experimentalists in organizing laboratory knowledge and automating experiments with agents. Our framework employs large language model-based agents to encapsulate laboratory knowledge including available laboratory operations and methods for analyzing experiment results. To automate experiments, we introduce execution agents that break multi-step experimental procedures into agent-based state machines, interact with other agents to execute each step and analyze the experiment results. The analyzed results are then utilized to drive state transitions, enabling closed-loop feedback control. To demonstrate its capabilities, we applied the agents to calibrate and operate a superconducting quantum processor, where they autonomously planned and executed experiments for hours, successfully producing and characterizing entangled quantum states at the level achieved by human scientists. Our knowledge-based agent system opens up new possibilities for managing laboratory knowledge and accelerating scientific discovery."
+    ]
+  },
+  "html_sha256": "9be9c6f1b7a68698f0fdb6d028f9790b4265398e8b1df9ccab3545233b2b7fe6",
+  "evidence_html": "evidence/54de2a89cd3c40f12079.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

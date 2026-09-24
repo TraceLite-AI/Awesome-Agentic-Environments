@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2402.12993",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2402.12993",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "An autonomous large language model agent for chemical literature data mining",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2402.12993",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:30.452616+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2402.12993",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43502,
+  "title": "ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining",
+  "authors": [
+    "Chen, Kexin",
+    "Du, Yuyang",
+    "Li, Junyou",
+    "Cao, Hanqun",
+    "Guo, Menghao",
+    "Dang, Xilin",
+    "Li, Lanqing",
+    "Qiu, Jiezhong",
+    "Heng, Pheng Ann",
+    "Chen, Guangyong"
+  ],
+  "first_author": "Chen, Kexin",
+  "year": 2024,
+  "source_date": "2024/02/20",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2402.12993",
+  "abstract": "The development of AI-assisted chemical synthesis tools requires comprehensive datasets covering diverse reaction types, yet current high-throughput experimental (HTE) approaches are expensive and limited in scope. Chemical literature represents a vast, underexplored data source containing thousands of reactions published annually. However, extracting reaction information from literature faces significant challenges including varied writing styles, complex coreference relationships, and multimodal information presentation. This paper proposes ChemMiner, a novel end-to-end framework leveraging multiple agents powered by large language models (LLMs) to extract high-fidelity chemical data from literature. ChemMiner incorporates three specialized agents: a text analysis agent for coreference mapping, a multimodal agent for non-textual information extraction, and a synthesis analysis agent for data generation. Furthermore, we developed a comprehensive benchmark with expert-annotated chemical literature to evaluate both extraction efficiency and precision. Experimental results demonstrate reaction identification rates comparable to human chemists while significantly reducing processing time, with high accuracy, recall, and F1 scores. Our open-sourced benchmark facilitates future research in chemical literature data mining.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2402.12993: ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2402.12993v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The development of AI-assisted chemical synthesis tools requires comprehensive datasets covering diverse reaction types, yet current high-throughput experimental (HTE) approaches are expensive and limited in scope. Chemical literature represents a vast, underexplored data source containing thousands of reactions published annually. However, extracting reaction information from literature faces significant challenges including varied writing styles, complex coreference relationships, and multimodal information presentation. This paper proposes ChemMiner, a novel end-to-end framework leveraging multiple agents powered by large language models (LLMs) to extract high-fidelity chemical data from literature. ChemMiner incorporates three specialized agents: a text analysis agent for coreference mapping, a multimodal agent for non-textual information extraction, and a synthesis analysis agent for data generation. Furthermore, we developed a comprehensive benchmark with expert-annotated chemical literature to evaluate both extraction efficiency and precision. Experimental results demonstrate reaction identification rates comparable to human chemists while significantly reducing processing time, with high accuracy, recall, and F1 scores. Our open-sourced benchmark facilitates future research in chemical literature data mining."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "ChemMiner: A Large Language Model Agent System for Chemical..."
+    ],
+    "twitter:description": [
+      "The development of AI-assisted chemical synthesis tools requires comprehensive datasets covering diverse reaction types, yet current high-throughput experimental (HTE) approaches are expensive and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining"
+    ],
+    "citation_author": [
+      "Chen, Kexin",
+      "Du, Yuyang",
+      "Li, Junyou",
+      "Cao, Hanqun",
+      "Guo, Menghao",
+      "Dang, Xilin",
+      "Li, Lanqing",
+      "Qiu, Jiezhong",
+      "Heng, Pheng Ann",
+      "Chen, Guangyong"
+    ],
+    "citation_date": [
+      "2024/02/20"
+    ],
+    "citation_online_date": [
+      "2025/06/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2402.12993"
+    ],
+    "citation_arxiv_id": [
+      "2402.12993"
+    ],
+    "citation_abstract": [
+      "The development of AI-assisted chemical synthesis tools requires comprehensive datasets covering diverse reaction types, yet current high-throughput experimental (HTE) approaches are expensive and limited in scope. Chemical literature represents a vast, underexplored data source containing thousands of reactions published annually. However, extracting reaction information from literature faces significant challenges including varied writing styles, complex coreference relationships, and multimodal information presentation. This paper proposes ChemMiner, a novel end-to-end framework leveraging multiple agents powered by large language models (LLMs) to extract high-fidelity chemical data from literature. ChemMiner incorporates three specialized agents: a text analysis agent for coreference mapping, a multimodal agent for non-textual information extraction, and a synthesis analysis agent for data generation. Furthermore, we developed a comprehensive benchmark with expert-annotated chemical literature to evaluate both extraction efficiency and precision. Experimental results demonstrate reaction identification rates comparable to human chemists while significantly reducing processing time, with high accuracy, recall, and F1 scores. Our open-sourced benchmark facilitates future research in chemical literature data mining."
+    ]
+  },
+  "html_sha256": "bdd6d01570aee32160033bfa962ef41cdfb14402811056deab942fa31e1e53d1",
+  "evidence_html": "evidence/709b5fd0b7f021f63025.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

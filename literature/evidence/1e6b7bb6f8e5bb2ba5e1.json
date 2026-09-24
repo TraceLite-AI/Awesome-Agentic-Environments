@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2410.23218",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2410.23218",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2410.23218",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:43.684777+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2410.23218",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43252,
+  "title": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+  "authors": [
+    "Wu, Zhiyong",
+    "Wu, Zhenyu",
+    "Xu, Fangzhi",
+    "Wang, Yian",
+    "Sun, Qiushi",
+    "Jia, Chengyou",
+    "Cheng, Kanzhi",
+    "Ding, Zichen",
+    "Chen, Liheng",
+    "Liang, Paul Pu",
+    "Qiao, Yu"
+  ],
+  "first_author": "Wu, Zhiyong",
+  "year": 2024,
+  "source_date": "2024/10/30",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2410.23218",
+  "abstract": "Existing efforts in building GUI agents heavily rely on the availability of robust commercial Vision-Language Models (VLMs) such as GPT-4o and GeminiProVision. Practitioners are often reluctant to use open-source VLMs due to their significant performance lag compared to their closed-source counterparts, particularly in GUI grounding and Out-Of-Distribution (OOD) scenarios. To facilitate future research in this area, we developed OS-Atlas - a foundational GUI action model that excels at GUI grounding and OOD agentic tasks through innovations in both data and modeling. We have invested significant engineering effort in developing an open-source toolkit for synthesizing GUI grounding data across multiple platforms, including Windows, Linux, MacOS, Android, and the web. Leveraging this toolkit, we are releasing the largest open-source cross-platform GUI grounding corpus to date, which contains over 13 million GUI elements. This dataset, combined with innovations in model training, provides a solid foundation for OS-Atlas to understand GUI screenshots and generalize to unseen interfaces. Through extensive evaluation across six benchmarks spanning three different platforms (mobile, desktop, and web), OS-Atlas demonstrates significant performance improvements over previous state-of-the-art models. Our evaluation also uncovers valuable insights into continuously improving and scaling the agentic capabilities of open-source VLMs.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2410.23218: OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2410.23218v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Existing efforts in building GUI agents heavily rely on the availability of robust commercial Vision-Language Models (VLMs) such as GPT-4o and GeminiProVision. Practitioners are often reluctant to use open-source VLMs due to their significant performance lag compared to their closed-source counterparts, particularly in GUI grounding and Out-Of-Distribution (OOD) scenarios. To facilitate future research in this area, we developed OS-Atlas - a foundational GUI action model that excels at GUI grounding and OOD agentic tasks through innovations in both data and modeling. We have invested significant engineering effort in developing an open-source toolkit for synthesizing GUI grounding data across multiple platforms, including Windows, Linux, MacOS, Android, and the web. Leveraging this toolkit, we are releasing the largest open-source cross-platform GUI grounding corpus to date, which contains over 13 million GUI elements. This dataset, combined with innovations in model training, provides a solid foundation for OS-Atlas to understand GUI screenshots and generalize to unseen interfaces. Through extensive evaluation across six benchmarks spanning three different platforms (mobile, desktop, and web), OS-Atlas demonstrates significant performance improvements over previous state-of-the-art models. Our evaluation also uncovers valuable insights into continuously improving and scaling the agentic capabilities of open-source VLMs."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
+    ],
+    "twitter:description": [
+      "Existing efforts in building GUI agents heavily rely on the availability of robust commercial Vision-Language Models (VLMs) such as GPT-4o and GeminiProVision. Practitioners are often reluctant to..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
+    ],
+    "citation_author": [
+      "Wu, Zhiyong",
+      "Wu, Zhenyu",
+      "Xu, Fangzhi",
+      "Wang, Yian",
+      "Sun, Qiushi",
+      "Jia, Chengyou",
+      "Cheng, Kanzhi",
+      "Ding, Zichen",
+      "Chen, Liheng",
+      "Liang, Paul Pu",
+      "Qiao, Yu"
+    ],
+    "citation_date": [
+      "2024/10/30"
+    ],
+    "citation_online_date": [
+      "2024/10/30"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2410.23218"
+    ],
+    "citation_arxiv_id": [
+      "2410.23218"
+    ],
+    "citation_abstract": [
+      "Existing efforts in building GUI agents heavily rely on the availability of robust commercial Vision-Language Models (VLMs) such as GPT-4o and GeminiProVision. Practitioners are often reluctant to use open-source VLMs due to their significant performance lag compared to their closed-source counterparts, particularly in GUI grounding and Out-Of-Distribution (OOD) scenarios. To facilitate future research in this area, we developed OS-Atlas - a foundational GUI action model that excels at GUI grounding and OOD agentic tasks through innovations in both data and modeling. We have invested significant engineering effort in developing an open-source toolkit for synthesizing GUI grounding data across multiple platforms, including Windows, Linux, MacOS, Android, and the web. Leveraging this toolkit, we are releasing the largest open-source cross-platform GUI grounding corpus to date, which contains over 13 million GUI elements. This dataset, combined with innovations in model training, provides a solid foundation for OS-Atlas to understand GUI screenshots and generalize to unseen interfaces. Through extensive evaluation across six benchmarks spanning three different platforms (mobile, desktop, and web), OS-Atlas demonstrates significant performance improvements over previous state-of-the-art models. Our evaluation also uncovers valuable insights into continuously improving and scaling the agentic capabilities of open-source VLMs."
+    ]
+  },
+  "html_sha256": "242ba09328a32fd130bcb224c483dc9525fca89fc2050e2a7c46462250e82a82",
+  "evidence_html": "evidence/1e6b7bb6f8e5bb2ba5e1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

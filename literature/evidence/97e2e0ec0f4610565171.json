@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/2207.05219",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2207.05219",
+      "discovery_url": "https://web.stanford.edu/~mrifaki/ued-readings.html",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Grounding Aleatoric Uncertainty for Unsupervised Environment Design",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2207.05219",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:55.559986+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2207.05219",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43516,
+  "title": "Grounding Aleatoric Uncertainty for Unsupervised Environment Design",
+  "authors": [
+    "Jiang, Minqi",
+    "Dennis, Michael",
+    "Parker-Holder, Jack",
+    "Lupu, Andrei",
+    "Küttler, Heinrich",
+    "Grefenstette, Edward",
+    "Rocktäschel, Tim",
+    "Foerster, Jakob"
+  ],
+  "first_author": "Jiang, Minqi",
+  "year": 2022,
+  "source_date": "2022/07/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2207.05219",
+  "abstract": "Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised Environment Design (UED) framework generalized RL curricula to generating sequences of entire environments, leading to new methods with robust minimax regret properties. Problematically, in partially-observable or stochastic settings, optimal policies may depend on the ground-truth distribution over aleatoric parameters of the environment in the intended deployment setting, while curriculum learning necessarily shifts the training distribution. We formalize this phenomenon as curriculum-induced covariate shift (CICS), and describe how its occurrence in aleatoric parameters can lead to suboptimal policies. Directly sampling these parameters from the ground-truth distribution avoids the issue, but thwarts curriculum learning. We propose SAMPLR, a minimax regret UED method that optimizes the ground-truth utility function, even when the underlying training data is biased due to CICS. We prove, and validate on challenging domains, that our approach preserves optimality under the ground-truth distribution, while promoting robustness across the full range of environment settings.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2207.05219: Grounding Aleatoric Uncertainty for Unsupervised Environment Design"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Grounding Aleatoric Uncertainty for Unsupervised Environment Design"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2207.05219v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised Environment Design (UED) framework generalized RL curricula to generating sequences of entire environments, leading to new methods with robust minimax regret properties. Problematically, in partially-observable or stochastic settings, optimal policies may depend on the ground-truth distribution over aleatoric parameters of the environment in the intended deployment setting, while curriculum learning necessarily shifts the training distribution. We formalize this phenomenon as curriculum-induced covariate shift (CICS), and describe how its occurrence in aleatoric parameters can lead to suboptimal policies. Directly sampling these parameters from the ground-truth distribution avoids the issue, but thwarts curriculum learning. We propose SAMPLR, a minimax regret UED method that optimizes the ground-truth utility function, even when the underlying training data is biased due to CICS. We prove, and validate on challenging domains, that our approach preserves optimality under the ground-truth distribution, while promoting robustness across the full range of environment settings."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Grounding Aleatoric Uncertainty for Unsupervised Environment Design"
+    ],
+    "twitter:description": [
+      "Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Grounding Aleatoric Uncertainty for Unsupervised Environment Design"
+    ],
+    "citation_author": [
+      "Jiang, Minqi",
+      "Dennis, Michael",
+      "Parker-Holder, Jack",
+      "Lupu, Andrei",
+      "Küttler, Heinrich",
+      "Grefenstette, Edward",
+      "Rocktäschel, Tim",
+      "Foerster, Jakob"
+    ],
+    "citation_date": [
+      "2022/07/11"
+    ],
+    "citation_online_date": [
+      "2022/10/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2207.05219"
+    ],
+    "citation_arxiv_id": [
+      "2207.05219"
+    ],
+    "citation_abstract": [
+      "Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised Environment Design (UED) framework generalized RL curricula to generating sequences of entire environments, leading to new methods with robust minimax regret properties. Problematically, in partially-observable or stochastic settings, optimal policies may depend on the ground-truth distribution over aleatoric parameters of the environment in the intended deployment setting, while curriculum learning necessarily shifts the training distribution. We formalize this phenomenon as curriculum-induced covariate shift (CICS), and describe how its occurrence in aleatoric parameters can lead to suboptimal policies. Directly sampling these parameters from the ground-truth distribution avoids the issue, but thwarts curriculum learning. We propose SAMPLR, a minimax regret UED method that optimizes the ground-truth utility function, even when the underlying training data is biased due to CICS. We prove, and validate on challenging domains, that our approach preserves optimality under the ground-truth distribution, while promoting robustness across the full range of environment settings."
+    ]
+  },
+  "html_sha256": "1115632b50251aa468df5afc8214b3d875e8cebd6bc76476874fadbbb760a04a",
+  "evidence_html": "evidence/97e2e0ec0f4610565171.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

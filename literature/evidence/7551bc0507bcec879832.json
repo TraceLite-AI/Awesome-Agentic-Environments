@@ -1,0 +1,140 @@
+{
+  "url": "https://arxiv.org/abs/2507.22034",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2507.22034",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Userbench: An interactive gym environment for user-centric agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2507.22034",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:08.281777+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2507.22034",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42766,
+  "title": "UserBench: An Interactive Gym Environment for User-Centric Agents",
+  "authors": [
+    "Qian, Cheng",
+    "Liu, Zuxin",
+    "Prabhakar, Akshara",
+    "Liu, Zhiwei",
+    "Zhang, Jianguo",
+    "Chen, Haolin",
+    "Ji, Heng",
+    "Yao, Weiran",
+    "Heinecke, Shelby",
+    "Savarese, Silvio",
+    "Xiong, Caiming",
+    "Wang, Huan"
+  ],
+  "first_author": "Qian, Cheng",
+  "year": 2025,
+  "source_date": "2025/07/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2507.22034",
+  "abstract": "Large Language Models (LLMs)-based agents have made impressive progress in reasoning and tool use, enabling them to solve complex tasks. However, their ability to proactively collaborate with users, especially when goals are vague, evolving, or indirectly expressed, remains underexplored. To address this gap, we introduce UserBench, a user-centric benchmark designed to evaluate agents in multi-turn, preference-driven interactions. UserBench features simulated users who start with underspecified goals and reveal preferences incrementally, requiring agents to proactively clarify intent and make grounded decisions with tools. Our evaluation of leading open- and closed-source LLMs reveals a significant disconnect between task completion and user alignment. For instance, models provide answers that fully align with all user intents only 20% of the time on average, and even the most advanced models uncover fewer than 30% of all user preferences through active interaction. These results highlight the challenges of building agents that are not just capable task executors, but true collaborative partners. UserBench offers an interactive environment to measure and advance this critical capability.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2507.22034: UserBench: An Interactive Gym Environment for User-Centric Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "UserBench: An Interactive Gym Environment for User-Centric Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2507.22034v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs)-based agents have made impressive progress in reasoning and tool use, enabling them to solve complex tasks. However, their ability to proactively collaborate with users, especially when goals are vague, evolving, or indirectly expressed, remains underexplored. To address this gap, we introduce UserBench, a user-centric benchmark designed to evaluate agents in multi-turn, preference-driven interactions. UserBench features simulated users who start with underspecified goals and reveal preferences incrementally, requiring agents to proactively clarify intent and make grounded decisions with tools. Our evaluation of leading open- and closed-source LLMs reveals a significant disconnect between task completion and user alignment. For instance, models provide answers that fully align with all user intents only 20% of the time on average, and even the most advanced models uncover fewer than 30% of all user preferences through active interaction. These results highlight the challenges of building agents that are not just capable task executors, but true collaborative partners. UserBench offers an interactive environment to measure and advance this critical capability."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "UserBench: An Interactive Gym Environment for User-Centric Agents"
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs)-based agents have made impressive progress in reasoning and tool use, enabling them to solve complex tasks. However, their ability to proactively collaborate with..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "UserBench: An Interactive Gym Environment for User-Centric Agents"
+    ],
+    "citation_author": [
+      "Qian, Cheng",
+      "Liu, Zuxin",
+      "Prabhakar, Akshara",
+      "Liu, Zhiwei",
+      "Zhang, Jianguo",
+      "Chen, Haolin",
+      "Ji, Heng",
+      "Yao, Weiran",
+      "Heinecke, Shelby",
+      "Savarese, Silvio",
+      "Xiong, Caiming",
+      "Wang, Huan"
+    ],
+    "citation_date": [
+      "2025/07/29"
+    ],
+    "citation_online_date": [
+      "2025/07/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2507.22034"
+    ],
+    "citation_arxiv_id": [
+      "2507.22034"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs)-based agents have made impressive progress in reasoning and tool use, enabling them to solve complex tasks. However, their ability to proactively collaborate with users, especially when goals are vague, evolving, or indirectly expressed, remains underexplored. To address this gap, we introduce UserBench, a user-centric benchmark designed to evaluate agents in multi-turn, preference-driven interactions. UserBench features simulated users who start with underspecified goals and reveal preferences incrementally, requiring agents to proactively clarify intent and make grounded decisions with tools. Our evaluation of leading open- and closed-source LLMs reveals a significant disconnect between task completion and user alignment. For instance, models provide answers that fully align with all user intents only 20% of the time on average, and even the most advanced models uncover fewer than 30% of all user preferences through active interaction. These results highlight the challenges of building agents that are not just capable task executors, but true collaborative partners. UserBench offers an interactive environment to measure and advance this critical capability."
+    ]
+  },
+  "html_sha256": "cbfd8d5edf5fc04c873c58551ad09e08e270ae1974c5fec42c180031ac6ff1ca",
+  "evidence_html": "evidence/7551bc0507bcec879832.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

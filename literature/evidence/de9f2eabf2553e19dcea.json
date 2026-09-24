@@ -1,0 +1,122 @@
+{
+  "url": "https://proceedings.mlr.press/v119/amit20a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v119/amit20a.html",
+      "discovery_url": "https://github.com/EzgiKorkmaz/generalization-reinforcement-learning",
+      "topic": "基础：环境设计、强化学习泛化与鲁棒性",
+      "title_hint": "Discount factor as a regularizer in Reinforcement Learning, ICML 2020. [Paper]",
+      "candidate_file": "candidates_foundations.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v119/amit20a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:38.779941+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v119/amit20a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 14929,
+  "title": "Discount Factor as a Regularizer in Reinforcement Learning",
+  "authors": [
+    "Ron Amit",
+    "Ron Meir",
+    "Kamil Ciosek"
+  ],
+  "first_author": "Ron Amit",
+  "year": 2020,
+  "source_date": "2020/11/21",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Specifying a Reinforcement Learning (RL) task involves choosing a suitable planning horizon, which is typically modeled by a discount factor. It is known that applying RL algorithms with a lower discount factor can act as a regularizer, improving performance in the limited data regime. Yet the exact nature of this regularizer has not been investigated. In this work, we fill in this gap. For several Temporal-Difference (TD) learning methods, we show an explicit equivalence between using a reduced discount factor and adding an explicit regularization term to the algorithm’s loss. Motivated by the equivalence, we empirically study this technique compared to standard L2 regularization by extensive experiments in discrete and continuous domains, using tabular and functional representations. Our experiments suggest the regularization effectiveness is strongly related to properties of the available data, such as size, distribution, and mixing rate.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "Discount Factor as a Regularizer in Reinforcement LearningRon Amit, Ron Meir, Kamil CiosekSpecifying a Reinforcement Learning (RL) task involves ch..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "Discount Factor as a Regularizer in Reinforcement Learning"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v119/amit20a.html"
+    ],
+    "citation_pdf_url": [
+      "http://proceedings.mlr.press/v119/amit20a/amit20a.pdf"
+    ],
+    "citation_firstpage": [
+      "269"
+    ],
+    "citation_lastpage": [
+      "278"
+    ],
+    "citation_author": [
+      "Ron Amit",
+      "Ron Meir",
+      "Kamil Ciosek"
+    ],
+    "citation_publication_date": [
+      "2020/11/21"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Discount Factor as a Regularizer in Reinforcement Learning"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Specifying a Reinforcement Learning (RL) task involves choosing a suitable planning horizon, which is typically modeled by a discount factor. It is known tha..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v119/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "Discount Factor as a Regularizer in Reinforcement Learning"
+    ],
+    "og:description": [
+      "Specifying a Reinforcement Learning (RL) task involves choosing a suitable planning horizon, which is typically modeled by a discount factor. It is known that applying RL algorithms with a lower di..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2020-11-21T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v119/amit20a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v119/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "9f7f3b3ea1d5174a6a9ad6632058b8c811ecd5309eb1d00c0d2483d490875fcc",
+  "evidence_html": "evidence/de9f2eabf2553e19dcea.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

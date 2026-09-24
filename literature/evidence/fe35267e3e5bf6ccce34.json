@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2401.10568",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.10568",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Embodied/game/simulation environments",
+      "title_hint": "Civrealm: A learning and reasoning odyssey in civilization for decision-making agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.10568",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:00.483860+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.10568",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43658,
+  "title": "CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents",
+  "authors": [
+    "Qi, Siyuan",
+    "Chen, Shuo",
+    "Li, Yexin",
+    "Kong, Xiangyu",
+    "Wang, Junqi",
+    "Yang, Bangcheng",
+    "Wong, Pring",
+    "Zhong, Yifan",
+    "Zhang, Xiaoyuan",
+    "Zhang, Zhaowei",
+    "Liu, Nian",
+    "Wang, Wei",
+    "Yang, Yaodong",
+    "Zhu, Song-Chun"
+  ],
+  "first_author": "Qi, Siyuan",
+  "year": 2024,
+  "source_date": "2024/01/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.10568",
+  "abstract": "The generalization of decision-making agents encompasses two fundamental elements: learning from past experiences and reasoning in novel contexts. However, the predominant emphasis in most interactive environments is on learning, often at the expense of complexity in reasoning. In this paper, we introduce CivRealm, an environment inspired by the Civilization game. Civilization's profound alignment with human history and society necessitates sophisticated learning, while its ever-changing situations demand strong reasoning to generalize. Particularly, CivRealm sets up an imperfect-information general-sum game with a changing number of players; it presents a plethora of complex features, challenging the agent to deal with open-ended stochastic environments that require diplomacy and negotiation skills. Within CivRealm, we provide interfaces for two typical agent types: tensor-based agents that focus on learning, and language-based agents that emphasize reasoning. To catalyze further research, we present initial results for both paradigms. The canonical RL-based agents exhibit reasonable performance in mini-games, whereas both RL- and LLM-based agents struggle to make substantial progress in the full game. Overall, CivRealm stands as a unique learning and reasoning challenge for decision-making agents. The code is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.10568: CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.10568v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The generalization of decision-making agents encompasses two fundamental elements: learning from past experiences and reasoning in novel contexts. However, the predominant emphasis in most interactive environments is on learning, often at the expense of complexity in reasoning. In this paper, we introduce CivRealm, an environment inspired by the Civilization game. Civilization's profound alignment with human history and society necessitates sophisticated learning, while its ever-changing situations demand strong reasoning to generalize. Particularly, CivRealm sets up an imperfect-information general-sum game with a changing number of players; it presents a plethora of complex features, challenging the agent to deal with open-ended stochastic environments that require diplomacy and negotiation skills. Within CivRealm, we provide interfaces for two typical agent types: tensor-based agents that focus on learning, and language-based agents that emphasize reasoning. To catalyze further research, we present initial results for both paradigms. The canonical RL-based agents exhibit reasonable performance in mini-games, whereas both RL- and LLM-based agents struggle to make substantial progress in the full game. Overall, CivRealm stands as a unique learning and reasoning challenge for decision-making agents. The code is available at https://github.com/bigai-ai/civrealm."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CivRealm: A Learning and Reasoning Odyssey in Civilization for..."
+    ],
+    "twitter:description": [
+      "The generalization of decision-making agents encompasses two fundamental elements: learning from past experiences and reasoning in novel contexts. However, the predominant emphasis in most..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents"
+    ],
+    "citation_author": [
+      "Qi, Siyuan",
+      "Chen, Shuo",
+      "Li, Yexin",
+      "Kong, Xiangyu",
+      "Wang, Junqi",
+      "Yang, Bangcheng",
+      "Wong, Pring",
+      "Zhong, Yifan",
+      "Zhang, Xiaoyuan",
+      "Zhang, Zhaowei",
+      "Liu, Nian",
+      "Wang, Wei",
+      "Yang, Yaodong",
+      "Zhu, Song-Chun"
+    ],
+    "citation_date": [
+      "2024/01/19"
+    ],
+    "citation_online_date": [
+      "2024/03/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.10568"
+    ],
+    "citation_arxiv_id": [
+      "2401.10568"
+    ],
+    "citation_abstract": [
+      "The generalization of decision-making agents encompasses two fundamental elements: learning from past experiences and reasoning in novel contexts. However, the predominant emphasis in most interactive environments is on learning, often at the expense of complexity in reasoning. In this paper, we introduce CivRealm, an environment inspired by the Civilization game. Civilization's profound alignment with human history and society necessitates sophisticated learning, while its ever-changing situations demand strong reasoning to generalize. Particularly, CivRealm sets up an imperfect-information general-sum game with a changing number of players; it presents a plethora of complex features, challenging the agent to deal with open-ended stochastic environments that require diplomacy and negotiation skills. Within CivRealm, we provide interfaces for two typical agent types: tensor-based agents that focus on learning, and language-based agents that emphasize reasoning. To catalyze further research, we present initial results for both paradigms. The canonical RL-based agents exhibit reasonable performance in mini-games, whereas both RL- and LLM-based agents struggle to make substantial progress in the full game. Overall, CivRealm stands as a unique learning and reasoning challenge for decision-making agents. The code is available at https://github.com/bigai-ai/civrealm."
+    ]
+  },
+  "html_sha256": "30d2001afea76dcb9a45b5517750c2ff6bdcaa82f058a741ae8f5f8c168eaf76",
+  "evidence_html": "evidence/fe35267e3e5bf6ccce34.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

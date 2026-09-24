@@ -1,0 +1,133 @@
+{
+  "url": "https://arxiv.org/abs/2401.16158",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2401.16158",
+      "discovery_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "topic": "web_computer_mobile_agents",
+      "title_hint": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2401.16158",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:03.219775+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2401.16158",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42921,
+  "title": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
+  "authors": [
+    "Wang, Junyang",
+    "Xu, Haiyang",
+    "Ye, Jiabo",
+    "Yan, Ming",
+    "Shen, Weizhou",
+    "Zhang, Ji",
+    "Huang, Fei",
+    "Sang, Jitao"
+  ],
+  "first_author": "Wang, Junyang",
+  "year": 2024,
+  "source_date": "2024/01/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2401.16158",
+  "abstract": "Mobile device agent based on Multimodal Large Language Models (MLLM) is becoming a popular application. In this paper, we introduce Mobile-Agent, an autonomous multi-modal mobile device agent. Mobile-Agent first leverages visual perception tools to accurately identify and locate both the visual and textual elements within the app's front-end interface. Based on the perceived vision context, it then autonomously plans and decomposes the complex operation task, and navigates the mobile Apps through operations step by step. Different from previous solutions that rely on XML files of Apps or mobile system metadata, Mobile-Agent allows for greater adaptability across diverse mobile operating environments in a vision-centric way, thereby eliminating the necessity for system-specific customizations. To assess the performance of Mobile-Agent, we introduced Mobile-Eval, a benchmark for evaluating mobile device operations. Based on Mobile-Eval, we conducted a comprehensive evaluation of Mobile-Agent. The experimental results indicate that Mobile-Agent achieved remarkable accuracy and completion rates. Even with challenging instructions, such as multi-app operations, Mobile-Agent can still complete the requirements. Code and model will be open-sourced at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2401.16158: Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2401.16158v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Mobile device agent based on Multimodal Large Language Models (MLLM) is becoming a popular application. In this paper, we introduce Mobile-Agent, an autonomous multi-modal mobile device agent. Mobile-Agent first leverages visual perception tools to accurately identify and locate both the visual and textual elements within the app's front-end interface. Based on the perceived vision context, it then autonomously plans and decomposes the complex operation task, and navigates the mobile Apps through operations step by step. Different from previous solutions that rely on XML files of Apps or mobile system metadata, Mobile-Agent allows for greater adaptability across diverse mobile operating environments in a vision-centric way, thereby eliminating the necessity for system-specific customizations. To assess the performance of Mobile-Agent, we introduced Mobile-Eval, a benchmark for evaluating mobile device operations. Based on Mobile-Eval, we conducted a comprehensive evaluation of Mobile-Agent. The experimental results indicate that Mobile-Agent achieved remarkable accuracy and completion rates. Even with challenging instructions, such as multi-app operations, Mobile-Agent can still complete the requirements. Code and model will be open-sourced at https://github.com/X-PLUG/MobileAgent."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with..."
+    ],
+    "twitter:description": [
+      "Mobile device agent based on Multimodal Large Language Models (MLLM) is becoming a popular application. In this paper, we introduce Mobile-Agent, an autonomous multi-modal mobile device agent...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception"
+    ],
+    "citation_author": [
+      "Wang, Junyang",
+      "Xu, Haiyang",
+      "Ye, Jiabo",
+      "Yan, Ming",
+      "Shen, Weizhou",
+      "Zhang, Ji",
+      "Huang, Fei",
+      "Sang, Jitao"
+    ],
+    "citation_date": [
+      "2024/01/29"
+    ],
+    "citation_online_date": [
+      "2024/04/18"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2401.16158"
+    ],
+    "citation_arxiv_id": [
+      "2401.16158"
+    ],
+    "citation_abstract": [
+      "Mobile device agent based on Multimodal Large Language Models (MLLM) is becoming a popular application. In this paper, we introduce Mobile-Agent, an autonomous multi-modal mobile device agent. Mobile-Agent first leverages visual perception tools to accurately identify and locate both the visual and textual elements within the app's front-end interface. Based on the perceived vision context, it then autonomously plans and decomposes the complex operation task, and navigates the mobile Apps through operations step by step. Different from previous solutions that rely on XML files of Apps or mobile system metadata, Mobile-Agent allows for greater adaptability across diverse mobile operating environments in a vision-centric way, thereby eliminating the necessity for system-specific customizations. To assess the performance of Mobile-Agent, we introduced Mobile-Eval, a benchmark for evaluating mobile device operations. Based on Mobile-Eval, we conducted a comprehensive evaluation of Mobile-Agent. The experimental results indicate that Mobile-Agent achieved remarkable accuracy and completion rates. Even with challenging instructions, such as multi-app operations, Mobile-Agent can still complete the requirements. Code and model will be open-sourced at https://github.com/X-PLUG/MobileAgent."
+    ]
+  },
+  "html_sha256": "c66e9fa5b167d5cb9cfb7996fda4c0623500d2df0d5b0e20e68596ffe6671898",
+  "evidence_html": "evidence/325ffb9bbaa8fb1d1997.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

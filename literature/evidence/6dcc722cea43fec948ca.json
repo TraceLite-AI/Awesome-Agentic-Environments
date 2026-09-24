@@ -1,0 +1,136 @@
+{
+  "url": "https://arxiv.org/abs/2510.08529",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.08529",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards. Xiangyuan Xue et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.08529",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:05.722939+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.08529",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43132,
+  "title": "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards",
+  "authors": [
+    "Xue, Xiangyuan",
+    "Zhou, Yifan",
+    "Zhang, Guibin",
+    "Zhang, Zaibin",
+    "Li, Yijiang",
+    "Zhang, Chen",
+    "Yin, Zhenfei",
+    "Torr, Philip",
+    "Ouyang, Wanli",
+    "Bai, Lei"
+  ],
+  "first_author": "Xue, Xiangyuan",
+  "year": 2025,
+  "source_date": "2025/10/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.08529",
+  "abstract": "Self-evolution is a central research topic in enabling large language model (LLM)-based agents to continually improve their capabilities after pretraining. Recent research has witnessed a transition from reinforcement learning (RL)-free to RL-based methods. Current RL-based methods either rely on dense external reward signals or extract intrinsic reward signals from LLMs themselves. However, these approaches diverge from the self-evolution mechanisms observed in human intelligence, where individuals learn and improve through mutual discussion and collaboration. In this work, we introduce Co-Evolving Multi-Agent Systems (CoMAS), a novel framework that enables agents to improve autonomously by learning from inter-agent interactions without external supervision. CoMAS generates intrinsic rewards from rich discussion dynamics, employs an LLM-as-a-judge mechanism to formulate these rewards, and optimizes each agent's policy through RL, thereby enabling decentralized and scalable co-evolution. Experimental results demonstrate that CoMAS consistently outperforms untrained agents and achieves state-of-the-art performance across most evaluation settings. Ablation studies confirm the necessity of interaction-based reward signals and reveal promising scalability as the number and diversity of agents increase. These findings establish CoMAS as a novel and effective paradigm for self-evolution in LLM-based agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.08529: CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.08529v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Self-evolution is a central research topic in enabling large language model (LLM)-based agents to continually improve their capabilities after pretraining. Recent research has witnessed a transition from reinforcement learning (RL)-free to RL-based methods. Current RL-based methods either rely on dense external reward signals or extract intrinsic reward signals from LLMs themselves. However, these approaches diverge from the self-evolution mechanisms observed in human intelligence, where individuals learn and improve through mutual discussion and collaboration. In this work, we introduce Co-Evolving Multi-Agent Systems (CoMAS), a novel framework that enables agents to improve autonomously by learning from inter-agent interactions without external supervision. CoMAS generates intrinsic rewards from rich discussion dynamics, employs an LLM-as-a-judge mechanism to formulate these rewards, and optimizes each agent's policy through RL, thereby enabling decentralized and scalable co-evolution. Experimental results demonstrate that CoMAS consistently outperforms untrained agents and achieves state-of-the-art performance across most evaluation settings. Ablation studies confirm the necessity of interaction-based reward signals and reveal promising scalability as the number and diversity of agents increase. These findings establish CoMAS as a novel and effective paradigm for self-evolution in LLM-based agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards"
+    ],
+    "twitter:description": [
+      "Self-evolution is a central research topic in enabling large language model (LLM)-based agents to continually improve their capabilities after pretraining. Recent research has witnessed a..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards"
+    ],
+    "citation_author": [
+      "Xue, Xiangyuan",
+      "Zhou, Yifan",
+      "Zhang, Guibin",
+      "Zhang, Zaibin",
+      "Li, Yijiang",
+      "Zhang, Chen",
+      "Yin, Zhenfei",
+      "Torr, Philip",
+      "Ouyang, Wanli",
+      "Bai, Lei"
+    ],
+    "citation_date": [
+      "2025/10/09"
+    ],
+    "citation_online_date": [
+      "2026/02/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.08529"
+    ],
+    "citation_arxiv_id": [
+      "2510.08529"
+    ],
+    "citation_abstract": [
+      "Self-evolution is a central research topic in enabling large language model (LLM)-based agents to continually improve their capabilities after pretraining. Recent research has witnessed a transition from reinforcement learning (RL)-free to RL-based methods. Current RL-based methods either rely on dense external reward signals or extract intrinsic reward signals from LLMs themselves. However, these approaches diverge from the self-evolution mechanisms observed in human intelligence, where individuals learn and improve through mutual discussion and collaboration. In this work, we introduce Co-Evolving Multi-Agent Systems (CoMAS), a novel framework that enables agents to improve autonomously by learning from inter-agent interactions without external supervision. CoMAS generates intrinsic rewards from rich discussion dynamics, employs an LLM-as-a-judge mechanism to formulate these rewards, and optimizes each agent's policy through RL, thereby enabling decentralized and scalable co-evolution. Experimental results demonstrate that CoMAS consistently outperforms untrained agents and achieves state-of-the-art performance across most evaluation settings. Ablation studies confirm the necessity of interaction-based reward signals and reveal promising scalability as the number and diversity of agents increase. These findings establish CoMAS as a novel and effective paradigm for self-evolution in LLM-based agents."
+    ]
+  },
+  "html_sha256": "ebd97f26d348cfe5e4305eefb23a3467e67e90b37c3da5589f9c73ce65a538ba",
+  "evidence_html": "evidence/6dcc722cea43fec948ca.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

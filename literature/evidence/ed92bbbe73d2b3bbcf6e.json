@@ -1,0 +1,75 @@
+{
+  "url": "https://proceedings.neurips.cc/paper/2021/hash/0e915db6326b6fb6a3c56546980a8c93-Abstract.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.neurips.cc/paper/2021/hash/0e915db6326b6fb6a3c56546980a8c93-Abstract.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Environment evolution/curriculum/unsupervised environment design",
+      "title_hint": "Replay-guided adversarial environment design",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.neurips.cc/paper/2021/hash/0e915db6326b6fb6a3c56546980a8c93-Abstract.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:53.157784+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.neurips.cc/paper/2021/hash/0e915db6326b6fb6a3c56546980a8c93-Abstract.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10037,
+  "title": "Replay-Guided Adversarial Environment Design",
+  "authors": [
+    "Jiang, Minqi",
+    "Dennis, Michael",
+    "Parker-Holder, Jack",
+    "Foerster, Jakob",
+    "Grefenstette, Edward",
+    "Rocktäschel, Tim"
+  ],
+  "first_author": "Jiang, Minqi",
+  "year": 2021,
+  "source_date": "2021-12-06",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent's capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR$^{\\perp}$, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR$^{\\perp}$ improves the performance of PAIRED, from which it inherited its theoretical framework.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "Replay-Guided Adversarial Environment Design"
+    ],
+    "citation_author": [
+      "Jiang, Minqi",
+      "Dennis, Michael",
+      "Parker-Holder, Jack",
+      "Foerster, Jakob",
+      "Grefenstette, Edward",
+      "Rocktäschel, Tim"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "34"
+    ],
+    "citation_firstpage": [
+      "1884"
+    ],
+    "citation_lastpage": [
+      "1897"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2021/file/0e915db6326b6fb6a3c56546980a8c93-Paper.pdf"
+    ],
+    "citation_publication_date": [
+      "2021-12-06"
+    ]
+  },
+  "html_sha256": "9d5c3a850d5754bfe42fec112fc94b2c4c058908cf8a3485d42cc84bab690236",
+  "evidence_html": "evidence/ed92bbbe73d2b3bbcf6e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

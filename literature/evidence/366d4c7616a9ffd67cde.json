@@ -1,0 +1,123 @@
+{
+  "url": "https://arxiv.org/abs/2607.10569",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2607.10569",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "When Does Restricting a Coding Agent to execute_code Help? A Regime × Agent-Design Ablation",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2607.10569",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:19.916021+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2607.10569",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42848,
+  "title": "When Does Restricting a Coding Agent to execute_code Help? A Regime $\\times$ Agent-Design Ablation",
+  "authors": [
+    "Yang, Hong",
+    "Yu, Qi",
+    "Desell, Travis"
+  ],
+  "first_author": "Yang, Hong",
+  "year": 2026,
+  "source_date": "2026/07/12",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2607.10569",
+  "abstract": "Modern coding agents expose multiple tool surfaces -- IDE primitives, bash, and Model Context Protocol (MCP) code-execution -- and the field has shipped three contradictory claims about which one matters. We run the missing crossed comparison: an integrity-clean three-arm ablation (baseline / bash_only / code_only) on synthetic computation tasks and SWE-bench Mini modification tasks, holding model, harness, and prompts fixed, with two agents (Claude Code, OpenAI Codex CLI) so the comparison spans both regime and agent-design axes. Across the four resulting (regime, agent) cells, restricting the agent to a single execute_code MCP tool is cheaper than -- or statistically tied with -- its cheapest tool-rich rival in three cells (significantly on Artifact/Claude and SWE-bench/Codex; directionally on Artifact/Codex), with pass rates statistically tied within each cell. The lone exception is SWE-bench/Claude, where code_only is directionally costlier (+14.4%, not significant); a conditional-cost analysis localizes that gap to failure-cost on doomed-run trajectories, not a per-edit tax on successful runs. Two implications: the cheapest tool surface is jointly determined by task regime and agent design rather than by either axis alone, and the headline cost signal lives in cache-adjusted cost -- not pass rate, which is invariant across surfaces at the model sizes we evaluate. The benchmark harness, task suite, and analysis code are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2607.10569: When Does Restricting a Coding Agent to execute_code Help? A Regime $\\times$ Agent-Design Ablation"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "When Does Restricting a Coding Agent to execute_code Help? A Regime $\\times$ Agent-Design Ablation"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2607.10569v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Modern coding agents expose multiple tool surfaces -- IDE primitives, bash, and Model Context Protocol (MCP) code-execution -- and the field has shipped three contradictory claims about which one matters. We run the missing crossed comparison: an integrity-clean three-arm ablation (baseline / bash_only / code_only) on synthetic computation tasks and SWE-bench Mini modification tasks, holding model, harness, and prompts fixed, with two agents (Claude Code, OpenAI Codex CLI) so the comparison spans both regime and agent-design axes. Across the four resulting (regime, agent) cells, restricting the agent to a single execute_code MCP tool is cheaper than -- or statistically tied with -- its cheapest tool-rich rival in three cells (significantly on Artifact/Claude and SWE-bench/Codex; directionally on Artifact/Codex), with pass rates statistically tied within each cell. The lone exception is SWE-bench/Claude, where code_only is directionally costlier (+14.4%, not significant); a conditional-cost analysis localizes that gap to failure-cost on doomed-run trajectories, not a per-edit tax on successful runs. Two implications: the cheapest tool surface is jointly determined by task regime and agent design rather than by either axis alone, and the headline cost signal lives in cache-adjusted cost -- not pass rate, which is invariant across surfaces at the model sizes we evaluate. The benchmark harness, task suite, and analysis code are available at https://github.com/hyang0129/onlycodes."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "When Does Restricting a Coding Agent to execute_code Help? A..."
+    ],
+    "twitter:description": [
+      "Modern coding agents expose multiple tool surfaces -- IDE primitives, bash, and Model Context Protocol (MCP) code-execution -- and the field has shipped three contradictory claims about which one..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "When Does Restricting a Coding Agent to execute_code Help? A Regime $\\times$ Agent-Design Ablation"
+    ],
+    "citation_author": [
+      "Yang, Hong",
+      "Yu, Qi",
+      "Desell, Travis"
+    ],
+    "citation_date": [
+      "2026/07/12"
+    ],
+    "citation_online_date": [
+      "2026/07/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2607.10569"
+    ],
+    "citation_arxiv_id": [
+      "2607.10569"
+    ],
+    "citation_abstract": [
+      "Modern coding agents expose multiple tool surfaces -- IDE primitives, bash, and Model Context Protocol (MCP) code-execution -- and the field has shipped three contradictory claims about which one matters. We run the missing crossed comparison: an integrity-clean three-arm ablation (baseline / bash_only / code_only) on synthetic computation tasks and SWE-bench Mini modification tasks, holding model, harness, and prompts fixed, with two agents (Claude Code, OpenAI Codex CLI) so the comparison spans both regime and agent-design axes. Across the four resulting (regime, agent) cells, restricting the agent to a single execute_code MCP tool is cheaper than -- or statistically tied with -- its cheapest tool-rich rival in three cells (significantly on Artifact/Claude and SWE-bench/Codex; directionally on Artifact/Codex), with pass rates statistically tied within each cell. The lone exception is SWE-bench/Claude, where code_only is directionally costlier (+14.4%, not significant); a conditional-cost analysis localizes that gap to failure-cost on doomed-run trajectories, not a per-edit tax on successful runs. Two implications: the cheapest tool surface is jointly determined by task regime and agent design rather than by either axis alone, and the headline cost signal lives in cache-adjusted cost -- not pass rate, which is invariant across surfaces at the model sizes we evaluate. The benchmark harness, task suite, and analysis code are available at https://github.com/hyang0129/onlycodes."
+    ]
+  },
+  "html_sha256": "77e5730e7137bfe79df7c101bf51b7d47b588d7dbdfc8079c8570679c2225e48",
+  "evidence_html": "evidence/366d4c7616a9ffd67cde.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

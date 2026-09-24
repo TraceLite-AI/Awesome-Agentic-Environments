@@ -1,0 +1,132 @@
+{
+  "url": "https://arxiv.org/abs/1912.01588",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/1912.01588",
+      "discovery_url": "https://arxiv.org/abs/1912.01588",
+      "topic": "Open-ended learning/procedural environment evolution",
+      "title_hint": "Leveraging Procedural Generation to Benchmark Reinforcement Learning",
+      "candidate_file": "candidates_environment.jsonl"
+    },
+    {
+      "url": "https://arxiv.org/abs/1912.01588",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-30",
+      "topic": "RL 基础设施与产业",
+      "title_hint": "Cobbe et al. Leveraging Procedural Generation to Benchmark Reinforcement Learning. arXiv:1912.01588.",
+      "existing_reference_number": 30,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/1912.01588",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:09.253039+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/1912.01588",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41624,
+  "title": "Leveraging Procedural Generation to Benchmark Reinforcement Learning",
+  "authors": [
+    "Cobbe, Karl",
+    "Hesse, Christopher",
+    "Hilton, Jacob",
+    "Schulman, John"
+  ],
+  "first_author": "Cobbe, Karl",
+  "year": 2019,
+  "source_date": "2019/12/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "1912.01588",
+  "abstract": "We introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning. We believe that the community will benefit from increased access to high quality training environments, and we provide detailed experimental protocols for using this benchmark. We empirically demonstrate that diverse environment distributions are essential to adequately train and evaluate RL agents, thereby motivating the extensive use of procedural content generation. We then use this benchmark to investigate the effects of scaling model size, finding that larger models significantly improve both sample efficiency and generalization.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 1912.01588: Leveraging Procedural Generation to Benchmark Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Leveraging Procedural Generation to Benchmark Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/1912.01588v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning. We believe that the community will benefit from increased access to high quality training environments, and we provide detailed experimental protocols for using this benchmark. We empirically demonstrate that diverse environment distributions are essential to adequately train and evaluate RL agents, thereby motivating the extensive use of procedural content generation. We then use this benchmark to investigate the effects of scaling model size, finding that larger models significantly improve both sample efficiency and generalization."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Leveraging Procedural Generation to Benchmark Reinforcement Learning"
+    ],
+    "twitter:description": [
+      "We introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning. We believe..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Leveraging Procedural Generation to Benchmark Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Cobbe, Karl",
+      "Hesse, Christopher",
+      "Hilton, Jacob",
+      "Schulman, John"
+    ],
+    "citation_date": [
+      "2019/12/03"
+    ],
+    "citation_online_date": [
+      "2020/07/26"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1912.01588"
+    ],
+    "citation_arxiv_id": [
+      "1912.01588"
+    ],
+    "citation_abstract": [
+      "We introduce Procgen Benchmark, a suite of 16 procedurally generated game-like environments designed to benchmark both sample efficiency and generalization in reinforcement learning. We believe that the community will benefit from increased access to high quality training environments, and we provide detailed experimental protocols for using this benchmark. We empirically demonstrate that diverse environment distributions are essential to adequately train and evaluate RL agents, thereby motivating the extensive use of procedural content generation. We then use this benchmark to investigate the effects of scaling model size, finding that larger models significantly improve both sample efficiency and generalization."
+    ]
+  },
+  "html_sha256": "7c97eacbb8a3c477134fc5a478c2979e19e294cd08919d9a4d9d5b9ff74a6e5a",
+  "evidence_html": "evidence/a56dfc4c94e6c96e901e.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,154 @@
+{
+  "url": "https://arxiv.org/abs/2508.13009",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.13009",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Matrix-game 2.0: An open-source, real-time, and streaming interactive world model",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.13009",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:42.892771+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.13009",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44723,
+  "title": "Matrix-game 2.0: An open-source real-time and streaming interactive world model",
+  "authors": [
+    "He, Xianglong",
+    "Peng, Chunli",
+    "Liu, Zexiang",
+    "Wang, Boyang",
+    "Zhang, Yifan",
+    "Cui, Qi",
+    "Kang, Fei",
+    "Jiang, Biao",
+    "An, Mengyin",
+    "Ren, Yangyang",
+    "Xu, Baixin",
+    "Guo, Hao-Xiang",
+    "Gong, Kaixiong",
+    "Wu, Size",
+    "Li, Wei",
+    "Song, Xuchen",
+    "Liu, Yang",
+    "Li, Yangguang",
+    "Zhou, Yahui"
+  ],
+  "first_author": "He, Xianglong",
+  "year": 2025,
+  "source_date": "2025/08/18",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.13009",
+  "abstract": "Recent advances in interactive video generations have demonstrated diffusion model's potential as world models by capturing complex physical dynamics and interactive behaviors. However, existing interactive world models depend on bidirectional attention and lengthy inference steps, severely limiting real-time performance. Consequently, they are hard to simulate real-world dynamics, where outcomes must update instantaneously based on historical context and current actions. To address this, we present Matrix-Game 2.0, an interactive world model generates long videos on-the-fly via few-step auto-regressive diffusion. Our framework consists of three key components: (1) A scalable data production pipeline for Unreal Engine and GTA5 environments to effectively produce massive amounts (about 1200 hours) of video data with diverse interaction annotations; (2) An action injection module that enables frame-level mouse and keyboard inputs as interactive conditions; (3) A few-step distillation based on the casual architecture for real-time and streaming video generation. Matrix Game 2.0 can generate high-quality minute-level videos across diverse scenes at an ultra-fast speed of 25 FPS. We open-source our model weights and codebase to advance research in interactive world modeling.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.13009: Matrix-game 2.0: An open-source real-time and streaming interactive world model"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Matrix-game 2.0: An open-source real-time and streaming interactive world model"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.13009v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in interactive video generations have demonstrated diffusion model's potential as world models by capturing complex physical dynamics and interactive behaviors. However, existing interactive world models depend on bidirectional attention and lengthy inference steps, severely limiting real-time performance. Consequently, they are hard to simulate real-world dynamics, where outcomes must update instantaneously based on historical context and current actions. To address this, we present Matrix-Game 2.0, an interactive world model generates long videos on-the-fly via few-step auto-regressive diffusion. Our framework consists of three key components: (1) A scalable data production pipeline for Unreal Engine and GTA5 environments to effectively produce massive amounts (about 1200 hours) of video data with diverse interaction annotations; (2) An action injection module that enables frame-level mouse and keyboard inputs as interactive conditions; (3) A few-step distillation based on the casual architecture for real-time and streaming video generation. Matrix Game 2.0 can generate high-quality minute-level videos across diverse scenes at an ultra-fast speed of 25 FPS. We open-source our model weights and codebase to advance research in interactive world modeling."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Matrix-game 2.0: An open-source real-time and streaming..."
+    ],
+    "twitter:description": [
+      "Recent advances in interactive video generations have demonstrated diffusion model's potential as world models by capturing complex physical dynamics and interactive behaviors. However, existing..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Matrix-game 2.0: An open-source real-time and streaming interactive world model"
+    ],
+    "citation_author": [
+      "He, Xianglong",
+      "Peng, Chunli",
+      "Liu, Zexiang",
+      "Wang, Boyang",
+      "Zhang, Yifan",
+      "Cui, Qi",
+      "Kang, Fei",
+      "Jiang, Biao",
+      "An, Mengyin",
+      "Ren, Yangyang",
+      "Xu, Baixin",
+      "Guo, Hao-Xiang",
+      "Gong, Kaixiong",
+      "Wu, Size",
+      "Li, Wei",
+      "Song, Xuchen",
+      "Liu, Yang",
+      "Li, Yangguang",
+      "Zhou, Yahui"
+    ],
+    "citation_date": [
+      "2025/08/18"
+    ],
+    "citation_online_date": [
+      "2026/04/07"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.13009"
+    ],
+    "citation_arxiv_id": [
+      "2508.13009"
+    ],
+    "citation_abstract": [
+      "Recent advances in interactive video generations have demonstrated diffusion model's potential as world models by capturing complex physical dynamics and interactive behaviors. However, existing interactive world models depend on bidirectional attention and lengthy inference steps, severely limiting real-time performance. Consequently, they are hard to simulate real-world dynamics, where outcomes must update instantaneously based on historical context and current actions. To address this, we present Matrix-Game 2.0, an interactive world model generates long videos on-the-fly via few-step auto-regressive diffusion. Our framework consists of three key components: (1) A scalable data production pipeline for Unreal Engine and GTA5 environments to effectively produce massive amounts (about 1200 hours) of video data with diverse interaction annotations; (2) An action injection module that enables frame-level mouse and keyboard inputs as interactive conditions; (3) A few-step distillation based on the casual architecture for real-time and streaming video generation. Matrix Game 2.0 can generate high-quality minute-level videos across diverse scenes at an ultra-fast speed of 25 FPS. We open-source our model weights and codebase to advance research in interactive world modeling."
+    ]
+  },
+  "html_sha256": "9ac43fcc33966d0cc2d4c3be1a999e7e708a2c633d5d854100906848d2350209",
+  "evidence_html": "evidence/4587e826aac28be8f09c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

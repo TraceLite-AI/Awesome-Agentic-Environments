@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2308.03427",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.03427",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.03427",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:48.271354+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.03427",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42665,
+  "title": "TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage",
+  "authors": [
+    "Ruan, Jingqing",
+    "Chen, Yihong",
+    "Zhang, Bin",
+    "Xu, Zhiwei",
+    "Bao, Tianpeng",
+    "Du, Guoqing",
+    "Shi, Shiwei",
+    "Mao, Hangyu",
+    "Li, Ziyue",
+    "Zeng, Xingyu",
+    "Zhao, Rui"
+  ],
+  "first_author": "Ruan, Jingqing",
+  "year": 2023,
+  "source_date": "2023/08/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.03427",
+  "abstract": "With recent advancements in natural language processing, Large Language Models (LLMs) have emerged as powerful tools for various real-world applications. Despite their prowess, the intrinsic generative abilities of LLMs may prove insufficient for handling complex tasks which necessitate a combination of task planning and the usage of external tools. In this paper, we first propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate problems. Within this framework, we design two distinct types of agents (i.e., one-step agent and sequential agent) to execute the inference process. Subsequently, we instantiate the framework using various LLMs and evaluate their Task Planning and Tool Usage (TPTU) abilities on typical tasks. By highlighting key findings and challenges, our goal is to provide a helpful resource for researchers and practitioners to leverage the power of LLMs in their AI applications. Our study emphasizes the substantial potential of these models, while also identifying areas that need more investigation and improvement.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.03427: TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.03427v4"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "With recent advancements in natural language processing, Large Language Models (LLMs) have emerged as powerful tools for various real-world applications. Despite their prowess, the intrinsic generative abilities of LLMs may prove insufficient for handling complex tasks which necessitate a combination of task planning and the usage of external tools. In this paper, we first propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate problems. Within this framework, we design two distinct types of agents (i.e., one-step agent and sequential agent) to execute the inference process. Subsequently, we instantiate the framework using various LLMs and evaluate their Task Planning and Tool Usage (TPTU) abilities on typical tasks. By highlighting key findings and challenges, our goal is to provide a helpful resource for researchers and practitioners to leverage the power of LLMs in their AI applications. Our study emphasizes the substantial potential of these models, while also identifying areas that need more investigation and improvement."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage"
+    ],
+    "twitter:description": [
+      "With recent advancements in natural language processing, Large Language Models (LLMs) have emerged as powerful tools for various real-world applications. Despite their prowess, the intrinsic..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage"
+    ],
+    "citation_author": [
+      "Ruan, Jingqing",
+      "Chen, Yihong",
+      "Zhang, Bin",
+      "Xu, Zhiwei",
+      "Bao, Tianpeng",
+      "Du, Guoqing",
+      "Shi, Shiwei",
+      "Mao, Hangyu",
+      "Li, Ziyue",
+      "Zeng, Xingyu",
+      "Zhao, Rui"
+    ],
+    "citation_date": [
+      "2023/08/07"
+    ],
+    "citation_online_date": [
+      "2025/12/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.03427"
+    ],
+    "citation_arxiv_id": [
+      "2308.03427"
+    ],
+    "citation_abstract": [
+      "With recent advancements in natural language processing, Large Language Models (LLMs) have emerged as powerful tools for various real-world applications. Despite their prowess, the intrinsic generative abilities of LLMs may prove insufficient for handling complex tasks which necessitate a combination of task planning and the usage of external tools. In this paper, we first propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate problems. Within this framework, we design two distinct types of agents (i.e., one-step agent and sequential agent) to execute the inference process. Subsequently, we instantiate the framework using various LLMs and evaluate their Task Planning and Tool Usage (TPTU) abilities on typical tasks. By highlighting key findings and challenges, our goal is to provide a helpful resource for researchers and practitioners to leverage the power of LLMs in their AI applications. Our study emphasizes the substantial potential of these models, while also identifying areas that need more investigation and improvement."
+    ]
+  },
+  "html_sha256": "3f3e4d94cb31a992dffa973dde65bf9509f5d353be40fbbd10bd99fe18754947",
+  "evidence_html": "evidence/2f9489852b6c5bbb3a7a.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

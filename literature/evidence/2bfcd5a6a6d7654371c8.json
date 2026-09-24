@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2409.00135",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2409.00135",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "HoneyComb: A flexible LLM-based agent system for materials science",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2409.00135",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:36.260248+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2409.00135",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42398,
+  "title": "HoneyComb: A Flexible LLM-Based Agent System for Materials Science",
+  "authors": [
+    "Zhang, Huan",
+    "Song, Yu",
+    "Hou, Ziyu",
+    "Miret, Santiago",
+    "Liu, Bang"
+  ],
+  "first_author": "Zhang, Huan",
+  "year": 2024,
+  "source_date": "2024/08/29",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2409.00135",
+  "abstract": "The emergence of specialized large language models (LLMs) has shown promise in addressing complex tasks for materials science. Many LLMs, however, often struggle with distinct complexities of material science tasks, such as materials science computational tasks, and often rely heavily on outdated implicit knowledge, leading to inaccuracies and hallucinations. To address these challenges, we introduce HoneyComb, the first LLM-based agent system specifically designed for materials science. HoneyComb leverages a novel, high-quality materials science knowledge base (MatSciKB) and a sophisticated tool hub (ToolHub) to enhance its reasoning and computational capabilities tailored to materials science. MatSciKB is a curated, structured knowledge collection based on reliable literature, while ToolHub employs an Inductive Tool Construction method to generate, decompose, and refine API tools for materials science. Additionally, HoneyComb leverages a retriever module that adaptively selects the appropriate knowledge source or tools for specific tasks, thereby ensuring accuracy and relevance. Our results demonstrate that HoneyComb significantly outperforms baseline models across various tasks in materials science, effectively bridging the gap between current LLM capabilities and the specialized needs of this domain. Furthermore, our adaptable framework can be easily extended to other scientific domains, highlighting its potential for broad applicability in advancing scientific research and applications.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2409.00135: HoneyComb: A Flexible LLM-Based Agent System for Materials Science"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "HoneyComb: A Flexible LLM-Based Agent System for Materials Science"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2409.00135v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The emergence of specialized large language models (LLMs) has shown promise in addressing complex tasks for materials science. Many LLMs, however, often struggle with distinct complexities of material science tasks, such as materials science computational tasks, and often rely heavily on outdated implicit knowledge, leading to inaccuracies and hallucinations. To address these challenges, we introduce HoneyComb, the first LLM-based agent system specifically designed for materials science. HoneyComb leverages a novel, high-quality materials science knowledge base (MatSciKB) and a sophisticated tool hub (ToolHub) to enhance its reasoning and computational capabilities tailored to materials science. MatSciKB is a curated, structured knowledge collection based on reliable literature, while ToolHub employs an Inductive Tool Construction method to generate, decompose, and refine API tools for materials science. Additionally, HoneyComb leverages a retriever module that adaptively selects the appropriate knowledge source or tools for specific tasks, thereby ensuring accuracy and relevance. Our results demonstrate that HoneyComb significantly outperforms baseline models across various tasks in materials science, effectively bridging the gap between current LLM capabilities and the specialized needs of this domain. Furthermore, our adaptable framework can be easily extended to other scientific domains, highlighting its potential for broad applicability in advancing scientific research and applications."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "HoneyComb: A Flexible LLM-Based Agent System for Materials Science"
+    ],
+    "twitter:description": [
+      "The emergence of specialized large language models (LLMs) has shown promise in addressing complex tasks for materials science. Many LLMs, however, often struggle with distinct complexities of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "HoneyComb: A Flexible LLM-Based Agent System for Materials Science"
+    ],
+    "citation_author": [
+      "Zhang, Huan",
+      "Song, Yu",
+      "Hou, Ziyu",
+      "Miret, Santiago",
+      "Liu, Bang"
+    ],
+    "citation_date": [
+      "2024/08/29"
+    ],
+    "citation_online_date": [
+      "2024/08/29"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2409.00135"
+    ],
+    "citation_arxiv_id": [
+      "2409.00135"
+    ],
+    "citation_abstract": [
+      "The emergence of specialized large language models (LLMs) has shown promise in addressing complex tasks for materials science. Many LLMs, however, often struggle with distinct complexities of material science tasks, such as materials science computational tasks, and often rely heavily on outdated implicit knowledge, leading to inaccuracies and hallucinations. To address these challenges, we introduce HoneyComb, the first LLM-based agent system specifically designed for materials science. HoneyComb leverages a novel, high-quality materials science knowledge base (MatSciKB) and a sophisticated tool hub (ToolHub) to enhance its reasoning and computational capabilities tailored to materials science. MatSciKB is a curated, structured knowledge collection based on reliable literature, while ToolHub employs an Inductive Tool Construction method to generate, decompose, and refine API tools for materials science. Additionally, HoneyComb leverages a retriever module that adaptively selects the appropriate knowledge source or tools for specific tasks, thereby ensuring accuracy and relevance. Our results demonstrate that HoneyComb significantly outperforms baseline models across various tasks in materials science, effectively bridging the gap between current LLM capabilities and the specialized needs of this domain. Furthermore, our adaptable framework can be easily extended to other scientific domains, highlighting its potential for broad applicability in advancing scientific research and applications."
+    ]
+  },
+  "html_sha256": "18b90bd44d04d725fec450b40437c21f7352892a45db3d7266b19fdb6e1bc039",
+  "evidence_html": "evidence/2bfcd5a6a6d7654371c8.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

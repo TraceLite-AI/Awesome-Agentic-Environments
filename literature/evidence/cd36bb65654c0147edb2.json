@@ -1,0 +1,242 @@
+{
+  "url": "https://arxiv.org/abs/2212.09251",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2212.09251",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2212.09251",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:57:40.709077+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2212.09251",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 52019,
+  "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+  "authors": [
+    "Perez, Ethan",
+    "Ringer, Sam",
+    "Lukošiūtė, Kamilė",
+    "Nguyen, Karina",
+    "Chen, Edwin",
+    "Heiner, Scott",
+    "Pettit, Craig",
+    "Olsson, Catherine",
+    "Kundu, Sandipan",
+    "Kadavath, Saurav",
+    "Jones, Andy",
+    "Chen, Anna",
+    "Mann, Ben",
+    "Israel, Brian",
+    "Seethor, Bryan",
+    "McKinnon, Cameron",
+    "Olah, Christopher",
+    "Yan, Da",
+    "Amodei, Daniela",
+    "Amodei, Dario",
+    "Drain, Dawn",
+    "Li, Dustin",
+    "Tran-Johnson, Eli",
+    "Khundadze, Guro",
+    "Kernion, Jackson",
+    "Landis, James",
+    "Kerr, Jamie",
+    "Mueller, Jared",
+    "Hyun, Jeeyoon",
+    "Landau, Joshua",
+    "Ndousse, Kamal",
+    "Goldberg, Landon",
+    "Lovitt, Liane",
+    "Lucas, Martin",
+    "Sellitto, Michael",
+    "Zhang, Miranda",
+    "Kingsland, Neerav",
+    "Elhage, Nelson",
+    "Joseph, Nicholas",
+    "Mercado, Noemí",
+    "DasSarma, Nova",
+    "Rausch, Oliver",
+    "Larson, Robin",
+    "McCandlish, Sam",
+    "Johnston, Scott",
+    "Kravec, Shauna",
+    "Showk, Sheer El",
+    "Lanham, Tamera",
+    "Telleen-Lawton, Timothy",
+    "Brown, Tom",
+    "Henighan, Tom",
+    "Hume, Tristan",
+    "Bai, Yuntao",
+    "Hatfield-Dodds, Zac",
+    "Clark, Jack",
+    "Bowman, Samuel R.",
+    "Askell, Amanda",
+    "Grosse, Roger",
+    "Hernandez, Danny",
+    "Ganguli, Deep",
+    "Hubinger, Evan",
+    "Schiefer, Nicholas",
+    "Kaplan, Jared"
+  ],
+  "first_author": "Perez, Ethan",
+  "year": 2022,
+  "source_date": "2022/12/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2212.09251",
+  "abstract": "As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is time-consuming and expensive) or existing data sources (which are not always available). Here, we automatically generate evaluations with LMs. We explore approaches with varying amounts of human effort, from instructing LMs to write yes/no questions to making complex Winogender schemas with multiple stages of LM-based generation and filtering. Crowdworkers rate the examples as highly relevant and agree with 90-100% of labels, sometimes more so than corresponding human-written datasets. We generate 154 datasets and discover new cases of inverse scaling where LMs get worse with size. Larger LMs repeat back a dialog user's preferred answer (\"sycophancy\") and express greater desire to pursue concerning goals like resource acquisition and goal preservation. We also find some of the first examples of inverse scaling in RL from Human Feedback (RLHF), where more RLHF makes LMs worse. For example, RLHF makes LMs express stronger political views (on gun rights and immigration) and a greater desire to avoid shut down. Overall, LM-written evaluations are high-quality and let us quickly discover many novel LM behaviors.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2212.09251: Discovering Language Model Behaviors with Model-Written Evaluations"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Discovering Language Model Behaviors with Model-Written Evaluations"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2212.09251v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is time-consuming and expensive) or existing data sources (which are not always available). Here, we automatically generate evaluations with LMs. We explore approaches with varying amounts of human effort, from instructing LMs to write yes/no questions to making complex Winogender schemas with multiple stages of LM-based generation and filtering. Crowdworkers rate the examples as highly relevant and agree with 90-100% of labels, sometimes more so than corresponding human-written datasets. We generate 154 datasets and discover new cases of inverse scaling where LMs get worse with size. Larger LMs repeat back a dialog user's preferred answer (\"sycophancy\") and express greater desire to pursue concerning goals like resource acquisition and goal preservation. We also find some of the first examples of inverse scaling in RL from Human Feedback (RLHF), where more RLHF makes LMs worse. For example, RLHF makes LMs express stronger political views (on gun rights and immigration) and a greater desire to avoid shut down. Overall, LM-written evaluations are high-quality and let us quickly discover many novel LM behaviors."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Discovering Language Model Behaviors with Model-Written Evaluations"
+    ],
+    "twitter:description": [
+      "As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Discovering Language Model Behaviors with Model-Written Evaluations"
+    ],
+    "citation_author": [
+      "Perez, Ethan",
+      "Ringer, Sam",
+      "Lukošiūtė, Kamilė",
+      "Nguyen, Karina",
+      "Chen, Edwin",
+      "Heiner, Scott",
+      "Pettit, Craig",
+      "Olsson, Catherine",
+      "Kundu, Sandipan",
+      "Kadavath, Saurav",
+      "Jones, Andy",
+      "Chen, Anna",
+      "Mann, Ben",
+      "Israel, Brian",
+      "Seethor, Bryan",
+      "McKinnon, Cameron",
+      "Olah, Christopher",
+      "Yan, Da",
+      "Amodei, Daniela",
+      "Amodei, Dario",
+      "Drain, Dawn",
+      "Li, Dustin",
+      "Tran-Johnson, Eli",
+      "Khundadze, Guro",
+      "Kernion, Jackson",
+      "Landis, James",
+      "Kerr, Jamie",
+      "Mueller, Jared",
+      "Hyun, Jeeyoon",
+      "Landau, Joshua",
+      "Ndousse, Kamal",
+      "Goldberg, Landon",
+      "Lovitt, Liane",
+      "Lucas, Martin",
+      "Sellitto, Michael",
+      "Zhang, Miranda",
+      "Kingsland, Neerav",
+      "Elhage, Nelson",
+      "Joseph, Nicholas",
+      "Mercado, Noemí",
+      "DasSarma, Nova",
+      "Rausch, Oliver",
+      "Larson, Robin",
+      "McCandlish, Sam",
+      "Johnston, Scott",
+      "Kravec, Shauna",
+      "Showk, Sheer El",
+      "Lanham, Tamera",
+      "Telleen-Lawton, Timothy",
+      "Brown, Tom",
+      "Henighan, Tom",
+      "Hume, Tristan",
+      "Bai, Yuntao",
+      "Hatfield-Dodds, Zac",
+      "Clark, Jack",
+      "Bowman, Samuel R.",
+      "Askell, Amanda",
+      "Grosse, Roger",
+      "Hernandez, Danny",
+      "Ganguli, Deep",
+      "Hubinger, Evan",
+      "Schiefer, Nicholas",
+      "Kaplan, Jared"
+    ],
+    "citation_date": [
+      "2022/12/19"
+    ],
+    "citation_online_date": [
+      "2022/12/19"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2212.09251"
+    ],
+    "citation_arxiv_id": [
+      "2212.09251"
+    ],
+    "citation_abstract": [
+      "As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is time-consuming and expensive) or existing data sources (which are not always available). Here, we automatically generate evaluations with LMs. We explore approaches with varying amounts of human effort, from instructing LMs to write yes/no questions to making complex Winogender schemas with multiple stages of LM-based generation and filtering. Crowdworkers rate the examples as highly relevant and agree with 90-100% of labels, sometimes more so than corresponding human-written datasets. We generate 154 datasets and discover new cases of inverse scaling where LMs get worse with size. Larger LMs repeat back a dialog user's preferred answer (\"sycophancy\") and express greater desire to pursue concerning goals like resource acquisition and goal preservation. We also find some of the first examples of inverse scaling in RL from Human Feedback (RLHF), where more RLHF makes LMs worse. For example, RLHF makes LMs express stronger political views (on gun rights and immigration) and a greater desire to avoid shut down. Overall, LM-written evaluations are high-quality and let us quickly discover many novel LM behaviors."
+    ]
+  },
+  "html_sha256": "613246ee7a2ef21867c58ca2dad4b9c81fe6bc1cb04b1afa7aaf68c0634d5075",
+  "evidence_html": "evidence/cd36bb65654c0147edb2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

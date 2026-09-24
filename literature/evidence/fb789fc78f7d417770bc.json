@@ -1,0 +1,138 @@
+{
+  "url": "https://proceedings.mlr.press/v267/chi25b.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v267/chi25b.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Empowering world models with reflection for embodied video prediction",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v267/chi25b.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:37.555258+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v267/chi25b.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 17385,
+  "title": "Empowering World Models with Reflection for Embodied Video Prediction",
+  "authors": [
+    "Xiaowei Chi",
+    "Chun-Kai Fan",
+    "Hengyuan Zhang",
+    "Xingqun Qi",
+    "Rongyu Zhang",
+    "Anthony Chen",
+    "Chi-Min Chan",
+    "Wei Xue",
+    "Qifeng Liu",
+    "Shanghang Zhang",
+    "Yike Guo"
+  ],
+  "first_author": "Xiaowei Chi",
+  "year": 2025,
+  "source_date": "2025/10/06",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Video generation models have made significant progress in simulating future states, showcasing their potential as world simulators in embodied scenarios. However, existing models often lack robust understanding, limiting their ability to perform multi-step predictions or handle Out-of-Distribution (OOD) scenarios. To address this challenge, we propose the Reflection of Generation (RoG), a set of intermediate reasoning strategies designed to enhance video prediction. It leverages the complementary strengths of pre-trained vision-language and video generation models, enabling them to function as a world model in embodied scenarios. To support RoG, we introduce Embodied Video Anticipation Benchmark(EVA-Bench), a comprehensive benchmark that evaluates embodied world models across diverse tasks and scenarios, utilizing both in-domain and OOD datasets. Building on this foundation, we devise a world model, Embodied Video Anticipator (EVA), that follows a multistage training paradigm to generate high-fidelity video frames and apply an autoregressive strategy to enable adaptive generalization for longer video sequences. Extensive experiments demonstrate the efficacy of EVA in various downstream tasks like video generation and robotics, thereby paving the way for large-scale pre-trained models in real-world video prediction applications. The video demos are available at https://sites.google.com/view/icml-eva.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "Empowering World Models with Reflection for Embodied Video PredictionXiaowei Chi, Chun-Kai Fan, Hengyuan Zhang, Xingqun Qi, Rongyu Zhang,..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "Empowering World Models with Reflection for Embodied Video Prediction"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v267/chi25b.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chi25b/chi25b.pdf"
+    ],
+    "citation_firstpage": [
+      "10383"
+    ],
+    "citation_lastpage": [
+      "10410"
+    ],
+    "citation_author": [
+      "Xiaowei Chi",
+      "Chun-Kai Fan",
+      "Hengyuan Zhang",
+      "Xingqun Qi",
+      "Rongyu Zhang",
+      "Anthony Chen",
+      "Chi-Min Chan",
+      "Wei Xue",
+      "Qifeng Liu",
+      "Shanghang Zhang",
+      "Yike Guo"
+    ],
+    "citation_publication_date": [
+      "2025/10/06"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Empowering World Models with Reflection for Embodied Video Prediction"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Video generation models have made significant progress in simulating future states, showcasing their potential as world simulators in embodied scenarios. How..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "Empowering World Models with Reflection for Embodied Video Prediction"
+    ],
+    "og:description": [
+      "Video generation models have made significant progress in simulating future states, showcasing their potential as world simulators in embodied scenarios. However, existing models often lack robust ..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2025-10-06T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v267/chi25b.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "dbdd189edfd5ed5056ed77bd8471e3107c01f15bfcf73286d01b89f231e4ca6c",
+  "evidence_html": "evidence/fb789fc78f7d417770bc.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,129 @@
+{
+  "url": "https://arxiv.org/abs/2604.24212",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.24212",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.24212",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:28.641045+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.24212",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44332,
+  "title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+  "authors": [
+    "Xiang, Jiahong",
+    "Xu, Xiaoyang",
+    "Chu, Xiaopan",
+    "Tian, Hongliang",
+    "Zhang, Yuqun"
+  ],
+  "first_author": "Xiang, Jiahong",
+  "year": 2026,
+  "source_date": "2026/04/27",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "10.1145/3797126",
+  "arxiv_id": "2604.24212",
+  "abstract": "Autonomous agents for automated program repair represent a promising frontier in software engineering, yet their effectiveness is often hindered by reliance on post-mortem, coarse-grained execution feedback. While integrating traditional interactive debuggers seems a natural solution, their low-level, line-by-line interaction paradigm turns out to be cost-inefficient for LLM-based agents, leading to exhausted budgets and unproductive loops. To mitigate this, we introduce Agent-centric Debugging Interface (ADI), a novel agent-centric debugging interface designed for cost-efficient, end-to-end autonomous interaction. Specifically, Agent-centric Debugging Interface realizes a function-level interaction paradigm, powered by our Frame Lifetime Trace, a comprehensive data structure encapsulating a function's stateful execution trace, and a set of high-level navigational commands. Our extensive evaluation on the SWE-bench benchmark demonstrates the effectiveness and efficiency of ADI. By simply equipping a basic agent with ADI, it successfully resolves 63.8\\% of the tasks on the SWE-bench Verified set, even slightly outperforming the highly optimized and high-investment Claude-Tools agent, at an average cost of USD 1.28 per task with Claude-Sonnet-3.7. Furthermore, we demonstrate ADI's generality by integrating it as a plug-and-play component into existing SOTA agents, delivering consistent gains ranging from 6.2\\% to 18.5\\% on the resolved tasks. These results indicate that Agent-centric Debugging Interface can provide a general and efficient enhancement for existing autonomous agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.24212: Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.24212v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Autonomous agents for automated program repair represent a promising frontier in software engineering, yet their effectiveness is often hindered by reliance on post-mortem, coarse-grained execution feedback. While integrating traditional interactive debuggers seems a natural solution, their low-level, line-by-line interaction paradigm turns out to be cost-inefficient for LLM-based agents, leading to exhausted budgets and unproductive loops. To mitigate this, we introduce Agent-centric Debugging Interface (ADI), a novel agent-centric debugging interface designed for cost-efficient, end-to-end autonomous interaction. Specifically, Agent-centric Debugging Interface realizes a function-level interaction paradigm, powered by our Frame Lifetime Trace, a comprehensive data structure encapsulating a function's stateful execution trace, and a set of high-level navigational commands. Our extensive evaluation on the SWE-bench benchmark demonstrates the effectiveness and efficiency of ADI. By simply equipping a basic agent with ADI, it successfully resolves 63.8\\% of the tasks on the SWE-bench Verified set, even slightly outperforming the highly optimized and high-investment Claude-Tools agent, at an average cost of USD 1.28 per task with Claude-Sonnet-3.7. Furthermore, we demonstrate ADI's generality by integrating it as a plug-and-play component into existing SOTA agents, delivering consistent gains ranging from 6.2\\% to 18.5\\% on the resolved tasks. These results indicate that Agent-centric Debugging Interface can provide a general and efficient enhancement for existing autonomous agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis"
+    ],
+    "twitter:description": [
+      "Autonomous agents for automated program repair represent a promising frontier in software engineering, yet their effectiveness is often hindered by reliance on post-mortem, coarse-grained..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis"
+    ],
+    "citation_author": [
+      "Xiang, Jiahong",
+      "Xu, Xiaoyang",
+      "Chu, Xiaopan",
+      "Tian, Hongliang",
+      "Zhang, Yuqun"
+    ],
+    "citation_doi": [
+      "10.1145/3797126"
+    ],
+    "citation_date": [
+      "2026/04/27"
+    ],
+    "citation_online_date": [
+      "2026/04/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.24212"
+    ],
+    "citation_arxiv_id": [
+      "2604.24212"
+    ],
+    "citation_abstract": [
+      "Autonomous agents for automated program repair represent a promising frontier in software engineering, yet their effectiveness is often hindered by reliance on post-mortem, coarse-grained execution feedback. While integrating traditional interactive debuggers seems a natural solution, their low-level, line-by-line interaction paradigm turns out to be cost-inefficient for LLM-based agents, leading to exhausted budgets and unproductive loops. To mitigate this, we introduce Agent-centric Debugging Interface (ADI), a novel agent-centric debugging interface designed for cost-efficient, end-to-end autonomous interaction. Specifically, Agent-centric Debugging Interface realizes a function-level interaction paradigm, powered by our Frame Lifetime Trace, a comprehensive data structure encapsulating a function's stateful execution trace, and a set of high-level navigational commands. Our extensive evaluation on the SWE-bench benchmark demonstrates the effectiveness and efficiency of ADI. By simply equipping a basic agent with ADI, it successfully resolves 63.8\\% of the tasks on the SWE-bench Verified set, even slightly outperforming the highly optimized and high-investment Claude-Tools agent, at an average cost of USD 1.28 per task with Claude-Sonnet-3.7. Furthermore, we demonstrate ADI's generality by integrating it as a plug-and-play component into existing SOTA agents, delivering consistent gains ranging from 6.2\\% to 18.5\\% on the resolved tasks. These results indicate that Agent-centric Debugging Interface can provide a general and efficient enhancement for existing autonomous agents."
+    ]
+  },
+  "html_sha256": "1d19de173a1db32df5a5a4be610701e886f991b1b70c34a7648d1695a98af07d",
+  "evidence_html": "evidence/76a77e17cba41bdc13be.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

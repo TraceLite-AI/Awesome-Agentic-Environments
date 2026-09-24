@@ -1,0 +1,145 @@
+{
+  "url": "https://arxiv.org/abs/2602.03419",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2602.03419",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive world models/neural simulators",
+      "title_hint": "Swe-world: Building software engineering agents in docker-free environments",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2602.03419",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:46.887222+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2602.03419",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44081,
+  "title": "SWE-World: Building Software Engineering Agents in Docker-Free Environments",
+  "authors": [
+    "Sun, Shuang",
+    "Song, Huatong",
+    "Huang, Lisheng",
+    "Jiang, Jinhao",
+    "Le, Ran",
+    "Lv, Zhihao",
+    "Chen, Zongchao",
+    "Hu, Yiwen",
+    "Luo, Wenyang",
+    "Zhao, Wayne Xin",
+    "Song, Yang",
+    "Xu, Hongteng",
+    "Zhang, Tao",
+    "Wen, Ji-Rong"
+  ],
+  "first_author": "Sun, Shuang",
+  "year": 2026,
+  "source_date": "2026/02/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2602.03419",
+  "abstract": "Recent advances in large language models (LLMs) have enabled software engineering agents to tackle complex code modification tasks. Most existing approaches rely on execution feedback from containerized environments, which require dependency-complete setup and physical execution of programs and tests. While effective, this paradigm is resource-intensive and difficult to maintain, substantially complicating agent training and limiting scalability. We propose SWE-World, a Docker-free framework that replaces physical execution environments with a learned surrogate for training and evaluating software engineering agents. SWE-World leverages LLM-based models trained on real agent-environment interaction data to predict intermediate execution outcomes and final test feedback, enabling agents to learn without interacting with physical containerized environments. This design preserves the standard agent-environment interaction loop while eliminating the need for costly environment construction and maintenance during agent optimization and evaluation. Furthermore, because SWE-World can simulate the final evaluation outcomes of candidate trajectories without real submission, it enables selecting the best solution among multiple test-time attempts, thereby facilitating effective test-time scaling (TTS) in software engineering tasks. Experiments on SWE-bench Verified demonstrate that SWE-World raises Qwen2.5-Coder-32B from 6.2\\% to 52.0\\% via Docker-free SFT, 55.0\\% with Docker-free RL, and 68.2\\% with further TTS. The code is available at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2602.03419: SWE-World: Building Software Engineering Agents in Docker-Free Environments"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "SWE-World: Building Software Engineering Agents in Docker-Free Environments"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2602.03419v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in large language models (LLMs) have enabled software engineering agents to tackle complex code modification tasks. Most existing approaches rely on execution feedback from containerized environments, which require dependency-complete setup and physical execution of programs and tests. While effective, this paradigm is resource-intensive and difficult to maintain, substantially complicating agent training and limiting scalability. We propose SWE-World, a Docker-free framework that replaces physical execution environments with a learned surrogate for training and evaluating software engineering agents. SWE-World leverages LLM-based models trained on real agent-environment interaction data to predict intermediate execution outcomes and final test feedback, enabling agents to learn without interacting with physical containerized environments. This design preserves the standard agent-environment interaction loop while eliminating the need for costly environment construction and maintenance during agent optimization and evaluation. Furthermore, because SWE-World can simulate the final evaluation outcomes of candidate trajectories without real submission, it enables selecting the best solution among multiple test-time attempts, thereby facilitating effective test-time scaling (TTS) in software engineering tasks. Experiments on SWE-bench Verified demonstrate that SWE-World raises Qwen2.5-Coder-32B from 6.2\\% to 52.0\\% via Docker-free SFT, 55.0\\% with Docker-free RL, and 68.2\\% with further TTS. The code is available at https://github.com/RUCAIBox/SWE-World"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "SWE-World: Building Software Engineering Agents in Docker-Free Environments"
+    ],
+    "twitter:description": [
+      "Recent advances in large language models (LLMs) have enabled software engineering agents to tackle complex code modification tasks. Most existing approaches rely on execution feedback from..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "SWE-World: Building Software Engineering Agents in Docker-Free Environments"
+    ],
+    "citation_author": [
+      "Sun, Shuang",
+      "Song, Huatong",
+      "Huang, Lisheng",
+      "Jiang, Jinhao",
+      "Le, Ran",
+      "Lv, Zhihao",
+      "Chen, Zongchao",
+      "Hu, Yiwen",
+      "Luo, Wenyang",
+      "Zhao, Wayne Xin",
+      "Song, Yang",
+      "Xu, Hongteng",
+      "Zhang, Tao",
+      "Wen, Ji-Rong"
+    ],
+    "citation_date": [
+      "2026/02/03"
+    ],
+    "citation_online_date": [
+      "2026/02/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2602.03419"
+    ],
+    "citation_arxiv_id": [
+      "2602.03419"
+    ],
+    "citation_abstract": [
+      "Recent advances in large language models (LLMs) have enabled software engineering agents to tackle complex code modification tasks. Most existing approaches rely on execution feedback from containerized environments, which require dependency-complete setup and physical execution of programs and tests. While effective, this paradigm is resource-intensive and difficult to maintain, substantially complicating agent training and limiting scalability. We propose SWE-World, a Docker-free framework that replaces physical execution environments with a learned surrogate for training and evaluating software engineering agents. SWE-World leverages LLM-based models trained on real agent-environment interaction data to predict intermediate execution outcomes and final test feedback, enabling agents to learn without interacting with physical containerized environments. This design preserves the standard agent-environment interaction loop while eliminating the need for costly environment construction and maintenance during agent optimization and evaluation. Furthermore, because SWE-World can simulate the final evaluation outcomes of candidate trajectories without real submission, it enables selecting the best solution among multiple test-time attempts, thereby facilitating effective test-time scaling (TTS) in software engineering tasks. Experiments on SWE-bench Verified demonstrate that SWE-World raises Qwen2.5-Coder-32B from 6.2\\% to 52.0\\% via Docker-free SFT, 55.0\\% with Docker-free RL, and 68.2\\% with further TTS. The code is available at https://github.com/RUCAIBox/SWE-World"
+    ]
+  },
+  "html_sha256": "755e918a297a9d2c3dda407f1831211a4efc63c4e8c898b04d8ce5eb2c5b9790",
+  "evidence_html": "evidence/7dd7f599589458ad4f1c.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

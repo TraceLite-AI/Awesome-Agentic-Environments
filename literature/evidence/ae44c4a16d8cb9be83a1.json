@@ -1,0 +1,109 @@
+{
+  "url": "https://aclanthology.org/2025.findings-emnlp.697/",
+  "discoveries": [
+    {
+      "url": "https://aclanthology.org/2025.findings-emnlp.697/",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Acebench: A comprehensive evaluation of LLM tool usage",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://aclanthology.org/2025.findings-emnlp.697/",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:16.572095+00:00",
+  "http_status": 200,
+  "opened_url": "https://aclanthology.org/2025.findings-emnlp.697/",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 47297,
+  "title": "ACEBench: A Comprehensive Evaluation of LLM Tool Usage",
+  "authors": [
+    "Chen Chen",
+    "Xinlong Hao",
+    "Weiwen Liu",
+    "Xu Huang",
+    "Xingshan Zeng",
+    "Shuai Yu",
+    "Dexun Li",
+    "Yuefeng Huang",
+    "Xiangcheng Liu",
+    "Wang Xinzhi",
+    "Wu Liu"
+  ],
+  "first_author": "Chen Chen",
+  "year": 2025,
+  "source_date": "2025/11",
+  "venue_from_source": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+  "journal_reference_from_source": "",
+  "doi": "10.18653/v1/2025.findings-emnlp.697",
+  "arxiv_id": "",
+  "abstract": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs’ tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. “Normal” evaluates tool usage in basic scenarios; “Special” evaluates tool usage in situations with ambiguous or incomplete instructions; “Agent” evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "ACEBench: A Comprehensive Evaluation of LLM Tool Usage"
+    ],
+    "citation_author": [
+      "Chen Chen",
+      "Xinlong Hao",
+      "Weiwen Liu",
+      "Xu Huang",
+      "Xingshan Zeng",
+      "Shuai Yu",
+      "Dexun Li",
+      "Yuefeng Huang",
+      "Xiangcheng Liu",
+      "Wang Xinzhi",
+      "Wu Liu"
+    ],
+    "citation_conference_title": [
+      "Findings of the Association for Computational Linguistics: EMNLP 2025"
+    ],
+    "citation_publication_date": [
+      "2025/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.findings-emnlp.697.pdf"
+    ],
+    "citation_firstpage": [
+      "12970"
+    ],
+    "citation_lastpage": [
+      "12998"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.findings-emnlp.697"
+    ],
+    "og:title": [
+      "ACEBench: A Comprehensive Evaluation of LLM Tool Usage"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.findings-emnlp.697.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.findings-emnlp.697/"
+    ],
+    "og:description": [
+      "Chen Chen, Xinlong Hao, Weiwen Liu, Xu Huang, Xingshan Zeng, Shuai Yu, Dexun Li, Yuefeng Huang, Xiangcheng Liu, Wang Xinzhi, Wu Liu. Findings of the Association for Computational Linguistics: EMNLP 2025. 2025."
+    ]
+  },
+  "html_sha256": "25137d2730b4b83d0b9f0d16a3cba64c25212faa8b8f24513c86d17aa975c072",
+  "evidence_html": "evidence/ae44c4a16d8cb9be83a1.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,162 @@
+{
+  "url": "https://arxiv.org/abs/2308.03688",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2308.03688",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-9",
+      "topic": "Agent benchmark",
+      "title_hint": "Liu et al. AgentBench: Evaluating LLMs as Agents. ICLR 2024. arXiv:2308.03688.",
+      "existing_reference_number": 9,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2308.03688",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:03.391326+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2308.03688",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44732,
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "authors": [
+    "Liu, Xiao",
+    "Yu, Hao",
+    "Zhang, Hanchen",
+    "Xu, Yifan",
+    "Lei, Xuanyu",
+    "Lai, Hanyu",
+    "Gu, Yu",
+    "Ding, Hangliang",
+    "Men, Kaiwen",
+    "Yang, Kejuan",
+    "Zhang, Shudan",
+    "Deng, Xiang",
+    "Zeng, Aohan",
+    "Du, Zhengxiao",
+    "Zhang, Chenhui",
+    "Shen, Sheng",
+    "Zhang, Tianjun",
+    "Su, Yu",
+    "Sun, Huan",
+    "Huang, Minlie",
+    "Dong, Yuxiao",
+    "Tang, Jie"
+  ],
+  "first_author": "Liu, Xiao",
+  "year": 2023,
+  "source_date": "2023/08/07",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2308.03688",
+  "abstract": "The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively \\textit{evaluate LLMs as agents} on challenging tasks in interactive environments. We present AgentBench, a multi-dimensional benchmark that consists of 8 distinct environments to assess LLM-as-Agent's reasoning and decision-making abilities. Our extensive test over \\num API-based and open-sourced (OSS) LLMs shows that, while top commercial LLMs present a strong ability of acting as agents in complex environments, there is a significant disparity in performance between them and many OSS competitors that are no larger than 70B. We identify the typical reasons of failures in environments and LLMs, showing that poor long-term reasoning, decision-making, and instruction following abilities are the main obstacles for developing usable LLM agents. Improving instruction following and training on high quality multi-round alignment data could improve agent performance. And different from existing assumptions, training on code present ambivalent impacts on different agent tasks. Datasets, environments, and an integrated evaluation package for AgentBench are released at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2308.03688: AgentBench: Evaluating LLMs as Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "AgentBench: Evaluating LLMs as Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2308.03688v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively \\textit{evaluate LLMs as agents} on challenging tasks in interactive environments. We present AgentBench, a multi-dimensional benchmark that consists of 8 distinct environments to assess LLM-as-Agent's reasoning and decision-making abilities. Our extensive test over \\num API-based and open-sourced (OSS) LLMs shows that, while top commercial LLMs present a strong ability of acting as agents in complex environments, there is a significant disparity in performance between them and many OSS competitors that are no larger than 70B. We identify the typical reasons of failures in environments and LLMs, showing that poor long-term reasoning, decision-making, and instruction following abilities are the main obstacles for developing usable LLM agents. Improving instruction following and training on high quality multi-round alignment data could improve agent performance. And different from existing assumptions, training on code present ambivalent impacts on different agent tasks. Datasets, environments, and an integrated evaluation package for AgentBench are released at https://github.com/THUDM/AgentBench."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "AgentBench: Evaluating LLMs as Agents"
+    ],
+    "twitter:description": [
+      "The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively \\textit{evaluate LLMs as agents} on challenging tasks..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "AgentBench: Evaluating LLMs as Agents"
+    ],
+    "citation_author": [
+      "Liu, Xiao",
+      "Yu, Hao",
+      "Zhang, Hanchen",
+      "Xu, Yifan",
+      "Lei, Xuanyu",
+      "Lai, Hanyu",
+      "Gu, Yu",
+      "Ding, Hangliang",
+      "Men, Kaiwen",
+      "Yang, Kejuan",
+      "Zhang, Shudan",
+      "Deng, Xiang",
+      "Zeng, Aohan",
+      "Du, Zhengxiao",
+      "Zhang, Chenhui",
+      "Shen, Sheng",
+      "Zhang, Tianjun",
+      "Su, Yu",
+      "Sun, Huan",
+      "Huang, Minlie",
+      "Dong, Yuxiao",
+      "Tang, Jie"
+    ],
+    "citation_date": [
+      "2023/08/07"
+    ],
+    "citation_online_date": [
+      "2025/10/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2308.03688"
+    ],
+    "citation_arxiv_id": [
+      "2308.03688"
+    ],
+    "citation_abstract": [
+      "The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively \\textit{evaluate LLMs as agents} on challenging tasks in interactive environments. We present AgentBench, a multi-dimensional benchmark that consists of 8 distinct environments to assess LLM-as-Agent's reasoning and decision-making abilities. Our extensive test over \\num API-based and open-sourced (OSS) LLMs shows that, while top commercial LLMs present a strong ability of acting as agents in complex environments, there is a significant disparity in performance between them and many OSS competitors that are no larger than 70B. We identify the typical reasons of failures in environments and LLMs, showing that poor long-term reasoning, decision-making, and instruction following abilities are the main obstacles for developing usable LLM agents. Improving instruction following and training on high quality multi-round alignment data could improve agent performance. And different from existing assumptions, training on code present ambivalent impacts on different agent tasks. Datasets, environments, and an integrated evaluation package for AgentBench are released at https://github.com/THUDM/AgentBench."
+    ]
+  },
+  "html_sha256": "22e40fdd7063a73e52408054c0a3b3930d1bbfb428a23ad602f7acbe265ade8d",
+  "evidence_html": "evidence/d234ade2718a748e7113.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

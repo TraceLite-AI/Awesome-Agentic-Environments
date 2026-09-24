@@ -1,0 +1,135 @@
+{
+  "url": "https://arxiv.org/abs/2508.04183",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2508.04183",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Research/search interactive environments",
+      "title_hint": "Characterizing deep research: A benchmark and formal definition",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2508.04183",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:39.055845+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2508.04183",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43981,
+  "title": "Characterizing Deep Research: A Benchmark and Formal Definition",
+  "authors": [
+    "Java, Abhinav",
+    "Khandelwal, Ashmit",
+    "Midigeshi, Sukruta",
+    "Halfaker, Aaron",
+    "Deshpande, Amit",
+    "Goyal, Navin",
+    "Gupta, Ankur",
+    "Natarajan, Nagarajan",
+    "Sharma, Amit"
+  ],
+  "first_author": "Java, Abhinav",
+  "year": 2025,
+  "source_date": "2025/08/06",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2508.04183",
+  "abstract": "Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of \\textit{deep research} -- a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search-separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities. The benchmark is available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2508.04183: Characterizing Deep Research: A Benchmark and Formal Definition"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Characterizing Deep Research: A Benchmark and Formal Definition"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2508.04183v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of \\textit{deep research} -- a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search-separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities. The benchmark is available at https://github.com/microsoft/LiveDRBench."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Characterizing Deep Research: A Benchmark and Formal Definition"
+    ],
+    "twitter:description": [
+      "Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of \\textit{deep research} -- a term also..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Characterizing Deep Research: A Benchmark and Formal Definition"
+    ],
+    "citation_author": [
+      "Java, Abhinav",
+      "Khandelwal, Ashmit",
+      "Midigeshi, Sukruta",
+      "Halfaker, Aaron",
+      "Deshpande, Amit",
+      "Goyal, Navin",
+      "Gupta, Ankur",
+      "Natarajan, Nagarajan",
+      "Sharma, Amit"
+    ],
+    "citation_date": [
+      "2025/08/06"
+    ],
+    "citation_online_date": [
+      "2025/08/06"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2508.04183"
+    ],
+    "citation_arxiv_id": [
+      "2508.04183"
+    ],
+    "citation_abstract": [
+      "Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of \\textit{deep research} -- a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search-separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities. The benchmark is available at https://github.com/microsoft/LiveDRBench."
+    ]
+  },
+  "html_sha256": "180c94925ff923398431b3b87cf6754bd5cdd9bf9a2a6efbd4fb177f4e69e554",
+  "evidence_html": "evidence/468a86046cd04a02ab56.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

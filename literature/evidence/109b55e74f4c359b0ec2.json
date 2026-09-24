@@ -1,0 +1,148 @@
+{
+  "url": "https://arxiv.org/abs/2604.16529",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2604.16529",
+      "discovery_url": "https://github.com/EuniAI/awesome-code-agents",
+      "topic": "coding_agents",
+      "title_hint": "Scaling Test-Time Compute for Agentic Coding",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2604.16529",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:29.287857+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2604.16529",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44932,
+  "title": "Scaling Test-Time Compute for Agentic Coding",
+  "authors": [
+    "Kim, Joongwon",
+    "Yang, Wannan",
+    "Niu, Kelvin",
+    "Zhang, Hongming",
+    "Zhu, Yun",
+    "Helenowski, Eryk",
+    "Silva, Ruan",
+    "Chen, Zhengxing",
+    "Iyer, Srinivasan",
+    "Zaheer, Manzil",
+    "Fried, Daniel",
+    "Hajishirzi, Hannaneh",
+    "Arora, Sanjeev",
+    "Synnaeve, Gabriel",
+    "Salakhutdinov, Ruslan",
+    "Goyal, Anirudh"
+  ],
+  "first_author": "Kim, Joongwon",
+  "year": 2026,
+  "source_date": "2026/04/16",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2604.16529",
+  "abstract": "Test-time scaling has become a powerful way to improve large language models. However, existing methods are best suited to short, bounded outputs that can be directly compared, ranked or refined. Long-horizon coding agents violate this premise: each attempt produces an extended trajectory of actions, observations, errors, and partial progress taken by the agent. In this setting, the main challenge is no longer generating more attempts, but representing prior experience in a form that can be effectively selected from and reused. We propose a test-time scaling framework for agentic coding based on compact representations of rollout trajectories. Our framework converts each rollout into a structured summary that preserves its salient hypotheses, progress, and failure modes while discarding low-signal trace details. This representation enables two complementary forms of inference-time scaling. For parallel scaling, we introduce Recursive Tournament Voting (RTV), which recursively narrows a population of rollout summaries through small-group comparisons. For sequential scaling, we adapt Parallel-Distill-Refine (PDR) to the agentic setting by conditioning new rollouts on summaries distilled from prior attempts. Our method consistently improves the performance of frontier coding agents across SWE-Bench Verified and Terminal-Bench v2.0. For example, by using our method Claude-4.5-Opus improves from 70.9% to 77.6% on SWE-Bench Verified (mini-SWE-agent) and 46.9% to 59.1% on Terminal-Bench v2.0 (Terminus 1). Our results suggest that test-time scaling for long-horizon agents is fundamentally a problem of representation, selection, and reuse.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2604.16529: Scaling Test-Time Compute for Agentic Coding"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Scaling Test-Time Compute for Agentic Coding"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2604.16529v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Test-time scaling has become a powerful way to improve large language models. However, existing methods are best suited to short, bounded outputs that can be directly compared, ranked or refined. Long-horizon coding agents violate this premise: each attempt produces an extended trajectory of actions, observations, errors, and partial progress taken by the agent. In this setting, the main challenge is no longer generating more attempts, but representing prior experience in a form that can be effectively selected from and reused. We propose a test-time scaling framework for agentic coding based on compact representations of rollout trajectories. Our framework converts each rollout into a structured summary that preserves its salient hypotheses, progress, and failure modes while discarding low-signal trace details. This representation enables two complementary forms of inference-time scaling. For parallel scaling, we introduce Recursive Tournament Voting (RTV), which recursively narrows a population of rollout summaries through small-group comparisons. For sequential scaling, we adapt Parallel-Distill-Refine (PDR) to the agentic setting by conditioning new rollouts on summaries distilled from prior attempts. Our method consistently improves the performance of frontier coding agents across SWE-Bench Verified and Terminal-Bench v2.0. For example, by using our method Claude-4.5-Opus improves from 70.9% to 77.6% on SWE-Bench Verified (mini-SWE-agent) and 46.9% to 59.1% on Terminal-Bench v2.0 (Terminus 1). Our results suggest that test-time scaling for long-horizon agents is fundamentally a problem of representation, selection, and reuse."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Scaling Test-Time Compute for Agentic Coding"
+    ],
+    "twitter:description": [
+      "Test-time scaling has become a powerful way to improve large language models. However, existing methods are best suited to short, bounded outputs that can be directly compared, ranked or refined...."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Scaling Test-Time Compute for Agentic Coding"
+    ],
+    "citation_author": [
+      "Kim, Joongwon",
+      "Yang, Wannan",
+      "Niu, Kelvin",
+      "Zhang, Hongming",
+      "Zhu, Yun",
+      "Helenowski, Eryk",
+      "Silva, Ruan",
+      "Chen, Zhengxing",
+      "Iyer, Srinivasan",
+      "Zaheer, Manzil",
+      "Fried, Daniel",
+      "Hajishirzi, Hannaneh",
+      "Arora, Sanjeev",
+      "Synnaeve, Gabriel",
+      "Salakhutdinov, Ruslan",
+      "Goyal, Anirudh"
+    ],
+    "citation_date": [
+      "2026/04/16"
+    ],
+    "citation_online_date": [
+      "2026/04/16"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2604.16529"
+    ],
+    "citation_arxiv_id": [
+      "2604.16529"
+    ],
+    "citation_abstract": [
+      "Test-time scaling has become a powerful way to improve large language models. However, existing methods are best suited to short, bounded outputs that can be directly compared, ranked or refined. Long-horizon coding agents violate this premise: each attempt produces an extended trajectory of actions, observations, errors, and partial progress taken by the agent. In this setting, the main challenge is no longer generating more attempts, but representing prior experience in a form that can be effectively selected from and reused. We propose a test-time scaling framework for agentic coding based on compact representations of rollout trajectories. Our framework converts each rollout into a structured summary that preserves its salient hypotheses, progress, and failure modes while discarding low-signal trace details. This representation enables two complementary forms of inference-time scaling. For parallel scaling, we introduce Recursive Tournament Voting (RTV), which recursively narrows a population of rollout summaries through small-group comparisons. For sequential scaling, we adapt Parallel-Distill-Refine (PDR) to the agentic setting by conditioning new rollouts on summaries distilled from prior attempts. Our method consistently improves the performance of frontier coding agents across SWE-Bench Verified and Terminal-Bench v2.0. For example, by using our method Claude-4.5-Opus improves from 70.9% to 77.6% on SWE-Bench Verified (mini-SWE-agent) and 46.9% to 59.1% on Terminal-Bench v2.0 (Terminus 1). Our results suggest that test-time scaling for long-horizon agents is fundamentally a problem of representation, selection, and reuse."
+    ]
+  },
+  "html_sha256": "6ceef45a19fcda26c8bb90d55d365427ab65a991a1eb02d17f30466e5b221316",
+  "evidence_html": "evidence/109b55e74f4c359b0ec2.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

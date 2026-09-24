@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2609.04518",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2609.04518",
+      "discovery_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+      "topic": "harness_runtime_and_orchestration",
+      "title_hint": "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2609.04518",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:03:46.657299+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2609.04518",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43829,
+  "title": "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents",
+  "authors": [
+    "Le, Chenqian",
+    "Cheng, Jiayi",
+    "He, Qijia",
+    "Li, Runhao",
+    "Li, Yinghao",
+    "Chen, Xupeng"
+  ],
+  "first_author": "Le, Chenqian",
+  "year": 2026,
+  "source_date": "2026/09/03",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2609.04518",
+  "abstract": "Agent reinforcement learning (RL) increasingly runs through full execution harnesses, and a multi-harness recipe mixes two choices: exposing the policy to several harnesses, and comparing their rewards inside one relative-advantage group. We isolate the second choice in repository-level coding. From one Qwen3-8B supervised warm start we replay the same frozen task-harness records from Aider, OpenHands, Qwen Code, and SWE-agent, with the same number of updates, under two rules for group-relative policy optimization (GRPO), Within (one group per task-harness pair) and Cross (harnesses pooled within a task), and score every checkpoint with a sealed SWE-bench Verified oracle on four source harnesses and a minimal harness held out of training. The evaluation harness is the dominant variable: across 24,000 sealed evaluations it moves the mean solve rate from 2.14\\% to 9.27\\%, a factor of 4.3, where the training recipe moves it by 1.16. The grouping rule is not. On the held-out harness, Cross minus Within is +0.25 pp, 95\\% confidence interval [-0.48, +1.02], at eight attempts per task, and +0.16 [-0.41, +0.72] pooled over three training seeds whose individual estimates change sign. Each rule's own seed range, 0.42 to 0.45 pp, exceeds the difference between them. Both rules place their largest gains on the same source harness. The pooled advantage carries the harness: an out-of-fold classifier recovers the generating harness from Cross's advantage +4.48 pp above the shuffled-label baseline and from Within's not at all, and the two rules still reach the same held-out score and action distribution inside each harness. Re-collecting half the training data on-policy does not change this. Cross-harness credit yields configuration adaptation and no more portable capability than within-harness credit. Multi-harness RL reports should state the grouping boundary and test under an unseen harness.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2609.04518: What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2609.04518v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Agent reinforcement learning (RL) increasingly runs through full execution harnesses, and a multi-harness recipe mixes two choices: exposing the policy to several harnesses, and comparing their rewards inside one relative-advantage group. We isolate the second choice in repository-level coding. From one Qwen3-8B supervised warm start we replay the same frozen task-harness records from Aider, OpenHands, Qwen Code, and SWE-agent, with the same number of updates, under two rules for group-relative policy optimization (GRPO), Within (one group per task-harness pair) and Cross (harnesses pooled within a task), and score every checkpoint with a sealed SWE-bench Verified oracle on four source harnesses and a minimal harness held out of training. The evaluation harness is the dominant variable: across 24,000 sealed evaluations it moves the mean solve rate from 2.14\\% to 9.27\\%, a factor of 4.3, where the training recipe moves it by 1.16. The grouping rule is not. On the held-out harness, Cross minus Within is +0.25 pp, 95\\% confidence interval [-0.48, +1.02], at eight attempts per task, and +0.16 [-0.41, +0.72] pooled over three training seeds whose individual estimates change sign. Each rule's own seed range, 0.42 to 0.45 pp, exceeds the difference between them. Both rules place their largest gains on the same source harness. The pooled advantage carries the harness: an out-of-fold classifier recovers the generating harness from Cross's advantage +4.48 pp above the shuffled-label baseline and from Within's not at all, and the two rules still reach the same held-out score and action distribution inside each harness. Re-collecting half the training data on-policy does not change this. Cross-harness credit yields configuration adaptation and no more portable capability than within-harness credit. Multi-harness RL reports should state the grouping boundary and test under an unseen harness."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "What Does Multi-Harness RL Learn? Credit Assignment and..."
+    ],
+    "twitter:description": [
+      "Agent reinforcement learning (RL) increasingly runs through full execution harnesses, and a multi-harness recipe mixes two choices: exposing the policy to several harnesses, and comparing their..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents"
+    ],
+    "citation_author": [
+      "Le, Chenqian",
+      "Cheng, Jiayi",
+      "He, Qijia",
+      "Li, Runhao",
+      "Li, Yinghao",
+      "Chen, Xupeng"
+    ],
+    "citation_date": [
+      "2026/09/03"
+    ],
+    "citation_online_date": [
+      "2026/09/03"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2609.04518"
+    ],
+    "citation_arxiv_id": [
+      "2609.04518"
+    ],
+    "citation_abstract": [
+      "Agent reinforcement learning (RL) increasingly runs through full execution harnesses, and a multi-harness recipe mixes two choices: exposing the policy to several harnesses, and comparing their rewards inside one relative-advantage group. We isolate the second choice in repository-level coding. From one Qwen3-8B supervised warm start we replay the same frozen task-harness records from Aider, OpenHands, Qwen Code, and SWE-agent, with the same number of updates, under two rules for group-relative policy optimization (GRPO), Within (one group per task-harness pair) and Cross (harnesses pooled within a task), and score every checkpoint with a sealed SWE-bench Verified oracle on four source harnesses and a minimal harness held out of training. The evaluation harness is the dominant variable: across 24,000 sealed evaluations it moves the mean solve rate from 2.14\\% to 9.27\\%, a factor of 4.3, where the training recipe moves it by 1.16. The grouping rule is not. On the held-out harness, Cross minus Within is +0.25 pp, 95\\% confidence interval [-0.48, +1.02], at eight attempts per task, and +0.16 [-0.41, +0.72] pooled over three training seeds whose individual estimates change sign. Each rule's own seed range, 0.42 to 0.45 pp, exceeds the difference between them. Both rules place their largest gains on the same source harness. The pooled advantage carries the harness: an out-of-fold classifier recovers the generating harness from Cross's advantage +4.48 pp above the shuffled-label baseline and from Within's not at all, and the two rules still reach the same held-out score and action distribution inside each harness. Re-collecting half the training data on-policy does not change this. Cross-harness credit yields configuration adaptation and no more portable capability than within-harness credit. Multi-harness RL reports should state the grouping boundary and test under an unseen harness."
+    ]
+  },
+  "html_sha256": "3862491aaf515574344d363f764ee025c586dc4704dae2e22da52787974db5d8",
+  "evidence_html": "evidence/c6c7d0db2e34f7803b8f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,137 @@
+{
+  "url": "https://arxiv.org/abs/2506.07551",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.07551",
+      "discovery_url": "https://github.com/AgenticScience/Awesome-Agent-Scientists",
+      "topic": "scientific_research_agents",
+      "title_hint": "ChemAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.07551",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:01:31.093597+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.07551",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44297,
+  "title": "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+  "authors": [
+    "Wu, Mengsong",
+    "Wang, YaFei",
+    "Ming, Yidong",
+    "An, Yuqi",
+    "Wan, Yuwei",
+    "Chen, Wenliang",
+    "Lin, Binbin",
+    "Li, Yuqiang",
+    "Xie, Tong",
+    "Zhou, Dongzhan"
+  ],
+  "first_author": "Wu, Mengsong",
+  "year": 2025,
+  "source_date": "2025/06/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.07551",
+  "abstract": "Large language models (LLMs) have recently demonstrated promising capabilities in chemistry tasks while still facing challenges due to outdated pretraining knowledge and the difficulty of incorporating specialized chemical expertise. To address these issues, we propose an LLM-based agent that synergistically integrates 137 external chemical tools created ranging from basic information retrieval to complex reaction predictions, and a dataset curation pipeline to generate the dataset ChemToolBench that facilitates both effective tool selection and precise parameter filling during fine-tuning and evaluation. We introduce a Hierarchical Evolutionary Monte Carlo Tree Search (HE-MCTS) framework, enabling independent optimization of tool planning and execution. By leveraging self-generated data, our approach supports step-level fine-tuning (FT) of the policy model and training task-adaptive PRM and ORM that surpass GPT-4o. Experimental evaluations demonstrate that our approach significantly improves performance in Chemistry QA and discovery tasks, offering a robust solution to integrate specialized tools with LLMs for advanced chemical applications. All datasets and code are available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.07551: CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.07551v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) have recently demonstrated promising capabilities in chemistry tasks while still facing challenges due to outdated pretraining knowledge and the difficulty of incorporating specialized chemical expertise. To address these issues, we propose an LLM-based agent that synergistically integrates 137 external chemical tools created ranging from basic information retrieval to complex reaction predictions, and a dataset curation pipeline to generate the dataset ChemToolBench that facilitates both effective tool selection and precise parameter filling during fine-tuning and evaluation. We introduce a Hierarchical Evolutionary Monte Carlo Tree Search (HE-MCTS) framework, enabling independent optimization of tool planning and execution. By leveraging self-generated data, our approach supports step-level fine-tuning (FT) of the policy model and training task-adaptive PRM and ORM that surpass GPT-4o. Experimental evaluations demonstrate that our approach significantly improves performance in Chemistry QA and discovery tasks, offering a robust solution to integrate specialized tools with LLMs for advanced chemical applications. All datasets and code are available at https://github.com/AI4Chem/ChemistryAgent ."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science..."
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) have recently demonstrated promising capabilities in chemistry tasks while still facing challenges due to outdated pretraining knowledge and the difficulty of..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning"
+    ],
+    "citation_author": [
+      "Wu, Mengsong",
+      "Wang, YaFei",
+      "Ming, Yidong",
+      "An, Yuqi",
+      "Wan, Yuwei",
+      "Chen, Wenliang",
+      "Lin, Binbin",
+      "Li, Yuqiang",
+      "Xie, Tong",
+      "Zhou, Dongzhan"
+    ],
+    "citation_date": [
+      "2025/06/09"
+    ],
+    "citation_online_date": [
+      "2025/06/12"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.07551"
+    ],
+    "citation_arxiv_id": [
+      "2506.07551"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) have recently demonstrated promising capabilities in chemistry tasks while still facing challenges due to outdated pretraining knowledge and the difficulty of incorporating specialized chemical expertise. To address these issues, we propose an LLM-based agent that synergistically integrates 137 external chemical tools created ranging from basic information retrieval to complex reaction predictions, and a dataset curation pipeline to generate the dataset ChemToolBench that facilitates both effective tool selection and precise parameter filling during fine-tuning and evaluation. We introduce a Hierarchical Evolutionary Monte Carlo Tree Search (HE-MCTS) framework, enabling independent optimization of tool planning and execution. By leveraging self-generated data, our approach supports step-level fine-tuning (FT) of the policy model and training task-adaptive PRM and ORM that surpass GPT-4o. Experimental evaluations demonstrate that our approach significantly improves performance in Chemistry QA and discovery tasks, offering a robust solution to integrate specialized tools with LLMs for advanced chemical applications. All datasets and code are available at https://github.com/AI4Chem/ChemistryAgent ."
+    ]
+  },
+  "html_sha256": "56d77eeaa16083ae7f948d9f466a2a366c67e0189d8ce83dea17586b0416014a",
+  "evidence_html": "evidence/b3eedf6c8e2013ed9cc0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

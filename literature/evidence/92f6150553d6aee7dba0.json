@@ -1,0 +1,128 @@
+{
+  "url": "https://arxiv.org/abs/2310.01444",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.01444",
+      "discovery_url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "topic": "multi_agent_interaction",
+      "title_hint": "Adapting LLM Agents Through Communication. Kuan Wang et al",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.01444",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:02:06.828922+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.01444",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 41592,
+  "title": "Adapting LLM Agents with Universal Feedback in Communication",
+  "authors": [
+    "Wang, Kuan",
+    "Lu, Yadong",
+    "Santacroce, Michael",
+    "Gong, Yeyun",
+    "Zhang, Chao",
+    "Shen, Yelong"
+  ],
+  "first_author": "Wang, Kuan",
+  "year": 2023,
+  "source_date": "2023/10/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.01444",
+  "abstract": "Recent advances in large language models (LLMs) have demonstrated potential for LLM agents. To facilitate the training for these agents with both linguistic feedback and non-linguistic reward signals, we introduce Learning through Communication (LTC). We design a universal buffer to store all the feedback, and an iterative pipeline to enable an LLM agent to explore and update its policy in an given environment. To optimize agent interactions for task-specific learning with our universal buffer and pipeline, we introduce diverse communication patterns tailored for both single-agent and multi-agent environments. We evaluate the efficacy of our LTC approach on four diverse datasets: ALFWorld (single-agent), HotpotQA (multi-agent collaboration), Chameleon (multi-agent competition), and GSM8k (multi-agent teacher-student). On these data sets, LTC outperforms the supervised instruction fine-tuning baselines by 3.6% to 12%. These results highlight the versatility and efficiency of LTC in facilitating online adaptation for LLM agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.01444: Adapting LLM Agents with Universal Feedback in Communication"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Adapting LLM Agents with Universal Feedback in Communication"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.01444v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Recent advances in large language models (LLMs) have demonstrated potential for LLM agents. To facilitate the training for these agents with both linguistic feedback and non-linguistic reward signals, we introduce Learning through Communication (LTC). We design a universal buffer to store all the feedback, and an iterative pipeline to enable an LLM agent to explore and update its policy in an given environment. To optimize agent interactions for task-specific learning with our universal buffer and pipeline, we introduce diverse communication patterns tailored for both single-agent and multi-agent environments. We evaluate the efficacy of our LTC approach on four diverse datasets: ALFWorld (single-agent), HotpotQA (multi-agent collaboration), Chameleon (multi-agent competition), and GSM8k (multi-agent teacher-student). On these data sets, LTC outperforms the supervised instruction fine-tuning baselines by 3.6% to 12%. These results highlight the versatility and efficiency of LTC in facilitating online adaptation for LLM agents."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Adapting LLM Agents with Universal Feedback in Communication"
+    ],
+    "twitter:description": [
+      "Recent advances in large language models (LLMs) have demonstrated potential for LLM agents. To facilitate the training for these agents with both linguistic feedback and non-linguistic reward..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Adapting LLM Agents with Universal Feedback in Communication"
+    ],
+    "citation_author": [
+      "Wang, Kuan",
+      "Lu, Yadong",
+      "Santacroce, Michael",
+      "Gong, Yeyun",
+      "Zhang, Chao",
+      "Shen, Yelong"
+    ],
+    "citation_date": [
+      "2023/10/01"
+    ],
+    "citation_online_date": [
+      "2024/04/14"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.01444"
+    ],
+    "citation_arxiv_id": [
+      "2310.01444"
+    ],
+    "citation_abstract": [
+      "Recent advances in large language models (LLMs) have demonstrated potential for LLM agents. To facilitate the training for these agents with both linguistic feedback and non-linguistic reward signals, we introduce Learning through Communication (LTC). We design a universal buffer to store all the feedback, and an iterative pipeline to enable an LLM agent to explore and update its policy in an given environment. To optimize agent interactions for task-specific learning with our universal buffer and pipeline, we introduce diverse communication patterns tailored for both single-agent and multi-agent environments. We evaluate the efficacy of our LTC approach on four diverse datasets: ALFWorld (single-agent), HotpotQA (multi-agent collaboration), Chameleon (multi-agent competition), and GSM8k (multi-agent teacher-student). On these data sets, LTC outperforms the supervised instruction fine-tuning baselines by 3.6% to 12%. These results highlight the versatility and efficiency of LTC in facilitating online adaptation for LLM agents."
+    ]
+  },
+  "html_sha256": "e8255ef3aa15602d723e1f328684b15ee2af3c03cb8df0bac0b7200e8ad03b2e",
+  "evidence_html": "evidence/92f6150553d6aee7dba0.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,141 @@
+{
+  "url": "https://arxiv.org/abs/2306.06624",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2306.06624",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "tool_use_and_interfaces",
+      "title_hint": "RestGPT: Connecting Large Language Models with Real-World RESTful APIs",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2306.06624",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:47.696977+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2306.06624",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43207,
+  "title": "RestGPT: Connecting Large Language Models with Real-World RESTful APIs",
+  "authors": [
+    "Song, Yifan",
+    "Xiong, Weimin",
+    "Zhu, Dawei",
+    "Wu, Wenhao",
+    "Qian, Han",
+    "Song, Mingbo",
+    "Huang, Hailiang",
+    "Li, Cheng",
+    "Wang, Ke",
+    "Yao, Rong",
+    "Tian, Ye",
+    "Li, Sujian"
+  ],
+  "first_author": "Song, Yifan",
+  "year": 2023,
+  "source_date": "2023/06/11",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2306.06624",
+  "abstract": "Tool-augmented large language models (LLMs) have achieved remarkable progress in tackling a broad range of tasks. However, existing methods are mainly restricted to specifically designed tools and fail to fulfill complex instructions, having great limitations when confronted with real-world scenarios. In this paper, we explore a more realistic scenario by connecting LLMs with RESTful APIs, which adhere to the widely adopted REST software architectural style for web service development. To address the practical challenges of tackling complex instructions, we propose RestGPT, which exploits the power of LLMs and conducts a coarse-to-fine online planning mechanism to enhance the abilities of task decomposition and API selection. RestGPT also contains an API executor tailored for calling RESTful APIs, which can meticulously formulate parameters and parse API responses. To fully evaluate the performance of RestGPT, we propose RestBench, a high-quality benchmark which consists of two real-world scenarios and human-annotated instructions with gold solution paths. Experiments show that RestGPT is able to achieve impressive results in complex tasks and has strong robustness, which paves a new way towards AGI. RestGPT and RestBench is publicly available at this https URL .",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2306.06624: RestGPT: Connecting Large Language Models with Real-World RESTful APIs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RestGPT: Connecting Large Language Models with Real-World RESTful APIs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2306.06624v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Tool-augmented large language models (LLMs) have achieved remarkable progress in tackling a broad range of tasks. However, existing methods are mainly restricted to specifically designed tools and fail to fulfill complex instructions, having great limitations when confronted with real-world scenarios. In this paper, we explore a more realistic scenario by connecting LLMs with RESTful APIs, which adhere to the widely adopted REST software architectural style for web service development. To address the practical challenges of tackling complex instructions, we propose RestGPT, which exploits the power of LLMs and conducts a coarse-to-fine online planning mechanism to enhance the abilities of task decomposition and API selection. RestGPT also contains an API executor tailored for calling RESTful APIs, which can meticulously formulate parameters and parse API responses. To fully evaluate the performance of RestGPT, we propose RestBench, a high-quality benchmark which consists of two real-world scenarios and human-annotated instructions with gold solution paths. Experiments show that RestGPT is able to achieve impressive results in complex tasks and has strong robustness, which paves a new way towards AGI. RestGPT and RestBench is publicly available at https://restgpt.github.io/."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RestGPT: Connecting Large Language Models with Real-World RESTful APIs"
+    ],
+    "twitter:description": [
+      "Tool-augmented large language models (LLMs) have achieved remarkable progress in tackling a broad range of tasks. However, existing methods are mainly restricted to specifically designed tools and..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RestGPT: Connecting Large Language Models with Real-World RESTful APIs"
+    ],
+    "citation_author": [
+      "Song, Yifan",
+      "Xiong, Weimin",
+      "Zhu, Dawei",
+      "Wu, Wenhao",
+      "Qian, Han",
+      "Song, Mingbo",
+      "Huang, Hailiang",
+      "Li, Cheng",
+      "Wang, Ke",
+      "Yao, Rong",
+      "Tian, Ye",
+      "Li, Sujian"
+    ],
+    "citation_date": [
+      "2023/06/11"
+    ],
+    "citation_online_date": [
+      "2023/08/27"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2306.06624"
+    ],
+    "citation_arxiv_id": [
+      "2306.06624"
+    ],
+    "citation_abstract": [
+      "Tool-augmented large language models (LLMs) have achieved remarkable progress in tackling a broad range of tasks. However, existing methods are mainly restricted to specifically designed tools and fail to fulfill complex instructions, having great limitations when confronted with real-world scenarios. In this paper, we explore a more realistic scenario by connecting LLMs with RESTful APIs, which adhere to the widely adopted REST software architectural style for web service development. To address the practical challenges of tackling complex instructions, we propose RestGPT, which exploits the power of LLMs and conducts a coarse-to-fine online planning mechanism to enhance the abilities of task decomposition and API selection. RestGPT also contains an API executor tailored for calling RESTful APIs, which can meticulously formulate parameters and parse API responses. To fully evaluate the performance of RestGPT, we propose RestBench, a high-quality benchmark which consists of two real-world scenarios and human-annotated instructions with gold solution paths. Experiments show that RestGPT is able to achieve impressive results in complex tasks and has strong robustness, which paves a new way towards AGI. RestGPT and RestBench is publicly available at https://restgpt.github.io/."
+    ]
+  },
+  "html_sha256": "ec4f2b7170066b44db32f1a118a2b6d3d42699044618b5c16eeac4c1cc92bf88",
+  "evidence_html": "evidence/e83aa292ed544c051146.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://proceedings.mlr.press/v267/patil25a.html",
+  "discoveries": [
+    {
+      "url": "https://proceedings.mlr.press/v267/patil25a.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "The berkeley function calling leaderboard (BFCL): from tool use to agentic evaluation of large language models",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://proceedings.mlr.press/v267/patil25a.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:06.375040+00:00",
+  "http_status": 200,
+  "opened_url": "https://proceedings.mlr.press/v267/patil25a.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 17753,
+  "title": "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models",
+  "authors": [
+    "Shishir G Patil",
+    "Huanzhi Mao",
+    "Fanjia Yan",
+    "Charlie Cheng-Jie Ji",
+    "Vishnu Suresh",
+    "Ion Stoica",
+    "Joseph E. Gonzalez"
+  ],
+  "first_author": "Shishir G Patil",
+  "year": 2025,
+  "source_date": "2025/10/06",
+  "venue_from_source": "International Conference on Machine Learning",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "",
+  "abstract": "Function calling, also called tool use, refers to an LLM’s ability to invoke external functions, APIs, or user-defined tools in response to user queries—an essential capability for agentic LLM applications. Despite its prominence, there did not exist a standard benchmark to evaluate function calling abilities, due to two reasons – the challenging nature of evaluating when a function call is valid, and the challenge of acquiring diverse, real-world functions. We present the Berkeley Function Calling Leaderboard (BFCL), a comprehensive benchmark designed to evaluate function calling capabilities in a wide range of real-world settings. The BFCL benchmark evaluates serial and parallel function calls, across various programming languages using a novel Abstract Syntax Tree (AST) evaluation method that can easily scale to thousands of functions. We construct the benchmark using a combination of expert curated, and user-contributed functions and associated prompts. Finally, BFCL benchmark evaluates the ability of models to abstain and reason in stateful multi-step agentic setting. Evaluating a wide range of models, we observe that while state-of-the-art LLMs excel at singleturn calls, memory, dynamic decision-making, and long-horizon reasoning remain open challenges. Since its preview, BFCL has become the defacto standard for evaluating function-calls, and can be accessed at gorilla.cs.berkeley.edu/leaderboard.html.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "description": [
+      "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language ModelsShishir G Patil, Huanzhi Mao, Fanjia ..."
+    ],
+    "citation_publisher": [
+      "PMLR"
+    ],
+    "citation_title": [
+      "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "citation_abstract_html_url": [
+      "https://proceedings.mlr.press/v267/patil25a.html"
+    ],
+    "citation_pdf_url": [
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.pdf"
+    ],
+    "citation_firstpage": [
+      "48371"
+    ],
+    "citation_lastpage": [
+      "48392"
+    ],
+    "citation_author": [
+      "Shishir G Patil",
+      "Huanzhi Mao",
+      "Fanjia Yan",
+      "Charlie Cheng-Jie Ji",
+      "Vishnu Suresh",
+      "Ion Stoica",
+      "Joseph E. Gonzalez"
+    ],
+    "citation_publication_date": [
+      "2025/10/06"
+    ],
+    "citation_inbook_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_conference_title": [
+      "International Conference on Machine Learning"
+    ],
+    "citation_issn": [
+      "2640-3498"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models"
+    ],
+    "twitter:site": [
+      "@MLResearchPress"
+    ],
+    "twitter:description": [
+      "Function calling, also called tool use, refers to an LLM’s ability to invoke external functions, APIs, or user-defined tools in response to user queries—an e..."
+    ],
+    "twitter:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "twitter:image:alt": [
+      "PMLR Logo"
+    ],
+    "og:title": [
+      "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models"
+    ],
+    "og:description": [
+      "Function calling, also called tool use, refers to an LLM’s ability to invoke external functions, APIs, or user-defined tools in response to user queries—an essential capability for agentic LLM appl..."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "article:published_time": [
+      "2025-10-06T00:00:00+00:00"
+    ],
+    "og:url": [
+      "https://proceedings.mlr.press/v267/patil25a.html"
+    ],
+    "og:image": [
+      "https://proceedings.mlr.press/v267/assets/images/logo-pmlr.png"
+    ],
+    "og:site_name": [
+      "PMLR"
+    ]
+  },
+  "html_sha256": "a6e77f483993b2e893138161f419b56fd8b8eb8e7ce43a903033a4485c07754a",
+  "evidence_html": "evidence/f04d02215b42a8c3ac36.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

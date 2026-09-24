@@ -1,0 +1,154 @@
+{
+  "url": "https://arxiv.org/abs/2510.01051",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2510.01051",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "GEM: A gym for agentic llms",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2510.01051",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:52:14.896537+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2510.01051",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44815,
+  "title": "GEM: A Gym for Agentic LLMs",
+  "authors": [
+    "Liu, Zichen",
+    "Sims, Anya",
+    "Duan, Keyu",
+    "Chen, Changyu",
+    "Yu, Simon",
+    "Zhou, Xiangxin",
+    "Xu, Haotian",
+    "Xiong, Shaopan",
+    "Liu, Bo",
+    "Tan, Chenmien",
+    "Beh, Chuen Yang",
+    "Wang, Weixun",
+    "Zhu, Hao",
+    "Shi, Weiyan",
+    "Yang, Diyi",
+    "Shieh, Michael",
+    "Teh, Yee Whye",
+    "Lee, Wee Sun",
+    "Lin, Min"
+  ],
+  "first_author": "Liu, Zichen",
+  "year": 2025,
+  "source_date": "2025/10/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2510.01051",
+  "abstract": "The training paradigm for large language models (LLMs) is moving from static datasets to experience-based learning, where agents acquire skills via interacting with complex environments. To facilitate this transition we introduce GEM (General Experience Maker), an open-source environment simulator designed for the age of LLMs. Analogous to OpenAI-Gym for traditional reinforcement learning (RL), GEM provides a standardized framework for the environment-agent interface, including asynchronous vectorized execution for high throughput, and flexible wrappers for easy extensibility. GEM also features a diverse suite of environments, robust integrated tools, and single-file example scripts demonstrating using GEM with five popular RL training frameworks. Along with this, we also provide a set of baselines across 24 environments using REINFORCE with Return Batch Normalization (ReBN), which -- unlike GRPO -- is compatible with the full RL setting of dense per-turn rewards and offers better credit assignment. We further conduct apple-to-apple benchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings using GEM to shed light on the algorithmic designs. Lastly, GEM also functions as a convenient evaluation toolkit besides a training environment. We hope this framework can help accelerate future agentic LLM research.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2510.01051: GEM: A Gym for Agentic LLMs"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "GEM: A Gym for Agentic LLMs"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2510.01051v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "The training paradigm for large language models (LLMs) is moving from static datasets to experience-based learning, where agents acquire skills via interacting with complex environments. To facilitate this transition we introduce GEM (General Experience Maker), an open-source environment simulator designed for the age of LLMs. Analogous to OpenAI-Gym for traditional reinforcement learning (RL), GEM provides a standardized framework for the environment-agent interface, including asynchronous vectorized execution for high throughput, and flexible wrappers for easy extensibility. GEM also features a diverse suite of environments, robust integrated tools, and single-file example scripts demonstrating using GEM with five popular RL training frameworks. Along with this, we also provide a set of baselines across 24 environments using REINFORCE with Return Batch Normalization (ReBN), which -- unlike GRPO -- is compatible with the full RL setting of dense per-turn rewards and offers better credit assignment. We further conduct apple-to-apple benchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings using GEM to shed light on the algorithmic designs. Lastly, GEM also functions as a convenient evaluation toolkit besides a training environment. We hope this framework can help accelerate future agentic LLM research."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "GEM: A Gym for Agentic LLMs"
+    ],
+    "twitter:description": [
+      "The training paradigm for large language models (LLMs) is moving from static datasets to experience-based learning, where agents acquire skills via interacting with complex environments. To..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "GEM: A Gym for Agentic LLMs"
+    ],
+    "citation_author": [
+      "Liu, Zichen",
+      "Sims, Anya",
+      "Duan, Keyu",
+      "Chen, Changyu",
+      "Yu, Simon",
+      "Zhou, Xiangxin",
+      "Xu, Haotian",
+      "Xiong, Shaopan",
+      "Liu, Bo",
+      "Tan, Chenmien",
+      "Beh, Chuen Yang",
+      "Wang, Weixun",
+      "Zhu, Hao",
+      "Shi, Weiyan",
+      "Yang, Diyi",
+      "Shieh, Michael",
+      "Teh, Yee Whye",
+      "Lee, Wee Sun",
+      "Lin, Min"
+    ],
+    "citation_date": [
+      "2025/10/01"
+    ],
+    "citation_online_date": [
+      "2026/03/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2510.01051"
+    ],
+    "citation_arxiv_id": [
+      "2510.01051"
+    ],
+    "citation_abstract": [
+      "The training paradigm for large language models (LLMs) is moving from static datasets to experience-based learning, where agents acquire skills via interacting with complex environments. To facilitate this transition we introduce GEM (General Experience Maker), an open-source environment simulator designed for the age of LLMs. Analogous to OpenAI-Gym for traditional reinforcement learning (RL), GEM provides a standardized framework for the environment-agent interface, including asynchronous vectorized execution for high throughput, and flexible wrappers for easy extensibility. GEM also features a diverse suite of environments, robust integrated tools, and single-file example scripts demonstrating using GEM with five popular RL training frameworks. Along with this, we also provide a set of baselines across 24 environments using REINFORCE with Return Batch Normalization (ReBN), which -- unlike GRPO -- is compatible with the full RL setting of dense per-turn rewards and offers better credit assignment. We further conduct apple-to-apple benchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings using GEM to shed light on the algorithmic designs. Lastly, GEM also functions as a convenient evaluation toolkit besides a training environment. We hope this framework can help accelerate future agentic LLM research."
+    ]
+  },
+  "html_sha256": "1836497ed123ce0f3cb15a3ac66eb750b6dc0d20ebf34a17be0749591937368d",
+  "evidence_html": "evidence/f79ca0340eb343986060.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

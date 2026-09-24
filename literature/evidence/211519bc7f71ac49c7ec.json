@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2506.07982",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2506.07982",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "τ \\tau 2 {}^{\\mbox{2}} -bench: Evaluating conversational agents in a dual-control environment",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2506.07982",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:07.034112+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2506.07982",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42245,
+  "title": "$\\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+  "authors": [
+    "Barres, Victor",
+    "Dong, Honghua",
+    "Ray, Soham",
+    "Si, Xujie",
+    "Narasimhan, Karthik"
+  ],
+  "first_author": "Barres, Victor",
+  "year": 2025,
+  "source_date": "2025/06/09",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2506.07982",
+  "abstract": "Existing benchmarks for conversational AI agents simulate single-control environments, where only the AI agent can use tools to interact with the world, while the user remains a passive information provider. This differs from real-world scenarios like technical support, where users need to actively participate in modifying the state of the (shared) world. In order to address this gap, we introduce $\\tau^2$-bench, with four key contributions: 1) A novel Telecom dual-control domain modeled as a Dec-POMDP, where both agent and user make use of tools to act in a shared, dynamic environment that tests both agent coordination and communication, 2) A compositional task generator that programmatically creates diverse, verifiable tasks from atomic components, ensuring domain coverage and controlled complexity, 3) A reliable user simulator tightly coupled with the environment, whose behavior is constrained by tools and observable states, improving simulation fidelity, 4) Fine-grained analysis of agent performance through multiple ablations including separating errors arising from reasoning vs communication/coordination. In particular, our experiments show significant performance drops when agents shift from no-user to dual-control, highlighting the challenges of guiding users. Overall, $\\tau^2$-bench provides a controlled testbed for agents that must both reason effectively and guide user actions.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2506.07982: $τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2506.07982v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Existing benchmarks for conversational AI agents simulate single-control environments, where only the AI agent can use tools to interact with the world, while the user remains a passive information provider. This differs from real-world scenarios like technical support, where users need to actively participate in modifying the state of the (shared) world. In order to address this gap, we introduce $τ^2$-bench, with four key contributions:\n  1) A novel Telecom dual-control domain modeled as a Dec-POMDP, where both agent and user make use of tools to act in a shared, dynamic environment that tests both agent coordination and communication,\n  2) A compositional task generator that programmatically creates diverse, verifiable tasks from atomic components, ensuring domain coverage and controlled complexity,\n  3) A reliable user simulator tightly coupled with the environment, whose behavior is constrained by tools and observable states, improving simulation fidelity,\n  4) Fine-grained analysis of agent performance through multiple ablations including separating errors arising from reasoning vs communication/coordination.\n  In particular, our experiments show significant performance drops when agents shift from no-user to dual-control, highlighting the challenges of guiding users. Overall, $τ^2$-bench provides a controlled testbed for agents that must both reason effectively and guide user actions."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment"
+    ],
+    "twitter:description": [
+      "Existing benchmarks for conversational AI agents simulate single-control environments, where only the AI agent can use tools to interact with the world, while the user remains a passive..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "$\\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment"
+    ],
+    "citation_author": [
+      "Barres, Victor",
+      "Dong, Honghua",
+      "Ray, Soham",
+      "Si, Xujie",
+      "Narasimhan, Karthik"
+    ],
+    "citation_date": [
+      "2025/06/09"
+    ],
+    "citation_online_date": [
+      "2025/06/09"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2506.07982"
+    ],
+    "citation_arxiv_id": [
+      "2506.07982"
+    ],
+    "citation_abstract": [
+      "Existing benchmarks for conversational AI agents simulate single-control environments, where only the AI agent can use tools to interact with the world, while the user remains a passive information provider. This differs from real-world scenarios like technical support, where users need to actively participate in modifying the state of the (shared) world. In order to address this gap, we introduce $\\tau^2$-bench, with four key contributions: 1) A novel Telecom dual-control domain modeled as a Dec-POMDP, where both agent and user make use of tools to act in a shared, dynamic environment that tests both agent coordination and communication, 2) A compositional task generator that programmatically creates diverse, verifiable tasks from atomic components, ensuring domain coverage and controlled complexity, 3) A reliable user simulator tightly coupled with the environment, whose behavior is constrained by tools and observable states, improving simulation fidelity, 4) Fine-grained analysis of agent performance through multiple ablations including separating errors arising from reasoning vs communication/coordination. In particular, our experiments show significant performance drops when agents shift from no-user to dual-control, highlighting the challenges of guiding users. Overall, $\\tau^2$-bench provides a controlled testbed for agents that must both reason effectively and guide user actions."
+    ]
+  },
+  "html_sha256": "de9a5ac25f506ea5b3426963c3896b054cef3916262364fd14beb136f8fa4bae",
+  "evidence_html": "evidence/211519bc7f71ac49c7ec.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

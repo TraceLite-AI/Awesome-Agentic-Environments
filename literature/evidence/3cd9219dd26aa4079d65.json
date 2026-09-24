@@ -1,0 +1,126 @@
+{
+  "url": "https://arxiv.org/abs/2107.04034",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2107.04034",
+      "discovery_url": "local:环境坐标空间-综述与提案-v3.0.md#reference-64",
+      "topic": "机器人与世界模型",
+      "title_hint": "Kumar, Fu, Pathak, Malik. RMA: Rapid Motor Adaptation for Legged Robots. RSS 2021. arXiv:2107.04034.",
+      "existing_reference_number": 64,
+      "candidate_file": "candidates_existing.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2107.04034",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:55:15.865849+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2107.04034",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42881,
+  "title": "RMA: Rapid Motor Adaptation for Legged Robots",
+  "authors": [
+    "Kumar, Ashish",
+    "Fu, Zipeng",
+    "Pathak, Deepak",
+    "Malik, Jitendra"
+  ],
+  "first_author": "Kumar, Ashish",
+  "year": 2021,
+  "source_date": "2021/07/08",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2107.04034",
+  "abstract": "Successful real-world deployment of legged robots would require them to adapt in real-time to unseen scenarios like changing terrains, changing payloads, wear and tear. This paper presents Rapid Motor Adaptation (RMA) algorithm to solve this problem of real-time online adaptation in quadruped robots. RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning. We train RMA on a varied terrain generator using bioenergetics-inspired rewards and deploy it on a variety of difficult terrains including rocky, slippery, deformable surfaces in environments with grass, long vegetation, concrete, pebbles, stairs, sand, etc. RMA shows state-of-the-art performance across diverse real-world as well as simulation experiments. Video results at this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2107.04034: RMA: Rapid Motor Adaptation for Legged Robots"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "RMA: Rapid Motor Adaptation for Legged Robots"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2107.04034v1"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Successful real-world deployment of legged robots would require them to adapt in real-time to unseen scenarios like changing terrains, changing payloads, wear and tear. This paper presents Rapid Motor Adaptation (RMA) algorithm to solve this problem of real-time online adaptation in quadruped robots. RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning. We train RMA on a varied terrain generator using bioenergetics-inspired rewards and deploy it on a variety of difficult terrains including rocky, slippery, deformable surfaces in environments with grass, long vegetation, concrete, pebbles, stairs, sand, etc. RMA shows state-of-the-art performance across diverse real-world as well as simulation experiments. Video results at https://ashish-kmr.github.io/rma-legged-robots/"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "RMA: Rapid Motor Adaptation for Legged Robots"
+    ],
+    "twitter:description": [
+      "Successful real-world deployment of legged robots would require them to adapt in real-time to unseen scenarios like changing terrains, changing payloads, wear and tear. This paper presents Rapid..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "RMA: Rapid Motor Adaptation for Legged Robots"
+    ],
+    "citation_author": [
+      "Kumar, Ashish",
+      "Fu, Zipeng",
+      "Pathak, Deepak",
+      "Malik, Jitendra"
+    ],
+    "citation_date": [
+      "2021/07/08"
+    ],
+    "citation_online_date": [
+      "2021/07/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2107.04034"
+    ],
+    "citation_arxiv_id": [
+      "2107.04034"
+    ],
+    "citation_abstract": [
+      "Successful real-world deployment of legged robots would require them to adapt in real-time to unseen scenarios like changing terrains, changing payloads, wear and tear. This paper presents Rapid Motor Adaptation (RMA) algorithm to solve this problem of real-time online adaptation in quadruped robots. RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning. We train RMA on a varied terrain generator using bioenergetics-inspired rewards and deploy it on a variety of difficult terrains including rocky, slippery, deformable surfaces in environments with grass, long vegetation, concrete, pebbles, stairs, sand, etc. RMA shows state-of-the-art performance across diverse real-world as well as simulation experiments. Video results at https://ashish-kmr.github.io/rma-legged-robots/"
+    ]
+  },
+  "html_sha256": "1867d1e1efc250a596593cd5488fdbb2f51acc3be0b6cb170b9d0696973dd47c",
+  "evidence_html": "evidence/3cd9219dd26aa4079d65.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

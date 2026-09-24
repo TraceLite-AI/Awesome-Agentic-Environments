@@ -1,0 +1,84 @@
+{
+  "url": "https://papers.nips.cc/paper_files/paper/2024/hash/877b40688e330a0e2a3fc24084208dfa-Abstract-Datasets_and_Benchmarks_Track.html",
+  "discoveries": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/877b40688e330a0e2a3fc24084208dfa-Abstract-Datasets_and_Benchmarks_Track.html",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Agentboard: An analytical evaluation board of multi-turn LLM agents",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://papers.nips.cc/paper_files/paper/2024/hash/877b40688e330a0e2a3fc24084208dfa-Abstract-Datasets_and_Benchmarks_Track.html",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:53:21.321955+00:00",
+  "http_status": 200,
+  "opened_url": "https://papers.nips.cc/paper_files/paper/2024/hash/877b40688e330a0e2a3fc24084208dfa-Abstract-Datasets_and_Benchmarks_Track.html",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 10382,
+  "title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+  "authors": [
+    "Ma, Chang",
+    "Zhang, Junlei",
+    "Zhu, Zhihao",
+    "Yang, Cheng",
+    "Yang, Yujiu",
+    "Jin, Yaohui",
+    "Lan, Zhenzhong",
+    "Kong, Lingpeng",
+    "He, Junxian"
+  ],
+  "first_author": "Ma, Chang",
+  "year": 2024,
+  "source_date": "2024-12-16",
+  "venue_from_source": "Advances in Neural Information Processing Systems",
+  "journal_reference_from_source": "",
+  "doi": "10.52202/079017-2365",
+  "arxiv_id": "",
+  "abstract": "Evaluating large language models (LLMs) as general-purpose agents is essential for understanding their capabilities and facilitating their integration into practical applications. However, the evaluation process presents substantial challenges. A primary obstacle is the benchmarking of agent performance across diverse scenarios within a unified framework, especially in maintaining partially-observable environments and ensuring multi-round interactions. Moreover, current evaluation frameworks mostly focus on the final success rate, revealing few insights during the process and failing to provide a deep understanding of the model abilities. To address these challenges, we introduce AgentBoard, a pioneering comprehensive benchmark and accompanied open-source evaluation framework tailored to analytical evaluation of LLM agents. AgentBoard offers a fine-grained progress rate metric that captures incremental advancements as well as a comprehensive evaluation toolkit that features easy assessment of agents for multi-faceted analysis through interactive visualization. This not only sheds light on the capabilities and limitations of LLM agents but also propels the interpretability of their performance to the forefront. Ultimately, AgentBoard serves as a significant step towards demystifying agent behaviors and accelerating the development of stronger LLM agents.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents"
+    ],
+    "citation_author": [
+      "Ma, Chang",
+      "Zhang, Junlei",
+      "Zhu, Zhihao",
+      "Yang, Cheng",
+      "Yang, Yujiu",
+      "Jin, Yaohui",
+      "Lan, Zhenzhong",
+      "Kong, Lingpeng",
+      "He, Junxian"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-2365"
+    ],
+    "citation_firstpage": [
+      "74325"
+    ],
+    "citation_lastpage": [
+      "74362"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/877b40688e330a0e2a3fc24084208dfa-Paper-Datasets_and_Benchmarks_Track.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "html_sha256": "953b2a4c6499d4a2233b8c15f5582cf5335c087cf0ed1f8094d5c5c2097ff9fa",
+  "evidence_html": "evidence/807712a57cb1482ea762.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

@@ -1,0 +1,138 @@
+{
+  "url": "https://arxiv.org/abs/2603.02277",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2603.02277",
+      "discovery_url": "https://github.com/Gloriaameng/Awesome-Agent-Harness",
+      "topic": "security_permissions_and_verification",
+      "title_hint": "Quantifying Frontier LLM Capabilities for Container Sandbox Escape",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2603.02277",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:29.861156+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2603.02277",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 42818,
+  "title": "Quantifying Frontier LLM Capabilities for Container Sandbox Escape",
+  "authors": [
+    "Marchand, Rahul",
+    "Cathain, Art O",
+    "Wynne, Jerome",
+    "Giavridis, Philippos Maximos",
+    "Jennings, Stuart",
+    "Tuxworth, Freddy",
+    "Dur, Tolga H.",
+    "Deverett, Sam",
+    "Wilkinson, John",
+    "Gwartz, Jason",
+    "Coppock, Harry"
+  ],
+  "first_author": "Marchand, Rahul",
+  "year": 2026,
+  "source_date": "2026/03/01",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2603.02277",
+  "abstract": "Large language models (LLMs) increasingly act as autonomous agents, using tools to execute code, read and write files, and access networks, creating novel security risks. To mitigate these risks, agents are commonly deployed and evaluated in isolated \"sandbox\" environments, often implemented using Docker/OCI containers. We introduce SANDBOXESCAPEBENCH, an open benchmark that safely measures an LLM's capacity to break out of these sandboxes. The benchmark is implemented as an Inspect AI Capture the Flag (CTF) evaluation utilising a nested sandbox architecture with the outer layer containing the flag and no known vulnerabilities. Following a threat model of a motivated adversarial agent with shell access inside a container, SANDBOXESCAPEBENCH covers a spectrum of sandboxescape mechanisms spanning misconfiguration, privilege allocation mistakes, kernel flaws, and runtime/orchestration weaknesses. We find that, when vulnerabilities are added, LLMs are able to identify and exploit them, showing that use of evaluation like SANDBOXESCAPEBENCH is needed to ensure sandboxing continues to provide the encapsulation needed for highly-capable models.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2603.02277: Quantifying Frontier LLM Capabilities for Container Sandbox Escape"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Quantifying Frontier LLM Capabilities for Container Sandbox Escape"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2603.02277v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large language models (LLMs) increasingly act as autonomous agents, using tools to execute code, read and write files, and access networks, creating novel security risks. To mitigate these risks, agents are commonly deployed and evaluated in isolated \"sandbox\" environments, often implemented using Docker/OCI containers. We introduce SANDBOXESCAPEBENCH, an open benchmark that safely measures an LLM's capacity to break out of these sandboxes. The benchmark is implemented as an Inspect AI Capture the Flag (CTF) evaluation utilising a nested sandbox architecture with the outer layer containing the flag and no known vulnerabilities. Following a threat model of a motivated adversarial agent with shell access inside a container, SANDBOXESCAPEBENCH covers a spectrum of sandboxescape mechanisms spanning misconfiguration, privilege allocation mistakes, kernel flaws, and runtime/orchestration weaknesses. We find that, when vulnerabilities are added, LLMs are able to identify and exploit them, showing that use of evaluation like SANDBOXESCAPEBENCH is needed to ensure sandboxing continues to provide the encapsulation needed for highly-capable models."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Quantifying Frontier LLM Capabilities for Container Sandbox Escape"
+    ],
+    "twitter:description": [
+      "Large language models (LLMs) increasingly act as autonomous agents, using tools to execute code, read and write files, and access networks, creating novel security risks. To mitigate these risks,..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Quantifying Frontier LLM Capabilities for Container Sandbox Escape"
+    ],
+    "citation_author": [
+      "Marchand, Rahul",
+      "Cathain, Art O",
+      "Wynne, Jerome",
+      "Giavridis, Philippos Maximos",
+      "Jennings, Stuart",
+      "Tuxworth, Freddy",
+      "Dur, Tolga H.",
+      "Deverett, Sam",
+      "Wilkinson, John",
+      "Gwartz, Jason",
+      "Coppock, Harry"
+    ],
+    "citation_date": [
+      "2026/03/01"
+    ],
+    "citation_online_date": [
+      "2026/08/01"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2603.02277"
+    ],
+    "citation_arxiv_id": [
+      "2603.02277"
+    ],
+    "citation_abstract": [
+      "Large language models (LLMs) increasingly act as autonomous agents, using tools to execute code, read and write files, and access networks, creating novel security risks. To mitigate these risks, agents are commonly deployed and evaluated in isolated \"sandbox\" environments, often implemented using Docker/OCI containers. We introduce SANDBOXESCAPEBENCH, an open benchmark that safely measures an LLM's capacity to break out of these sandboxes. The benchmark is implemented as an Inspect AI Capture the Flag (CTF) evaluation utilising a nested sandbox architecture with the outer layer containing the flag and no known vulnerabilities. Following a threat model of a motivated adversarial agent with shell access inside a container, SANDBOXESCAPEBENCH covers a spectrum of sandboxescape mechanisms spanning misconfiguration, privilege allocation mistakes, kernel flaws, and runtime/orchestration weaknesses. We find that, when vulnerabilities are added, LLMs are able to identify and exploit them, showing that use of evaluation like SANDBOXESCAPEBENCH is needed to ensure sandboxing continues to provide the encapsulation needed for highly-capable models."
+    ]
+  },
+  "html_sha256": "9d5018c11950b0db59bae3e223333ff400d9e7ee1814725cbb67f152f187ad53",
+  "evidence_html": "evidence/ad8c646423a3802df0d9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

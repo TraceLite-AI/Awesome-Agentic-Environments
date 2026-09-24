@@ -1,0 +1,149 @@
+{
+  "url": "https://arxiv.org/abs/2310.06830",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2310.06830",
+      "discovery_url": "https://github.com/FudanSELab/Agent4SE-Paper-List",
+      "topic": "coding_agents",
+      "title_hint": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+      "candidate_file": "candidates_agent.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2310.06830",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T06:00:11.163774+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2310.06830",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 44303,
+  "title": "Lemur: Harmonizing Natural Language and Code for Language Agents",
+  "authors": [
+    "Xu, Yiheng",
+    "Su, Hongjin",
+    "Xing, Chen",
+    "Mi, Boyu",
+    "Liu, Qian",
+    "Shi, Weijia",
+    "Hui, Binyuan",
+    "Zhou, Fan",
+    "Liu, Yitao",
+    "Xie, Tianbao",
+    "Cheng, Zhoujun",
+    "Zhao, Siheng",
+    "Kong, Lingpeng",
+    "Wang, Bailin",
+    "Xiong, Caiming",
+    "Yu, Tao"
+  ],
+  "first_author": "Xu, Yiheng",
+  "year": 2023,
+  "source_date": "2023/10/10",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2310.06830",
+  "abstract": "We introduce Lemur and Lemur-Chat, openly accessible language models optimized for both natural language and coding capabilities to serve as the backbone of versatile language agents. The evolution from language chat models to functional language agents demands that models not only master human interaction, reasoning, and planning but also ensure grounding in the relevant environments. This calls for a harmonious blend of language and coding capabilities in the models. Lemur and Lemur-Chat are proposed to address this necessity, demonstrating balanced proficiencies in both domains, unlike existing open-source models that tend to specialize in either. Through meticulous pre-training using a code-intensive corpus and instruction fine-tuning on text and code data, our models achieve state-of-the-art averaged performance across diverse text and coding benchmarks among open-source models. Comprehensive experiments demonstrate Lemur's superiority over existing open-source models and its proficiency across various agent tasks involving human communication, tool usage, and interaction under fully- and partially- observable environments. The harmonization between natural and programming languages enables Lemur-Chat to significantly narrow the gap with proprietary models on agent abilities, providing key insights into developing advanced open-source agents adept at reasoning, planning, and operating seamlessly across environments. this https URL",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2310.06830: Lemur: Harmonizing Natural Language and Code for Language Agents"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Lemur: Harmonizing Natural Language and Code for Language Agents"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2310.06830v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "We introduce Lemur and Lemur-Chat, openly accessible language models optimized for both natural language and coding capabilities to serve as the backbone of versatile language agents. The evolution from language chat models to functional language agents demands that models not only master human interaction, reasoning, and planning but also ensure grounding in the relevant environments. This calls for a harmonious blend of language and coding capabilities in the models. Lemur and Lemur-Chat are proposed to address this necessity, demonstrating balanced proficiencies in both domains, unlike existing open-source models that tend to specialize in either. Through meticulous pre-training using a code-intensive corpus and instruction fine-tuning on text and code data, our models achieve state-of-the-art averaged performance across diverse text and coding benchmarks among open-source models. Comprehensive experiments demonstrate Lemur's superiority over existing open-source models and its proficiency across various agent tasks involving human communication, tool usage, and interaction under fully- and partially- observable environments. The harmonization between natural and programming languages enables Lemur-Chat to significantly narrow the gap with proprietary models on agent abilities, providing key insights into developing advanced open-source agents adept at reasoning, planning, and operating seamlessly across environments. https://github.com/OpenLemur/Lemur"
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Lemur: Harmonizing Natural Language and Code for Language Agents"
+    ],
+    "twitter:description": [
+      "We introduce Lemur and Lemur-Chat, openly accessible language models optimized for both natural language and coding capabilities to serve as the backbone of versatile language agents. The..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Lemur: Harmonizing Natural Language and Code for Language Agents"
+    ],
+    "citation_author": [
+      "Xu, Yiheng",
+      "Su, Hongjin",
+      "Xing, Chen",
+      "Mi, Boyu",
+      "Liu, Qian",
+      "Shi, Weijia",
+      "Hui, Binyuan",
+      "Zhou, Fan",
+      "Liu, Yitao",
+      "Xie, Tianbao",
+      "Cheng, Zhoujun",
+      "Zhao, Siheng",
+      "Kong, Lingpeng",
+      "Wang, Bailin",
+      "Xiong, Caiming",
+      "Yu, Tao"
+    ],
+    "citation_date": [
+      "2023/10/10"
+    ],
+    "citation_online_date": [
+      "2024/08/24"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2310.06830"
+    ],
+    "citation_arxiv_id": [
+      "2310.06830"
+    ],
+    "citation_abstract": [
+      "We introduce Lemur and Lemur-Chat, openly accessible language models optimized for both natural language and coding capabilities to serve as the backbone of versatile language agents. The evolution from language chat models to functional language agents demands that models not only master human interaction, reasoning, and planning but also ensure grounding in the relevant environments. This calls for a harmonious blend of language and coding capabilities in the models. Lemur and Lemur-Chat are proposed to address this necessity, demonstrating balanced proficiencies in both domains, unlike existing open-source models that tend to specialize in either. Through meticulous pre-training using a code-intensive corpus and instruction fine-tuning on text and code data, our models achieve state-of-the-art averaged performance across diverse text and coding benchmarks among open-source models. Comprehensive experiments demonstrate Lemur's superiority over existing open-source models and its proficiency across various agent tasks involving human communication, tool usage, and interaction under fully- and partially- observable environments. The harmonization between natural and programming languages enables Lemur-Chat to significantly narrow the gap with proprietary models on agent abilities, providing key insights into developing advanced open-source agents adept at reasoning, planning, and operating seamlessly across environments. https://github.com/OpenLemur/Lemur"
+    ]
+  },
+  "html_sha256": "402da74dd0435cf73b99754ce69783a36da95f6a1112eb0d44afbd8e03cc53d0",
+  "evidence_html": "evidence/2b52484ddea7ced686e9.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims.",
+  "abstract_extraction": "visible abstract section, preferred over source metadata"
+}

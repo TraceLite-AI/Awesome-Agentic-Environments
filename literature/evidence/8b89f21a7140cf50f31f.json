@@ -1,0 +1,152 @@
+{
+  "url": "https://arxiv.org/abs/2409.12917",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2409.12917",
+      "discovery_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+      "topic": "planning_search_and_reflection",
+      "title_hint": "Training Language Models to Self-Correct via Reinforcement Learning (SCoRe)",
+      "candidate_file": "candidates_harness.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2409.12917",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:56:24.686027+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2409.12917",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 46328,
+  "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+  "authors": [
+    "Kumar, Aviral",
+    "Zhuang, Vincent",
+    "Agarwal, Rishabh",
+    "Su, Yi",
+    "Co-Reyes, John D",
+    "Singh, Avi",
+    "Baumli, Kate",
+    "Iqbal, Shariq",
+    "Bishop, Colton",
+    "Roelofs, Rebecca",
+    "Zhang, Lei M",
+    "McKinney, Kay",
+    "Shrivastava, Disha",
+    "Paduraru, Cosmin",
+    "Tucker, George",
+    "Precup, Doina",
+    "Behbahani, Feryal",
+    "Faust, Aleksandra"
+  ],
+  "first_author": "Kumar, Aviral",
+  "year": 2024,
+  "source_date": "2024/09/19",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2409.12917",
+  "abstract": "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Current methods for training self-correction typically depend on either multiple models, a more advanced model, or additional forms of supervision. To address these shortcomings, we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM's self-correction ability using entirely self-generated data. To build SCoRe, we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are often insufficient for instilling self-correction behavior. In particular, we observe that training via SFT falls prey to either a distribution mismatch between mistakes made by the data-collection policy and the model's own responses, or to behavior collapse, where learning implicitly prefers only a certain mode of correction behavior that is often not effective at self-correction on test problems. SCoRe addresses these challenges by training under the model's own distribution of self-generated correction traces and using appropriate regularization to steer the learning process into learning a self-correction behavior that is effective at test time as opposed to fitting high-reward responses for a given prompt. This regularization process includes an initial phase of multi-turn RL on a base model to generate a policy initialization that is less susceptible to collapse, followed by using a reward bonus to amplify self-correction. With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance, improving the base models' self-correction by 15.6% and 9.1% respectively on MATH and HumanEval.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2409.12917: Training Language Models to Self-Correct via Reinforcement Learning"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "Training Language Models to Self-Correct via Reinforcement Learning"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2409.12917v2"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Current methods for training self-correction typically depend on either multiple models, a more advanced model, or additional forms of supervision. To address these shortcomings, we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM's self-correction ability using entirely self-generated data. To build SCoRe, we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are often insufficient for instilling self-correction behavior. In particular, we observe that training via SFT falls prey to either a distribution mismatch between mistakes made by the data-collection policy and the model's own responses, or to behavior collapse, where learning implicitly prefers only a certain mode of correction behavior that is often not effective at self-correction on test problems. SCoRe addresses these challenges by training under the model's own distribution of self-generated correction traces and using appropriate regularization to steer the learning process into learning a self-correction behavior that is effective at test time as opposed to fitting high-reward responses for a given prompt. This regularization process includes an initial phase of multi-turn RL on a base model to generate a policy initialization that is less susceptible to collapse, followed by using a reward bonus to amplify self-correction. With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance, improving the base models' self-correction by 15.6% and 9.1% respectively on MATH and HumanEval."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "Training Language Models to Self-Correct via Reinforcement Learning"
+    ],
+    "twitter:description": [
+      "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Current methods for training..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "Training Language Models to Self-Correct via Reinforcement Learning"
+    ],
+    "citation_author": [
+      "Kumar, Aviral",
+      "Zhuang, Vincent",
+      "Agarwal, Rishabh",
+      "Su, Yi",
+      "Co-Reyes, John D",
+      "Singh, Avi",
+      "Baumli, Kate",
+      "Iqbal, Shariq",
+      "Bishop, Colton",
+      "Roelofs, Rebecca",
+      "Zhang, Lei M",
+      "McKinney, Kay",
+      "Shrivastava, Disha",
+      "Paduraru, Cosmin",
+      "Tucker, George",
+      "Precup, Doina",
+      "Behbahani, Feryal",
+      "Faust, Aleksandra"
+    ],
+    "citation_date": [
+      "2024/09/19"
+    ],
+    "citation_online_date": [
+      "2024/10/04"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2409.12917"
+    ],
+    "citation_arxiv_id": [
+      "2409.12917"
+    ],
+    "citation_abstract": [
+      "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Current methods for training self-correction typically depend on either multiple models, a more advanced model, or additional forms of supervision. To address these shortcomings, we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM's self-correction ability using entirely self-generated data. To build SCoRe, we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are often insufficient for instilling self-correction behavior. In particular, we observe that training via SFT falls prey to either a distribution mismatch between mistakes made by the data-collection policy and the model's own responses, or to behavior collapse, where learning implicitly prefers only a certain mode of correction behavior that is often not effective at self-correction on test problems. SCoRe addresses these challenges by training under the model's own distribution of self-generated correction traces and using appropriate regularization to steer the learning process into learning a self-correction behavior that is effective at test time as opposed to fitting high-reward responses for a given prompt. This regularization process includes an initial phase of multi-turn RL on a base model to generate a policy initialization that is less susceptible to collapse, followed by using a reward bonus to amplify self-correction. With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance, improving the base models' self-correction by 15.6% and 9.1% respectively on MATH and HumanEval."
+    ]
+  },
+  "html_sha256": "2cd7d43adb6883d1d2b7c8340dad731e6eaf340af954f090c8b2f14f82647a4d",
+  "evidence_html": "evidence/8b89f21a7140cf50f31f.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

@@ -1,0 +1,134 @@
+{
+  "url": "https://arxiv.org/abs/2503.00096",
+  "discoveries": [
+    {
+      "url": "https://arxiv.org/abs/2503.00096",
+      "discovery_url": "https://arxiv.org/html/2606.12191v1",
+      "topic": "Interactive agent benchmarks/tool/code/enterprise environments",
+      "title_hint": "Bixbench: a comprehensive benchmark for llm-based agents in computational biology",
+      "candidate_file": "candidates_environment.jsonl"
+    }
+  ],
+  "verification_status": "verified_metadata",
+  "requested_url": "https://arxiv.org/abs/2503.00096",
+  "fetch_method": "individual HTTP GET of original source page via requests; HTML metadata extracted",
+  "opened_at_utc": "2026-09-24T05:54:21.786656+00:00",
+  "http_status": 200,
+  "opened_url": "https://arxiv.org/abs/2503.00096",
+  "content_type": "text/html; charset=utf-8",
+  "response_bytes": 43554,
+  "title": "BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology",
+  "authors": [
+    "Mitchener, Ludovico",
+    "Laurent, Jon M",
+    "Andonian, Alex",
+    "Tenmann, Benjamin",
+    "Narayanan, Siddharth",
+    "Wellawatte, Geemi P",
+    "White, Andrew",
+    "Sani, Lorenzo",
+    "Rodriques, Samuel G"
+  ],
+  "first_author": "Mitchener, Ludovico",
+  "year": 2025,
+  "source_date": "2025/02/28",
+  "venue_from_source": "arXiv (preprint repository; acceptance not inferred)",
+  "journal_reference_from_source": "",
+  "doi": "",
+  "arxiv_id": "2503.00096",
+  "abstract": "Large Language Models (LLMs) and LLM-based agents show great promise in accelerating scientific research. Existing benchmarks for measuring this potential and guiding future development continue to evolve from pure recall and rote knowledge tasks, towards more practical work such as literature review and experimental planning. Bioinformatics is a domain where fully autonomous AI-driven discovery may be near, but no extensive benchmarks for measuring progress have been introduced to date. We therefore present the Bioinformatics Benchmark (BixBench), a dataset comprising over 50 real-world scenarios of practical biological data analysis with nearly 300 associated open-answer questions designed to measure the ability of LLM-based agents to explore biological datasets, perform long, multi-step analytical trajectories, and interpret the nuanced results of those analyses. We evaluate the performance of two frontier LLMs (GPT-4o and Claude 3.5 Sonnet) using a custom agent framework we open source. We find that even the latest frontier models only achieve 17% accuracy in the open-answer regime, and no better than random in a multiple-choice setting. By exposing the current limitations of frontier models, we hope BixBench can spur the development of agents capable of conducting rigorous bioinformatic analysis and accelerate scientific discovery.",
+  "source_metadata": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "msapplication-tilecolor": [
+      "#da532c"
+    ],
+    "theme-color": [
+      "#ffffff"
+    ],
+    "description": [
+      "Abstract page for arXiv paper 2503.00096: BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology"
+    ],
+    "og:type": [
+      "website"
+    ],
+    "og:site_name": [
+      "arXiv.org"
+    ],
+    "og:title": [
+      "BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology"
+    ],
+    "og:url": [
+      "https://arxiv.org/abs/2503.00096v3"
+    ],
+    "og:image": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:secure_url": [
+      "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    ],
+    "og:image:width": [
+      "1200"
+    ],
+    "og:image:height": [
+      "700"
+    ],
+    "og:image:alt": [
+      "arXiv logo"
+    ],
+    "og:description": [
+      "Large Language Models (LLMs) and LLM-based agents show great promise in accelerating scientific research. Existing benchmarks for measuring this potential and guiding future development continue to evolve from pure recall and rote knowledge tasks, towards more practical work such as literature review and experimental planning. Bioinformatics is a domain where fully autonomous AI-driven discovery may be near, but no extensive benchmarks for measuring progress have been introduced to date. We therefore present the Bioinformatics Benchmark (BixBench), a dataset comprising over 50 real-world scenarios of practical biological data analysis with nearly 300 associated open-answer questions designed to measure the ability of LLM-based agents to explore biological datasets, perform long, multi-step analytical trajectories, and interpret the nuanced results of those analyses. We evaluate the performance of two frontier LLMs (GPT-4o and Claude 3.5 Sonnet) using a custom agent framework we open source. We find that even the latest frontier models only achieve 17% accuracy in the open-answer regime, and no better than random in a multiple-choice setting. By exposing the current limitations of frontier models, we hope BixBench can spur the development of agents capable of conducting rigorous bioinformatic analysis and accelerate scientific discovery."
+    ],
+    "twitter:site": [
+      "@arxiv"
+    ],
+    "twitter:card": [
+      "summary"
+    ],
+    "twitter:title": [
+      "BixBench: a Comprehensive Benchmark for LLM-based Agents in..."
+    ],
+    "twitter:description": [
+      "Large Language Models (LLMs) and LLM-based agents show great promise in accelerating scientific research. Existing benchmarks for measuring this potential and guiding future development continue..."
+    ],
+    "twitter:image": [
+      "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+    ],
+    "twitter:image:alt": [
+      "arXiv logo"
+    ],
+    "citation_title": [
+      "BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology"
+    ],
+    "citation_author": [
+      "Mitchener, Ludovico",
+      "Laurent, Jon M",
+      "Andonian, Alex",
+      "Tenmann, Benjamin",
+      "Narayanan, Siddharth",
+      "Wellawatte, Geemi P",
+      "White, Andrew",
+      "Sani, Lorenzo",
+      "Rodriques, Samuel G"
+    ],
+    "citation_date": [
+      "2025/02/28"
+    ],
+    "citation_online_date": [
+      "2025/10/08"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/2503.00096"
+    ],
+    "citation_arxiv_id": [
+      "2503.00096"
+    ],
+    "citation_abstract": [
+      "Large Language Models (LLMs) and LLM-based agents show great promise in accelerating scientific research. Existing benchmarks for measuring this potential and guiding future development continue to evolve from pure recall and rote knowledge tasks, towards more practical work such as literature review and experimental planning. Bioinformatics is a domain where fully autonomous AI-driven discovery may be near, but no extensive benchmarks for measuring progress have been introduced to date. We therefore present the Bioinformatics Benchmark (BixBench), a dataset comprising over 50 real-world scenarios of practical biological data analysis with nearly 300 associated open-answer questions designed to measure the ability of LLM-based agents to explore biological datasets, perform long, multi-step analytical trajectories, and interpret the nuanced results of those analyses. We evaluate the performance of two frontier LLMs (GPT-4o and Claude 3.5 Sonnet) using a custom agent framework we open source. We find that even the latest frontier models only achieve 17% accuracy in the open-answer regime, and no better than random in a multiple-choice setting. By exposing the current limitations of frontier models, we hope BixBench can spur the development of agents capable of conducting rigorous bioinformatic analysis and accelerate scientific discovery."
+    ]
+  },
+  "html_sha256": "ad7eb1f9095e62feed22d1b97459cc7dea951eaa4ed13718b3879c5e84781bbd",
+  "evidence_html": "evidence/3c2a6b276b65d241b192.html.gz",
+  "evidence_scope": "Original landing page bibliographic metadata and abstract; not full-text verification of scientific claims."
+}

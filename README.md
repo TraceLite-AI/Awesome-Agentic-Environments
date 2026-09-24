@@ -169,6 +169,10 @@ Our own attempt at the missing definition, in three separable layers: a definiti
 - [Environment axes and values (v0.2)](docs/environment-axes.md) — the full factor table with baseline values, admission test, protocol and reporting rules.
 - [Survey and proposal (Chinese, v3.0)](docs/survey-environment-coordinate-space-zh-v3.0.md) — five usages of "environment", the decomposition method (definition, four-step admission test, 22 factors × 74 values), four validity checks, the Environment Card, and six retro-filled cards.
 
+## Literature library (500 papers)
+
+[literature/](literature/) holds an independently maintained bibliographic library of 500 deduplicated papers and preprints across Environment (200), Harness (170) and Agent (130), each opened at its original landing page with the page evidence saved under `literature/evidence/`. It ships as a [classified list](literature/500篇分类文献.md), [CSV](literature/论文库.csv), [BibTeX](literature/论文库.bib) and [JSONL](literature/论文库.jsonl), with a verified reserve of 239 further works and a pending/excluded log. Verification level: bibliographic metadata and abstract page only; full-text coding of environment factors is not done. Engineering documents and industry material are listed separately and not counted.
+
 ## Contributing
 
 Add an entry only if you opened the source. Give the venue and year as the source states them, quote numbers rather than paraphrasing them, and say what the work fixes, varies, or defines about the environment. Entries that merely mention "a sandbox" without saying what is in it are out of scope.
