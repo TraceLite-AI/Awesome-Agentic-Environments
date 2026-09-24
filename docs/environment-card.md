@@ -9,6 +9,10 @@ A one-page declaration of the execution environment behind a benchmark, a platfo
 3. `n/a` means the factor has no meaning for this object (e.g. `browser-engine` for a terminal-only task set).
 4. The card describes the object as it **is**, not as it should be. Recommendations do not go on the card.
 5. Third parties may fill a card and must say so. A card confirmed or corrected by the original authors is the highest grade.
+6. `n/a` only when the factor is meaningless for the object (τ-bench has no execution environment, so `os` is n/a; a terminal-only task set has no `browser-engine`; no GPU means `toolkit` is n/a).
+7. Absence in code is `unstated`, not `none`. No mount configuration means `unstated`, unless an explicit empty configuration exists.
+8. The card describes the environment the agent acts in. The host machine's CPU model or the interpreter that runs the harness are not coordinates; record them separately.
+9. Evidence at file or function level. "The README says" is not enough; give the path or the section number.
 
 **Template**
 

@@ -73,7 +73,7 @@ What knobs each platform exposes. None of them defines which knobs change the co
 | [Daytona](https://www.daytona.io/docs/en/sandboxes/) | Linux / Windows / macOS | container / VM | image must carry tag or digest | allowlist / blockAll / proxy | root | NVIDIA / AMD, up to 8 | — |
 | [OpenAI Code Interpreter](https://developers.openai.com/api/docs/guides/tools-code-interpreter) | — | VM | — | — | — | — | — |
 | [Prime Intellect verifiers / Harbor](https://github.com/PrimeIntellect-ai/verifiers) | — | docker / prime / VM | per-task image | no-network / allowlist | solver vs verifier isolation | — | — |
-| [Gymnasium](https://gymnasium.farama.org/api/env/) | — | — | — | — | — | — | only `reset(seed)` |
+| [Gymnasium](https://gymnasium.farama.org/api/env/) | — | — | — | — | — | — | — (interface fixes no locale; randomness only via `reset(seed, options)`) |
 
 **DSec in one paragraph.** One scale unit: ~160 nodes, ~3 M sandboxes/day, >380 K concurrent, >5,000 creations/s. Environments are composed from three independently versioned layers (base image, workspace, toolkit — the DeepSeek Harness ships as a toolkit layer). Agents build environments interactively and checkpoint them (`pack_diff`). Section 6.4 documents agents obtaining answers through unintended channels (reading platform logs, forging RPCs, overwriting `/bin/bash`, port-scanning for mirrors, pulling reference code via Go module proxies) and concludes: *"Final-output checks alone cannot reliably establish whether the agent solved the task as intended."*
 
@@ -161,12 +161,13 @@ The admission rule here runs the *opposite* way: a factor is admitted because th
 
 ## 10. Environment coordinate space (proposal)
 
-Our own attempt at the missing definition, in three separable layers: a definition, a one-page Environment Card, and a measurement protocol. An environment is everything outside the policy under test that can change the correct solution. It is projected onto a finite set of axes, each admitted by a four-step test (the correct solution in cell A fails when moved unchanged to cell B, and B's correct solution is *structurally* different, not merely cheaper). The space is a Cartesian product of 22 factors in five groups (hardware, system, runtime stack, policy-visible surface, external world), measured with a star design plus a 2-way covering array, and reported as per-axis directional derivatives with no total score.
+Our own attempt at the missing definition, in three separable layers: a definition, a one-page Environment Card, and a measurement protocol. An environment is everything outside the policy under test that can change the correct solution. It is projected onto a finite set of axes, each admitted by a four-step test (the correct solution in cell A fails when moved unchanged to cell B, and B's correct solution is *structurally* different, not merely cheaper). The space is a Cartesian product of 22 factors (74 values) in five groups (hardware, system, runtime stack, policy-visible surface, external world), measured with a star design (53 cells) plus a 2-way covering array, and reported per axis as discrete differences and flip rates; aggregate scores only with the task distribution and weights stated.
 
 - [Environment Card template (v0.1)](docs/environment-card.md) and [JSON schema](docs/environment-card.schema.json) — a one-page declaration: 22 coordinates plus a pin list, each value with its source.
 - [Six filled cards](docs/environment-cards-2026-09.md) — SWE-bench, Terminal-Bench, OSWorld, WebArena, τ-bench, DSec, filled from papers and official code. `toolkit`, `compute-cap` and `locale` are unstated by all six; every pin list is tag-based, none uses a digest; many coordinates exist only in code, never in the paper.
+- [Validity checks](docs/validity-coverage.md) — coverage (134 documented failure categories, hit rate 0.83), [admission cases](docs/validity-admission-cases.md) (52 non-baseline values: 45 strong, 6 weak, 1 none; 7 demoted to candidate), and [reliability](docs/validity-reliability.md) (two independent fillers, 132 cells, value-level agreement 0.87, κ 0.77).
 - [Environment axes and values (v0.2)](docs/environment-axes.md) — the full factor table with baseline values, admission test, protocol and reporting rules.
-- [Survey and proposal (Chinese, v2.0)](docs/survey-environment-coordinate-space-zh-v2.0.md) — how five communities use "environment", the definition, the Environment Card, the measurement protocol, and six retro-filled cards.
+- [Survey and proposal (Chinese, v3.0)](docs/survey-environment-coordinate-space-zh-v3.0.md) — five usages of "environment", the decomposition method (definition, four-step admission test, 22 factors × 74 values), four validity checks, the Environment Card, and six retro-filled cards.
 
 ## Contributing
 

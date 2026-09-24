@@ -21,18 +21,18 @@ Under each axis: **contact surfaces** → **mechanisms** → **device-level read
 
 ## The factor table
 
-Legend: `*` baseline. Every non-baseline value carries a mechanism rationale (empirical bug studies, production sandbox parameters); a value enters the core only once a task passes both admission gates on it.
+Legend: `*` baseline. `(candidate)` marks values demoted after the admission check in `validity-admission-cases.md` (no documented case in which the correct approach is structurally different). Every other non-baseline value has at least one documented case.
 
 | Group | Factor | Values | Excluded neighbours (budget) |
 |---|---|---|---|
 | Hardware | arch | x86_64 * / arm64 | CPU count |
-| Hardware | accel | none * / nvidia / amd-rocm / apple-metal | VRAM |
+| Hardware | accel | none * / nvidia (candidate) / amd-rocm / apple-metal | VRAM |
 | Hardware | toolkit | matched * / driver-only / major-mismatch | |
 | Hardware | compute-cap | current * / old | |
 | Hardware | gpu-count | single * / multi | exclusive / shared mode |
 | System | os | linux * / macos / windows / android | distribution and version (pinned) |
 | System | fs | case-sensitive * / case-insensitive / unicode-normalizing | disk quota |
-| System | isolation | container * / microvm / vm / bare | |
+| System | isolation | container * / microvm (candidate) / vm (candidate) / bare (candidate) | |
 | System | perm | root * / sudo-nopasswd / non-root / non-root+readonly-sys / restricted-caps | |
 | System | mount | normal * / tmp-noexec | |
 | Runtime stack | stack-version | current * / old | relative to the task's declared stack |
@@ -40,15 +40,21 @@ Legend: `*` baseline. Every non-baseline value carries a mechanism rationale (em
 | Runtime stack | build-tools | present * / absent | relative to the task's declared stack |
 | Runtime stack | toolchain | gnu * / busybox / bsd | |
 | Runtime stack | shell | bash * / dash / zsh / powershell / cmd | |
-| Runtime stack | browser-engine | chromium * / firefox / webkit | web tasks only |
-| Policy-visible surface | channel | terminal * / gui / a11y-tree / web-dom | screen resolution |
+| Runtime stack | browser-engine | chromium * / firefox / webkit (candidate) | web tasks only |
+| Policy-visible surface | channel | terminal * / gui (candidate) / a11y-tree / web-dom | screen resolution |
 | Policy-visible surface | tty | tty * / no-tty | terminal width |
 | External world | net | online * / offline / allowlist / proxy-required / ipv6-only | bandwidth, latency |
 | External world | locale | C.UTF-8 * / C / en_US.UTF-8 / de_DE.UTF-8 / tr_TR.UTF-8 / zh_CN.GBK / cp1252 | |
-| External world | tz | UTC * / Asia/Shanghai / Europe/Berlin / Asia/Kolkata | |
+| External world | tz | UTC * / Asia/Shanghai (candidate) / Europe/Berlin / Asia/Kolkata | |
 | External world | clock | normal * / future+1y / past-1y / frozen | |
 
-22 factors, 75 values. Star design: 1 + Σ(|A_i| − 1) = 54 cells. Full factorial ≈ 10¹⁰: defined, never run.
+22 factors, 74 values. Star design: 1 + Σ(|A_i| − 1) = 53 cells (formal count, before removing infeasible combinations such as busybox on macOS). Full factorial ≈ 10¹⁰: defined, never run.
+
+## Candidate factors for v0.3 (from the coverage check)
+
+- **installed-packages** — presence of system libraries and fonts (13 projects in the cross-OS study fail on missing libraries; OSWorld-Verified fixed font installation).
+- **limit-enforcement** — guaranteed allocation with hard kill vs lenient over-allocation at the same nominal quota; moves scores at constant budget, so it is not the budget knob.
+- **external-state** — the time-varying state of third-party services a task depends on.
 
 ## Rules
 
@@ -61,10 +67,11 @@ Legend: `*` baseline. Every non-baseline value carries a mechanism rationale (em
 
 - **Task gates.** Gate 1: the reference solution passes in every relevant cell. Gate 2: the naive solution fails only in target cells. Axes first, tasks second; never retrofit axes onto existing tasks.
 - **Three tiers of budget.** (1) Star: baseline plus one step along each axis (Morris elementary effects → main effect per axis). (2) 2-way covering array: the NIST interaction rule says 70–93% of failures need ≤2 conditions, and one-at-a-time designs cannot see interactions at all. (3) A few off-axis natural points (e.g. Ubuntu 20.04 bundling Python 3.8), decomposed with tiers 1–2.
+- **Pairwise is a budget, not a guarantee.** NIST's own guide notes pairwise testing can miss 10–40% of faults; it is the cheap second tier, not a sufficiency claim.
 - **Repeated runs are part of the protocol.** Flakiness studies (Gruber et al.: ~170 reruns for 95% confidence that a test is not flaky) mean noise must be separated before any cell difference is attributed to an axis.
 
 ## Reporting
 
-Per policy m and axis i: **directional derivative** Δ_i(m) = pass rate at baseline − pass rate one step along i, and **flip rate** = fraction of tasks whose outcome differs between the two cells. Interaction terms Δ_ij − Δ_i − Δ_j only for pairs in the covering array. **No total score**: an OS ranking is an artifact of where the targets happen to be. Report by contact surface, with a "controls hold" health check.
+Per policy m and axis i: **discrete difference** Δ_i(m) = pass rate at baseline − pass rate one step along i (for categorical axes this is a difference at a given baseline, not a derivative), and **flip rate** = fraction of tasks whose outcome differs between the two cells. Interaction terms Δ_ij − Δ_i − Δ_j only for pairs in the covering array. **Aggregate scores only with conditions stated**: an OS ranking is an artifact of where the targets happen to be; an aggregate is comparable only when the task distribution, weights and comparison set are declared. Report by contact surface, with a "controls hold" health check.
 
 Each criterion carries the assumption the policy is suspected of hard-coding; the set of failed criteria is the failure **signature**, aggregated per policy into an **assumption profile**. Attribution requires three yes answers: the environment really differs on that axis (reading); the policy's action really depended on that assumption (trajectory, read by a human); a correct route exists in the same cell (gate 1).

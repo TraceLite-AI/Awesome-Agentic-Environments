@@ -1,6 +1,6 @@
 # Environment Cards: six agent benchmarks and platforms (filled 2026-09-23, third-party)
 
-Filled by opening the paper (PDF/HTML) and the official repository (Dockerfiles, configs, harness source) for each object. Every value carries its source: `(paper §X)` or `(code: path)`. `unstated` = not found in anything opened. Filled by TraceLite AI as a third party; not yet confirmed by the original authors.
+Filled by opening the paper (PDF/HTML) and the official repository (Dockerfiles, configs, harness source) for each object. Every value carries its source: `(paper §X)` or `(code: path)`. `unstated` = not found in anything opened. Filled by TraceLite AI as a third party and merged with an independent second fill (see `validity-reliability.md`); not yet confirmed by the original authors.
 
 Caveats: SWE-bench values come from harness tag v4.1.0 (last version with `swebench/harness/dockerfiles/*.py`); the 2023 paper describes conda environments, the Docker harness arrived in 2024. Terminal-Bench values cover TB-2.0 tasks (`harbor-framework/terminal-bench`) run by Harbor 0.23.0, with TB-1.x (`laude-institute/terminal-bench` 0.2.18) noted where different. DSec is paper-only.
 
@@ -9,17 +9,17 @@ Caveats: SWE-bench values come from harness tag v4.1.0 (last version with `swebe
 | factor | SWE-bench | Terminal-Bench | OSWorld | WebArena | τ-bench | DSec |
 |---|---|---|---|---|---|---|
 | arch | x86_64 forced (code) | host Docker arch, no pin (code) | host-dependent x86_64/arm64 VM (code) | unstated (t3a.xlarge recommended) | unstated | AMD EPYC 9655 hosts (paper §8.1) |
-| accel | none (code) | per-task `gpus`, 0 in sampled tasks (code) | none; KVM optional (code) | unstated | unstated | GPU containers / virtio-gpu (paper) |
+| accel | none (code) | none: 0/89 task.toml carry a `gpus` field (code) | unstated | unstated | unstated | GPU containers / virtio-gpu (paper) |
 | toolkit | unstated | unstated | unstated | unstated | unstated | unstated |
 | compute-cap | unstated | unstated | unstated | unstated | unstated | unstated |
 | gpu-count | 0 (code) | 0, max 1 (code) | unstated | unstated | unstated | unstated |
-| os | ubuntu:22.04 (code) | per task: ubuntu:24.04 / python:3.x-slim (Debian) / others (code) | Ubuntu guest, release unstated; Windows 10 x64 (code/paper) | unstated | unstated | Linux 7.0 hosts, 6.1 guests; Ubuntu bases; Android VMs (paper) |
+| os | ubuntu:22.04 (code) | per task: python:3.13-slim-bookworm ×41, ubuntu:24.04 ×40, others ×8 (code, TB-2.0 @69671fb) | Ubuntu 22.04 (paper App. B.2); Windows 10 x64 (code/paper) | unstated | unstated | Linux 7.0 hosts, 6.1 guests; Ubuntu bases; Android VMs (paper) |
 | fs | unstated | unstated | unstated | unstated | unstated | overlayfs + EROFS + ext4 (paper §5.2) |
 | isolation | Docker container (code) | Docker compose; Daytona (paper) / Modal (README) | VM: VMware / VirtualBox / Docker-QEMU-KVM / cloud (code/paper) | Docker per site; host Playwright browser (paper/code) | none, bare Python | FnCall / containers-in-QEMU / Firecracker / QEMU VMs (paper) |
 | perm | root (code) | root (code) | `user` with sudo (README) | unstated | unstated | root + AppArmor (paper) |
 | mount | none (code) | log volumes only (code) | qcow2 read-only on host (code) | none (paper A.2) | unstated | read-only EROFS + writable overlay (paper) |
 | stack-version | conda per repo×version, pinned (code) | per-task image tags (code/paper) | host Python ≥3.10; guest unstated | Python 3.10; partial pins (code) | unpinned, `>=` only (code) | per-layer versioned, unpinned (paper) |
-| entry-name | python (code) | varies; python3 in traces | unstated | python (code) | python (code) | unstated |
+| entry-name | python (code) | unstated (mixed bases) | python (code: controllers/python.py) | python (code) | python (code) | unstated |
 | build-tools | build-essential etc. (code) | per task (code) | unstated | unstated | unstated | unstated |
 | toolchain | GNU (ubuntu base) | GNU (ubuntu/debian bases) | unstated | unstated | unstated | unstated |
 | shell | bash (code) | bash in tmux (code/paper) | sh via subprocess; `bash -lc` setup (code) | none | none | bash via chronus (paper) |
@@ -27,7 +27,7 @@ Caveats: SWE-bench values come from harness tag v4.1.0 (last version with `swebe
 | channel | none: patch in, tests out | terminal, tmux pane (code/paper) | screenshot 1920×1080 + a11y/SoM (code/paper) | a11y tree / HTML / screenshot, 1280×720 (code) | JSON tool calls + user text | shell / tool calls; GUI via VM (paper) |
 | tty | no pty (code) | pty via tmux (code) | no pty, HTTP + PIPE (code) | none, headless browser | none | unstated |
 | net | online, default bridge (code) | public internet (paper/code); allowlist / none optional | online; proxy recommended (README) | online; self-hosted sites + offline Wikipedia (paper/code) | online for LLM APIs only | eBPF per-task allowlist (paper) |
-| locale | unstated | unstated | unstated | unstated | unstated | unstated |
+| locale | per-repo: django exports en_US.UTF-8; image-level unset (code) | unstated | unstated | unstated | n/a | unstated |
 | tz | Etc/UTC (code) | unstated | unstated | unstated | fictional 2024-05-15 15:00 EST (code/paper) | unstated |
 | clock | unstated | unstated | unstated | unstated | frozen / fictional (code) | unstated |
 
