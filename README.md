@@ -1,181 +1,293 @@
-# Awesome Agentic Environments
+# Awesome Agentic Environments [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated collection of papers, benchmarks, and frameworks on agentic environments — how they are built, scaled, and used for LLM agent post-training and evaluation.
+<p align="left">
+  <img src="https://img.shields.io/badge/survey-coming_soon-lightgrey" alt="Survey: coming soon">
+  <a href="https://github.com/TraceLite-AI/Awesome-Agentic-Environments/stargazers"><img src="https://img.shields.io/github/stars/TraceLite-AI/Awesome-Agentic-Environments?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/TraceLite-AI/Awesome-Agentic-Environments/commits/main"><img src="https://img.shields.io/github/last-commit/TraceLite-AI/Awesome-Agentic-Environments" alt="Last commit"></a>
+  <a href="https://github.com/TraceLite-AI/Awesome-Agentic-Environments/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs welcome"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License: Apache-2.0"></a>
+</p>
 
-**Why this list exists.** Four communities use the word *environment* for four different things. Agent benchmarks pin it as a constant (a Docker image or VM snapshot). RL infrastructure exposes it as a sandbox with knobs (network policy, isolation level, image layers). ML robustness research treats it as a nuisance the answer must *not* depend on. Software engineering has treated it as a Cartesian product of configuration factors for thirty years. None of them answers the question this list is organized around: **which environment factors change the correct solution to a task?**
+A curated list of work on the **environments** that LLM agents are trained and evaluated in — organized by what an environment is made of, what changes when an environment changes, and how to report it.
 
-Every entry below was checked against the original paper or official page. Numbers quoted are from the source. Entries we could not open are not listed.
+This repository accompanies the survey ***Environments for LLM Agents: A Survey of Design, Effects, and Evidence*** (in preparation).
 
-**Contents**
+## 🔥 News
 
-1. [Agent benchmarks and their execution environments](#1-agent-benchmarks-and-their-execution-environments)
-2. [Cross-environment sensitivity studies](#2-cross-environment-sensitivity-studies)
-3. [Sandbox and RL training infrastructure](#3-sandbox-and-rl-training-infrastructure)
-4. [Environment vendors, hubs and industry reports](#4-environment-vendors-hubs-and-industry-reports)
-5. [Environment in classic RL and robotics](#5-environment-in-classic-rl-and-robotics)
-5b. [Environment in robotics and world models](#5b-environment-in-robotics-and-world-models)
-6. [Environment in ML robustness and causality](#6-environment-in-ml-robustness-and-causality)
-7. [Configuration spaces and combinatorial testing](#7-configuration-spaces-and-combinatorial-testing)
-8. [Environment-dependent bugs, flakiness and reproducibility](#8-environment-dependent-bugs-flakiness-and-reproducibility)
-9. [Design of experiments and sensitivity analysis](#9-design-of-experiments-and-sensitivity-analysis)
-10. [Environment coordinate space (proposal)](#10-environment-coordinate-space-proposal)
-11. [Contributing](#contributing)
+- **[2026-10]** Repository restructured around the six-component framework (Runtime → Interface → State → Dynamics → Task → Verification). Entries are being migrated into the new tables.
+
+## Overview
+
+**What we mean by an environment.** Relative to the agent under study, an environment is the external interactive system that hosts a task, together with its task and evaluation conventions. It fixes what goal and external state the agent faces, what it can observe and do, how the world changes in response to actions and events, how the interaction is executed, and how the result is judged.
+
+**Admission test.** A component belongs to the environment if changing it changes what the agent can observe, what actions are available, or how the agent is scored. Anything that can be swapped without rebuilding the environment — prompts, tool selection, context management, orchestration, step or token budgets — belongs to the **harness**. The trainer, which only consumes trajectories and evaluation signals, is outside the environment as well. The environment decides which channels are *offered*; the harness decides which channel is *used*.
+
+<p align="center">
+  <img src="assets/figures/framework.svg" width="90%" alt="Six components of an environment for LLM agents">
+</p>
+
+| # | Component | Question it answers | Example sub-dimensions |
+|---|---|---|---|
+| 1 | [Runtime](#1-runtime) | Where does the interaction execute? | isolation backend, lifecycle (reset / snapshot / fork), OS and software stack, network and permissions, concurrency |
+| 2 | [Interface](#2-interface) | What can the agent observe and do? | observation channels, action space and granularity, return formats and error semantics, protocols |
+| 3 | [State](#3-state) | What does the world hold? | initial state and its distribution, residue and contamination, external data snapshots, persistence scope |
+| 4 | [Dynamics](#4-dynamics) | How does the world change, and who else acts? | transition rules, stochasticity, time and async events, external service behavior; users, partners, opponents |
+| 5 | [Task](#5-task) | What is the agent asked to achieve? | goal and constraints, structure and horizon, task source (real / programmatic / model-generated), difficulty |
+| 6 | [Verification](#6-verification) | What counts as success? | judged object (output / final state / trajectory), verifier form, signal type, reliability checks, exploit resistance |
+
+**How to read this list.**
+
+- *Looking for designs and implementations?* Start from [Part I](#-part-i--papers-by-component), organized by component, and the [benchmark tables](#-benchmarks-and-trainable-environments) organized by domain.
+- *Want to know which environment differences actually change results?* Go to [Part II](#-part-ii--what-environment-differences-change).
+- *Building or reporting an environment?* Use the declaration template and comparison protocol in [Part III](#-part-iii--environment-declaration-and-comparison-protocol).
+
+## Contents
+
+- [Part I · Papers by Component](#-part-i--papers-by-component)
+  - [1 Runtime](#1-runtime) · [2 Interface](#2-interface) · [3 State](#3-state) · [4 Dynamics](#4-dynamics) · [5 Task](#5-task) · [6 Verification](#6-verification) · [7 Lifecycle](#7-lifecycle-synthesis-evolution-and-delivery)
+- [Environment Recipes in Foundation-Model Reports](#-environment-recipes-in-foundation-model-reports)
+- [Benchmarks and Trainable Environments](#-benchmarks-and-trainable-environments)
+- [Part II · What Environment Differences Change](#-part-ii--what-environment-differences-change)
+- [Part III · Environment Declaration and Comparison Protocol](#-part-iii--environment-declaration-and-comparison-protocol)
+- [Infrastructure and Tools](#-infrastructure-and-tools)
+- [Related Surveys and Resources](#-related-surveys-and-resources)
+- [Contributing](#-contributing) · [Citation](#-citation)
 
 ---
 
-## 1. Agent benchmarks and their execution environments
+## 📜 Part I · Papers by Component
 
-What each benchmark fixes, what it declares, and whether the environment is ever an independent variable. "—" means the paper does not state it.
+Each row states what the work contributes **to that component**. The same work can appear under several components with different contributions. Domain tags: `code` `web` `gui` `tool` `game` `science` `embodied` `multi-agent`.
 
-| Benchmark | Venue | Isolation / image | OS (version) | Network | Channel | Environment varied? | Same task across OS? |
+### 1 Runtime
+
+The execution infrastructure that hosts the environment: isolation, resources, and lifecycle management.
+*Sub-dimensions:* execution backend and isolation · lifecycle (create / reset / snapshot / restore / fork) · platform and software configuration · execution boundary (network, identity, permissions) · concurrency and service quality · image building and maintenance.
+
+| Paper | Date | Venue | Contribution in this component | Domain | Links |
+|---|---|---|---|---|---|
+| [DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale](https://arxiv.org/abs/2609.22978) | 2026.09 | arXiv | One SDK over four execution backends (FnCall, container, Firecracker microVM, full VM); environments composed from independently versioned base-image, workspace and toolkit layers; one ~160-node production unit serves ~3M sandboxes/day, >380K concurrent, >5,000 creations/s | `code` `gui` | [paper](https://arxiv.org/abs/2609.22978) |
+
+### 2 Interface
+
+The observation and action contract the environment offers, and the protocols that expose it.
+*Sub-dimensions:* observation space and visibility · action space and granularity · interaction contract (arguments, return formats, error semantics, sync / async) · display and input configuration · protocols and adapters.
+
+| Paper | Date | Venue | Contribution in this component | Domain | Links |
+|---|---|---|---|---|---|
+| [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) | 2024.04 | NeurIPS 2024 D&B | Same tasks offered through four observation settings — screenshot, accessibility tree, screenshot + accessibility tree, Set-of-Mark — with mouse/keyboard actions on a real desktop | `gui` | [paper](https://arxiv.org/abs/2404.07972) · [project](https://os-world.github.io) |
+
+### 3 State
+
+The external state the agent acts on: entities, attributes and their current values.
+*Sub-dimensions:* state objects and representation · true state vs. observable projection · initial state and its distribution · residue and contamination · external data and snapshots · persistence scope (across calls, episodes, sessions).
+
+| Paper | Date | Venue | Contribution in this component | Domain | Links |
+|---|---|---|---|---|---|
+| [OSWorld](https://arxiv.org/abs/2404.07972) | 2024.04 | NeurIPS 2024 D&B | Each task carries an initial-state setup configuration that simulates work in progress (files, open applications) on top of a VM snapshot | `gui` | [paper](https://arxiv.org/abs/2404.07972) · [project](https://os-world.github.io) |
+
+### 4 Dynamics
+
+How the environment's state changes in response to actions, time, external events, and other actors.
+*Sub-dimensions:* transition rules and side effects · determinism and stochasticity · time and concurrency · external service behavior · **actors**: users, partners, opponents, humans in the loop · implementation (real system, programmatic simulation, learned world model, hybrid).
+
+#### Passive dynamics
+
+_Entries being migrated._
+
+#### Actors
+
+| Paper | Date | Venue | Contribution in this component | Domain | Links |
+|---|---|---|---|---|---|
+| [τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982) | 2025.06 | arXiv | Dual-control telecom domain modeled as a Dec-POMDP: both agent and simulated user act on a shared world through tools; the user simulator's behavior is constrained by tools and observable state | `tool` | [paper](https://arxiv.org/abs/2506.07982) · [code](https://github.com/sierra-research/tau2-bench) |
+
+### 5 Task
+
+What the agent is asked to achieve, and where tasks come from.
+*Sub-dimensions:* goal, inputs and constraints · structure, dependencies and horizon · task distribution and difficulty · task source (real / programmatic / model-generated) · quality control (solvability, contamination, coverage).
+
+| Paper | Date | Venue | Contribution in this component | Domain | Links |
+|---|---|---|---|---|---|
+| [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) | 2026.02 | arXiv | Terminal tasks synthesized from seed tasks and from code-relevant web pages; a construction agent instantiates drafts in Harbor format and a refine agent iterates against rubrics (§4.2.2) | `code` | [paper](https://arxiv.org/abs/2602.15763) · [code](https://github.com/zai-org/GLM-5) |
+
+### 6 Verification
+
+How outcomes are judged and turned into evaluation signals.
+*Sub-dimensions:* judged object and timing · verifier form (tests, rules, rubrics, state checks, model judges, humans) · signal form and use · reliability checks (reference solution, no-op, hidden tests, false positives / negatives) · exploit resistance and audit.
+
+| Paper | Date | Venue | Contribution in this component | Domain | Links |
+|---|---|---|---|---|---|
+| [GLM-5](https://arxiv.org/abs/2602.15763) | 2026.02 | arXiv | Fail-to-pass and pass-to-pass tests extracted from real issue–PR pairs via LLM-generated, language-aware log parsers; terminal tasks refined so tests stay consistent with specifications and robust to shortcuts (§4.2.1–4.2.2) | `code` | [paper](https://arxiv.org/abs/2602.15763) · [code](https://github.com/zai-org/GLM-5) |
+
+### 7 Lifecycle: synthesis, evolution, and delivery
+
+Cross-component work on building, checking, evolving and shipping environments: joint synthesis of tasks, states and verifiers; difficulty- or weakness-driven evolution; packaging, versioning and hubs.
+
+_Entries being migrated._
+
+---
+
+## 🏭 Environment Recipes in Foundation-Model Reports
+
+What technical reports disclose about their training environments. Scale is quoted as reported, **with its unit** — environments, tasks, images, concurrent sandboxes and cumulative sandboxes are not comparable to one another.
+
+| Model / Report | Org | Date | Disclosed scale (unit) | Environment types and key practices | Source |
+|---|---|---|---|---|---|
+| [GLM-5](https://arxiv.org/abs/2602.15763) | Zhipu AI | 2026.02 | >10K verifiable SWE environments (thousands of repos, 9 languages) · thousands of terminal environments (Docker build accuracy >90%) · >2M web pages (search corpus) | SWE environments built from real issue–PR pairs with a RepoLaunch-based setup pipeline; terminal tasks synthesized in Harbor format; multi-hop search QA from a web knowledge graph; slide-generation environment with rendering-based verification | §4.2 |
+
+---
+
+## 📊 Benchmarks and Trainable Environments
+
+Grouped by domain. *Trainable* means the work exposes an interface for interactive learning (e.g. reset / step), not only offline scoring.
+
+### Code and software engineering
+_Entries being migrated._
+
+### Web and search
+_Entries being migrated._
+
+### GUI and computer use
+
+| Benchmark | Date | Venue | Runtime | Interface | Verification | Trainable | Links |
 |---|---|---|---|---|---|---|---|
-| [SWE-bench](https://arxiv.org/abs/2310.06770) | ICLR 2024 | per-repo conda, later Docker; no digest | — (README: x86_64 primary, arm64 experimental) | — | terminal | no | no |
-| [SWE-bench Verified](https://www.swebench.com/verified.html) | 2024 | Docker | Linux (Epoch's run) | disabled (Epoch's run) | terminal | no | no |
-| [SWE-bench Multimodal](https://arxiv.org/abs/2410.03859) | 2024 | Docker + Node.js + Chrome; ~10 h manual env work per repo | — | — | terminal + headless browser | no | no |
-| [Terminal-Bench](https://arxiv.org/abs/2601.11868) | 2026 | Docker; pins package versions, apt packages "shall not be pinned" | — | internet allowed | terminal | no (≥5 repeats) | no; limitations admit "hardware differences (e.g., CPU architectures)" |
-| [OSWorld](https://arxiv.org/abs/2404.07972) | NeurIPS 2024 D&B | VM snapshot | Ubuntu / Windows / macOS, no versions | — | GUI | no | 43 tasks Ubuntu→Windows: 4.88% vs 2.55%, r = 0.7 |
-| [OSWorld-Verified](https://xlang.ai/blog/osworld-verified) | 2025 | AWS image | Ubuntu / Windows | — | GUI | no | no |
-| [WebArena](https://arxiv.org/abs/2307.13854) / [VisualWebArena](https://arxiv.org/abs/2401.13649) | 2023 / ACL 2024 | Docker, self-hosted sites, offline Wikipedia | — | offline | browser | no | no |
-| [AgentBench](https://arxiv.org/abs/2308.03688) | ICLR 2024 | Ubuntu Docker per task | Ubuntu | — | terminal etc. | no | no |
-| [τ-bench](https://arxiv.org/abs/2406.12045) | 2024 | DB + API + simulated user, no OS | none | — | tool calls | no (pass^k repeats) | no |
-| [GAIA](https://arxiv.org/abs/2311.12983) | 2023 | live web, admits decay | none | live | — | uncontrolled | no |
-| [MLE-bench](https://arxiv.org/abs/2410.07095) | ICLR 2025 | Docker + sysbox, A10 GPU | Ubuntu 20.04 | — | terminal | **yes: CPU-only / standard / extra GPU; 3 seeds** | no |
-| [Windows Agent Arena](https://arxiv.org/abs/2409.08264) | 2024 | Windows VM inside Docker (QEMU/KVM) | Windows 11 | — | GUI | no | 2/3 tasks ported from OSWorld, no numeric comparison |
-| [AndroidWorld](https://arxiv.org/abs/2405.14573) | 2024 | emulator | Android 13, Pixel 6 | — | GUI | task parameters only | no |
-| [AppWorld](https://arxiv.org/abs/2407.18901) | ACL 2024 | simulated apps, time frozen (freezegun) | none | — | code | no | no |
-| [TheAgentCompany](https://arxiv.org/abs/2412.14161) | 2024 | Docker, self-hosted GitLab/OwnCloud/Plane/RocketChat | — | self-hosted | terminal + browser | no | no |
-| [MacArena](https://arxiv.org/abs/2606.06560) | AIWILD @ ICML 2026 | UTM VM on Apple silicon | macOS | — | GUI | no | **same OSWorld task set Linux→macOS: −3.23 / −9.26 / −9.84 pp for three models** |
-| [macOSWorld](https://arxiv.org/abs/2506.04135) | 2025 | VM | macOS | — | GUI | **yes: 5 interface languages (Arabic −28.8% avg)** | no |
+| [OSWorld](https://arxiv.org/abs/2404.07972) | 2024.04 | NeurIPS 2024 D&B | Real VMs (Ubuntu, Windows, macOS) with snapshot reset; 369 tasks + 43 Windows tasks for analysis | screenshot / accessibility tree / Set-of-Mark; mouse and keyboard | execution-based scripts per task (134 evaluation functions) | yes | [paper](https://arxiv.org/abs/2404.07972) · [project](https://os-world.github.io) |
 
-Also: [OSWorld 2.0](https://arxiv.org/abs/2606.29537), [MacAgentBench](https://arxiv.org/abs/2606.22557) (macOS-only, 676 tasks), [MMBench-GUI](https://arxiv.org/abs/2507.19478) (one protocol across six platforms).
+### Tools, APIs and simulated users
 
-**Reading the table.** No benchmark states an image digest. None states the user/permission model. Locale or timezone appears only in AppWorld (frozen time) and macOSWorld (interface language). Same-task cross-OS measurement exists only in the GUI world and is small; for coding and terminal agents we found no study that holds the task fixed and varies OS, shell, locale or runtime.
-
-## 2. Cross-environment sensitivity studies
-
-- **OSWorld §5.3** — 43 Ubuntu tasks adapted to Windows; 4.88% vs 2.55%, correlation 0.7. [paper](https://arxiv.org/abs/2404.07972)
-- **MacArena** (AIWILD @ ICML 2026) — identical OSWorld task set on macOS; "strong model performance on existing benchmarks can reflect familiarity with task distributions rather than genuine cross-platform GUI competence". [paper](https://arxiv.org/abs/2606.06560)
-- **macOSWorld** — OS interface language as an axis; Arabic −28.8% average vs English. [paper](https://arxiv.org/abs/2506.04135)
-- **On the Reliability of Computer Use Agents** (2026) — repeated execution on OSWorld with the environment fixed; decomposes execution stochasticity, task ambiguity and agent variability. The noise-floor paper. [paper](https://arxiv.org/abs/2604.17849)
-- **An Empirical Analysis of Cross-OS Portability Issues in Python Projects** (MSR 2026) — 2,042 repos; cross-OS test re-execution shows 11.2% of tested projects have OS-dependent failures; files & directories dominate (path separators, file locking, encoding, CRLF). Not an agent study, but the best evidence for which axes matter. [paper](https://arxiv.org/html/2609.25531)
-- **Terminal-Bench, limitations** — "variability in machine resources and container runtime enforcement can lead to differences in effective task environments". [paper](https://arxiv.org/abs/2601.11868)
-
-## 3. Sandbox and RL training infrastructure
-
-What knobs each platform exposes. None of them defines which knobs change the correct solution.
-
-| Platform | OS choice | Isolation | Image / layers | Network policy | User / permissions | GPU | Locale |
+| Benchmark | Date | Venue | Runtime | Interface | Verification | Trainable | Links |
 |---|---|---|---|---|---|---|---|
-| [DSec (DeepSeek)](https://arxiv.org/abs/2609.22978) | Linux base images; Android full VM | FnCall / container / Firecracker microVM / full VM | base + workspace + toolkit (overlayfs, EROFS) | per-service allowlist (`{"npm": False, "pypi": True}`) | `init_user` | FnCall GPU | — |
-| [Firecracker](https://www.usenix.org/conference/nsdi20/presentation/agache) (NSDI 2020) | Linux guests only | microVM, jailer | — | device rate limits | — | — | — |
-| [E2B](https://docs.e2b.dev/) | Linux | Firecracker snapshot resume | template | allow / deny lists | — | — | — |
-| [Modal Sandboxes](https://modal.com/docs/guide/sandbox) | Linux | gVisor; VM beta | Image | block / CIDR / domain allowlist | — | yes | — |
-| [Daytona](https://www.daytona.io/docs/en/sandboxes/) | Linux / Windows / macOS | container / VM | image must carry tag or digest | allowlist / blockAll / proxy | root | NVIDIA / AMD, up to 8 | — |
-| [OpenAI Code Interpreter](https://developers.openai.com/api/docs/guides/tools-code-interpreter) | — | VM | — | — | — | — | — |
-| [Prime Intellect verifiers / Harbor](https://github.com/PrimeIntellect-ai/verifiers) | — | docker / prime / VM | per-task image | no-network / allowlist | solver vs verifier isolation | — | — |
-| [Gymnasium](https://gymnasium.farama.org/api/env/) | — | — | — | — | — | — | — (interface fixes no locale; randomness only via `reset(seed, options)`) |
+| [τ²-Bench](https://arxiv.org/abs/2506.07982) | 2025.06 | arXiv | simulated domains with databases and tools (airline, retail, telecom) | tool calls for both agent and user; conversation | programmatically generated verifiable tasks; pass^k | — | [paper](https://arxiv.org/abs/2506.07982) · [code](https://github.com/sierra-research/tau2-bench) |
 
-**DSec in one paragraph.** One scale unit: ~160 nodes, ~3 M sandboxes/day, >380 K concurrent, >5,000 creations/s. Environments are composed from three independently versioned layers (base image, workspace, toolkit — the DeepSeek Harness ships as a toolkit layer). Agents build environments interactively and checkpoint them (`pack_diff`). Section 6.4 documents agents obtaining answers through unintended channels (reading platform logs, forging RPCs, overwriting `/bin/bash`, port-scanning for mirrors, pulling reference code via Go module proxies) and concludes: *"Final-output checks alone cannot reliably establish whether the agent solved the task as intended."*
+### Games and puzzles
+_Entries being migrated._
 
-## 4. Environment vendors, hubs and industry reports
+### Science and ML research
+_Entries being migrated._
 
-- **An FAQ on Reinforcement Learning Environments** — Epoch AI, Jan 2026, 18 interviews. Definition: "the set of actions the model can take … and the surrounding context that determines the effect of these actions"; "the boundary between 'environment' and 'task' is somewhat fuzzy". Prices: tasks $200–2,000; UI replicas ~$20 k; high-fidelity replicas ~$300 k; contracts six to seven figures per quarter; exclusive deals 4–5×. [post](https://epoch.ai/gradient-updates/state-of-rl-envs)
-- **Silicon Valley bets big on 'environments' to train AI agents** — TechCrunch, Sept 2025. Anthropic reportedly discussed >$1 B/year on RL environments; "RL environments are prone to reward hacking". [article](https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/)
-- **Mercor to acquire Deeptune** — July 2026. "Every environment has three parts: the software where the work takes place, the tasks …, and the verifiers". [post](https://www.mercor.com/blog/mercor-to-acquire-deeptune/)
-- **Scale AI — RL Environments** — "macOS- and Windows-like operating system environments"; OS as replicated content, not a variable. [page](https://scale.com/rlenvironments)
-- **Surge AI** — off-the-shelf RL environments; HANDBOOK.md benchmark; EnterpriseBench. [site](https://surgehq.ai/)
-- **Prime Intellect Environments Hub** — Aug 2025; "RL environments and agent evals are basically the same thing". [post](https://www.primeintellect.ai/blog/environments)
+### Embodied and world models
+_Entries being migrated._
 
-## 5. Environment in classic RL and robotics
+### Multi-agent and social
+_Entries being migrated._
 
-- **Procgen** — 16 procedurally generated environments; variation = level content inside a fixed simulator. [paper](https://arxiv.org/abs/1912.01588)
-- **XLand / Open-Ended Learning** — procedurally generated 3D worlds and game rules. [paper](https://arxiv.org/abs/2107.12808)
-- **Domain Randomization** (Tobin et al., IROS 2017) — randomizes textures, lighting, camera pose, distractors so that "the real world may appear to the model as just another variation"; per-factor ablation (no distractors: error 1.8 → 7.2 cm). [paper](https://arxiv.org/abs/1703.06907)
-- **Dynamics Randomization** (Peng et al., ICRA 2018) — 95 randomized physical parameters, sampled per episode. [paper](https://arxiv.org/abs/1710.06537)
+---
 
-## 5b. Environment in robotics and world models
+## 🧪 Part II · What Environment Differences Change
 
-Robotics has split "environment" two ways for a decade without naming the split: perception-side factors the correct action must be *invariant* to, and dynamics-side factors that *change* the correct action and must be identified.
+Findings where an environment condition was changed and an outcome was measured. Each row records **which component changed**, **which outcome it affected**, and the **finding as reported**. Outcomes: feasible strategies · difficulty and cost · verification result · capability attribution · learning and transfer.
 
-- **Domain Randomization** (Tobin et al., IROS 2017) — see §5; perception side. [paper](https://arxiv.org/abs/1703.06907)
-- **CAD2RL** (RSS 2017) — appearance randomized, geometry decides the action. [paper](https://arxiv.org/abs/1611.04201)
-- **RCAN: Sim-to-Real via Sim-to-Sim** (CVPR 2019) — maps randomized images back to a canonical rendering, literally removing the nuisance factor. [paper](https://arxiv.org/abs/1812.07252)
-- **Dynamics Randomization** (Peng et al., ICRA 2018) — link mass, joint damping, friction, controller gains, action timestep; explicit vs implicit (LSTM) system identification. [paper](https://arxiv.org/abs/1710.06537)
-- **Learning Dexterous In-Hand Manipulation** (OpenAI, 2018) — physics and visual randomization separately; LSTM state predicts block size after 5 s in 80% of cases. [paper](https://arxiv.org/abs/1808.00177)
-- **RMA: Rapid Motor Adaptation** (RSS 2021) — 17-dim environment vector; adaptation module regresses it from 50 steps of history; success collapses without it. [paper](https://arxiv.org/abs/2107.04034)
-- **UP-OSI** (RSS 2017) — universal policy conditioned on identified dynamics; reports performance-vs-parameter response curves. [paper](https://arxiv.org/abs/1702.02453)
-- **Sim-to-Real Transfer in Deep RL for Robotics: a Survey** (SSCI 2020) — "visual randomization and dynamics randomization". [paper](https://arxiv.org/abs/2009.13303)
-- **Robot Learning From Randomized Simulations: A Review** (Frontiers 2022) — "some domain parameters have no influence … while others are pivotal". [paper](https://www.frontiersin.org/articles/10.3389/frobt.2022.799893/full)
-- **THE COLOSSEUM** (RSS 2024) — 14 perturbation factors, per-factor success reported; sim-real correlation per perturbation. [paper](https://arxiv.org/abs/2402.08191)
-- **Factor World** (2023) — 11 factors, per-factor generalization gap. [paper](https://arxiv.org/abs/2307.03659)
-- **World Models** (Ha & Schmidhuber 2018), **DreamerV3** (Nature 2025), **Genie** (ICML 2024), **Genie 3** (DeepMind 2025), **UniSim** (ICLR 2024) — the environment as a learned generator; evaluated on fidelity and transfer, exposing no named factor axes. [1803.10122](https://arxiv.org/abs/1803.10122) · [2301.04104](https://arxiv.org/abs/2301.04104) · [2402.15391](https://arxiv.org/abs/2402.15391) · [blog](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/) · [2310.06114](https://arxiv.org/abs/2310.06114)
+Evidence types: **controlled** (same tasks, one condition varied) · **observational** (conditions differ but were not manipulated) · **adjacent-field** (non-agent evidence, e.g. software engineering) · **claim-only** (stated without a measured comparison). A design that merely *supports* a condition is not listed here.
 
-## 6. Environment in ML robustness and causality
+| Changed condition | Component | Outcome | Finding (as reported) | Evidence | Source |
+|---|---|---|---|---|---|
+| Ubuntu → Windows, 43 adapted tasks, GPT-4V screenshot-only | Runtime · OS | difficulty | Success rate 4.88% → 2.55%; per-task correlation 0.7, which the authors read as good transfer across OSes | controlled (adapted tasks, one model) | [OSWorld](https://arxiv.org/abs/2404.07972) §5.3 |
+| No-user → dual-control (telecom domain) | Dynamics · actors | difficulty | pass^1 drops by 18% (gpt-4.1) and 25% (o4-mini) when the agent must guide a user instead of acting alone | controlled ablation | [τ²-Bench](https://arxiv.org/abs/2506.07982) |
 
-The admission rule here runs the *opposite* way: a factor is admitted because the correct answer must **not** depend on it.
+Sub-dimensions with no controlled evidence found so far will be listed explicitly rather than omitted.
 
-- **Invariant Risk Minimization** — environments = "the same pair of random variables measured under different conditions"; an invariant predictor is "simultaneously optimal for all environments". [paper](https://arxiv.org/abs/1907.02893)
-- **Causal inference by using invariant prediction** (Peters, Bühlmann, Meinshausen, JRSS-B 2016) — environments as uncontrolled interventions; "interventions on Y are not allowed". [paper](https://arxiv.org/abs/1501.01332)
-- **Toward Causal Representation Learning** (Schölkopf et al., Proc. IEEE 2021) — distributions as products of mechanisms; environment shift = sparse mechanism shift. [paper](https://arxiv.org/abs/2102.11107)
-- **WILDS** (ICML 2021) — one named shift axis per dataset; reports worst-group, not mean. [paper](https://arxiv.org/abs/2012.07421)
-- **DomainBed** (ICLR 2021) — leave-one-domain-out; headline table is accuracy *by domain*. [paper](https://arxiv.org/abs/2007.01434)
-- **ImageNet-C** (ICLR 2019) — 15 corruption types × 5 severities = 75 cells; per-corruption CE first, mCE second, Relative CE alongside. [paper](https://arxiv.org/abs/1903.12261)
-- **FormatSpread** (ICLR 2024) — meaning-preserving prompt formats as a product of atomic choices; 24% of atomic changes shift accuracy ≥5 points; report min–max spread, not one format. [paper](https://arxiv.org/abs/2310.11324)
-- **PromptRobust** — character / word / sentence / semantic perturbation levels; Performance Drop Rate as a dataset × level matrix. [paper](https://arxiv.org/abs/2306.04528)
-- **dSprites** — 6 generative factors, "all possible combinations … present exactly once", 737,280 images: a literal full Cartesian product. [dataset](https://github.com/google-deepmind/dsprites-dataset)
-- **Challenging Common Assumptions in Disentanglement** (ICML 2019) — factor-grid datasets; variance decomposition over the Cartesian product of objective × regularization. [paper](https://arxiv.org/abs/1811.12359)
+---
 
-## 7. Configuration spaces and combinatorial testing
+## 📐 Part III · Environment Declaration and Comparison Protocol
 
-- **Software Fault Interactions and Implications for Software Testing** (Kuhn, Wallace, Gallo, IEEE TSE 2004) — the NIST interaction rule: 66–97% of failures need ≤2 conditions, none needed more than 6. [paper](https://csrc.nist.gov/pubs/journal/2004/06/software-fault-interactions-and-implications-for-s/final)
-- **Practical Combinatorial Testing** (NIST SP 800-142, 2010) — t-way covering arrays are "effectively exhaustive" for interaction faults. [report](https://csrc.nist.gov/pubs/sp/800/142/final)
-- **A survey of combinatorial testing** (Nie & Leung, ACM CSUR 2011). [doi](https://doi.org/10.1145/1883612.1883618)
-- **The AETG System** (Cohen et al., IEEE TSE 1997) — pairwise generation; test count grows logarithmically in the number of factors. [doi](https://doi.org/10.1109/32.605761)
-- **Performance-Influence Models for Highly Configurable Systems** (Siegmund et al., ESEC/FSE 2015) — score = base + per-option terms + sparse interaction terms. [paper](http://www.cs.cmu.edu/~ckaestne/pdf/fse15_influence.pdf)
-- **A Comparison of 10 Sampling Algorithms for Configurable Systems** (ICSE 2016). [paper](https://arxiv.org/abs/1602.02052)
-- **Test them all, is it worth it?** (JHipster, EMSE 2019) — all 26,000+ configurations built and tested; 35.7% fail; pairwise sampling finds most faults. [paper](https://arxiv.org/abs/1710.07980)
-- **Testing Configuration Changes in Context** (Ctest, OSDI 2020). [paper](https://www.usenix.org/conference/osdi20/presentation/sun)
-- **GitHub Actions matrix** — "A job will run for each possible combination of the variables"; the industry's de facto Cartesian product, capped at 256 jobs. [docs](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs)
+Coverage and disclosure findings from the survey's coding study will be added here when the analysis is complete. Until then, this section provides the two artifacts readers can already use.
 
-## 8. Environment-dependent bugs, flakiness and reproducibility
+<details>
+<summary><b>Environment declaration template</b> (six components)</summary>
 
-- **Cross-OS Portability Issues in Python Projects** (MSR 2026) — see §2. [paper](https://arxiv.org/html/2609.25531)
-- **An Empirical Study of Bugs in Test Code** (ICSME 2015) — "61% of environmental false alarms are platform-specific failures, caused by operating system differences". [paper](https://people.ece.ubc.ca/amesbah/resources/papers/icsme15.pdf)
-- **It's About Time** (MSR 2025, Distinguished Paper) — 151 date/time bugs; timezone mistakes are the largest root cause. [page](https://2025.msrconf.org/details/msr-2025-technical-papers/35/)
-- **Apple File System Guide, FAQ** — HFS+ stores NFD; APFS preserves the name but hashes the normalized form. The mechanism behind macOS filename bugs. [docs](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/FAQ/FAQ.html)
-- **An Empirical Analysis of Flaky Tests** (FSE 2014) — "almost all flaky tests (96%) are independent of the platform". [paper](https://mir.cs.illinois.edu/lamyaa/publications/fse14.pdf)
-- **An Empirical Study of Flaky Tests in Python** (ICST 2021) — 28% "infrastructure" flakiness; ~170 reruns for 95% confidence. [paper](https://arxiv.org/abs/2101.09077)
-- **A Survey of Flaky Tests** (ACM TOSEM 2022) — "Platform Dependency" ranges 0–4% to 34% depending on dataset. [paper](https://eprints.whiterose.ac.uk/id/eprint/230095/1/parry2021.pdf)
-- **Reproducible Builds** (Lamb & Zacchiroli, IEEE Software 2022) — bit-for-bit reproducibility; sources of non-reproducibility include timestamps, paths, locale, file order. [post](https://chris-lamb.co.uk/posts/reproducible-builds-increasing-the-integrity-of-software-supply-chains)
-- **Nix** (LISA 2004) — environments as pure functions of hashed inputs. [paper](https://www.usenix.org/conference/lisa-04/nix-safe-and-policy-free-system-software-deployment)
-- **Reproducibility of Build Environments through Space and Time** (ICSE 2024 NIER) — 99.94% of ~14,000 packages rebuild from a six-year-old Nixpkgs revision. [paper](https://arxiv.org/abs/2402.00424)
-- **Learning from, Understanding, and Supporting DevOps Artifacts for Docker** (ICSE 2020) — ~178 K Dockerfiles; ordinary repos violate pinning rules 5× more than the expert set. [paper](https://pages.cs.wisc.edu/~jjhenkel/papers/icse20-docker.pdf)
+Fill one declaration per environment version and configuration. Every value needs a source (paper section, or code path and commit). Use `unspecified` when the material does not say, and `n/a` only when the field has no meaning for the object; absence in code is `unspecified`, not `none`. Record the model, harness and budget separately — they are not part of the environment.
 
-## 9. Design of experiments and sensitivity analysis
+```yaml
+object:            # environment family / version / configuration
+sources:           # papers, code (commit), docs consulted
+filled_by:         # authors or third party
 
-- **Fisher, The Design of Experiments** (1935) — factorial designs estimate main effects and interactions together; one-factor-at-a-time cannot see interactions.
-- **Box, Hunter & Hunter, Statistics for Experimenters** (2nd ed., 2005) — fractional factorial and screening designs.
-- **Morris, Factorial Sampling Plans for Preliminary Computational Experiments** (Technometrics 1991) — elementary effects: per factor, a mean (influence) and a standard deviation (nonlinearity or interaction). The formal name for "directional derivative per axis".
-- **Sobol', Global sensitivity indices** (2001) — variance decomposition into first-order and interaction indices.
-- **Saltelli & Annoni, How to avoid a perfunctory sensitivity analysis** (2010) — OAT samples lie inside the inscribed hypersphere; volume ratio ~0.52 at k = 3 and vanishing as k grows. [paper](https://www.nusap.net/spe/Saltelli_and_Annoni_2010.pdf)
+runtime:
+  backend:         # function call / process / container / microVM / full VM / emulator
+  lifecycle:       # reset, snapshot, restore, fork; stateless / ephemeral / persistent
+  platform:        # arch, OS and version, file-system semantics
+  software:        # language runtimes, dependencies, shell, image digest or tag
+  context:         # encoding, locale, time zone, clock, run-as identity
+  boundary:        # network policy, permissions, mounts, devices, resource quotas
+interface:
+  observations:    # channels offered (terminal, screenshot, a11y tree, DOM, API returns)
+  actions:         # action space and granularity
+  contract:        # return formats, error semantics, sync / async
+  display_input:   # resolution, scaling, UI language, input method
+state:
+  initial:         # initial state and how it is sampled
+  residue:         # leftover files, processes, caches across tasks
+  external_data:   # data versions and snapshots
+  persistence:     # across calls / episodes / sessions
+dynamics:
+  transitions:     # rules, side effects, reversibility
+  randomness:      # controlled seeds vs uncontrolled sources
+  time_events:     # time advance, async events
+  services:        # external services: frozen / live / simulated
+  actors:          # users and other agents: none / simulated (persona) / human
+task:
+  goal:            # goal, constraints, termination
+  source:          # real / programmatic / model-generated
+  distribution:    # domains, difficulty, horizon
+verification:
+  form:            # tests / rules / rubric / state check / model judge / human
+  signal:          # binary / scalar / multi-dimensional; visibility to the agent
+  checks:          # reference solution, no-op, hidden tests, audit
 
-## 10. Environment coordinate space (proposal)
+agent_side:        # recorded separately: model, harness, budget
+repeat_policy:     # number of runs per configuration
+```
 
-Our own attempt at the missing definition. An environment is everything outside the policy under test that can change the correct solution. It is decomposed in four levels — **layer → dimension → sub-dimension → value** — into **7 layers, 26 dimensions and 53 sub-dimensions** (43 core, 10 candidate). Layers are assigned by three questions taken from independent prior layerings (Apptainer build/runtime, 12-factor build/release/run, OCI runtime spec, POSIX, POMDP, Sutton & Barto): *who can change it*, *what must be rebuilt to change it*, and *is it fixed before the agent's first action or changed afterwards*. The layers are platform (E1), system (E2), software stack (E3), execution context (E4, how the same action is interpreted), boundary (E5, which actions are feasible; values may differ across setup / agent / verifier stages), state (E6, changed by the agent's actions, by time and by other actors) and interface (E7, GUI tasks only). A sub-dimension is core only if at least one first-hand record shows the baseline solution failing under a value *and* the correct solution there being structurally different, not merely cheaper. Harness components, graders and budgets are not environment; cost-only knobs are listed as exclusions, with a threshold exception.
+</details>
 
-- [Environment Card template (v0.1)](docs/environment-card.md) and [JSON schema](docs/environment-card.schema.json) — a one-page declaration: coordinates plus a pin list, each value with its source. Still keyed to the previous 22 factors; to be re-keyed to the 53 sub-dimensions.
-- [Six filled cards](docs/environment-cards-2026-09.md) — SWE-bench, Terminal-Bench, OSWorld, WebArena, τ-bench, DSec, filled from papers and official code. `toolkit`, `compute-cap` and `locale` are unstated by all six; every pin list is tag-based, none uses a digest; many coordinates exist only in code, never in the paper.
-- [Validity checks](docs/validity-coverage.md) (run on the previous 22-factor version) — coverage (134 documented failure categories, hit rate 0.83), [admission cases](docs/validity-admission-cases.md) (52 non-baseline values: 45 strong, 6 weak, 1 none; 7 demoted to candidate), and [reliability](docs/validity-reliability.md) (two independent fillers, 132 cells, value-level agreement 0.87, κ 0.77).
-- [Environment dimensions (draft v1, Chinese)](docs/environment-axes.md) — the full 7-layer table: every sub-dimension with values, admission status, the platform parameters that set it, and first-hand evidence; cross-cutting attributes (stage, owner, probe); the exclusion list; DSec described in these dimensions; mapping from the previous 22-factor table (v0.2).
+<details>
+<summary><b>Comparison protocol</b> (default procedure and when to deviate)</summary>
 
-## Literature library (500 papers)
+1. **Pin everything else.** Hold all other components at a declared configuration (image digest, data snapshot, verifier version).
+2. **Measure the noise floor.** Repeat runs within one configuration before attributing any difference to an environment change.
+3. **Screen main effects.** Change one condition at a time from the base configuration (star / Morris-style screening).
+4. **Explore combinations.** Use a constrained 2-way covering array over feasible configurations to surface pairwise failures; covering arrays find combinations but do not by themselves estimate interaction effects.
+5. **Report per condition.** Success rate, effect size, outcome flips, time and cost, failure signatures and uncertainty — per condition, not as a single aggregate score.
 
-[literature/](literature/) holds an independently maintained bibliographic library of 500 deduplicated papers and preprints across Environment (200), Harness (170) and Agent (130), each opened at its original landing page with the page evidence saved under `literature/evidence/`. It ships as a [classified list](literature/500篇分类文献.md), [CSV](literature/论文库.csv), [BibTeX](literature/论文库.bib) and [JSONL](literature/论文库.jsonl), with a verified reserve of 239 further works and a pending/excluded log. Verification level: bibliographic metadata and abstract page only; full-text coding of environment factors is not done. Engineering documents and industry material are listed separately and not counted.
+Deviate when conditions are numeric (use sensitivity analysis), when interactions must be estimated (use a factorial design with stated identifiability assumptions), or when the budget allows only a tiered subset.
 
-## Contributing
+</details>
 
-Add an entry only if you opened the source. Give the venue and year as the source states them, quote numbers rather than paraphrasing them, and say what the work fixes, varies, or defines about the environment. Entries that merely mention "a sandbox" without saying what is in it are out of scope.
+### Case studies
+_To be added: cross-platform attribution, verifier audits, and run-to-run variation._
+
+---
+
+## 💻 Infrastructure and Tools
+
+| Name | Org | Type | What it provides | Links |
+|---|---|---|---|---|
+| DSec | DeepSeek | sandbox platform | Unified SDK over FnCall / container / microVM / full-VM backends with layered, independently versioned environment images | [paper](https://arxiv.org/abs/2609.22978) |
+
+Types: interface standard · environment hub · sandbox platform · training framework.
+
+---
+
+## 📚 Related Surveys and Resources
+
+- **Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application** (CASIA, 2026.06) — organizes environments by an engineering lifecycle (design → creation → evaluation → application), with symbolic vs. neural synthesis and three environment-evolution paradigms. [paper](https://arxiv.org/abs/2606.12191)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome via issues or pull requests. Please check the original source before submitting; numbers should be quoted from the paper with a section, table or figure reference.
+
+- **Add a paper** — title with link, date (YYYY.MM), venue, the component(s) it contributes to, one sentence per component, domain tags, code link.
+- **Add an effect** — the changed condition, the component, the outcome, the finding with its original numbers, the evidence type, and where it appears in the source.
+- **Correct an entry** — the row, the proposed change, and the source supporting it.
+
+Entries that could not be checked against the original source are marked ⚠ until verified.
+
+## 📖 Citation
+
+The survey is in preparation. A BibTeX entry will be added here when it is released.
 
 ## License
 
-Apache 2.0. See [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE).
