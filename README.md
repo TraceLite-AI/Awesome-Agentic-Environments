@@ -55,10 +55,10 @@ This repository accompanies the survey ***Environments for LLM Agents: A Survey 
 
 ---
 
-**Entry format.** `(Venue'YY) Title [[Paper]] [[Code]]` followed by icons.
+**Entry format.** `(Venue'YY) Title [[Paper]] [[Code]]` followed by badges.
 
-- **Domain** — 💻 code and SWE · 🌐 web and search · 🖥️ GUI and computer use · 🔧 tools, APIs and simulated users · 🎮 games and puzzles · 🔬 science and ML research · 🤖 embodied and world models · 👥 multi-agent and social
-- **Type** — 📏 benchmark · 🏋️ trainable (reset / step interface) · 🏭 foundation-model report · 🧰 infrastructure · ⚠️ not yet verified against the source
+- **Domain** — ![Code](https://img.shields.io/badge/%F0%9F%92%BB%20Code-2563eb?style=flat-square) ![Web](https://img.shields.io/badge/%F0%9F%8C%90%20Web-2563eb?style=flat-square) ![GUI](https://img.shields.io/badge/%F0%9F%AA%9F%20GUI-2563eb?style=flat-square) ![Tools](https://img.shields.io/badge/%F0%9F%94%A7%20Tools-2563eb?style=flat-square) ![Games](https://img.shields.io/badge/%F0%9F%8E%AE%20Games-2563eb?style=flat-square) ![Science](https://img.shields.io/badge/%F0%9F%94%AC%20Science-2563eb?style=flat-square) ![Embodied](https://img.shields.io/badge/%F0%9F%A4%96%20Embodied-2563eb?style=flat-square) ![Multi-Agent](https://img.shields.io/badge/%F0%9F%91%A5%20Multi--Agent-2563eb?style=flat-square)
+- **Type** — ![Benchmark](https://img.shields.io/badge/%F0%9F%93%8F%20Benchmark-7c3aed?style=flat-square) ![Trainable](https://img.shields.io/badge/%F0%9F%94%81%20Trainable-059669?style=flat-square) ![FM Report](https://img.shields.io/badge/%F0%9F%8F%AD%20FM%20Report-d97706?style=flat-square) ![Infra](https://img.shields.io/badge/%F0%9F%A7%B0%20Infra-475569?style=flat-square) · ![Unverified](https://img.shields.io/badge/%E2%9D%93%20Unverified-dc2626?style=flat-square) not yet checked against the source
 
 ---
 
@@ -70,19 +70,19 @@ A work is listed under every component it contributes to.
 
 *Execution backend and isolation · lifecycle (create / reset / snapshot / restore / fork) · platform and software configuration · execution boundary (network, identity, permissions) · concurrency · image building and maintenance.*
 
-- (arXiv'26) DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale [[Paper]](https://arxiv.org/abs/2609.22978) 💻 🖥️ 🧰
+- (arXiv'26) DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale [[Paper]](https://arxiv.org/abs/2609.22978) ![Code](https://img.shields.io/badge/%F0%9F%92%BB%20Code-2563eb?style=flat-square) ![GUI](https://img.shields.io/badge/%F0%9F%AA%9F%20GUI-2563eb?style=flat-square) ![Infra](https://img.shields.io/badge/%F0%9F%A7%B0%20Infra-475569?style=flat-square)
 
 ### 2 Interface
 
 *Observation space and visibility · action space and granularity · interaction contract (arguments, return formats, error semantics, sync / async) · display and input configuration · protocols and adapters.*
 
-- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) 🖥️ 📏 🏋️
+- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) ![GUI](https://img.shields.io/badge/%F0%9F%AA%9F%20GUI-2563eb?style=flat-square) ![Benchmark](https://img.shields.io/badge/%F0%9F%93%8F%20Benchmark-7c3aed?style=flat-square) ![Trainable](https://img.shields.io/badge/%F0%9F%94%81%20Trainable-059669?style=flat-square)
 
 ### 3 State
 
 *State objects and representation · true state vs. observable projection · initial state and its distribution · residue and contamination · external data and snapshots · persistence scope.*
 
-- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) 🖥️ 📏 🏋️
+- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) ![GUI](https://img.shields.io/badge/%F0%9F%AA%9F%20GUI-2563eb?style=flat-square) ![Benchmark](https://img.shields.io/badge/%F0%9F%93%8F%20Benchmark-7c3aed?style=flat-square) ![Trainable](https://img.shields.io/badge/%F0%9F%94%81%20Trainable-059669?style=flat-square)
 
 ### 4 Dynamics
 
@@ -94,19 +94,19 @@ _Entries being migrated._
 
 #### Actors
 
-- (arXiv'25) τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment [[Paper]](https://arxiv.org/abs/2506.07982) [[Code]](https://github.com/sierra-research/tau2-bench) 🔧 📏
+- (arXiv'25) τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment [[Paper]](https://arxiv.org/abs/2506.07982) [[Code]](https://github.com/sierra-research/tau2-bench) ![Tools](https://img.shields.io/badge/%F0%9F%94%A7%20Tools-2563eb?style=flat-square) ![Benchmark](https://img.shields.io/badge/%F0%9F%93%8F%20Benchmark-7c3aed?style=flat-square)
 
 ### 5 Task
 
 *Goal, inputs and constraints · structure, dependencies and horizon · task distribution and difficulty · task source (real / programmatic / model-generated) · quality control.*
 
-- (arXiv'26) GLM-5: from Vibe Coding to Agentic Engineering [[Paper]](https://arxiv.org/abs/2602.15763) [[Code]](https://github.com/zai-org/GLM-5) 💻 🏭
+- (arXiv'26) GLM-5: from Vibe Coding to Agentic Engineering [[Paper]](https://arxiv.org/abs/2602.15763) [[Code]](https://github.com/zai-org/GLM-5) ![Code](https://img.shields.io/badge/%F0%9F%92%BB%20Code-2563eb?style=flat-square) ![FM Report](https://img.shields.io/badge/%F0%9F%8F%AD%20FM%20Report-d97706?style=flat-square)
 
 ### 6 Verification
 
 *Judged object and timing · verifier form (tests, rules, rubrics, state checks, model judges, humans) · signal form and use · reliability checks · exploit resistance and audit.*
 
-- (arXiv'26) GLM-5: from Vibe Coding to Agentic Engineering [[Paper]](https://arxiv.org/abs/2602.15763) [[Code]](https://github.com/zai-org/GLM-5) 💻 🏭
+- (arXiv'26) GLM-5: from Vibe Coding to Agentic Engineering [[Paper]](https://arxiv.org/abs/2602.15763) [[Code]](https://github.com/zai-org/GLM-5) ![Code](https://img.shields.io/badge/%F0%9F%92%BB%20Code-2563eb?style=flat-square) ![FM Report](https://img.shields.io/badge/%F0%9F%8F%AD%20FM%20Report-d97706?style=flat-square)
 
 ### 7 Lifecycle: synthesis, evolution, and delivery
 
@@ -138,11 +138,11 @@ _Entries being migrated._
 
 ### GUI and computer use
 
-- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) 🖥️ 📏 🏋️
+- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) ![GUI](https://img.shields.io/badge/%F0%9F%AA%9F%20GUI-2563eb?style=flat-square) ![Benchmark](https://img.shields.io/badge/%F0%9F%93%8F%20Benchmark-7c3aed?style=flat-square) ![Trainable](https://img.shields.io/badge/%F0%9F%94%81%20Trainable-059669?style=flat-square)
 
 ### Tools, APIs and simulated users
 
-- (arXiv'25) τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment [[Paper]](https://arxiv.org/abs/2506.07982) [[Code]](https://github.com/sierra-research/tau2-bench) 🔧 📏
+- (arXiv'25) τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment [[Paper]](https://arxiv.org/abs/2506.07982) [[Code]](https://github.com/sierra-research/tau2-bench) ![Tools](https://img.shields.io/badge/%F0%9F%94%A7%20Tools-2563eb?style=flat-square) ![Benchmark](https://img.shields.io/badge/%F0%9F%93%8F%20Benchmark-7c3aed?style=flat-square)
 
 ### Games and puzzles
 
@@ -260,7 +260,7 @@ _Entries being migrated._
 
 ### Sandbox platforms
 
-- (arXiv'26) DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale [[Paper]](https://arxiv.org/abs/2609.22978) 💻 🖥️ 🧰
+- (arXiv'26) DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale [[Paper]](https://arxiv.org/abs/2609.22978) ![Code](https://img.shields.io/badge/%F0%9F%92%BB%20Code-2563eb?style=flat-square) ![GUI](https://img.shields.io/badge/%F0%9F%AA%9F%20GUI-2563eb?style=flat-square) ![Infra](https://img.shields.io/badge/%F0%9F%A7%B0%20Infra-475569?style=flat-square)
 
 ### Training frameworks
 
@@ -278,11 +278,11 @@ _Entries being migrated._
 
 Contributions are welcome via issues or pull requests. Please check the original source before submitting.
 
-- **Add a paper** — one line in the entry format above, under each component it contributes to, with domain and type icons.
+- **Add a paper** — one line in the entry format above, under each component it contributes to, with domain and type badges.
 - **Add an effect** — the changed condition, the component, the outcome, the finding with its original numbers, the evidence type, and where it appears in the source.
 - **Correct an entry** — the line, the proposed change, and the source supporting it.
 
-Entries that could not be checked against the original source carry ⚠️ until verified.
+Entries that could not be checked against the original source carry the ![Unverified](https://img.shields.io/badge/%E2%9D%93%20Unverified-dc2626?style=flat-square) badge until verified.
 
 ## 📖 Citation
 
