@@ -14,7 +14,7 @@ This repository accompanies the survey ***Environments for LLM Agents: A Survey 
 
 ## 🔥 News
 
-- **[2026-10]** Repository restructured around the six-component framework (Runtime → Interface → State → Dynamics → Task → Verification). Entries are being migrated into the new tables.
+- **[2026-10]** Repository restructured around the six-component framework (Runtime → Interface → State → Dynamics → Task → Verification). Entries are being migrated into the new lists.
 
 ## Overview
 
@@ -37,7 +37,7 @@ This repository accompanies the survey ***Environments for LLM Agents: A Survey 
 
 **How to read this list.**
 
-- *Looking for designs and implementations?* Start from [Part I](#-part-i--papers-by-component), organized by component, and the [benchmark tables](#-benchmarks-and-trainable-environments) organized by domain.
+- *Looking for designs and implementations?* Start from [Part I](#-part-i--papers-by-component), organized by component, and the [benchmark lists](#-benchmarks-and-trainable-environments) organized by domain.
 - *Want to know which environment differences actually change results?* Go to [Part II](#-part-ii--what-environment-differences-change).
 - *Building or reporting an environment?* Use the declaration template and comparison protocol in [Part III](#-part-iii--environment-declaration-and-comparison-protocol).
 
@@ -55,41 +55,38 @@ This repository accompanies the survey ***Environments for LLM Agents: A Survey 
 
 ---
 
+**Entry format.** `(Venue'YY) Title [[Paper]] [[Code]]` followed by icons.
+
+- **Domain** — 💻 code and SWE · 🌐 web and search · 🖥️ GUI and computer use · 🔧 tools, APIs and simulated users · 🎮 games and puzzles · 🔬 science and ML research · 🤖 embodied and world models · 👥 multi-agent and social
+- **Type** — 📏 benchmark · 🏋️ trainable (reset / step interface) · 🏭 foundation-model report · 🧰 infrastructure · ⚠️ not yet verified against the source
+
+---
+
 ## 📜 Part I · Papers by Component
 
-Each row states what the work contributes **to that component**. The same work can appear under several components with different contributions. Domain tags: `code` `web` `gui` `tool` `game` `science` `embodied` `multi-agent`.
+A work is listed under every component it contributes to.
 
 ### 1 Runtime
 
-The execution infrastructure that hosts the environment: isolation, resources, and lifecycle management.
-*Sub-dimensions:* execution backend and isolation · lifecycle (create / reset / snapshot / restore / fork) · platform and software configuration · execution boundary (network, identity, permissions) · concurrency and service quality · image building and maintenance.
+*Execution backend and isolation · lifecycle (create / reset / snapshot / restore / fork) · platform and software configuration · execution boundary (network, identity, permissions) · concurrency · image building and maintenance.*
 
-| Paper | Date | Venue | Contribution in this component | Domain | Links |
-|---|---|---|---|---|---|
-| [DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale](https://arxiv.org/abs/2609.22978) | 2026.09 | arXiv | One SDK over four execution backends (FnCall, container, Firecracker microVM, full VM); environments composed from independently versioned base-image, workspace and toolkit layers; one ~160-node production unit serves ~3M sandboxes/day, >380K concurrent, >5,000 creations/s | `code` `gui` | [paper](https://arxiv.org/abs/2609.22978) |
+- (arXiv'26) DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale [[Paper]](https://arxiv.org/abs/2609.22978) 💻 🖥️ 🧰
 
 ### 2 Interface
 
-The observation and action contract the environment offers, and the protocols that expose it.
-*Sub-dimensions:* observation space and visibility · action space and granularity · interaction contract (arguments, return formats, error semantics, sync / async) · display and input configuration · protocols and adapters.
+*Observation space and visibility · action space and granularity · interaction contract (arguments, return formats, error semantics, sync / async) · display and input configuration · protocols and adapters.*
 
-| Paper | Date | Venue | Contribution in this component | Domain | Links |
-|---|---|---|---|---|---|
-| [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) | 2024.04 | NeurIPS 2024 D&B | Same tasks offered through four observation settings — screenshot, accessibility tree, screenshot + accessibility tree, Set-of-Mark — with mouse/keyboard actions on a real desktop | `gui` | [paper](https://arxiv.org/abs/2404.07972) · [project](https://os-world.github.io) |
+- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) 🖥️ 📏 🏋️
 
 ### 3 State
 
-The external state the agent acts on: entities, attributes and their current values.
-*Sub-dimensions:* state objects and representation · true state vs. observable projection · initial state and its distribution · residue and contamination · external data and snapshots · persistence scope (across calls, episodes, sessions).
+*State objects and representation · true state vs. observable projection · initial state and its distribution · residue and contamination · external data and snapshots · persistence scope.*
 
-| Paper | Date | Venue | Contribution in this component | Domain | Links |
-|---|---|---|---|---|---|
-| [OSWorld](https://arxiv.org/abs/2404.07972) | 2024.04 | NeurIPS 2024 D&B | Each task carries an initial-state setup configuration that simulates work in progress (files, open applications) on top of a VM snapshot | `gui` | [paper](https://arxiv.org/abs/2404.07972) · [project](https://os-world.github.io) |
+- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) 🖥️ 📏 🏋️
 
 ### 4 Dynamics
 
-How the environment's state changes in response to actions, time, external events, and other actors.
-*Sub-dimensions:* transition rules and side effects · determinism and stochasticity · time and concurrency · external service behavior · **actors**: users, partners, opponents, humans in the loop · implementation (real system, programmatic simulation, learned world model, hybrid).
+*Transition rules and side effects · determinism and stochasticity · time and concurrency · external service behavior · actors (users, partners, opponents, humans in the loop) · implementation (real system, programmatic simulation, learned world model, hybrid).*
 
 #### Passive dynamics
 
@@ -97,31 +94,23 @@ _Entries being migrated._
 
 #### Actors
 
-| Paper | Date | Venue | Contribution in this component | Domain | Links |
-|---|---|---|---|---|---|
-| [τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982) | 2025.06 | arXiv | Dual-control telecom domain modeled as a Dec-POMDP: both agent and simulated user act on a shared world through tools; the user simulator's behavior is constrained by tools and observable state | `tool` | [paper](https://arxiv.org/abs/2506.07982) · [code](https://github.com/sierra-research/tau2-bench) |
+- (arXiv'25) τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment [[Paper]](https://arxiv.org/abs/2506.07982) [[Code]](https://github.com/sierra-research/tau2-bench) 🔧 📏
 
 ### 5 Task
 
-What the agent is asked to achieve, and where tasks come from.
-*Sub-dimensions:* goal, inputs and constraints · structure, dependencies and horizon · task distribution and difficulty · task source (real / programmatic / model-generated) · quality control (solvability, contamination, coverage).
+*Goal, inputs and constraints · structure, dependencies and horizon · task distribution and difficulty · task source (real / programmatic / model-generated) · quality control.*
 
-| Paper | Date | Venue | Contribution in this component | Domain | Links |
-|---|---|---|---|---|---|
-| [GLM-5: from Vibe Coding to Agentic Engineering](https://arxiv.org/abs/2602.15763) | 2026.02 | arXiv | Terminal tasks synthesized from seed tasks and from code-relevant web pages; a construction agent instantiates drafts in Harbor format and a refine agent iterates against rubrics (§4.2.2) | `code` | [paper](https://arxiv.org/abs/2602.15763) · [code](https://github.com/zai-org/GLM-5) |
+- (arXiv'26) GLM-5: from Vibe Coding to Agentic Engineering [[Paper]](https://arxiv.org/abs/2602.15763) [[Code]](https://github.com/zai-org/GLM-5) 💻 🏭
 
 ### 6 Verification
 
-How outcomes are judged and turned into evaluation signals.
-*Sub-dimensions:* judged object and timing · verifier form (tests, rules, rubrics, state checks, model judges, humans) · signal form and use · reliability checks (reference solution, no-op, hidden tests, false positives / negatives) · exploit resistance and audit.
+*Judged object and timing · verifier form (tests, rules, rubrics, state checks, model judges, humans) · signal form and use · reliability checks · exploit resistance and audit.*
 
-| Paper | Date | Venue | Contribution in this component | Domain | Links |
-|---|---|---|---|---|---|
-| [GLM-5](https://arxiv.org/abs/2602.15763) | 2026.02 | arXiv | Fail-to-pass and pass-to-pass tests extracted from real issue–PR pairs via LLM-generated, language-aware log parsers; terminal tasks refined so tests stay consistent with specifications and robust to shortcuts (§4.2.1–4.2.2) | `code` | [paper](https://arxiv.org/abs/2602.15763) · [code](https://github.com/zai-org/GLM-5) |
+- (arXiv'26) GLM-5: from Vibe Coding to Agentic Engineering [[Paper]](https://arxiv.org/abs/2602.15763) [[Code]](https://github.com/zai-org/GLM-5) 💻 🏭
 
 ### 7 Lifecycle: synthesis, evolution, and delivery
 
-Cross-component work on building, checking, evolving and shipping environments: joint synthesis of tasks, states and verifiers; difficulty- or weakness-driven evolution; packaging, versioning and hubs.
+*Joint synthesis of tasks, states and verifiers · difficulty- or weakness-driven evolution · packaging, versioning and hubs.*
 
 _Entries being migrated._
 
@@ -129,60 +118,60 @@ _Entries being migrated._
 
 ## 🏭 Environment Recipes in Foundation-Model Reports
 
-What technical reports disclose about their training environments. Scale is quoted as reported, **with its unit** — environments, tasks, images, concurrent sandboxes and cumulative sandboxes are not comparable to one another.
+Scale is quoted as reported, **with its unit**. Environments, tasks, images, concurrent sandboxes and cumulative sandboxes are not comparable to one another.
 
-| Model / Report | Org | Date | Disclosed scale (unit) | Environment types and key practices | Source |
-|---|---|---|---|---|---|
-| [GLM-5](https://arxiv.org/abs/2602.15763) | Zhipu AI | 2026.02 | >10K verifiable SWE environments (thousands of repos, 9 languages) · thousands of terminal environments (Docker build accuracy >90%) · >2M web pages (search corpus) | SWE environments built from real issue–PR pairs with a RepoLaunch-based setup pipeline; terminal tasks synthesized in Harbor format; multi-hop search QA from a web knowledge graph; slide-generation environment with rendering-based verification | §4.2 |
+| Model | Org | Date | Disclosed environment scale (unit) | Links |
+|---|---|---|---|---|
+| GLM-5 | Zhipu AI | 2026.02 | >10K verifiable SWE environments · thousands of terminal environments · >2M web pages (search corpus) | [[Paper]](https://arxiv.org/abs/2602.15763) §4.2 · [[Code]](https://github.com/zai-org/GLM-5) |
 
 ---
 
 ## 📊 Benchmarks and Trainable Environments
 
-Grouped by domain. *Trainable* means the work exposes an interface for interactive learning (e.g. reset / step), not only offline scoring.
-
 ### Code and software engineering
+
 _Entries being migrated._
 
 ### Web and search
+
 _Entries being migrated._
 
 ### GUI and computer use
 
-| Benchmark | Date | Venue | Runtime | Interface | Verification | Trainable | Links |
-|---|---|---|---|---|---|---|---|
-| [OSWorld](https://arxiv.org/abs/2404.07972) | 2024.04 | NeurIPS 2024 D&B | Real VMs (Ubuntu, Windows, macOS) with snapshot reset; 369 tasks + 43 Windows tasks for analysis | screenshot / accessibility tree / Set-of-Mark; mouse and keyboard | execution-based scripts per task (134 evaluation functions) | yes | [paper](https://arxiv.org/abs/2404.07972) · [project](https://os-world.github.io) |
+- (NeurIPS'24) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[Paper]](https://arxiv.org/abs/2404.07972) [[Code]](https://github.com/xlang-ai/OSWorld) 🖥️ 📏 🏋️
 
 ### Tools, APIs and simulated users
 
-| Benchmark | Date | Venue | Runtime | Interface | Verification | Trainable | Links |
-|---|---|---|---|---|---|---|---|
-| [τ²-Bench](https://arxiv.org/abs/2506.07982) | 2025.06 | arXiv | simulated domains with databases and tools (airline, retail, telecom) | tool calls for both agent and user; conversation | programmatically generated verifiable tasks; pass^k | — | [paper](https://arxiv.org/abs/2506.07982) · [code](https://github.com/sierra-research/tau2-bench) |
+- (arXiv'25) τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment [[Paper]](https://arxiv.org/abs/2506.07982) [[Code]](https://github.com/sierra-research/tau2-bench) 🔧 📏
 
 ### Games and puzzles
+
 _Entries being migrated._
 
 ### Science and ML research
+
 _Entries being migrated._
 
 ### Embodied and world models
+
 _Entries being migrated._
 
 ### Multi-agent and social
+
 _Entries being migrated._
 
 ---
 
 ## 🧪 Part II · What Environment Differences Change
 
-Findings where an environment condition was changed and an outcome was measured. Each row records **which component changed**, **which outcome it affected**, and the **finding as reported**. Outcomes: feasible strategies · difficulty and cost · verification result · capability attribution · learning and transfer.
-
-Evidence types: **controlled** (same tasks, one condition varied) · **observational** (conditions differ but were not manipulated) · **adjacent-field** (non-agent evidence, e.g. software engineering) · **claim-only** (stated without a measured comparison). A design that merely *supports* a condition is not listed here.
+Findings where an environment condition was changed and an outcome was measured. A design that merely *supports* a condition is not listed here.
+Outcomes: feasible strategies · difficulty and cost · verification result · capability attribution · learning and transfer.
+Evidence: **controlled** (same tasks, one condition varied) · **observational** · **adjacent-field** (non-agent evidence) · **claim-only**.
 
 | Changed condition | Component | Outcome | Finding (as reported) | Evidence | Source |
 |---|---|---|---|---|---|
-| Ubuntu → Windows, 43 adapted tasks, GPT-4V screenshot-only | Runtime · OS | difficulty | Success rate 4.88% → 2.55%; per-task correlation 0.7, which the authors read as good transfer across OSes | controlled (adapted tasks, one model) | [OSWorld](https://arxiv.org/abs/2404.07972) §5.3 |
-| No-user → dual-control (telecom domain) | Dynamics · actors | difficulty | pass^1 drops by 18% (gpt-4.1) and 25% (o4-mini) when the agent must guide a user instead of acting alone | controlled ablation | [τ²-Bench](https://arxiv.org/abs/2506.07982) |
+| Ubuntu → Windows, 43 adapted tasks, GPT-4V screenshot-only | Runtime · OS | difficulty | Success rate 4.88% → 2.55%; per-task correlation 0.7, read by the authors as good cross-OS transfer | controlled | [OSWorld](https://arxiv.org/abs/2404.07972) §5.3 |
+| No-user → dual-control, telecom domain | Dynamics · actors | difficulty | pass^1 drops by 18% (gpt-4.1) and 25% (o4-mini) | controlled | [τ²-Bench](https://arxiv.org/abs/2506.07982) |
 
 Sub-dimensions with no controlled evidence found so far will be listed explicitly rather than omitted.
 
@@ -190,7 +179,7 @@ Sub-dimensions with no controlled evidence found so far will be listed explicitl
 
 ## 📐 Part III · Environment Declaration and Comparison Protocol
 
-Coverage and disclosure findings from the survey's coding study will be added here when the analysis is complete. Until then, this section provides the two artifacts readers can already use.
+Coverage and disclosure findings from the survey's coding study will be added here when the analysis is complete.
 
 <details>
 <summary><b>Environment declaration template</b> (six components)</summary>
@@ -254,35 +243,46 @@ Deviate when conditions are numeric (use sensitivity analysis), when interaction
 </details>
 
 ### Case studies
+
 _To be added: cross-platform attribution, verifier audits, and run-to-run variation._
 
 ---
 
 ## 💻 Infrastructure and Tools
 
-| Name | Org | Type | What it provides | Links |
-|---|---|---|---|---|
-| DSec | DeepSeek | sandbox platform | Unified SDK over FnCall / container / microVM / full-VM backends with layered, independently versioned environment images | [paper](https://arxiv.org/abs/2609.22978) |
+### Interface standards and packaging
 
-Types: interface standard · environment hub · sandbox platform · training framework.
+_Entries being migrated._
+
+### Environment hubs
+
+_Entries being migrated._
+
+### Sandbox platforms
+
+- (arXiv'26) DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale [[Paper]](https://arxiv.org/abs/2609.22978) 💻 🖥️ 🧰
+
+### Training frameworks
+
+_Entries being migrated._
 
 ---
 
 ## 📚 Related Surveys and Resources
 
-- **Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application** (CASIA, 2026.06) — organizes environments by an engineering lifecycle (design → creation → evaluation → application), with symbolic vs. neural synthesis and three environment-evolution paradigms. [paper](https://arxiv.org/abs/2606.12191)
+- (arXiv'26) Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application [[Paper]](https://arxiv.org/abs/2606.12191)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome via issues or pull requests. Please check the original source before submitting; numbers should be quoted from the paper with a section, table or figure reference.
+Contributions are welcome via issues or pull requests. Please check the original source before submitting.
 
-- **Add a paper** — title with link, date (YYYY.MM), venue, the component(s) it contributes to, one sentence per component, domain tags, code link.
+- **Add a paper** — one line in the entry format above, under each component it contributes to, with domain and type icons.
 - **Add an effect** — the changed condition, the component, the outcome, the finding with its original numbers, the evidence type, and where it appears in the source.
-- **Correct an entry** — the row, the proposed change, and the source supporting it.
+- **Correct an entry** — the line, the proposed change, and the source supporting it.
 
-Entries that could not be checked against the original source are marked ⚠ until verified.
+Entries that could not be checked against the original source carry ⚠️ until verified.
 
 ## 📖 Citation
 
@@ -291,3 +291,7 @@ The survey is in preparation. A BibTeX entry will be added here when it is relea
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=TraceLite-AI/Awesome-Agentic-Environments&type=Date)](https://star-history.com/#TraceLite-AI/Awesome-Agentic-Environments&Date)
