@@ -151,6 +151,7 @@ The admission rule here runs the *opposite* way: a factor is admitted because th
 - **Nix** (LISA 2004) — environments as pure functions of hashed inputs. [paper](https://www.usenix.org/conference/lisa-04/nix-safe-and-policy-free-system-software-deployment)
 - **Reproducibility of Build Environments through Space and Time** (ICSE 2024 NIER) — 99.94% of ~14,000 packages rebuild from a six-year-old Nixpkgs revision. [paper](https://arxiv.org/abs/2402.00424)
 - **Learning from, Understanding, and Supporting DevOps Artifacts for Docker** (ICSE 2020) — ~178 K Dockerfiles; ordinary repos violate pinning rules 5× more than the expert set. [paper](https://pages.cs.wisc.edu/~jjhenkel/papers/icse20-docker.pdf)
+- **Reset audit of Gymnasium-API environments** (Best RL Environments, 2026) — fixes seed and saved actions, varies process and PYTHONHASHSEED: "Of 256 environments run on 8 November 2026, 255 replayed identically under the same seed and 1 did not"; "65 environments raised an assertion error when created, on a default install of the listed package versions, which resolved mujoco 4.0.0". Script and results.csv included. [page](https://bestrlenvironments.com/reset-audit/)
 
 ## 9. Design of experiments and sensitivity analysis
 
