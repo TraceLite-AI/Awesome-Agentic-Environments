@@ -46,6 +46,7 @@ What each benchmark fixes, what it declares, and whether the environment is ever
 | [TheAgentCompany](https://arxiv.org/abs/2412.14161) | 2024 | Docker, self-hosted GitLab/OwnCloud/Plane/RocketChat | — | self-hosted | terminal + browser | no | no |
 | [MacArena](https://arxiv.org/abs/2606.06560) | AIWILD @ ICML 2026 | UTM VM on Apple silicon | macOS | — | GUI | no | **same OSWorld task set Linux→macOS: −3.23 / −9.26 / −9.84 pp for three models** |
 | [macOSWorld](https://arxiv.org/abs/2506.04135) | 2025 | VM | macOS | — | GUI | **yes: 5 interface languages (Arabic −28.8% avg)** | no |
+| [TraceTrial-Bench](https://arxiv.org/abs/2610.32285) | 2026 | Docker; pinned harness images | — | — | native agent harness, traced | no (harness varied: 4 harnesses × 9 models, 95 tasks) | no |
 
 Also: [OSWorld 2.0](https://arxiv.org/abs/2606.29537), [MacAgentBench](https://arxiv.org/abs/2606.22557) (macOS-only, 676 tasks), [MMBench-GUI](https://arxiv.org/abs/2507.19478) (one protocol across six platforms).
 
